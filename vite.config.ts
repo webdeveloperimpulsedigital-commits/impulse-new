@@ -4,7 +4,7 @@ import tailwind from 'tailwindcss'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/impulse-new/',                 // keep your subfolder base
+  base: '/theimpusedigital.com/',                 // keep your subfolder base
   css: { postcss: { plugins: [tailwind()] } },
 
   // ✅ Ensure optional chaining & modern syntax are transpiled
