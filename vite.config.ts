@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   base: '/',                 // keep your subfolder base
   css: { postcss: { plugins: [tailwind()] } },
-
+ 
   // ✅ Ensure optional chaining & modern syntax are transpiled
   build: {
     target: 'es2018',                    // or 'es2017' for maximum safety
