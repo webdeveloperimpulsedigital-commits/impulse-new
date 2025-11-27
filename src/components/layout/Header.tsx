@@ -38,14 +38,13 @@ const DEFAULT_ITEMS: NavItem[] = [
     hasDropdown: true,
     dropdownItems: [
       { label: "Content Writing ", href: "/services/content-writing-services" },
-      { label: "Performance Marketing (PPC)", href: "/services/performance-marketing" },
       { label: "Social Media Marketing", href: "/services/social-media-marketing" },
       {
         label: "Search Engine Optimization",
         href: "/services/search-engine-optimization",
         hasSubDropdown: true,
         subItems: [
-          { label: "AI Seo" , href: "/services/search-engine-optimization/ai-seo-agency"},
+          // { label: "AI Seo" , href: "/services/search-engine-optimization/ai-seo-agency"},
           { label: "Enterprise SEO ", href: "/services/search-engine-optimization/enterprise-seo-services" },
           { label: "eCommerce SEO ", href: "/services/search-engine-optimization/ecommerce-seo-services" },
           { label: "B2B SEO", href: "/services/search-engine-optimization/b2b-seo-services" },
@@ -57,19 +56,11 @@ const DEFAULT_ITEMS: NavItem[] = [
       { label: "Employee Branding", href: "/services/employee-branding-agency" },
       // { label: "Corporate Communication", href: "/services/corporate-communication-agency" },
       { label: "Social Media Video Production", href: "/services/social-media-video-production" },
-      { label: " Agentic AI", href: "/services/agentic-ai"},
+      { label: "Performance Marketing (PPC)", href: "/services/performance-marketing" },
+      // { label: " Agentic AI", href: "/services/agentic-ai"},
     ],
   },
   { label: "Case Studies", href: "/casestudies",
-     hasDropdown: true,
-    dropdownItems: [
-      { label: "Shree Rubber Works ", href: "/casestudies/shree-rubber-works" },
-      { label: "Atrac", href: "/casestudies/atrac-engine-parts" },
-      { label: "Automag India", href: "/casestudies/automag-india" },
-      { label: "Amazone Employer Branding", href: "/casestudies/amazon-eb" },
-      { label: "Amazone Employee Value Proposition", href: "/casestudies/crafting-the-employer-value-proposition-for-amazon-india" },
-      { label: "Grasim Pulp and Fibre", href: "/casestudies/grasim-pulp-and-fibre" },
-    ]
   },
   { label: "Blog", href: "#" },
   // { label: "Resouces", href: "/resources"},

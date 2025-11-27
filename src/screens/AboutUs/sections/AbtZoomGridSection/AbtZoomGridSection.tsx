@@ -105,17 +105,17 @@ export const AbtZoomGridSection = (): JSX.Element => {
             <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between mb-4 md:mb-1">
               <div className="flex flex-col items-start mb-4 lg:mb-0">
                 <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-xl md:text-2xl lg:text-[34px] mb-5">
-                  Together
+                  Where
                 </h2>
                 <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] text-2xl md:text-3xl lg:text-[52px] lg:mb-5">
-                  We Create the Difference
+                  Ideas Take Shape, Projects Come Alive
                 </h3>
               </div>
             </div>
 
             <div className="mb-8 md:mb-16">
               <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-sm md:text-base lg:text-[26px] xl:text[26px] sm:text-[13px] lg:leading-[40px] lg:w-6xl xl:w-7xl">
-               At Impulse Digital, every idea is a team effort. From creative sparks to data-driven strategies, we collaborate, challenge, and cheer each other on to build brands that inspire. Because when great minds come together, difference isn’t just made - it’s created.
+               Impulse Digital transforms imagination into impact. From bold concepts to seamless execution, our team crafts projects that don’t just look good - they tell stories, spark engagement, and leave a lasting impression. Every image, video, and campaign is a testament to what happens when creativity meets strategy.
               </p>
             </div>
           </div>
@@ -124,7 +124,7 @@ export const AbtZoomGridSection = (): JSX.Element => {
             <div className="grid1" ref={gridRef}>
               {/* Row 1 */}
               <div className="tile" data-grid-item>
-                <img src="/12_Mastercard.jpg" alt="Project 1" />
+                <img src="/Career Page Images-14.png" alt="Project 1" />
               </div>
 
               {/* Center video tile */}
@@ -143,18 +143,18 @@ export const AbtZoomGridSection = (): JSX.Element => {
               </div>
 
               <div className="tile" data-grid-item>
-                <img src="/10_Dmart.jpg" alt="Project 3" />
+                <img src="/Career Page Images-15.png" alt="Project 3" />
               </div>
 
               {/* Row 2 */}
               <div className="tile" data-grid-item>
-                <img src="/11_Emech.jpg" alt="Project 4" />
+                <img src="/Career Page Images-07.png" alt="Project 4" />
               </div>
               <div className="tile" data-grid-item>
-                <img src="/12_HEM.jpg" alt="Project 5" />
+                <img src="/Career Page Images-03.png" alt="Project 5" />
               </div>
               <div className="tile" data-grid-item>
-                <img src="/09_Automag.jpg" alt="Project 6" />
+                <img src="/Career Page Images-06.png  " alt="Project 6" />
               </div>
             </div>
           </div>
@@ -255,19 +255,34 @@ export const AbtZoomGridSection = (): JSX.Element => {
         <div className="mobile-slider">
           {/* Slides: show a hint of the next one with 80% width cards */}
           <div className="mobile-slide">
-            <img src="/12_Mastercard.jpg" alt="Mastercard Campaign" />
+            <img src="/Career Page Images-14.png" alt="Mastercard Campaign" />
           </div>
           <div className="mobile-slide">
-            <img src="/10_Dmart.jpg" alt="DMart Campaign" />
+            <img src="/Career Page Images-15.png" alt="DMart Campaign" />
           </div>
           <div className="mobile-slide">
-            <img src="/11_Emech.jpg" alt="Emech Project" />
+            <img src="/Career Page Images-07.png" alt="Emech Project" />
           </div>
           <div className="mobile-slide">
-            <img src="/12_HEM.jpg" alt="HEM Initiative" />
+            <img src="/Career Page Images-03.png" alt="HEM Initiative" />
           </div>
           <div className="mobile-slide">
-            <img src="/09_Automag.jpg" alt="Automag Project" />
+            <img src="/Career Page Images-06.png" alt="Automag Project" />
+          </div>
+          <div className="mobile-slide">
+            <img src="/Career Page Images-08.png" alt="Automag Project" />
+          </div>
+          <div className="mobile-slide">
+            <img src="/Career Page Images-09.png" alt="Automag Project" />
+          </div>
+          <div className="mobile-slide">
+            <img src="/Career Page Images-03.png" alt="Automag Project" />
+          </div>
+          <div className="mobile-slide">
+            <img src="/Career Page Images-11.png" alt="Automag Project" />
+          </div>
+          <div className="mobile-slide">
+            <img src="/Career Page Images-12.png" alt="Automag Project" />
           </div>
         </div>
 

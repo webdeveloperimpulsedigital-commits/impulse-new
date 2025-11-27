@@ -10,7 +10,7 @@ const ServicesSection = () => {
     "Branding",
     "Performance Marketing",
     "Content Writing Services",
-    "Employer Branding11",
+    "Employer Branding",
     "SEO",
     "Website Development",
     "Branding",

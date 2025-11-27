@@ -155,7 +155,7 @@ const caseStudiesData = [
     tags: ["Product Design"],
     tall: true,
     corner: false,
-    link: "/case-study/amazon-employer-branding",
+    link: "/casestudies/amazon-eb",
   },
   {
     id: 2,
@@ -164,7 +164,7 @@ const caseStudiesData = [
     tags: ["Packaging"],
     tall: false,
     corner: true,
-    link: "/case-study/amazon-evp",
+    link: "/casestudies/crafting-the-employer-value-proposition-for-amazon-india",
   },
   {
     id: 3,
@@ -173,7 +173,7 @@ const caseStudiesData = [
     tags: ["Branding"],
     tall: true,
     corner: true,
-    link: "/case-study/grasim-pulp-fibre",
+    link: "/casestudies/grasim-pulp-and-fibre",
   },
   {
     id: 4,
@@ -182,7 +182,7 @@ const caseStudiesData = [
     tags: ["Creative"],
     tall: false,
     corner: false,
-    link: "/case-study/shree-rubber-works",
+    link: "/casestudies/shree-rubber-works",
   },
   {
     id: 5,
@@ -191,7 +191,7 @@ const caseStudiesData = [
     tags: ["Branding"],
     tall: false,
     corner: false,
-    link: "/case-study/automag-india",
+    link: "/casestudies/automag-india",
   },
   {
     id: 6,
@@ -200,7 +200,7 @@ const caseStudiesData = [
     tags: ["Packaging"],
     tall: false,
     corner: false,
-    link: "/case-study/atrac-engineering",
+    link: "/casestudies/atrac-engine-parts",
   },
 ];
 

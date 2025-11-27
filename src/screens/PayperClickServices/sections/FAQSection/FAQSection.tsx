@@ -84,7 +84,7 @@ export const FAQSection: React.FC<{ items?: QA[] }> = ({ items = DEFAULT_QA }) =
           <div className="faq__cardInner">
             <div className="faq__bubble" aria-hidden>
               <center>
-                <img alt="Messages Icon" src="messages.png" />
+                <img alt="Messages Icon" src="/messages.png" />
               </center>
             </div>
 

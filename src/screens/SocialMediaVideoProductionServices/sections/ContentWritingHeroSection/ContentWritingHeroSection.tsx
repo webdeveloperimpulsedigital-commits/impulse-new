@@ -70,6 +70,8 @@ export const ContentWritingHeroSection = (): JSX.Element => {
             Home
           </NavLink>
           <span className="select-none">{">"}</span>
+          <span className="text-white">Services</span>
+          <span className="select-none">{">"}</span>
           <span className="text-white">Social Media Video Production</span>
         </nav>
       </div>

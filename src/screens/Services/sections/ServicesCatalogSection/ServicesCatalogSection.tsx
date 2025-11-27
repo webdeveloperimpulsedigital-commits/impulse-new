@@ -75,15 +75,15 @@ export const ServicesCatalogSection = (): JSX.Element => {
       image: "/servicepage-Employeer Branding.jpg",
       link: "/services/employee-branding-agency",
     },
-    {
-      id: "corporate",
-      title: "Corporate Communication",
-      description:
-        "Deliver impactful corporate messaging that strengthens your reputation and builds trust across stakeholders.",
-      features: ["Press Releases", "Internal Communication", "Crisis Communication", "Leadership Messaging"],
-      image: "/Corporate Communication.jpg",
-      link: "/services/corporate-communication-agency",
-    },
+    // {
+    //   id: "corporate",
+    //   title: "Corporate Communication",
+    //   description:
+    //     "Deliver impactful corporate messaging that strengthens your reputation and builds trust across stakeholders.",
+    //   features: ["Press Releases", "Internal Communication", "Crisis Communication", "Leadership Messaging"],
+    //   image: "/Corporate Communication.jpg",
+    //   link: "/services/corporate-communication-agency",
+    // },
     {
       id: "video",
       title: "Social Media Video Production",

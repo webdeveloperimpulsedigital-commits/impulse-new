@@ -70,6 +70,8 @@ export const AmazonEBCaseStudyHeroSection = (): JSX.Element => {
             Home
           </NavLink>
           <span className="select-none">{">"}</span>
+           <span className="text-white">Case Studies</span>
+            <span className="select-none">{">"}</span>
           <span className="text-white">Amazon Employer Branding</span>
         </nav>
       </div>

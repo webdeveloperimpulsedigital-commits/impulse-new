@@ -83,6 +83,8 @@ with strategic SEO
             Home
           </NavLink>
           <span className="select-none">{">"}</span><br></br>
+          <span className="text-white">Case Studies</span>
+            <span className="select-none">{">"}</span>
           <span className="text-white">Shree Rubber Works</span>
         </nav>
       </div>

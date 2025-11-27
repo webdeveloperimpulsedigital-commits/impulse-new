@@ -9,46 +9,57 @@ type Member = {
 
 export const TeamSection = (): JSX.Element => {
   const teamMembers: Member[] = [
+   
     {
-      name: "Adwait Joshi",
-      position: "Founder & Director",
-      image: "/adwait-sir.jpg",
+      name: "Augustin Michael",
+      position: "Bussiness Developer",
+      image: "/impulse-website/neha-verma.jpg",
     },
     {
-      name: "Abhishek Arekar",
-      position: "Director",
-      image: "/Abhishek Image.jpg",
+      name: "Shweta Kunthe",
+      position: "Tech",
+      image: "/impulse-website/creative-priya.jpg",
+    },
+  
+    {
+      name: "Mahendra Prajapati",
+      position: "SEO",
+      image: "/impulse-website/amit-patel.jpg",
+    },
+   
+     {
+      name: "Anjali Pande",
+      position: "Content",
+      image: "/impulse-website/rohit-sharma.jpg",
+    },
+     {
+      name: "Tanvi Mohare",
+      position: "Design",
+      image: "/impulse-website/rohit-sharma.jpg",
     },
     {
-      name: "Priya Sharma",
-      position: "Creative Strategist",
-      image: "/creative-priya.jpg",
+      name: "Stuti Mehta",
+      position: "Social Media",
+      image: "/impulse-website/rohit-sharma.jpg",
+    },
+     {
+      name: "Roshan Sayyed",
+      position: "Client Servicing",
+      image: "/impulse-website/rohit-sharma.jpg",
+    },
+     {
+      name: "Pooja Sawant",
+      position: "Accounts",
+      image: "/impulse-website/rohit-sharma.jpg",
     },
     {
-      name: "Amit Patel",
-      position: "Marketing Lead",
-      image: "/amit-patel.jpg",
+      name: "Shradha Chandra",
+      position: "HR",
+      image: "/impulse-website/sneha-gupta.jpg",
     },
-    {
-      name: "Sneha Gupta",
-      position: "Client Success Manager",
-      image: "/sneha-gupta.jpg",
-    },
-    {
-      name: "Rohit Sharma",
-      position: "Tech & Automation Lead",
-      image: "/rohit-sharma.jpg",
-    },
-    {
-      name: "Neha Verma",
-      position: "Content Specialist",
-      image: "/neha-verma.jpg",
-    },
-    {
-      name: "Karan Singh",
-      position: "Design Lead",
-      image: "/karan-singh.jpg",
-    },
+     
+    
+   
   ];
 
   return (
@@ -57,13 +68,13 @@ export const TeamSection = (): JSX.Element => {
         {/* Header */}
         <div className="text-left mb-12 lg:mb-16">
           <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-lg mb-2">
-            Our People
+            Meet the Minds
           </p>
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] text-3xl md:text-4xl lg:text-5xl mb-4">
-            Together, We Create the Difference
+            Behind Impulse
           </h2>
           <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-base lg:text-lg leading-relaxed">
-            At Impulse Digital, collaboration is our creative fuel. Every campaign, every story, and every success begins with the energy of our people — diverse thinkers, dreamers, and doers who believe that marketing is most powerful when it feels human. From strategy sessions that spark innovation to coffee-table ideas that turn into viral campaigns, our team thrives on curiosity, creativity, and connection.
+            At Impulse Digital, creativity thrives on collaboration. Every campaign, every story, and every idea comes alive because of our passionate team thinkers, doers, and dreamers who turn challenges into opportunities and concepts into experiences. Together, we build more than campaigns; we build impact.
           </p>
         </div>
 

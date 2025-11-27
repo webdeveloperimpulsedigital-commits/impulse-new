@@ -70,6 +70,8 @@ export const SocialMediaMarketingHeroSection = (): JSX.Element => {
             Home
           </NavLink>
           <span className="select-none">{">"}</span>
+          <span className="text-white">Services</span>
+          <span className="select-none">{">"}</span>
           <span className="text-white">Search Engine Optimization</span>
         </nav>
       </div>
