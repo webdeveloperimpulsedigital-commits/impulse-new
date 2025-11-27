@@ -148,12 +148,12 @@ const css = `
 `;
 
 const caseStudiesData = [
-  { id: 1, title: "Mastercard Inc.", image: "/theimpulsedigital.com/14_mastercard.jpg", tags: ["Product Design"], tall: true, corner: false },
-  { id: 2, title: "Hindustan Unilever Limited", image: "/theimpulsedigital.com/16_Unilever.jpg", tags: ["Packaging"], tall: false, corner: true },
-  { id: 3, title: "Avenue Supermarts/DMart", image: "/theimpulsedigital.com/15_Dmart.jpg", tags: ["Branding"], tall: true, corner: true },
-  { id: 4, title: "Vendiman", image: "/theimpulsedigital.com/17_Vendiman.jpg", tags: ["Creative"], tall: false, corner: false },
-  { id: 5, title: "ElectroMech", image: "/theimpulsedigital.com/18_Emech.jpg", tags: ["Branding"], tall: false, corner: false },
-  { id: 6, title: "HEM Corporation", image: "/theimpulsedigital.com/19_HEM.jpg", tags: ["Packaging"], tall: false, corner: false }
+  { id: 1, title: "Mastercard Inc.", image: "/14_mastercard.jpg", tags: ["Product Design"], tall: true, corner: false },
+  { id: 2, title: "Hindustan Unilever Limited", image: "/16_Unilever.jpg", tags: ["Packaging"], tall: false, corner: true },
+  { id: 3, title: "Avenue Supermarts/DMart", image: "/15_Dmart.jpg", tags: ["Branding"], tall: true, corner: true },
+  { id: 4, title: "Vendiman", image: "/17_Vendiman.jpg", tags: ["Creative"], tall: false, corner: false },
+  { id: 5, title: "ElectroMech", image: "/18_Emech.jpg", tags: ["Branding"], tall: false, corner: false },
+  { id: 6, title: "HEM Corporation", image: "/19_HEM.jpg", tags: ["Packaging"], tall: false, corner: false }
 ];
 
 export const CaseStudiesGrid = (): JSX.Element => {
@@ -349,7 +349,7 @@ export const CaseStudiesGrid = (): JSX.Element => {
           aria-label="Previous"
         >
           <img
-            src="/theimpulsedigital.com/left-arrow.png"
+            src="/left-arrow.png"
             alt="Previous"
             className="w-4 h-4 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
           />
@@ -361,7 +361,7 @@ export const CaseStudiesGrid = (): JSX.Element => {
           aria-label="Next"
         >
           <img
-            src="/theimpulsedigital.com/right-arrow.png"
+            src="/right-arrow.png"
             alt="Next"
             className="w-4 h-4 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
           />
@@ -406,7 +406,7 @@ export const CaseStudiesGrid = (): JSX.Element => {
                 See All Case Studies
               </Link>
               <img
-                src="/theimpulsedigital.com/button-icon.svg"
+                src="/button-icon.svg"
                 alt="Arrow"
                 className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert-0 group-hover:invert pointer-events-none"
               />

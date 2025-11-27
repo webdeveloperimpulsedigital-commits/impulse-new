@@ -22,19 +22,19 @@ export const ContactSection = () => {
          
 
           <ul className="contact-list lg:pt-16 hidden lg:block md:block">
-            <img className="c-icon w-120" alt="Call Logo" src="/theimpulsedigital.com/call.png" />
+            <img className="c-icon w-120" alt="Call Logo" src="/call.png" />
             <li>
               <a href="tel:+919769285224">+91-9769285224</a>
             </li>
 
-            <img className="c-icon w-120" alt="Email Logo" src="/theimpulsedigital.com/sms-1.png" />
+            <img className="c-icon w-120" alt="Email Logo" src="/sms-1.png" />
             <li>
               <a href="mailto:collabs@theimpulsedigital.com">
                 collabs@theimpulsedigital.com
               </a>
             </li>
 
-            <img className="c-icon w-120" alt="location Logo" src="/theimpulsedigital.com/location.png" />
+            <img className="c-icon w-120" alt="location Logo" src="/location.png" />
             <li>
               <address>
                 304 – 305, Chirag Infotech, Road No. 16/Z,<br />
@@ -137,7 +137,7 @@ export const ContactSection = () => {
                             Connect Now
                           </span>
                           <img
-                            src="/theimpulsedigital.com/button-icon.svg"
+                            src="/button-icon.svg"
                             alt="Arrow"
                             className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert-0 group-hover:invert pointer-events-none"
                           />

@@ -26,33 +26,33 @@ const ServicesSection = () => {
    const data = [
     { n:"01", title:"Google My Business Optimization",
       points:["Ensure your business appears in Google Maps and local searches by optimizing business details, adding compelling descriptions, adding the right keywords, and managing reviews. This is your Sureshot at capturing local audiences actively searching for what you offer."],
-      img:"/theimpulsedigital.com/local  service section 520 x 340 - Google My Business Optimization.jpg" },
+      img:"/local  service section 520 x 340 - Google My Business Optimization.jpg" },
     { n:"02", title:"Geo-Targeted Paid Advertising",
       points:["Place your ads directly in front of potential customers based on their specific location. Whether you want to capture local audiences or enter new areas, geo-targeted paid ads reach the right people at the right time with campaigns that maximize relevance, clicks, and ROI. "],
-      img:"/theimpulsedigital.com/local  service section 520 x 340 - Geo-Targeted Paid Advertising.jpg" },
+      img:"/local  service section 520 x 340 - Geo-Targeted Paid Advertising.jpg" },
     { n:"03", title:"Technical SEO",
       points:["Technical SEO is your website’s backbone. Our SEO marketing agency enhances page speed, fixes broken links, creates a clean URL structure, and ensures mobile and browser compatibility for search engine and audience-friendly sites. Think of faster loading times, higher rankings, and a seamless visitor experience."],
-      img:"/theimpulsedigital.com/local  service section 520 x 340 - Technical SEO.jpg" },
+      img:"/local  service section 520 x 340 - Technical SEO.jpg" },
     { n:"04", title:"On-page SEO",
       points:["Turn your website pages into a magnet for traffic with our on-page SEO strategies. We focus on creating high-quality, keyword-rich, engaging content that speaks directly to your reader’s needs. It ensures that your website communicates effectively with both users and search engines to convert visitors into loyal customers."],
-      img:"/theimpulsedigital.com/local  service section 520 x 340 - On page SEO.jpg" },
+      img:"/local  service section 520 x 340 - On page SEO.jpg" },
     { n:"05", title:"Off-page SEO",
       points:["There’s more to your brand than websites. We are talking about backlinks from reputable sources, social signals, and brand mentions. Our SEO marketing agency connects you with high-authority sites, creates shareable content, and engages in influencer outreach, which signals to search engines that your site is trustworthy and credible."],
-      img:"/theimpulsedigital.com/local  service section 520 x 340 Off page SEO.jpg" },
+      img:"/local  service section 520 x 340 Off page SEO.jpg" },
     { n:"06", title:"Franchise SEO",
       points:["Bridge the gap between local visibility and national branding by balancing the unique needs of a franchise with the overall brand guidelines. Franchise SEO ensures a unified digital presence while driving local traffic for higher revenues and a competitive edge locally and nationally."],
-      img:"/theimpulsedigital.com/Franchise SEO.jpg" },
+      img:"/Franchise SEO.jpg" },
     { n:"07", title:"Shopify SEO",
       points:["Without SEO, you’d be competing in a saturated eCommerce market with low-quality traffic. Shopify SEO is the answer to enhance the performance of your Shopify stores-better descriptions, site structure, faster site loading, and more. Result? Not just a store but a discoverable and profitable platform."],
-      img:"/theimpulsedigital.com/service section 520 x 340 - Shopify SEO.jpg" },
+      img:"/service section 520 x 340 - Shopify SEO.jpg" },
     { n:"08", title:"Content writing",
       points:["Content has to be more than words. It has to be high-quality, matching the reader’s needs, aligned with the algorithm, and value-laden. Our content writing services sit at the sweet point where authenticity, research, relevancy, and rankings meet. "],
-      img:"/theimpulsedigital.com/local  service section 520 x 340 - Content writing SEO.jpg",
+      img:"/local  service section 520 x 340 - Content writing SEO.jpg",
     },
     {
       n:"09", title:"Conversion Rate Optimization",
       points:["Got website visitors but no paying customers? We will solve that problem here by analyzing user behavior, improving navigation, and tailoring content to match the audience’s needs. Be ready for an influx of loyal customers."],
-      img:"/theimpulsedigital.com/service section 520 x 340 - Conversion Rate SEO.jpg",
+      img:"/service section 520 x 340 - Conversion Rate SEO.jpg",
     },
    
   ];
@@ -329,7 +329,7 @@ const ServicesSection = () => {
                   <div className="group flex w-60 items-start justify-center lg:justify-end pt-2 lg:pt-[7px]">
                     <a href="">
                       <img
-                        src="/theimpulsedigital.com/Arrow.png"
+                        src="/Arrow.png"
                         alt="Arrow"
                         className="w-[56px] lg:w-[80px] object-contain transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                       />
@@ -387,7 +387,7 @@ const ServicesSection = () => {
                 aria-label="Previous"
               >
                 <img
-                  src="/theimpulsedigital.com/left-arrow.png"
+                  src="/left-arrow.png"
                   alt="Next"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />
@@ -400,7 +400,7 @@ const ServicesSection = () => {
                 aria-label="Next"
               >
                 <img
-                  src="/theimpulsedigital.com/right-arrow.png"
+                  src="/right-arrow.png"
                   alt="Next"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />

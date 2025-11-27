@@ -114,7 +114,7 @@ export const StatisticsSection = (): JSX.Element => {
       {/* Background Image */}
       <div className="absolute inset-0">
         <img
-          src="/theimpulsedigital.com/Rectangle-4332.png"
+          src="/Rectangle-4332.png"
           alt="Team collaboration background"
           className="w-full h-full object-cover"
         />

@@ -32,7 +32,7 @@ export const BrandVisionSection = (): JSX.Element => {
             <div className="lg:col-span-6">
               <div className="relative rounded-[28px] overflow-hidden shadow-lg bg-[#20124d]">
                 <img
-                  src="/theimpulsedigital.com/amazon-unplugged-thumbnail.png"
+                  src="/amazon-unplugged-thumbnail.png"
                   alt="Amazon Unplugged podcast setup"
                   className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
                   loading="lazy"
@@ -133,7 +133,7 @@ export const BrandVisionSection = (): JSX.Element => {
             <div className="lg:col-span-6 order-1 lg:order-2">
               <div className="rounded-[28px] overflow-hidden shadow-lg bg-[#F6F6FB]">
                 <img
-                  src="/theimpulsedigital.com/Powering Prime Day.png"
+                  src="/Powering Prime Day.png"
                   alt="Powering Prime Day employee collage"
                   className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
                   loading="lazy"
@@ -149,7 +149,7 @@ export const BrandVisionSection = (): JSX.Element => {
               <div className="rounded-[28px] overflow-hidden shadow-lg bg-[#F6F6FB]">
                 <img
                   alt="Employees creating advocacy content"
-                  src="/theimpulsedigital.com/Employee Advocacy.png"
+                  src="/Employee Advocacy.png"
                   className="w-full h-[240px] md:h-[300px] lg:h-[340px] object-cover"
                   loading="lazy"
                 />

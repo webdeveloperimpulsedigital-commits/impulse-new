@@ -48,7 +48,7 @@ export const InteractiveSliderSection = (): JSX.Element => {
   const slides: SlideData[] = [
     {
       id: 1,
-      image: "/theimpulsedigital.com/case study section 701 x 500 Mastercard 2.jpg",
+      image: "/case study section 701 x 500 Mastercard 2.jpg",
       alt: "Person working on SEO strategy",
       smallHeading: "Case Studies",
       mainHeading: "Solutions to Solve Your Problems",
@@ -59,7 +59,7 @@ export const InteractiveSliderSection = (): JSX.Element => {
     },
     {
       id: 2,
-      image: "/theimpulsedigital.com/case study section 701 x 500 Amazon 1.jpg",
+      image: "/case study section 701 x 500 Amazon 1.jpg",
       alt: "Hand holding smartphone with search interface",
       smallHeading: "Content Strategy",
       mainHeading: "Words That Drive Action",
@@ -70,7 +70,7 @@ export const InteractiveSliderSection = (): JSX.Element => {
     },
     {
       id: 3,
-      image: "/theimpulsedigital.com/case study section 701 x 500 Ola Mobility 1.jpg",
+      image: "/case study section 701 x 500 Ola Mobility 1.jpg",
       alt: "Creative workspace with laptop and design materials",
       smallHeading: "Brand Development",
       mainHeading: "Building Memorable Experiences",
@@ -186,10 +186,10 @@ export const InteractiveSliderSection = (): JSX.Element => {
           {/* Optional mobile nav (kept commented to not change your UI)
           <div className="flex items-center justify-center gap-4 mt-6">
             <Button onClick={goToPrevious} className="w-10 h-10 rounded-full border border-[#543d98] bg-white">
-              <img src="/theimpulsedigital.com/left-arrow.png" alt="Previous" className="w-4 h-4" />
+              <img src="/left-arrow.png" alt="Previous" className="w-4 h-4" />
             </Button>
             <Button onClick={goToNext} className="w-10 h-10 rounded-full bg-[#543d98]">
-              <img src="/theimpulsedigital.com/right-arrow.png" alt="Next" className="w-4 h-4" />
+              <img src="/right-arrow.png" alt="Next" className="w-4 h-4" />
             </Button>
           </div>
           */}
@@ -223,7 +223,7 @@ export const InteractiveSliderSection = (): JSX.Element => {
                 className="group w-12 h-12 rounded-full border-2 border-[#543d98] bg-white flex items-center justify-center group transition-all duration-300 hover:bg-[#f5f5f5] hover:border-[#543d98]"
               >
                 <img
-                  src="/theimpulsedigital.com/left-arrow.png"
+                  src="/left-arrow.png"
                   alt="Previous"
                   className="w-4 h-4 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />
@@ -236,7 +236,7 @@ export const InteractiveSliderSection = (): JSX.Element => {
                 className="group w-12 h-12 rounded-full border-2 border-[#EAEAEA] bg-[#543d98] flex items-center justify-center group transition-all duration-300"
               >
                 <img
-                  src="/theimpulsedigital.com/right-arrow.png"
+                  src="/right-arrow.png"
                   alt="Next"
                   className="w-4 h-4 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />

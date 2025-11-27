@@ -248,7 +248,7 @@ const ServicesSection = () => {
                   <div className="shot"><img src={s.img} alt={s.title} /></div>
                 </div>
                 <div className="flex w-60 items-start justify-center lg:justify-end pt-2 lg:pt-[7px]">           
-                  <img src="/theimpulsedigital.com/Arrow.png" alt="Arrow"
+                  <img src="/Arrow.png" alt="Arrow"
                   className="w-[56px] lg:w-[80px] object-contain transition-transform duration-300 group-hover:rotate-45 pointer-events-none"/>
 
                 </div>

@@ -30,7 +30,7 @@ const ServicesSection = () => {
       points: [
         "Your prospects are searching, we make sure they find you first. We combine technical expertise with creative content strategies to boost your website’s visibility and ranking. Our SEO team optimizes every aspect of your online presence to attract, engage, and convert the right audience, ensuring your business grows where it matters most: search results.",
       ],
-      img: "/theimpulsedigital.com/06_SEO.jpg",
+      img: "/06_SEO.jpg",
     },
     {
       n: "02",
@@ -38,7 +38,7 @@ const ServicesSection = () => {
       points: [
         "Your website is more than just a digital address, it’s your brand’s first impression, storyteller, and salesperson, all rolled into one.  We design and develop websites that not only look stunning but also perform seamlessly. From intuitive navigation to engaging visuals and compelling content, we build experiences that keep visitors clicking and coming back for more. Every line of code and pixel is crafted to reflect your brand’s essence and purpose. In a world full of tabs and distractions, we make sure your website stands out and speaks volumes.",
       ],
-      img: "/theimpulsedigital.com/07_Website Development.jpg",
+      img: "/07_Website Development.jpg",
     },
     {
       n: "03",
@@ -46,7 +46,7 @@ const ServicesSection = () => {
       points: [
         "Every campaign should perform, not just run, that’s where we come in. At Impulse Digital, our performance marketing approach ensures every click, impression and conversion drives measurable growth. We blend strategy, creativity and data to deliver results you can see and scale. From understanding audience behaviour to optimizing spends across channels, we focus on impact over noise. With us, your marketing doesn’t just reach people, it moves them to act.",
       ],
-      img: "/theimpulsedigital.com/01_Pay-Per-Click.jpg",
+      img: "/01_Pay-Per-Click.jpg",
     },
     {
       n: "04",
@@ -54,7 +54,7 @@ const ServicesSection = () => {
       points: [
         "Great content doesn’t just tell a story, it builds a connection. We craft narratives that resonate with your audience and reflect your brand’s true voice. Every word is designed with purpose, ensuring your message reaches the right people in the most meaningful way. From thought-provoking blogs to engaging campaign copy, our content marketing approach blends creativity with strategy. Because when your content speaks the language of your audience, it turns attention into trust.",
       ],
-      img: "/theimpulsedigital.com/02_Content Writing.jpg",
+      img: "/02_Content Writing.jpg",
     },
     {
       n: "05",
@@ -62,7 +62,7 @@ const ServicesSection = () => {
       points: [
         "Transform Your Brands Online Communication with Social Media Video Production. Our Social Media Video Production service is specifically designed to elevate your brand's online presence with visually appealing and strategically crafted videos tailored to suit your brand and its target audience. From ideation, conceptualization, method storytelling to visually crafting a masterpiece, we handle every aspect of video production with the required ",
       ],
-      img: "/theimpulsedigital.com/03_Production.jpg",
+      img: "/03_Production.jpg",
     },
     {
       n: "06",
@@ -70,7 +70,7 @@ const ServicesSection = () => {
       points: [
         "Your audience is scrolling, now the question is, are they stopping for you? At Impulse Digital, we make sure your brand stands out in the endless feed. Our social media marketing services blend strategy, creativity and data to create conversations that matter. From relatable content to impactful campaigns, we help you build a community that listens, engages and grows with you. Because on social media, it’s not just about being seen, it’s about being remembered.",
       ],
-      img: "/theimpulsedigital.com/04_Social Media Marketing.jpg",
+      img: "/04_Social Media Marketing.jpg",
      
     },
     {
@@ -79,7 +79,7 @@ const ServicesSection = () => {
       points: [
         "A strong employer brand doesn’t just attract talent, it inspires it. Our employer branding services help organizations shape how people see, feel and experience their workplace. From defining your EVP to building authentic storytelling that reflects your culture, we turn your employees into brand ambassadors and your company into a talent magnet. Through strategy, design and communication, we craft a brand narrative that resonates both inside and outside the organization. Because when people believe in where they work, they help the world believe in it too.",
       ],
-      img: "/theimpulsedigital.com/05_Employer Branding.jpg",
+      img: "/05_Employer Branding.jpg",
     },
     {
       n: "08",
@@ -87,7 +87,7 @@ const ServicesSection = () => {
       points: [
         "A brand is more than just a logo, it is the feeling people associate with your name. Through our corporate branding services, we help you create that emotion by shaping how your audience perceives and connects with your business. From uncovering your core values to crafting a powerful visual and verbal identity, every detail is designed to make your brand stand apart. We blend strategy with creativity to build a consistent and lasting impression across every touchpoint. When your brand feels authentic, it does not just capture attention, it earns trust.",
       ],
-      img: "/theimpulsedigital.com/08_Branding.jpg",
+      img: "/08_Branding.jpg",
     },
   ];
 
@@ -362,7 +362,7 @@ const ServicesSection = () => {
                   <div className="group flex w-60 items-start justify-center lg:justify-end pt-2 lg:pt-[7px]">
                     <a href="">
                       <img
-                        src="/theimpulsedigital.com/Arrow.png"
+                        src="/Arrow.png"
                         alt="Arrow"
                         className="w-[56px] lg:w-[80px] object-contain transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                       />
@@ -420,7 +420,7 @@ const ServicesSection = () => {
                 aria-label="Previous"
               >
                 <img
-                  src="/theimpulsedigital.com/left-arrow.png"
+                  src="/left-arrow.png"
                   alt="Next"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />
@@ -433,7 +433,7 @@ const ServicesSection = () => {
                 aria-label="Next"
               >
                 <img
-                  src="/theimpulsedigital.com/right-arrow.png"
+                  src="/right-arrow.png"
                   alt="Next"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />

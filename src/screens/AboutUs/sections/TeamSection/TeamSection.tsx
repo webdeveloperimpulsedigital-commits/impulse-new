@@ -12,42 +12,42 @@ export const TeamSection = (): JSX.Element => {
     {
       name: "Adwait Joshi",
       position: "Founder & Director",
-      image: "/theimpulsedigital.com/adwait-sir.jpg",
+      image: "/adwait-sir.jpg",
     },
     {
       name: "Abhishek Arekar",
       position: "Director",
-      image: "/theimpulsedigital.com/Abhishek Image.jpg",
+      image: "/Abhishek Image.jpg",
     },
     {
       name: "Priya Sharma",
       position: "Creative Strategist",
-      image: "/theimpulsedigital.com/creative-priya.jpg",
+      image: "/creative-priya.jpg",
     },
     {
       name: "Amit Patel",
       position: "Marketing Lead",
-      image: "/theimpulsedigital.com/amit-patel.jpg",
+      image: "/amit-patel.jpg",
     },
     {
       name: "Sneha Gupta",
       position: "Client Success Manager",
-      image: "/theimpulsedigital.com/sneha-gupta.jpg",
+      image: "/sneha-gupta.jpg",
     },
     {
       name: "Rohit Sharma",
       position: "Tech & Automation Lead",
-      image: "/theimpulsedigital.com/rohit-sharma.jpg",
+      image: "/rohit-sharma.jpg",
     },
     {
       name: "Neha Verma",
       position: "Content Specialist",
-      image: "/theimpulsedigital.com/neha-verma.jpg",
+      image: "/neha-verma.jpg",
     },
     {
       name: "Karan Singh",
       position: "Design Lead",
-      image: "/theimpulsedigital.com/karan-singh.jpg",
+      image: "/karan-singh.jpg",
     },
   ];
 

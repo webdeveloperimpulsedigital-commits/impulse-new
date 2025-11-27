@@ -35,9 +35,9 @@ export const InteractiveGallerySection = (): JSX.Element => {
   }, []);
  
   const galleryItems = [
-    { id: 1, image: "/theimpulsedigital.com/demo-1.jpg", alt: "Person working on brand strategy with digital icons and laptop" },
-    { id: 2, image: "/theimpulsedigital.com/demo-2.jpg", alt: "Hand holding smartphone with search interface and digital elements" },
-    { id: 3, image: "/theimpulsedigital.com/demo-3.jpg", alt: "Creative workspace with laptop, notebooks, and design materials" },
+    { id: 1, image: "/demo-1.jpg", alt: "Person working on brand strategy with digital icons and laptop" },
+    { id: 2, image: "/demo-2.jpg", alt: "Hand holding smartphone with search interface and digital elements" },
+    { id: 3, image: "/demo-3.jpg", alt: "Creative workspace with laptop, notebooks, and design materials" },
   ];
   const total = galleryItems.length;
  
@@ -133,7 +133,7 @@ export const InteractiveGallerySection = (): JSX.Element => {
     Connect Now
   </Link>
   <img
-    src="/theimpulsedigital.com/button-icon.svg"
+    src="/button-icon.svg"
     alt="Arrow"
     className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert-0 group-hover:invert pointer-events-none"
   />
@@ -231,7 +231,7 @@ export const InteractiveGallerySection = (): JSX.Element => {
     Connect Now
   </Link>
   <img
-    src="/theimpulsedigital.com/button-icon.svg"
+    src="/button-icon.svg"
     alt="Arrow"
     className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert-0 group-hover:invert pointer-events-none"
   />

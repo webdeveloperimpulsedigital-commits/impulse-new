@@ -15,7 +15,7 @@ export const BrandVisionSection = (): JSX.Element => {
           <div className="lg:col-span-6">
             <div className="overflow-hidden rounded-[28px] shadow-lg">
               <img
-                src="/theimpulsedigital.com/Industrial automation line with robotic arms.png"
+                src="/Industrial automation line with robotic arms.png"
                 alt="Industrial automation line with robotic arms"
                 className="w-full h-[260px] sm:h-[340px] lg:h-[420px] object-cover"
                 loading="lazy"
@@ -154,7 +154,7 @@ export const BrandVisionSection = (): JSX.Element => {
           <div className="lg:col-span-6">
             <div className="rounded-[28px] overflow-hidden shadow-lg bg-black">
               <img
-                src="/theimpulsedigital.com/Analytics dashboard with upward graph.png"
+                src="/Analytics dashboard with upward graph.png"
                 alt="Analytics dashboard with upward graph"
                 className="w-full h-[260px] sm:h-[320px] lg:h-[380px] object-cover"
                 loading="lazy"
@@ -247,7 +247,7 @@ export const BrandVisionSection = (): JSX.Element => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div className="bg-white rounded-[24px] border border-[#E4E4F0] overflow-hidden shadow-sm">
               <img
-                src="/theimpulsedigital.com/image AT1.png"
+                src="/image AT1.png"
                 alt="Google SERP results screenshot 1"
                 className="w-full h-auto object-cover"
                 loading="lazy"
@@ -255,7 +255,7 @@ export const BrandVisionSection = (): JSX.Element => {
             </div>
             <div className="bg-white rounded-[24px] border border-[#E4E4F0] overflow-hidden shadow-sm">
               <img
-                src="/theimpulsedigital.com/image AT2.png"
+                src="/image AT2.png"
                 alt="Google SERP results screenshot 1"
                 className="w-full h-auto object-cover"
                 loading="lazy"
@@ -263,7 +263,7 @@ export const BrandVisionSection = (): JSX.Element => {
             </div>
             <div className="bg-white rounded-[24px] border border-[#E4E4F0] overflow-hidden shadow-sm">
               <img
-                src="/theimpulsedigital.com/image AT3.png"
+                src="/image AT3.png"
                 alt="Google SERP results screenshot 2"
                 className="w-full h-auto object-cover"
                 loading="lazy"
@@ -271,7 +271,7 @@ export const BrandVisionSection = (): JSX.Element => {
             </div>
              <div className="bg-white rounded-[24px] border border-[#E4E4F0] overflow-hidden shadow-sm">
               <img
-                src="/theimpulsedigital.com/image AT4.png"
+                src="/image AT4.png"
                 alt="Google SERP results screenshot 2"
                 className="w-full h-auto object-cover"
                 loading="lazy"
@@ -279,7 +279,7 @@ export const BrandVisionSection = (): JSX.Element => {
             </div>
              <div className="bg-white rounded-[24px] border border-[#E4E4F0] overflow-hidden shadow-sm">
               <img
-                src="/theimpulsedigital.com/image AT5.png"
+                src="/image AT5.png"
                 alt="Google SERP results screenshot 2"
                 className="w-full h-auto object-cover"
                 loading="lazy"
@@ -287,7 +287,7 @@ export const BrandVisionSection = (): JSX.Element => {
             </div>
             <div className="bg-white rounded-[24px] border border-[#E4E4F0] overflow-hidden shadow-sm">
               <img
-                src="/theimpulsedigital.com/image AT6.png"
+                src="/image AT6.png"
                 alt="Google SERP results screenshot 2"
                 className="w-full h-auto object-cover"
                 loading="lazy"
@@ -295,7 +295,7 @@ export const BrandVisionSection = (): JSX.Element => {
             </div>
             <div className="bg-white rounded-[24px] border border-[#E4E4F0] overflow-hidden shadow-sm">
               <img
-                src="/theimpulsedigital.com/image AT7.png"
+                src="/image AT7.png"
                 alt="Google SERP results screenshot 2"
                 className="w-full h-auto object-cover"
                 loading="lazy"

@@ -21,7 +21,7 @@ export const BlogSection = (): JSX.Element => {
         "How to Rank Your Brand on ChatGPT: Our Observations About Brand Visibility",
       description:
         "India's identity deeply vests in its diversity. The country is home to vast landscapes, rich cultures, and varied regions, each of these factors greatly shaping the mindset and lifestyle of its people. These factors contribute to the study and insight identification for businesses...",
-      image: "/theimpulsedigital.com/project-1-jpg.png",
+      image: "/project-1-jpg.png",
     },
     {
       id: "2",
@@ -31,7 +31,7 @@ export const BlogSection = (): JSX.Element => {
         "Authenticity Meets Aesthetic: Exploring the Power of Minimalism in Advertising",
       description:
         "There are multiple factors responsible for driving responses to an advertisement. The visual appeal, the messaging, the timing, and the platform all play crucial roles in determining success. When minimalism is used with intent, it focuses attention on what truly matters—clarity, emotion, and recall...",
-      image: "/theimpulsedigital.com/project-2-jpg.png",
+      image: "/project-2-jpg.png",
     },
     {
       id: "3",
@@ -41,7 +41,7 @@ export const BlogSection = (): JSX.Element => {
         "Mind to Cart: The 2025 E-Commerce Trends Reshaping Indian Retail and Consumption Patterns",
       description:
         "India's identity deeply vests in its diversity. The country is home to vast landscapes, rich cultures, and varied regions, each of these factors greatly shaping the mindset and lifestyle of its people. These factors contribute to the study and insight identification for businesses. This year, shifts in convenience, trust, and vernacular UX are redefining discovery and conversion paths across Bharat...",
-      image: "/theimpulsedigital.com/project-3-jpg.png",
+      image: "/project-3-jpg.png",
     },
   ];
 

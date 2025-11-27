@@ -9,7 +9,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/evolution-of-workplace-perks-what-employers-are-doing-to-redefine-them.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt1.png",
+    thumbnail: "/slideshow/ppt1.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -20,7 +20,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/3-reasons-why-your-b2b-marketing-strategy-framework-is-not-generating-quality-leads.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt2.png",
+    thumbnail: "/slideshow/ppt2.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -31,7 +31,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/transforming-your-traditional-B2B-business-into-a-thriving-online-enterprise-a-comprehensive-guide.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt3.png",
+    thumbnail: "/slideshow/ppt3.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -42,7 +42,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/embracing-lgbtq-pride-in-2023-employer-branding-encouraging-workplace-diversity-and-inclusion.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt4.png",
+    thumbnail: "/slideshow/ppt4.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -53,7 +53,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/how-evoking-emotions-and-different-appeals-is-the-key-to-a-successful-advertising-strategy.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt5.png",
+    thumbnail: "/slideshow/ppt5.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -64,7 +64,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/why-employer-branding-should-be-an-essential-element-of-your-marketing-plan.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt6.png",
+    thumbnail: "/slideshow/ppt6.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -74,7 +74,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/planning-to-order-from-ondc-but-is-it-worth-it.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt7.png",
+    thumbnail: "/slideshow/ppt7.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -85,7 +85,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/how-apple%E2%80%99s-vr-headset-is-going-to-change-the-game-for-marketers.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt8.png",
+    thumbnail: "/slideshow/ppt8.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -95,7 +95,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/father%E2%80%99s-day-how-brands-cash-in-on-celebrating-dads.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt9.png",
+    thumbnail: "/slideshow/ppt9.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -105,7 +105,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/dissecting-the-key-takeaways-from-the-ondc-report.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt10.png",
+    thumbnail: "/slideshow/ppt10.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -115,7 +115,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/best-ai-tools-for-indian-audience-to-use.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt11.png",
+    thumbnail: "/slideshow/ppt11.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -125,7 +125,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/b2b-entrepreneur%E2%80%99s-guide-to-reach-your-high-hanging-fruits!.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt12.png",
+    thumbnail: "/slideshow/ppt12.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -136,7 +136,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/facebook-scam-alert-copyright-infringement-here%E2%80%99s-how-to-not-fall-for-one.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt13.png",
+    thumbnail: "/slideshow/ppt13.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -146,7 +146,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/april-fool%E2%80%99s-day-brand-ideas-gone-wrong.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt14.png",
+    thumbnail: "/slideshow/ppt14.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -156,7 +156,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/online-behavior-between-an-indian-and-usa-internet-user%20.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt15.png",
+    thumbnail: "/slideshow/ppt15.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -166,7 +166,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/linkedin-vs-facebook-what%E2%80%99s-a-better-platform-for-b2b-business.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt16.png",
+    thumbnail: "/slideshow/ppt16.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -176,7 +176,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/impactful-women%E2%80%99s-day-campaign-ideas-2023-with-examples.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt17.png",
+    thumbnail: "/slideshow/ppt17.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -186,7 +186,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/can-you-use-memes-in-advertising-perks-of-meme-marketing.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt18.png",
+    thumbnail: "/slideshow/ppt18.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -196,7 +196,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/transform-employer-branding-for-hybrid-&-remote-working-employees-know-how.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt19.png",
+    thumbnail: "/slideshow/ppt19.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -207,7 +207,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/how-can-you-use-emojis-in-advertising-to-drive-better-results.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt20.png",
+    thumbnail: "/slideshow/ppt20.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -217,7 +217,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/valentine%E2%80%99s-day-promotion-ideas-for-retail-make-profitable-sales.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt21.png",
+    thumbnail: "/slideshow/ppt21.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -227,7 +227,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/7-next-gen-digital-marketing-trends-for-2023-company.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt22.png",
+    thumbnail: "/slideshow/ppt22.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -237,7 +237,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/short-form-content-will-sweep-off-the-internet-know-why.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt23.png",
+    thumbnail: "/slideshow/ppt23.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -248,7 +248,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/top-5-limitations-of-chatgpt-and-why-seo-does-not-recommend-it.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt24.png",
+    thumbnail: "/slideshow/ppt24.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -258,7 +258,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/how-to-choose-the-right-content-management-system.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt25.png",
+    thumbnail: "/slideshow/ppt25.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -268,7 +268,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/top-marketing-trends-of-2022-you-need-to-know-to-grow-your-business.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt26.png",
+    thumbnail: "/slideshow/ppt26.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -279,7 +279,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/5-ways-to-enhance-your-business-using-youtube-marketing.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt27.png",
+    thumbnail: "/slideshow/ppt27.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -290,7 +290,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/how_employer_branding_transforms_the%20future_of_your_organisation.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt28.png",
+    thumbnail: "/slideshow/ppt28.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -300,7 +300,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/did_you_know_how_much_and_what_google_knows_about_you.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt29.png",
+    thumbnail: "/slideshow/ppt29.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -310,7 +310,7 @@ export const seoPpts = [
     year: "2023",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/is_youtube_too_competitive_5_alternatives_you_must_know.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt30.png",
+    thumbnail: "/slideshow/ppt30.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -320,7 +320,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/top-marketing-predictions-you-must-know-for-2022.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt31.png",
+    thumbnail: "/slideshow/ppt31.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -330,7 +330,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/Not_To_Be_Missed_Top_SEO_Strategies_For_D2C_Websites.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt32.png",
+    thumbnail: "/slideshow/ppt32.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -340,7 +340,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/digital-marketing-insights-for-retail-businesses-in-india.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt33.png",
+    thumbnail: "/slideshow/ppt33.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -350,7 +350,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/is-ai-helping-digital-marketers-a-transparency-review.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt34.png",
+    thumbnail: "/slideshow/ppt34.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -360,7 +360,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/how-to-boost-your-content-strategy-using-google-trends.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt35.png",
+    thumbnail: "/slideshow/ppt35.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -370,7 +370,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/5-compelling-reasons-why-your-brand-needs-a-seo-audit.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt36.png",
+    thumbnail: "/slideshow/ppt36.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -380,7 +380,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/how-to-choose-the-right-digital-marketing-agency.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt37.png",
+    thumbnail: "/slideshow/ppt37.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -390,7 +390,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/all_there_is_to_hyperlocal_seo_and_how_to_leverage_it.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt38.png",
+    thumbnail: "/slideshow/ppt38.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -400,7 +400,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/5-creative-ways-to-repurpose-your-long-form-content.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt39.png",
+    thumbnail: "/slideshow/ppt39.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -411,7 +411,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/understanding-how-buyer-persona-drives-your-marketing-success.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt40.png",
+    thumbnail: "/slideshow/ppt40.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -421,7 +421,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/how-to-improve-landing-page-conversions-using-psychology.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt41.png",
+    thumbnail: "/slideshow/ppt41.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -431,7 +431,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/why-storytelling-is-powerful-in-digital-ads.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt42.png",
+    thumbnail: "/slideshow/ppt42.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -441,7 +441,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/people_also_ask_(paa)_and_its_significance_for_your_seo.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt43.png",
+    thumbnail: "/slideshow/ppt43.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -451,7 +451,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/why-competitor-analysis-is-important-in-seo.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt44.png",
+    thumbnail: "/slideshow/ppt44.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -461,7 +461,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/in-house-marketing-vs-outsourcing.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt45.png",
+    thumbnail: "/slideshow/ppt45.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -471,7 +471,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/5-social-media-strategies-brands-must-follow-for-growth.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt46.png",
+    thumbnail: "/slideshow/ppt46.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -481,7 +481,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/7-mistakes-brands-should-avoid-on-instagram.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt47.png",
+    thumbnail: "/slideshow/ppt47.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -491,7 +491,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/top-youtube-seo-practices-to-rank-high.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt48.png",
+    thumbnail: "/slideshow/ppt48.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -501,7 +501,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/instagram-algorithm-explained-for-brands.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt49.png",
+    thumbnail: "/slideshow/ppt49.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -512,7 +512,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/how-to-increase-customer-loyalty-through-digital-retention-strategies.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt50.png",
+    thumbnail: "/slideshow/ppt50.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -522,7 +522,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/top-content-marketing-predictions-for-2022.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt51.png",
+    thumbnail: "/slideshow/ppt51.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -533,7 +533,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/what-every-marketer-should-know-about-email-marketing-success.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt52.png",
+    thumbnail: "/slideshow/ppt52.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -543,7 +543,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/rise-of-voice-assistants-and-its-marketing-impact.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt53.png",
+    thumbnail: "/slideshow/ppt53.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -553,7 +553,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/understanding-micro-moments-in-consumer-decision-making.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt54.png",
+    thumbnail: "/slideshow/ppt54.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -563,7 +563,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/how-mobile-first-indexing-impacts-your-seo.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt55.png",
+    thumbnail: "/slideshow/ppt55.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -573,7 +573,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/using-psychology-to-design-high-converting-ads.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt56.png",
+    thumbnail: "/slideshow/ppt56.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -583,7 +583,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/how-to-build-a-brand-identity-on-social-media.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt57.png",
+    thumbnail: "/slideshow/ppt57.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -593,7 +593,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/understanding-the-power-of-digital-customer-journeys.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt58.png",
+    thumbnail: "/slideshow/ppt58.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -603,7 +603,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/the-impact-of-ux-on-conversions.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt59.png",
+    thumbnail: "/slideshow/ppt59.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -613,7 +613,7 @@ export const seoPpts = [
     year: "2022",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/the-importance-of-page-speed-for-seo-performance.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt60.png",
+    thumbnail: "/slideshow/ppt60.png",
     tag: "PPT",
     meta: "2022 • Presentation",
   },
@@ -623,7 +623,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/how-to-measure-brand-awareness-effectively.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt61.png",
+    thumbnail: "/slideshow/ppt61.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -633,7 +633,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/a-beginners-guide-to-google-ads-for-small-businesses.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt62.png",
+    thumbnail: "/slideshow/ppt62.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -643,7 +643,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/top-voice-technology-trends-in-2021-you-ought-to-know.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt63.png",
+    thumbnail: "/slideshow/ppt63.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -654,7 +654,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/the-rise-of-d2c-brands-in-india.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt64.png",
+    thumbnail: "/slideshow/ppt64.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -664,7 +664,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/googles-e-a-t-principle-explained-for-modern-seo.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt65.png",
+    thumbnail: "/slideshow/ppt65.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -674,7 +674,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/best-practices-to-increase-engagement-on-social-media.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt66.png",
+    thumbnail: "/slideshow/ppt66.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -684,7 +684,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/top-tools-every-digital-marketer-should-use-in-2021.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt67.png",
+    thumbnail: "/slideshow/ppt67.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -694,7 +694,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/marketing-funnel-explained-with-real-world-examples.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt68.png",
+    thumbnail: "/slideshow/ppt68.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -704,7 +704,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/the-complete-guide-to-influencer-marketing-in-india.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt69.png",
+    thumbnail: "/slideshow/ppt69.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -714,7 +714,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/understanding-social-listening.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt70.png",
+    thumbnail: "/slideshow/ppt70.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -724,7 +724,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/how-content-clusters-help-improve-seo-ranking.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt71.png",
+    thumbnail: "/slideshow/ppt71.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -734,7 +734,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/must-follow-branding-principles-for-modern-indian-startups.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt72.png",
+    thumbnail: "/slideshow/ppt72.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -744,7 +744,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/how-to-build-an-effective-b2b-demand-generation-strategy.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt73.png",
+    thumbnail: "/slideshow/ppt73.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -754,7 +754,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/creative-ways-to-promote-your-brand-during-festivals.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt74.png",
+    thumbnail: "/slideshow/ppt74.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -764,7 +764,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/the-science-behind-viral-content.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt75.png",
+    thumbnail: "/slideshow/ppt75.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -774,7 +774,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/why-customer-feedback-is-gold-for-marketing-teams.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt76.png",
+    thumbnail: "/slideshow/ppt76.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -785,7 +785,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/consumer-psychology-in-marketing.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt77.png",
+    thumbnail: "/slideshow/ppt77.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -795,7 +795,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/the-future-of-media-planning.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt78.png",
+    thumbnail: "/slideshow/ppt78.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -805,7 +805,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/why-brands-must-embrace-omnichannel-customer-experience.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt79.png",
+    thumbnail: "/slideshow/ppt79.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -815,7 +815,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/how-digital-pr-helps-brands-grow.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt80.png",
+    thumbnail: "/slideshow/ppt80.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -825,7 +825,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/the-rise-of-meme-marketing.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt81.png",
+    thumbnail: "/slideshow/ppt81.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -835,7 +835,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/indian-consumer-trends-every-marketer-must-know.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt82.png",
+    thumbnail: "/slideshow/ppt82.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -845,7 +845,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/how-to-create-evergreen-content-that-ranks.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt83.png",
+    thumbnail: "/slideshow/ppt83.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -855,7 +855,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/hashtag-strategy-for-social-media.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt84.png",
+    thumbnail: "/slideshow/ppt84.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -865,7 +865,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/google-my-business-optimization-tips.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt85.png",
+    thumbnail: "/slideshow/ppt85.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -875,7 +875,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/how-to-write-ad-copy-that-converts.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt86.png",
+    thumbnail: "/slideshow/ppt86.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -885,7 +885,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/understanding-the-basics-of-google-analytics.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt87.png",
+    thumbnail: "/slideshow/ppt87.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -895,7 +895,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/how-copywriting-impacts-brand-recall.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt88.png",
+    thumbnail: "/slideshow/ppt88.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -905,7 +905,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/seo-vs-sem-when-should-brands-choose-what.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt89.png",
+    thumbnail: "/slideshow/ppt89.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -915,7 +915,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/guide-to-creating-a-winning-digital-marketing-plan.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt90.png",
+    thumbnail: "/slideshow/ppt90.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -925,7 +925,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/the-future-of-seo.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt91.png",
+    thumbnail: "/slideshow/ppt91.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -934,7 +934,7 @@ export const seoPpts = [
     title: "SEO trends",
     year: "2021",
     pdfUrl: "https://www.theimpulsedigital.com/slideshare/seo-trends.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt92.png",
+    thumbnail: "/slideshow/ppt92.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -944,7 +944,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/invest-in-digital-transformation.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt93.png",
+    thumbnail: "/slideshow/ppt93.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -954,7 +954,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/top-content-formats-that-will-dominate-2021.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt94.png",
+    thumbnail: "/slideshow/ppt94.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -964,7 +964,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/retention-marketing-vs-acquisition.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt95.png",
+    thumbnail: "/slideshow/ppt95.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -975,7 +975,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/strategize-during-uncertain-market-conditions.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt96.png",
+    thumbnail: "/slideshow/ppt96.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -985,7 +985,7 @@ export const seoPpts = [
     year: "2021",
     pdfUrl:
       "https://www.theimpulsedigital.com/slideshare/evolution-of-consumer-behaviour-post-pandemic.pdf",
-    thumbnail: "/theimpulsedigital.com/slideshow/ppt97.png",
+    thumbnail: "/slideshow/ppt97.png",
     tag: "PPT",
     meta: "2021 • Presentation",
   },
@@ -1055,32 +1055,32 @@ export const SlideSharePPT = (): JSX.Element => {
         {/* Category Tabs */}
         <div className="flex flex-wrap gap-2 mb-6 border-b border-slate-200 pb-3 text-xs sm:text-sm">
           <a
-            href="/theimpulsedigital.com/resources/Slideshare-PPT/"
+            href="/resources/Slideshare-PPT/"
             className="px-3 py-1.5 rounded-full text-white font-medium bg-[#543d98]">
             All PPTs
           </a>
           <a
-            href="/theimpulsedigital.com/resources/social-media-PPT"
+            href="/resources/social-media-PPT"
             className="px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700 hover:border-slate-400 hover:bg-slate-50 transition-colors">
             Social Media PPT
           </a>
           <a
-            href="/theimpulsedigital.com/resources/google-ads-PPT"
+            href="/resources/google-ads-PPT"
             className="px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700 hover:border-slate-400 hover:bg-slate-50 transition-colors">
             Google Ads / SEM PPT
           </a>
           <a
-            href="/theimpulsedigital.com/resources/content-marketing-PPT"
+            href="/resources/content-marketing-PPT"
             className="px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700 hover:border-slate-400 hover:bg-slate-50 transition-colors">
             Content Marketing PPT
           </a>
           <a
-            href="/theimpulsedigital.com/resources/employer-branding-PPT"
+            href="/resources/employer-branding-PPT"
             className="px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700 hover:border-slate-400 hover:bg-slate-50 transition-colors">
             Employer Branding PPT
           </a>
            <a
-            href="/theimpulsedigital.com/resources/website-design-development-PPT"
+            href="/resources/website-design-development-PPT"
             className="px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700 hover:border-slate-400 hover:bg-slate-50 transition-colors">
             Website Design Development PPT
           </a>
@@ -1236,7 +1236,7 @@ export const SlideSharePPT = (): JSX.Element => {
        View PPT
     </span>
     <img
-      src="/theimpulsedigital.com/button-icon.svg"
+      src="/button-icon.svg"
       alt="Arrow"
       className="w-4 h-4 transition-all duration-300 
         group-hover/download:rotate-45 
@@ -1262,7 +1262,7 @@ export const SlideSharePPT = (): JSX.Element => {
                   className="w-[180px] h-[44px] group sm:inline-flex items-center gap-2 px-4 py-5 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border border-[#543d98]"
                 >
                   Load more PPTs
-                  <img src="/theimpulsedigital.com/button-icon.svg" alt="Arrow" className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-1 group-hover:invert " /> 
+                  <img src="/button-icon.svg" alt="Arrow" className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-1 group-hover:invert " /> 
                 </Button>
               </div>
             )}

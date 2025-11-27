@@ -36,7 +36,7 @@ export const ContentWritingHeroSection = (): JSX.Element => {
           playsInline
           preload="metadata"
         >
-          <source src="/theimpulsedigital.com/bg-video.mp4" type="video/mp4" />
+          <source src="/bg-video.mp4" type="video/mp4" />
         </video>
         {/* Dark overlay */}
         <div
@@ -53,7 +53,7 @@ export const ContentWritingHeroSection = (): JSX.Element => {
                          <img
                            className="w-[100px] h-[44px] sm:w-[120px] sm:h-[53px] md:w-[148px] md:h-[66px]"
                            alt="Impulse Digital Logo"
-                           src="/theimpulsedigital.com/frame-2147224428.svg"
+                           src="/frame-2147224428.svg"
                          />
            
                          {/* Desktop Navigation */}
@@ -110,7 +110,7 @@ export const ContentWritingHeroSection = (): JSX.Element => {
                            <img
                              className="w-4 h-4"
                              alt="Arrow"
-                             src="/theimpulsedigital.com/vector-1-3.svg"
+                             src="/vector-1-3.svg"
                            />
                          </Button>
            
@@ -177,7 +177,7 @@ export const ContentWritingHeroSection = (): JSX.Element => {
                                        <span className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] text-base">
                                          Contact Us
                                        </span>
-                                       <img className="w-4 h-4" alt="Arrow" src="/theimpulsedigital.com/vector-1-3.svg" />
+                                       <img className="w-4 h-4" alt="Arrow" src="/vector-1-3.svg" />
                                      </Button>
                      </div>
                    </div>

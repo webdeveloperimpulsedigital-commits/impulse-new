@@ -37,7 +37,7 @@ export const InteractiveSliderSection = (): JSX.Element => {
   const slides: SlideData[] = [
     {
       id: 1,
-      image: "/theimpulsedigital.com/case study section 701 x 500 Mastercard 2.jpg",
+      image: "/case study section 701 x 500 Mastercard 2.jpg",
       alt: "Person working on SEO strategy with digital analytics and laptop",
       smallHeading: "Case Studies",
       mainHeading: "Solutions to Solve Your Problems",
@@ -48,7 +48,7 @@ export const InteractiveSliderSection = (): JSX.Element => {
     },
     {
       id: 2,
-      image: "/theimpulsedigital.com/case study section 701 x 500 Amazon 1.jpg",
+      image: "/case study section 701 x 500 Amazon 1.jpg",
       alt: "Hand holding smartphone with search interface and digital elements",
       smallHeading: "Content Strategy",
       mainHeading: "Words That Drive Action",
@@ -59,7 +59,7 @@ export const InteractiveSliderSection = (): JSX.Element => {
     },
     {
       id: 3,
-      image: "/theimpulsedigital.com/case study section 701 x 500 Ola Mobility 1.jpg",
+      image: "/case study section 701 x 500 Ola Mobility 1.jpg",
       alt: "Creative workspace with laptop, notebooks, and design materials",
       smallHeading: "Brand Development",
       mainHeading: "Building Memorable Experiences",
@@ -147,7 +147,7 @@ export const InteractiveSliderSection = (): JSX.Element => {
                               onMouseLeave={() => setHoveredBtn(null)}
                           className="group w-12 h-12 rounded-full border-2 border-[#543d98] bg-white flex items-center justify-center group transition-all duration-300 hover:bg-[#f5f5f5] hover:border-[#543d98]">
                           
-                          <img src="/theimpulsedigital.com/left-arrow.png" alt="Next"
+                          <img src="/left-arrow.png" alt="Next"
                             className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"/>
                         </Button>
               
@@ -157,7 +157,7 @@ export const InteractiveSliderSection = (): JSX.Element => {
                               onMouseLeave={() => setHoveredBtn(null)}
                           className="group w-12 h-12 rounded-full border-2 border-[#EAEAEA] bg-[#543d98] flex items-center justify-center group transition-all duration-300">
                           
-                          <img src="/theimpulsedigital.com/right-arrow.png" alt="Next"
+                          <img src="/right-arrow.png" alt="Next"
                             className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"/>
                         </Button>
             </div>
@@ -227,7 +227,7 @@ export const InteractiveSliderSection = (): JSX.Element => {
                               onMouseLeave={() => setHoveredBtn(null)}
                           className="group w-12 h-12 rounded-full border-2 border-[#543d98] bg-white flex items-center justify-center group transition-all duration-300 hover:bg-[#f5f5f5] hover:border-[#543d98]">
                           
-                          <img src="/theimpulsedigital.com/left-arrow.png" alt="Next"
+                          <img src="/left-arrow.png" alt="Next"
                             className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"/>
                         </Button>
               
@@ -237,7 +237,7 @@ export const InteractiveSliderSection = (): JSX.Element => {
                               onMouseLeave={() => setHoveredBtn(null)}
                           className="group w-12 h-12 rounded-full border-2 border-[#EAEAEA] bg-[#543d98] flex items-center justify-center group transition-all duration-300">
                           
-                          <img src="/theimpulsedigital.com/right-arrow.png" alt="Next"
+                          <img src="/right-arrow.png" alt="Next"
                             className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"/>
                         </Button>
           </div><br></br>

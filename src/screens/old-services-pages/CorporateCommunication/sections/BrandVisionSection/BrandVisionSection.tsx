@@ -42,7 +42,7 @@ export const BrandVisionSection = (): JSX.Element => {
           <div className="lg:col-span-2">
             <div className="relative">
               <img
-                src="/theimpulsedigital.com/rectangle-32.png"
+                src="/rectangle-32.png"
                 alt="Brand vision workspace"
                 className="w-full h-[400px] lg:h-[500px] object-cover rounded-2xl shadow-lg"
               />

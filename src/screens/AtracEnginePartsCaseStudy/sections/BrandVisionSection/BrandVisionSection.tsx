@@ -32,7 +32,7 @@ export const BrandVisionSection = (): JSX.Element => {
           <div className="lg:col-span-6">
             <div className="rounded-[28px] overflow-hidden shadow-lg">
               <img
-                src="/theimpulsedigital.com/Atrac Engine Parts.png"
+                src="/Atrac Engine Parts.png"
                 alt="Atrac Engine Parts branded packaging"
                 className="w-full h-full object-cover"
                 loading="lazy"
@@ -90,7 +90,7 @@ export const BrandVisionSection = (): JSX.Element => {
           {/* Factory Image */}
           <div className="rounded-[28px] overflow-hidden shadow-lg">
             <img
-              src="/theimpulsedigital.com/atract-indsutry.png"
+              src="/atract-indsutry.png"
               alt="Atrac Engine Parts manufacturing line"
               className="w-full h-[320px] md:h-[420px] lg:h-[460px] object-cover"
               loading="lazy"
@@ -237,7 +237,7 @@ export const BrandVisionSection = (): JSX.Element => {
           <div className="lg:col-span-6">
             <div className="rounded-[28px] overflow-hidden shadow-lg">
               <img
-                src="/theimpulsedigital.com/atract-manifacturing.png"
+                src="/atract-manifacturing.png"
                 alt="Engine cutaway showing internal components"
                 className="w-full h-[320px] md:h-[420px] lg:h-[460px] object-cover"
                 loading="lazy"

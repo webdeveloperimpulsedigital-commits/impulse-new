@@ -14,19 +14,19 @@ const servicesData: Service[] = [
     number: "01",
     title: "Pay-Per-Click",
     description: ["Ad copywriting", "Bid management", "Landing page optimization", "Target audience analysis"],
-    image: "/theimpulsedigital.com/rectangle-37-6.png",
+    image: "/rectangle-37-6.png",
   },
   {
     number: "02",
     title: "Content Writing Services",
     description: ["Blogs", "Website content creation", "Landing page content", "Corporate communication", "E-Commerce Content Writing"],
-    image: "/theimpulsedigital.com/rectangle-37-7.png",
+    image: "/rectangle-37-7.png",
   },
   {
     number: "03",
     title: "Production",
     description: ["Scriptwriting and Storyboarding", "Facebook and Instagram videography", "YouTube videography", "Voiceover recording"],
-    image: "/theimpulsedigital.com/rectangle-37-6.png",
+    image: "/rectangle-37-6.png",
   },
   {
     number: "04",
@@ -39,7 +39,7 @@ const servicesData: Service[] = [
       "Community Building (Organic & Paid)",
       "Performance Monitoring",
     ],
-    image: "/theimpulsedigital.com/rectangle-37-7.png",
+    image: "/rectangle-37-7.png",
   },
   {
     number: "05",
@@ -51,25 +51,25 @@ const servicesData: Service[] = [
       "Employee Brand Communication Strategy",
       "Employer Brand Awareness Audits",
     ],
-    image: "/theimpulsedigital.com/rectangle-37-6.png",
+    image: "/rectangle-37-6.png",
   },
   {
     number: "06",
     title: "SEO",
     description: ["Enterprise SEO", "E-commerce SEO", "Local SEO", "B2B SEO"],
-    image: "/theimpulsedigital.com/rectangle-37-7.png",
+    image: "/rectangle-37-7.png",
   },
   {
     number: "07",
     title: "Website Development and Design",
     description: ["Website Design", "Website Development", "Website Management", "Website SEO"],
-    image: "/theimpulsedigital.com/rectangle-37-6.png",
+    image: "/rectangle-37-6.png",
   },
   {
     number: "08",
     title: "Branding",
     description: ["Brand Development", "Brand Identity Design", "Logo Design", "Corporate Identity", "Brand Style Guide", "Brand Story Building"],
-    image: "/theimpulsedigital.com/rectangle-37-7.png",
+    image: "/rectangle-37-7.png",
   },
 ];
 
@@ -174,7 +174,7 @@ export const ServicesSection = (): JSX.Element => {
 
               {/* Arrow Icon */}
               <div className="flex w-60 items-start justify-center lg:justify-end pt-2 lg:pt-[7px]">
-                <img className="w-[56px] lg:w-[80px] object-contain" alt="Next" src="/theimpulsedigital.com/Arrow.png" />
+                <img className="w-[56px] lg:w-[80px] object-contain" alt="Next" src="/Arrow.png" />
               </div>
             </CardContent>
           </Card>

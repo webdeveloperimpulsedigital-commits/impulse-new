@@ -13,25 +13,25 @@ const ServicesSection = () => {
   const data = [
     { n:"01", title:"Strategy & Planning",
       points:["Everything about your profile—bio, posts, captions, hashtags—have to speak to your audience. If they don’t, you are wasting your time, money, and effort. Our social media marketing company is strategy-first. This means we dissect your competitors, study the audience, and create pillars that match your brand’s vibe and long-term goals."],
-      img:"/theimpulsedigital.com/service section 520 x 340 - Strategy and Planning.jpg" },
+      img:"/service section 520 x 340 - Strategy and Planning.jpg" },
     { n:"02", title:"Content Creation",
       points:["Your content speaks volumes about you. We make sure it’s the right kind. Every piece is thoughtfully crafted, keeping in mind the format, its aim, and your brand’s messaging. When looked at individually, they are distinct. But when you look at the feed, it all comes together to paint the bigger picture."],
-      img:"/theimpulsedigital.com/service section 520 x 340 - Content Creation.jpg" },
+      img:"/service section 520 x 340 - Content Creation.jpg" },
     { n:"03", title:"Account Management",
       points:["We don’t post and ghost here. Our social media marketing agency manages your account end-to-end, interacting pre- and post-going live with posts, engaging in comments and responding to DMs. This means real-time engagement and real-time conversations for real relationships."],
-      img:"/theimpulsedigital.com/service section 520 x 340 - Account Management.jpg" },
+      img:"/service section 520 x 340 - Account Management.jpg" },
     { n:"04", title:"Advertising",
       points:["While we love organic growth, paid growth has its own place in the industry and we know it. But you know where most people go wrong? They spend too much and think too little. We do the opposite. We strategize and study first, followed by running ads on optimized budgets."],
-      img:"/theimpulsedigital.com/service section 520 x 340 - Advertising.jpg" },
+      img:"/service section 520 x 340 - Advertising.jpg" },
     { n:"05", title:"Analytics and reporting",
       points:["No effort should go wasted. Everything from what your audience is saying about you in their comments and mentions to where they are sharing your content, we listen and learn from everything. And not just once, but every month like clockwork because success requires clockwork activity."],
-      img:"/theimpulsedigital.com/service section 520 x 340 - Analytics and reporting.jpg" },
+      img:"/service section 520 x 340 - Analytics and reporting.jpg" },
     { n:"06", title:"Specialized campaigns",
       points:["The year is filled with special occasions and initiatives. How do you stand out as a brand? Our social media marketing agency creates unique campaigns that change the narrative. These campaigns highlight your brand’s perspective and voice in the sea of noise."],
-      img:"/theimpulsedigital.com/service section 520 x 340 - Specialized campaigns.jpg" },
+      img:"/service section 520 x 340 - Specialized campaigns.jpg" },
     { n:"07", title:"Advanced Services",
       points:["Our social media marketing agency does not stop at basics. We also offer to manage your reputation, track social conversations, analyze sentiments, implement chatbots, automate activities, and create real time interactions. This makes us the best social media marketing agency."],
-      img:"/theimpulsedigital.com/service section 520 x 340 - Advanced services.jpg" }
+      img:"/service section 520 x 340 - Advanced services.jpg" }
   ];
 
   // Desktop: active sticky card (same IntersectionObserver logic)
@@ -244,7 +244,7 @@ const ServicesSection = () => {
                   <div className="shot"><img src={s.img} alt={s.title} /></div>
                 </div>
                 <div className="flex w-60 items-start justify-center lg:justify-end pt-2 lg:pt-[7px]">           
-                  <img src="/theimpulsedigital.com/Arrow.png" alt="Arrow"
+                  <img src="/Arrow.png" alt="Arrow"
                   className="w-[56px] lg:w-[80px] object-contain transition-transform duration-300 group-hover:rotate-45 pointer-events-none"/>
 
                 </div>

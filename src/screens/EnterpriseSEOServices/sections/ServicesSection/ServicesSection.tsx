@@ -27,35 +27,35 @@ const ServicesSection = () => {
     
     { n:"01", title:"E-Commerce SEO",
       points:["You can set up your store, add your products, and share the word, yet there can be zero traffic and no new leads. That’s because your audience is unable to find you and, thus, your product. Zero sales. eCommerce SEO sets you on the right path again. "],
-      img:"/theimpulsedigital.com/service section 520 x 340 - Ecommerce SEO.jpg" },
+      img:"/service section 520 x 340 - Ecommerce SEO.jpg" },
     { n:"02", title:"Local SEO",
       points:["Conquer home and then move to geography unknown. Turn your business’s location into its superpower and beat your competitors strategically. Local SEO can pin you on the local pack, make your business discoverable, and help you set the stage to go global. "],
-      img:"/theimpulsedigital.com/service section 520 x 340 - Local SEO.jpg" },
+      img:"/service section 520 x 340 - Local SEO.jpg" },
     { n:"03", title:"B2B SEO",
       points:["With B2B, your audience isn’t generic. They are key decision-makers, and you need to find out exactly what they are searching for. We make it easier for you with our 6-step, full-proof plan to put your business’s online assets in front of the top decision-makers. "],
-      img:"/theimpulsedigital.com/service section 520 x 340 - B2B SEO.jpg" },
+      img:"/service section 520 x 340 - B2B SEO.jpg" },
     { n:"04", title:"App Store Optimization (ASO)",
       points:["Without ASO, even the greatest apps remain undiscovered. Think about optimizing app titles, descriptions, keywords, visuals, and everything else. Result? Higher app downloads, better rankings, and increased user engagement. Plus, you get to save user acquisition costs. Are you ready for it? We are. "],
-      img:"/theimpulsedigital.com/service section 520 x 340 - App Store Optimization.jpg" },
+      img:"/service section 520 x 340 - App Store Optimization.jpg" },
     { n:"05", title:"International SEO",
       points:["Ready to go global and conquer internationally? This is your chance to connect with your audience across borders, maintain relevance in diverse markets, and penetrate them to expand your reach. Think of one business, multiple geographies, diverse audiences, yet one big family."],
-      img:"/theimpulsedigital.com/service section 520 x 340 - International SEO.jpg" },
+      img:"/service section 520 x 340 - International SEO.jpg" },
     { n:"06", title:"Franchise SEO",
       points:["Bridge the gap between local visibility and national branding by balancing the unique needs of a franchise with the overall brand guidelines. Franchise SEO ensures a unified digital presence while driving local traffic for higher revenues and a competitive edge locally and nationally."],
-      img:"/theimpulsedigital.com/Franchise SEO.jpg" },
+      img:"/Franchise SEO.jpg" },
     { n:"07", title:"Shopify SEO",
       points:["Without SEO, you’d be competing in a saturated eCommerce market with low-quality traffic. Shopify SEO is the answer to enhance the performance of your Shopify stores-better descriptions, site structure, faster site loading, and more. Result? Not just a store but a discoverable and profitable platform."],
-      img:"/theimpulsedigital.com/service section 520 x 340 - Shopify SEO.jpg",
+      img:"/service section 520 x 340 - Shopify SEO.jpg",
     },
     {
       n:"08", title:"Conversion Rate Optimization",
       points:["Got website visitors but no paying customers? We will solve that problem here by analyzing user behavior, improving navigation, and tailoring content to match the audience’s needs. Be ready for an influx of loyal customers."],
-      img:"/theimpulsedigital.com/service section 520 x 340 - Conversion Rate SEO.jpg",
+      img:"/service section 520 x 340 - Conversion Rate SEO.jpg",
     },
     {
       n:"09", title:"Content Marketing",
       points:["What if you are telling the wrong stories to the right audience or vice-versa? That's your 1st challenge. The 2nd challenge is maintaining consistent, engaging content while satisfying search engines. Sounds like a task? It isn’t when you partner with the right team. See what we can do for you."],
-      img:"/theimpulsedigital.com/service section 520 x 340 - Content Marketing SEO.jpg ",
+      img:"/service section 520 x 340 - Content Marketing SEO.jpg ",
     }
   ];
 
@@ -331,7 +331,7 @@ const ServicesSection = () => {
                   <div className="group flex w-60 items-start justify-center lg:justify-end pt-2 lg:pt-[7px]">
                     <a href="">
                       <img
-                        src="/theimpulsedigital.com/Arrow.png"
+                        src="/Arrow.png"
                         alt="Arrow"
                         className="w-[56px] lg:w-[80px] object-contain transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                       />
@@ -389,7 +389,7 @@ const ServicesSection = () => {
                 aria-label="Previous"
               >
                 <img
-                  src="/theimpulsedigital.com/left-arrow.png"
+                  src="/left-arrow.png"
                   alt="Next"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />
@@ -402,7 +402,7 @@ const ServicesSection = () => {
                 aria-label="Next"
               >
                 <img
-                  src="/theimpulsedigital.com/right-arrow.png"
+                  src="/right-arrow.png"
                   alt="Next"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />

@@ -13,32 +13,32 @@ const ServicesSection = () => {
   const data = [
     { n:"01", title:"Google search ads",
       points:["Capture high-intent customers at the precise moment they search for your products or services online. Our Google search ads services leverage strategic keyword targeting and compelling ad copy to drive qualified traffic directly to your website."],
-      img:"/theimpulsedigital.com/service section 520 x 340 - Google search ads.jpg" },
+      img:"/service section 520 x 340 - Google search ads.jpg" },
     { n:"02", title:"Google display ads",
       points:["Want to reach a broader audience? Our Google display ad services will make it possible with creative banners and rich media ads that capture attention, drive interest, and offer targeted advertising solutions across millions of websites and apps."],
-      img:"/theimpulsedigital.com/service section 520 x 340 - Google display ads.jpg" },
+      img:"/service section 520 x 340 - Google display ads.jpg" },
     { n:"03", title:"Google shopping ads",
       points:["Show off your product listing to audiences who are already searching for them. Our PPC services design visually rich ads with high-quality product images, optimized titles and descriptions, and prices to attract customers who are ready to buy."],
-      img:"/theimpulsedigital.com/service section 520 x 340 - Google shopping ads.jpg" },
+      img:"/service section 520 x 340 - Google shopping ads.jpg" },
     { n:"04", title:"Google Performance max ads",
       points:["Merge your digital advertising efforts across Search, Display, YouTube, and more with 1 single campaign. Our PPC services harness machine learning to optimize this goal-based campaign automatically to ensure your ads reach valuable consumers online."],
-      img:"/theimpulsedigital.com/service section 520 x 340 - Google Performance max ads.jpg" },
+      img:"/service section 520 x 340 - Google Performance max ads.jpg" },
     { n:"05", title:"Meta Branding & Lead Gen",
       points:["Bring together the power of strategic brand storytelling with targeted lead generation techniques on Meta platforms. We craft creative content and visually appealing ads tailored for Facebook and Instagram to focus on both brand awareness and conversions."],
-      img:"/theimpulsedigital.com/service section 520 x 340 - Meta ads & lead gen.jpg" },
+      img:"/service section 520 x 340 - Meta ads & lead gen.jpg" },
     { n:"06", title:"Amazon Sales & Branding",
       points:["Our Amazon Sales & Branding PPC services focus on optimizing your presence on the world’s largest online marketplace. Our team crafts targeted ad strategies and engaging content that reflect your brand’s identity, ensuring your listing stands out."],
-      img:"/theimpulsedigital.com/service section 520 x 340 - Amazon Sales & Branding.jpg" },
+      img:"/service section 520 x 340 - Amazon Sales & Branding.jpg" },
     { n:"07", title:"LinkedIn Ads",
       points:["Want to reach out to decision-makers at top companies in the world? Our highly targeted LinkedIn ads leverage detailed demographic and job role data to connect you with the right audience to support your business’s sustainable growth in the B2B arena."],
-      img:"/theimpulsedigital.com/service section 520 x 340 - Amazon Sales & Branding.jpg" },
+      img:"/service section 520 x 340 - Amazon Sales & Branding.jpg" },
     { n:"08", title:"Twitter Ads",
       points:["Reach an engaged audience with real-time messaging, thanks to your PPC services for Twitter ads that capture attention through concise, impactful copy and eye-catching visuals. Our experts continually monitor campaigns and adjust strategies to maintain relevance in the fast-paced Twitter environment."],
-      img:"/theimpulsedigital.com/service section 520 x 340 - Linkedin Ads.jpg" },
+      img:"/service section 520 x 340 - Linkedin Ads.jpg" },
     {
       n:"09", title:"YouTube Ads",
       points:["Leverage audience insights to place your ads in front of interested viewers for maximum impact. Our ad experts combine engaging visuals, persuasive copy and strategic CTA to boost your conversions, expand your reach, and solidify your online presence."],
-      img:"/theimpulsedigital.com/service section 520 x 340 - Youtube Ads.jpg"
+      img:"/service section 520 x 340 - Youtube Ads.jpg"
     }
   ];
 
@@ -252,7 +252,7 @@ const ServicesSection = () => {
                   <div className="shot"><img src={s.img} alt={s.title} /></div>
                 </div>
                 <div className="flex w-60 items-start justify-center lg:justify-end pt-2 lg:pt-[7px]">           
-                  <img src="/theimpulsedigital.com/Arrow.png" alt="Arrow"
+                  <img src="/Arrow.png" alt="Arrow"
                   className="w-[56px] lg:w-[80px] object-contain transition-transform duration-300 group-hover:rotate-45 pointer-events-none"/>
 
                 </div>

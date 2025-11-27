@@ -192,7 +192,7 @@ export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
             <img
               className="w-[100px] sm:w-[120px] sm:h-[90px] md:w-[148px] md:h-[82px] lg:w-[150px] object-contain pt-2 pl-8 pb-2"
               alt="Impulse Digital Logo"
-              src="/theimpulsedigital.com/header-logo.png"
+              src="/header-logo.png"
             />
           </Link>
 
@@ -284,7 +284,7 @@ export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
               Contact Us
             </Link>
             <img
-              src="/theimpulsedigital.com/vector-1-3.svg"
+              src="/vector-1-3.svg"
               alt="Arrow"
               className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert pointer-events-none"
             />
@@ -348,7 +348,7 @@ export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
                   Contact Us
                 </Link>
                 <img
-                  src="/theimpulsedigital.com/vector-1-3.svg"
+                  src="/vector-1-3.svg"
                   alt="Arrow"
                   className="w-4 h-4 transition-transform duration-200 pointer-events-none
                     [@media(hover:hover)]:group-hover:rotate-45

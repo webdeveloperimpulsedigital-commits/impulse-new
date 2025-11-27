@@ -18,10 +18,10 @@ export const FeaturedItemsSection = (): JSX.Element => {
   ];
 
   const profileImages = [
-    { src: "/theimpulsedigital.com/rectangle-41.png", alt: "Profile 1" },
-    { src: "/theimpulsedigital.com/rectangle-42.png", alt: "Profile 2" },
-    { src: "/theimpulsedigital.com/rectangle-43.png", alt: "Profile 3" },
-    { src: "/theimpulsedigital.com/rectangle-44.png", alt: "Profile 4" },
+    { src: "/rectangle-41.png", alt: "Profile 1" },
+    { src: "/rectangle-42.png", alt: "Profile 2" },
+    { src: "/rectangle-43.png", alt: "Profile 3" },
+    { src: "/rectangle-44.png", alt: "Profile 4" },
   ];
 
   const heroTextLines = ["TURNING", "YOUR BUSINESS", "INTO A BRAND"];
@@ -42,9 +42,9 @@ export const FeaturedItemsSection = (): JSX.Element => {
     loop
     playsInline
     preload="metadata"
-    poster="/theimpulsedigital.com/rectangle-35.png"
+    poster="/rectangle-35.png"
   >
-    <source src="/theimpulsedigital.com/bg-video.mp4" type="video/mp4" />
+    <source src="/bg-video.mp4" type="video/mp4" />
     
   </video>
 
@@ -63,7 +63,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
               <img
                 className="w-[120px] h-[53px] sm:w-[148.41px] sm:h-[66px]"
                 alt="Logo"
-                src="/theimpulsedigital.com/frame-2147224428.svg"
+                src="/frame-2147224428.svg"
               />
 
               {/* Desktop Navigation */}
@@ -96,7 +96,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
                 <img
                   className="w-[18px] h-[18px]"
                   alt="Vector"
-                  src="/theimpulsedigital.com/vector-1-3.svg"
+                  src="/vector-1-3.svg"
                 />
               </Button>
 
@@ -143,7 +143,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
                     <img
                       className="w-[18px] h-[18px]"
                       alt="Vector"
-                      src="/theimpulsedigital.com/vector-1-3.svg"
+                      src="/vector-1-3.svg"
                     />
                   </Button>
                 </div>

@@ -1,6 +1,6 @@
 import React, { useEffect, useLayoutEffect, useRef, useState } from "react";
-// If your Vite base may change, importing the asset is safest. Otherwise keep your <img src="/theimpulsedigital.com/logo.svg" />
-// import logoUrl from "/theimpulsedigital.com/logo.svg";
+// If your Vite base may change, importing the asset is safest. Otherwise keep your <img src="/logo.svg" />
+// import logoUrl from "/logo.svg";
 
 interface ScrollRevealLogoProps {
   className?: string;
@@ -423,7 +423,7 @@ export const ScrollRevealLogo: React.FC<ScrollRevealLogoProps> = ({ className = 
       <img
         className={`w-full h-full ${prefersReducedMotion ? "" : "spin"}`}
         alt=""
-        src="/theimpulsedigital.com/logo.svg"
+        src="/logo.svg"
         draggable={false}
       />
 

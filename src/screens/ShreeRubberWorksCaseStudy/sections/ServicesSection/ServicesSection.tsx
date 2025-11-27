@@ -86,7 +86,7 @@ const ServicesSection = () => {
         <div className="flex justify-center">
           <div className="bg-white rounded-2xl shadow-lg overflow-hidden max-w-[980px] w-full border border-[#EAEAEA]">
             <img
-              src="/theimpulsedigital.com/SEO performance.png"
+              src="/SEO performance.png"
               alt="SEO performance and analytics dashboard"
               className="w-full h-auto object-cover"
             />

@@ -107,7 +107,7 @@ export const BrandVisionSection = (): JSX.Element => {
           <div className="lg:col-span-6">
             <div className="relative rounded-[28px] overflow-hidden shadow-lg">
               <img
-                src="/theimpulsedigital.com/Grasim Pulp and Fibre.png"
+                src="/Grasim Pulp and Fibre.png"
                 alt="Grasim Pulp and Fibre LinkedIn visual"
                 className="w-full h-[260px] md:h-[340px] lg:h-[380px] object-cover"
                 loading="lazy"
@@ -278,7 +278,7 @@ export const BrandVisionSection = (): JSX.Element => {
           <div className="lg:col-span-5">
             <div className="relative rounded-[28px] overflow-hidden shadow-lg">
               <img
-                src="/theimpulsedigital.com/journey-dartboard.png"
+                src="/journey-dartboard.png"
                 alt="Target representing performance goals"
                 className="w-full h-[260px] md:h-[340px] lg:h-[380px] object-cover"
                 loading="lazy"

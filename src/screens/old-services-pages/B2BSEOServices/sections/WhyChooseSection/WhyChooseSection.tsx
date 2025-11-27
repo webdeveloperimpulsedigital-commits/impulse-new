@@ -18,7 +18,7 @@ export const WhyChooseSection = (): JSX.Element => {
           <div className="order-1">
             <div className="relative overflow-hidden rounded-xl shadow-lg">
               <img
-                src="/theimpulsedigital.com/seo why chooose us section 576 x 400 1.jpg"
+                src="/seo why chooose us section 576 x 400 1.jpg"
                 alt="Person working on laptop with CONTENT text visible on screen"
                 className="w-full h-[400px] object-cover hover:scale-105 transition-transform duration-300"
               />
@@ -52,7 +52,7 @@ export const WhyChooseSection = (): JSX.Element => {
           <div className="order-1 lg:order-2">
             <div className="relative overflow-hidden rounded-xl shadow-lg">
               <img
-                src="/theimpulsedigital.com/seo why chooose us section 576 x 400 2.jpg"
+                src="/seo why chooose us section 576 x 400 2.jpg"
                 alt="Hands working on creative content with colorful sticky notes"
                 className="w-full h-[400px] object-cover hover:scale-105 transition-transform duration-300"
               />
@@ -66,7 +66,7 @@ export const WhyChooseSection = (): JSX.Element => {
           <div className="w-full">
             <div className="relative overflow-hidden rounded-2xl shadow-lg">
               <img
-                src="/theimpulsedigital.com/seo why choose us section 1202 x 400 1.jpg"
+                src="/seo why choose us section 1202 x 400 1.jpg"
                 alt="Laptop showing content strategy planning with charts and graphs"
                 className="w-full h-[300px] lg:h-[400px] object-cover hover:scale-105 transition-transform duration-300"
               />
@@ -90,7 +90,7 @@ export const WhyChooseSection = (): JSX.Element => {
           <div className="order-1">
             <div className="relative overflow-hidden rounded-xl shadow-lg">
               <img
-                src="/theimpulsedigital.com/seo why chooose us section 576 x 400 3.jpg"
+                src="/seo why chooose us section 576 x 400 3.jpg"
                 alt="Person working on laptop with CONTENT text visible on screen"
                 className="w-full h-[400px] object-cover hover:scale-105 transition-transform duration-300"
               />
@@ -124,7 +124,7 @@ export const WhyChooseSection = (): JSX.Element => {
           <div className="order-1 lg:order-2">
             <div className="relative overflow-hidden rounded-xl shadow-lg">
               <img
-                src="/theimpulsedigital.com/seo why chooose us section 576 x 400 4.jpg"
+                src="/seo why chooose us section 576 x 400 4.jpg"
                 alt="Hands working on creative content with colorful sticky notes"
                 className="w-full h-[400px] object-cover hover:scale-105 transition-transform duration-300"
               />
@@ -138,7 +138,7 @@ export const WhyChooseSection = (): JSX.Element => {
           <div className="w-full">
             <div className="relative overflow-hidden rounded-2xl shadow-lg">
               <img
-                src="/theimpulsedigital.com/seo why choose us section 1202 x 400 2.jpg"
+                src="/seo why choose us section 1202 x 400 2.jpg"
                 alt="Laptop showing content strategy planning with charts and graphs"
                 className="w-full h-[300px] lg:h-[400px] object-cover hover:scale-105 transition-transform duration-300"
               />

@@ -39,7 +39,7 @@ export const AiSeoAgencyHeroSection = (): JSX.Element => {
           playsInline
           preload="metadata"
           aria-hidden="true">
-          <source src="/theimpulsedigital.com/bg-video.mp4" type="video/mp4" />
+          <source src="/bg-video.mp4" type="video/mp4" />
         </video>
 
         {/* Overlay layer for dark tint */}

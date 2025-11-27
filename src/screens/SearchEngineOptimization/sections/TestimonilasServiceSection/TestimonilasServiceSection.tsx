@@ -38,7 +38,7 @@ export const TestimonilasServiceSection = (): JSX.Element => {
         company: "HEM Incense",
         content:
           "Our experience of working with the Impulse team has always matched our utmost satisfaction. From starting our new website until today, their dedication, work, and assistance have helped us increase our organic traffic to 300% and increased our lead generation to 150 leads monthly. In addition, their well-focused work has benefited both of our B2B websites. Indeed a team of experts who are always ready to guide and assist you.",
-        avatar: "/theimpulsedigital.com/rectangle-411.png",
+        avatar: "/rectangle-411.png",
         location: "Mumbai",
       },
       {
@@ -48,7 +48,7 @@ export const TestimonilasServiceSection = (): JSX.Element => {
         company: "Laljee Godhoo & Co",
         content:
           "We love the freshness and authentic ideas team ID comes up with. They definitely take the customers ideas and vision of their company into consideration and work collaboratively. Great team to work with, no fuss!",
-        avatar: "/theimpulsedigital.com/riddhi.jpg",
+        avatar: "/riddhi.jpg",
         location: "Mumbai",
       },
       {
@@ -58,7 +58,7 @@ export const TestimonilasServiceSection = (): JSX.Element => {
         company: "Goma Engineering",
         content:
           "What I love about the Impulse Digital team is that they are enthusiastic. They are always coming up with genuine suggestions and honest feedback to improve our processes hence ensuring noteworthy results!",
-        avatar: "/theimpulsedigital.com/rectangle-433.png",
+        avatar: "/rectangle-433.png",
         location: "Mumbai",
       },
       {
@@ -68,7 +68,7 @@ export const TestimonilasServiceSection = (): JSX.Element => {
         company: "Rhodius Dental",
         content:
           "Team Impulse Digital is very helpful and innovative when it comes to crafting digital marketing strategies for us. The best part about working with them is their respect for the strict timelines and the brand values. Even though we are in Pune and they are based in Mumbai, communication and coordination is never a problem and the work gets done efficiently.",
-        avatar: "/theimpulsedigital.com/Rajesh.jpg",
+        avatar: "/Rajesh.jpg",
         location: "Pune",
       },
       {
@@ -78,7 +78,7 @@ export const TestimonilasServiceSection = (): JSX.Element => {
         company: "Vendiman",
         content:
           "Working with Impulse Digital has been an absolute delight. They have a good grasp of the briefs given and their agility, innovative creativity, and professionalism concerning deadlines is what sets them apart. The transformation in our SEO, PPC, and social media management has been incredible, our ranking to the first within three months with 90% of the keywords.",
-        avatar: "/theimpulsedigital.com/riya.jpg",
+        avatar: "/riya.jpg",
         location: "Mumbai",
       },
       {
@@ -88,7 +88,7 @@ export const TestimonilasServiceSection = (): JSX.Element => {
         company: "Rafter Group",
         content:
           "I have been working with Impulse Digital team for almost 3 years. They have always been ready to help and find solution for any challenge. The Word 'NO' does not exist in their dictionary which is rare to find in many agencies. I wish all good luck and ETA of future to Impulse!",
-        avatar: "/theimpulsedigital.com/zia.jpg",
+        avatar: "/zia.jpg",
         location: "Mumbai",
       },
       {
@@ -98,7 +98,7 @@ export const TestimonilasServiceSection = (): JSX.Element => {
         company: "AUTOMAG India",
         content:
           "We first worked with Impulse Digital for our website design, which received great feedback from our management and clients. Impressed by their work, we also trusted them with SEO - and the results have been outstanding. Our organic leads grew from just 1–2 a month to over 20–25 quality B2B leads consistently. The team truly understood our business and delivered results that speak for themselves.",
-        avatar: "/theimpulsedigital.com/vikram.jpg",
+        avatar: "/vikram.jpg",
         location: "Pune",
       },
       {
@@ -108,7 +108,7 @@ export const TestimonilasServiceSection = (): JSX.Element => {
         company: "Shree Rubber Works",
         content:
           "Partnering with Impulse Digital completely transformed our online presence. They revamped our website and implemented effective SEO strategies that grew our impressions by over 3,500% in just 5 months. We now receive quality leads from India and overseas, with major keywords ranking in the top 10. Their expertise and commitment truly made a difference - highly recommended!",
-        avatar: "/theimpulsedigital.com/Samrat.jpg",
+        avatar: "/Samrat.jpg",
         location: "Navi Mumbai",
       },
     ],
@@ -152,7 +152,7 @@ export const TestimonilasServiceSection = (): JSX.Element => {
         </div>
         <div style={{ width: "10%" }}>
           <img
-            src="/theimpulsedigital.com/Vector 1.png"
+            src="/Vector 1.png"
             alt="Quote icon"
             className="w-4 h-4 md:w-6 md:h-6"
           />
@@ -207,7 +207,7 @@ export const TestimonilasServiceSection = (): JSX.Element => {
           className="mobile-prev grid place-items-center w-12 h-12 rounded-full bg-white shadow border border-gray-200 active:scale-95"
         >
           <img
-            src="/theimpulsedigital.com/left-arrow.png"
+            src="/left-arrow.png"
             alt="Prev"
             className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
           />
@@ -217,7 +217,7 @@ export const TestimonilasServiceSection = (): JSX.Element => {
           className="mobile-next grid place-items-center w-12 h-12 rounded-full shadow border border-gray-200 active:scale-95"
         >
           <img
-            src="/theimpulsedigital.com/right-arrow.png"
+            src="/right-arrow.png"
             alt="Next"
             className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
           />

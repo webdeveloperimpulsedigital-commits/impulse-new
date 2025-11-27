@@ -13,10 +13,10 @@ const ServicesSection = () => {
   const data = [
     { n:"01", title:"Employee Value Proposition (EVP)",
       points:["Put forth your unique set of benefits and experience you have to offer to your employees. With a strong EVP that boosts engagement, aligns personal and professional aspirations, and clearly communicates, you are ensuring that your employees have a compelling reason to join, stay, thrive, and refer your organization."],
-      img:"/theimpulsedigital.com/employee  service section 520 x 340 - Employee Value Proposition.jpg" },
+      img:"/employee  service section 520 x 340 - Employee Value Proposition.jpg" },
     { n:"02", title:"Recruitment Marketing",
       points:["If you think recruitment is just attractive packages, think again. Today, it is about what you have to offer as a company. By creating a strong narrative about your company’s vision, mission, culture, and practices, recruitment marketing builds a strong pipeline of candidates even before the hiring process begins."],
-      img:"/theimpulsedigital.com/employee  service section 520 x 340 - Recruitment Marketing.jpg" },
+      img:"/employee  service section 520 x 340 - Recruitment Marketing.jpg" },
     
   ];
 
@@ -230,7 +230,7 @@ const ServicesSection = () => {
                   <div className="shot"><img src={s.img} alt={s.title} /></div>
                 </div>
                 <div className="flex w-60 items-start justify-center lg:justify-end pt-2 lg:pt-[7px]">           
-                  <img src="/theimpulsedigital.com/Arrow.png" alt="Arrow"
+                  <img src="/Arrow.png" alt="Arrow"
                   className="w-[56px] lg:w-[80px] object-contain transition-transform duration-300 group-hover:rotate-45 pointer-events-none"/>
 
                 </div>

@@ -30,7 +30,7 @@ const ServicesSection = () => {
     points: [
       "At Impulse Digital, we optimize for the next era of search, ensuring your brand is discoverable across AI-driven engines and voice assistants through context-rich, conversational content.",
     ],
-    img: "/theimpulsedigital.com/aeo.jpg", // change if you have a different image
+    img: "/aeo.jpg", // change if you have a different image
   },
 
   {
@@ -39,7 +39,7 @@ const ServicesSection = () => {
     points: [
       "We craft content that earns your brand a place in AI-generated answers, summaries, and recommendations—making sure you stay visible where audiences seek instant insights.",
     ],
-    img: "/theimpulsedigital.com/geo.jpg", // change if needed
+    img: "/geo.jpg", // change if needed
   },
 
   {
@@ -48,7 +48,7 @@ const ServicesSection = () => {
     points: [
       "Powered by leading AI tools and automation, we combine data intelligence with creativity to deliver SEO strategies that adapt, perform, and scale in real time.",
     ],
-    img: "/theimpulsedigital.com/ai-platforms.jpg", // change if needed
+    img: "/ai-platforms.jpg", // change if needed
   },
 ];
 
@@ -295,7 +295,7 @@ const ServicesSection = () => {
                       tabIndex={-1}
                     >
                       <img
-                        src="/theimpulsedigital.com/Arrow.png"
+                        src="/Arrow.png"
                         alt=""
                         aria-hidden="true"
                         className="w-[56px] lg:w-[80px] object-contain transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
@@ -351,7 +351,7 @@ const ServicesSection = () => {
                 aria-label="Previous"
               >
                 <img
-                  src="/theimpulsedigital.com/left-arrow.png"
+                  src="/left-arrow.png"
                   alt="Previous"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />
@@ -364,7 +364,7 @@ const ServicesSection = () => {
                 aria-label="Next"
               >
                 <img
-                  src="/theimpulsedigital.com/right-arrow.png"
+                  src="/right-arrow.png"
                   alt="Next"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />

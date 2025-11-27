@@ -30,24 +30,24 @@ export const FooterSection: React.FC = () => {
               <img
                 className="footer-logo"
                 alt="footer Logo"
-                src="/theimpulsedigital.com/footer-logo.png"
+                src="/footer-logo.png"
               />
             </div>
             <div className="footer__social">
               <a href="#" aria-label="Facebook" className="footer__socialBtn">
-                <img src="/theimpulsedigital.com/Facebook.png" alt="Facebook" />
+                <img src="/Facebook.png" alt="Facebook" />
               </a>
               <a href="#" aria-label="X" className="footer__socialBtn">
-                <img src="/theimpulsedigital.com/twitter.png" alt="Twitter" />
+                <img src="/twitter.png" alt="Twitter" />
               </a>
               <a href="#" aria-label="Instagram" className="footer__socialBtn">
-                <img src="/theimpulsedigital.com/instagram.png" alt="Instagram" />
+                <img src="/instagram.png" alt="Instagram" />
               </a>
               <a href="#" aria-label="LinkedIn" className="footer__socialBtn">
-                <img src="/theimpulsedigital.com/linkedin.png" alt="LinkedIn" />
+                <img src="/linkedin.png" alt="LinkedIn" />
               </a>
               <a href="#" aria-label="YouTube" className="footer__socialBtn">
-                <img src="/theimpulsedigital.com/youtube.png" alt="YouTube" />
+                <img src="/youtube.png" alt="YouTube" />
               </a>
             </div>
           </div>
@@ -70,10 +70,10 @@ export const FooterSection: React.FC = () => {
             </ul>
             <ul className="footer__col">
               <strong>Locations</strong>
-              <li><a href="/theimpulsedigital.com/digital-marketing-agency-in-india">India</a></li>
-              <li><a href="/theimpulsedigital.com/agency-in-thane">Thane</a></li>
-              <li><a href="/theimpulsedigital.com/agency-in-navi-mumbai">Navi Mumbai</a></li>
-              <li><a href="/theimpulsedigital.com/agency-in-pune">Pune</a></li>
+              <li><a href="/digital-marketing-agency-in-india">India</a></li>
+              <li><a href="/agency-in-thane">Thane</a></li>
+              <li><a href="/agency-in-navi-mumbai">Navi Mumbai</a></li>
+              <li><a href="/agency-in-pune">Pune</a></li>
             </ul>
           </nav>
 
@@ -81,14 +81,14 @@ export const FooterSection: React.FC = () => {
           <div className="footer__contact">
             <div className="footer__contactItem">
               <span className="footer__circleIcon">
-                <img src="/theimpulsedigital.com/footer-call.png" alt="Phone" />
+                <img src="/footer-call.png" alt="Phone" />
               </span>
               <a href="tel:+919769285224">+91–9769285224</a>
             </div>
 
             <div className="footer__contactItem">
               <span className="footer__circleIcon">
-                <img src="/theimpulsedigital.com/sms.png" alt="Email" />
+                <img src="/sms.png" alt="Email" />
               </span>
               <a href="mailto:collabs@theimpulsedigital.com">
                 collabs@theimpulsedigital.com
@@ -97,7 +97,7 @@ export const FooterSection: React.FC = () => {
 
             <div className="footer__contactItem footer__address">
               <span className="footer__circleIcon">
-                <img src="/theimpulsedigital.com/footer-location.png" alt="Location" />
+                <img src="/footer-location.png" alt="Location" />
               </span>
               304 – 305, Chirag Infotech, Road No. 16/Z,
               Ambica Nagar, Wagle Industrial Estate,
@@ -149,7 +149,7 @@ export const FooterSection: React.FC = () => {
               Contact Us
             </Link>
             <img
-              src="/theimpulsedigital.com/vector-1-3.svg"
+              src="/vector-1-3.svg"
               alt="Arrow"
               className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert pointer-events-none"
             />

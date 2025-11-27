@@ -91,7 +91,7 @@ export const FAQSection: React.FC<{ items?: QA[] }> = ({ items = DEFAULT_QA }) =
              <Button 
             className="w-[180px] h-[44px] group sm:inline-flex items-center gap-2 px-4 py-6 bg-[#543d98] hover:bg-[#543d98]/90  rounded-xl  text-white">
             <Link to="/contact" className="[font-family:'DM_Sans',Helvetica] font-bold text-white text-sm md:text-base">Hit a Direct Mail</Link>
-            <img src="/theimpulsedigital.com/button-icon.svg" alt="Arrow"
+            <img src="/button-icon.svg" alt="Arrow"
               className="w-4 h-4 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"/>
           </Button>
           </div>

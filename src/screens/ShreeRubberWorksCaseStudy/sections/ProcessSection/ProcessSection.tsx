@@ -58,11 +58,11 @@ export const ProcessSection = (): JSX.Element => {
                 controls
                 playsInline
                 // optional: add poster if you have a thumbnail
-                // poster="/theimpulsedigital.com/testimonial-poster.jpg"
+                // poster="/testimonial-poster.jpg"
               >
                 {/* 🔁 Replace src below with your actual video path */}
                 <source
-                  src="/theimpulsedigital.com/SRW.mp4"
+                  src="/SRW.mp4"
                   type="video/mp4"
                 />
                 Your browser does not support the video tag.
@@ -181,7 +181,7 @@ export const ProcessSection = (): JSX.Element => {
           <div className="lg:col-span-5">
             <div className="rounded-[28px] overflow-hidden shadow-lg">
               <img
-                src="/theimpulsedigital.com/Team reviewing performance dashboards in a meeting.png"
+                src="/Team reviewing performance dashboards in a meeting.png"
                 alt="Team reviewing performance dashboards in a meeting"
                 className="w-full h-full object-cover"
                 loading="lazy"

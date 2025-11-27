@@ -4,15 +4,15 @@ import "./SearchEngineOptimizationSEOPPT.css"; // ← ensure file name EXACTLY m
 type Slide = { id: string; title: string; image: string; href: string };
 
 const SLIDES: Slide[] = [
-  { id: "1", title: "Embracing LGBTQ+ Pride in 2023", image: "/theimpulsedigital.com/ppt1.jpg", href: "https://www.slideshare.net/theimpulsedigital/lgbtq-pride" },
-  { id: "2", title: "How Emotions Drive Advertising", image: "/theimpulsedigital.com/ppt2.jpg", href: "https://www.slideshare.net/theimpulsedigital/emotional-advertising" },
-  { id: "3", title: "Why Employer Branding Matters", image: "/theimpulsedigital.com/ppt3.jpg", href: "https://www.slideshare.net/theimpulsedigital/employer-branding-plan" },
-  { id: "4", title: "Planning to Order from ONDC?", image: "/theimpulsedigital.com/ppt4.jpg", href: "https://www.slideshare.net/theimpulsedigital/ondc-planning" },
-  { id: "5", title: "Apple’s VR: What Changes for Marketers", image: "/theimpulsedigital.com/ppt5.jpg", href: "https://www.slideshare.net/theimpulsedigital/apple-vr-marketing" },
-  { id: "6", title: "Father’s Day: Brand Playbook", image: "/theimpulsedigital.com/ppt6.jpg", href: "https://www.slideshare.net/theimpulsedigital/fathers-day-campaign" },
-  { id: "7", title: "ONDC: Key Takeaways", image: "/theimpulsedigital.com/ppt7.jpg", href: "https://www.slideshare.net/theimpulsedigital/ondc-report" },
-  { id: "8", title: "Best AI Tools for India", image: "/theimpulsedigital.com/ppt8.jpg", href: "https://www.slideshare.net/theimpulsedigital/ai-tools" },
-  { id: "9", title: "B2B Entrepreneur’s Guide", image: "/theimpulsedigital.com/ppt9.jpg", href: "https://www.slideshare.net/theimpulsedigital/b2b-guide" },
+  { id: "1", title: "Embracing LGBTQ+ Pride in 2023", image: "/ppt1.jpg", href: "https://www.slideshare.net/theimpulsedigital/lgbtq-pride" },
+  { id: "2", title: "How Emotions Drive Advertising", image: "/ppt2.jpg", href: "https://www.slideshare.net/theimpulsedigital/emotional-advertising" },
+  { id: "3", title: "Why Employer Branding Matters", image: "/ppt3.jpg", href: "https://www.slideshare.net/theimpulsedigital/employer-branding-plan" },
+  { id: "4", title: "Planning to Order from ONDC?", image: "/ppt4.jpg", href: "https://www.slideshare.net/theimpulsedigital/ondc-planning" },
+  { id: "5", title: "Apple’s VR: What Changes for Marketers", image: "/ppt5.jpg", href: "https://www.slideshare.net/theimpulsedigital/apple-vr-marketing" },
+  { id: "6", title: "Father’s Day: Brand Playbook", image: "/ppt6.jpg", href: "https://www.slideshare.net/theimpulsedigital/fathers-day-campaign" },
+  { id: "7", title: "ONDC: Key Takeaways", image: "/ppt7.jpg", href: "https://www.slideshare.net/theimpulsedigital/ondc-report" },
+  { id: "8", title: "Best AI Tools for India", image: "/ppt8.jpg", href: "https://www.slideshare.net/theimpulsedigital/ai-tools" },
+  { id: "9", title: "B2B Entrepreneur’s Guide", image: "/ppt9.jpg", href: "https://www.slideshare.net/theimpulsedigital/b2b-guide" },
 ];
 
 export const SlideSharePPT = (): JSX.Element => {

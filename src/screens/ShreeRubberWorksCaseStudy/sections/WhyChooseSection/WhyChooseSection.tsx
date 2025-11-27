@@ -19,7 +19,7 @@ export const WhyChooseSection = (): JSX.Element => {
             <div className="lg:col-span-6">
               <div className="relative overflow-hidden rounded-[28px] shadow-lg">
                 <img
-                  src="/theimpulsedigital.com/map.png"
+                  src="/map.png"
                   alt="Global map with connected markets"
                   className="w-full h-[340px] md:h-[420px] lg:h-[480px] object-cover"
                   loading="lazy"
@@ -107,7 +107,7 @@ export const WhyChooseSection = (): JSX.Element => {
             <div className="lg:col-span-6">
               <div className="relative overflow-hidden rounded-[28px] shadow-lg">
                 <img
-                  src="/theimpulsedigital.com/Transformation Journey image.png"
+                  src="/Transformation Journey image.png"
                   alt="Before and after analytics dashboard"
                   className="w-full h-[340px] md:h-[420px] lg:h-[480px] object-cover"
                   loading="lazy"

@@ -14,28 +14,28 @@ const ServicesSection = () => {
      const data = [
     { n:"01", title:"Pay-Per-Click",
       points:["Ad copywriting","Bid management","Landing page optimization","Target audience analysis"],
-      img:"/theimpulsedigital.com/Pay-Per-Click.jpg" },
+      img:"/Pay-Per-Click.jpg" },
     { n:"02", title:"Content Writing Services",
       points:["Blogs","Website content creation","Landing page content","Corporate communication","E-commerce content writing"],
-      img:"/theimpulsedigital.com/02_Content Writing.jpg" },
+      img:"/02_Content Writing.jpg" },
     { n:"03", title:"Production",
       points:["Scriptwriting & storyboarding","Facebook & Instagram videography","YouTube videography","Voiceover recording"],
-       img:"/theimpulsedigital.com/03_Production.jpg" },
+       img:"/03_Production.jpg" },
     { n:"04", title:"Social Media Marketing",
       points:["Social Media Profile Creation","Social Media Marketing","Online reputation management","Campaign creation & management","Community building (organic & paid)","Performance monitoring"],
-      img:"/theimpulsedigital.com/04_Social Media Marketing.jpg" },
+      img:"/04_Social Media Marketing.jpg" },
     { n:"05", title:"Employer Branding",
       points:["Social Media Management","Recruitment Marketing","Employee Value Proposition","Employee Brand Communication Strategy","Employer Brand Awareness Audits"],
-      img:"/theimpulsedigital.com/05_Employer Branding.jpg"},
+      img:"/05_Employer Branding.jpg"},
     { n:"06", title:"SEO",
       points:["Enterprise SEO","E-commerce SEO","Local SEO","B2B SEO"],
-      img:"/theimpulsedigital.com/06_SEO.jpg"},
+      img:"/06_SEO.jpg"},
     { n:"07", title:"Website Development & Design",
       points:["Website Design","Website Development","Website Management","Website SEO"],
-      img:"/theimpulsedigital.com/07_Website Development.jpg"},
+      img:"/07_Website Development.jpg"},
     { n:"08", title:"Branding",
       points:["Brand Development","Brand Identity Design","Logo Design","Corporate Identity","Brand Style Guide","Brand Story Building"],
-      img:"/theimpulsedigital.com/08_Branding.jpg"},
+      img:"/08_Branding.jpg"},
   ];
   
 
@@ -249,7 +249,7 @@ const ServicesSection = () => {
                   <div className="shot"><img src={s.img} alt={s.title} /></div>
                 </div>
                 <div className="flex w-60 items-start justify-center lg:justify-end pt-2 lg:pt-[7px]">           
-                  <img src="/theimpulsedigital.com/Arrow.png" alt="Arrow"
+                  <img src="/Arrow.png" alt="Arrow"
                   className="w-[56px] lg:w-[80px] object-contain transition-transform duration-300 group-hover:rotate-45 pointer-events-none"/>
 
                 </div>

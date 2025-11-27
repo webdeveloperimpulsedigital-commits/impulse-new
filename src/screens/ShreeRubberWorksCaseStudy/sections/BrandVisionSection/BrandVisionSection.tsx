@@ -115,7 +115,7 @@ export const BrandVisionSection = (): JSX.Element => {
           {/* LEFT IMAGE */}
           <div className="rounded-2xl overflow-hidden shadow-md">
             <img
-              src="/theimpulsedigital.com/team-discussion.png"
+              src="/team-discussion.png"
               alt="Team discussion and analytics dashboard"
               className="w-full h-full object-cover"
             />

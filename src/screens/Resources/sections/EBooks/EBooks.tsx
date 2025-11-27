@@ -15,16 +15,16 @@ export const Ebook = (): JSX.Element => {
       title: "TO WHAT EXTENT HAS COVID19 PUSHED THE DIGITAL TRANSFORMATION",
       description:
         "Understand how the COVID19 lockdown accelerated digital adoption, reshaped industries, and influenced consumer behavior across platforms.",
-      image: "/theimpulsedigital.com/ID_Banner-11.jpg",
-      pdf: "/theimpulsedigital.com/pdfs/covid-digital-transformation.pdf",
+      image: "/ID_Banner-11.jpg",
+      pdf: "/pdfs/covid-digital-transformation.pdf",
     },
     {
       id: "covid-consumer-behaviour",
       title: "HOW COVID HAS CHANGED CONSUMER BEHAVIOUR",
       description:
         "Explore how COVID19 impacted purchasing behavior, digital usage trends, and what it means for brands in the post-pandemic world.",
-      image: "/theimpulsedigital.com/ebook-baner6.jpg",
-      pdf: "/theimpulsedigital.com/pdfs/covid-consumer-behaviour.pdf",
+      image: "/ebook-baner6.jpg",
+      pdf: "/pdfs/covid-consumer-behaviour.pdf",
     },
   ];
 

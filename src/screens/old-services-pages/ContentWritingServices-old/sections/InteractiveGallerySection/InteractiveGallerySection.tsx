@@ -34,9 +34,9 @@ export const InteractiveGallerySection = (): JSX.Element => {
   }, []);
  
   const galleryItems = [
-    { id: 1, image: "/theimpulsedigital.com/demo-1.jpg", alt: "Person working on brand strategy with digital icons and laptop" },
-    { id: 2, image: "/theimpulsedigital.com/demo-2.jpg", alt: "Hand holding smartphone with search interface and digital elements" },
-    { id: 3, image: "/theimpulsedigital.com/demo-3.jpg", alt: "Creative workspace with laptop, notebooks, and design materials" },
+    { id: 1, image: "/demo-1.jpg", alt: "Person working on brand strategy with digital icons and laptop" },
+    { id: 2, image: "/demo-2.jpg", alt: "Hand holding smartphone with search interface and digital elements" },
+    { id: 3, image: "/demo-3.jpg", alt: "Creative workspace with laptop, notebooks, and design materials" },
   ];
   const total = galleryItems.length;
  
@@ -120,7 +120,7 @@ export const InteractiveGallerySection = (): JSX.Element => {
         <div className="text-left mb-12">
           <Button className="h-[40px] md:h-[50px] bg-[#543d98] hover:bg-[#543d98]/90 rounded-xl px-4 md:px-6 py-2 md:py-3 gap-2">
             <span className="[font-family:'DM_Sans',Helvetica] font-bold text-white text-sm md:text-base">Connect Now</span>
-            <img className="w-4 h-4" alt="Arrow" src="/theimpulsedigital.com/button-icon.svg" />
+            <img className="w-4 h-4" alt="Arrow" src="/button-icon.svg" />
           </Button>
         </div>
  

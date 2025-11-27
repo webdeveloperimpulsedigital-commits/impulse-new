@@ -9,59 +9,59 @@ const SLIDES: Slide[] = [
   id: "PPT31",
   title: "Why do internet users prefer only Google?",
   href: "https://www.theimpulsedigital.com/slideshare/why_do_internet_users_prefer_only_google.pdf",
-  image: "/theimpulsedigital.com/slideshow/ppt31.png",
+  image: "/slideshow/ppt31.png",
 },
 {
   id: "PPT32",
   title: "Not to be missed – Top SEO strategies for D2C websites",
   href: "https://www.theimpulsedigital.com/slideshare/Not_To_Be_Missed_Top_SEO_Strategies_For_D2C_Websites.pdf",
-  image: "/theimpulsedigital.com/slideshow/ppt32.png",
+  image: "/slideshow/ppt32.png",
 },
 {
   id: "PPT33",
   title: "Google Helpful Content Update – Avoid your website from getting penalized",
   href: "https://www.theimpulsedigital.com/slideshare/Google_Helpful_Content_Update_Avoid_Your_Website_From_Getting_Penalized.pdf",
-  image: "/theimpulsedigital.com/slideshow/ppt33.png",
+  image: "/slideshow/ppt33.png",
 },
 
 {
   id: "PPT38",
   title: "All there is to hyperlocal SEO & how to leverage it",
   href: "https://www.theimpulsedigital.com/slideshare/all_there_is_to_hyperlocal_seo_and_how_to_leverage_it.pdf",
-  image: "/theimpulsedigital.com/slideshow/ppt38.png",
+  image: "/slideshow/ppt38.png",
 },
 
 {
   id: "PPT43",
   title: "People Also Ask (PAA) and its significance for your SEO",
   href: "https://www.theimpulsedigital.com/slideshare/people_also_ask_(paa)_and_its_significance_for_your_seo.pdf",
-  image: "/theimpulsedigital.com/slideshow/ppt43.png",
+  image: "/slideshow/ppt43.png",
 },
 
 {
   id: "PPT76",
   title: "Should you be worried about the new Google Core Update?",
   href: "https://www.theimpulsedigital.com/slideshare/should-you-be-worried-about-the-new-google-core-update-read-to-know.pdf",
-  image: "/theimpulsedigital.com/slideshow/ppt76.png",
+  image: "/slideshow/ppt76.png",
 },
 {
   id: "PPT89",
   title: "Top 18 advanced Google search operators you must know",
   href: "https://www.theimpulsedigital.com/slideshare/top-18-google-advanced-search-operators-that-you-must-to-know.pdf",
-  image: "/theimpulsedigital.com/slideshow/ppt89.png",
+  image: "/slideshow/ppt89.png",
 },
 {
   id: "PPT92",
   title: "SEO trends",
   href: "https://www.theimpulsedigital.com/slideshare/seo-trends.pdf",
-  image: "/theimpulsedigital.com/slideshow/ppt92.png",
+  image: "/slideshow/ppt92.png",
 },
 
 {
   id: "PPT96",
   title: "Google’s Penguin update",
   href: "https://www.theimpulsedigital.com/slideshare/googlespenguinupdate.pdf",
-  image: "/theimpulsedigital.com/slideshow/ppt96.png",
+  image: "/slideshow/ppt96.png",
 },
 
 

@@ -26,22 +26,22 @@ const ServicesSection = () => {
    const data = [
     { n:"01", title:"Strategic communication planning",
       points:["A message without an intent is just words. Our corporate communication agency creates detailed, standard guidelines for your company, breaking them down to the T according to the intention and channel to ensure that your communication efforts actually come through."],
-      img:"/theimpulsedigital.com/corporate service section 520 x 340 - Strategic communication planning.jpg" },
+      img:"/corporate service section 520 x 340 - Strategic communication planning.jpg" },
     { n:"02", title:"Content creation",
       points:["Average, faulty communication is like inviting damage to your company’s reputation. We create niched content that highlights your expertise, tells your story, and conveys your agenda, all while keeping your audience engaged with high-quality visuals and influential narratives."],
-      img:"/theimpulsedigital.com/corporate service section 520 x 340 - Content Creation.jpg" },
+      img:"/corporate service section 520 x 340 - Content Creation.jpg" },
     {
       n:"03", title:"Supporting communication",
       points:["The word is out, yes. But you must spread the word, too. We ensure that the main messaging is supported with strategic reinforcements through emails, town halls, webinars, PR campaigns, digital bulletin boards, and thought leadership articles. The goal? Make sure your message is heard, reinforced, and remembered."],
-      img:"/theimpulsedigital.com/corporateservice section 520 x 340 - Supporting communication.jpg"},
+      img:"/corporateservice section 520 x 340 - Supporting communication.jpg"},
       {
         n:"04", title:"Internal communication",
         points:["Efficient communication with your employees guarantees clarity and alignment. Our experts develop employee newsletters, leadership updates, and internal reports to keep the teams informed. We also keep them engaged with intranet content, town halls, and webinars that match their interests and growth plans."],
-        img:"/theimpulsedigital.com/corporate service section 520 x 340 - Internal communication.jpg"},
+        img:"/corporate service section 520 x 340 - Internal communication.jpg"},
       {
         n:"05", title:"Leadership communication and social media handling",
         points:["Just like your employees, your stakeholders and audience deserve to know what’s happening, too. We send our regular updates to your stakeholders via investor reports, keep the public updated via press releases and media statements, and keep your audience hooked with social media campaigns. "],
-        img:"/theimpulsedigital.com/corporate service section 520 x 340 - Leadership communication.jpg"
+        img:"/corporate service section 520 x 340 - Leadership communication.jpg"
       }
     
   ];
@@ -317,7 +317,7 @@ const ServicesSection = () => {
                   <div className="group flex w-60 items-start justify-center lg:justify-end pt-2 lg:pt-[7px]">
                     <a href="">
                       <img
-                        src="/theimpulsedigital.com/Arrow.png"
+                        src="/Arrow.png"
                         alt="Arrow"
                         className="w-[56px] lg:w-[80px] object-contain transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                       />
@@ -375,7 +375,7 @@ const ServicesSection = () => {
                 aria-label="Previous"
               >
                 <img
-                  src="/theimpulsedigital.com/left-arrow.png"
+                  src="/left-arrow.png"
                   alt="Next"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />
@@ -388,7 +388,7 @@ const ServicesSection = () => {
                 aria-label="Next"
               >
                 <img
-                  src="/theimpulsedigital.com/right-arrow.png"
+                  src="/right-arrow.png"
                   alt="Next"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />

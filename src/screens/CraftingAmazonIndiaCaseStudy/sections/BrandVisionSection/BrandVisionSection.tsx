@@ -47,7 +47,7 @@ export const BrandVisionSection = (): JSX.Element => {
           <div className="lg:col-span-5">
             <div className="relative overflow-hidden rounded-[28px] bg-[#F6F6FB] shadow-[0_18px_45px_rgba(15,23,42,0.10)]">
               <img
-                src="/theimpulsedigital.com/Crafting the Employer Value.png"
+                src="/Crafting the Employer Value.png"
                 alt="Team reviewing EVP frameworks and talent insights"
                 className="w-full h-[260px] sm:h-[320px] lg:h-[360px] object-cover"
                 loading="lazy"
@@ -260,7 +260,7 @@ export const BrandVisionSection = (): JSX.Element => {
           <div className="lg:col-span-6">
             <div className="relative overflow-hidden rounded-[28px] bg-[#F6F6FB] shadow-[0_18px_45px_rgba(15,23,42,0.10)]">
               <img
-                src="/theimpulsedigital.com/Workshop session.png"
+                src="/Workshop session.png"
                 alt="Workshop session with teams collaborating on EVP"
                 className="w-full h-[260px] sm:h-[320px] lg:h-[360px] object-cover"
                 loading="lazy"

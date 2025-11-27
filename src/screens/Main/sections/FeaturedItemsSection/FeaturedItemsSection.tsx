@@ -48,9 +48,9 @@ export const FeaturedItemsSection = (): JSX.Element => {
                 loop
                 playsInline
                 preload="metadata"
-                poster="/theimpulsedigital.com/rectangle-35.png"
+                poster="/rectangle-35.png"
               >
-                <source src="/theimpulsedigital.com/bg-video.mp4" type="video/mp4" />
+                <source src="/bg-video.mp4" type="video/mp4" />
               </video>
               {/* Dark overlay */}
               <div

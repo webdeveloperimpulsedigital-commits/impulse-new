@@ -18,8 +18,8 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Craft compelling, SEO-driven content that tells your brand story and drives measurable engagement across platforms.",
       features: ["Blog Writing", "Website Copy", "Landing Pages", "Corporate Communication"],
-      image: "/theimpulsedigital.com/servicepage-COntent writing.jpg",
-      link: "/theimpulsedigital.com/services/content-writing-services",
+      image: "/servicepage-COntent writing.jpg",
+      link: "/services/content-writing-services",
     },
     {
       id: "ppc",
@@ -27,8 +27,8 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Run targeted campaigns across Google, Meta, and more to maximize ROI through data-backed performance marketing strategies.",
       features: ["Google Ads", "Meta Campaigns", "Bid Optimization", "Landing Page Testing"],
-      image: "/theimpulsedigital.com/servicepage-PPC.jpg",
-      link: "/theimpulsedigital.com/services/performance-marketing",
+      image: "/servicepage-PPC.jpg",
+      link: "/services/performance-marketing",
     },
     {
       id: "social",
@@ -36,8 +36,8 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Build strong social communities and boost engagement through creative content and performance-driven strategies.",
       features: ["Strategy & Planning", "Content Creation", "Paid Campaigns", "Community Management"],
-      image: "/theimpulsedigital.com/servicepage-Social Media Marketing.jpg",
-      link: "/theimpulsedigital.com/services/social-media-marketing",
+      image: "/servicepage-Social Media Marketing.jpg",
+      link: "/services/social-media-marketing",
     },
     {
       id: "seo",
@@ -45,8 +45,8 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Improve your website visibility and rankings with robust SEO strategies built to deliver sustainable growth.",
       features: ["Technical SEO", "On-Page Optimization", "Off-Page SEO", "Local SEO"],
-      image: "/theimpulsedigital.com/servicepage-SEO.jpg",
-      link: "/theimpulsedigital.com/services/search-engine-optimization",
+      image: "/servicepage-SEO.jpg",
+      link: "/services/search-engine-optimization",
     },
     {
       id: "web",
@@ -54,8 +54,8 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Design and develop user-focused websites that look great, perform well, and convert visitors into customers.",
       features: ["UI/UX Design", "Responsive Development", "CMS Setup", "Website SEO"],
-      image: "/theimpulsedigital.com/servicepage-Website Development.jpg",
-      link: "/theimpulsedigital.com/services/website-development",
+      image: "/servicepage-Website Development.jpg",
+      link: "/services/website-development",
     },
     {
       id: "branding",
@@ -63,8 +63,8 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Shape your brand’s visual and emotional identity through design, storytelling, and creative strategy.",
       features: ["Logo Design", "Brand Guidelines", "Campaign Design", "Creative Strategy"],
-      image: "/theimpulsedigital.com/servicepage-Branding and Identity.jpg",
-      link: "/theimpulsedigital.com/services/branding-creative-services",
+      image: "/servicepage-Branding and Identity.jpg",
+      link: "/services/branding-creative-services",
     },
     {
       id: "employer",
@@ -72,8 +72,8 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Build a strong employer brand that attracts, engages, and retains top talent aligned with your company’s values.",
       features: ["EVP Creation", "Recruitment Marketing", "Internal Campaigns", "Culture Storytelling"],
-      image: "/theimpulsedigital.com/servicepage-Employeer Branding.jpg",
-      link: "/theimpulsedigital.com/services/employee-branding-agency",
+      image: "/servicepage-Employeer Branding.jpg",
+      link: "/services/employee-branding-agency",
     },
     {
       id: "corporate",
@@ -81,8 +81,8 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Deliver impactful corporate messaging that strengthens your reputation and builds trust across stakeholders.",
       features: ["Press Releases", "Internal Communication", "Crisis Communication", "Leadership Messaging"],
-      image: "/theimpulsedigital.com/Corporate Communication.jpg",
-      link: "/theimpulsedigital.com/services/corporate-communication-agency",
+      image: "/Corporate Communication.jpg",
+      link: "/services/corporate-communication-agency",
     },
     {
       id: "video",
@@ -90,8 +90,8 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Produce short-form videos, reels, and branded storytelling content that stand out and drive engagement.",
       features: ["Concept Development", "Scriptwriting", "Production", "Editing & Animation"],
-      image: "/theimpulsedigital.com/servicepage-Video Production.jpg",
-      link: "/theimpulsedigital.com/services/social-media-video-production",
+      image: "/servicepage-Video Production.jpg",
+      link: "/services/social-media-video-production",
     },
   ];
 
@@ -204,7 +204,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
                         Learn More
                       </a>
                       <img
-                        src="/theimpulsedigital.com/button-icon.svg"
+                        src="/button-icon.svg"
                         alt="Arrow"
                         className="cta-icon w-4 h-4 transition-all duration-300 group-hover:rotate-45 pointer-events-none"
                       />
@@ -226,7 +226,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
             <img
               className="cta-icon w-4 h-4 ml-2 transition-all duration-300 group-hover:rotate-45 pointer-events-none"
               alt="Arrow"
-              src="/theimpulsedigital.com/button-icon.svg"
+              src="/button-icon.svg"
             />
           </Button>
         </div> */}
