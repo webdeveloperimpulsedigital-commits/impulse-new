@@ -11,7 +11,7 @@
   },
   "reactSnap": {
     "source": "dist",
-    "publicPath": "/",           
+    "publicPath": "/theimpulsedigital.com",           
     "port": 45678,                          
     "crawl": false,                         
     "include": [
