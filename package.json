@@ -11,7 +11,7 @@
   },
   "reactSnap": {
     "source": "dist",
-    "publicPath": "/impulse-new",           
+    "publicPath": "/",           
     "port": 45678,                          
     "crawl": false,                         
     "include": [
