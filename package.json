@@ -11,7 +11,7 @@
   },
   "reactSnap": {
     "source": "dist",
-    "publicPath": "/theimpusedigital.com",           
+    "publicPath": "/impulse-new",           
     "port": 45678,                          
     "crawl": false,                         
     "include": [

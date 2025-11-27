@@ -8,7 +8,7 @@ import { App } from "./App";
 createRoot(document.getElementById("app") as HTMLElement).render(
   <StrictMode>
     <HelmetProvider>
-      <BrowserRouter basename="/">
+      <BrowserRouter basename="/impulse-new/">
       <App />
     </BrowserRouter>
     </HelmetProvider>
