@@ -40,7 +40,7 @@ export const AgencyIntroSection = (): JSX.Element => {
           <h2 className="intro__title">Creativity Is Our Business Plan.</h2>
          <p className="intro__subtitle">
   At Impulse Digital, we turn strategy into stories and caffeine into campaigns. 
-  We don’t just market brands — we make them unforgettable.{" "}
+  We don’t just market brands-we make them unforgettable.{" "}
   <span className="text-[#543d98] font-semibold">
     Scroll down to meet the two minds who turn “what ifs” into “wow!”
   </span>

@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import "../FooterSection/FooterSection.css";
 import { ArrowUp, Share2 } from "lucide-react";
 import { Link } from "react-router-dom";
-import { Button } from "../../../../components/ui/button";
 
 export const FooterSection: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -33,54 +32,121 @@ export const FooterSection: React.FC = () => {
                 src="/footer-logo.png"
               />
             </div>
+
             <div className="footer__social">
-              <a href="#" aria-label="Facebook" className="footer__socialBtn">
+              <a
+                href="https://facebook.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer__socialBtn"
+              >
                 <img src="/Facebook.png" alt="Facebook" />
               </a>
-              <a href="#" aria-label="X" className="footer__socialBtn">
+
+              <a
+                href="https://twitter.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer__socialBtn"
+              >
                 <img src="/twitter.png" alt="Twitter" />
               </a>
-              <a href="#" aria-label="Instagram" className="footer__socialBtn">
+
+              <a
+                href="https://instagram.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer__socialBtn"
+              >
                 <img src="/instagram.png" alt="Instagram" />
               </a>
-              <a href="#" aria-label="LinkedIn" className="footer__socialBtn">
+
+              <a
+                href="https://linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer__socialBtn"
+              >
                 <img src="/linkedin.png" alt="LinkedIn" />
               </a>
-              <a href="#" aria-label="YouTube" className="footer__socialBtn">
+
+              <a
+                href="https://youtube.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="footer__socialBtn"
+              >
                 <img src="/youtube.png" alt="YouTube" />
               </a>
             </div>
           </div>
 
-          {/* Links */}
+          {/* Footer Links */}
           <nav className="footer__nav">
             <ul className="footer__col">
               <strong>Quick Links</strong>
-              <li><a href="/">Home</a></li>
-              <li><a href="/about-us">About Us</a></li>
-              <li><a href="/services">Services</a></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/about-us">About Us</Link></li>
+              <li><Link to="/services">Services</Link></li>
             </ul>
+
             <ul className="footer__col">
               <strong>Resources</strong>
-              <li><a href="/blog">Blog</a></li>
-              <li><a href="/career">Career</a></li>
+              <li><Link to="/blog">Blog</Link></li>
+              <li><Link to="/career">Career</Link></li>
             </ul>
+
             <ul className="footer__col">
               <strong>Locations</strong>
-              <li><a href="https://www.theimpulsedigital.com/digital-marketing-agency-in-india">India</a></li>
-              <li><a href="https://www.theimpulsedigital.com/digital-marketing-agency-in-thane">Thane</a></li>
-              <li><a href="https://www.theimpulsedigital.com/digital-marketing-agency-in-navi-mumbai">Navi Mumbai</a></li>
-              <li><a href="https://www.theimpulsedigital.com/digital-marketing-agency-in-pune">Pune</a></li>
+              <li>
+                <a
+                  href="/digital-marketing-agency-in-india"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  India
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/digital-marketing-agency-in-thane"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Thane
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/digital-marketing-agency-in-navi-mumbai"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Navi Mumbai
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="/digital-marketing-agency-in-pune"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Pune
+                </a>
+              </li>
             </ul>
           </nav>
 
-          {/* Contact */}
+          {/* Contact Section */}
           <div className="footer__contact">
             <div className="footer__contactItem">
               <span className="footer__circleIcon">
                 <img src="/footer-call.png" alt="Phone" />
               </span>
-              <a href="tel:+919769285224">+91–9769285224</a>
+              <a href="tel:+919769285224">+91-9769285224</a>
             </div>
 
             <div className="footer__contactItem">
@@ -96,9 +162,9 @@ export const FooterSection: React.FC = () => {
               <span className="footer__circleIcon">
                 <img src="/footer-location.png" alt="Location" />
               </span>
-              304 - 305, Chirag Infotech, Road No. 16/Z,
-  Ambica Nagar, Wagle Industrial Estate,
-  Thane, Mumbai 400604
+              304 - 305, Chirag Infotech, Road No. 16/Z,  
+              Ambica Nagar, Wagle Industrial Estate,  
+              Thane, Mumbai 400604
             </div>
           </div>
         </div>
@@ -111,17 +177,17 @@ export const FooterSection: React.FC = () => {
           <div className="footer__copy">
             © 2025 Impulse Digital All rights reserved
           </div>
+
           <div className="footer__links">
-            <a href="#">Privacy Policy</a>
+            <Link to="/privacy-policy">Privacy Policy</Link>
             <span className="footer__dot">|</span>
-            <a href="#">Terms & Conditions</a>
+            <Link to="/terms-and-conditions">Terms & Conditions</Link>
           </div>
         </div>
       </div>
 
-      {/* === FIXED ACTION BUTTONS === */}
+      {/* Floating Buttons */}
       <div className="fixedButtons">
-        {/* Share toggle (mobile only) */}
         <button
           onClick={() => setShowConnectOptions(!showConnectOptions)}
           className="actionBtn mobileOnly"
@@ -130,7 +196,6 @@ export const FooterSection: React.FC = () => {
           <Share2 size={20} color="white" />
         </button>
 
-        {/* WhatsApp + Call (mobile only) */}
         {showConnectOptions && (
           <div className="connectOptions mobileOnly">
             <a
@@ -143,13 +208,16 @@ export const FooterSection: React.FC = () => {
               <img src="/whatsapp.png" alt="WhatsApp" />
             </a>
 
-            <a href="tel:+919769285224" className="actionBtn" aria-label="Call Impulse Digital">
+            <a
+              href="tel:+919769285224"
+              className="actionBtn"
+              aria-label="Call Impulse Digital"
+            >
               <img src="/footer-call.png" alt="Call" />
             </a>
           </div>
         )}
 
-        {/* Scroll to Top (keeps working on desktop) */}
         {isVisible && (
           <button onClick={scrollToTop} className="actionBtn" aria-label="Back to Top">
             <ArrowUp size={18} color="white" />
@@ -157,6 +225,7 @@ export const FooterSection: React.FC = () => {
         )}
       </div>
 
+      {/* Inline Styling */}
       <style>{`
         .fixedButtons {
           position: fixed;
@@ -167,7 +236,6 @@ export const FooterSection: React.FC = () => {
           gap: 12px;
           z-index: 999;
         }
-
         .connectOptions {
           display: flex;
           flex-direction: column;
@@ -175,7 +243,6 @@ export const FooterSection: React.FC = () => {
           margin-bottom: 10px;
           animation: fadeIn 0.3s ease-in-out;
         }
-
         .actionBtn {
           background-color: #543d98;
           border-radius: 50%;
@@ -188,19 +255,15 @@ export const FooterSection: React.FC = () => {
           transition: all 0.3s ease;
           cursor: pointer;
         }
-
         .actionBtn img {
           width: 22px;
           height: 22px;
           object-fit: contain;
         }
-
         .actionBtn:hover {
           transform: translateY(-3px);
           background-color: #6b4bc7;
         }
-
-        /* Hide mobile-only stuff on desktop */
         .mobileOnly { display: none; }
 
         @keyframes fadeIn {
@@ -209,6 +272,7 @@ export const FooterSection: React.FC = () => {
         }
 
         @media (max-width: 768px) {
+          .mobileOnly { display: flex; }
           .fixedButtons {
             right: 15px;
             bottom: 15px;
@@ -218,8 +282,6 @@ export const FooterSection: React.FC = () => {
             width: 44px;
             height: 44px;
           }
-          /* Show these only on mobile */
-          .mobileOnly { display: flex; }
         }
       `}</style>
     </footer>
