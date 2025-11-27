@@ -134,7 +134,7 @@ export const CaseStudiesGrid = (): JSX.Element => {
                   <img
                 className=""
                 alt="location Logo"
-                src="/impulse-website/button-icon.svg"/> 
+                src="/theimpulsedigital.com/button-icon.svg"/> 
               </span>
                     </Button>
         </div>
@@ -144,7 +144,7 @@ export const CaseStudiesGrid = (): JSX.Element => {
           <a href="#" className="card">
             <div className="media media--tall">
               <img
-                src="/impulse-website/project-1-jpg.png"
+                src="/theimpulsedigital.com/project-1-jpg.png"
                 alt="Mastercard Inc."
                 loading="lazy"
               />
@@ -163,7 +163,7 @@ export const CaseStudiesGrid = (): JSX.Element => {
           <a href="#" className="card">
             <div className="media corner">
               <img
-                src="/impulse-website/project-4-jpg.png"
+                src="/theimpulsedigital.com/project-4-jpg.png"
                 alt="Hindustan Unilever Limited"
                 loading="lazy"
               />
@@ -184,7 +184,7 @@ export const CaseStudiesGrid = (): JSX.Element => {
           <a href="#" className="card">
             <div className="media media--tall corner">
               <img
-                src="/impulse-website/project-5-jpg.png"
+                src="/theimpulsedigital.com/project-5-jpg.png"
                 alt="Avenue Supermarts/DMart"
                 loading="lazy"
               />
@@ -203,7 +203,7 @@ export const CaseStudiesGrid = (): JSX.Element => {
           <a href="#" className="card">
             <div className="media">
               <img
-                src="/impulse-website/project-2-jpg.png"
+                src="/theimpulsedigital.com/project-2-jpg.png"
                 alt="Vendiman"
                 loading="lazy"
               />
@@ -222,7 +222,7 @@ export const CaseStudiesGrid = (): JSX.Element => {
           <a href="#" className="card">
             <div className="media">
               <img
-                src="/impulse-website/project-3-jpg.png"
+                src="/theimpulsedigital.com/project-3-jpg.png"
                 alt="ElectroMech"
                 loading="lazy"
               />
@@ -241,7 +241,7 @@ export const CaseStudiesGrid = (): JSX.Element => {
           <a href="#" className="card">
             <div className="media">
               <img
-                src="/impulse-website/project-6-jpg.png"
+                src="/theimpulsedigital.com/project-6-jpg.png"
                 alt="HEM Corporation"
                 loading="lazy"
               />

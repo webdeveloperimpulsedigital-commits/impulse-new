@@ -18,10 +18,10 @@ export const FeaturedItemsSection = (): JSX.Element => {
   ];
 
   const profileImages = [
-    { src: "/impulse-website/rectangle-41.png", alt: "Profile 1" },
-    { src: "/impulse-website/rectangle-42.png", alt: "Profile 2" },
-    { src: "/impulse-website/rectangle-43.png", alt: "Profile 3" },
-    { src: "/impulse-website/rectangle-44.png", alt: "Profile 4" },
+    { src: "/theimpulsedigital.com/rectangle-41.png", alt: "Profile 1" },
+    { src: "/theimpulsedigital.com/rectangle-42.png", alt: "Profile 2" },
+    { src: "/theimpulsedigital.com/rectangle-43.png", alt: "Profile 3" },
+    { src: "/theimpulsedigital.com/rectangle-44.png", alt: "Profile 4" },
   ];
 
   const heroTextLines = ["TURNING", "YOUR BUSINESS", "INTO A BRAND"];
@@ -42,9 +42,9 @@ export const FeaturedItemsSection = (): JSX.Element => {
     loop
     playsInline
     preload="metadata"
-    poster="/impulse-website/rectangle-35.png"
+    poster="/theimpulsedigital.com/rectangle-35.png"
   >
-    <source src="/impulse-website/bg-video.mp4" type="video/mp4" />
+    <source src="/theimpulsedigital.com/bg-video.mp4" type="video/mp4" />
     
   </video>
 
@@ -63,7 +63,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
               <img
                 className="w-[120px] h-[53px] sm:w-[148.41px] sm:h-[66px]"
                 alt="Logo"
-                src="/impulse-website/frame-2147224428.svg"
+                src="/theimpulsedigital.com/frame-2147224428.svg"
               />
 
               {/* Desktop Navigation */}
@@ -96,7 +96,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
                 <img
                   className="w-[18px] h-[18px]"
                   alt="Vector"
-                  src="/impulse-website/vector-1-3.svg"
+                  src="/theimpulsedigital.com/vector-1-3.svg"
                 />
               </Button>
 
@@ -143,7 +143,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
                     <img
                       className="w-[18px] h-[18px]"
                       alt="Vector"
-                      src="/impulse-website/vector-1-3.svg"
+                      src="/theimpulsedigital.com/vector-1-3.svg"
                     />
                   </Button>
                 </div>

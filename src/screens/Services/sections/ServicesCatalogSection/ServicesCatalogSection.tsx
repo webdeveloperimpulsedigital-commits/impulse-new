@@ -18,8 +18,8 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Craft compelling, SEO-driven content that tells your brand story and drives measurable engagement across platforms.",
       features: ["Blog Writing", "Website Copy", "Landing Pages", "Corporate Communication"],
-      image: "/impulse-website/servicepage-COntent writing.jpg",
-      link: "/impulse-website/services/content-writing-services",
+      image: "/theimpulsedigital.com/servicepage-COntent writing.jpg",
+      link: "/theimpulsedigital.com/services/content-writing-services",
     },
     {
       id: "ppc",
@@ -27,8 +27,8 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Run targeted campaigns across Google, Meta, and more to maximize ROI through data-backed performance marketing strategies.",
       features: ["Google Ads", "Meta Campaigns", "Bid Optimization", "Landing Page Testing"],
-      image: "/impulse-website/servicepage-PPC.jpg",
-      link: "/impulse-website/services/performance-marketing",
+      image: "/theimpulsedigital.com/servicepage-PPC.jpg",
+      link: "/theimpulsedigital.com/services/performance-marketing",
     },
     {
       id: "social",
@@ -36,8 +36,8 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Build strong social communities and boost engagement through creative content and performance-driven strategies.",
       features: ["Strategy & Planning", "Content Creation", "Paid Campaigns", "Community Management"],
-      image: "/impulse-website/servicepage-Social Media Marketing.jpg",
-      link: "/impulse-website/services/social-media-marketing",
+      image: "/theimpulsedigital.com/servicepage-Social Media Marketing.jpg",
+      link: "/theimpulsedigital.com/services/social-media-marketing",
     },
     {
       id: "seo",
@@ -45,8 +45,8 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Improve your website visibility and rankings with robust SEO strategies built to deliver sustainable growth.",
       features: ["Technical SEO", "On-Page Optimization", "Off-Page SEO", "Local SEO"],
-      image: "/impulse-website/servicepage-SEO.jpg",
-      link: "/impulse-website/services/search-engine-optimization",
+      image: "/theimpulsedigital.com/servicepage-SEO.jpg",
+      link: "/theimpulsedigital.com/services/search-engine-optimization",
     },
     {
       id: "web",
@@ -54,8 +54,8 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Design and develop user-focused websites that look great, perform well, and convert visitors into customers.",
       features: ["UI/UX Design", "Responsive Development", "CMS Setup", "Website SEO"],
-      image: "/impulse-website/servicepage-Website Development.jpg",
-      link: "/impulse-website/services/website-development",
+      image: "/theimpulsedigital.com/servicepage-Website Development.jpg",
+      link: "/theimpulsedigital.com/services/website-development",
     },
     {
       id: "branding",
@@ -63,8 +63,8 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Shape your brand’s visual and emotional identity through design, storytelling, and creative strategy.",
       features: ["Logo Design", "Brand Guidelines", "Campaign Design", "Creative Strategy"],
-      image: "/impulse-website/servicepage-Branding and Identity.jpg",
-      link: "/impulse-website/services/branding-creative-services",
+      image: "/theimpulsedigital.com/servicepage-Branding and Identity.jpg",
+      link: "/theimpulsedigital.com/services/branding-creative-services",
     },
     {
       id: "employer",
@@ -72,8 +72,8 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Build a strong employer brand that attracts, engages, and retains top talent aligned with your company’s values.",
       features: ["EVP Creation", "Recruitment Marketing", "Internal Campaigns", "Culture Storytelling"],
-      image: "/impulse-website/servicepage-Employeer Branding.jpg",
-      link: "/impulse-website/services/employee-branding-agency",
+      image: "/theimpulsedigital.com/servicepage-Employeer Branding.jpg",
+      link: "/theimpulsedigital.com/services/employee-branding-agency",
     },
     {
       id: "corporate",
@@ -81,8 +81,8 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Deliver impactful corporate messaging that strengthens your reputation and builds trust across stakeholders.",
       features: ["Press Releases", "Internal Communication", "Crisis Communication", "Leadership Messaging"],
-      image: "/impulse-website/Corporate Communication.jpg",
-      link: "/impulse-website/services/corporate-communication-agency",
+      image: "/theimpulsedigital.com/Corporate Communication.jpg",
+      link: "/theimpulsedigital.com/services/corporate-communication-agency",
     },
     {
       id: "video",
@@ -90,8 +90,8 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Produce short-form videos, reels, and branded storytelling content that stand out and drive engagement.",
       features: ["Concept Development", "Scriptwriting", "Production", "Editing & Animation"],
-      image: "/impulse-website/servicepage-Video Production.jpg",
-      link: "/impulse-website/services/social-media-video-production",
+      image: "/theimpulsedigital.com/servicepage-Video Production.jpg",
+      link: "/theimpulsedigital.com/services/social-media-video-production",
     },
   ];
 
@@ -204,7 +204,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
                         Learn More
                       </a>
                       <img
-                        src="/impulse-website/button-icon.svg"
+                        src="/theimpulsedigital.com/button-icon.svg"
                         alt="Arrow"
                         className="cta-icon w-4 h-4 transition-all duration-300 group-hover:rotate-45 pointer-events-none"
                       />

@@ -18,7 +18,7 @@ export const TestimonialsSection = (): JSX.Element => {
       title: "Director, IBM Income Mumbai",
       company: "IBM",
       content: "The team at Impulse Digital has been exceptional in managing our digital satisfaction. From starting our new website until 5 year milestone, we've got assistance from an increase our organic traffic by 300% and increased our lead generation to 150 leads monthly. In addition, their well-focused work has benefited both of our B2B websites. Indeed a team of experts who are always ready to guide and assist you. Thank you, Team Impulse!",
-      avatar: "/impulse-website/rectangle-411.png"
+      avatar: "/theimpulsedigital.com/rectangle-411.png"
     },
     {
       id: "2",
@@ -26,7 +26,7 @@ export const TestimonialsSection = (): JSX.Element => {
       title: "Partner, Lajpat & Co, Mumbai",
       company: "Lajpat & Co",
       content: "We have been working with Impulse Digital team for almost 2 years. They definitely take the customer's ideas and vision of into consideration and work them out. Great team to work with, no fuss!",
-      avatar: "/impulse-website/rectangle-42.png"
+      avatar: "/theimpulsedigital.com/rectangle-42.png"
     },
     {
       id: "3",
@@ -34,7 +34,7 @@ export const TestimonialsSection = (): JSX.Element => {
       title: "Director of Communication and Strategy, Goma Engineering Pvt. Ltd, Mumbai",
       company: "Goma Engineering",
       content: "What I love about the Impulse Digital team is that they are enthusiastic. They are always coming up with genuine suggestions and honest feedback to improve our processes hence ensuring noteworthy results!",
-      avatar: "/impulse-website/rectangle-433.png"
+      avatar: "/theimpulsedigital.com/rectangle-433.png"
     }
   ];
 
@@ -45,7 +45,7 @@ export const TestimonialsSection = (): JSX.Element => {
       title: "Founder, Rhodius | Dental, Pune",
       company: "Rhodius Dental",
       content: "I have been working with Impulse Digital for almost 2 years on digital marketing strategies for us. The fact working with them not for the strict timelines and the brand values. Even in Pune and they are in Mumbai, communication and it never a problem and the work gets done efficiently.",
-      avatar: "/impulse-website/rectangle-44.png"
+      avatar: "/theimpulsedigital.com/rectangle-44.png"
     },
     {
       id: "5",
@@ -53,7 +53,7 @@ export const TestimonialsSection = (): JSX.Element => {
       title: "Growth Engineer - Marketing Sales, Vendiman, Mumbai",
       company: "Vendiman",
       content: "Working with Impulse Digital has been an absolute delight. They have a good grasp of the briefs given and their agility, innovative creativity, and professionalism concerning deadlines is what sets them apart. The transformation in our SEO, PPC, and social media management has been incredible, our ranking to the first within three months with 90% of the keywords.",
-      avatar: "/impulse-website/rectangle-41.png"
+      avatar: "/theimpulsedigital.com/rectangle-41.png"
     },
     {
       id: "6",
@@ -61,7 +61,7 @@ export const TestimonialsSection = (): JSX.Element => {
       title: "Digital Marketing Manager, Rafter Group, Mumbai",
       company: "Rafter Group",
       content: "I have been working with Impulse Digital team for almost 3 years. They have always been ready to help and find solution for any challenge. The Word 'NO' does not exist in there dictionary which is rare to find in many agencies. I wish all good luck and ETA of future to Impulse!",
-      avatar: "/impulse-website/rectangle-42.png"
+      avatar: "/theimpulsedigital.com/rectangle-42.png"
     },
     {
       id: "7",
@@ -69,7 +69,7 @@ export const TestimonialsSection = (): JSX.Element => {
       title: "Digital Marketing Manager, Rafter Group, Mumbai",
       company: "Rafter Group",
       content: "I have been working with Impulse Digital team for almost 3 years. They have always been ready to help and find solution for any challenge. The Word 'NO' does not exist in there dictionary which is rare to find in many agencies. I wish all good luck and ETA of future to Impulse!",
-      avatar: "/impulse-website/rectangle-42.png"
+      avatar: "/theimpulsedigital.com/rectangle-42.png"
     }
   ];
 
@@ -97,7 +97,7 @@ export const TestimonialsSection = (): JSX.Element => {
           </p>
         </div>
         <div style={{ width: '10%' }}>
-          <img src="/impulse-website/Vector 1.png" alt="Quote icon" />
+          <img src="/theimpulsedigital.com/Vector 1.png" alt="Quote icon" />
         </div>
       </div>
       <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-sm leading-relaxed">

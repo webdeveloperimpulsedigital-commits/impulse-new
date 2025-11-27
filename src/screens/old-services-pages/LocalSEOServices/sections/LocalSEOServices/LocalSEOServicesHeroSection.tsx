@@ -21,7 +21,7 @@ export const LocalSEOServicesHeroSection = (): JSX.Element => {
           preload="metadata"
           aria-hidden="true"
         >
-          <source src="/impulse-website/bg-video.mp4" type="video/mp4" />
+          <source src="/theimpulsedigital.com/bg-video.mp4" type="video/mp4" />
         </video>
         <div
           className="absolute inset-0 pointer-events-none"

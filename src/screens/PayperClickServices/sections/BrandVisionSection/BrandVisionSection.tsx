@@ -141,7 +141,7 @@ PPC that works for your business!
           <div className="lg:col-span-5 lg:w-[600px]">
             <div className="relative rounded-2xl overflow-hidden shadow-lg ">
               <img
-                src="/impulse-website/About service - 451 x 500.jpg"
+                src="/theimpulsedigital.com/About service - 451 x 500.jpg"
                 alt="SEO workspace"
                 className="w-full sm:h-[400px] lg:h-[700px] object-cover"
               />

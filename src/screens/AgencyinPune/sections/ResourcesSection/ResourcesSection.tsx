@@ -50,7 +50,7 @@ export const ResourcesTeaserSection: React.FC = () => {
               Explore
             </Link>
             <img
-              src="/impulse-website/vector-1-3.svg"
+              src="/theimpulsedigital.com/vector-1-3.svg"
               alt="Arrow"
               className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert pointer-events-none"
             />

@@ -30,7 +30,7 @@ export const WhyChooseSection = (): JSX.Element => {
           <div>
             <div className="relative overflow-hidden rounded-[24px] shadow-lg mb-4">
               <img
-                src="/impulse-website/why-choose-1.png"
+                src="/theimpulsedigital.com/why-choose-1.png"
                 alt="Creative workspace content writing"
                 className="w-full h-[320px] sm:h-[400px] object-cover transition-transform duration-300 hover:scale-[1.03]"
                 loading="lazy"
@@ -48,7 +48,7 @@ export const WhyChooseSection = (): JSX.Element => {
           <div>
             <div className="relative overflow-hidden rounded-[24px] shadow-lg mb-4">
               <img
-                src="/impulse-website/why-choose-2.jpg"
+                src="/theimpulsedigital.com/why-choose-2.jpg"
                 alt="Laptop with content writing screen"
                 className="w-full h-[320px] sm:h-[400px] object-cover transition-transform duration-300 hover:scale-[1.03]"
                 loading="lazy"
@@ -66,7 +66,7 @@ export const WhyChooseSection = (): JSX.Element => {
           <div>
             <div className="relative overflow-hidden rounded-[28px] shadow-lg mb-4">
               <img
-                src="/impulse-website/content-full-width-img.jpg"
+                src="/theimpulsedigital.com/content-full-width-img.jpg"
                 alt="Content strategy workspace"
                 className="w-full h-[320px] sm:h-[400px] object-cover transition-transform duration-300 hover:scale-[1.03]"
                 loading="lazy"
@@ -91,7 +91,7 @@ export const WhyChooseSection = (): JSX.Element => {
               {/* Image 1 */}
               <div className="relative overflow-hidden rounded-[24px] shadow-lg mb-4">
                 <img
-                  src="/impulse-website/why-choose-1.png"
+                  src="/theimpulsedigital.com/why-choose-1.png"
                   alt="Laptop with content writing screen"
                   className="w-full h-[630px] object-cover transition-transform duration-300 hover:scale-[1.03]"
                   loading="lazy"
@@ -121,7 +121,7 @@ export const WhyChooseSection = (): JSX.Element => {
  
               <div className="relative overflow-hidden rounded-[24px] shadow-lg">
                 <img
-                  src="/impulse-website/why-choose-2.jpg"
+                  src="/theimpulsedigital.com/why-choose-2.jpg"
                   alt="Creative workspace content writing"
                   className="w-full h-[630px] object-cover transition-transform duration-300 hover:scale-[1.03]"
                   loading="lazy"
@@ -134,7 +134,7 @@ export const WhyChooseSection = (): JSX.Element => {
           <div>
             <div className="relative overflow-hidden rounded-[28px] shadow-lg">
               <img
-                src="/impulse-website/Why CHoose - Data Driven Creativity.jpg"
+                src="/theimpulsedigital.com/Why CHoose - Data Driven Creativity.jpg"
                 alt="Content strategy workspace"
                 className="w-full h-[510px] object-cover transition-transform duration-300 hover:scale-[1.03]"
                 loading="lazy"

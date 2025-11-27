@@ -30,24 +30,24 @@ export const FooterSection: React.FC = () => {
               <img
                 className="footer-logo"
                 alt="footer Logo"
-                src="/impulse-website/footer-logo.png"
+                src="/theimpulsedigital.com/footer-logo.png"
               />
             </div>
             <div className="footer__social">
               <a href="#" aria-label="Facebook" className="footer__socialBtn">
-                <img src="/impulse-website/Facebook.png" alt="Facebook" />
+                <img src="/theimpulsedigital.com/Facebook.png" alt="Facebook" />
               </a>
               <a href="#" aria-label="X" className="footer__socialBtn">
-                <img src="/impulse-website/twitter.png" alt="Twitter" />
+                <img src="/theimpulsedigital.com/twitter.png" alt="Twitter" />
               </a>
               <a href="#" aria-label="Instagram" className="footer__socialBtn">
-                <img src="/impulse-website/instagram.png" alt="Instagram" />
+                <img src="/theimpulsedigital.com/instagram.png" alt="Instagram" />
               </a>
               <a href="#" aria-label="LinkedIn" className="footer__socialBtn">
-                <img src="/impulse-website/linkedin.png" alt="LinkedIn" />
+                <img src="/theimpulsedigital.com/linkedin.png" alt="LinkedIn" />
               </a>
               <a href="#" aria-label="YouTube" className="footer__socialBtn">
-                <img src="/impulse-website/youtube.png" alt="YouTube" />
+                <img src="/theimpulsedigital.com/youtube.png" alt="YouTube" />
               </a>
             </div>
           </div>
@@ -56,21 +56,21 @@ export const FooterSection: React.FC = () => {
           <nav className="footer__nav">
             <ul className="footer__col">
               <strong>Quick Links</strong>
-              <li><a href="/impulse-website/">Home</a></li>
-              <li><a href="/impulse-website/about-us">About Us</a></li>
-              <li><a href="/impulse-website/services">Services</a></li>
+              <li><a href="/theimpulsedigital.com/">Home</a></li>
+              <li><a href="/theimpulsedigital.com/about-us">About Us</a></li>
+              <li><a href="/theimpulsedigital.com/services">Services</a></li>
             </ul>
             <ul className="footer__col">
               <strong>Resources</strong>
               <li><a href="/blog">Blog</a></li>
-              <li><a href="/impulse-website/career">Career</a></li>
+              <li><a href="/theimpulsedigital.com/career">Career</a></li>
             </ul>
             <ul className="footer__col">
               <strong>Locations</strong>
-              <li><a href="/impulse-website/digital-marketing-agency-in-india">India</a></li>
-              <li><a href="/impulse-website/digital-marketing-agency-in-thane">Thane</a></li>
-              <li><a href="/impulse-website/digital-marketing-agency-in-navi-mumbai">Navi Mumbai</a></li>
-              <li><a href="/impulse-website/digital-marketing-agency-in-pune">Pune</a></li>
+              <li><a href="/theimpulsedigital.com/digital-marketing-agency-in-india">India</a></li>
+              <li><a href="/theimpulsedigital.com/digital-marketing-agency-in-thane">Thane</a></li>
+              <li><a href="/theimpulsedigital.com/digital-marketing-agency-in-navi-mumbai">Navi Mumbai</a></li>
+              <li><a href="/theimpulsedigital.com/digital-marketing-agency-in-pune">Pune</a></li>
             </ul>
           </nav>
 
@@ -78,14 +78,14 @@ export const FooterSection: React.FC = () => {
           <div className="footer__contact">
             <div className="footer__contactItem">
               <span className="footer__circleIcon">
-                <img src="/impulse-website/footer-call.png" alt="Phone" />
+                <img src="/theimpulsedigital.com/footer-call.png" alt="Phone" />
               </span>
               <a href="tel:+919769285224">+91–9769285224</a>
             </div>
 
             <div className="footer__contactItem">
               <span className="footer__circleIcon">
-                <img src="/impulse-website/sms.png" alt="Email" />
+                <img src="/theimpulsedigital.com/sms.png" alt="Email" />
               </span>
               <a href="mailto:collabs@theimpulsedigital.com">
                 collabs@theimpulsedigital.com
@@ -94,7 +94,7 @@ export const FooterSection: React.FC = () => {
 
             <div className="footer__contactItem footer__address">
               <span className="footer__circleIcon">
-                <img src="/impulse-website/footer-location.png" alt="Location" />
+                <img src="/theimpulsedigital.com/footer-location.png" alt="Location" />
               </span>
               304 - 305, Chirag Infotech, Road No. 16/Z,
   Ambica Nagar, Wagle Industrial Estate,
@@ -140,11 +140,11 @@ export const FooterSection: React.FC = () => {
               className="actionBtn"
               aria-label="Chat on WhatsApp"
             >
-              <img src="/impulse-website/whatsapp.png" alt="WhatsApp" />
+              <img src="/theimpulsedigital.com/whatsapp.png" alt="WhatsApp" />
             </a>
 
             <a href="tel:+919769285224" className="actionBtn" aria-label="Call Impulse Digital">
-              <img src="/impulse-website/footer-call.png" alt="Call" />
+              <img src="/theimpulsedigital.com/footer-call.png" alt="Call" />
             </a>
           </div>
         )}

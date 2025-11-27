@@ -26,35 +26,35 @@ const ServicesSection = () => {
    const data = [
     { n:"01", title:"Branding",
       points:["Who are you, what do you do, and why should your audience buy from you? Your branding is your unique identity that tells your audience everything about you. We make sure it sets you apart rather than putting you on the list of ‘Oh this is just like brand XYZ.’"],
-      img:"/impulse-website/Branding.jpg"
+      img:"/theimpulsedigital.com/Branding.jpg"
     },
 
     { n:"02", title:"Logo Identity",
       points:["Your logo is one aspect of your branding that’s going to be everywhere, quite literally-social media, website, packaging, gift notes. Our logo identity goes beyond aesthetics to capture your brand’s essence. Whether you want it to be sleek, modern, or timeless, our logos create instant recognition for you."],
-      img:"/impulse-website/branding creative service section 520 x 340 - Logo Identity.jpg"
+      img:"/theimpulsedigital.com/branding creative service section 520 x 340 - Logo Identity.jpg"
     },
 
     { n:"03", title:"Brand Style Guideline",
       points:["Imagine every communication in a different color scheme, font, or voice. One sounds like a friend, another like a grandmother. Pst! Your brand is lost. We create detailed guidelines that define your brand's tone, typography, color schemes, and imagery, ensuring all communication aligns with your identity at all touchpoints. Not one missed."],
-      img:"/impulse-website/branding creative service section 520 x 340 - Brand style guideline.jpg"
+      img:"/theimpulsedigital.com/branding creative service section 520 x 340 - Brand style guideline.jpg"
     },
 
     {
       n:"04", title:"Brand Lookbook",
       points:["Showcase your brand’s story, products, and journey with a well-crafted lookbook. With elegant, cohesive layouts that highlight your strengths and create an immersive experience for your audience, these lookbooks are perfect for client pitches, coffee tables, or product launches."],
-      img:"/impulse-website/branding creative service section 520 x 340 - Brand lookbook.jpg"
+      img:"/theimpulsedigital.com/branding creative service section 520 x 340 - Brand lookbook.jpg"
     },
 
     {
       n:"05", title:"Product Packaging",
       points:["Every touchpoint should reinforce your brand’s messaging and product packaging is a lot more than just words. There’s design thinking and consumer psychology in there. Our team designs innovative packaging that grabs the eye of the audience from the shelves, creates a memorable unboxing experience, and keeps your customer hooked."],
-      img:"/impulse-website/branding creative service section 520 x 340 - Product packaging.jpg"
+      img:"/theimpulsedigital.com/branding creative service section 520 x 340 - Product packaging.jpg"
     },
 
     {
       n:"06", title:"Branding Collaterals",
       points:["Equip your band with professional collaterals that impress at every interaction. Be it a business card, brochure, presentation or custom stationary, we design collaterals that speak for your brand louder than words could, enhances your visibility, and engraves you in the mind of your audience."],
-      img:"/impulse-website/branding creative service section 520 x 340 - Branding collaterals.jpg"
+      img:"/theimpulsedigital.com/branding creative service section 520 x 340 - Branding collaterals.jpg"
     }
 ];
 
@@ -330,7 +330,7 @@ const ServicesSection = () => {
                   <div className="group flex w-60 items-start justify-center lg:justify-end pt-2 lg:pt-[7px]">
                     <a href="">
                       <img
-                        src="/impulse-website/Arrow.png"
+                        src="/theimpulsedigital.com/Arrow.png"
                         alt="Arrow"
                         className="w-[56px] lg:w-[80px] object-contain transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                       />
@@ -388,7 +388,7 @@ const ServicesSection = () => {
                 aria-label="Previous"
               >
                 <img
-                  src="/impulse-website/left-arrow.png"
+                  src="/theimpulsedigital.com/left-arrow.png"
                   alt="Next"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />
@@ -401,7 +401,7 @@ const ServicesSection = () => {
                 aria-label="Next"
               >
                 <img
-                  src="/impulse-website/right-arrow.png"
+                  src="/theimpulsedigital.com/right-arrow.png"
                   alt="Next"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />

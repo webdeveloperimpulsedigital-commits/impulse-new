@@ -1,8 +1,8 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
-  RewriteBase /impulse-website/
+  RewriteBase /theimpulsedigital.com/
   RewriteRule ^index\.html$ - [L]
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule . /impulse-website/index.html [L]
+  RewriteRule . /theimpulsedigital.com/index.html [L]
 </IfModule>

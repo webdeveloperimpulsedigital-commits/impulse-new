@@ -183,7 +183,7 @@ export const AboutSection = (): JSX.Element => {
               Connect Now
             </Link>
             <img
-              src="/impulse-website/button-icon.svg"
+              src="/theimpulsedigital.com/button-icon.svg"
               alt="Arrow"
               className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert-0 group-hover:invert pointer-events-none"
             />

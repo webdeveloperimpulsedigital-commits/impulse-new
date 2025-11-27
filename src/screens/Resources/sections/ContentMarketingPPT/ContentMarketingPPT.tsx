@@ -2,15 +2,15 @@ import { useMemo, useState } from "react";
 import { Button } from "../../../../components/ui/button";
 
 export const seoPpts = [
-  { id: "1", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "Embracing LGBTQ+ Pride in 2023", thumbnail: "/impulse-website/slideshow/ppt1.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/lgbtq-pride" },
-  { id: "2", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "How Emotions Drive Advertising", thumbnail: "/impulse-website/slideshow/ppt2.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/emotional-advertising" },
-  { id: "3", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "Why Employer Branding Matters", thumbnail: "/impulse-website/slideshow/ppt3.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/employer-branding-plan" },
-  { id: "4", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "Planning to Order from ONDC?", thumbnail: "/impulse-website/slideshow/ppt4.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/ondc-planning" },
-  { id: "5", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "Apple’s VR: What Changes for Marketers", thumbnail: "/impulse-website/slideshow/ppt5.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/apple-vr-marketing" },
-  { id: "6", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "Father’s Day: Brand Playbook", thumbnail: "/impulse-website/slideshow/ppt6.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/fathers-day-campaign" },
-  { id: "7", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "ONDC: Key Takeaways", thumbnail: "/impulse-website/slideshow/ppt7.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/ondc-report" },
-  { id: "8", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "Best AI Tools for India", thumbnail: "/impulse-website/slideshow/ppt8.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/ai-tools" },
-  { id: "9", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "B2B Entrepreneur’s Guide", thumbnail: "/impulse-website/slideshow/ppt9.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/b2b-guide" },
+  { id: "1", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "Embracing LGBTQ+ Pride in 2023", thumbnail: "/theimpulsedigital.com/slideshow/ppt1.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/lgbtq-pride" },
+  { id: "2", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "How Emotions Drive Advertising", thumbnail: "/theimpulsedigital.com/slideshow/ppt2.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/emotional-advertising" },
+  { id: "3", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "Why Employer Branding Matters", thumbnail: "/theimpulsedigital.com/slideshow/ppt3.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/employer-branding-plan" },
+  { id: "4", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "Planning to Order from ONDC?", thumbnail: "/theimpulsedigital.com/slideshow/ppt4.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/ondc-planning" },
+  { id: "5", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "Apple’s VR: What Changes for Marketers", thumbnail: "/theimpulsedigital.com/slideshow/ppt5.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/apple-vr-marketing" },
+  { id: "6", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "Father’s Day: Brand Playbook", thumbnail: "/theimpulsedigital.com/slideshow/ppt6.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/fathers-day-campaign" },
+  { id: "7", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "ONDC: Key Takeaways", thumbnail: "/theimpulsedigital.com/slideshow/ppt7.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/ondc-report" },
+  { id: "8", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "Best AI Tools for India", thumbnail: "/theimpulsedigital.com/slideshow/ppt8.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/ai-tools" },
+  { id: "9", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "B2B Entrepreneur’s Guide", thumbnail: "/theimpulsedigital.com/slideshow/ppt9.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/b2b-guide" },
 
 
 ];
@@ -79,32 +79,32 @@ export const ContentMarketingPPT = (): JSX.Element => {
         {/* Category Tabs */}
         <div className="flex flex-wrap gap-2 mb-6 border-b border-slate-200 pb-3 text-xs sm:text-sm">
           <a
-            href="/impulse-website/resources/Slideshare-PPT/"
+            href="/theimpulsedigital.com/resources/Slideshare-PPT/"
             className="px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700 hover:border-slate-400 hover:bg-slate-50 transition-colors">
             All PPTs
           </a>
           <a
-            href="/impulse-website/resources/social-media-PPT"
+            href="/theimpulsedigital.com/resources/social-media-PPT"
             className="px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700 hover:border-slate-400 hover:bg-slate-50 transition-colors">
             Social Media PPT
           </a>
           <a
-            href="/impulse-website/resources/google-ads-PPT"            
+            href="/theimpulsedigital.com/resources/google-ads-PPT"            
             className="px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700 hover:border-slate-400 hover:bg-slate-50 transition-colors">
             Google Ads / SEM PPT
           </a>
           <a
-            href="/impulse-website/resources/content-marketing-PPT"
+            href="/theimpulsedigital.com/resources/content-marketing-PPT"
             className="px-3 py-1.5 rounded-full text-white font-medium bg-[#543d98]">
             Content Marketing PPT
           </a>
           <a
-            href="/impulse-website/resources/employer-branding-PPT"
+            href="/theimpulsedigital.com/resources/employer-branding-PPT"
             className="px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700 hover:border-slate-400 hover:bg-slate-50 transition-colors">
             Employer Branding PPT
           </a>
            <a
-            href="/impulse-website/resources/website-design-development-PPT"
+            href="/theimpulsedigital.com/resources/website-design-development-PPT"
             className="px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700 hover:border-slate-400 hover:bg-slate-50 transition-colors">
             Website Design Development PPT
           </a>
@@ -260,7 +260,7 @@ export const ContentMarketingPPT = (): JSX.Element => {
        View PPT
     </span>
     <img
-      src="/impulse-website/button-icon.svg"
+      src="/theimpulsedigital.com/button-icon.svg"
       alt="Arrow"
       className="w-4 h-4 transition-all duration-300 
         group-hover/download:rotate-45 
@@ -286,7 +286,7 @@ export const ContentMarketingPPT = (): JSX.Element => {
                   className="w-[180px] h-[44px] group sm:inline-flex items-center gap-2 px-4 py-5 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border border-[#543d98]"
                 >
                   Load more PPTs
-                  <img src="/impulse-website/button-icon.svg" alt="Arrow" className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-1 group-hover:invert " /> 
+                  <img src="/theimpulsedigital.com/button-icon.svg" alt="Arrow" className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-1 group-hover:invert " /> 
                 </Button>
               </div>
             )}

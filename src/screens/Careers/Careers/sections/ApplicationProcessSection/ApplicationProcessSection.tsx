@@ -102,7 +102,7 @@ export const ApplicationProcessSection = (): JSX.Element => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button className="bg-white text-[#543d98] hover:bg-gray-100 px-8 py-4 rounded-xl font-bold transition-colors duration-300">
               Send Your Resume
-              <img className="w-4 h-4 ml-2" alt="Arrow" src="/impulse-website/button-icon.svg" />
+              <img className="w-4 h-4 ml-2" alt="Arrow" src="/theimpulsedigital.com/button-icon.svg" />
             </Button>
             <Button className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-[#543d98] px-8 py-4 rounded-xl font-bold transition-all duration-300">
               Contact HR Team

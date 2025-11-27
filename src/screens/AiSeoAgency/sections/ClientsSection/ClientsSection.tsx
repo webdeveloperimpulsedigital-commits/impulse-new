@@ -5,36 +5,36 @@ export const ClientsSection = (): JSX.Element => {
 
  
   const logos = [
-    { name: "abg-chemical", src: "/impulse-website/impulse-clients/abg-chemical.jpg" },
-    { name: "hindalco", src: "/impulse-website/impulse-clients/hindalco.jpg" },
-    { name: "abps", src: "/impulse-website/impulse-clients/abps.jpg" },
-    { name: "birla-celilues", src: "/impulse-website/impulse-clients/birla-celilues.jpg" },
-    { name: "hdfc", src: "/impulse-website/impulse-clients/hdfc.jpg" },
-    { name: "godrej", src: "/impulse-website/impulse-clients/godrej.jpg" },
-    { name: "amazone", src: "/impulse-website/impulse-clients/amazone.jpg" },
-    { name: "ola", src: "/impulse-website/impulse-clients/ola.jpg" },
-    { name: "chings", src: "/impulse-website/impulse-clients/chings.jpg" },
-    { name: "d-mart", src: "/impulse-website/impulse-clients/d-mart.jpg" },
-    { name: "mastercard", src: "/impulse-website/impulse-clients/mastercard.jpg" },
-    { name: "tjsb", src: "/impulse-website/impulse-clients/tjsb.jpg" },
-    { name: "tata-soulful", src: "/impulse-website/impulse-clients/tata-soulful.jpg" },
-    { name: "tata", src: "/impulse-website/impulse-clients/tata.jpg" },
-    { name: "jankalyan", src: "/impulse-website/impulse-clients/jankalyan.jpg" },
-    { name: "croda", src: "/impulse-website/impulse-clients/croda.jpg" },
-    { name: "qure-ai", src: "/impulse-website/impulse-clients/qure-ai.jpg" },
-    { name: "aster", src: "/impulse-website/impulse-clients/aster.jpg" },
-    { name: "automag", src: "/impulse-website/impulse-clients/automag.jpg" },
-    { name: "datar", src: "/impulse-website/impulse-clients/datar.jpg" },
-    { name: "dts", src: "/impulse-website/impulse-clients/dts.jpg" },
-    { name: "emech", src: "/impulse-website/impulse-clients/emech.jpg" },
-    { name: "enpro", src: "/impulse-website/impulse-clients/enpro.jpg" },
-    { name: "goma", src: "/impulse-website/impulse-clients/goma.jpg" },
-    { name: "hem", src: "/impulse-website/impulse-clients/hem.jpg" },
-    { name: "lg", src: "/impulse-website/impulse-clients/lg.jpg" },
-    { name: "more", src: "/impulse-website/impulse-clients/more.jpg" },
-    { name: "navayasa", src: "/impulse-website/impulse-clients/navayasa.jpg" },
-    { name: "shree-rubber", src: "/impulse-website/impulse-clients/shree-rubber.jpg" },
-    { name: "vendiman", src: "/impulse-website/impulse-clients/vendiman.jpg" },
+    { name: "abg-chemical", src: "/theimpulsedigital.com/impulse-clients/abg-chemical.jpg" },
+    { name: "hindalco", src: "/theimpulsedigital.com/impulse-clients/hindalco.jpg" },
+    { name: "abps", src: "/theimpulsedigital.com/impulse-clients/abps.jpg" },
+    { name: "birla-celilues", src: "/theimpulsedigital.com/impulse-clients/birla-celilues.jpg" },
+    { name: "hdfc", src: "/theimpulsedigital.com/impulse-clients/hdfc.jpg" },
+    { name: "godrej", src: "/theimpulsedigital.com/impulse-clients/godrej.jpg" },
+    { name: "amazone", src: "/theimpulsedigital.com/impulse-clients/amazone.jpg" },
+    { name: "ola", src: "/theimpulsedigital.com/impulse-clients/ola.jpg" },
+    { name: "chings", src: "/theimpulsedigital.com/impulse-clients/chings.jpg" },
+    { name: "d-mart", src: "/theimpulsedigital.com/impulse-clients/d-mart.jpg" },
+    { name: "mastercard", src: "/theimpulsedigital.com/impulse-clients/mastercard.jpg" },
+    { name: "tjsb", src: "/theimpulsedigital.com/impulse-clients/tjsb.jpg" },
+    { name: "tata-soulful", src: "/theimpulsedigital.com/impulse-clients/tata-soulful.jpg" },
+    { name: "tata", src: "/theimpulsedigital.com/impulse-clients/tata.jpg" },
+    { name: "jankalyan", src: "/theimpulsedigital.com/impulse-clients/jankalyan.jpg" },
+    { name: "croda", src: "/theimpulsedigital.com/impulse-clients/croda.jpg" },
+    { name: "qure-ai", src: "/theimpulsedigital.com/impulse-clients/qure-ai.jpg" },
+    { name: "aster", src: "/theimpulsedigital.com/impulse-clients/aster.jpg" },
+    { name: "automag", src: "/theimpulsedigital.com/impulse-clients/automag.jpg" },
+    { name: "datar", src: "/theimpulsedigital.com/impulse-clients/datar.jpg" },
+    { name: "dts", src: "/theimpulsedigital.com/impulse-clients/dts.jpg" },
+    { name: "emech", src: "/theimpulsedigital.com/impulse-clients/emech.jpg" },
+    { name: "enpro", src: "/theimpulsedigital.com/impulse-clients/enpro.jpg" },
+    { name: "goma", src: "/theimpulsedigital.com/impulse-clients/goma.jpg" },
+    { name: "hem", src: "/theimpulsedigital.com/impulse-clients/hem.jpg" },
+    { name: "lg", src: "/theimpulsedigital.com/impulse-clients/lg.jpg" },
+    { name: "more", src: "/theimpulsedigital.com/impulse-clients/more.jpg" },
+    { name: "navayasa", src: "/theimpulsedigital.com/impulse-clients/navayasa.jpg" },
+    { name: "shree-rubber", src: "/theimpulsedigital.com/impulse-clients/shree-rubber.jpg" },
+    { name: "vendiman", src: "/theimpulsedigital.com/impulse-clients/vendiman.jpg" },
   ];
  
   // Video zoom state
@@ -87,7 +87,7 @@ export const ClientsSection = (): JSX.Element => {
                       Connect Now
                     </Link>
                     <img
-                      src="/impulse-website/button-icon.svg"
+                      src="/theimpulsedigital.com/button-icon.svg"
                       alt="Arrow"
                       className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert-0 group-hover:invert pointer-events-none"
                     />

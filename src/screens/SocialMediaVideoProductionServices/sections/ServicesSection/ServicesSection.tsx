@@ -26,27 +26,27 @@ const ServicesSection = () => {
  const data = [
     { n:"01", title:"Video Editing",
       points:["Great content deserves seamless execution. Our social media video production services transform your raw footage into high-quality, visually compelling videos that turn your audience into fans. Be it color correction, sound design, smooth transitions or text overlays, we craft polish videos that tell a story."],
-      img:"/impulse-website/video  service section 520 x 340 - Video editing.jpg" },
+      img:"/theimpulsedigital.com/video  service section 520 x 340 - Video editing.jpg" },
     { n:"02", title:"Video Production",
       points:["Want us to take care of the entire process end-to-end? No problem, We will script, design, shoot, edit, and handle the post-production as well for you. Our high-tech equipment, creative strategists, and sound experience of creative shoots ensure that the final outcome is professional-grade videos tailored for your audience."],
-      img:"/impulse-website/video  service section 520 x 340 - Video production.jpg" },
+      img:"/theimpulsedigital.com/video  service section 520 x 340 - Video production.jpg" },
     {
       n:"03", title:"Content Shoot",
       points:["With a team of skilled content photographers and videographers, our content shoots focus on creativity, lighting, and composition to create visuals that deliver emotions, your brand values, and engagement. Be it influencer collaborations, lifestyle content, every piece or behind-the-scenes, we promise to get you the best. "],
-      img:"/impulse-website/Content Shoot.jpg"},
+      img:"/theimpulsedigital.com/Content Shoot.jpg"},
       {
         n:"04", title:"Product Shoot",
         points:["Our product shoot services are designed to make your product the HERO of your campaign. Our team carefully weaves the product into the scene, focusing on its key details, positioning, and lighting, ensuring every detail is well-suited for your eCommerce, lifestyle shots, and promotional videos."],
-        img:"/impulse-website/video  service section 520 x 340 - Product shoot.jpg"},
+        img:"/theimpulsedigital.com/video  service section 520 x 340 - Product shoot.jpg"},
       {
         n:"05", title:"Motion Graphics",
         points:["Motion graphics bring your vision to life with engaging animations, dynamic typography and awesome visual effects. With every element that moves, your audience gets hooked and you get better engagement. Best for explainer videos, logo animations, and social media visuals, our services simplify complex ideas into memorable content."],
-        img:"/impulse-website/video  service section 520 x 340 - Motion graphics.jpg"
+        img:"/theimpulsedigital.com/video  service section 520 x 340 - Motion graphics.jpg"
       },
       {
         n:"06", title:"Television And OTT Platform Assets",
         points:["Promotional videos, ad spots, title sequences, show intros, trailer edits, and full-scale commercials-our expertise in video production and motion graphics ensure visually compelling content optimized for digital and broadcast audiences for maximum reach and viewer engagement. "],
-        img:"/impulse-website/video  service section 520 x 340 - Television and OTT platform assets.jpg"
+        img:"/theimpulsedigital.com/video  service section 520 x 340 - Television and OTT platform assets.jpg"
       }
     
   ];
@@ -322,7 +322,7 @@ const ServicesSection = () => {
                   <div className="group flex w-60 items-start justify-center lg:justify-end pt-2 lg:pt-[7px]">
                     <a href="">
                       <img
-                        src="/impulse-website/Arrow.png"
+                        src="/theimpulsedigital.com/Arrow.png"
                         alt="Arrow"
                         className="w-[56px] lg:w-[80px] object-contain transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                       />
@@ -380,7 +380,7 @@ const ServicesSection = () => {
                 aria-label="Previous"
               >
                 <img
-                  src="/impulse-website/left-arrow.png"
+                  src="/theimpulsedigital.com/left-arrow.png"
                   alt="Next"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />
@@ -393,7 +393,7 @@ const ServicesSection = () => {
                 aria-label="Next"
               >
                 <img
-                  src="/impulse-website/right-arrow.png"
+                  src="/theimpulsedigital.com/right-arrow.png"
                   alt="Next"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />

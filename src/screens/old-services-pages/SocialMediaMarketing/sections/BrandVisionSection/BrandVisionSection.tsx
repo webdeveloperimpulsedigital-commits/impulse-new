@@ -44,7 +44,7 @@ export const BrandVisionSection = (): JSX.Element => {
           <div className="lg:col-span-2">
             <div className="relative">
               <img
-                src="/impulse-website/social-media-marketing-abou-section.jpg"
+                src="/theimpulsedigital.com/social-media-marketing-abou-section.jpg"
                 alt="Brand vision workspace"
                 className="w-full h-[400px] lg:h-[500px] object-cover rounded-2xl shadow-lg"
               />

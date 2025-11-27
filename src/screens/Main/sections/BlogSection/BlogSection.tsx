@@ -37,7 +37,7 @@ export const BlogSection = (): JSX.Element => {
         "Storytelling in Digital Marketing: How to Build Emotional Brands",
       description:
         "Marketing today focuses on showing deep connections rather than just selling goods or services. A brand’s skill to tell an engaging story is what will make them stand out in this world of changing trends. Digital Marketing turns into emotional experience through storytelling instead of a transactional pitch. Customers feel motivated, appreciated, and understood as a result...",
-      image: "/impulse-website/blog/Storytelling-in-Digital-Marketing-1024x683.webp",
+      image: "/theimpulsedigital.com/blog/Storytelling-in-Digital-Marketing-1024x683.webp",
     },
     {
       id: "2",
@@ -47,7 +47,7 @@ export const BlogSection = (): JSX.Element => {
         "SEO vs Google Ads: Which Is Better for Your Business in 2025? ",
       description:
         "In this digital age, visibility on the web might build or ruin your business. In 2025, the way to dominate the market is through either Search Engine Optimisation (SEO) or Google Ads. Even though they have the same goal of raising potential clients and brand awareness, they work quite differently. Knowing how and when to use each to achieve certain business objectives is much...",
-      image: "/impulse-website/blog/Compare-SEO-and-Google-Ads-in-2025-1024x683.webp",
+      image: "/theimpulsedigital.com/blog/Compare-SEO-and-Google-Ads-in-2025-1024x683.webp",
     },
     {
       id: "3",
@@ -57,7 +57,7 @@ export const BlogSection = (): JSX.Element => {
         "What Is ROAS and How Do You Calculate It? Everything you need to know",
       description:
         "In this competitive digital market, businesses tend to not foolishly spend on advertising. Every rupee or dollar put into it must have measurable results, and marketers must have a proper means to know where campaigns are effective. ROAS (Return on Ad Spend) is a much-needed performance statistic that directly correlates ad spending with revenue outcomes. ROAS gives a clear financial perspective on how much...",
-      image: "/impulse-website/blog/What-Is-ROAS-and-How-Do-You-Calculate-It-1024x683.webp",
+      image: "/theimpulsedigital.com/blog/What-Is-ROAS-and-How-Do-You-Calculate-It-1024x683.webp",
     },
   ];
  
@@ -153,7 +153,7 @@ export const BlogSection = (): JSX.Element => {
             See All Articles
           </Link>
           <img
-            src="/impulse-website/button-icon.svg"
+            src="/theimpulsedigital.com/button-icon.svg"
             alt="Arrow"
             className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert-0 group-hover:invert pointer-events-none"
           />
@@ -163,11 +163,11 @@ export const BlogSection = (): JSX.Element => {
       {/* Controllers (prev/next) */}
       <div className="flex justify-center items-center gap-4 mt-4">
         <Button className="group blog-nav-button blog-button-prev ">
-          <img src="/impulse-website/left-arrow.png" alt="Prev"
+          <img src="/theimpulsedigital.com/left-arrow.png" alt="Prev"
                className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"/>
         </Button>
         <Button className="group blog-nav-button blog-button-next ">
-          <img src="/impulse-website/right-arrow.png" alt="Next"
+          <img src="/theimpulsedigital.com/right-arrow.png" alt="Next"
                className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"/>
         </Button>
       </div>
@@ -209,7 +209,7 @@ export const BlogSection = (): JSX.Element => {
                 See All Articles
               </Link>
               <img
-                src="/impulse-website/button-icon.svg"
+                src="/theimpulsedigital.com/button-icon.svg"
                 alt="Arrow"
                 className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert-0 group-hover:invert pointer-events-none"
               />

@@ -50,7 +50,7 @@ export const AgencyIntroSection = (): JSX.Element => {
         <div ref={introRef} className={`intro ${revealed ? "intro--revealed" : ""}`}>
           {/* Logo */}
           <img
-            src="/impulse-website/Impulse Logo.png"
+            src="/theimpulsedigital.com/Impulse Logo.png"
             alt="Impulse Digital"
             className="intro__logo"
           />
@@ -59,7 +59,7 @@ export const AgencyIntroSection = (): JSX.Element => {
           <div className="intro__photos">
             <div className="intro__person">
               <img
-                src="/impulse-website/adwait-sir.jpg"
+                src="/theimpulsedigital.com/adwait-sir.jpg"
                 alt="Adwait Joshi"
                 className="intro__photo"
               />
@@ -70,7 +70,7 @@ export const AgencyIntroSection = (): JSX.Element => {
             </div>
             <div className="intro__person">
               <img
-                src="/impulse-website/Abhishek Image.jpg"
+                src="/theimpulsedigital.com/Abhishek Image.jpg"
                 alt="Abhishek Arekar"
                 className="intro__photo"
               />
@@ -86,7 +86,7 @@ export const AgencyIntroSection = (): JSX.Element => {
             <div className="intro__slider" ref={sliderRef}>
               <div className="intro__slide">
                 <img
-                  src="/impulse-website/adwait-sir.jpg"
+                  src="/theimpulsedigital.com/adwait-sir.jpg"
                   alt="Adwait Joshi"
                   className="intro__slidePhoto"
                 />
@@ -97,7 +97,7 @@ export const AgencyIntroSection = (): JSX.Element => {
               </div>
               <div className="intro__slide">
                 <img
-                  src="/impulse-website/Abhishek Image.jpg"
+                  src="/theimpulsedigital.com/Abhishek Image.jpg"
                   alt="Abhishek Arekar"
                   className="intro__slidePhoto"
                 />

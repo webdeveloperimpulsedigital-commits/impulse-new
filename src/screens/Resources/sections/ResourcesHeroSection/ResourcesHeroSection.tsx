@@ -47,7 +47,7 @@ export const ResourcesHeroSection = (): JSX.Element => {
           playsInline
           preload="metadata"
           aria-hidden="true">
-          <source src="/impulse-website/bg-video.mp4" type="video/mp4" />
+          <source src="/theimpulsedigital.com/bg-video.mp4" type="video/mp4" />
         </video>
 
         {/* Overlay layer for dark tint */}

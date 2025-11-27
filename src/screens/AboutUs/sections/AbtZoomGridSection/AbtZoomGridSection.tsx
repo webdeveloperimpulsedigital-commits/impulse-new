@@ -124,7 +124,7 @@ export const AbtZoomGridSection = (): JSX.Element => {
             <div className="grid1" ref={gridRef}>
               {/* Row 1 */}
               <div className="tile" data-grid-item>
-                <img src="/impulse-website/12_Mastercard.jpg" alt="Project 1" />
+                <img src="/theimpulsedigital.com/12_Mastercard.jpg" alt="Project 1" />
               </div>
 
               {/* Center video tile */}
@@ -138,23 +138,23 @@ export const AbtZoomGridSection = (): JSX.Element => {
                   loop
                   preload="auto"
                 >
-                  <source src="/impulse-website/impulse-video.mp4" type="video/mp4" />
+                  <source src="/theimpulsedigital.com/impulse-video.mp4" type="video/mp4" />
                 </video>
               </div>
 
               <div className="tile" data-grid-item>
-                <img src="/impulse-website/10_Dmart.jpg" alt="Project 3" />
+                <img src="/theimpulsedigital.com/10_Dmart.jpg" alt="Project 3" />
               </div>
 
               {/* Row 2 */}
               <div className="tile" data-grid-item>
-                <img src="/impulse-website/11_Emech.jpg" alt="Project 4" />
+                <img src="/theimpulsedigital.com/11_Emech.jpg" alt="Project 4" />
               </div>
               <div className="tile" data-grid-item>
-                <img src="/impulse-website/12_HEM.jpg" alt="Project 5" />
+                <img src="/theimpulsedigital.com/12_HEM.jpg" alt="Project 5" />
               </div>
               <div className="tile" data-grid-item>
-                <img src="/impulse-website/09_Automag.jpg" alt="Project 6" />
+                <img src="/theimpulsedigital.com/09_Automag.jpg" alt="Project 6" />
               </div>
             </div>
           </div>
@@ -255,19 +255,19 @@ export const AbtZoomGridSection = (): JSX.Element => {
         <div className="mobile-slider">
           {/* Slides: show a hint of the next one with 80% width cards */}
           <div className="mobile-slide">
-            <img src="/impulse-website/12_Mastercard.jpg" alt="Mastercard Campaign" />
+            <img src="/theimpulsedigital.com/12_Mastercard.jpg" alt="Mastercard Campaign" />
           </div>
           <div className="mobile-slide">
-            <img src="/impulse-website/10_Dmart.jpg" alt="DMart Campaign" />
+            <img src="/theimpulsedigital.com/10_Dmart.jpg" alt="DMart Campaign" />
           </div>
           <div className="mobile-slide">
-            <img src="/impulse-website/11_Emech.jpg" alt="Emech Project" />
+            <img src="/theimpulsedigital.com/11_Emech.jpg" alt="Emech Project" />
           </div>
           <div className="mobile-slide">
-            <img src="/impulse-website/12_HEM.jpg" alt="HEM Initiative" />
+            <img src="/theimpulsedigital.com/12_HEM.jpg" alt="HEM Initiative" />
           </div>
           <div className="mobile-slide">
-            <img src="/impulse-website/09_Automag.jpg" alt="Automag Project" />
+            <img src="/theimpulsedigital.com/09_Automag.jpg" alt="Automag Project" />
           </div>
         </div>
 

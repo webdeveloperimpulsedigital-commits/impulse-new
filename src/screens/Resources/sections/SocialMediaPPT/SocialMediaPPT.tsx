@@ -8,7 +8,7 @@ export const seoPpts = [
     year: "2023",
     title: "Father’s Day – How brands cash in on celebrating dads",
     pdfUrl: "https://www.theimpulsedigital.com/slideshare/father%E2%80%99s-day-how-brands-cash-in-on-celebrating-dads.pdf",
-    thumbnail: "/impulse-website/slideshow/ppt9.png",
+    thumbnail: "/theimpulsedigital.com/slideshow/ppt9.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -18,7 +18,7 @@ export const seoPpts = [
   year: "2023",
   title: "Top 3 ways of using social media stories & Instagram Reels in marketing",
   pdfUrl: "https://www.theimpulsedigital.com/slideshare/top_3_ways_of_using_social_media_stories_and_instagram_reels_in_your_marketing_strategy.pdf",
-  thumbnail: "/impulse-website/slideshow/ppt39.png",
+  thumbnail: "/theimpulsedigital.com/slideshow/ppt39.png",
   tag: "PPT",
     meta: "2023 • Presentation",
 },
@@ -27,7 +27,7 @@ export const seoPpts = [
   year: "2023",
   title: "The complete guide to social listening in 2021",
   pdfUrl: "https://www.theimpulsedigital.com/slideshare/the_complete_guide_to_social_listening_in_2021.pdf",
-  thumbnail: "/impulse-website/slideshow/ppt40.png",
+  thumbnail: "/theimpulsedigital.com/slideshow/ppt40.png",
   tag: "PPT",
     meta: "2023 • Presentation",
 },
@@ -37,7 +37,7 @@ export const seoPpts = [
   year: "2023",
   title: "5 secrets to a great social media campaign",
   pdfUrl: "https://www.theimpulsedigital.com/slideshare/5-Secrets-to-a-Great-Social-Media-Campagin.pdf",
-  thumbnail: "/impulse-website/slideshow/ppt44.png",
+  thumbnail: "/theimpulsedigital.com/slideshow/ppt44.png",
   tag: "PPT",
     meta: "2023 • Presentation",
 },
@@ -46,7 +46,7 @@ export const seoPpts = [
   year: "2023",
   title: "All you need to know about social selling",
   pdfUrl: "https://www.theimpulsedigital.com/slideshare/all-you-need-to-know-about-social-selling.pdf",
-  thumbnail: "/impulse-website/slideshow/ppt45.png",
+  thumbnail: "/theimpulsedigital.com/slideshow/ppt45.png",
   tag: "PPT",
     meta: "2023 • Presentation",
 },
@@ -56,7 +56,7 @@ export const seoPpts = [
   year: "2023",
   title: "Top 5 things you should know about social media banter",
   pdfUrl: "https://www.theimpulsedigital.com/slideshare/top-5-things-you-should-know-about-social-media-banter.pdf",
-  thumbnail: "/impulse-website/slideshow/ppt49.png",
+  thumbnail: "/theimpulsedigital.com/slideshow/ppt49.png",
   tag: "PPT",
     meta: "2023 • Presentation",
 },
@@ -66,7 +66,7 @@ export const seoPpts = [
   year: "2023",
   title: "Top 5 social media marketing trends of 2021",
   pdfUrl: "https://www.theimpulsedigital.com/slideshare/catch-up-with-these-top-5-social-media-marketing-trends-of-2021.pdf",
-  thumbnail: "/impulse-website/slideshow/ppt53.png",
+  thumbnail: "/theimpulsedigital.com/slideshow/ppt53.png",
   tag: "PPT",
     meta: "2023 • Presentation",
 },
@@ -76,7 +76,7 @@ export const seoPpts = [
   year: "2023",
   title: "The Pinterest way of marketing your business digitally",
   pdfUrl: "https://www.theimpulsedigital.com/slideshare/the-pinterest-way-of-marketing-your-business-digitally.pdf",
-  thumbnail: "/impulse-website/slideshow/ppt68.png",
+  thumbnail: "/theimpulsedigital.com/slideshow/ppt68.png",
   tag: "PPT",
     meta: "2023 • Presentation",
 },
@@ -86,7 +86,7 @@ export const seoPpts = [
   year: "2023",
   title: "Have you begun discussing on Reddit yet?",
   pdfUrl: "https://www.theimpulsedigital.com/slideshare/have-you-begun-discussing-on-reddit-yet.pdf",
-  thumbnail: "/impulse-website/slideshow/ppt70.png",
+  thumbnail: "/theimpulsedigital.com/slideshow/ppt70.png",
   tag: "PPT",
     meta: "2023 • Presentation",
 },
@@ -96,7 +96,7 @@ export const seoPpts = [
   year: "2023",
   title: "Is Signal messenger the perfect alternative to WhatsApp?",
   pdfUrl: "https://www.theimpulsedigital.com/slideshare/is-signal-messenger-app-the-perfect-alternative-to-whatsapp-1.pdf",
-  thumbnail: "/impulse-website/slideshow/ppt73.png",
+  thumbnail: "/theimpulsedigital.com/slideshow/ppt73.png",
   tag: "PPT",
     meta: "2023 • Presentation",
 },
@@ -105,7 +105,7 @@ export const seoPpts = [
   year: "2023",
   title: "Social media privacy threats you need to keep an eye on in 2021",
   pdfUrl: "https://www.theimpulsedigital.com/slideshare/social-media-privacy-threats-that-you-need-to-keep-an-eye-on-in-2021.pdf",
-  thumbnail: "/impulse-website/slideshow/ppt72.png",
+  thumbnail: "/theimpulsedigital.com/slideshow/ppt72.png",
   tag: "PPT",
     meta: "2023 • Presentation",
 },
@@ -114,7 +114,7 @@ export const seoPpts = [
   year: "2023",
   title: "8 ways to use YouTube for business marketing",
   pdfUrl: "https://www.theimpulsedigital.com/slideshare/8-ways-how-to-use-youtube-for-business-marketing.pdf",
-  thumbnail: "/impulse-website/slideshow/ppt87.png",
+  thumbnail: "/theimpulsedigital.com/slideshow/ppt87.png",
   tag: "PPT",
     meta: "2023 • Presentation",
 },
@@ -124,14 +124,14 @@ export const seoPpts = [
   year: "2023",
   title: "All you need to know about the new WhatsApp Business features",
   pdfUrl: "https://www.theimpulsedigital.com/slideshare/all-you-need-to-know-about-the-new-whatsapp-business-features.pdf",
-  thumbnail: "/impulse-website/slideshow/ppt77.png",
+  thumbnail: "/theimpulsedigital.com/slideshow/ppt77.png",
 },
 {
   id: "PPT78",
   year: "2023",
   title: "Social media tools that help boost festive season sales",
   pdfUrl: "https://www.theimpulsedigital.com/slideshare/social-media-tools-that-will-help-boost-sales-during-the-festive-period.pdf",
-  thumbnail: "/impulse-website/slideshow/ppt78.png",
+  thumbnail: "/theimpulsedigital.com/slideshow/ppt78.png",
   tag: "PPT",
     meta: "2023 • Presentation",
 },
@@ -140,7 +140,7 @@ export const seoPpts = [
   year: "2023",
   title: "Social media marketing tips to boost festive season sales",
   pdfUrl: "https://www.theimpulsedigital.com/slideshare/social-media-marketing-tips-to-boost-your-sales-during-the-festive-period.pdf",
-  thumbnail: "/impulse-website/slideshow/ppt79.png",
+  thumbnail: "/theimpulsedigital.com/slideshow/ppt79.png",
   tag: "PPT",
     meta: "2023 • Presentation",
 },
@@ -150,7 +150,7 @@ export const seoPpts = [
   year: "2023",
   title: "YouTube vs IGTV – Who wins?",
   pdfUrl: "https://www.theimpulsedigital.com/slideshare/youtube-vs-igtv-who-wins.pdf",
-  thumbnail: "/impulse-website/slideshow/ppt82.png",
+  thumbnail: "/theimpulsedigital.com/slideshow/ppt82.png",
   tag: "PPT",
     meta: "2023 • Presentation",
 },
@@ -160,7 +160,7 @@ export const seoPpts = [
   year: "2023",
   title: "How Instagram Stories help businesses",
   pdfUrl: "https://www.theimpulsedigital.com/slideshare/how-instagram-stories-help-businesses-impulse-digital.pdf",
-  thumbnail: "/impulse-website/slideshow/ppt84.png",
+  thumbnail: "/theimpulsedigital.com/slideshow/ppt84.png",
   tag: "PPT",
     meta: "2023 • Presentation",
 },
@@ -232,30 +232,30 @@ export const SocialMediaPPT = (): JSX.Element => {
         {/* Category Tabs */}
         <div className="flex flex-wrap gap-2 mb-6 border-b border-slate-200 pb-3 text-xs sm:text-sm">
           <a
-            href="/impulse-website/resources/Slideshare-PPT/"
+            href="/theimpulsedigital.com/resources/Slideshare-PPT/"
         className="px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700 hover:border-slate-400 hover:bg-slate-50 transition-colors">
 
             All PPTs
           </a>
           <a
-            href="/impulse-website/resources/SocialMediaPPTS"
+            href="/theimpulsedigital.com/resources/SocialMediaPPTS"
         className="px-3 py-1.5 rounded-full text-white font-medium bg-[#543d98]">
             Social Media PPT
           </a>
           <a
-            href="/impulse-website/resources/google-ads-PPT"
+            href="/theimpulsedigital.com/resources/google-ads-PPT"
             className="px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700 hover:border-slate-400 hover:bg-slate-50 transition-colors"
           >
             Google Ads / SEM PPT
           </a>
           <a
-            href="/impulse-website/resources/content-marketing-PPT"
+            href="/theimpulsedigital.com/resources/content-marketing-PPT"
             className="px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700 hover:border-slate-400 hover:bg-slate-50 transition-colors"
           >
             Content Marketing PPT
           </a>
           <a
-            href="/impulse-website/resources/employer-branding-PPT"
+            href="/theimpulsedigital.com/resources/employer-branding-PPT"
             className="px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700 hover:border-slate-400 hover:bg-slate-50 transition-colors"
           >
             Employer Branding PPT
@@ -410,7 +410,7 @@ export const SocialMediaPPT = (): JSX.Element => {
        View PPT
     </span>
     <img
-      src="/impulse-website/button-icon.svg"
+      src="/theimpulsedigital.com/button-icon.svg"
       alt="Arrow"
       className="w-4 h-4 transition-all duration-300 
         group-hover/download:rotate-45 
@@ -436,7 +436,7 @@ export const SocialMediaPPT = (): JSX.Element => {
                   className="w-[180px] h-[44px] group sm:inline-flex items-center gap-2 px-4 py-5 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border border-[#543d98]"
                 >
                   Load more PPTs
-                  <img src="/impulse-website/button-icon.svg" alt="Arrow" className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-1 group-hover:invert " /> 
+                  <img src="/theimpulsedigital.com/button-icon.svg" alt="Arrow" className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-1 group-hover:invert " /> 
                 </Button>
               </div>
             )}

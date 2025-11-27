@@ -282,7 +282,7 @@ export const ScrollRevealLogoHome: React.FC<ScrollRevealLogoProps> = ({
       <img
         className="w-full h-full"
         alt="Scroll Reveal Logo"
-        src="/impulse-website/logo.svg"
+        src="/theimpulsedigital.com/logo.svg"
       />
       
       <style>{`

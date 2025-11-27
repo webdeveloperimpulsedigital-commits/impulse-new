@@ -19,19 +19,19 @@ export const InteractiveGallerySection = (): JSX.Element => {
   const galleryItems = [
     {
       id: 1,
-      image: "/impulse-website/seo After about us section 800 x 530 1.jpg",
+      image: "/theimpulsedigital.com/seo After about us section 800 x 530 1.jpg",
       // caption: "Brand Strategy",
       alt: "Person working on brand strategy with digital icons and laptop"
     },
     {
       id: 2,
-      image: "/impulse-website/seo After about us section 800 x 530 2.jpg",
+      image: "/theimpulsedigital.com/seo After about us section 800 x 530 2.jpg",
       // caption: "Content Design", 
       alt: "Hand holding smartphone with search interface and digital elements"
     },
     {
       id: 3,
-      image: "/impulse-website/seo After about us section 800 x 530 3.jpg",
+      image: "/theimpulsedigital.com/seo After about us section 800 x 530 3.jpg",
       // caption: "UX Prototypes",
       alt: "Creative workspace with laptop, notebooks, and design materials"
     }
@@ -76,7 +76,7 @@ From Mobile to Desktop
           <Button 
             className="w-[180px] h-[44px] group sm:inline-flex items-center gap-2 px-4 py-6 bg-[#543d98] hover:bg-[#543d98]/90  rounded-xl  text-white">
             <Link to="/contact" className="[font-family:'DM_Sans',Helvetica] font-bold text-white text-sm md:text-base">Connect Now</Link>
-            <img src="/impulse-website/button-icon.svg" alt="Arrow"
+            <img src="/theimpulsedigital.com/button-icon.svg" alt="Arrow"
               className="w-4 h-4 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"/>
           </Button>
           </a>

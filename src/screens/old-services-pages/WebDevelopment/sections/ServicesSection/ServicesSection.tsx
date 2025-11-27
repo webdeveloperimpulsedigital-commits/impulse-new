@@ -13,25 +13,25 @@ const ServicesSection = () => {
   const data = [
     { n:"01", title:"Custom website design",
       points:["Every business has a story, and a template design isn’t going to get the story out. For one, they lack the elements that make your brand unique. Our website design and development services understand the story behind your brand, brainstorm elements, and create a custom design from scratch."],
-      img:"/impulse-website/web  service section 520 x 340 - Custom Website Design.jpg" },
+      img:"/theimpulsedigital.com/web  service section 520 x 340 - Custom Website Design.jpg" },
     { n:"02", title:"eCommerce website design",
       points:["TTurn visitors into loyal customers with our eCommerce website design. These visually stunning, user-friendly online stores are tailored for your brand to offer seamless navigation and secure checkouts, ensuring that your shoppers are engaged in an experience that boosts their satisfaction and revenue."],
-      img:"/impulse-website/web  service section 520 x 340 - ecommerce website design.jpg" },
+      img:"/theimpulsedigital.com/web  service section 520 x 340 - ecommerce website design.jpg" },
     { n:"03", title:"Web maintenance & support",
       points:["Designing and deploying a website is just the beginning. It needs constant maintenance efforts to keep it running smoothly. Our website development company handles updates, security checks, and performance optimization, ensuring your website is fast, secure, and bug-free."],
-      img:"/impulse-website/web  service section 520 x 340 - Web maintenance & support.jpg" },
+      img:"/theimpulsedigital.com/web  service section 520 x 340 - Web maintenance & support.jpg" },
     { n:"04", title:"Responsive web design",
       points:["Your audience can be searching for you through any and all their devices. Our website design company ensures that your website is suited for viewing and accessing on all device types—desktops, laptops, tablets, phones—to deliver a flawless user experience."],
-      img:"/impulse-website/web service section 520 x 340 - Responsive web design.jpg" },
+      img:"/theimpulsedigital.com/web service section 520 x 340 - Responsive web design.jpg" },
     { n:"05", title:"Website redesign",
       points:["What if you already have a website? We can help you redesign it, transforming outdated or non-performing websites into a modern, highly functional, and high-performing platform optimized for usability, speed, and conversions. Rest assured that your brand will set benchmarks for visuals, content, and all things website."],
-      img:"/impulse-website/web  service section 520 x 340 - Website redesign.jpg" },
+      img:"/theimpulsedigital.com/web  service section 520 x 340 - Website redesign.jpg" },
     { n:"06", title:"Landing Page Design",
       points:["A landing page is tailored for conversion. Our website design services deliver high-impact landing pages that are visually compelling and goal-focused, tailored to your campaigns. So whether it’s lead generation or sales, our design compels your audience to take the action you want them to."],
-      img:"/impulse-website/web  service section 520 x 340 - Landing Page Design.jpg" },
+      img:"/theimpulsedigital.com/web  service section 520 x 340 - Landing Page Design.jpg" },
     { n:"07", title:"Domain & Hosting services",
       points:["Ensuring seamless performance, minimal downtime, and data security all at once can be a task. Our website development agency takes care of your domain name while offering fast, secure, and reliable hosting solutions. These scalable solutions come with security features like SSL certificates to cater to businesses of all sizes."],
-      img:"/impulse-website/web  service section 520 x 340 - Domain & Hosting services.jpg" },
+      img:"/theimpulsedigital.com/web  service section 520 x 340 - Domain & Hosting services.jpg" },
     
   ];
 
@@ -245,7 +245,7 @@ const ServicesSection = () => {
                   <div className="shot"><img src={s.img} alt={s.title} /></div>
                 </div>
                 <div className="flex w-60 items-start justify-center lg:justify-end pt-2 lg:pt-[7px]">           
-                  <img src="/impulse-website/Arrow.png" alt="Arrow"
+                  <img src="/theimpulsedigital.com/Arrow.png" alt="Arrow"
                   className="w-[56px] lg:w-[80px] object-contain transition-transform duration-300 group-hover:rotate-45 pointer-events-none"/>
 
                 </div>

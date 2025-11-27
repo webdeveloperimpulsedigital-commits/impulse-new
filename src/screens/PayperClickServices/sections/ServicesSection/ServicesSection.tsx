@@ -30,7 +30,7 @@ const ServicesSection = () => {
       points: [
         "Capture high-intent customers at the precise moment they search for your products or services online. Our Google search ads services leverage strategic keyword targeting and compelling ad copy to drive qualified traffic directly to your website.",
       ],
-      img: "/impulse-website/Google Search Ads.jpg",
+      img: "/theimpulsedigital.com/Google Search Ads.jpg",
     },
     {
       n: "02",
@@ -38,7 +38,7 @@ const ServicesSection = () => {
       points: [
         "Want to reach a broader audience? Our Google display ad services will make it possible with creative banners and rich media ads that capture attention, drive interest, and offer targeted advertising solutions across millions of websites and apps.",
       ],
-      img: "/impulse-website/Display Ads.jpg",
+      img: "/theimpulsedigital.com/Display Ads.jpg",
     },
     {
       n: "03",
@@ -46,7 +46,7 @@ const ServicesSection = () => {
       points: [
         "Show off your product listing to audiences who are already searching for them. Our PPC services design visually rich ads with high-quality product images, optimized titles and descriptions, and prices to attract customers who are ready to buy.",
       ],
-      img: "/impulse-website/service section 520 x 340 - Google shopping ads.jpg",
+      img: "/theimpulsedigital.com/service section 520 x 340 - Google shopping ads.jpg",
     },
     {
       n: "04",
@@ -54,7 +54,7 @@ const ServicesSection = () => {
       points: [
         "Merge your digital advertising efforts across Search, Display, YouTube, and more with 1 single campaign. Our PPC services harness machine learning to optimize this goal-based campaign automatically to ensure your ads reach valuable consumers online.",
       ],
-      img: "/impulse-website/Google Performance Max Ads.jpg",
+      img: "/theimpulsedigital.com/Google Performance Max Ads.jpg",
     },
     {
       n: "05",
@@ -62,7 +62,7 @@ const ServicesSection = () => {
       points: [
         "Bring together the power of strategic brand storytelling with targeted lead generation techniques on Meta platforms. We craft creative content and visually appealing ads tailored for Facebook and Instagram to focus on both brand awareness and conversions.",
       ],
-      img: "/impulse-website/Meta Branding.jpg",
+      img: "/theimpulsedigital.com/Meta Branding.jpg",
     },
     {
       n: "06",
@@ -70,7 +70,7 @@ const ServicesSection = () => {
       points: [
         "Our Amazon Sales & Branding PPC services focus on optimizing your presence on the world’s largest online marketplace. Our team crafts targeted ad strategies and engaging content that reflect your brand’s identity, ensuring your listing stands out.",
       ],
-      img: "/impulse-website/Amazon sales and branding.jpg",
+      img: "/theimpulsedigital.com/Amazon sales and branding.jpg",
     },
     {
       n: "07",
@@ -78,7 +78,7 @@ const ServicesSection = () => {
       points: [
         "Want to reach out to decision-makers at top companies in the world? Our highly targeted LinkedIn ads leverage detailed demographic and job role data to connect you with the right audience to support your business’s sustainable growth in the B2B arena.",
       ],
-      img: "/impulse-website/Linkedin Ads.jpg",
+      img: "/theimpulsedigital.com/Linkedin Ads.jpg",
     },
     {
       n: "08",
@@ -86,7 +86,7 @@ const ServicesSection = () => {
       points: [
         "Want to reach out to decision-makers at top companies in the world? Our highly targeted LinkedIn ads leverage detailed demographic and job role data to connect you with the right audience to support your business’s sustainable growth in the B2B arena.",
       ],
-      img: "/impulse-website/service section 520 x 340 - Linkedin Ads.jpg",
+      img: "/theimpulsedigital.com/service section 520 x 340 - Linkedin Ads.jpg",
     },
     {
       n: "09",
@@ -94,7 +94,7 @@ const ServicesSection = () => {
       points: [
         "Leverage audience insights to place your ads in front of interested viewers for maximum impact. Our ad experts combine engaging visuals, persuasive copy and strategic CTA to boost your conversions, expand your reach, and solidify your online presence.",
       ],
-      img: "/impulse-website/Youtube Das.jpg",
+      img: "/theimpulsedigital.com/Youtube Das.jpg",
     },
   ];
 
@@ -345,7 +345,7 @@ const ServicesSection = () => {
                       tabIndex={-1}
                     >
                       <img
-                        src="/impulse-website/Arrow.png"
+                        src="/theimpulsedigital.com/Arrow.png"
                         alt=""
                         aria-hidden="true"
                         className="w-[56px] lg:w-[80px] object-contain transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
@@ -401,7 +401,7 @@ const ServicesSection = () => {
                 aria-label="Previous"
               >
                 <img
-                  src="/impulse-website/left-arrow.png"
+                  src="/theimpulsedigital.com/left-arrow.png"
                   alt="Next"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />
@@ -414,7 +414,7 @@ const ServicesSection = () => {
                 aria-label="Next"
               >
                 <img
-                  src="/impulse-website/right-arrow.png"
+                  src="/theimpulsedigital.com/right-arrow.png"
                   alt="Next"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />

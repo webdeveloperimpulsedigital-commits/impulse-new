@@ -87,7 +87,7 @@ export const FAQSection: React.FC<{ items?: QA[] }> = ({ items = DEFAULT_QA }) =
           <div className="faq__cardInner">
             <div className="faq__bubble" aria-hidden>
               <center>
-                <img alt="Messages Icon" src="/impulse-website/messages.png" />
+                <img alt="Messages Icon" src="/theimpulsedigital.com/messages.png" />
               </center>
             </div>
 
@@ -106,7 +106,7 @@ export const FAQSection: React.FC<{ items?: QA[] }> = ({ items = DEFAULT_QA }) =
                           Hit a Direct Mail
                         </a>
                         <img
-                          src="/impulse-website/button-icon.svg"
+                          src="/theimpulsedigital.com/button-icon.svg"
                           alt="Arrow"
                           className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert-0 group-hover:invert pointer-events-none"
                         />

@@ -89,7 +89,7 @@ export const ZoomGridSection = (): JSX.Element => {
               <img
                 className="w-[120px] h-[120px] animate-spin"
                 alt="Animated Logo"
-                src="/impulse-website/logo.svg"
+                src="/theimpulsedigital.com/logo.svg"
                 style={{
                   animationDuration: "8s",
                   filter:
@@ -110,32 +110,32 @@ export const ZoomGridSection = (): JSX.Element => {
           <div className="grid1" ref={gridRef}>
             {/* Row 1 */}
             <div className="tile" data-grid-item>
-              <img src="/impulse-website/Pay-Per-Click.jpg" alt="img1" />
+              <img src="/theimpulsedigital.com/Pay-Per-Click.jpg" alt="img1" />
             </div>
 
             {/* VIDEO (ZOOM TARGET) */}
             <div className="tile video" data-grid-item id="zoom-tile" ref={tileRef}>
               <video id="zoom-video" ref={videoRef} autoPlay muted loop playsInline>
                 <source
-                  src="https://impulsedigital.co.in/impulse-website/sample-video.webm"
+                  src="https://impulsedigital.co.in/theimpulsedigital.com/sample-video.webm"
                   type="video/webm"
                 />
               </video>
             </div>
 
             <div className="tile" data-grid-item>
-              <img src="https://impulsedigital.co.in/impulse-website/project-1-jpg.png" alt="img3" />
+              <img src="https://impulsedigital.co.in/theimpulsedigital.com/project-1-jpg.png" alt="img3" />
             </div>
 
             {/* Row 2 */}
             <div className="tile" data-grid-item>
-              <img src="https://impulsedigital.co.in/impulse-website/project-1-jpg.png" alt="img4" />
+              <img src="https://impulsedigital.co.in/theimpulsedigital.com/project-1-jpg.png" alt="img4" />
             </div>
             <div className="tile" data-grid-item>
-              <img src="https://impulsedigital.co.in/impulse-website/project-1-jpg.png" alt="img5" />
+              <img src="https://impulsedigital.co.in/theimpulsedigital.com/project-1-jpg.png" alt="img5" />
             </div>
             <div className="tile" data-grid-item>
-              <img src="https://impulsedigital.co.in/impulse-website/project-1-jpg.png" alt="img6" />
+              <img src="https://impulsedigital.co.in/theimpulsedigital.com/project-1-jpg.png" alt="img6" />
             </div>
           </div>
         </div>

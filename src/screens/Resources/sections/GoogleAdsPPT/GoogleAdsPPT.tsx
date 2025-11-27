@@ -7,7 +7,7 @@ export const seoPpts = [
     year: "2023",
     title: "Remarketing – A digital magnet",
     pdfUrl: "https://www.theimpulsedigital.com/slideshare/remarketing-a-digital-magnet.pdf",
-    thumbnail: "/impulse-website/slideshow/ppt90.png",
+    thumbnail: "/theimpulsedigital.com/slideshow/ppt90.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -16,7 +16,7 @@ export const seoPpts = [
     year: "2023",
     title: "What is a lead magnet & how to use it effectively?",
     pdfUrl: "https://www.theimpulsedigital.com/slideshare/what-is-a-lead-magnet-and-how-to-use-it-effectively.pdf",
-    thumbnail: "/impulse-website/slideshow/ppt48.png",
+    thumbnail: "/theimpulsedigital.com/slideshow/ppt48.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -25,7 +25,7 @@ export const seoPpts = [
     year: "2023",
     title: "Five best lead generation trends in 2021",
     pdfUrl: "https://www.theimpulsedigital.com/slideshare/five-best-lead-generation-trends-in-2021.pdf",
-    thumbnail: "/impulse-website/slideshow/ppt52.png",
+    thumbnail: "/theimpulsedigital.com/slideshow/ppt52.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -34,7 +34,7 @@ export const seoPpts = [
     year: "2023",
     title: "More about Quora marketing – 5 detailed steps to Quora ads",
     pdfUrl: "https://www.theimpulsedigital.com/slideshare/more-about-quora-marketing5-detailed-steps-to-quora-ads.pdf",
-    thumbnail: "/impulse-website/slideshow/ppt36.png",
+    thumbnail: "/theimpulsedigital.com/slideshow/ppt36.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -43,7 +43,7 @@ export const seoPpts = [
     year: "2023",
     title: "5 perks of Google’s Performance Max campaigns",
     pdfUrl: "https://www.theimpulsedigital.com/slideshare/do-you-know-these-5-perks-of-google%E2%80%99s-performance-max-campaigns.pdf",
-    thumbnail: "/impulse-website/slideshow/ppt54.png",
+    thumbnail: "/theimpulsedigital.com/slideshow/ppt54.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -52,7 +52,7 @@ export const seoPpts = [
     year: "2023",
     title: "Why your brand needs to ace conversational marketing",
     pdfUrl: "https://www.theimpulsedigital.com/slideshare/why-your-brand-needs-to-ace-the-conversational-marketing-strategy.pdf",
-    thumbnail: "/impulse-website/slideshow/ppt59.png",
+    thumbnail: "/theimpulsedigital.com/slideshow/ppt59.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -61,7 +61,7 @@ export const seoPpts = [
     year: "2023",
     title: "The ultimate guide to creating a perfect landing page for your business",
     pdfUrl: "https://www.theimpulsedigital.com/slideshare/the-ultimate-guide-to-creating-a-perfect-landing-page-for-your-business.pdf",
-    thumbnail: "/impulse-website/slideshow/ppt60.png",
+    thumbnail: "/theimpulsedigital.com/slideshow/ppt60.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -70,7 +70,7 @@ export const seoPpts = [
     year: "2023",
     title: "Advertisements that have bowled us over – Top picks from IPL season",
     pdfUrl: "https://www.theimpulsedigital.com/slideshare/advertisements-that-have-bowled-us-over-this-ipl-season.pdf",
-    thumbnail: "/impulse-website/slideshow/ppt66.png",
+    thumbnail: "/theimpulsedigital.com/slideshow/ppt66.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   },
@@ -79,7 +79,7 @@ export const seoPpts = [
     year: "2023",
     title: "All you need to know about programmatic advertising",
     pdfUrl: "https://www.theimpulsedigital.com/slideshare/all-you-need-to-know-about-programmatic-advertising.pdf",
-    thumbnail: "/impulse-website/slideshow/ppt35.png",
+    thumbnail: "/theimpulsedigital.com/slideshow/ppt35.png",
     tag: "PPT",
     meta: "2023 • Presentation",
   }
@@ -150,33 +150,33 @@ export const GoogleAdsPPT = (): JSX.Element => {
         {/* Category Tabs */}
         <div className="flex flex-wrap gap-2 mb-6 border-b border-slate-200 pb-3 text-xs sm:text-sm">
           <a
-            href="/impulse-website/resources/Slideshare-PPT/"
+            href="/theimpulsedigital.com/resources/Slideshare-PPT/"
             className="px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700 hover:border-slate-400 hover:bg-slate-50 transition-colors">
             All PPTs
           </a>
           <a
-            href="/impulse-website/resources/social-media-PPT"
+            href="/theimpulsedigital.com/resources/social-media-PPT"
             className="px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700 hover:border-slate-400 hover:bg-slate-50 transition-colors">
             Social Media PPT
           </a>
           <a
-            href="/impulse-website/resources/google-ads-PPT"
+            href="/theimpulsedigital.com/resources/google-ads-PPT"
             
             className="px-3 py-1.5 rounded-full text-white font-medium bg-[#543d98]">
             Google Ads / SEM PPT
           </a>
           <a
-            href="/impulse-website/resources/content-marketing-PPT"
+            href="/theimpulsedigital.com/resources/content-marketing-PPT"
             className="px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700 hover:border-slate-400 hover:bg-slate-50 transition-colors">
             Content Marketing PPT
           </a>
           <a
-            href="/impulse-website/resources/employer-branding-PPT"
+            href="/theimpulsedigital.com/resources/employer-branding-PPT"
             className="px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700 hover:border-slate-400 hover:bg-slate-50 transition-colors">
             Employer Branding PPT
           </a>
            <a
-            href="/impulse-website/resources/website-design-development-PPT"
+            href="/theimpulsedigital.com/resources/website-design-development-PPT"
             className="px-3 py-1.5 rounded-full bg-white border border-slate-200 text-slate-700 hover:border-slate-400 hover:bg-slate-50 transition-colors">
             Website Design Development PPT
           </a>
@@ -332,7 +332,7 @@ export const GoogleAdsPPT = (): JSX.Element => {
        View PPT
     </span>
     <img
-      src="/impulse-website/button-icon.svg"
+      src="/theimpulsedigital.com/button-icon.svg"
       alt="Arrow"
       className="w-4 h-4 transition-all duration-300 
         group-hover/download:rotate-45 
@@ -358,7 +358,7 @@ export const GoogleAdsPPT = (): JSX.Element => {
                   className="w-[180px] h-[44px] group sm:inline-flex items-center gap-2 px-4 py-5 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border border-[#543d98]"
                 >
                   Load more PPTs
-                  <img src="/impulse-website/button-icon.svg" alt="Arrow" className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-1 group-hover:invert " /> 
+                  <img src="/theimpulsedigital.com/button-icon.svg" alt="Arrow" className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-1 group-hover:invert " /> 
                 </Button>
               </div>
             )}

@@ -151,7 +151,7 @@ const caseStudiesData = [
   {
     id: 1,
     title: "Amazone Employer Branding",
-    image: "/impulse-website/Amazon EB.jpg",
+    image: "/theimpulsedigital.com/Amazon EB.jpg",
     tags: ["Product Design"],
     tall: true,
     corner: false,
@@ -160,7 +160,7 @@ const caseStudiesData = [
   {
     id: 2,
     title: "Amazone Employee Value Proposition",
-    image: "/impulse-website/Amazon EVP.jpg",
+    image: "/theimpulsedigital.com/Amazon EVP.jpg",
     tags: ["Packaging"],
     tall: false,
     corner: true,
@@ -169,7 +169,7 @@ const caseStudiesData = [
   {
     id: 3,
     title: "Grasim Pulp and Fibre",
-    image: "/impulse-website/Grasim Pulp and fiber.jpg",
+    image: "/theimpulsedigital.com/Grasim Pulp and fiber.jpg",
     tags: ["Branding"],
     tall: true,
     corner: true,
@@ -178,7 +178,7 @@ const caseStudiesData = [
   {
     id: 4,
     title: "Shree Rubber Works",
-    image: "/impulse-website/Shree Rubber factory.jpg",
+    image: "/theimpulsedigital.com/Shree Rubber factory.jpg",
     tags: ["Creative"],
     tall: false,
     corner: false,
@@ -187,7 +187,7 @@ const caseStudiesData = [
   {
     id: 5,
     title: "Automag India",
-    image: "/impulse-website/Automag.jpg",
+    image: "/theimpulsedigital.com/Automag.jpg",
     tags: ["Branding"],
     tall: false,
     corner: false,
@@ -196,7 +196,7 @@ const caseStudiesData = [
   {
     id: 6,
     title: "Atrac Engineering",
-    image: "/impulse-website/Atrac.jpg",
+    image: "/theimpulsedigital.com/Atrac.jpg",
     tags: ["Packaging"],
     tall: false,
     corner: false,
@@ -424,7 +424,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
           aria-label="Previous"
         >
           <img
-            src="/impulse-website/left-arrow.png"
+            src="/theimpulsedigital.com/left-arrow.png"
             alt="Previous"
             className="w-4 h-4 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
           />
@@ -436,7 +436,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
           aria-label="Next"
         >
           <img
-            src="/impulse-website/right-arrow.png"
+            src="/theimpulsedigital.com/right-arrow.png"
             alt="Next"
             className="w-4 h-4 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
           />

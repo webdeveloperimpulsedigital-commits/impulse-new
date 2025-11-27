@@ -14,14 +14,14 @@ export const ContactResourcesSection = () => {
             <img
                 className="c-icon w-120"
                 alt="Call Logo"
-                src="/impulse-website/call.png"/>  
+                src="/theimpulsedigital.com/call.png"/>  
             <li>                        
               <a href="tel:+919769285224">+91-9769285224</a>
             </li>
             <img
                 className="c-icon w-120"
                 alt="Email Logo"
-                src="/impulse-website/sms-1.png"/> 
+                src="/theimpulsedigital.com/sms-1.png"/> 
             <li>
               
               <a href="mailto:collabs@theimpulsedigital.com">
@@ -31,7 +31,7 @@ export const ContactResourcesSection = () => {
             <img
                 className="c-icon w-120"
                 alt="location Logo"
-                src="/impulse-website/location.png"/> 
+                src="/theimpulsedigital.com/location.png"/> 
             <li>
               
               <address>
@@ -67,7 +67,7 @@ export const ContactResourcesSection = () => {
                    <img
                 className=""
                 alt="location Logo"
-                src="/impulse-website/button-icon.svg"/> 
+                src="/theimpulsedigital.com/button-icon.svg"/> 
                 </span>
               </button>
             </form>

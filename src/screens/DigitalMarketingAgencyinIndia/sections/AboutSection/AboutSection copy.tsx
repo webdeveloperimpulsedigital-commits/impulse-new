@@ -132,7 +132,7 @@ export const AboutSection = (): JSX.Element => {
                 <img
                   className=""
                   alt="location Logo"
-                  src="/impulse-website/button-icon.svg"
+                  src="/theimpulsedigital.com/button-icon.svg"
                 /> 
               </span>
               <ArrowRightIcon className="w-[18px] h-[18px] text-white" />

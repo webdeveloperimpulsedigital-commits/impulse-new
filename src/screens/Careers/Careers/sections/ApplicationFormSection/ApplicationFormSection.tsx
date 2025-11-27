@@ -214,7 +214,7 @@ export const ApplicationFormSection = (): JSX.Element => {
                 <Button 
                         className="w-[160px] h-[44px] group sm:inline-flex items-center gap-2 px-4 py-6 bg-[#543d98] hover:bg-[#543d98]/90  rounded-xl  text-white">
                         <span to="/contact" className="[font-family:'DM_Sans',Helvetica] font-bold text-white text-sm md:text-base">Submit</span>
-                        <img src="/impulse-website/button-icon.svg" alt="Arrow"
+                        <img src="/theimpulsedigital.com/button-icon.svg" alt="Arrow"
                           className="w-4 h-4 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"/>
                 </Button>
               </center>
@@ -242,7 +242,7 @@ export const ApplicationFormSection = (): JSX.Element => {
               href="mailto:careers@theimpulsedigital.com"
               className="flex items-center gap-2 text-[#543d98] hover:text-[#543d98]/80 transition-colors"
             >
-              <img src="/impulse-website/sms.png" alt="Email" className="w-4 h-4" />
+              <img src="/theimpulsedigital.com/sms.png" alt="Email" className="w-4 h-4" />
               <span className="[font-family:'DM_Sans',Helvetica] font-medium">
                 careers@theimpulsedigital.com
               </span>
@@ -252,7 +252,7 @@ export const ApplicationFormSection = (): JSX.Element => {
               href="tel:+919769285224"
               className="flex items-center gap-2 text-[#543d98] hover:text-[#543d98]/80 transition-colors"
             >
-              <img src="/impulse-website/footer-call.png" alt="Phone" className="w-4 h-4" />
+              <img src="/theimpulsedigital.com/footer-call.png" alt="Phone" className="w-4 h-4" />
               <span className="[font-family:'DM_Sans',Helvetica] font-medium">
                 +91-8850234353
               </span>

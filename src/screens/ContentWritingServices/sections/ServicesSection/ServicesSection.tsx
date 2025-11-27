@@ -30,7 +30,7 @@ const ServicesSection = () => {
       points: [
         "eCommerce success equals persuasive, user-focused writing, amongst many other things. Our content writing services include creating product descriptions, category pages, and brand stories everything optimized and backed up by research and storytelling not for mere clicks but actual conversions. We help your online store rank higher and attract the right audience with content that speaks to their needs.",
       ],
-      img: "/impulse-website/Ecommerce.jpg",
+      img: "/theimpulsedigital.com/Ecommerce.jpg",
     },
     {
       n: "02",
@@ -38,7 +38,7 @@ const ServicesSection = () => {
       points: [
         "Too many words and yet no clear message? That’s something we have never experienced before because every word we write is well-researched and SEO-friendly. Whether it is industry insights or how-to guides, we are known for crafting content that educates, inspires, and boosts search engine rankings–all at once.",
       ],
-      img: "/impulse-website/Blog.jpg",
+      img: "/theimpulsedigital.com/Blog.jpg",
     },
     {
       n: "03",
@@ -46,7 +46,7 @@ const ServicesSection = () => {
       points: [
         "Your website is the face of your brand online, and if readers aren’t sticking along for long, there’s something wrong. It could be your messaging. Our website content writing services ensure that every copy is clear, persuasive, SEO-optimized, and actionable, tailored to your brand voice.",
       ],
-      img: "/impulse-website/Website content.jpg",
+      img: "/theimpulsedigital.com/Website content.jpg",
     },
     {
       n: "04",
@@ -54,7 +54,7 @@ const ServicesSection = () => {
       points: [
         "Videos are the future of information consumption, and a compelling script is the only way to make them work. Our content writing services strike the right balance between audience-focused, educative, entertaining, and engaging. With storytelling expertise and strategic keyword integration, we ensure your videos rank well and resonate with viewers.",
       ],
-      img: "/impulse-website/Video.jpg",
+      img: "/theimpulsedigital.com/Video.jpg",
     },
     {
       n: "05",
@@ -62,7 +62,7 @@ const ServicesSection = () => {
       points: [
         "Landing pages are designed to focus your audience’s attention on specific results like lead generation and product promotion. We make sure every landing page we create is highly optimized for conversions, down to every last element and detail. Let our content writing agency take your audience through a journey from introduction to action.",
       ],
-      img: "/impulse-website/Landing Page.jpg",
+      img: "/theimpulsedigital.com/Landing Page.jpg",
     },
     {
       n: "06",
@@ -70,7 +70,7 @@ const ServicesSection = () => {
       points: [
         "A white paper is your chance to show what you’ve really got—expertise, experience, and insights. Our content writing company combines in-depth research and fact-checking with persuasive writing to create white papers that build trust, develop authority, and talk business. Paired with sleek, custom designs, these white papers convey complex information effectively. Hello, new leads!",
       ],
-      img: "/impulse-website/WHite Paper.jpg",
+      img: "/theimpulsedigital.com/WHite Paper.jpg",
     },
     {
       n: "07",
@@ -78,7 +78,7 @@ const ServicesSection = () => {
       points: [
         "Do you know where most businesses go wrong? They become professionally robotic in their communication. We take care of all your communication email, press releases, internal newsletters, and more to create professional yet engaging copy that resonates with your employees, stakeholders, and customers alike. ",
       ],
-      img: "/impulse-website/Corporate Communication.jpg",
+      img: "/theimpulsedigital.com/Corporate Communication.jpg",
     },
     {
       n: "08",
@@ -86,7 +86,7 @@ const ServicesSection = () => {
       points: [
         "When everything is online, why should brochures be offline? They’re your chance to showcase your brand’s USP and offerings. With expertise in strategic layout, crafting compelling copy, and visually striking designs, our digital brochures are nothing short of your brand coming to life, quite literally.",
       ],
-      img: "/impulse-website/Digital Brochure.jpg",
+      img: "/theimpulsedigital.com/Digital Brochure.jpg",
     },
     {
       n: "09",
@@ -94,7 +94,7 @@ const ServicesSection = () => {
       points: [
         "One platform, a million buyers, and a million products where are you? Our content writing agency specializes in crafting keyword-optimized product descriptions, titles, and bullet points tailored to please Amazon’s algorithms. Trust us to highlight your product’s unique features in a way that makes the buyers click ‘Add to cart’ almost immediately. ",
       ],
-      img: "/impulse-website/Amazon Contet writing.jpg",
+      img: "/theimpulsedigital.com/Amazon Contet writing.jpg",
     },
     {
       n: "10",
@@ -102,7 +102,7 @@ const ServicesSection = () => {
       points: [
         "Infographics can get confusing pretty quickly. They demand an eye for detail, simplicity, and accuracy to create graphics and pair them with compelling copy, one that captures attention and enhances information retention.",
       ],
-      img: "/impulse-website/Infographic.jpg",
+      img: "/theimpulsedigital.com/Infographic.jpg",
     },
   ];
 
@@ -349,7 +349,7 @@ const ServicesSection = () => {
                       tabIndex={-1}
                     >
                       <img
-                        src="/impulse-website/Arrow.png"
+                        src="/theimpulsedigital.com/Arrow.png"
                         alt=""
                         aria-hidden="true"
                         className="w-[56px] lg:w-[80px] object-contain transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
@@ -405,7 +405,7 @@ const ServicesSection = () => {
                 aria-label="Previous"
               >
                 <img
-                  src="/impulse-website/left-arrow.png"
+                  src="/theimpulsedigital.com/left-arrow.png"
                   alt="Previous"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />
@@ -418,7 +418,7 @@ const ServicesSection = () => {
                 aria-label="Next"
               >
                 <img
-                  src="/impulse-website/right-arrow.png"
+                  src="/theimpulsedigital.com/right-arrow.png"
                   alt="Next"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />
