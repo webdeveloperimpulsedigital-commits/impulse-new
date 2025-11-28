@@ -1,0 +1,1 @@
+export { Thankyoucontent } from "./Thankyoucontent"

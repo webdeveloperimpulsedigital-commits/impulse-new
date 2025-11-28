@@ -1,0 +1,1 @@
+export { PrivacypageHeroSection } from "./PrivacypageHeroSection";

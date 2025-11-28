@@ -1,0 +1,1 @@
+export { TermsAndConditionsPageHeroSection } from "./TermsAndConditionsPageHeroSection";

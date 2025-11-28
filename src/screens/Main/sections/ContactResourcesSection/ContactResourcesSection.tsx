@@ -2,6 +2,13 @@ import "./ContactResourcesSection.css";
 import { Button } from "../../../../components/ui/button";
  
 export const ContactResourcesSection = () => {
+
+  // 👉 Redirect handler
+  const handleSubmit = () => {
+    setTimeout(() => {
+      window.location.href = "/thank-you"; 
+    }, 300);
+  };
   return (
     <section className="contact-section sm:pt-5 lg:pt-16" id="contact-border-sec">
       <div className="wrap-contact" data-section="contact-resources">
@@ -38,13 +45,22 @@ export const ContactResourcesSection = () => {
         {/* RIGHT: Zoho form embed */}
         <div className="contact-right-wrapper">
           <div className="contact-right">
+
             <form
-              action=""
+              action="https://forms.zohopublic.in/adwait1/form/ContactUs/formperma/SbvDRXLlEyRPiHH9CreHCVdxUgmscu2nsuEbgU-EVz8/htmlRecords/submit"
+              name="form"
               id="form"
               method="POST"
               acceptCharset="UTF-8"
               encType="multipart/form-data"
+              target="hidden_iframe_contact"     // 👈 submit in background
+              onSubmit={handleSubmit}            // 👈 redirect from React
             >
+              {/* REQUIRED ZOHO HIDDEN FIELDS */}
+              <input type="hidden" name="zf_referrer_name" value="" />
+              <input type="hidden" name="zf_redirect_url" value="" />
+              <input type="hidden" name="zc_gad" value="" />
+
               <label>Company Name<em>*</em></label>
               <input
                 type="text"
@@ -55,7 +71,7 @@ export const ContactResourcesSection = () => {
                 title="Only letters and spaces are allowed"
                 required
               />
- 
+
               <label>Name<em>*</em></label>
               <input
                 type="text"
@@ -66,7 +82,7 @@ export const ContactResourcesSection = () => {
                 title="Only letters and spaces are allowed"
                 required
               />
- 
+
               <label>Email<em>*</em></label>
               <input
                 type="email"
@@ -75,7 +91,7 @@ export const ContactResourcesSection = () => {
                 placeholder="Email"
                 required
               />
- 
+
               <label>Phone<em>*</em></label>
               <input
                 type="tel"
@@ -85,28 +101,31 @@ export const ContactResourcesSection = () => {
                 placeholder="Phone"
                 required
               />
- 
+
               <label>Message</label>
               <textarea
                 name="MultiLine"
                 maxLength={65535}
                 placeholder="Message"
-                required
               />
- 
-              
 
-               <Button className="w-[150px] h-[44px] group inline-flex items-center gap-2 px-4 py-6 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border-[#543d98] hover:border hover:border-[#543d98]">
-              
-               Submit
-              
-              <img
-                src="/button-icon.svg"
-                alt="Arrow"
-                className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert-0 group-hover:invert pointer-events-none"
-              />
-            </Button>
+              <Button className="w-[150px] h-[44px] group inline-flex items-center gap-2 px-4 py-6 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border-[#543d98] hover:border hover:border-[#543d98]">
+                Submit
+                <img
+                  src="/button-icon.svg"
+                  alt="Arrow"
+                  className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 pointer-events-none"
+                />
+              </Button>
+
             </form>
+
+            {/* 👉 BACKGROUND IFRAME FOR ZOHO SUBMISSION */}
+            <iframe
+              name="hidden_iframe_contact"
+              style={{ display: "none" }}
+              title="hidden_iframe_contact"
+            />
           </div>
         </div>
       </div>

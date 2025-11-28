@@ -1,0 +1,1 @@
+export { Privacypagecontent } from "./Privacypagecontent"
