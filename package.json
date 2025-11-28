@@ -54,7 +54,10 @@
       "/digital-marketing-agency-in-india",
       "/digital-marketing-agency-in-thane",
       "/digital-marketing-agency-in-navi-mumbai",
-      "/digital-marketing-agency-in-pune"
+      "/digital-marketing-agency-in-pune",
+      "/thank-you",
+      "/privacy-policy",
+      "/terms-and-conditions"
     ],
     "skipThirdPartyRequests": true,
     "puppeteerArgs": ["--no-sandbox"]
