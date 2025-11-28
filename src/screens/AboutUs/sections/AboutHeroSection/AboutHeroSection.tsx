@@ -8,23 +8,29 @@ export const AboutHeroSection = (): JSX.Element => {
 <>
           {/* ✅ SEO Meta Tags */}
     <Helmet> 
-    <title>Best Digital Marketing Agency in Mumbai | Impulse</title>
-    <meta name="description" content="Impulse Digital is a top digital marketing agency in Mumbai that has the expertise to expand your business reach in the digital space. Our creative, innovative, and energetic"/>
-    <meta name="keywords" content="digital marketing agency in mumbai, digital marketing company, impulse digital"/>
-    <meta property="og:title" content="Best Digital Marketing Agency in Mumbai | Impulse Digital" />
-    <meta property="og:description" content="Impulse Digital is a top digital marketing agency in Mumbai that has the expertise to expand your business reach in the digital space. Our creative, innovative, and energetic team helps us stand out from a cluster of digital marketing agencies in Mumbai. We are handling a plethora of clients which includes Amazon, HUL, OLA, Dmart, HDFC, and more big market giants." />
-    <meta property="og:url" content="https://www.theimpulsedigital.com" />
-    <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-    <meta property="og:site_name" content="Impulse Digital" />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@impulsedigi" />
-    <meta name="twitter:creator" content="@impulsedigi" />
-    <meta name="twitter:title" content="Best Digital Marketing Agency in Mumbai | Impulse Digital" />
-    <meta name="twitter:description" content="Impulse Digital is a top digital marketing agency in Mumbai that has the expertise to expand your business reach in the digital space. Our creative, innovative, and energetic team helps us stand out from a cluster of digital marketing agencies in Mumbai. We are handling a plethora of clients which includes Amazon, HUL, OLA, Dmart, HDFC, and more big market giants." />
-    <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-    <meta name="twitter:url" content="https://www.theimpulsedigital.com" />
-    <link rel="canonical" href="https://www.theimpulsedigital.com" />
+    <title>About Impulse Digital - Creative Digital Marketing Agency</title>
+
+<meta name="robots" content="index, follow"/>
+<meta name="revisit-after" content="1 day"/>
+<meta name="language" content="English"/>
+<meta name="generator" content="N/A"/>
+
+<meta property="og:title" content="About Impulse Digital - Creative Digital Marketing Agency"/>
+<meta property="og:description" content="A full-fledged creative digital marketing agency to help you unleash the true potential of your brand on the digital front. With Impulse Digital, get more leads &amp; grow revenue."/>
+<meta property="og:url" content="https://web.archive.org/web/20250610013748/https://www.theimpulsedigital.com/about-us"/>
+<meta property="og:image" content="https://web.archive.org/web/20250610013748im_/https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
+<meta property="og:site_name" content="Impulse Digital"/>
+<meta property="og:type" content="website"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@impulsedigi"/>
+<meta name="twitter:creator" content="@impulsedigi"/>
+<meta name="twitter:title" content="About Impulse Digital - Creative Digital Marketing Agency"/>
+<meta name="twitter:description" content="A full-fledged creative digital marketing agency to help you unleash the true potential of your brand on the digital front. With Impulse Digital, get more leads &amp; grow revenue."/>
+<meta name="twitter:image" content="https://web.archive.org/web/20250610013748im_/https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
+<meta name="twitter:url" content="https://web.archive.org/web/20250610013748im_/https://www.theimpulsedigital.com/about-us"/>
+<link rel="canonical" href="https://www.theimpulsedigital.com/about-us" />
+<link rel="icon" type="image/x-icon" href="/resource-icon.png" />
+
     </Helmet>
 
 
