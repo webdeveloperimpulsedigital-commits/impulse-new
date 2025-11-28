@@ -64,7 +64,7 @@ export const FooterSection: React.FC = () => {
             <ul className="footer__col">
               <strong>Resources</strong>
               <li><a href="#">Case Studies</a></li>
-              <li><a href="#">Blogs</a></li>
+              <li><a href="/blog/">Blogs</a></li>
               <li><a href="#">Resources</a></li>
               <li><a href="#">Careers</a></li>
             </ul>
