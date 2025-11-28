@@ -29,6 +29,7 @@ export const SocialMediaMarketingHeroSection = (): JSX.Element => {
       <meta name="twitter:description" content="Impulse Digital is the best SEO company in Thane that offers complete organic SEO services for your business such as website SEO audit, keyword analysis, onpage & offpage seo, link building, monitoring web traffic, content writing." />
       <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
       <meta name="twitter:url" content="https://www.theimpulsedigital.com/search-engine-optimization" />
+      
 
     </Helmet>
     <section
