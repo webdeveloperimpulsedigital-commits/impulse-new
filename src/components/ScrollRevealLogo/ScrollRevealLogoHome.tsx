@@ -120,7 +120,7 @@ export const ScrollRevealLogoHome: React.FC<ScrollRevealLogoProps> = ({
           } else if (sectionName === 'portfolio') {
             const size = isMobile ? '50px' : isTablet ? '70px' : '80px';
             const top = sectionTop + (isMobile ? 80 : isTablet ? 120 : 100);
-            const right = isMobile ? 20 : isTablet ? 90 : Math.max(70, Math.floor(vw * 0.010));
+            const right = isMobile ? 20 : isTablet ? 90 : Math.max(550, Math.floor(vw * 0.010));
             
             setLogoStyle({
               position: 'absolute',
