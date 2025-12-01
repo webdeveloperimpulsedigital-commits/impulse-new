@@ -172,7 +172,7 @@ const caseStudiesData = [
     image: "/Grasim Pulp and fiber.jpg",
     tags: ["Branding"],
     tall: true,
-    corner: true,
+    corner: false,
     link: "/casestudies/grasim-pulp-and-fibre",
   },
   {
@@ -184,13 +184,16 @@ const caseStudiesData = [
     corner: false,
     link: "/casestudies/shree-rubber-works",
   },
+
+
+
   {
     id: 5,
     title: "Automag India",
     image: "/Automag.jpg",
     tags: ["Branding"],
-    tall: false,
-    corner: false,
+    tall: true,
+    corner: true,
     link: "/casestudies/automag-india",
   },
   {
@@ -202,9 +205,12 @@ const caseStudiesData = [
     corner: false,
     link: "/casestudies/atrac-engine-parts",
   },
+
+
+  
   {
     id: 7,
-    title: "Amazone Employer Branding",
+    title: "ElectroMech",
     image: "/Amazon EB.jpg",
     tags: ["Product Design"],
     tall: true,
@@ -213,13 +219,17 @@ const caseStudiesData = [
   },
   {
     id: 8,
-    title: "Amazone Employee Value Proposition",
+    title: "Hem",
     image: "/Amazon EVP.jpg",
     tags: ["Packaging"],
     tall: false,
     corner: true,
     link: "/casestudies/crafting-the-employer-value-proposition-for-amazon-india",
   },
+
+
+
+  
 ];
 
 export const ServicesCatalogSection = (): JSX.Element => {
