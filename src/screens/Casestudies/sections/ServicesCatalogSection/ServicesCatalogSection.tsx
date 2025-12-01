@@ -184,6 +184,7 @@ const caseStudiesData = [
     corner: false,
     link: "/casestudies/shree-rubber-works",
   },
+  
   {
     id: 5,
     title: "Automag India",
