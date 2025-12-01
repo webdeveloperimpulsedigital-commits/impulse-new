@@ -152,6 +152,9 @@ export const ScrollingStripsSection = (): JSX.Element => {
       </div>
 
       <style>{`
+      .client-logo {
+        padding: 0rem;
+      }
         .wrap-clients {
           max-width: 100%;
           margin: auto;
