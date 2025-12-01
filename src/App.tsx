@@ -21,7 +21,7 @@ import { AiAgenticServices } from "./screens/AiAgenticServices";
 
 import { Casestudies } from "./screens/Casestudies";
 import { ShreeRubberWorksCaseStudy } from "./screens/ShreeRubberWorksCaseStudy"
-
+import { ElectromechCaseStudy } from "./screens/ElectromechCaseStudy"
 
 import { Ebooks, Resources } from "./screens/Resources";
 import { SlideSharePPTS } from "./screens/Resources/SlideSharePPTS";
@@ -48,6 +48,7 @@ import { AutomagIndiaCaseStudy } from "./screens/AutomagIndiaCaseStudy";
 import { Thankyou } from "./screens/Thankyou";
 import { Privacypage } from "./screens/Privacypage";
 import { TermsAndConditions } from "./screens/TermsAndConditionsPage";
+import { HemCasestudy } from "./screens/HemCasestudy";
 
 
 
@@ -83,6 +84,8 @@ export const App = (): JSX.Element => {
       <Route path="/casestudies/crafting-the-employer-value-proposition-for-amazon-india" element={<CraftingAmazonIndiaCaseStudy />} />
       <Route path="/casestudies/atrac-engine-parts" element={<AtracEnginePartsCaseStudy />} />
       <Route path="/casestudies/amazon-eb" element={<AmazonEBCaseStudy />} />
+      <Route path="/casestudies/electromech" element={< ElectromechCaseStudy/>} />
+      <Route path="/casestudies/hem" element={< HemCasestudy/>}/>
 
       <Route path="/resources" element={<Resources/>}/>
 

@@ -203,6 +203,24 @@ const caseStudiesData = [
     corner: false,
     link: "/casestudies/atrac-engine-parts",
   },
+  {
+    id: 7,
+    title: "Amazone Employer Branding",
+    image: "/Amazon EB.jpg",
+    tags: ["Product Design"],
+    tall: true,
+    corner: false,
+    link: "/casestudies/amazon-eb",
+  },
+  {
+    id: 8,
+    title: "Amazone Employee Value Proposition",
+    image: "/Amazon EVP.jpg",
+    tags: ["Packaging"],
+    tall: false,
+    corner: true,
+    link: "/casestudies/crafting-the-employer-value-proposition-for-amazon-india",
+  },
 ];
 
 export const ServicesCatalogSection = (): JSX.Element => {
