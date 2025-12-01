@@ -31,7 +31,7 @@ type HeaderProps = {
 
 const DEFAULT_ITEMS: NavItem[] = [
   { label: "Home", href: "/" },
-  { label: "About Us", href: "/about-us" },
+  // { label: "About Us", href: "/about-us" },
   {
     label: "Services",
     href: "/services",
@@ -69,7 +69,7 @@ const DEFAULT_ITEMS: NavItem[] = [
       { label: "Slideshare PPT", href: "/resources/Slideshare-PPT/" }
     ]
   },
-  { label: "Career", href: "/career" },
+  // { label: "Career", href: "/career" },
 ];
 
 export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {

@@ -86,14 +86,14 @@ export const FooterSection: React.FC = () => {
             <ul className="footer__col">
               <strong>Quick Links</strong>
               <li><Link to="/">Home</Link></li>
-              <li><Link to="/about-us">About Us</Link></li>
+              {/* <li><Link to="/about-us">About Us</Link></li> */}
               <li><Link to="/services">Services</Link></li>
             </ul>
 
             <ul className="footer__col">
               <strong>Resources</strong>
               <li><Link to="/blog">Blog</Link></li>
-              <li><Link to="/career">Career</Link></li>
+              {/* <li><Link to="/career">Career</Link></li> */}
             </ul>
 
             <ul className="footer__col">
