@@ -1,0 +1,1 @@
+export { ElectromechCaseStudyHeroSection } from "./ElectromechCaseStudyHeroSection";
