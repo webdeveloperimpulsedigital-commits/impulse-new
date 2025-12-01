@@ -211,20 +211,20 @@ const caseStudiesData = [
   {
     id: 7,
     title: "ElectroMech",
-    image: "/Amazon EB.jpg",
+    image: "/electromech-case-study.png",
     tags: ["Product Design"],
     tall: true,
     corner: false,
-    link: "/casestudies/amazon-eb",
+    link: "/casestudies/electromech",
   },
   {
     id: 8,
     title: "Hem",
-    image: "/Amazon EVP.jpg",
+    image: "/19_HEM.jpg",
     tags: ["Packaging"],
     tall: false,
     corner: true,
-    link: "/casestudies/crafting-the-employer-value-proposition-for-amazon-india",
+    link: "/casestudies/hem",
   },
 
 

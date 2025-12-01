@@ -9,7 +9,7 @@ export const TermsAndConditionsPageHeroSection = (): JSX.Element => {
     <Helmet>
       <meta name="description" content="If you are looking for digital marketing solutions for your brand, feel free to submit the inquiry form or give us a call." />
 <meta name="keywords" content="" />
-<title>Get In Touch | Impulse Digital</title>
+<title>Terms & Conditions | Impulse Digital</title>
 <meta name="robots" content="index, follow" />
 <meta name="revisit-after" content="1 day" />
 <meta name="language" content="English" />
@@ -61,7 +61,7 @@ export const TermsAndConditionsPageHeroSection = (): JSX.Element => {
       {/* Hero Copy */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center pt-24 px-4">
         <h1 className="uppercase [font-family:'DM_Sans',Helvetica] font-black text-white text-[32px] sm:text-[40px] md:text-[48px] lg:text-[56px] xl:text-[64px] leading-[40px] tracking-tight mb-6">
-         Terms and conditions
+         Terms & conditions
         </h1>
 
         {/* Breadcrumb */}
@@ -70,7 +70,7 @@ export const TermsAndConditionsPageHeroSection = (): JSX.Element => {
             Home
           </NavLink>
           <span className="select-none">{">"}</span>
-          <span className="text-white">Thank You</span>
+          <span className="text-white">Terms & Conditions</span>
         </nav>
       </div>
     </section>

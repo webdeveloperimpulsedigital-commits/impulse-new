@@ -152,7 +152,7 @@ const caseStudiesData = [
   { id: 2, title: "Hindustan Unilever Limited", image: "/16_Unilever.jpg", tags: ["Packaging"], tall: false, corner: true },
   { id: 3, title: "Avenue Supermarts/DMart", image: "/15_Dmart.jpg", tags: ["Branding"], tall: true, corner: true },
   { id: 4, title: "Vendiman", image: "/17_Vendiman.jpg", tags: ["Creative"], tall: false, corner: false },
-  { id: 5, title: "ElectroMech", image: "/18_Emech.jpg", tags: ["Branding"], tall: false, corner: false },
+  { id: 5, title: "ElectroMech", image: "/18_Emech.png", tags: ["Branding"], tall: false, corner: false },
   { id: 6, title: "HEM Corporation", image: "/19_HEM.jpg", tags: ["Packaging"], tall: false, corner: false }
 ];
 

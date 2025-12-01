@@ -72,7 +72,7 @@ export const HemCasestudyHeroSection = (): JSX.Element => {
           <span className="select-none">{">"}</span>
            <span className="text-white">Case Studies</span>
             <span className="select-none">{">"}</span>
-          <span className="text-white">Amazon Employer Branding</span>
+          <span className="text-white">Hem</span>
         </nav>
       </div>
     </section>

@@ -32,7 +32,7 @@ export const BrandVisionSection = (): JSX.Element => {
             <div className="lg:col-span-6">
               <div className="relative rounded-[28px] overflow-hidden shadow-lg bg-[#f3efff]">
                 <img
-                  src="/hem-about.jpg"
+                  src="/13_HEM.jpg"
                   alt="HEM Incense product visual"
                   className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
                   loading="lazy"
@@ -114,7 +114,7 @@ export const BrandVisionSection = (): JSX.Element => {
             <div className="lg:col-span-7 order-1 lg:order-2">
               <div className="rounded-[28px] overflow-hidden shadow-lg bg-[#f3efff]">
                 <img
-                  src="/hem-results-graph.jpg"
+                  src="/hem-growht-seo.png"
                   alt="SEO growth graph for HEM Incense"
                   className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
                   loading="lazy"
@@ -171,7 +171,7 @@ export const BrandVisionSection = (): JSX.Element => {
             <div className="lg:col-span-6">
               <div className="rounded-[28px] overflow-hidden shadow-lg bg-[#f3efff]">
                 <img
-                  src="/hem-challenge.jpg"
+                  src="/Marketer analysing declining traffic.png"
                   alt="Marketer analysing declining traffic"
                   className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
                   loading="lazy"
@@ -327,7 +327,7 @@ export const BrandVisionSection = (): JSX.Element => {
             <div className="lg:col-span-6">
               <div className="rounded-[28px] overflow-hidden shadow-lg bg-[#f3efff]">
                 <img
-                  src="/hem-success-story.jpg"
+                  src="/hem-success-story.png"
                   alt="SEO success visual with growth arrow"
                   className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
                   loading="lazy"
