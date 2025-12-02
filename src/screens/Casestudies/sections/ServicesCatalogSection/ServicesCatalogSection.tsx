@@ -510,7 +510,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
           {/* Desktop grid */}
           <DesktopGrid />
         </div>
-      </section>
+      </section><br></br><br></br><br></br>
       <style>{css}</style>
     </>
   );
