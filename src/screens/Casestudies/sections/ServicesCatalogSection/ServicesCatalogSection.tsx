@@ -190,7 +190,7 @@ const caseStudiesData = [
   {
     id: 5,
     title: "Automag India",
-    image: "/automag-casestudy.jpg",
+    image: "/automag-casestudy.jpeg",
     tags: ["Branding"],
     tall: true,
     corner: true,
