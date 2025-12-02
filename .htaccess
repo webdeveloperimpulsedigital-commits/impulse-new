@@ -5,4 +5,33 @@
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteRule . /index.html [L]
+
+
+
+Redirect 301 /search-engine-optimization https://www.theimpulsedigital.com/services/search-engine-optimization/
+
+Redirect 301 /enterprise-seo-service https://www.theimpulsedigital.com/services/search-engine-optimization/enterprise-seo-services/
+
+Redirect 301 /ecommerce-seo-service https://www.theimpulsedigital.com/services/search-engine-optimization/ecommerce-seo-services/
+
+Redirect 301 /local-seo-service https://www.theimpulsedigital.com/services/search-engine-optimization/local-seo-services/
+
+Redirect 301 /b2b-seo-service https://www.theimpulsedigital.com/services/search-engine-optimization/b2b-seo-services/
+ 
+Redirect 301 /social-media-marketing https://www.theimpulsedigital.com/services/social-media-marketing/
+
+Redirect 301 /website-development https://www.theimpulsedigital.com/services/website-development/
+
+Redirect 301 /online-paid-advertising https://www.theimpulsedigital.com/services/performance-marketing/
+
+Redirect 301 /content-marketing-services https://www.theimpulsedigital.com/services/content-writing-services/
+
+Redirect 301 /branding-creative-services https://www.theimpulsedigital.com/services/branding-creative-services/
+
+Redirect 301 /employer-branding-agency https://www.theimpulsedigital.com/services/employee-branding-agency/
+
+Redirect 301 /corporate-communication-agency https://www.theimpulsedigital.com/services/branding-creative-services/
+
+Redirect 301 /social-media-video-production https://www.theimpulsedigital.com/services/social-media-video-production/
+
 </IfModule>
