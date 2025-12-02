@@ -27,7 +27,7 @@ export const ContactResourcesSection = () => {
           <ul className="contact-list pt-16 hidden lg:block">
             <img className="c-icon w-120" alt="Call Logo" src="call.png" />
             <li><a href="tel:+919769285224">+91-9769285224</a></li>
- 
+  
             <img className="c-icon w-120" alt="Email Logo" src="sms-1.png" />
             <li><a href="mailto:collabs@theimpulsedigital.com">collabs@theimpulsedigital.com</a></li>
  

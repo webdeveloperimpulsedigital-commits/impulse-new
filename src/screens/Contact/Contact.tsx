@@ -1,4 +1,3 @@
-import React from "react";
 //import { ScrollRevealLogo } from "../../components/ScrollRevealLogo/ScrollRevealLogo";
 import { ContactHeroSection } from "./Contact/sections/ContactHeroSection/ContactHeroSection";
 import { ContactFormSection } from "./Contact/sections/ContactFormSection/ContactFormSection";
