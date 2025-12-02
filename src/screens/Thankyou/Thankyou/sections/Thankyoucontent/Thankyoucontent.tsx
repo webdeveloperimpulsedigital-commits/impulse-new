@@ -9,11 +9,11 @@ export const Thankyoucontent = (): JSX.Element => {
           <div className="space-y-8">
             <div className="space-y-4">
               <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] text-3xl md:text-4xl lg:text-5xl leading-tight">
-                Thank You
+                Thank you for contacting us.
               </h2>
               <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-base leading-relaxed">
-                Located in the heart of Mumbai's business district, our office is easily accessible and equipped 
-                with modern facilities for client meetings and collaborative sessions.
+                
+                We’ve received your message and our team will get back to you shortly.
               </p>
             </div>
 
