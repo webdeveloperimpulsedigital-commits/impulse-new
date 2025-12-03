@@ -19,36 +19,36 @@ export const ScrollingStripsSection = (): JSX.Element => {
   ];
 
   const logos = [
-    { name: "abg-chemical", src: "./impulse-clients/abg-chemical.jpg" },
-    { name: "hindalco", src: "./impulse-clients/hindalco.jpg" },
-    { name: "abps", src: "./impulse-clients/abps.jpg" },
-    { name: "birla-celilues", src: "./impulse-clients/birla-celilues.jpg" },
-    { name: "hdfc", src: "./impulse-clients/hdfc.jpg" },
-    { name: "godrej", src: "./impulse-clients/godrej.jpg" },
-    { name: "amazone", src: "./impulse-clients/amazone.jpg" },
-    { name: "ola", src: "./impulse-clients/ola.jpg" },
-    { name: "chings", src: "./impulse-clients/chings.jpg" },
-    { name: "d-mart", src: "./impulse-clients/d-mart.jpg" },
-    { name: "mastercard", src: "./impulse-clients/mastercard.jpg" },
-    { name: "tjsb", src: "./impulse-clients/tjsb.jpg" },
-    { name: "tata-soulful", src: "./impulse-clients/tata-soulful.jpg" },
-    { name: "tata", src: "./impulse-clients/tata.jpg" },
-    { name: "jankalyan", src: "./impulse-clients/jankalyan.jpg" },
-    { name: "croda", src: "./impulse-clients/croda.jpg" },
-    { name: "qure-ai", src: "./impulse-clients/qure-ai.jpg" },
-    { name: "aster", src: "./impulse-clients/aster.jpg" },
-    { name: "automag", src: "./impulse-clients/automag.jpg" },
-    { name: "datar", src: "./impulse-clients/datar.jpg" },
-    { name: "dts", src: "./impulse-clients/dts.jpg" },
-    { name: "emech", src: "./impulse-clients/emech.jpg" },
-    { name: "enpro", src: "./impulse-clients/enpro.jpg" },
-    { name: "goma", src: "./impulse-clients/goma.jpg" },
-    { name: "hem", src: "./impulse-clients/hem.jpg" },
-    { name: "lg", src: "./impulse-clients/lg.jpg" },
-    { name: "more", src: "./impulse-clients/more.jpg" },
-    { name: "navayasa", src: "./impulse-clients/navayasa.jpg" },
-    { name: "shree-rubber", src: "./impulse-clients/shree-rubber.jpg" },
-    { name: "vendiman", src: "./impulse-clients/vendiman.jpg" },
+    { name: "abg-chemical", src: "https://www.theimpulsedigital.com/abg-chemical.jpg" },
+    { name: "hindalco", src: "https://www.theimpulsedigital.com/hindalco.jpg" },
+    { name: "abps", src: "https://www.theimpulsedigital.com/abps.jpg" },
+    { name: "birla-celilues", src: "https://www.theimpulsedigital.com/birla-celilues.jpg" },
+    { name: "hdfc", src: "https://www.theimpulsedigital.com/hdfc.jpg" },
+    { name: "godrej", src: "https://www.theimpulsedigital.com/godrej.jpg" },
+    { name: "amazone", src: "https://www.theimpulsedigital.com/amazone.jpg" },
+    { name: "ola", src: "https://www.theimpulsedigital.com/ola.jpg" },
+    { name: "chings", src: "https://www.theimpulsedigital.com/chings.jpg" },
+    { name: "d-mart", src: "https://www.theimpulsedigital.com/d-mart.jpg" },
+    { name: "mastercard", src: "https://www.theimpulsedigital.com/mastercard.jpg" },
+    { name: "tjsb", src: "https://www.theimpulsedigital.com/tjsb.jpg" },
+    { name: "tata-soulful", src: "https://www.theimpulsedigital.com/tata-soulful.jpg" },
+    { name: "tata", src: "https://www.theimpulsedigital.com/tata.jpg" },
+    { name: "jankalyan", src: "https://www.theimpulsedigital.com/jankalyan.jpg" },
+    { name: "croda", src: "https://www.theimpulsedigital.com/croda.jpg" },
+    { name: "qure-ai", src: "https://www.theimpulsedigital.com/qure-ai.jpg" },
+    { name: "aster", src: "https://www.theimpulsedigital.com/aster.jpg" },
+    { name: "automag", src: "https://www.theimpulsedigital.com/automag.jpg" },
+    { name: "datar", src: "https://www.theimpulsedigital.com/datar.jpg" },
+    { name: "dts", src: "https://www.theimpulsedigital.com/dts.jpg" },
+    { name: "emech", src: "https://www.theimpulsedigital.com/emech.jpg" },
+    { name: "enpro", src: "https://www.theimpulsedigital.com/enpro.jpg" },
+    { name: "goma", src: "https://www.theimpulsedigital.com/goma.jpg" },
+    { name: "hem", src: "https://www.theimpulsedigital.com/hem.jpg" },
+    { name: "lg", src: "https://www.theimpulsedigital.com/lg.jpg" },
+    { name: "more", src: "https://www.theimpulsedigital.com/more.jpg" },
+    { name: "navayasa", src: "https://www.theimpulsedigital.com/navayasa.jpg" },
+    { name: "shree-rubber", src: "https://www.theimpulsedigital.com/shree-rubber.jpg" },
+    { name: "vendiman", src: "https://www.theimpulsedigital.com/vendiman.jpg" },
   ];
 
   const videoRef = useRef<HTMLVideoElement | null>(null);
@@ -89,7 +89,7 @@ export const ScrollingStripsSection = (): JSX.Element => {
                       <img
                         className="flex-shrink-0 w-[20px] h-[20px] md:w-[30px] md:h-[30px] lg:w-[40px] lg:h-[40px] mx-2 md:mx-4"
                         alt="Vector"
-                        src="vector-6.png"
+                        src="https://www.theimpulsedigital.com/vector-6.png"
                         loading="eager"
                         decoding="async"
                       />
@@ -118,13 +118,13 @@ export const ScrollingStripsSection = (): JSX.Element => {
 
             <Button className="w-[180px] h-[44px] group sm:inline-flex items-center gap-2 px-4 py-6 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border-[#543d98] hover:border hover:border-[#543d98]">
               <Link
-                to="/contact-us"
+                to="https://www.theimpulsedigital.com/contact-us"
                 className="[font-family:'DM_Sans',Helvetica] font-bold text-white text-sm md:text-base group-hover:text-[#543d98] transition-colors duration-300"
               >
                 Connect Now
               </Link>
               <img
-                src="/button-icon.svg"
+                src="https://www.theimpulsedigital.com/button-icon.svg"
                 alt="Arrow"
                 className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert-0 group-hover:invert pointer-events-none"
               />

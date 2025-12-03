@@ -190,7 +190,7 @@ const caseStudiesData = [
   {
     id: 5,
     title: "Automag India",
-    image: "/Automag.jpg",
+    image: "/automag-casestudy.jpeg",
     tags: ["Branding"],
     tall: true,
     corner: true,
@@ -510,7 +510,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
           {/* Desktop grid */}
           <DesktopGrid />
         </div>
-      </section>
+      </section><br></br><br></br><br></br>
       <style>{css}</style>
     </>
   );

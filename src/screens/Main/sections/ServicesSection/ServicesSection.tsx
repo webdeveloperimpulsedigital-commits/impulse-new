@@ -465,7 +465,7 @@ const ServicesSection = () => {
                         <img
                           className="w-[20px] h-[20px] md:w-[30px] md:h-[30px] lg:w-[40px] lg:h-[40px] mx-2 md:mx-4"
                           alt="Vector"
-                          src="vector-6.png"
+                          src="https://www.theimpulsedigital.com/vector-6.png"
                         />
                       </React.Fragment>
                     ))}

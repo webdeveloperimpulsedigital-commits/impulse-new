@@ -1,8 +1,50 @@
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
+
+  # --------------------------------
+  # 301 REDIRECTS (OLD → NEW URLs)
+  # --------------------------------
+
+  RewriteRule ^search-engine-optimization/?$ https://www.theimpulsedigital.com/services/search-engine-optimization/ [R=301,L]
+
+  RewriteRule ^enterprise-seo-service/?$ https://www.theimpulsedigital.com/services/search-engine-optimization/enterprise-seo-services/ [R=301,L]
+
+  RewriteRule ^ecommerce-seo-service/?$ https://www.theimpulsedigital.com/services/search-engine-optimization/ecommerce-seo-services/ [R=301,L]
+
+  RewriteRule ^local-seo-service/?$ https://www.theimpulsedigital.com/services/search-engine-optimization/local-seo-services/ [R=301,L]
+
+  RewriteRule ^b2b-seo-service/?$ https://www.theimpulsedigital.com/services/search-engine-optimization/b2b-seo-services/ [R=301,L]
+
+  RewriteRule ^social-media-marketing/?$ https://www.theimpulsedigital.com/services/social-media-marketing/ [R=301,L]
+
+  RewriteRule ^website-development/?$ https://www.theimpulsedigital.com/services/website-development/ [R=301,L]
+
+  RewriteRule ^online-paid-advertising/?$ https://www.theimpulsedigital.com/services/performance-marketing/ [R=301,L]
+
+  RewriteRule ^content-marketing-services/?$ https://www.theimpulsedigital.com/services/content-writing-services/ [R=301,L]
+
+  RewriteRule ^branding-creative-services/?$ https://www.theimpulsedigital.com/services/branding-creative-services/ [R=301,L]
+
+  RewriteRule ^employer-branding-agency/?$ https://www.theimpulsedigital.com/services/employee-branding-agency/ [R=301,L]
+
+  RewriteRule ^corporate-communication-agency/?$ https://www.theimpulsedigital.com/services/branding-creative-services/ [R=301,L]
+
+  RewriteRule ^social-media-video-production/?$ https://www.theimpulsedigital.com/services/social-media-video-production/ [R=301,L]
+
+  # --------------------------------
+  # SPA ROUTING FOR REACT (FALLBACK)
+  # --------------------------------
+
+  # Don't rewrite the real index.html itself
   RewriteRule ^index\.html$ - [L]
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
+
+  # If file or directory exists, serve it
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule . - [L]
+
+  # Otherwise, let React handle the route
   RewriteRule . /index.html [L]
+
 </IfModule>
