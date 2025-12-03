@@ -29,6 +29,7 @@ export const VideosHeroSection = (): JSX.Element => {
 <meta name="twitter:description" content="Visit our website to see the videos created by Impulse Digital. Our videos will help you to understand latest digital marketing and social media news and updates." />
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
 <meta name="twitter:url" content="https://www.theimpulsedigital.com/videos" />
+<link rel="canonical" href="https://www.theimpulsedigital.com/videos"/>
 
 
     </Helmet>

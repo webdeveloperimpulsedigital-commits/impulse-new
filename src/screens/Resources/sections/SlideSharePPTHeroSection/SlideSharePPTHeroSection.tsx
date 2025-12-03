@@ -29,6 +29,7 @@ export const SlideSharePPTHeroSection = (): JSX.Element => {
 <meta name="twitter:description" content="Impulse Digital brings you the latest digital marketing and social media updates in the form of PPT presentations." />
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
 <meta name="twitter:url" content="https://www.theimpulsedigital.com/slideshare-ppt" />
+<link rel="canonical" href="https://www.theimpulsedigital.com/slideshare-ppt"/>
 
     </Helmet>
     

@@ -18,7 +18,7 @@ export const SocialMediaMarketingHeroSection = (): JSX.Element => {
 
       <meta property="og:title" content="SEO Company in Thane | SEO Services | Impulse Digital" />
       <meta property="og:description" content="Impulse Digital is the best SEO company in Thane that offers complete organic SEO services for your business such as website SEO audit, keyword analysis, onpage & offpage seo, link building, monitoring web traffic, content writing." />
-      <meta property="og:url" content="https://www.theimpulsedigital.com/search-engine-optimization" />
+      <meta property="og:url" content="hhttps://www.theimpulsedigital.com/services/search-engine-optimization" />
       <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
       <meta property="og:site_name" content="Impulse Digital" />
       <meta property="og:type" content="website" />
@@ -28,7 +28,7 @@ export const SocialMediaMarketingHeroSection = (): JSX.Element => {
       <meta name="twitter:title" content="SEO Company in Thane | SEO Services | Impulse Digital" />
       <meta name="twitter:description" content="Impulse Digital is the best SEO company in Thane that offers complete organic SEO services for your business such as website SEO audit, keyword analysis, onpage & offpage seo, link building, monitoring web traffic, content writing." />
       <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-      <meta name="twitter:url" content="https://www.theimpulsedigital.com/search-engine-optimization" />
+      <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/search-engine-optimization" />
       
 
     </Helmet>

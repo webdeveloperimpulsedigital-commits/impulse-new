@@ -19,7 +19,7 @@ export const ContentWritingHeroSection = (): JSX.Element => {
 
         <meta property="og:title" content="PPC Services in Mumbai | Search Engine Marketing Services | Impulse Digital" />
         <meta property="og:description" content="The Impulse Digital is a leading PPC company in Mumbai, India. Our PPC & search engine marketing services give boost to your online marketing efforts. We help you channelize your spends wisely to generate leads and get the best ROI." />
-        <meta property="og:url" content="https://www.theimpulsedigital.com/online-paid-advertising" />
+        <meta property="og:url" content="https://www.theimpulsedigital.com/services/performance-marketing" />
         <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
         <meta property="og:site_name" content="Impulse Digital" />
         <meta property="og:type" content="website" />
@@ -29,7 +29,8 @@ export const ContentWritingHeroSection = (): JSX.Element => {
         <meta name="twitter:title" content="PPC Services in Mumbai | Search Engine Marketing Services | Impulse Digital" />
         <meta name="twitter:description" content="The Impulse Digital is a leading PPC company in Mumbai, India. Our PPC & search engine marketing services give boost to your online marketing efforts. We help you channelize your spends wisely to generate leads and get the best ROI." />
         <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-        <meta name="twitter:url" content="https://www.theimpulsedigital.com/online-paid-advertising" />
+        <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/performance-marketing" />
+        <link rel="canonical" href="https://www.theimpulsedigital.com/services/performance-marketing"/>
 
     </Helmet>
     <section

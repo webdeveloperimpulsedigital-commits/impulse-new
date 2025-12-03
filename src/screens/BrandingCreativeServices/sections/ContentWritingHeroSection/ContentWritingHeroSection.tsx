@@ -19,7 +19,7 @@ export const ContentWritingHeroSection = (): JSX.Element => {
 
 <meta property="og:title" content="Branding & Creative Agency in Mumbai | Corporate Branding | Impulse Digital" />
 <meta property="og:description" content="Looking for a top branding & creative agency in mumbai to handle your corporate branding & content design? Your search ends right here!  Impulse Digital help to create a differentiated place for the brand in the consumer mind." />
-<meta property="og:url" content="https://www.theimpulsedigital.com/branding-creative-services" />
+<meta property="og:url" content="https://www.theimpulsedigital.com/services/branding-creative-services" />
 <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
 <meta property="og:site_name" content="Impulse Digital" />
 <meta property="og:type" content="website" />
@@ -29,7 +29,8 @@ export const ContentWritingHeroSection = (): JSX.Element => {
 <meta name="twitter:title" content="Branding & Creative Agency in Mumbai | Corporate Branding | Impulse Digital" />
 <meta name="twitter:description" content="Looking for a top branding & creative agency in mumbai to handle your corporate branding & content design? Your search ends right here!  Impulse Digital help to create a differentiated place for the brand in the consumer mind." />
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-<meta name="twitter:url" content="https://www.theimpulsedigital.com/branding-creative-services" />
+<meta name="twitter:url" content="https://www.theimpulsedigital.com/services/branding-creative-services" />
+<link rel="canonical" href="https://www.theimpulsedigital.com/services/branding-creative-services"/>
     </Helmet>
 
     <section

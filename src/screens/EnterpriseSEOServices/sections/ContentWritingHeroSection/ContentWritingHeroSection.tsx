@@ -7,23 +7,31 @@ export const ContentWritingHeroSection = (): JSX.Element => {
   return (
     <>
     <Helmet> 
-    <title>Best Digital Marketing Agency in Mumbai | Impulse</title>
-    <meta name="description" content="Impulse Digital is a top digital marketing agency in Mumbai that has the expertise to expand your business reach in the digital space. Our creative, innovative, and energetic"/>
-    <meta name="keywords" content="digital marketing agency in mumbai, digital marketing company, impulse digital"/>
-    <meta property="og:title" content="Best Digital Marketing Agency in Mumbai | Impulse Digital" />
-    <meta property="og:description" content="Impulse Digital is a top digital marketing agency in Mumbai that has the expertise to expand your business reach in the digital space. Our creative, innovative, and energetic team helps us stand out from a cluster of digital marketing agencies in Mumbai. We are handling a plethora of clients which includes Amazon, HUL, OLA, Dmart, HDFC, and more big market giants." />
-    <meta property="og:url" content="https://www.theimpulsedigital.com" />
-    <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-    <meta property="og:site_name" content="Impulse Digital" />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@impulsedigi" />
-    <meta name="twitter:creator" content="@impulsedigi" />
-    <meta name="twitter:title" content="Best Digital Marketing Agency in Mumbai | Impulse Digital" />
-    <meta name="twitter:description" content="Impulse Digital is a top digital marketing agency in Mumbai that has the expertise to expand your business reach in the digital space. Our creative, innovative, and energetic team helps us stand out from a cluster of digital marketing agencies in Mumbai. We are handling a plethora of clients which includes Amazon, HUL, OLA, Dmart, HDFC, and more big market giants." />
-    <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-    <meta name="twitter:url" content="https://www.theimpulsedigital.com" />
-    <link rel="canonical" href="https://www.theimpulsedigital.com" />
+<meta name="description" content="Impulse Digital offers the best enterprise seo service backed by captivating content for your target audience. With decades of industry experience, we have a sterling track record of delivering unmatched enterprise seo services and results"/>
+<meta name="keywords" content="enterprise seo services, mumbai, india, impulse digital"/>
+<title>Best Enterprise SEO Service | Impulse Digital</title>
+
+<meta name="robots" content="index, follow"/>
+<meta name="revisit-after" content="1 day"/>
+<meta name="language" content="English"/>
+<meta name="generator" content="N/A"/>
+
+<meta property="og:title" content="Best Enterprise SEO Service | Impulse Digital"/>
+<meta property="og:description" content="Impulse Digital offers the best enterprise seo service backed by captivating content for your target audience. With decades of industry experience, we have a sterling track record of delivering unmatched enterprise seo services and results"/>
+<meta property="og:url" content="https://www.theimpulsedigital.com/services/search-engine-optimization/enterprise-seo-services"/>
+<meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
+<meta property="og:site_name" content="Impulse Digital"/>
+<meta property="og:type" content="website"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@impulsedigi"/>
+<meta name="twitter:creator" content="@impulsedigi"/>
+<meta name="twitter:title" content="Best Enterprise SEO Service | Impulse Digital"/>
+          <meta name="twitter:description" content="Impulse Digital offers the best enterprise seo service backed by captivating content for your target audience. With decades of industry experience, we have a sterling track record of delivering unmatched enterprise seo services and results"/>
+          <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
+          <meta name="twitter:url" content="https://www.theimpulsedigital.com/enterprise-seo-service"/>
+
+
+     <link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/enterprise-seo-services"/>
     </Helmet>
     
     <section

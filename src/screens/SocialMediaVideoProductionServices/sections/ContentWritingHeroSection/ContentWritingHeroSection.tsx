@@ -18,7 +18,7 @@ export const ContentWritingHeroSection = (): JSX.Element => {
 
 <meta property="og:title" content="Social Media Video Production Services | Creative Video Agency" />
 <meta property="og:description" content="Our Social media video production services enhances your brand s social presence!From concept to execution every detail is perfected to grab attention. Enquire Now!" />
-<meta property="og:url" content="https://www.theimpulsedigital.com/social-media-video-production" />
+<meta property="og:url" content="https://www.theimpulsedigital.com/services/social-media-video-production" />
 <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
 <meta property="og:site_name" content="Impulse Digital" />
 <meta property="og:type" content="website" />
@@ -28,7 +28,8 @@ export const ContentWritingHeroSection = (): JSX.Element => {
 <meta name="twitter:title" content="Social Media Video Production Services | Creative Video Agency" />
 <meta name="twitter:description" content="Our Social media video production services enhances your brand s social presence!From concept to execution every detail is perfected to grab attention. Enquire Now!" />
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-<meta name="twitter:url" content="https://www.theimpulsedigital.com/social-media-video-production" />
+<meta name="twitter:url" content="https://www.theimpulsedigital.com/services/social-media-video-production" />
+<link rel="canonical" href="https://www.theimpulsedigital.com/services/social-media-video-production"/>
 
   </Helmet>
     <section

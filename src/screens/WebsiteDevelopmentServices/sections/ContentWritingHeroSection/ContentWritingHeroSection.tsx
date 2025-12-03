@@ -16,7 +16,7 @@ export const ContentWritingHeroSection = (): JSX.Element => {
         <meta name="generator" content="N/A" />
         <meta property="og:title" content="Website Design Company in Thane | Website Development | Impulse Digital" />
         <meta property="og:description" content="Looking for a top website design and development company in thane to create the website suited for your brand image. Our website design and development services do not just focus on a play of words and pictures, rather, we aim at creating an online persona effectively that entices the users to click more and enables them to understand your brand better." />
-        <meta property="og:url" content="https://www.theimpulsedigital.com/website-development" />
+        <meta property="og:url" content="https://www.theimpulsedigital.com/services/website-development" />
         <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
         <meta property="og:site_name" content="Impulse Digital" />
         <meta property="og:type" content="website" />
@@ -26,7 +26,7 @@ export const ContentWritingHeroSection = (): JSX.Element => {
         <meta name="twitter:title" content="Website Design Company in Thane | Website Development | Impulse Digital" />
         <meta name="twitter:description" content="Looking for a top website design and development company in thane to create the website suited for your brand image. Our website design and development services do not just focus on a play of words and pictures, rather, we aim at creating an online persona effectively that entices the users to click more and enables them to understand your brand better." />
         <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-        <meta name="twitter:url" content="https://www.theimpulsedigital.com/website-development" />
+        <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/website-development" />
    </Helmet>
     <section
       className="relative w-full lg:h-screen sm:h-screen lg:min-h-[700px] sm:min-h-[500px] rounded-t-[55px] overflow-hidden"
