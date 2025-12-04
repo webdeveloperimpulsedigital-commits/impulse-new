@@ -48,6 +48,8 @@ import { AutomagIndiaCaseStudy } from "./screens/AutomagIndiaCaseStudy";
 import { VideoProductionServices } from "./screens/VideoProductionServices";
 import { AIVideoProductionServices } from "./screens/AIVideoProductionServices";
 import { IntelliPulseServices } from "./screens/IntelliPulseServices";
+import { ElectromechCaseStudy } from "./screens/ElectromechCaseStudy";
+import { HemCasestudy } from "./screens/HemCasestudy";
 
 
 
@@ -88,6 +90,8 @@ export const App = (): JSX.Element => {
       <Route path="/casestudies/crafting-the-employer-value-proposition-for-amazon-india" element={<CraftingAmazonIndiaCaseStudy />} />
       <Route path="/casestudies/atrac-engine-parts" element={<AtracEnginePartsCaseStudy />} />
       <Route path="/casestudies/amazon-eb" element={<AmazonEBCaseStudy />} />
+      <Route path="/casestudies/electromech" element={<ElectromechCaseStudy />}/>
+      <Route path="/casestudies/hem/" element={<HemCasestudy/>}/>
 
       <Route path="/resources" element={<Resources/>}/>
 
