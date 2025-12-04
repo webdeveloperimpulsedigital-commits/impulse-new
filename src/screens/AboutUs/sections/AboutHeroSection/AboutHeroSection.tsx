@@ -73,7 +73,7 @@ export const AboutHeroSection = (): JSX.Element => {
             Home
           </NavLink>
           <span className="select-none">{">"}</span>
-          <span className="text-white">About Us</span>
+          <span className="text-white">About Ussss</span>
         </nav>
       </div>
     </section>
