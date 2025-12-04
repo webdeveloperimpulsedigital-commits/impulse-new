@@ -91,7 +91,7 @@ export const App = (): JSX.Element => {
       <Route path="/casestudies/atrac-engine-parts" element={<AtracEnginePartsCaseStudy />} />
       <Route path="/casestudies/amazon-eb" element={<AmazonEBCaseStudy />} />
       <Route path="/casestudies/electromech" element={<ElectromechCaseStudy />}/>
-      <Route path="/casestudies/hem/" element={<HemCasestudy/>}/>
+      <Route path="/casestudies/hem" element={<HemCasestudy/>}/>
 
       <Route path="/resources" element={<Resources/>}/>
 
