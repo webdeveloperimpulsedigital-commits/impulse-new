@@ -13,53 +13,54 @@ export const ProcessSection = (): JSX.Element => {
   const processSteps: ProcessStep[] = [
   {
     id: 1,
-    title: "High-quality Research",
+    title: "Concept & Script Development",
     description:
-      "We start by identifying your industry competitors and learning everything about them to contrast them with you.",
+      "We understand your vision, goals, and audience to craft a narrative that communicates with impact.",
     expandedContent:
-      "We dig in on what’s working, what’s not, areas where you have an upper hand, and areas where you can improve.",
+      "We dive deep into your brand story and objectives to create a compelling script that resonates with your target audience.",
   },
   {
     id: 2,
-    title: "Trend-focused Content Ideas",
+    title: "Pre-Production Planning",
     description:
-      "Post identifying relevant data, keywords, and trends, our team sits and brainstorms content ideas.",
+      "Shot lists, talent, locations, props, equipment, and schedules - everything is planned with precision.",
     expandedContent:
-      "We make sure they are trendy yet actionable to ensure the content reflects the latest industry standards and drives your audience to take the next step.",
+      "Every detail is accounted for before the shoot: locations scouted, actors/talent selected, props & equipment arranged, and shooting schedules finalized.",
   },
   {
     id: 3,
-    title: "Content Writing-driven Topics",
+    title: "Production (Shoot Day)",
     description:
-      "We have all the ideas, what’s next. We put them into content buckets that are relevant for you.",
+      "Our team executes the storyboard with professional direction, lighting, audio, and high-end filming setups.",
     expandedContent:
-      "The buckets are carefully created to resonate with your audience’s pain points and interests.",
+      "On shoot day, we capture footage efficiently while maintaining cinematic quality, adhering to the storyboard and production plan.",
   },
   {
     id: 4,
-    title: "Strategic Content Creation",
+    title: "Editing & Post-Production",
     description:
-      "Then begins the process of drafting pieces, taking care of multiple aspects such as SEO, keyword insertion, and storytelling.",
+      "We bring the film to life with clean editing, colour grading, sound design, motion graphics, and finishing touches.",
     expandedContent:
-      "We craft content designed to drive traffic, engagement, and conversions - where creativity and purpose come together to create a message that truly connects with your audience.",
+      "Our editors combine visual storytelling, effects, and sound design to ensure the final video is polished, engaging, and aligned with your brand vision.",
   },
   {
     id: 5,
-    title: "Understanding Target Audience",
+    title: "Review & Refinement",
     description:
-      "Writing for the audience begins with understanding what the audience wants to learn and hear.",
+      "You receive drafts for feedback - and we refine until it fits your vision perfectly.",
     expandedContent:
-      "When we study your target audience, we study their search behavior, preferences, needs, and language to create personalized content that connects on a deeper level and encourages action.",
+      "We collaborate with you on revisions, making adjustments until the final video perfectly communicates your story and meets your expectations.",
   },
   {
     id: 6,
-    title: "Powerful Storytelling",
+    title: "Delivery & Platform Optimisation",
     description:
-      "A brand without a story is a business - we help you transform from a business to a brand that your audience recognizes and recalls.",
+      "Final videos are delivered in multiple formats optimised for social, digital, and offline use.",
     expandedContent:
-      "We humanize your content because humans talk to humans - strategically sharing the founder’s story, the brand’s journey, and day-to-day events to stir emotions and strike conversations.",
+      "We ensure your video is ready for all platforms, optimizing resolution, aspect ratios, and formats for maximum impact and engagement.",
   },
 ];
+
 
 
   return (

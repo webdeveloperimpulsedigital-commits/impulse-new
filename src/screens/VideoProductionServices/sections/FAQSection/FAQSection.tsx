@@ -6,42 +6,39 @@ type QA = { q: string; a: string };
 
 const DEFAULT_QA: QA[] = [
   {
-    q: "What does a content writing agency like Impulse Digital do beyond writing?",
-    a: "As a full-service content writing agency, we go beyond copy creation to build a complete content ecosystem for your brand. We translate business goals into a focused strategy, combining research, audience analysis, SEO alignment, and messaging consistency. Every piece of content we deliver from blogs to landing pages is designed to inform, engage, and convert. Our content writing services are built to deliver measurable business impact, not just words."
+    q: "What types of videos can you produce?",
+    a: "We cover brand films, corporate videos, product demos, ads, testimonials, explainers, animations, event videos, and more.",
   },
   {
-    q: "How do you ensure that our content performs well on search engines?",
-    a: "As an experienced content writing company, we begin with keyword and topic research mapped to buyer intent. Each piece is structured with a clear hierarchy, optimized metadata, internal links, and image alt text. Our content writing services include SEO audits and performance tracking through analytics tools to ensure visibility and continuous improvement."
+    q: "Do you handle the entire production?",
+    a: "Yes. From scripting to shooting, editing, and delivery, we manage everything end-to-end.",
   },
   {
-    q: "What content formats and channels do you cover?",
-    a: "Our content writing agency creates diverse formats including blogs, website copy, landing pages, infographics, video scripts, white papers, and product descriptions. We also craft eCommerce listings, Amazon content, and corporate communication pieces. Each deliverable is aligned with your funnel stage and marketing objective ensuring maximum relevance and engagement."
+    q: "How long does production usually take?",
+    a: "Based on complexity:\n• Simple videos: 3-5 days\n• Corporate/product films: 1-3 weeks\n• Large-scale productions: 3-6 weeks",
   },
   {
-    q: "What is included in website content creation with your content writing services?",
-    a: "As part of our website content writing services, we define your page goals, tone of voice, and messaging hierarchy. We create persuasive, SEO-friendly copy that blends storytelling with performance. Deliverables include on-page text, microcopy, and CTAs developed in coordination with design and web teams for a cohesive experience."
+    q: "Can you shoot at our office or location?",
+    a: "Absolutely. We shoot at your premises, studios, outdoor locations, or any site as required.",
   },
   {
-    q: "How do you measure content success?",
-    a: "Our content writing company sets measurable KPIs for every engagement, including visibility, engagement, conversion rate, and assisted leads. We track data in real-time dashboards and share periodic reports. This data-driven approach ensures our content writing services continuously evolve to meet performance goals."
+    q: "Do you offer short-form video editing?",
+    a: "Yes, we specialise in reels, shorts, and platform-specific versions.",
   },
   {
-    q: "What is your process from brief to publication?",
-    a: "Our structured workflow covers discovery, research, ideation, drafting, editing, optimization, and publishing. Every stage is backed by internal quality checks to maintain accuracy and tone. Post-launch, we monitor content performance and refine future strategies, a hallmark of our process-driven content writing agency."
+    q: "Do you provide scripts and concepts?",
+    a: "Yes, our creative team develops the script, storyboard, and visual direction based on your goals.",
   },
   {
-    q: "Can you adapt to our brand voice and compliance requirements?",
-    a: "Yes. Our team ensures that every deliverable reflects your brand personality and complies with industry standards. We study brand guidelines, tone of voice, and legal frameworks to maintain authenticity and precision, one of the key reasons brands trust our content writing company for long-term partnerships."
+    q: "Can you support ongoing video needs?",
+    a: "We offer monthly retainers and packages for brands needing regular video content.",
   },
   {
-    q: "Do you offer content design such as infographics and digital brochures?",
-    a: "Yes. We integrate content writing services with visual storytelling. Our writers and designers collaborate to create infographics, brochures, and presentations that combine clarity, creativity, and data storytelling ensuring every asset communicates effectively and looks professional."
+    q: "What formats will we receive?",
+    a: "We deliver optimised files in MP4, MOV, vertical (9:16), square (1:1), and landscape (16:9) formats.",
   },
-  {
-    q: "How quickly can we get started, and what are the usual timelines?",
-    a: "Once the project scope is confirmed, onboarding begins immediately. Smaller deliverables like blogs or pages are typically delivered within one to two weeks. Larger projects such as websites, campaigns, or white papers follow a phased schedule with shared milestones. As a reliable content writing agency, we keep clients informed at every stage."
-  }
 ];
+
 
 export const FAQSection: React.FC<{ items?: QA[] }> = ({ items = DEFAULT_QA }) => {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
@@ -87,7 +84,7 @@ export const FAQSection: React.FC<{ items?: QA[] }> = ({ items = DEFAULT_QA }) =
           <div className="faq__cardInner">
             <div className="faq__bubble" aria-hidden>
               <center>
-                <img alt="Messages Icon" src="/impulse-website/messages.png" />
+                <img alt="Messages Icon" src="/messages.png" />
               </center>
             </div>
 
@@ -106,7 +103,7 @@ export const FAQSection: React.FC<{ items?: QA[] }> = ({ items = DEFAULT_QA }) =
                           Hit a Direct Mail
                         </a>
                         <img
-                          src="/impulse-website/button-icon.svg"
+                          src="/button-icon.svg"
                           alt="Arrow"
                           className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert-0 group-hover:invert pointer-events-none"
                         />
