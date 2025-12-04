@@ -5406,6 +5406,9 @@ padding-bottom: 6rem;
         margin-top: -15.9% !important;
         margin-bottom: -3% !important;
 }
+#contact-border-sec-two{
+  margin-bottom: 4rem;
+}
 }
 
 @media (min-width: 768px) {
@@ -6028,13 +6031,16 @@ padding-bottom: 6rem;
   z-index: 99;
  }
 
- #contact-border-sec{
+ #contact-border-sec-two{
   border-top-right-radius: 55px;
   border-top-left-radius: 55px;
   position: relative;
   margin-top: -4.5%;
   z-index: 99;
- }
+  border-bottom-left-radius: 55px;
+  border-bottom-right-radius: 55px;
+  padding-bottom: 3.5rem;
+}
 
  #ser-cont-border-sec
  {
