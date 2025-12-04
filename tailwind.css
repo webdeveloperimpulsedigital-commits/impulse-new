@@ -5406,7 +5406,7 @@ padding-bottom: 6rem;
         margin-top: -15.9% !important;
         margin-bottom: -3% !important;
 }
-#contact-border-sec{
+#contact-border-sec-two{
   margin-bottom: 4rem;
 }
 }
@@ -6031,7 +6031,7 @@ padding-bottom: 6rem;
   z-index: 99;
  }
 
- #contact-border-sec{
+ #contact-border-sec-two{
   border-top-right-radius: 55px;
   border-top-left-radius: 55px;
   position: relative;
