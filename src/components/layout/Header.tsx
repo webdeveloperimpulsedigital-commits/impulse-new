@@ -31,19 +31,21 @@ type HeaderProps = {
 
 const DEFAULT_ITEMS: NavItem[] = [
   { label: "Home", href: "/" },
-  // { label: "About Us", href: "/about-us" },
+  { label: "About Us", href: "/about-us" },
   {
     label: "Services",
     href: "/services",
     hasDropdown: true,
     dropdownItems: [
       { label: "Content Writing ", href: "/services/content-writing-services" },
+      { label: "Performance Marketing (PPC)", href: "/services/performance-marketing" },
       { label: "Social Media Marketing", href: "/services/social-media-marketing" },
       {
         label: "Search Engine Optimization",
         href: "/services/search-engine-optimization",
         hasSubDropdown: true,
         subItems: [
+          { label: "AI Seo" , href: "/services/search-engine-optimization/ai-seo-agency"},
           { label: "Enterprise SEO ", href: "/services/search-engine-optimization/enterprise-seo-services" },
           { label: "eCommerce SEO ", href: "/services/search-engine-optimization/ecommerce-seo-services" },
           { label: "B2B SEO", href: "/services/search-engine-optimization/b2b-seo-services" },
@@ -53,23 +55,39 @@ const DEFAULT_ITEMS: NavItem[] = [
       { label: "Website Development", href: "/services/website-development" },
       { label: "Branding Creative", href: "/services/branding-creative-services" },
       { label: "Employee Branding", href: "/services/employee-branding-agency" },
+      // { label: "Corporate Communication", href: "/services/corporate-communication-agency" },
       { label: "Social Media Video Production", href: "/services/social-media-video-production" },
-      { label: "Performance Marketing (PPC)", href: "/services/performance-marketing" },
+      { label: " Agentic AI", href: "/services/agentic-ai"},
+      {label: "Intelli Pulse", href: "/services/intelli-pulse"},
+      {label: "AI Video Production", href: "/services/ai-video-production"},
+      {label: "Video Production", href: "/services/video-production"},
     ],
   },
-  { label: "Case Studies", href: "/casestudies" },
-  { label: "Blog", href: "/blog/" },
+  { label: "Case Studies", href: "/casestudies",
+     hasDropdown: true,
+    dropdownItems: [
+      { label: "Shree Rubber Works ", href: "/casestudies/shree-rubber-works" },
+      { label: "Atrac", href: "/casestudies/atrac-engine-parts" },
+      { label: "Automag India", href: "/casestudies/automag-india" },
+      { label: "Amazone Employer Branding", href: "/casestudies/amazon-eb" },
+      { label: "Amazone Employee Value Proposition", href: "/casestudies/crafting-the-employer-value-proposition-for-amazon-india" },
+      { label: "Grasim Pulp and Fibre", href: "/casestudies/grasim-pulp-and-fibre" },
+    ]
+  },
+  { label: "Blog", href: "#" },
+  // { label: "Resouces", href: "/resources"},
+
   {
     label: "Resouces",
-    href: "#",
+    href: "/resources",
     hasDropdown: true,
     dropdownItems: [
       { label: "EBooks", href: "/resources/EBooks/" },
       { label: "Videos", href: "/resources/videos/" },
       { label: "Slideshare PPT", href: "/resources/Slideshare-PPT/" }
     ]
-  },
-  // { label: "Career", href: "/career" },
+    },
+  { label: "Career", href: "/career" },
 ];
 
 export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
@@ -79,10 +97,7 @@ export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [openSubDropdown, setOpenSubDropdown] = useState<string | null>(null);
-
-  // mobile dropdowns
   const [openMobileDropdown, setOpenMobileDropdown] = useState<string | null>(null);
-  const [openMobileSubDropdown, setOpenMobileSubDropdown] = useState<string | null>(null);
 
   const navRef = useRef<HTMLDivElement | null>(null);
   const [headerH, setHeaderH] = useState<number>(0);
@@ -105,20 +120,23 @@ export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
 
-  // Close menus on route change
+  // Close menus on navigation AND force page to start at top
   useEffect(() => {
     setIsMobileMenuOpen(false);
     setOpenDropdown(null);
     setOpenMobileDropdown(null);
+
+    // 🔝 Ensure new route starts at top (instant jump; use "smooth" if you prefer)
     window.scrollTo({ top: 0, left: 0, behavior: "auto" });
   }, [location.pathname]);
 
+  // Active state helper
   const isActive = (href: string) => {
     if (href === "/") return location.pathname === "/";
     return location.pathname.startsWith(href);
   };
 
-  /* Hide/show navbar on scroll */
+  /* ▼▼▼ show/hide on scroll direction ▼▼▼ */
   const [showNav, setShowNav] = useState(true);
   const lastYRef = useRef<number>(0);
   const threshold = 6;
@@ -150,11 +168,13 @@ export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Keep nav visible while mobile menu is open
   useEffect(() => {
     if (isMobileMenuOpen) setShowNav(true);
   }, [isMobileMenuOpen]);
+  /* ▲▲▲ END ▲▲▲ */
 
-  /* Navbar styling */
+  // Sticky/fixed behavior
   const positionClasses = overlay ? "fixed top-4" : "fixed top-0";
   const headerBg = overlay
     ? "bg-[#020018]"
@@ -170,17 +190,16 @@ export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
         transform will-change-transform ${showNav ? "translate-y-0" : "-translate-y-full"}`}
       >
         <div className="flex w-full items-center justify-between pr-2">
-
           {/* Logo */}
           <Link to="/" className="inline-block">
             <img
               className="w-[100px] sm:w-[120px] sm:h-[90px] md:w-[148px] md:h-[82px] lg:w-[150px] object-contain pt-2 pl-8 pb-2"
               alt="Impulse Digital Logo"
-              src="/header-logo.png"
+              src="/impulse-website/header-logo.png"
             />
           </Link>
 
-          {/* Desktop Menu */}
+          {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center gap-8 xl:gap-12">
             {navigationItems.map((item) => (
               <div
@@ -195,9 +214,9 @@ export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
                 <div className="flex items-center gap-1 cursor-pointer">
                   <Link
                     to={item.href}
-                    className={`font-dm-sans text-white text-sm ${
-                      isActive(item.href) ? "font-bold" : "font-normal"
-                    } hover:text-gray-200`}
+                    className={`font-dm-sans text-white text-sm whitespace-nowrap hover:text-gray-200 transition-colors ${
+                      item.active || isActive(item.href) ? "font-bold" : "font-normal"
+                    }`}
                   >
                     {item.label}
                   </Link>
@@ -210,7 +229,6 @@ export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
                   )}
                 </div>
 
-                {/* Desktop Dropdown */}
                 {item.hasDropdown && openDropdown === item.label && (
                   <div className="absolute top-full left-0 w-56 bg-white shadow-lg rounded-lg py-2 z-50">
                     {item.dropdownItems?.map((dd) => (
@@ -229,14 +247,13 @@ export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
                           <span>{dd.label}</span>
                           {dd.hasSubDropdown && (
                             <ChevronDownIcon
-                              className={`w-3.5 h-3.5 text-gray-600 ${
-                                openSubDropdown === dd.label ? "rotate-180" : ""
+                              className={`w-3.5 h-3.5 text-gray-600 transition-transform duration-300 ${
+                                openSubDropdown === dd.label ? "rotate-180" : "rotate-0"
                               }`}
                             />
                           )}
                         </Link>
 
-                        {/* Desktop Sub-menu */}
                         {dd.hasSubDropdown && openSubDropdown === dd.label && (
                           <div className="absolute top-0 left-full w-56 bg-white shadow-lg rounded-lg py-2 z-50">
                             {dd.subItems?.map((sub) => (
@@ -261,15 +278,18 @@ export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
           {/* Desktop Contact Button */}
           <Button
             variant="outline"
-            className="w-[150px] h-[44px] group hidden sm:inline-flex items-center gap-2 px-4 py-5 bg-white rounded-xl hover:bg-[#543d98] hover:text-white text-[#543d98]"
+            className="w-[150px] h-[44px] group hidden sm:inline-flex items-center gap-2 px-4 py-5 bg-white rounded-xl hover:bg-[#543d98] hover:text-[#ffffff] text-[#543d98]"
           >
-            <Link to="/contact-us" className="font-bold text-sm md:text-base">
+            <Link
+              to="/contact-us"
+              className="[font-family:'DM_Sans',Helvetica] font-bold text-sm md:text-base"
+            >
               Contact Us
             </Link>
             <img
-              src="/vector-1-3.svg"
+              src="/impulse-website/vector-1-3.svg"
               alt="Arrow"
-              className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert"
+              className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert pointer-events-none"
             />
           </Button>
 
@@ -277,89 +297,52 @@ export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
           <button
             className="lg:hidden p-2 text-white"
             onClick={() => setIsMobileMenuOpen((v) => !v)}
+            aria-label="Toggle mobile menu"
           >
             {isMobileMenuOpen ? <XIcon className="w-6 h-6" /> : <MenuIcon className="w-6 h-6" />}
           </button>
         </div>
 
-        {/* MOBILE Navigation */}
+        {/* Mobile Navigation */}
         {isMobileMenuOpen && (
           <div className="absolute top-16 left-0 right-0 bg-[#543d98]/95 border-t border-white/20 lg:hidden z-50 mx-4 rounded-lg">
             <div className="flex flex-col px-4 py-6 space-y-4">
               {navigationItems.map((item) => (
                 <div key={item.label} className="flex flex-col">
-                  {/* Main mobile row */}
                   <div
                     className="flex items-center justify-between py-2 cursor-pointer"
                     onClick={() =>
-                      setOpenMobileDropdown(
-                        openMobileDropdown === item.label ? null : item.label
-                      )
+                      setOpenMobileDropdown(openMobileDropdown === item.label ? null : item.label)
                     }
                   >
                     <Link
                       to={item.href}
                       className={`font-dm-sans text-white text-base ${
-                        isActive(item.href) ? "font-bold" : "font-normal"
+                        item.active || isActive(item.href) ? "font-bold" : "font-normal"
                       }`}
                     >
                       {item.label}
                     </Link>
-
                     {item.hasDropdown && <ChevronDownIcon className="w-4 h-4 text-white" />}
                   </div>
 
-                  {/* Mobile dropdown */}
                   {item.hasDropdown && openMobileDropdown === item.label && (
                     <div className="ml-4 mt-2 flex flex-col gap-2">
                       {item.dropdownItems?.map((dd) => (
-                        <div key={dd.label} className="flex flex-col">
-                          {/* Submenu parent */}
-                          <div
-                            className="flex items-center justify-between py-2 cursor-pointer"
-                            onClick={() =>
-                              dd.hasSubDropdown
-                                ? setOpenMobileSubDropdown(
-                                    openMobileSubDropdown === dd.label ? null : dd.label
-                                  )
-                                : null
-                            }
-                          >
-                            <Link
-                              to={dd.href}
-                              className="font-dm-sans text-white text-sm"
-                            >
-                              {dd.label}
-                            </Link>
-
-                            {dd.hasSubDropdown && (
-                              <ChevronDownIcon className="w-4 h-4 text-white" />
-                            )}
-                          </div>
-
-                          {/* MOBILE SUB-MENU (SEO) */}
-                          {dd.hasSubDropdown &&
-                            openMobileSubDropdown === dd.label && (
-                              <div className="ml-6 mt-2 flex flex-col gap-2">
-                                {dd.subItems?.map((sub) => (
-                                  <Link
-                                    key={sub.label}
-                                    to={sub.href}
-                                    className="font-dm-sans text-white text-sm opacity-90"
-                                  >
-                                    {sub.label}
-                                  </Link>
-                                ))}
-                              </div>
-                            )}
-                        </div>
+                        <Link
+                          key={dd.label}
+                          to={dd.href}
+                          className="font-dm-sans text-white text-sm hover:text-gray-200"
+                        >
+                          {dd.label}
+                        </Link>
                       ))}
                     </div>
                   )}
                 </div>
               ))}
 
-              {/* Contact (Mobile) */}
+              {/* Button (Mobile) */}
               <Button
                 variant="outline"
                 className="w-120 group flex items-center gap-2 px-4 py-6 bg-white rounded-xl hover:bg-gray-100 text-[#543d98]"
@@ -368,9 +351,11 @@ export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
                   Contact Us
                 </Link>
                 <img
-                  src="/vector-1-3.svg"
+                  src="/impulse-website/vector-1-3.svg"
                   alt="Arrow"
-                  className="w-4 h-4 transition-transform"
+                  className="w-4 h-4 transition-transform duration-200 pointer-events-none
+                    [@media(hover:hover)]:group-hover:rotate-45
+                    [@media(hover:none)]:group-active:rotate-45"
                 />
               </Button>
             </div>
@@ -381,10 +366,32 @@ export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
       {!overlay && <div style={{ height: headerH }} />}
 
       <style>{`
+        w-30 {
+          width: 30% !important;
+          max-width: 30% !important;
+        }
         .contact-arrow {
           width: 16px;
           height: 16px;
           transition: transform 0.3s ease;
+          pointer-events: none;
+        }
+        .contact-btn:hover .contact-arrow {
+          transform: rotate(45deg);
+        }
+        .contact-arrow {
+          transition: transform 0.2s ease;
+          pointer-events: none;
+        }
+        @media (hover: hover) {
+          .group:hover .contact-arrow {
+            transform: rotate(45deg);
+          }
+        }
+        @media (hover: none) {
+          .group:active .contact-arrow {
+          transform: rotate(45deg);
+          }
         }
       `}</style>
     </>

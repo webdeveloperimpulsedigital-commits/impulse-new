@@ -21,7 +21,7 @@ import { AiAgenticServices } from "./screens/AiAgenticServices";
 
 import { Casestudies } from "./screens/Casestudies";
 import { ShreeRubberWorksCaseStudy } from "./screens/ShreeRubberWorksCaseStudy"
-import { ElectromechCaseStudy } from "./screens/ElectromechCaseStudy"
+
 
 import { Ebooks, Resources } from "./screens/Resources";
 import { SlideSharePPTS } from "./screens/Resources/SlideSharePPTS";
@@ -45,10 +45,9 @@ import { AtracEnginePartsCaseStudy } from "./screens/AtracEnginePartsCaseStudy";
 import { CraftingAmazonIndiaCaseStudy } from "./screens/CraftingAmazonIndiaCaseStudy"
 import { GrasimPulpandFibreCaseStudy } from "./screens/GrasimPulpandFibreCaseStudy";
 import { AutomagIndiaCaseStudy } from "./screens/AutomagIndiaCaseStudy";
-import { Thankyou } from "./screens/Thankyou";
-import { Privacypage } from "./screens/Privacypage";
-import { TermsAndConditions } from "./screens/TermsAndConditionsPage";
-import { HemCasestudy } from "./screens/HemCasestudy";
+import { VideoProductionServices } from "./screens/VideoProductionServices";
+import { AIVideoProductionServices } from "./screens/AIVideoProductionServices";
+import { IntelliPulseServices } from "./screens/IntelliPulseServices";
 
 
 
@@ -77,6 +76,11 @@ export const App = (): JSX.Element => {
       <Route path="/services/search-engine-optimization/ai-seo-agency" element={<AiSeoAgency />} />
        <Route path="/services/agentic-ai" element={<AiAgenticServices />} /> 
 
+      <Route path="/services/intelli-pulse" element={<IntelliPulseServices/>}/>
+      <Route path="/services/ai-video-production" element={<AIVideoProductionServices/>}/>
+       <Route path="/services/video-production" element={<VideoProductionServices />}/>
+
+
       <Route path="/casestudies" element={<Casestudies/>}/>
       <Route path="/casestudies/shree-rubber-works" element={<ShreeRubberWorksCaseStudy />} />
       <Route path="/casestudies/automag-india" element={<AutomagIndiaCaseStudy />} />
@@ -84,8 +88,6 @@ export const App = (): JSX.Element => {
       <Route path="/casestudies/crafting-the-employer-value-proposition-for-amazon-india" element={<CraftingAmazonIndiaCaseStudy />} />
       <Route path="/casestudies/atrac-engine-parts" element={<AtracEnginePartsCaseStudy />} />
       <Route path="/casestudies/amazon-eb" element={<AmazonEBCaseStudy />} />
-      <Route path="/casestudies/electromech" element={< ElectromechCaseStudy/>} />
-      <Route path="/casestudies/hem" element={< HemCasestudy/>}/>
 
       <Route path="/resources" element={<Resources/>}/>
 
@@ -110,10 +112,6 @@ export const App = (): JSX.Element => {
       <Route path="/digital-marketing-agency-in-navi-mumbai" element={<AgencyinNaviMumbai />} />
       <Route path="/digital-marketing-agency-in-pune" element={<AgencyinPune />} />
 
-      <Route path="/thank-you" element={<Thankyou />} />
-
-      <Route path="/privacy-policy" element={<Privacypage/>} />
-      <Route path="/terms-and-conditions" element={<TermsAndConditions/>} />
 
     </Routes>
   );
