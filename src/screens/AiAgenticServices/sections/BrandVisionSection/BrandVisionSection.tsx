@@ -2,13 +2,13 @@ import { useEffect, useRef, useState } from "react";
 
 export const BrandVisionSection = (): JSX.Element => {
   const overlayText =
-    "Making every word count, we write what moves minds and markets.";
+    "Empowering brands with intelligent automation, we build Agentic AI systems that think, act, and deliver real business impact.";
 
   // ================== COUNTERS ==================
   const [counters, setCounters] = useState({
-    first: 0, // 95%
-    second: 0, // 70%
-    third: 0, // 10,000+
+    first: 0,  // 92%
+    second: 0, // 3X
+    third: 0,  // 1,000+
   });
 
   const sectionRef = useRef<HTMLDivElement | null>(null);
@@ -57,22 +57,22 @@ export const BrandVisionSection = (): JSX.Element => {
         if (entry.isIntersecting && !hasAnimated.current) {
           hasAnimated.current = true;
 
-          // 1) 0 -> 95 (int)
-          await animateCounter(95, 1200, (v) =>
+          // 1) 0 -> 92 (%)
+          await animateCounter(92, 1200, (v) =>
             setCounters((c) => ({ ...c, first: v }))
           );
 
           await new Promise((r) => setTimeout(r, 100));
 
-          // 2) 0 -> 70 (int)
-          await animateCounter(70, 1000, (v) =>
+          // 2) 0 -> 3.0 (X, decimals)
+          await animateCounter(3, 1000, (v) =>
             setCounters((c) => ({ ...c, second: v }))
-          );
+          , { decimals: 1 });
 
           await new Promise((r) => setTimeout(r, 100));
 
-          // 3) 0 -> 10000 (int, with +)
-          await animateCounter(10000, 900, (v) =>
+          // 3) 0 -> 1000 (int)
+          await animateCounter(1000, 900, (v) =>
             setCounters((c) => ({ ...c, third: v }))
           );
         }
@@ -86,36 +86,6 @@ export const BrandVisionSection = (): JSX.Element => {
       if (rafId.current) cancelAnimationFrame(rafId.current);
     };
   }, []);
-
-  const steps = [
-    {
-      title: "Discovery and Research",
-      description:
-        "We begin by understanding your goals, audience, and tone, supported by keyword and market research to build performance-driven content",
-    },
-    {
-      title: "Strategy and Structure",
-      description:
-        "We define messaging, map it to funnel stages, and create a clear structure and tone aligned with your objectives",
-    },
-    {
-      title: "Creation and Optimization",
-      description:
-        "Our writers craft original, SEO optimized content that blends brand context, clarity, and engagement for maximum visibility",
-    },
-    {
-      title: "Review and Performance",
-      description:
-        "Every piece goes through editorial checks and client review, followed by tracking visibility, engagement, and conversions to improve future content.",
-    },
-  ];
-
-  const loopedSteps = [...steps, ...steps];
-
-  const mobileRows = steps.reduce<string[][]>((rows, _, i) => {
-    if (i % 2 === 0) rows.push(steps.slice(i, i + 2));
-    return rows as any;
-  }, [] as any);
 
   return (
     <section
@@ -163,39 +133,41 @@ export const BrandVisionSection = (): JSX.Element => {
           {/* STATS / COUNTERS */}
           <div className="lg:mt-[35%] lg:ml-[25%] mt-4 ml-[3%] mr-[3%] lg:col-span-7">
             <div className="relative h-[450px] lg:h-[400px] lg:w-[520px] sm:h-[500px]">
-              {/* 95% */}
+              
+              {/* 92% */}
               <div className="absolute top-6 left-0 text-center">
                 <h3 className="[font-family:'Space Grotesk', sans-serif] text-[#543d98] text-4xl lg:text-6xl font-black leading-none mb-2 transition-all">
                   {Math.round(counters.first)}%
-                  <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] text-[16px] leading-relaxed max-w-[250px] font-[400]">
-                    client satisfaction rate with the content delivered.
+                  <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] text-[16px] leading-relaxed max-w-[260px] font-[400] mt-2">
+                    client productivity improvement through AI-driven workflows and automation.
                   </p>
                 </h3>
               </div>
 
-              {/* 70% */}
+              {/* 3X */}
               <div className="absolute top-1/2 -translate-y-1/2 right-0 text-center mb-8">
                 <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] text-4xl lg:text-6xl font-black leading-none mb-2">
-                  {Math.round(counters.second)}%
-                  <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] text-[16px] leading-relaxed max-w-[250px] font-[400]">
-                    average increase in organic traffic for clients due to our SEO-optimized content.
+                  {counters.second.toFixed(1)}X
+                  <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] text-[16px] leading-relaxed max-w-[260px] font-[400] mt-2">
+                    faster task execution with custom agent systems built for marketing, sales, and operations.
                   </p>
                 </h3>
               </div>
 
-              {/* 10,000+ */}
+              {/* 1,000+ */}
               <div className="absolute bottom-6 left-0 text-center">
                 <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] text-4xl lg:text-6xl font-black leading-none mb-2">
                   {Math.round(counters.third).toLocaleString()}+
-                  <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] text-[16px] leading-relaxed max-w-[250px] font-[400]">
-                    successful content pieces published for clients across various industries.
+                  <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] text-[16px] leading-relaxed max-w-[260px] font-[400] mt-2">
+                    hours saved monthly for clients through intelligent AI automation.
                   </p>
                 </h3>
               </div>
+
             </div>
           </div>
 
-          {/* DESKTOP CENTER OVERLAY */}
+          {/* DESKTOP OVERLAY TEXT */}
           <div className="pointer-events-none absolute top-8 left-1/2 -translate-x-1/2 w-full max-w-[700px] px-4 hidden lg:block">
             <div className="pointer-events-auto bg-white rounded-2xl p-5 lg:p-6">
               <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] text-[35px] lg:text:[34px] sm:leading-[20px] lg:leading-[42px] text-left">
@@ -205,50 +177,13 @@ export const BrandVisionSection = (): JSX.Element => {
           </div>
         </div>
 
-        {/* Body copy */}
+        {/* Body Copy */}
         <div className="text-left mb-12">
           <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[12px] lg:text-[24px] text-[#030019]">
-            Your brand has a story, and we give it a voice that is hard to forget. From thought-leading blogs to crisp ad copy, we craft content that informs, inspires, and converts. Our writers understand tone, purpose, and audience intent, ensuring your message always lands right. At Impulse, we blend creativity with context so your brand speaks with clarity and confidence. Every piece of content is SEO-informed, emotionally intelligent, and tailored for performance. We make sure your words sound human yet strategic, helping your brand earn attention and trust. With Impulse, your words do not just fill space, they make an impact that lasts. 
+          Our Agentic AI offering equips your brand with intelligent digital agents that don’t just chat - they act. These agents are powered by a central intelligence engine connected to your CRM, APIs, data systems, and communication channels, giving them full context about leads, past interactions, funnel stages and campaign history. As a result, they can engage prospects across channels (WhatsApp, email, voice, social, SMS), respond intelligently in multiple languages, recall past conversations, handle objections, and even book appointments - all while preserving your brand’s tone and compliance requirements. Our Agentic AI becomes an always-on digital teammate that automates follow-ups, revives cold leads, nurtures prospects, and ensures no opportunity slips through the cracks - elevating productivity, improving conversions, and freeing your human team to focus on strategy and growth.
           </p>
         </div>
       </div>
-
-      {/* Hidden steps section (kept for structure) */}
-      <div className="hidden opacity-0 pointer-events-none">
-        <div className="absolute left-0 right-0 top-[35px] h-[2px] bg-[#EAEAEA] z-0" />
-        <div className="overflow-hidden">
-          <div className="steps-track flex gap-16 py-6 will-change-transform relative z-10">
-            {loopedSteps.map((s, i) => (
-              <div key={i} className="min-w-[260px] max-w-[300px] relative">
-                <div className="absolute top-[9px] left-0 w-2 h-2 rounded-full bg-[#6B04FD]" />
-                <div className="pt-10">
-                  <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-[20px] mb-1">
-                    {s.title}
-                  </h3>
-                  <p className="[font-family:'DM_Sans',Helvetica] text-[#666] text-[18px] leading-relaxed">
-                    {s.description}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      <style>{`
-        @keyframes scroll-rtl {
-          0% { transform: translateX(0%); }
-          100% { transform: translateX(-50%); }
-        }
-        .steps-track {
-          animation: scroll-rtl 24s linear infinite;
-        }
-        .steps-track:hover { animation-play-state: paused; }
-        @media (prefers-reduced-motion: reduce) {
-          .steps-track { animation: none; transform: translateX(0); }
-        }
-        .mb-14 { margin-bottom: 40px; }
-      `}</style>
     </section>
   );
 };

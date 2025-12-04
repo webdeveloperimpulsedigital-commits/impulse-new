@@ -2,20 +2,19 @@ import { useEffect, useRef, useState } from "react";
 
 export const BrandVisionSection = (): JSX.Element => {
   const overlayText =
-    "Making every word count, we write what moves minds and markets.";
+    "Intelli Pulse helps businesses unlock clarity from complexity through AI-powered insights, automation, and real-time intelligence.";
 
   // ================== COUNTERS ==================
   const [counters, setCounters] = useState({
-    first: 0, // 95%
-    second: 0, // 70%
-    third: 0, // 10,000+
+    first: 0, // 40%
+    second: 0, // 12+
+    third: 0, // 5X
   });
 
   const sectionRef = useRef<HTMLDivElement | null>(null);
   const hasAnimated = useRef(false);
   const rafId = useRef<number | null>(null);
 
-  // ---- Helper: animate a single counter with rAF + easing
   const animateCounter = (
     target: number,
     duration: number,
@@ -32,7 +31,7 @@ export const BrandVisionSection = (): JSX.Element => {
         let current = target * ease;
 
         if (decimals === 0) current = Math.floor(current);
-        if (decimals > 0) {
+        else {
           const factor = Math.pow(10, decimals);
           current = Math.round(current * factor) / factor;
         }
@@ -57,24 +56,24 @@ export const BrandVisionSection = (): JSX.Element => {
         if (entry.isIntersecting && !hasAnimated.current) {
           hasAnimated.current = true;
 
-          // 1) 0 -> 95 (int)
-          await animateCounter(95, 1200, (v) =>
+          // 1) 0 -> 40%
+          await animateCounter(40, 1000, (v) =>
             setCounters((c) => ({ ...c, first: v }))
           );
 
           await new Promise((r) => setTimeout(r, 100));
 
-          // 2) 0 -> 70 (int)
-          await animateCounter(70, 1000, (v) =>
+          // 2) 0 -> 12+
+          await animateCounter(12, 900, (v) =>
             setCounters((c) => ({ ...c, second: v }))
           );
 
           await new Promise((r) => setTimeout(r, 100));
 
-          // 3) 0 -> 10000 (int, with +)
-          await animateCounter(10000, 900, (v) =>
+          // 3) 0 -> 5X (1 decimal)
+          await animateCounter(5, 1000, (v) =>
             setCounters((c) => ({ ...c, third: v }))
-          );
+          , { decimals: 1 });
         }
       },
       { threshold: 0.4 }
@@ -87,36 +86,6 @@ export const BrandVisionSection = (): JSX.Element => {
     };
   }, []);
 
-  const steps = [
-    {
-      title: "Discovery and Research",
-      description:
-        "We begin by understanding your goals, audience, and tone, supported by keyword and market research to build performance-driven content",
-    },
-    {
-      title: "Strategy and Structure",
-      description:
-        "We define messaging, map it to funnel stages, and create a clear structure and tone aligned with your objectives",
-    },
-    {
-      title: "Creation and Optimization",
-      description:
-        "Our writers craft original, SEO optimized content that blends brand context, clarity, and engagement for maximum visibility",
-    },
-    {
-      title: "Review and Performance",
-      description:
-        "Every piece goes through editorial checks and client review, followed by tracking visibility, engagement, and conversions to improve future content.",
-    },
-  ];
-
-  const loopedSteps = [...steps, ...steps];
-
-  const mobileRows = steps.reduce<string[][]>((rows, _, i) => {
-    if (i % 2 === 0) rows.push(steps.slice(i, i + 2));
-    return rows as any;
-  }, [] as any);
-
   return (
     <section
       className="w-full bg-white lg:py-5 sm:py-8"
@@ -128,10 +97,10 @@ export const BrandVisionSection = (): JSX.Element => {
         {/* Title */}
         <div className="mb-6 lg:mb-8 pt-10">
           <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px] ">
-            Turn Brand Vision
+            Turn Raw Data
           </h2>
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-            Into Words That Convert
+            Into Intelligent Decisions With Intelli Pulse
           </h2>
         </div>
 
@@ -149,10 +118,7 @@ export const BrandVisionSection = (): JSX.Element => {
           </div>
 
           {/* MOBILE OVERLAY TEXT */}
-          <div
-            className="block lg:hidden -mt-8 px-2 mt-0"
-            style={{ marginTop: "-18%", zIndex: "999" }}
-          >
+          <div className="block lg:hidden -mt-8 px-2 mt-0" style={{ marginTop: "-18%", zIndex: "999" }}>
             <div className="bg-white rounded-2xl p-4 shadow-[0_10px_30px_rgba(0,0,0,0.08)]">
               <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium text-[20px] leading-[20px] text-left p-7">
                 {overlayText}
@@ -163,35 +129,37 @@ export const BrandVisionSection = (): JSX.Element => {
           {/* STATS / COUNTERS */}
           <div className="lg:mt-[35%] lg:ml-[25%] mt-4 ml-[3%] mr-[3%] lg:col-span-7">
             <div className="relative h-[450px] lg:h-[400px] lg:w-[520px] sm:h-[500px]">
-              {/* 95% */}
+              
+              {/* 40% */}
               <div className="absolute top-6 left-0 text-center">
                 <h3 className="[font-family:'Space Grotesk', sans-serif] text-[#543d98] text-4xl lg:text-6xl font-black leading-none mb-2 transition-all">
                   {Math.round(counters.first)}%
                   <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] text-[16px] leading-relaxed max-w-[250px] font-[400]">
-                    client satisfaction rate with the content delivered.
+                    improvement in decision-making efficiency with real-time insights.
                   </p>
                 </h3>
               </div>
 
-              {/* 70% */}
+              {/* 12+ */}
               <div className="absolute top-1/2 -translate-y-1/2 right-0 text-center mb-8">
                 <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] text-4xl lg:text-6xl font-black leading-none mb-2">
-                  {Math.round(counters.second)}%
+                  {Math.round(counters.second)}+
                   <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] text-[16px] leading-relaxed max-w-[250px] font-[400]">
-                    average increase in organic traffic for clients due to our SEO-optimized content.
+                    data streams integrated for every intelligence report.
                   </p>
                 </h3>
               </div>
 
-              {/* 10,000+ */}
+              {/* 5X */}
               <div className="absolute bottom-6 left-0 text-center">
                 <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] text-4xl lg:text-6xl font-black leading-none mb-2">
-                  {Math.round(counters.third).toLocaleString()}+
+                  {counters.third.toFixed(1)}X
                   <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] text-[16px] leading-relaxed max-w-[250px] font-[400]">
-                    successful content pieces published for clients across various industries.
+                    faster category analysis compared to traditional research workflows.
                   </p>
                 </h3>
               </div>
+
             </div>
           </div>
 
@@ -205,50 +173,13 @@ export const BrandVisionSection = (): JSX.Element => {
           </div>
         </div>
 
-        {/* Body copy */}
+        {/* Body text */}
         <div className="text-left mb-12">
           <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[12px] lg:text-[24px] text-[#030019]">
-            Your brand has a story, and we give it a voice that is hard to forget. From thought-leading blogs to crisp ad copy, we craft content that informs, inspires, and converts. Our writers understand tone, purpose, and audience intent, ensuring your message always lands right. At Impulse, we blend creativity with context so your brand speaks with clarity and confidence. Every piece of content is SEO-informed, emotionally intelligent, and tailored for performance. We make sure your words sound human yet strategic, helping your brand earn attention and trust. With Impulse, your words do not just fill space, they make an impact that lasts. 
+            Businesses generate more information than ever - but only the ones who use it intelligently stay ahead. Intelli Pulse helps you turn scattered data into real-time insights and automated workflows that improve clarity, accuracy, and decision-making across your entire organisation. Our AI-driven systems streamline repetitive tasks, reveal hidden patterns, and deliver the intelligence you need to act faster and smarter. No complexity. No clutter. Just clarity.
           </p>
         </div>
       </div>
-
-      {/* Hidden steps section (kept for structure) */}
-      <div className="hidden opacity-0 pointer-events-none">
-        <div className="absolute left-0 right-0 top-[35px] h-[2px] bg-[#EAEAEA] z-0" />
-        <div className="overflow-hidden">
-          <div className="steps-track flex gap-16 py-6 will-change-transform relative z-10">
-            {loopedSteps.map((s, i) => (
-              <div key={i} className="min-w-[260px] max-w-[300px] relative">
-                <div className="absolute top-[9px] left-0 w-2 h-2 rounded-full bg-[#6B04FD]" />
-                <div className="pt-10">
-                  <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-[20px] mb-1">
-                    {s.title}
-                  </h3>
-                  <p className="[font-family:'DM_Sans',Helvetica] text-[#666] text-[18px] leading-relaxed">
-                    {s.description}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      <style>{`
-        @keyframes scroll-rtl {
-          0% { transform: translateX(0%); }
-          100% { transform: translateX(-50%); }
-        }
-        .steps-track {
-          animation: scroll-rtl 24s linear infinite;
-        }
-        .steps-track:hover { animation-play-state: paused; }
-        @media (prefers-reduced-motion: reduce) {
-          .steps-track { animation: none; transform: translateX(0); }
-        }
-        .mb-14 { margin-bottom: 40px; }
-      `}</style>
     </section>
   );
 };

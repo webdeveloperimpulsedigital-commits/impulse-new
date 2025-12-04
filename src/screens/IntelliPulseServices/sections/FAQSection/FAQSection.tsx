@@ -6,42 +6,47 @@ type QA = { q: string; a: string };
 
 const DEFAULT_QA: QA[] = [
   {
-    q: "What does a content writing agency like Impulse Digital do beyond writing?",
-    a: "As a full-service content writing agency, we go beyond copy creation to build a complete content ecosystem for your brand. We translate business goals into a focused strategy, combining research, audience analysis, SEO alignment, and messaging consistency. Every piece of content we deliver from blogs to landing pages is designed to inform, engage, and convert. Our content writing services are built to deliver measurable business impact, not just words."
+    q: "What exactly is Intelli Pulse?",
+    a: "Intelli Pulse is Impulse Digital’s AI-driven social and market intelligence solution that unifies digital signals — conversations, reviews, search trends, and competitor activity — to deliver actionable insights and recommendations."
   },
   {
-    q: "How do you ensure that our content performs well on search engines?",
-    a: "As an experienced content writing company, we begin with keyword and topic research mapped to buyer intent. Each piece is structured with a clear hierarchy, optimized metadata, internal links, and image alt text. Our content writing services include SEO audits and performance tracking through analytics tools to ensure visibility and continuous improvement."
+    q: "How does Intelli Pulse collect and analyse data?",
+    a: "It gathers information from multiple sources such as social media, eCommerce reviews, search data, community discussions, and competitor communication. AI frameworks then process this data to decode trends, sentiment, triggers, and opportunities."
   },
   {
-    q: "What content formats and channels do you cover?",
-    a: "Our content writing agency creates diverse formats including blogs, website copy, landing pages, infographics, video scripts, white papers, and product descriptions. We also craft eCommerce listings, Amazon content, and corporate communication pieces. Each deliverable is aligned with your funnel stage and marketing objective ensuring maximum relevance and engagement."
+    q: "Can Intelli Pulse work for small and mid-sized businesses?",
+    a: "Yes. Intelli Pulse is modular and scalable, making it suitable for startups, growing brands, and large enterprises. We customise the intelligence framework based on your category and business goals."
   },
   {
-    q: "What is included in website content creation with your content writing services?",
-    a: "As part of our website content writing services, we define your page goals, tone of voice, and messaging hierarchy. We create persuasive, SEO-friendly copy that blends storytelling with performance. Deliverables include on-page text, microcopy, and CTAs developed in coordination with design and web teams for a cohesive experience."
+    q: "Do we need a technical team to use Intelli Pulse?",
+    a: "No. We deliver insights in clear dashboards, reports, and summaries that are easy to interpret. Our team manages all technical complexity at the backend so you can focus on decisions."
   },
   {
-    q: "How do you measure content success?",
-    a: "Our content writing company sets measurable KPIs for every engagement, including visibility, engagement, conversion rate, and assisted leads. We track data in real-time dashboards and share periodic reports. This data-driven approach ensures our content writing services continuously evolve to meet performance goals."
+    q: "What kind of insights can Intelli Pulse provide?",
+    a: "It uncovers emerging trends, consumer attitudes, sentiment shifts, purchase triggers, barriers, competitor narratives, influencer effectiveness, and category opportunities — all directly mapped to business actions."
   },
   {
-    q: "What is your process from brief to publication?",
-    a: "Our structured workflow covers discovery, research, ideation, drafting, editing, optimization, and publishing. Every stage is backed by internal quality checks to maintain accuracy and tone. Post-launch, we monitor content performance and refine future strategies, a hallmark of our process-driven content writing agency."
+    q: "How frequently do we receive insights or reports?",
+    a: "You can choose project-based, monthly, quarterly, or always-on models. We offer dashboards, real-time alerts, deep-dive studies, and scheduled reports depending on your need and cadence."
   },
   {
-    q: "Can you adapt to our brand voice and compliance requirements?",
-    a: "Yes. Our team ensures that every deliverable reflects your brand personality and complies with industry standards. We study brand guidelines, tone of voice, and legal frameworks to maintain authenticity and precision, one of the key reasons brands trust our content writing company for long-term partnerships."
+    q: "Does Intelli Pulse integrate with our existing tools?",
+    a: "Yes. We export insights, dashboards, and datasets in formats like CSV, Excel, and PDF, and support integrations as per your existing ecosystem requirements."
   },
   {
-    q: "Do you offer content design such as infographics and digital brochures?",
-    a: "Yes. We integrate content writing services with visual storytelling. Our writers and designers collaborate to create infographics, brochures, and presentations that combine clarity, creativity, and data storytelling ensuring every asset communicates effectively and looks professional."
+    q: "Is the data collection process compliant and secure?",
+    a: "Absolutely. Intelli Pulse uses GDPR-compliant systems, ethical data listening practices, and secure pipelines to ensure privacy, safety, and complete confidentiality."
   },
   {
-    q: "How quickly can we get started, and what are the usual timelines?",
-    a: "Once the project scope is confirmed, onboarding begins immediately. Smaller deliverables like blogs or pages are typically delivered within one to two weeks. Larger projects such as websites, campaigns, or white papers follow a phased schedule with shared milestones. As a reliable content writing agency, we keep clients informed at every stage."
+    q: "Can Intelli Pulse help with campaign and influencer evaluation?",
+    a: "Yes. It measures campaign resonance, sentiment before and after activation, engagement quality, influencer relevance, and total impact — ensuring smarter future optimisation."
+  },
+  {
+    q: "How long does a typical Intelli Pulse project take?",
+    a: "Timelines vary based on depth and scope. Rapid studies can be completed in a few days, while deeper category or U&A studies take 2–4 weeks. Always-on monitoring continues throughout the engagement."
   }
 ];
+
 
 export const FAQSection: React.FC<{ items?: QA[] }> = ({ items = DEFAULT_QA }) => {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
@@ -87,7 +92,7 @@ export const FAQSection: React.FC<{ items?: QA[] }> = ({ items = DEFAULT_QA }) =
           <div className="faq__cardInner">
             <div className="faq__bubble" aria-hidden>
               <center>
-                <img alt="Messages Icon" src="/impulse-website/messages.png" />
+                <img alt="Messages Icon" src="/messages.png" />
               </center>
             </div>
 
@@ -106,7 +111,7 @@ export const FAQSection: React.FC<{ items?: QA[] }> = ({ items = DEFAULT_QA }) =
                           Hit a Direct Mail
                         </a>
                         <img
-                          src="/impulse-website/button-icon.svg"
+                          src="/button-icon.svg"
                           alt="Arrow"
                           className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert-0 group-hover:invert pointer-events-none"
                         />

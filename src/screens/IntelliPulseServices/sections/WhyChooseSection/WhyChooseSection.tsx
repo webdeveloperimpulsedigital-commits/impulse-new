@@ -8,164 +8,152 @@ export const WhyChooseSection = (): JSX.Element => {
       data-section="why-choose"
     >
       <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
-        {/* Header */}
-        
 
-
-        
-
-
+        {/* Heading */}
         <div className="mb-6 lg:mb-8 pt-0">
           <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px] ">
-             Our Two 
+            Why Choose Impulse Digital for Intelli Pulse
           </h2>
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-             Cents on Marketing
-                       </h2>
+            Insight That Moves Business Forward
+          </h2>
         </div>
- 
-        {/* ===== MOBILE-ONLY: Image → Content pairs in required mapping ===== */}
+
+        {/* ===== MOBILE VIEW ===== */}
         <div className="block lg:hidden space-y-10">
-          {/* 1) Optimized Writing */}
+          
+          {/* 1 */}
           <div>
             <div className="relative overflow-hidden rounded-[24px] shadow-lg mb-4">
               <img
                 src="/impulse-website/why-choose-1.png"
-                alt="Creative workspace content writing"
+                alt="AI-driven intelligence"
                 className="w-full h-[320px] sm:h-[400px] object-cover transition-transform duration-300 hover:scale-[1.03]"
                 loading="lazy"
               />
             </div>
             <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-2">
-              Content Writing Optimized Writing
+              AI-Driven Intelligence, Enhanced by Human Insight
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              Optimized content is more than just inserting keywords. It’s
-              about understanding your audience’s intent and creating content
-              that resonates with their needs and level of understanding.
+              We blend advanced AI analytics with expert strategists to deliver
+              intelligence that is sharp, contextual, and immediately actionable.
             </p>
           </div>
- 
-          {/* 2) Versatile Writing Styles */}
+
+          {/* 2 */}
           <div>
             <div className="relative overflow-hidden rounded-[24px] shadow-lg mb-4">
               <img
                 src="/impulse-website/why-choose-2.jpg"
-                alt="Laptop with content writing screen"
+                alt="Complete market visibility"
                 className="w-full h-[320px] sm:h-[400px] object-cover transition-transform duration-300 hover:scale-[1.03]"
                 loading="lazy"
               />
             </div>
             <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-2">
-              Versatile Writing Styles
+              Complete Market Visibility from Every Digital Signal
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              Every business or brand has a distinct voice. It needs to align
-              with your values, strike a chord with your audience, and reflect
-              your personality. Our content writing adapts to your voice
-              seamlessly.
+              We unify search trends, social conversations, and e-commerce signals
+              to reveal true consumer behaviour and category shifts.
             </p>
           </div>
- 
-          {/* 3) Tailored Content Strategy */}
+
+          {/* 3 */}
           <div>
             <div className="relative overflow-hidden rounded-[28px] shadow-lg mb-4">
               <img
                 src="/impulse-website/content-full-width-img.jpg"
-                alt="Content strategy workspace"
+                alt="Insights that convert into fast action"
                 className="w-full h-[320px] sm:h-[400px] object-cover transition-transform duration-300 hover:scale-[1.03]"
                 loading="lazy"
               />
             </div>
             <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-2">
-              Tailored Content Strategy
+              Insights That Convert Into Fast, Strategic Action
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              You’ve written the best piece of content great! What’s next? With
-              the right channel, timing, and format, it performs. Our strategy
-              makes sure it does.
+              Every analysis ends with execution-ready recommendations so your teams
+              don’t just receive data — they gain direction that accelerates growth.
             </p>
           </div>
         </div>
- 
-        {/* ===== DESKTOP-ONLY: Original layout preserved exactly ===== */}
+        {/* ===== END MOBILE ===== */}
+
+        {/* ===== DESKTOP VIEW ===== */}
         <div className="hidden lg:block">
-          {/* Main Grid */}
+
+          {/* Block 1 & 2 */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-8 lg:mb-10 items-start">
-            {/* Left Column */}
+
+            {/* Left */}
             <div className="lg:col-span-6 flex flex-col">
-              {/* Image 1 */}
               <div className="relative overflow-hidden rounded-[24px] shadow-lg mb-4">
                 <img
                   src="/impulse-website/why-choose-1.png"
-                  alt="Laptop with content writing screen"
+                  alt="AI-driven intelligence"
                   className="w-full h-[630px] object-cover transition-transform duration-300 hover:scale-[1.03]"
                   loading="lazy"
                 />
-              </div><br></br>
-              {/* Content 1 */}
+              </div><br />
               <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-2xl mb-2 pt-16">
-                Versatile Writing Styles
+                Complete Market Visibility from Every Digital Signal
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed mb-0">
-                Every business or brand has a distinct voice. It needs to align
-                with your values, strike a chord with your audience, and reflect
-                your personality. Our content writing adapts to your voice
-                seamlessly.
+                From search to social and everything in-between — we decode the signals
+                that truly shape consumer decisions.
               </p>
             </div>
- 
-            {/* Right Column */}
+
+            {/* Right */}
             <div className="lg:col-span-6 flex flex-col">
               <div className="pr-2 mb-8 mt-12 pb-16">
                 <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-2xl mb-2">
-                  Content Writing Optimized Writing
+                  AI-Driven Intelligence, Enhanced by Human Insight
                 </h3>
                 <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed max-w-[620px]">
-                  Optimized content is more than just inserting keywords. It’s
-                  about understanding your audience’s intent and creating content
-                  that resonates with their needs and level of understanding.
+                  Advanced AI finds patterns. Human experts turn them into insight. The
+                  perfect blend for precision decision-making.
                 </p>
               </div>
- 
+
               <div className="relative overflow-hidden rounded-[24px] shadow-lg">
                 <img
                   src="/impulse-website/why-choose-2.jpg"
-                  alt="Creative workspace content writing"
+                  alt="Complete market visibility"
                   className="w-full h-[630px] object-cover transition-transform duration-300 hover:scale-[1.03]"
                   loading="lazy"
                 />
               </div>
             </div>
           </div>
- 
-          {/* Full-width banner + copy below */}
+
+          {/* Block 3 */}
           <div>
             <div className="relative overflow-hidden rounded-[28px] shadow-lg">
               <img
                 src="/impulse-website/content-full-width-img.jpg"
-                alt="Content strategy workspace"
+                alt="Insights that convert into fast action"
                 className="w-full h-[510px] object-cover transition-transform duration-300 hover:scale-[1.03]"
                 loading="lazy"
               />
             </div>
- 
+
             <div className="mt-6 max-w-12xl">
               <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-2xl mb-2">
-                Tailored Content Strategy
+                Insights That Convert Into Fast, Strategic Action
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-                You’ve written the best piece of content great! What’s next? With
-                the right channel, timing, and format, it performs. Our strategy
-                makes sure it does.
+                We go beyond charts and dashboards — delivering clear recommendations
+                that unlock smarter, faster growth.
               </p>
             </div>
           </div>
         </div>
-        {/* ===== /DESKTOP-ONLY ===== */}
+        {/* ===== END DESKTOP ===== */}
+
       </div>
     </section>
   );
 };
- 
- 

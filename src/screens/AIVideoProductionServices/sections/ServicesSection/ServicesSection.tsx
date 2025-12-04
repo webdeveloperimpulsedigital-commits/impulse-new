@@ -23,88 +23,73 @@ const ServicesSection = () => {
   // 👉 added state for dots
   const [slide, setSlide] = useState(0);
 
-  const data = [
-    {
-      n: "01",
-      title: "eCommerce Content Writing",
-      points: [
-        "eCommerce success equals persuasive, user-focused writing, amongst many other things. Our content writing services include creating product descriptions, category pages, and brand stories everything optimized and backed up by research and storytelling not for mere clicks but actual conversions. We help your online store rank higher and attract the right audience with content that speaks to their needs.",
-      ],
-      img: "/impulse-website/Ecommerce.jpg",
-    },
-    {
-      n: "02",
-      title: "Blogs",
-      points: [
-        "Too many words and yet no clear message? That’s something we have never experienced before because every word we write is well-researched and SEO-friendly. Whether it is industry insights or how-to guides, we are known for crafting content that educates, inspires, and boosts search engine rankings–all at once.",
-      ],
-      img: "/impulse-website/Blog.jpg",
-    },
-    {
-      n: "03",
-      title: "Website Content Creation",
-      points: [
-        "Your website is the face of your brand online, and if readers aren’t sticking along for long, there’s something wrong. It could be your messaging. Our website content writing services ensure that every copy is clear, persuasive, SEO-optimized, and actionable, tailored to your brand voice.",
-      ],
-      img: "/impulse-website/Website content.jpg",
-    },
-    {
-      n: "04",
-      title: "Videos",
-      points: [
-        "Videos are the future of information consumption, and a compelling script is the only way to make them work. Our content writing services strike the right balance between audience-focused, educative, entertaining, and engaging. With storytelling expertise and strategic keyword integration, we ensure your videos rank well and resonate with viewers.",
-      ],
-      img: "/impulse-website/Video.jpg",
-    },
-    {
-      n: "05",
-      title: "Landing Page Content",
-      points: [
-        "Landing pages are designed to focus your audience’s attention on specific results like lead generation and product promotion. We make sure every landing page we create is highly optimized for conversions, down to every last element and detail. Let our content writing agency take your audience through a journey from introduction to action.",
-      ],
-      img: "/impulse-website/Landing Page.jpg",
-    },
-    {
-      n: "06",
-      title: "White Paper Creation & Design",
-      points: [
-        "A white paper is your chance to show what you’ve really got—expertise, experience, and insights. Our content writing company combines in-depth research and fact-checking with persuasive writing to create white papers that build trust, develop authority, and talk business. Paired with sleek, custom designs, these white papers convey complex information effectively. Hello, new leads!",
-      ],
-      img: "/impulse-website/WHite Paper.jpg",
-    },
-    {
-      n: "07",
-      title: "Corporate Communication",
-      points: [
-        "Do you know where most businesses go wrong? They become professionally robotic in their communication. We take care of all your communication email, press releases, internal newsletters, and more to create professional yet engaging copy that resonates with your employees, stakeholders, and customers alike. ",
-      ],
-      img: "/impulse-website/Corporate Communication.jpg",
-    },
-    {
-      n: "08",
-      title: "Digital Brochure Creation",
-      points: [
-        "When everything is online, why should brochures be offline? They’re your chance to showcase your brand’s USP and offerings. With expertise in strategic layout, crafting compelling copy, and visually striking designs, our digital brochures are nothing short of your brand coming to life, quite literally.",
-      ],
-      img: "/impulse-website/Digital Brochure.jpg",
-    },
-    {
-      n: "09",
-      title: "Amazon Content Writing",
-      points: [
-        "One platform, a million buyers, and a million products where are you? Our content writing agency specializes in crafting keyword-optimized product descriptions, titles, and bullet points tailored to please Amazon’s algorithms. Trust us to highlight your product’s unique features in a way that makes the buyers click ‘Add to cart’ almost immediately. ",
-      ],
-      img: "/impulse-website/Amazon Contet writing.jpg",
-    },
-    {
-      n: "10",
-      title: "Infographic Creation and Design",
-      points: [
-        "Infographics can get confusing pretty quickly. They demand an eye for detail, simplicity, and accuracy to create graphics and pair them with compelling copy, one that captures attention and enhances information retention.",
-      ],
-      img: "/impulse-website/Infographic.jpg",
-    },
-  ];
+ const data = [
+  {
+    n: "01",
+    title: "AI-Generated Explainer Videos",
+    points: [
+      "Turn complex ideas into clear, beautifully rendered videos using AI-generated visuals, clean animations, and automated voice narration that makes learning seamless and engaging."
+    ],
+    img: "/impulse-website/AI-Explainer.jpg",
+  },
+  {
+    n: "02",
+    title: "Avatar Video Creation",
+    points: [
+      "Use realistic AI avatars for product walkthroughs, announcements, training modules, and multilingual adaptations - no camera crew required, high-quality results every time."
+    ],
+    img: "/impulse-website/Avatar-Video.jpg",
+  },
+  {
+    n: "03",
+    title: "Script-to-Video Automation",
+    points: [
+      "Convert your text, blog, or script into a complete video with visuals, transitions, voiceover, and subtitles - automatically generated within minutes."
+    ],
+    img: "/impulse-website/Script-To-Video.jpg",
+  },
+  {
+    n: "04",
+    title: "AI Voiceovers & Dubbing",
+    points: [
+      "Create natural-sounding voiceovers in multiple languages, tones, and styles - perfect for localisation, marketing, and international audiences."
+    ],
+    img: "/impulse-website/AI-Voiceover.jpg",
+  },
+  {
+    n: "05",
+    title: "AI-Powered Editing & Enhancement",
+    points: [
+      "Automated color correction, smart cuts, background removal, upscaling, sound enhancement, and motion graphics - professionally refined in minutes."
+    ],
+    img: "/impulse-website/AI-Editing.jpg",
+  },
+  {
+    n: "06",
+    title: "Personalised Video Messaging",
+    points: [
+      "Generate customised videos at scale for sales, onboarding, marketing automation, and customer engagement - powered by AI personalisation."
+    ],
+    img: "/impulse-website/Personalised-Video.jpg",
+  },
+  {
+    n: "07",
+    title: "Short-Form AI Videos (Reels, Shorts, Ads)",
+    points: [
+      "High-retention vertical edits created using AI-powered editing tools - designed for fast-paced platforms like Instagram & YouTube Shorts."
+    ],
+    img: "/impulse-website/Short-Form-Video.jpg",
+  },
+  {
+    n: "08",
+    title: "Training & Corporate AI Videos",
+    points: [
+      "Create consistent, clear videos for onboarding, SOPs, HR messaging, product understanding, and internal communication - scalable and accurate."
+    ],
+    img: "/impulse-website/Corporate-Training.jpg",
+  },
+];
+
 
   // Desktop: active sticky card
   useEffect(() => {
@@ -307,11 +292,11 @@ const ServicesSection = () => {
             <div className="mx-auto relative">
               <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
                 <span className="text-[#ffffffb2]  lg:text-[34px] sm:text-[16px]">
-                  Content That Clicks
+                  Our AI Video 
 
                 </span>
                 <span className="font-bold text-[#ffffff] lg:text-[52px] md:text-[52px] sm:text-[26px]">
-                 Connects and Converts 
+                 Production Services  
                 </span>
               </h2>
             </div>

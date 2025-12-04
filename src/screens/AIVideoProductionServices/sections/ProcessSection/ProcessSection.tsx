@@ -10,56 +10,57 @@ interface ProcessStep {
 export const ProcessSection = (): JSX.Element => {
   const [hoveredStep, setHoveredStep] = useState<number | null>(null);
 
-  const processSteps: ProcessStep[] = [
+ const processSteps: ProcessStep[] = [
   {
     id: 1,
-    title: "High-quality Research",
+    title: "Understand Your Objective",
     description:
-      "We start by identifying your industry competitors and learning everything about them to contrast them with you.",
+      "We identify the purpose, audience, and desired output style for your video.",
     expandedContent:
-      "We dig in on what’s working, what’s not, areas where you have an upper hand, and areas where you can improve.",
+      "This step ensures that every video aligns perfectly with your goals and messaging requirements.",
   },
   {
     id: 2,
-    title: "Trend-focused Content Ideas",
+    title: "Develop Script & Story Flow",
     description:
-      "Post identifying relevant data, keywords, and trends, our team sits and brainstorms content ideas.",
+      "Our writers craft clear, crisp messaging optimised for AI-driven visuals and narration.",
     expandedContent:
-      "We make sure they are trendy yet actionable to ensure the content reflects the latest industry standards and drives your audience to take the next step.",
+      "We structure the content to maintain engagement, clarity, and brand alignment throughout the video.",
   },
   {
     id: 3,
-    title: "Content Writing-driven Topics",
+    title: "Generate Visuals, Avatars & Voiceovers",
     description:
-      "We have all the ideas, what’s next. We put them into content buckets that are relevant for you.",
+      "Using AI platforms, we create avatars, backgrounds, animations, or brand-aligned visuals.",
     expandedContent:
-      "The buckets are carefully created to resonate with your audience’s pain points and interests.",
+      "This step leverages AI technology to produce high-quality, engaging visual and audio elements efficiently.",
   },
   {
     id: 4,
-    title: "Strategic Content Creation",
+    title: "AI Editing & Enhancement",
     description:
-      "Then begins the process of drafting pieces, taking care of multiple aspects such as SEO, keyword insertion, and storytelling.",
+      "We refine scenes using automated tools for smooth cuts, colour grading, subtitles, and transitions.",
     expandedContent:
-      "We craft content designed to drive traffic, engagement, and conversions - where creativity and purpose come together to create a message that truly connects with your audience.",
+      "Automated editing ensures a polished, professional final video while maintaining consistent branding.",
   },
   {
     id: 5,
-    title: "Understanding Target Audience",
+    title: "Review & Refine",
     description:
-      "Writing for the audience begins with understanding what the audience wants to learn and hear.",
+      "You receive draft versions for feedback and revisions.",
     expandedContent:
-      "When we study your target audience, we study their search behavior, preferences, needs, and language to create personalized content that connects on a deeper level and encourages action.",
+      "This collaborative step allows you to fine-tune the video, ensuring it meets your expectations before final delivery.",
   },
   {
     id: 6,
-    title: "Powerful Storytelling",
+    title: "Final Delivery in All Formats",
     description:
-      "A brand without a story is a business - we help you transform from a business to a brand that your audience recognizes and recalls.",
+      "Videos are exported in multiple sizes and ratios optimised for your platforms.",
     expandedContent:
-      "We humanize your content because humans talk to humans - strategically sharing the founder’s story, the brand’s journey, and day-to-day events to stir emotions and strike conversations.",
+      "We provide final outputs in all required formats, ready to deploy across social media, websites, or presentations.",
   },
 ];
+
 
 
   return (

@@ -2,12 +2,12 @@ import { useEffect, useRef, useState } from "react";
 
 export const BrandVisionSection = (): JSX.Element => {
   const overlayText =
-    "Making every word count, we write what moves minds and markets.";
+    "Own your space in AI-powered discovery. Stay visible across every LLM, agent, and generative engine.";
 
   // ================== COUNTERS ==================
   const [counters, setCounters] = useState({
-    first: 0, // 95%
-    second: 0, // 70%
+    first: 0, // 3.4X
+    second: 0, // 92%
     third: 0, // 10,000+
   });
 
@@ -57,21 +57,24 @@ export const BrandVisionSection = (): JSX.Element => {
         if (entry.isIntersecting && !hasAnimated.current) {
           hasAnimated.current = true;
 
-          // 1) 0 -> 95 (int)
-          await animateCounter(95, 1200, (v) =>
-            setCounters((c) => ({ ...c, first: v }))
+          // 1) 0 -> 3.4 (1 decimal)
+          await animateCounter(
+            3.4,
+            1200,
+            (v) => setCounters((c) => ({ ...c, first: v })),
+            { decimals: 1 }
           );
 
           await new Promise((r) => setTimeout(r, 100));
 
-          // 2) 0 -> 70 (int)
-          await animateCounter(70, 1000, (v) =>
+          // 2) 0 -> 92 (int)
+          await animateCounter(92, 1000, (v) =>
             setCounters((c) => ({ ...c, second: v }))
           );
 
           await new Promise((r) => setTimeout(r, 100));
 
-          // 3) 0 -> 10000 (int, with +)
+          // 3) 0 -> 10000 (int)
           await animateCounter(10000, 900, (v) =>
             setCounters((c) => ({ ...c, third: v }))
           );
@@ -87,36 +90,6 @@ export const BrandVisionSection = (): JSX.Element => {
     };
   }, []);
 
-  const steps = [
-    {
-      title: "Discovery and Research",
-      description:
-        "We begin by understanding your goals, audience, and tone, supported by keyword and market research to build performance-driven content",
-    },
-    {
-      title: "Strategy and Structure",
-      description:
-        "We define messaging, map it to funnel stages, and create a clear structure and tone aligned with your objectives",
-    },
-    {
-      title: "Creation and Optimization",
-      description:
-        "Our writers craft original, SEO optimized content that blends brand context, clarity, and engagement for maximum visibility",
-    },
-    {
-      title: "Review and Performance",
-      description:
-        "Every piece goes through editorial checks and client review, followed by tracking visibility, engagement, and conversions to improve future content.",
-    },
-  ];
-
-  const loopedSteps = [...steps, ...steps];
-
-  const mobileRows = steps.reduce<string[][]>((rows, _, i) => {
-    if (i % 2 === 0) rows.push(steps.slice(i, i + 2));
-    return rows as any;
-  }, [] as any);
-
   return (
     <section
       className="w-full bg-white lg:py-5 sm:py-8"
@@ -128,10 +101,10 @@ export const BrandVisionSection = (): JSX.Element => {
         {/* Title */}
         <div className="mb-6 lg:mb-8 pt-10">
           <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px] ">
-            AI SEO 
+            AI SEO
           </h2>
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-            Agency Overview 
+            Agency Overview
           </h2>
         </div>
 
@@ -141,7 +114,7 @@ export const BrandVisionSection = (): JSX.Element => {
           <div className="lg:col-span-5 lg:w-[600px]">
             <div className="relative rounded-2xl overflow-hidden shadow-lg ">
               <img
-                src="/content-wrriting-service-about-us.jpg"
+                src="/ai-se-about.jpg"
                 alt="SEO workspace"
                 className="w-full sm:h-[400px] lg:h-[700px] object-cover"
               />
@@ -163,22 +136,22 @@ export const BrandVisionSection = (): JSX.Element => {
           {/* STATS / COUNTERS */}
           <div className="lg:mt-[35%] lg:ml-[25%] mt-4 ml-[3%] mr-[3%] lg:col-span-7">
             <div className="relative h-[450px] lg:h-[400px] lg:w-[520px] sm:h-[500px]">
-              {/* 95% */}
+              {/* 3.4X */}
               <div className="absolute top-6 left-0 text-center">
                 <h3 className="[font-family:'Space Grotesk', sans-serif] text-[#543d98] text-4xl lg:text-6xl font-black leading-none mb-2 transition-all">
-                  {Math.round(counters.first)}%
-                  <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] text-[16px] leading-relaxed max-w-[250px] font-[400]">
-                    client satisfaction rate with the content delivered.
+                  {counters.first.toFixed(1)}X
+                  <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] text-[16px] leading-relaxed max-w-[260px] font-[400] mt-2">
+                    growth in brand mentions within AI responses and generative search experiences.
                   </p>
                 </h3>
               </div>
 
-              {/* 70% */}
+              {/* 92% */}
               <div className="absolute top-1/2 -translate-y-1/2 right-0 text-center mb-8">
                 <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] text-4xl lg:text-6xl font-black leading-none mb-2">
                   {Math.round(counters.second)}%
-                  <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] text-[16px] leading-relaxed max-w-[250px] font-[400]">
-                    average increase in organic traffic for clients due to our SEO-optimized content.
+                  <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] text-[16px] leading-relaxed max-w-[260px] font-[400] mt-2">
+                    improvement in brand entity clarity across AI engines.
                   </p>
                 </h3>
               </div>
@@ -187,8 +160,8 @@ export const BrandVisionSection = (): JSX.Element => {
               <div className="absolute bottom-6 left-0 text-center">
                 <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] text-4xl lg:text-6xl font-black leading-none mb-2">
                   {Math.round(counters.third).toLocaleString()}+
-                  <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] text-[16px] leading-relaxed max-w-[250px] font-[400]">
-                    successful content pieces published for clients across various industries.
+                  <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] text-[16px] leading-relaxed max-w-[260px] font-[400] mt-2">
+                    AI-responsive metadata, schema, and content signals deployed for enhanced visibility.
                   </p>
                 </h3>
               </div>
@@ -208,30 +181,8 @@ export const BrandVisionSection = (): JSX.Element => {
         {/* Body copy */}
         <div className="text-left mb-12">
           <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[12px] lg:text-[24px] text-[#030019]">
-            Your brand has a story, and we give it a voice that is hard to forget. From thought-leading blogs to crisp ad copy, we craft content that informs, inspires, and converts. Our writers understand tone, purpose, and audience intent, ensuring your message always lands right. At Impulse, we blend creativity with context so your brand speaks with clarity and confidence. Every piece of content is SEO-informed, emotionally intelligent, and tailored for performance. We make sure your words sound human yet strategic, helping your brand earn attention and trust. With Impulse, your words do not just fill space, they make an impact that lasts. 
+            Your brand needs more than Google rankings - it needs visibility across the new world of AI search. At Impulse Digital, our AI SEO solutions are built to make your website appear inside AI answers, summaries, snippets, voice results, and generative platforms like ChatGPT, Gemini, Perplexity, and search generative experiences. We optimize your entire digital presence for how LLMs understand, interpret, and recommend brands - using entity optimization, structured data, GEO, AEO, and LLM-aligned content frameworks. Our approach strengthens your authority across AI ecosystems so that your brand becomes the preferred answer when users ask anything related to your business. With Impulse, you don’t just improve SEO - you future-proof your visibility in the age of AI-driven discovery.
           </p>
-        </div>
-      </div>
-
-      {/* Hidden steps section (kept for structure) */}
-      <div className="hidden opacity-0 pointer-events-none">
-        <div className="absolute left-0 right-0 top-[35px] h-[2px] bg-[#EAEAEA] z-0" />
-        <div className="overflow-hidden">
-          <div className="steps-track flex gap-16 py-6 will-change-transform relative z-10">
-            {loopedSteps.map((s, i) => (
-              <div key={i} className="min-w-[260px] max-w-[300px] relative">
-                <div className="absolute top-[9px] left-0 w-2 h-2 rounded-full bg-[#6B04FD]" />
-                <div className="pt-10">
-                  <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-[20px] mb-1">
-                    {s.title}
-                  </h3>
-                  <p className="[font-family:'DM_Sans',Helvetica] text-[#666] text-[18px] leading-relaxed">
-                    {s.description}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
 

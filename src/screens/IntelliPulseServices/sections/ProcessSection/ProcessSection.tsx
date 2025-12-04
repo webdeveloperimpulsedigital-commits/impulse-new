@@ -13,53 +13,54 @@ export const ProcessSection = (): JSX.Element => {
   const processSteps: ProcessStep[] = [
   {
     id: 1,
-    title: "High-quality Research",
+    title: "Understand & Define Objectives",
     description:
-      "We start by identifying your industry competitors and learning everything about them to contrast them with you.",
+      "We begin by understanding your category, audience, and business goals to map exactly what intelligence you need.",
     expandedContent:
-      "We dig in on what’s working, what’s not, areas where you have an upper hand, and areas where you can improve.",
+      "This ensures every insight gathered aligns with your strategic priorities - from messaging to product growth.",
   },
   {
     id: 2,
-    title: "Trend-focused Content Ideas",
+    title: "Capture & Unify Digital Signals",
     description:
-      "Post identifying relevant data, keywords, and trends, our team sits and brainstorms content ideas.",
+      "Intelli Pulse gathers conversations, reviews, search trends, and market data from multiple sources into one ecosystem.",
     expandedContent:
-      "We make sure they are trendy yet actionable to ensure the content reflects the latest industry standards and drives your audience to take the next step.",
+      "We eliminate fragmented data to reveal the full picture of consumer behaviour across platforms.",
   },
   {
     id: 3,
-    title: "Content Writing-driven Topics",
+    title: "Analyse Patterns, Motives & Market Shifts",
     description:
-      "We have all the ideas, what’s next. We put them into content buckets that are relevant for you.",
+      "Our AI models decode trends, sentiment, triggers, barriers, and emerging opportunities with clarity.",
     expandedContent:
-      "The buckets are carefully created to resonate with your audience’s pain points and interests.",
+      "We turn raw signals into structured meaning - tracking what’s changing and why it matters for your category.",
   },
   {
     id: 4,
-    title: "Strategic Content Creation",
+    title: "Build Insights & Strategic Recommendations",
     description:
-      "Then begins the process of drafting pieces, taking care of multiple aspects such as SEO, keyword insertion, and storytelling.",
+      "We translate intelligence into actionable insights you can apply across marketing, product, and business decisions.",
     expandedContent:
-      "We craft content designed to drive traffic, engagement, and conversions - where creativity and purpose come together to create a message that truly connects with your audience.",
+      "Every output is execution-ready - giving you clarity on what to do next and how it impacts growth.",
   },
   {
     id: 5,
-    title: "Understanding Target Audience",
+    title: "Deliver Dashboards, Reports & Alerts",
     description:
-      "Writing for the audience begins with understanding what the audience wants to learn and hear.",
+      "Real-time dashboards and automated reports keep your teams updated and empowered at all times.",
     expandedContent:
-      "When we study your target audience, we study their search behavior, preferences, needs, and language to create personalized content that connects on a deeper level and encourages action.",
+      "You get intelligence in the flow of work - with alerts for critical shifts and new opportunities.",
   },
   {
     id: 6,
-    title: "Powerful Storytelling",
+    title: "Continuous Monitoring & Refinement",
     description:
-      "A brand without a story is a business - we help you transform from a business to a brand that your audience recognizes and recalls.",
+      "With always-on tracking and periodic deep dives, Intelli Pulse evolves with your consumers and your market.",
     expandedContent:
-      "We humanize your content because humans talk to humans - strategically sharing the founder’s story, the brand’s journey, and day-to-day events to stir emotions and strike conversations.",
+      "This ensures your strategy stays aligned with changing behaviour, emerging competitors, and new category drivers.",
   },
 ];
+
 
 
   return (

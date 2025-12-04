@@ -64,15 +64,6 @@ const DEFAULT_ITEMS: NavItem[] = [
     ],
   },
   { label: "Case Studies", href: "/casestudies",
-     hasDropdown: true,
-    dropdownItems: [
-      { label: "Shree Rubber Works ", href: "/casestudies/shree-rubber-works" },
-      { label: "Atrac", href: "/casestudies/atrac-engine-parts" },
-      { label: "Automag India", href: "/casestudies/automag-india" },
-      { label: "Amazone Employer Branding", href: "/casestudies/amazon-eb" },
-      { label: "Amazone Employee Value Proposition", href: "/casestudies/crafting-the-employer-value-proposition-for-amazon-india" },
-      { label: "Grasim Pulp and Fibre", href: "/casestudies/grasim-pulp-and-fibre" },
-    ]
   },
   { label: "Blog", href: "#" },
   // { label: "Resouces", href: "/resources"},
@@ -82,9 +73,9 @@ const DEFAULT_ITEMS: NavItem[] = [
     href: "/resources",
     hasDropdown: true,
     dropdownItems: [
-      { label: "EBooks", href: "/resources/EBooks/" },
-      { label: "Videos", href: "/resources/videos/" },
-      { label: "Slideshare PPT", href: "/resources/Slideshare-PPT/" }
+      { label: "EBooks", href: "/resources/EBooks" },
+      { label: "Videos", href: "/resources/videos" },
+      { label: "Slideshare PPT", href: "/resources/Slideshare-PPT" }
     ]
     },
   // { label: "Career", href: "/career" },

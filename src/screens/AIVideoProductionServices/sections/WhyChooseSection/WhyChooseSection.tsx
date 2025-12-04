@@ -37,12 +37,10 @@ export const WhyChooseSection = (): JSX.Element => {
               />
             </div>
             <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-2">
-              Content Writing Optimized Writing
+              Human Creativity with AI Speed 
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              Optimized content is more than just inserting keywords. It’s
-              about understanding your audience’s intent and creating content
-              that resonates with their needs and level of understanding.
+              We combine strategic storytelling with powerful AI tools to produce videos that feel premium, polished, and brand-aligned. 
             </p>
           </div>
  
@@ -57,13 +55,10 @@ export const WhyChooseSection = (): JSX.Element => {
               />
             </div>
             <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-2">
-              Versatile Writing Styles
+              Cost-Effective & Faster Turnaround 
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              Every business or brand has a distinct voice. It needs to align
-              with your values, strike a chord with your audience, and reflect
-              your personality. Our content writing adapts to your voice
-              seamlessly.
+              AI eliminates heavy production costs - no shoots, crews, or complex logistics - resulting in quicker delivery and lower budgets. 
             </p>
           </div>
  
@@ -78,12 +73,10 @@ export const WhyChooseSection = (): JSX.Element => {
               />
             </div>
             <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-2">
-              Tailored Content Strategy
+              Multilingual & Global-Ready Content 
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              You’ve written the best piece of content great! What’s next? With
-              the right channel, timing, and format, it performs. Our strategy
-              makes sure it does.
+             Your videos can be instantly adapted into multiple languages with natural voiceovers and lip-synced avatars. 
             </p>
           </div>
         </div>
@@ -105,13 +98,10 @@ export const WhyChooseSection = (): JSX.Element => {
               </div><br></br>
               {/* Content 1 */}
               <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-2xl mb-2 pt-16">
-                Versatile Writing Styles
+                Cost-Effective & Faster Turnaround 
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed mb-0">
-                Every business or brand has a distinct voice. It needs to align
-                with your values, strike a chord with your audience, and reflect
-                your personality. Our content writing adapts to your voice
-                seamlessly.
+                AI eliminates heavy production costs - no shoots, crews, or complex logistics - resulting in quicker delivery and lower budgets. 
               </p>
             </div>
  
@@ -119,12 +109,10 @@ export const WhyChooseSection = (): JSX.Element => {
             <div className="lg:col-span-6 flex flex-col">
               <div className="pr-2 mb-8 mt-12 pb-16">
                 <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-2xl mb-2">
-                  Content Writing Optimized Writing
+                  Human Creativity with AI Speed 
                 </h3>
                 <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed max-w-[620px]">
-                  Optimized content is more than just inserting keywords. It’s
-                  about understanding your audience’s intent and creating content
-                  that resonates with their needs and level of understanding.
+                  We combine strategic storytelling with powerful AI tools to produce videos that feel premium, polished, and brand-aligned. 
                 </p>
               </div>
  
@@ -152,12 +140,10 @@ export const WhyChooseSection = (): JSX.Element => {
  
             <div className="mt-6 max-w-12xl">
               <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-2xl mb-2">
-                Tailored Content Strategy
+                Multilingual & Global-Ready Content 
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-                You’ve written the best piece of content great! What’s next? With
-                the right channel, timing, and format, it performs. Our strategy
-                makes sure it does.
+                Your videos can be instantly adapted into multiple languages with natural voiceovers and lip-synced avatars. 
               </p>
             </div>
           </div>
