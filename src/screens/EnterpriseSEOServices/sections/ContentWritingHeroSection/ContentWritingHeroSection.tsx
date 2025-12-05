@@ -4,9 +4,9 @@ import { Header } from "../../../../components/layout/Header";
 import { Helmet } from "react-helmet-async";
 
 export const ContentWritingHeroSection = (): JSX.Element => {
-  return (
-    <>
-    <Helmet> 
+return (
+<>
+<Helmet> 
 <meta name="description" content="Impulse Digital offers the best enterprise seo service backed by captivating content for your target audience. With decades of industry experience, we have a sterling track record of delivering unmatched enterprise seo services and results"/>
 <meta name="keywords" content="enterprise seo services, mumbai, india, impulse digital"/>
 <title>Best Enterprise SEO Service | Impulse Digital</title>
@@ -26,13 +26,11 @@ export const ContentWritingHeroSection = (): JSX.Element => {
 <meta name="twitter:site" content="@impulsedigi"/>
 <meta name="twitter:creator" content="@impulsedigi"/>
 <meta name="twitter:title" content="Best Enterprise SEO Service | Impulse Digital"/>
-          <meta name="twitter:description" content="Impulse Digital offers the best enterprise seo service backed by captivating content for your target audience. With decades of industry experience, we have a sterling track record of delivering unmatched enterprise seo services and results"/>
-          <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
-          <meta name="twitter:url" content="https://www.theimpulsedigital.com/enterprise-seo-service"/>
-
-
-     <link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/enterprise-seo-services"/>
-    </Helmet>
+<meta name="twitter:description" content="Impulse Digital offers the best enterprise seo service backed by captivating content for your target audience. With decades of industry experience, we have a sterling track record of delivering unmatched enterprise seo services and results"/>
+<meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
+<meta name="twitter:url" content="https://www.theimpulsedigital.com/enterprise-seo-service"/>
+<link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/enterprise-seo-services"/>
+</Helmet>
     
     <section
       className="relative w-full lg:h-screen sm:h-screen lg:min-h-[700px] sm:min-h-[500px] rounded-t-[55px] overflow-hidden"

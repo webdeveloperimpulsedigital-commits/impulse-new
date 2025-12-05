@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import { Button } from "../../../../components/ui/button";
-import { Link } from "react-router-dom";
 
 const css = `
 .case-studies-header {
@@ -184,9 +183,6 @@ const caseStudiesData = [
     corner: false,
     link: "/casestudies/shree-rubber-works",
   },
-
-
-
   {
     id: 5,
     title: "Automag India",
@@ -204,10 +200,7 @@ const caseStudiesData = [
     tall: false,
     corner: false,
     link: "/casestudies/atrac-engine-parts",
-  },
-
-
-  
+  },  
   {
     id: 7,
     title: "ElectroMech",
@@ -226,10 +219,60 @@ const caseStudiesData = [
     corner: true,
     link: "/casestudies/hem",
   },
-
-
-
-  
+  {
+    id: 9,
+    title: "Laljee Godhoo",
+    image: "/Grasim Pulp and fiber.jpg",
+    tags: ["Branding"],
+    tall: true,
+    corner: false,
+    link: "/casestudies/laljee-godhoo",
+  },
+  {
+    id: 10,
+    title: "Mastercard",
+    image: "/Shree Rubber factory.jpg",
+    tags: ["Creative"],
+    tall: false,
+    corner: false,
+    link: "/casestudies/mastercard",
+  },
+  {
+    id: 11,
+    title: "Dmart",
+    image: "/automag-casestudy.jpeg",
+    tags: ["Branding"],
+    tall: true,
+    corner: true,
+    link: "/casestudies/d-mart",
+  },
+  {
+    id: 12,
+    title: "Hul",
+    image: "/Atrac.jpg",
+    tags: ["Packaging"],
+    tall: false,
+    corner: false,
+    link: "/casestudies/hul",
+  },
+  {
+    id: 13,
+    title: "Keva",
+    image: "/electromech-case-study.png",
+    tags: ["Product Design"],
+    tall: false,
+    corner: false,
+    link: "/casestudies/keva",
+  },
+  {
+    id: 14,
+    title: "Vendiman",
+    image: "/19_HEM.jpg",
+    tags: ["Packaging"],
+    tall: false,
+    corner: true,
+    link: "/casestudies/vendiman",
+  }, 
 ];
 
 export const ServicesCatalogSection = (): JSX.Element => {
