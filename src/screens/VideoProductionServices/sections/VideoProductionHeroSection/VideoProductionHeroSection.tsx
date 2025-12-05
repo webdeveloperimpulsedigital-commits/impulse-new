@@ -45,7 +45,7 @@ export const VideoProductionHeroSection = (): JSX.Element => {
           playsInline
           preload="metadata"
           aria-hidden="true">
-          <source src="/impulse-website/bg-video.mp4" type="video/mp4" />
+          <source src="/bg-video.mp4" type="video/mp4" />
         </video>
 
         {/* Overlay layer for dark tint */}
@@ -61,7 +61,7 @@ export const VideoProductionHeroSection = (): JSX.Element => {
       {/* Hero Copy */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center pt-24 px-4">
         <h1 className="[font-family:'DM_Sans',Helvetica] font-black text-white text-[32px] sm:text-[40px] md:text-[48px] lg:text-[56px] xl:text-[64px] leading-[40px] tracking-tight mb-6">
-          CONTENT WRITING
+           VIDEO PRODUCTION
         </h1>
 
         {/* Breadcrumb */}
@@ -70,7 +70,7 @@ export const VideoProductionHeroSection = (): JSX.Element => {
             Home
           </NavLink>
           <span className="select-none">{">"}</span>
-          <span className="text-white">Content Writing</span>
+          <span className="text-white">Video Production</span>
         </nav>
       </div>
     </section>
