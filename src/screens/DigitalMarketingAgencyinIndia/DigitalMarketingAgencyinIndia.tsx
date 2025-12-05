@@ -11,7 +11,7 @@ import { ContactResourcesSection } from "../Main/sections/ContactResourcesSectio
 import { ResourcesTeaserSection } from "./sections/ResourcesSection/ResourcesSection";
 import { FAQSection } from "./sections/FAQSection/FAQSection";
 import { FooterSection } from "../Main/sections/FooterSection/FooterSection";
-
+ 
 export const DigitalMarketingAgencyinIndia = (): JSX.Element => {
   return (
     <main className="relative w-full min-h-screen">

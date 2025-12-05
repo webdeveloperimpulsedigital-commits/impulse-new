@@ -17,7 +17,7 @@ export const ResourcesTeaserSection: React.FC = () => {
         {/* Left: Image card */}
         <div className="resources-teaser__imageWrap">
           <img
-            src="rectangle-32.png" /* replace with your actual path */
+            src="/rectangle-32.png" /* replace with your actual path */
             alt="People collaborating over documents and a laptop"
             className="resources-teaser__image"
           />

@@ -97,7 +97,7 @@ export const FAQSection: React.FC<{ items?: QA[] }> = ({ items = DEFAULT_QA }) =
               <center>
                 <img
                   alt="Messages Icon"
-                  src="messages.png"
+                  src="/messages.png"
                 />
               </center>
             </div>
