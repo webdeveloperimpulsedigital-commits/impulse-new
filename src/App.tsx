@@ -50,6 +50,12 @@ import { AIVideoProductionServices } from "./screens/AIVideoProductionServices";
 import { IntelliPulseServices } from "./screens/IntelliPulseServices";
 import { ElectromechCaseStudy } from "./screens/ElectromechCaseStudy";
 import { HemCasestudy } from "./screens/HemCasestudy";
+import { LaljeeGodhooCaseStudy } from "./screens/LaljeeGodhooCaseStudy";
+import { MastercardCaseStudy } from "./screens/MastercardCaseStudy";
+import { DmartCasestudy } from "./screens/DmartCasestudy";
+import { HulCaseStudy } from "./screens/HulCaseStudy";
+import { KevaCaseStudy } from "./screens/KevaCaseStudy";
+import { VendimanCaseStudy } from "./screens/VendimanCaseStudy";
 
 
 
@@ -92,7 +98,15 @@ export const App = (): JSX.Element => {
       <Route path="/casestudies/amazon-eb" element={<AmazonEBCaseStudy />} />
       <Route path="/casestudies/electromech" element={<ElectromechCaseStudy />}/>
       <Route path="/casestudies/hem" element={<HemCasestudy/>}/>
+      <Route path="/casestudies/laljee-godhoo" element={<LaljeeGodhooCaseStudy/>}/>
+      <Route path="/casestudies/mastercard" element={<MastercardCaseStudy/>}/>
+      <Route path="/casestudies/d-mart" element={<DmartCasestudy/>}/>
+      <Route path="/casestudies/hul" element={<HulCaseStudy/>}/>
+      <Route path="/casestudies/keva" element={<KevaCaseStudy/>}/>
+      <Route path="/casestudies/vendiman" element={<VendimanCaseStudy/>}/>
 
+
+ 
       <Route path="/resources" element={<Resources/>}/>
 
       <Route path="/resources/EBooks" element={<Ebooks />} />

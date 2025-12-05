@@ -1,9 +1,36 @@
 // src/pages/services/content-writing/sections/ContentWritingHeroSection.tsx
 import { NavLink } from "react-router-dom";
 import { Header } from "../../../../components/layout/Header";
-
+import { Helmet } from "react-helmet-async";
 export const ContentWritingHeroSection = (): JSX.Element => {
   return (
+    <>
+    <Helmet> 
+    <meta name="description" content="Impulse Digital offers the best enterprise seo service backed by captivating content for your target audience. With decades of industry experience, we have a sterling track record of delivering unmatched enterprise seo services and results"/>
+    <meta name="keywords" content="enterprise seo services, mumbai, india, impulse digital"/>
+    <title>Best Enterprise SEO Service | Impulse Digital</title>
+    
+    <meta name="robots" content="index, follow"/>
+    <meta name="revisit-after" content="1 day"/>
+    <meta name="language" content="English"/>
+    <meta name="generator" content="N/A"/>
+    
+    <meta property="og:title" content="Best Enterprise SEO Service | Impulse Digital"/>
+    <meta property="og:description" content="Impulse Digital offers the best enterprise seo service backed by captivating content for your target audience. With decades of industry experience, we have a sterling track record of delivering unmatched enterprise seo services and results"/>
+    <meta property="og:url" content="https://www.theimpulsedigital.com/services/search-engine-optimization/enterprise-seo-services"/>
+    <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
+    <meta property="og:site_name" content="Impulse Digital"/>
+    <meta property="og:type" content="website"/>
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:site" content="@impulsedigi"/>
+    <meta name="twitter:creator" content="@impulsedigi"/>
+    <meta name="twitter:title" content="Best Enterprise SEO Service | Impulse Digital"/>
+    <meta name="twitter:description" content="Impulse Digital offers the best enterprise seo service backed by captivating content for your target audience. With decades of industry experience, we have a sterling track record of delivering unmatched enterprise seo services and results"/>
+    <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
+    <meta name="twitter:url" content="https://www.theimpulsedigital.com/enterprise-seo-service"/>
+    <link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/enterprise-seo-services"/>
+    </Helmet>
+   
     <section
       className="relative w-full lg:h-screen sm:h-screen lg:min-h-[700px] sm:min-h-[500px] rounded-t-[55px] overflow-hidden"
       data-section="content-writing-hero"
@@ -49,5 +76,6 @@ export const ContentWritingHeroSection = (): JSX.Element => {
         </nav>
       </div>
     </section>
+     </>
   );
 };

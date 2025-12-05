@@ -1,0 +1,1 @@
+export { MastercardCaseStudyHeroSection } from "./MastercardCaseStudyHeroSection";
