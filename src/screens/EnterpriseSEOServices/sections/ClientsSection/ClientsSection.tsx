@@ -117,7 +117,7 @@ export const ClientsSection = (): JSX.Element => {
       <style>{`
 
       .client-logo{
-      padding: 0rem;
+      padding: 0rem !important;
       }
         .wrap-clients {
           max-width: 100%;
