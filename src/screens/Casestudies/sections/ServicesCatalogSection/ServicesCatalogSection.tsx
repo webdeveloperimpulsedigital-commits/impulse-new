@@ -222,7 +222,7 @@ const caseStudiesData = [
   {
     id: 9,
     title: "Laljee Godhoo",
-    image: "/Grasim Pulp and fiber.jpg",
+    image: "/Laljee Godhoo.png",
     tags: ["Branding"],
     tall: true,
     corner: false,
@@ -231,7 +231,7 @@ const caseStudiesData = [
   {
     id: 10,
     title: "Mastercard",
-    image: "/Shree Rubber factory.jpg",
+    image: "/14_mastercard.jpg",
     tags: ["Creative"],
     tall: false,
     corner: false,
@@ -240,7 +240,7 @@ const caseStudiesData = [
   {
     id: 11,
     title: "Dmart",
-    image: "/automag-casestudy.jpeg",
+    image: "/15_Dmart.jpg",
     tags: ["Branding"],
     tall: true,
     corner: true,
@@ -249,7 +249,7 @@ const caseStudiesData = [
   {
     id: 12,
     title: "Hul",
-    image: "/Atrac.jpg",
+    image: "/16_Unilever.jpg",
     tags: ["Packaging"],
     tall: false,
     corner: false,
@@ -258,7 +258,7 @@ const caseStudiesData = [
   {
     id: 13,
     title: "Keva",
-    image: "/electromech-case-study.png",
+    image: "/Keva.png",
     tags: ["Product Design"],
     tall: false,
     corner: false,
@@ -267,7 +267,7 @@ const caseStudiesData = [
   {
     id: 14,
     title: "Vendiman",
-    image: "/19_HEM.jpg",
+    image: "/17_Vendiman.jpg",
     tags: ["Packaging"],
     tall: false,
     corner: true,

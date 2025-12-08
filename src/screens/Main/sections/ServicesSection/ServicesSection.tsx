@@ -4,7 +4,7 @@ import { Button } from "../../../../components/ui/button";
 
 const ServicesSection = () => {
   const services = [
-    "Employer Branding11",
+    "Employer Branding",
     "SEO",
     "Website Development",
     "Branding",
