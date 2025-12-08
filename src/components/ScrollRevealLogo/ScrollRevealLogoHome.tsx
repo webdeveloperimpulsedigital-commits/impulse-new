@@ -119,20 +119,21 @@ export const ScrollRevealLogoHome: React.FC<ScrollRevealLogoProps> = ({
             });
           } else if (sectionName === 'portfolio') {
             const size = isMobile ? '50px' : isTablet ? '70px' : '80px';
-            const top = sectionTop + (isMobile ? 80 : isTablet ? 120 : 50);
-            const right = isMobile ? 20 : isTablet ? 90 : Math.max(550, Math.floor(vw * 0.010));
-            
+             const top = sectionTop + (isMobile ? 130 : isTablet ? 260 : 280);
+            //const top = sectionTop + sectionHeight / 2.5;
+            //const left = '70%';
+            const left = isMobile ? 300 : isTablet ? 650 : Math.max(10, Math.floor(vw * 0.56));
             setLogoStyle({
               position: 'absolute',
               top: `${top}px`,
-              left: 'auto',
-              right: `${right}px`,
-              transform: 'none',
+              left: left,
+              right: 'auto',
+              transform: 'translateX(-50%)',
               filter: 'brightness(0)', // Black
               width: size,
               height: size,
               zIndex: 999,
-              transition: 'all 2s cubic-bezier(0.22, 1, 0.36, 1)',
+              transition: 'all 1.5s cubic-bezier(0.22, 1, 0.36, 1)',
             });
           } else if (sectionName === 'case-studies') {
             const size = isMobile ? '50px' : isTablet ? '70px' : '80px';
