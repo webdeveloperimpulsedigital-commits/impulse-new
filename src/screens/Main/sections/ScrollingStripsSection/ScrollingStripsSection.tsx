@@ -37,7 +37,7 @@ export const ScrollingStripsSection = (): JSX.Element => {
     { name: "croda", src: "https://www.theimpulsedigital.com/croda.jpg" },
     { name: "qure-ai", src: "https://www.theimpulsedigital.com/qure-ai.jpg" },
     { name: "aster", src: "https://www.theimpulsedigital.com/aster.jpg" },
-    { name: "automag", src: "https://www.theimpulsedigital.com/automag.jpg" },
+    { name: "automag", src: "https://www.theimpulsedigital.com/Automag.jpg" },
     { name: "datar", src: "https://www.theimpulsedigital.com/datar.jpg" },
     { name: "dts", src: "https://www.theimpulsedigital.com/dts.jpg" },
     { name: "emech", src: "https://www.theimpulsedigital.com/emech.jpg" },
