@@ -9,346 +9,314 @@ export const BrandVisionSection = (): JSX.Element => {
       data-section="brand-vision"
     >
       <div className="max-w-[1280px] mx-auto px-4 lg:px-8">
+
         {/* ================== HEADER ================== */}
         <div className="mb-10 lg:mb-14 pt-4">
           <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
-            SEO for HEM Incense
+            Mastercard – Digital Outreach Success Story
           </h2>
+
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight">
-            From Invisible to #1 on Google
+            Driving Merchant Adoption Through WhatsApp
           </h2>
+
           <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] lg:text-[17px] leading-relaxed max-w-[720px] mt-4">
-            See how we helped HEM Corporation transform its digital presence
-            with market-specific SEO, technical clean-up and website
-            restructuring—driving 300% more first-page rankings and 5× growth in
-            organic traffic across key markets.
+            See how Mastercard unlocked merchant activation by using community influence, 
+            cluster-head advocacy and direct WhatsApp engagement -achieving a 90.9% response rate 
+            and driving meaningful product inquiries.
           </p>
         </div>
 
         <div className="space-y-16 lg:space-y-20">
-          {/* ============== 1. ABOUT HEM INCENSE ============== */}
+
+          {/* ============== 1. ABOUT MASTERCARD ============== */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-            {/* Left: Visual */}
+
             <div className="lg:col-span-6">
               <div className="relative rounded-[28px] overflow-hidden shadow-lg bg-[#f3efff]">
                 <img
-                  src="/13_HEM.jpg"
-                  alt="HEM Incense product visual"
+                  src="/14_mastercard.jpg"
+                  alt="Mastercard product dashboard"
                   className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
-                  loading="lazy"
                 />
               </div>
             </div>
 
-            {/* Right: Copy */}
             <div className="lg:col-span-6">
               <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] font-bold text-[26px] md:text-[30px] mb-4">
-                About HEM Incense
+                About Mastercard
               </h3>
+
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
-                  <p className="text-[14px] font-semibold text-[#543d98] mb-1 [font-family:'DM_Sans',Helvetica]">
-                    Global Leader
+                  <p className="text-[14px] font-semibold text-[#543d98] mb-1">
+                    Global Payment Leader
                   </p>
-                  <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[14px] leading-relaxed">
-                    HEM Corporation is one of the world’s leading incense
-                    manufacturers, exporting to more than 70 countries and
-                    serving millions of customers worldwide.
+                  <p className="text-[14px] text-[#4B4B5C] leading-relaxed">
+                    Second-largest payment processor worldwide.
                   </p>
                 </div>
+
                 <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
-                  <p className="text-[14px] font-semibold text-[#543d98] mb-1 [font-family:'DM_Sans',Helvetica]">
-                    Three Decades of Excellence
+                  <p className="text-[14px] font-semibold text-[#543d98] mb-1">
+                    Core Business
                   </p>
-                  <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[14px] leading-relaxed">
-                    With 30+ years of experience and a reputation for quality
-                    and reliability, HEM is a heritage brand ready for
-                    next-gen digital growth.
+                  <p className="text-[14px] text-[#4B4B5C] leading-relaxed">
+                    Facilitating debit, credit and prepaid transactions between 
+                    merchant banks and card issuers. 
                   </p>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* ============== 2. IMPRESSIVE RESULTS DELIVERED ============== */}
+          {/* ============== 2. THE CHALLENGE ============== */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-            {/* Left: Copy */}
+
             <div className="lg:col-span-5 order-2 lg:order-1">
               <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] font-bold text-[26px] md:text-[30px] mb-3">
-                Impressive Results Delivered
+                The Challenge
               </h3>
-              <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed mb-5">
-                After restructuring the web presence and executing a focused SEO
-                roadmap, HEM jumped to the first page for core keywords and
-                unlocked sustained, qualified traffic.
-              </p>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-md">
-                <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
-                  <p className="text-[12px] text-[#7B7B8A] mb-1 [font-family:'DM_Sans',Helvetica]">
-                    First-Page Rankings
-                  </p>
-                  <p className="text-[#543d98] text-[26px] font-bold [font-family:'DM_Sans',Helvetica]">
-                    300%
-                  </p>
-                  <p className="text-[13px] text-[#4B4B5C]">
-                    Dramatic lift in search visibility across high-intent
-                    keywords.
-                  </p>
-                </div>
-                <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
-                  <p className="text-[12px] text-[#7B7B8A] mb-1 [font-family:'DM_Sans',Helvetica]">
-                    Organic Traffic Growth
-                  </p>
-                  <p className="text-[#543d98] text-[26px] font-bold [font-family:'DM_Sans',Helvetica]">
-                    5×
-                  </p>
-                  <p className="text-[13px] text-[#4B4B5C]">
-                    Exponential increase in relevant visitors and leads.
-                  </p>
-                </div>
-              </div>
+              <p className="text-[15px] md:text-[16px] text-[#4B4B5C] leading-relaxed">
+                Mastercard needed to increase sales of payment processing devices through digital 
+                channels -reaching merchants from grassroots to enterprise level.
+              </p>
             </div>
 
-            {/* Right: Visual */}
             <div className="lg:col-span-7 order-1 lg:order-2">
               <div className="rounded-[28px] overflow-hidden shadow-lg bg-[#f3efff]">
                 <img
-                  src="/hem-growht-seo.png"
-                  alt="SEO growth graph for HEM Incense"
+                  src="/Team reviewing performance dashboards in a meeting.png"
+                  alt="Business team reviewing growth charts"
                   className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
-                  loading="lazy"
                 />
               </div>
             </div>
           </div>
 
-          {/* ============== 3. THE CHALLENGE ============== */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-            {/* Left: Copy */}
-            <div className="lg:col-span-6">
-              <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] font-bold text-[26px] md:text-[30px] mb-3">
-                The Challenge: Declining Digital Presence
-              </h3>
-              <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed mb-5">
-                Despite strong offline brand recall and rising demand for
-                incense, HEM’s digital footprint was lagging. Technical issues
-                and a one-size-fits-all site held back visibility and traffic.
-              </p>
-
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
-                  <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                    Limited Market Reach
-                  </p>
-                  <p className="text-[13px] text-[#4B4B5C]">
-                    One site focused mainly on India, missing the USA and other
-                    high-value regions.
-                  </p>
-                </div>
-                <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
-                  <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                    Technical Issues
-                  </p>
-                  <p className="text-[13px] text-[#4B4B5C]">
-                    Complex structure, indexing problems and crawl inefficiency
-                    affecting rankings.
-                  </p>
-                </div>
-                <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
-                  <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                    Link Quality Problems
-                  </p>
-                  <p className="text-[13px] text-[#4B4B5C]">
-                    Weak authority and spammy backlinks hurting search
-                    credibility.
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            {/* Right: Visual */}
-            <div className="lg:col-span-6">
-              <div className="rounded-[28px] overflow-hidden shadow-lg bg-[#f3efff]">
-                <img
-                  src="/Marketer analysing declining traffic.png"
-                  alt="Marketer analysing declining traffic"
-                  className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
-                  loading="lazy"
-                />
-              </div>
-            </div>
-          </div>
-
-          {/* ============== 4. CORE PROBLEMS IDENTIFIED ============== */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-            <div className="lg:col-span-5">
-              <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] font-bold text-[24px] md:text-[28px] mb-3">
-                Core Problems Identified
-              </h3>
-              <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed">
-                A detailed audit revealed structural, geographic and tracking
-                issues that were masking true performance and limiting organic
-                growth.
-              </p>
-            </div>
-
-            <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-3 gap-4">
-              <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
-                <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                  Structural Complexity
-                </p>
-                <p className="text-[13px] text-[#4B4B5C]">
-                  Poorly organised website architecture created navigation and
-                  indexing challenges.
-                </p>
-              </div>
-              <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
-                <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                  Single Domain Limitation
-                </p>
-                <p className="text-[13px] text-[#4B4B5C]">
-                  One domain trying to serve all countries led to diluted
-                  targeting and mixed signals.
-                </p>
-              </div>
-              <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
-                <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                  Traffic Decline
-                </p>
-                <p className="text-[13px] text-[#4B4B5C]">
-                  Inaccurate and falling organic traffic numbers despite strong
-                  brand awareness.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* ============== 5. OUR STRATEGIC SEO APPROACH ============== */}
+          {/* ============== 3. STRATEGIC APPROACH ============== */}
           <div className="space-y-6">
-            <div className="max-w-[720px]">
-              <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] font-bold text-[26px] md:text-[30px] mb-3">
-                Our Strategic SEO Approach
-              </h3>
-              <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed">
-                We began by refining and optimising the HEM Incense ecosystem
-                with deep research, market-specific sites and technical
-                clean-up—built to scale across countries.
-              </p>
-            </div>
+
+            <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] font-bold text-[26px] md:text-[30px]">
+              Strategic Approach: A Four-Phase Process
+            </h3>
 
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
               <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
-                <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                  Research &amp; Analysis
-                </p>
+                <p className="font-semibold text-[#543d98] text-[14px] mb-2">01 -Objective Analysis</p>
                 <p className="text-[13px] text-[#4B4B5C]">
-                  Comprehensive competitor and market audit to understand demand
-                  patterns, category search behaviour and localisation needs.
+                  Reviewed brand goals and sales targets.
                 </p>
               </div>
+
               <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
-                <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                  Website Redesign
-                </p>
+                <p className="font-semibold text-[#543d98] text-[14px] mb-2">02 -Audience Definition</p>
                 <p className="text-[13px] text-[#4B4B5C]">
-                  Re-architected the India site and built a dedicated USA
-                  website from scratch for sharper positioning.
+                  Identified cluster heads as key merchant influencers.
                 </p>
               </div>
+
               <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
-                <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                  Multi-Country Websites
-                </p>
+                <p className="font-semibold text-[#543d98] text-[14px] mb-2">03 -Channel Selection</p>
                 <p className="text-[13px] text-[#4B4B5C]">
-                  Created separate country sites to enable targeted SEO
-                  strategies tailored to each market.
+                  WhatsApp chosen for its personal and trusted communication.
                 </p>
               </div>
+
               <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
-                <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                  Technical SEO Optimisation
-                </p>
+                <p className="font-semibold text-[#543d98] text-[14px] mb-2">04 -Content Creation</p>
                 <p className="text-[13px] text-[#4B4B5C]">
-                  Fixed crawl and indexing issues, cleaned up links, and
-                  standardised content for consistency and relevance.
+                  Custom video featuring real cluster-head testimonials.
                 </p>
               </div>
             </div>
           </div>
 
-          {/* ============== 6. REMARKABLE OUTCOMES ============== */}
-          <div className="space-y-6">
-            <div className="max-w-[720px]">
-              <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] font-bold text-[26px] md:text-[30px] mb-3">
-                Remarkable Outcomes
-              </h3>
-              <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed">
-                The combined impact of technical clean-up, content refinement
-                and market-specific websites was visible in both traffic and
-                business metrics.
-              </p>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
-                <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                  USA Website Success
-                </p>
-                <p className="text-[13px] text-[#4B4B5C]">
-                  300% increase in website traffic with first-page rankings
-                  driving qualified leads and intent-rich visitors.
-                </p>
-              </div>
-              <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
-                <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                  India Website Growth
-                </p>
-                <p className="text-[13px] text-[#4B4B5C]">
-                  Steady, relevant traffic for a newer site translated into
-                  healthy revenue outcomes.
-                </p>
-              </div>
-              <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
-                <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                  Enhanced Visibility
-                </p>
-                <p className="text-[13px] text-[#4B4B5C]">
-                  HEM moved to the first page for key markets and high-volume
-                  incense terms, securing a defensible search moat.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* ============== 7. SEO SUCCESS STORY CLOSE ============== */}
+          {/* ============== 4. COMMUNITY INSIGHT ============== */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
-            {/* Left: Visual */}
             <div className="lg:col-span-6">
               <div className="rounded-[28px] overflow-hidden shadow-lg bg-[#f3efff]">
                 <img
-                  src="/hem-success-story.png"
-                  alt="SEO success visual with growth arrow"
+                  src="/Cluster heads meeting merchants.png"
+                  alt="Cluster heads meeting merchants"
                   className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
-                  loading="lazy"
                 />
               </div>
             </div>
 
-            {/* Right: Copy */}
             <div className="lg:col-span-6">
               <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] font-bold text-[26px] md:text-[30px] mb-3">
-                SEO Success Story
+                Key Insight: Community Leaders Drive Influence
               </h3>
-              <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed">
-                Through strategic SEO implementation, market-specific website
-                development and technical optimisation, HEM Corporation
-                re-engineered its digital presence. The result: 300% more
-                first-page rankings and 5× growth in organic traffic—laying a
-                strong foundation for continued global expansion.
+
+              <p className="text-[15px] md:text-[16px] leading-relaxed text-[#4B4B5C] mb-4">
+                Instead of targeting individual merchants, Mastercard focused on cluster heads -
+                trusted community influencers who shape purchase decisions.
+              </p>
+
+              <p className="text-[14px] text-[#4B4B5C]">
+                Peer influence accelerates adoption better than traditional advertising, enabling 
+                quick, high-trust conversions.
               </p>
             </div>
           </div>
+
+          {/* ============== 5. EXECUTION VIA WHATSAPP ============== */}
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+
+            <div className="lg:col-span-5 order-2 lg:order-1">
+              <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] font-bold text-[26px] md:text-[30px] mb-3">
+                WhatsApp as the Game-Changer
+              </h3>
+
+              <div className="space-y-4">
+                <div>
+                  <p className="font-semibold text-[14px] text-[#543d98]">Video Content</p>
+                  <p className="text-[13px] text-[#4B4B5C]">
+                    Authentic testimonials from cluster heads explaining product benefits.
+                  </p>
+                </div>
+
+                <div>
+                  <p className="font-semibold text-[14px] text-[#543d98]">Direct Channel</p>
+                  <p className="text-[13px] text-[#4B4B5C]">
+                    Unique WhatsApp number enabled personalised conversations.
+                  </p>
+                </div>
+
+                <div>
+                  <p className="font-semibold text-[14px] text-[#543d98]">Real-Time Response</p>
+                  <p className="text-[13px] text-[#4B4B5C]">
+                    Dedicated executive monitored and responded instantly, reducing friction.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div className="lg:col-span-7 order-1 lg:order-2">
+              <div className="rounded-[28px] overflow-hidden shadow-lg bg-[#f3efff]">
+                <img
+                  src="/mastercard-whatsapp.png"
+                  alt="WhatsApp merchant engagement interface"
+                  className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
+                />
+              </div>
+            </div>
+          </div>
+
+          {/* ============== 6. WHY THE STRATEGY WORKED ============== */}
+          <div className="space-y-6 max-w-[900px]">
+            <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] font-bold text-[26px] md:text-[30px]">
+              Why This Strategy Worked
+            </h3>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
+                <p className="font-semibold text-[#543d98] text-[14px] mb-1">
+                  Trusted Messengers
+                </p>
+                <p className="text-[13px] text-[#4B4B5C]">
+                  Cluster heads provided authenticity, credibility and trust.
+                </p>
+              </div>
+
+              <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
+                <p className="font-semibold text-[#543d98] text-[14px] mb-1">
+                  Right Platform
+                </p>
+                <p className="text-[13px] text-[#4B4B5C]">
+                  WhatsApp ensured seamless communication merchants already use.
+                </p>
+              </div>
+
+              <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
+                <p className="font-semibold text-[#543d98] text-[14px] mb-1">
+                  Immediate Access
+                </p>
+                <p className="text-[13px] text-[#4B4B5C]">
+                  24/7 monitoring reduced drop-off and improved conversion.
+                </p>
+              </div>
+
+              <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
+                <p className="font-semibold text-[#543d98] text-[14px] mb-1">
+                  Clear Messaging
+                </p>
+                <p className="text-[13px] text-[#4B4B5C]">
+                  Video testimonials conveyed benefits quickly and persuasively.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* ============== 7. RESULTS ============== */}
+          <div className="space-y-6 max-w-[900px]">
+            <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] font-bold text-[26px] md:text-[30px]">
+              Impressive Results Achieved
+            </h3>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
+                <p className="text-[12px] text-[#7B7B8A] mb-1">Queries Received</p>
+                <p className="text-[#543d98] text-[26px] font-bold">101</p>
+                <p className="text-[13px] text-[#4B4B5C]">Strong merchant interest generated.</p>
+              </div>
+
+              <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
+                <p className="text-[12px] text-[#7B7B8A] mb-1">Response Rate</p>
+                <p className="text-[#543d98] text-[26px] font-bold">90.9%</p>
+                <p className="text-[13px] text-[#4B4B5C]">
+                  Exceptional engagement and high-intent queries.
+                </p>
+              </div>
+
+              <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
+                <p className="text-[12px] text-[#7B7B8A] mb-1">24/7 Monitoring</p>
+                <p className="text-[#543d98] text-[26px] font-bold">Continuous</p>
+                <p className="text-[13px] text-[#4B4B5C]">
+                  Real-time query management across merchants.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* ============== 8. KEY TAKEAWAYS ============== */}
+          <div className="space-y-6 max-w-[900px]">
+            <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] font-bold text-[26px] md:text-[30px]">
+              Key Takeaways
+            </h3>
+
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
+                <p className="font-semibold text-[#543d98] text-[14px] mb-1">
+                  Community Influence Drives Conversion
+                </p>
+                <p className="text-[13px] text-[#4B4B5C]">
+                  Leveraging community leaders amplifies trust and reach.
+                </p>
+              </div>
+
+              <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
+                <p className="font-semibold text-[#543d98] text-[14px] mb-1">
+                  WhatsApp Enables Personal Connection at Scale
+                </p>
+                <p className="text-[13px] text-[#4B4B5C]">
+                  Familiar platform + real-time responses = higher engagement.
+                </p>
+              </div>
+
+              <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
+                <p className="font-semibold text-[#543d98] text-[14px] mb-1">
+                  Video Content Resonates Strongly
+                </p>
+                <p className="text-[13px] text-[#4B4B5C]">
+                  Authentic testimonials outperform traditional marketing.
+                </p>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>

@@ -11,29 +11,30 @@ export const BrandVisionSection = (): JSX.Element => {
       <div className="max-w-[1280px] mx-auto px-4 lg:px-8">
         {/* ================== HEADER ================== */}
         <div className="mb-10 lg:mb-14 pt-4">
-          <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
-            SEO for HEM Incense
-          </h2>
+          {/* <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
+            Digital Growth for Keva Flavours
+          </h2> */}
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight">
-            From Invisible to #1 on Google
+            Transforming Flavour Innovation Into Market Leadership
           </h2>
           <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] lg:text-[17px] leading-relaxed max-w-[720px] mt-4">
-            See how we helped HEM Corporation transform its digital presence
-            with market-specific SEO, technical clean-up and website
-            restructuring—driving 300% more first-page rankings and 5× growth in
-            organic traffic across key markets.
+            See how strategic digital marketing elevated Keva Flavours from a
+            traditional supplier to a global industry powerhouse—with
+            multi-channel campaigns, website optimisation and precise targeting
+            driving 185% higher sales, 20× more verified leads and 400% social
+            media growth.
           </p>
         </div>
 
         <div className="space-y-16 lg:space-y-20">
-          {/* ============== 1. ABOUT HEM INCENSE ============== */}
+          {/* ============== 1. ABOUT KEVA FLAVOURS ============== */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
             {/* Left: Visual */}
             <div className="lg:col-span-6">
               <div className="relative rounded-[28px] overflow-hidden shadow-lg bg-[#f3efff]">
                 <img
-                  src="/13_HEM.jpg"
-                  alt="HEM Incense product visual"
+                  src="/keva-lab.png"
+                  alt="Keva Flavours R&D and flavour lab visual"
                   className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
                   loading="lazy"
                 />
@@ -43,27 +44,27 @@ export const BrandVisionSection = (): JSX.Element => {
             {/* Right: Copy */}
             <div className="lg:col-span-6">
               <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] font-bold text-[26px] md:text-[30px] mb-4">
-                About HEM Incense
+                About Keva Flavours
               </h3>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                 <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
                   <p className="text-[14px] font-semibold text-[#543d98] mb-1 [font-family:'DM_Sans',Helvetica]">
-                    Global Leader
+                    Global Flavour Excellence
                   </p>
                   <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[14px] leading-relaxed">
-                    HEM Corporation is one of the world’s leading incense
-                    manufacturers, exporting to more than 70 countries and
-                    serving millions of customers worldwide.
+                    Keva Flavours is a leading supplier to food and beverage
+                    companies worldwide, backed by decades of expertise in
+                    flavours, fragrances and aroma ingredients.
                   </p>
                 </div>
                 <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
                   <p className="text-[14px] font-semibold text-[#543d98] mb-1 [font-family:'DM_Sans',Helvetica]">
-                    Three Decades of Excellence
+                    Strong Group Legacy
                   </p>
                   <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[14px] leading-relaxed">
-                    With 30+ years of experience and a reputation for quality
-                    and reliability, HEM is a heritage brand ready for
-                    next-gen digital growth.
+                    Headquartered in Mumbai and a subsidiary of S.H. Kelkar &amp;
+                    Co. Ltd, Keva serves both B2B and B2C markets with
+                    innovation-led flavour solutions.
                   </p>
                 </div>
               </div>
@@ -78,33 +79,54 @@ export const BrandVisionSection = (): JSX.Element => {
                 Impressive Results Delivered
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed mb-5">
-                After restructuring the web presence and executing a focused SEO
-                roadmap, HEM jumped to the first page for core keywords and
-                unlocked sustained, qualified traffic.
+                With a sharp digital strategy spanning website excellence,
+                targeted campaigns and marketplace optimisation, Keva achieved
+                remarkable business growth across channels.
               </p>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-md">
+              <div className="grid grid-cols-2 gap-4 max-w-md">
                 <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
                   <p className="text-[12px] text-[#7B7B8A] mb-1 [font-family:'DM_Sans',Helvetica]">
-                    First-Page Rankings
+                    Website Sales Increase
                   </p>
                   <p className="text-[#543d98] text-[26px] font-bold [font-family:'DM_Sans',Helvetica]">
-                    300%
+                    185%
                   </p>
                   <p className="text-[13px] text-[#4B4B5C]">
-                    Dramatic lift in search visibility across high-intent
-                    keywords.
+                    Dramatic revenue uplift via optimised digital journeys.
                   </p>
                 </div>
                 <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
                   <p className="text-[12px] text-[#7B7B8A] mb-1 [font-family:'DM_Sans',Helvetica]">
-                    Organic Traffic Growth
+                    Verified Lead Growth
                   </p>
                   <p className="text-[#543d98] text-[26px] font-bold [font-family:'DM_Sans',Helvetica]">
-                    5×
+                    20×
                   </p>
                   <p className="text-[13px] text-[#4B4B5C]">
-                    Exponential increase in relevant visitors and leads.
+                    Exponential increase in qualified B2B &amp; B2C prospects.
+                  </p>
+                </div>
+                <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
+                  <p className="text-[12px] text-[#7B7B8A] mb-1 [font-family:'DM_Sans',Helvetica]">
+                    Amazon Sales Growth
+                  </p>
+                  <p className="text-[#543d98] text-[26px] font-bold [font-family:'DM_Sans',Helvetica]">
+                    64.78%
+                  </p>
+                  <p className="text-[13px] text-[#4B4B5C]">
+                    Enhanced marketplace visibility and stronger conversions.
+                  </p>
+                </div>
+                <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
+                  <p className="text-[12px] text-[#7B7B8A] mb-1 [font-family:'DM_Sans',Helvetica]">
+                    Social Media Growth
+                  </p>
+                  <p className="text-[#543d98] text-[26px] font-bold [font-family:'DM_Sans',Helvetica]">
+                    400%
+                  </p>
+                  <p className="text-[13px] text-[#4B4B5C]">
+                    Rapid expansion of brand presence across key platforms.
                   </p>
                 </div>
               </div>
@@ -114,8 +136,8 @@ export const BrandVisionSection = (): JSX.Element => {
             <div className="lg:col-span-7 order-1 lg:order-2">
               <div className="rounded-[28px] overflow-hidden shadow-lg bg-[#f3efff]">
                 <img
-                  src="/hem-growht-seo.png"
-                  alt="SEO growth graph for HEM Incense"
+                  src="/keva-growth-dashboard.png"
+                  alt="Digital marketing growth dashboard for Keva Flavours"
                   className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
                   loading="lazy"
                 />
@@ -128,40 +150,41 @@ export const BrandVisionSection = (): JSX.Element => {
             {/* Left: Copy */}
             <div className="lg:col-span-6">
               <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] font-bold text-[26px] md:text-[30px] mb-3">
-                The Challenge: Declining Digital Presence
+                The Challenge: Competing in a Crowded Market
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed mb-5">
-                Despite strong offline brand recall and rising demand for
-                incense, HEM’s digital footprint was lagging. Technical issues
-                and a one-size-fits-all site held back visibility and traffic.
+                Keva operated in an intensely competitive domestic and global
+                flavour landscape. They needed a faster way to reach the right
+                audiences, acquire quality leads and scale visibility across
+                regions.
               </p>
 
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
                   <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                    Limited Market Reach
+                    Market Competition
                   </p>
                   <p className="text-[13px] text-[#4B4B5C]">
-                    One site focused mainly on India, missing the USA and other
-                    high-value regions.
+                    Intense rivalry across domestic and international flavour
+                    markets.
                   </p>
                 </div>
                 <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
                   <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                    Technical Issues
+                    Lead Acquisition
                   </p>
                   <p className="text-[13px] text-[#4B4B5C]">
-                    Complex structure, indexing problems and crawl inefficiency
-                    affecting rankings.
+                    Difficulty reaching and converting qualified B2B and B2C
+                    prospects efficiently.
                   </p>
                 </div>
                 <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
                   <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                    Link Quality Problems
+                    Global Reach
                   </p>
                   <p className="text-[13px] text-[#4B4B5C]">
-                    Weak authority and spammy backlinks hurting search
-                    credibility.
+                    Needed quicker and more accurate penetration across multiple
+                    regions.
                   </p>
                 </div>
               </div>
@@ -171,8 +194,8 @@ export const BrandVisionSection = (): JSX.Element => {
             <div className="lg:col-span-6">
               <div className="rounded-[28px] overflow-hidden shadow-lg bg-[#f3efff]">
                 <img
-                  src="/Marketer analysing declining traffic.png"
-                  alt="Marketer analysing declining traffic"
+                  src="/keva-market-challenge.png"
+                  alt="Retail shelves visual for flavour products"
                   className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
                   loading="lazy"
                 />
@@ -180,98 +203,107 @@ export const BrandVisionSection = (): JSX.Element => {
             </div>
           </div>
 
-          {/* ============== 4. CORE PROBLEMS IDENTIFIED ============== */}
+          {/* ============== 4. CORE STRATEGIC PILLARS ============== */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
             <div className="lg:col-span-5">
               <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] font-bold text-[24px] md:text-[28px] mb-3">
-                Core Problems Identified
+                Core Strategic Pillars
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed">
-                A detailed audit revealed structural, geographic and tracking
-                issues that were masking true performance and limiting organic
-                growth.
+                Our approach combined deep market understanding, competitive
+                intelligence and a redesigned digital ecosystem to position Keva
+                for sustained global growth.
               </p>
             </div>
 
-            <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-3 gap-4">
+            <div className="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-4">
               <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
                 <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                  Structural Complexity
+                  Deep Market Analysis
                 </p>
                 <p className="text-[13px] text-[#4B4B5C]">
-                  Poorly organised website architecture created navigation and
-                  indexing challenges.
+                  Mapped consumer geography, demographics, preferences and
+                  flavour interests.
                 </p>
               </div>
               <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
                 <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                  Single Domain Limitation
+                  Competitive Intelligence
                 </p>
                 <p className="text-[13px] text-[#4B4B5C]">
-                  One domain trying to serve all countries led to diluted
-                  targeting and mixed signals.
+                  Analysed competitor positioning to uncover whitespace and
+                  differentiation opportunities.
                 </p>
               </div>
               <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
                 <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                  Traffic Decline
+                  Website Optimisation
                 </p>
                 <p className="text-[13px] text-[#4B4B5C]">
-                  Inaccurate and falling organic traffic numbers despite strong
-                  brand awareness.
+                  Enhanced SEO, product visualisation and user experience across
+                  key pages.
+                </p>
+              </div>
+              <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
+                <p className="text-[13px] font-semibold text-[#543d98] mb-1">
+                  Regional Targeting
+                </p>
+                <p className="text-[13px] text-[#4B4B5C]">
+                  Built campaigns aligned to regional demand and audience
+                  behaviour.
                 </p>
               </div>
             </div>
           </div>
 
-          {/* ============== 5. OUR STRATEGIC SEO APPROACH ============== */}
+          {/* ============== 5. IMPLEMENTATION STRATEGY ============== */}
           <div className="space-y-6">
             <div className="max-w-[720px]">
               <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] font-bold text-[26px] md:text-[30px] mb-3">
-                Our Strategic SEO Approach
+                Implementation Strategy
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed">
-                We began by refining and optimising the HEM Incense ecosystem
-                with deep research, market-specific sites and technical
-                clean-up—built to scale across countries.
+                We combined website excellence with targeted campaigns and a
+                multi-channel roadmap to connect Keva with high-value audiences
+                at scale.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-4 gap-4">
               <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
                 <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                  Research &amp; Analysis
+                  Website Excellence
                 </p>
                 <p className="text-[13px] text-[#4B4B5C]">
-                  Comprehensive competitor and market audit to understand demand
-                  patterns, category search behaviour and localisation needs.
+                  Product page optimisation, strategic keyword integration and
+                  improved visual storytelling.
                 </p>
               </div>
               <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
                 <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                  Website Redesign
+                  Targeted Campaigns
                 </p>
                 <p className="text-[13px] text-[#4B4B5C]">
-                  Re-architected the India site and built a dedicated USA
-                  website from scratch for sharper positioning.
+                  Facebook lead generation for domestic and global markets with
+                  precision audience targeting.
                 </p>
               </div>
               <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
                 <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                  Multi-Country Websites
+                  B2B Brand Building
                 </p>
                 <p className="text-[13px] text-[#4B4B5C]">
-                  Created separate country sites to enable targeted SEO
-                  strategies tailored to each market.
+                  LinkedIn initiatives to strengthen Keva’s position with
+                  industry decision-makers.
                 </p>
               </div>
               <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
                 <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                  Technical SEO Optimisation
+                  Multi-Channel Growth
                 </p>
                 <p className="text-[13px] text-[#4B4B5C]">
-                  Fixed crawl and indexing issues, cleaned up links, and
-                  standardised content for consistency and relevance.
+                  Integrated website, social and marketplace efforts for maximum
+                  reach and impact.
                 </p>
               </div>
             </div>
@@ -284,51 +316,51 @@ export const BrandVisionSection = (): JSX.Element => {
                 Remarkable Outcomes
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed">
-                The combined impact of technical clean-up, content refinement
-                and market-specific websites was visible in both traffic and
-                business metrics.
+                The result was a digitally transformed growth engine—delivering
+                higher sales, stronger lead funnels and a significantly expanded
+                brand footprint across markets.
               </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
                 <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                  USA Website Success
+                  Revenue Impact
                 </p>
                 <p className="text-[13px] text-[#4B4B5C]">
-                  300% increase in website traffic with first-page rankings
-                  driving qualified leads and intent-rich visitors.
+                  185% increase in website sales as digital channels became a
+                  key growth driver.
                 </p>
               </div>
               <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
                 <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                  India Website Growth
+                  Lead Engine
                 </p>
                 <p className="text-[13px] text-[#4B4B5C]">
-                  Steady, relevant traffic for a newer site translated into
-                  healthy revenue outcomes.
+                  20× growth in verified leads from focused, insight-led
+                  campaigns.
                 </p>
               </div>
               <div className="bg-[#F6F6FB] rounded-2xl px-4 py-4">
                 <p className="text-[13px] font-semibold text-[#543d98] mb-1">
-                  Enhanced Visibility
+                  Brand Visibility
                 </p>
                 <p className="text-[13px] text-[#4B4B5C]">
-                  HEM moved to the first page for key markets and high-volume
-                  incense terms, securing a defensible search moat.
+                  400% expansion in social media presence and stronger marketplace
+                  performance.
                 </p>
               </div>
             </div>
           </div>
 
-          {/* ============== 7. SEO SUCCESS STORY CLOSE ============== */}
+          {/* ============== 7. DIGITAL GROWTH STORY CLOSE ============== */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
             {/* Left: Visual */}
             <div className="lg:col-span-6">
               <div className="rounded-[28px] overflow-hidden shadow-lg bg-[#f3efff]">
                 <img
-                  src="/hem-success-story.png"
-                  alt="SEO success visual with growth arrow"
+                  src="/hem-growht-seo.png"
+                  alt="Digital success visual with growth arrow"
                   className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
                   loading="lazy"
                 />
@@ -338,14 +370,14 @@ export const BrandVisionSection = (): JSX.Element => {
             {/* Right: Copy */}
             <div className="lg:col-span-6">
               <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] font-bold text-[26px] md:text-[30px] mb-3">
-                SEO Success Story
+                Digital Growth Success Story
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed">
-                Through strategic SEO implementation, market-specific website
-                development and technical optimisation, HEM Corporation
-                re-engineered its digital presence. The result: 300% more
-                first-page rankings and 5× growth in organic traffic—laying a
-                strong foundation for continued global expansion.
+                From intense competition to category-defining visibility, Keva
+                Flavours used data-driven strategy and creative excellence to
+                unlock 185% sales growth, 20× more verified leads and 400% social
+                expansion. This digital foundation now powers their next chapter
+                of domestic and global growth.
               </p>
             </div>
           </div>
