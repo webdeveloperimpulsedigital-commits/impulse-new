@@ -222,7 +222,7 @@ const caseStudiesData = [
   {
     id: 9,
     title: "Laljee Godhoo",
-    image: "/Grasim Pulp and fiber.jpg",
+    image: "/Laljee Godhoo.png",
     tags: ["Branding"],
     tall: true,
     corner: false,
@@ -258,7 +258,7 @@ const caseStudiesData = [
   {
     id: 13,
     title: "Keva",
-    image: "/electromech-case-study.png",
+    image: "/Keva.png",
     tags: ["Product Design"],
     tall: false,
     corner: false,
