@@ -70,7 +70,7 @@ const DEFAULT_ITEMS: NavItem[] = [
 
   {
     label: "Resouces",
-    href: "/resources",
+    href: "",
     hasDropdown: true,
     dropdownItems: [
       { label: "EBooks", href: "/resources/EBooks" },
