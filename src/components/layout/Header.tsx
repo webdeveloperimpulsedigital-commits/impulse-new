@@ -318,18 +318,57 @@ export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
                   </div>
 
                   {item.hasDropdown && openMobileDropdown === item.label && (
-                    <div className="ml-4 mt-2 flex flex-col gap-2">
-                      {item.dropdownItems?.map((dd) => (
-                        <Link
-                          key={dd.label}
-                          to={dd.href}
-                          className="font-dm-sans text-white text-sm hover:text-gray-200"
-                        >
-                          {dd.label}
-                        </Link>
-                      ))}
-                    </div>
-                  )}
+  <div className="ml-4 mt-2 flex flex-col gap-2">
+
+    {item.dropdownItems?.map((dd) => (
+      <div key={dd.label} className="flex flex-col">
+
+        {/* First Level Item */}
+        <div
+          className="flex items-center justify-between py-2 cursor-pointer"
+          onClick={() =>
+            setOpenSubDropdown(openSubDropdown === dd.label ? null : dd.label)
+          }
+        >
+          <Link
+            to={dd.href}
+            className="font-dm-sans text-white text-sm hover:text-gray-200"
+          >
+            {dd.label}
+          </Link>
+
+          {dd.hasSubDropdown && (
+            <ChevronDownIcon
+              className="w-4 h-4 text-white transition-transform"
+              style={{
+                transform:
+                  openSubDropdown === dd.label ? "rotate(180deg)" : "rotate(0deg)",
+              }}
+            />
+          )}
+        </div>
+
+        {/* SECOND LEVEL SUB-ITEMS */}
+        {dd.hasSubDropdown && openSubDropdown === dd.label && (
+          <div className="ml-4 mt-2 flex flex-col gap-2">
+            {dd.subItems?.map((sub) => (
+              <Link
+                key={sub.label}
+                to={sub.href}
+                className="font-dm-sans text-white text-sm hover:text-gray-200"
+              >
+                {sub.label}
+              </Link>
+            ))}
+          </div>
+        )}
+      </div>
+    ))}
+
+  </div>
+)}
+
+
                 </div>
               ))}
 

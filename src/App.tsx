@@ -56,6 +56,8 @@ import { DmartCasestudy } from "./screens/DmartCasestudy";
 import { HulCaseStudy } from "./screens/HulCaseStudy";
 import { KevaCaseStudy } from "./screens/KevaCaseStudy";
 import { VendimanCaseStudy } from "./screens/VendimanCaseStudy";
+import { Privacypage } from "./screens/Privacypage";
+import { TermsAndConditions } from "./screens/TermsAndConditionsPage";
 
 
 
@@ -129,7 +131,8 @@ export const App = (): JSX.Element => {
       <Route path="/digital-marketing-agency-in-thane" element={<AgencyinThane />} />
       <Route path="/digital-marketing-agency-in-navi-mumbai" element={<AgencyinNaviMumbai />} />
       <Route path="/digital-marketing-agency-in-pune" element={<AgencyinPune />} />
-
+      <Route path="/privacy-policy" element={<Privacypage/>}/>
+      <Route path="/terms-and-conditions" element={<TermsAndConditions/>}/>
 
     </Routes>
   );
