@@ -148,17 +148,67 @@ const css = `
 `;
 
 const caseStudiesData = [
-  { id: 1, title: "Mastercard Inc.", image: "/14_mastercard.jpg", tags: ["Product Design"], tall: true, corner: false },
-  { id: 2, title: "Hindustan Unilever Limited", image: "/16_Unilever.jpg", tags: ["Packaging"], tall: false, corner: true },
-  { id: 3, title: "Avenue Supermarts/DMart", image: "/15_Dmart.jpg", tags: ["Branding"], tall: true, corner: true },
-  { id: 4, title: "Vendiman", image: "/17_Vendiman.jpg", tags: ["Creative"], tall: false, corner: false },
-  { id: 5, title: "ElectroMech", image: "/18_Emech.png", tags: ["Branding"], tall: false, corner: false },
-  { id: 6, title: "HEM Corporation", image: "/19_HEM.jpg", tags: ["Packaging"], tall: false, corner: false }
+  {
+    id: 1,
+    title: "Mastercard Inc.",
+    image: "/14_mastercard.jpg",
+    tags: ["Product Design"],
+    tall: true,
+    corner: false,
+    link: "/casestudies/mastercard"
+  },
+  {
+    id: 2,
+    title: "Hindustan Unilever Limited",
+    image: "/16_Unilever.jpg",
+    tags: ["Packaging"],
+    tall: false,
+    corner: true,
+    link: "/casestudies/hul"
+  },
+  {
+    id: 3,
+    title: "Avenue Supermarts/DMart",
+    image: "/15_Dmart.jpg",
+    tags: ["Branding"],
+    tall: true,
+    corner: true,
+    link: "/casestudies/d-mart"
+  },
+  {
+    id: 4,
+    title: "Vendiman",
+    image: "/17_Vendiman.jpg",
+    tags: ["Creative"],
+    tall: false,
+    corner: false,
+    link: "/casestudies/vendiman"
+  },
+  {
+    id: 5,
+    title: "ElectroMech",
+    image: "/18_Emech.png",
+    tags: ["Branding"],
+    tall: false,
+    corner: false,
+    link: "/casestudies/electromech"
+  },
+  {
+    id: 6,
+    title: "HEM Corporation",
+    image: "/19_HEM.jpg",
+    tags: ["Packaging"],
+    tall: false,
+    corner: false,
+    link: "/casestudies/hem"
+  }
 ];
 
 export const CaseStudiesGrid = (): JSX.Element => {
   const gridRef = useRef<HTMLDivElement | null>(null);
-  const [isMobile, setIsMobile] = useState(typeof window !== "undefined" ? window.innerWidth < 768 : false);
+  const [isMobile, setIsMobile] = useState(
+    typeof window !== "undefined" ? window.innerWidth < 768 : false
+  );
 
   // state for the INTERACTIVE mobile slider
   const [activeSlide, setActiveSlide] = useState(0);
@@ -167,8 +217,8 @@ export const CaseStudiesGrid = (): JSX.Element => {
 
   useEffect(() => {
     const checkMobile = () => setIsMobile(window.innerWidth < 768);
-    window.addEventListener('resize', checkMobile);
-    return () => window.removeEventListener('resize', checkMobile);
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
   }, []);
 
   // desktop masonry sizing (unchanged)
@@ -182,8 +232,12 @@ export const CaseStudiesGrid = (): JSX.Element => {
     const spanItem = (card: HTMLElement) => {
       const rowH = getNum("grid-auto-rows");
       const gap = getNum("gap");
-      const media = card.querySelector(".case-study-media") as HTMLElement | null;
-      const meta = card.querySelector(".case-study-meta") as HTMLElement | null;
+      const media = card.querySelector(
+        ".case-study-media"
+      ) as HTMLElement | null;
+      const meta = card.querySelector(
+        ".case-study-meta"
+      ) as HTMLElement | null;
       if (!media || !meta) return;
 
       const total = media.offsetHeight + meta.offsetHeight + gap;
@@ -197,7 +251,9 @@ export const CaseStudiesGrid = (): JSX.Element => {
 
     resizeAll();
 
-    const imgs = Array.from(grid.querySelectorAll<HTMLImageElement>(".case-study-media img"));
+    const imgs = Array.from(
+      grid.querySelectorAll<HTMLImageElement>(".case-study-media img")
+    );
     const handleImgLoad = () => resizeAll();
     imgs.forEach((img) => {
       if (!img.complete) img.addEventListener("load", handleImgLoad, { once: true });
@@ -225,6 +281,7 @@ export const CaseStudiesGrid = (): JSX.Element => {
     image: c.image,
     alt: c.title,
     clientName: c.title,
+    link: c.link
   }));
 
   const handleSlideChange = (newIndex: number) => {
@@ -259,7 +316,7 @@ export const CaseStudiesGrid = (): JSX.Element => {
     }
 
     const base: React.CSSProperties = {
-      transition: "transform 400ms ease, opacity 400ms ease, filter 400ms ease",
+      transition: "transform 400ms ease, opacity 400ms ease, filter 400ms ease"
     };
 
     // tuned for mobile (<= 767px)
@@ -275,7 +332,12 @@ export const CaseStudiesGrid = (): JSX.Element => {
 
     switch (position) {
       case 0:
-        return { ...base, transform: `translateX(${x0}px) scale(${scaleActive})`, opacity: 1, zIndex: 30 };
+        return {
+          ...base,
+          transform: `translateX(${x0}px) scale(${scaleActive})`,
+          opacity: 1,
+          zIndex: 30
+        };
       case 1:
         return {
           ...base,
@@ -283,7 +345,7 @@ export const CaseStudiesGrid = (): JSX.Element => {
           opacity: 0.8,
           zIndex: 20,
           height: h1,
-          marginTop: mt1,
+          marginTop: mt1
         };
       case 2:
         return {
@@ -292,34 +354,40 @@ export const CaseStudiesGrid = (): JSX.Element => {
           opacity: 0.7,
           zIndex: 10,
           height: h2,
-          marginTop: mt2,
+          marginTop: mt2
         };
       default:
-        return { ...base, transform: `translateX(${x2 * 1.5}px)`, opacity: 0, zIndex: 0 };
+        return {
+          ...base,
+          transform: `translateX(${x2 * 1.5}px)`,
+          opacity: 0,
+          zIndex: 0
+        };
     }
   };
 
-  const CaseStudyCard = ({ caseStudy }: { caseStudy: typeof caseStudiesData[0] }) => (
-    <a href="#" className="case-study-card">
+  const CaseStudyCard = ({
+    caseStudy
+  }: {
+    caseStudy: (typeof caseStudiesData)[0];
+  }) => (
+    <Link to={caseStudy.link} className="case-study-card">
       <div
         className={`case-study-media ${
-          !isMobile && caseStudy.tall ? 'case-study-media--tall' : ''
-        } ${caseStudy.corner ? 'corner' : ''}`}
+          !isMobile && caseStudy.tall ? "case-study-media--tall" : ""
+        } ${caseStudy.corner ? "corner" : ""}`}
       >
         <img src={caseStudy.image} alt={caseStudy.title} loading="lazy" />
       </div>
       <div className="case-study-meta">
         <h3 className="case-study-brand">{caseStudy.title}</h3>
       </div>
-    </a>
+    </Link>
   );
 
   const MobileSlider = () => (
     <div className="block lg:hidden">
       {/* Heading (kept consistent with your section) */}
-      
-
-    
 
       {/* Layered cards slider */}
       <div className="relative h-[400px] overflow-visible">
@@ -329,16 +397,24 @@ export const CaseStudiesGrid = (): JSX.Element => {
             className="absolute inset-0 rounded-2xl overflow-hidden shadow-lg"
             style={getCardStyle(i)}
           >
-            <img src={slide.image} alt={slide.alt} className="block w-full h-full object-cover" />
+            <Link to={slide.link}>
+              <img
+                src={slide.image}
+                alt={slide.alt}
+                className="block w-full h-full object-cover"
+              />
+            </Link>
           </div>
         ))}
       </div>
 
       {/* Client name below image */}
       <div className="mt-4 text-left ml-1">
-        <h3 className="font-bold text-[#030019] text-[26px]">
-          {currentSlide.clientName}
-        </h3>
+        <Link to={currentSlide.link}>
+          <h3 className="font-bold text-[#030019] text-[26px] hover:underline">
+            {currentSlide.clientName}
+          </h3>
+        </Link>
       </div>
 
       {/* Prev / Next buttons */}
@@ -382,23 +458,25 @@ export const CaseStudiesGrid = (): JSX.Element => {
 
   return (
     <>
-      <section className="case-studies-section pt-16 bg-white pb-0 mx-auto md:px-4" data-section="case-studies">
+      <section
+        className="case-studies-section pt-16 bg-white pb-0 mx-auto md:px-4"
+        data-section="case-studies"
+      >
         <div className="wrap-casestuides">
           <div className="case-studies-header">
             <div className="case-studies-content">
               <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
-                <span className="text-[#030019]  lg:text-[34px] sm:text-[16px]">
+                <span className="text-[#030019]  lg:text[34px] sm:text-[16px]">
                   Case Studies
                 </span>
                 <br />
                 <span className="font-bold text-[#543d98] lg:text-[49px] md:text-[52px] sm:text-[26px]">
-                Playbook of Proven Wins 
-
+                  Playbook of Proven Wins
                 </span>
               </h2>
             </div>
 
-            <Button className="w-[220px] h-[44px] group sm:inline-flex items-center gap-2 px-4 py-6 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border-[#543d98] hover:border hover:border-[#543d98]">
+            <Button className="w-[220px] h-[44px] group sm:inline-flex items-center gap-2 px-4 py-6 rounded-xl bg-[#543d98] text-white hover:bg:white hover:text-[#543d98] transition-colors duration-300 border-[#543d98] hover:border hover:border-[#543d98]">
               <Link
                 to="/casestudies"
                 className="[font-family:'DM_Sans',Helvetica] font-bold text-white text-sm md:text-base group-hover:text-[#543d98] transition-colors duration-300"

@@ -29,7 +29,7 @@ const ServicesSection = () => {
   // 👉 added state for dots
   const [slide, setSlide] = useState(0);
 
-   const data = [
+  const data = [
     {
       n: "01",
       title: "SEO",
@@ -37,6 +37,7 @@ const ServicesSection = () => {
         "Your prospects are searching, we make sure they find you first. We combine technical expertise with creative content strategies to boost your website’s visibility and ranking. Our SEO team optimizes every aspect of your online presence to attract, engage, and convert the right audience, ensuring your business grows where it matters most: search results.",
       ],
       img: "/06_SEO.jpg",
+      link: "/services/search-engine-optimization",
     },
     {
       n: "02",
@@ -45,6 +46,7 @@ const ServicesSection = () => {
         "Your website is more than just a digital address, it’s your brand’s first impression, storyteller, and salesperson, all rolled into one.  We design and develop websites that not only look stunning but also perform seamlessly. From intuitive navigation to engaging visuals and compelling content, we build experiences that keep visitors clicking and coming back for more. Every line of code and pixel is crafted to reflect your brand’s essence and purpose. In a world full of tabs and distractions, we make sure your website stands out and speaks volumes.",
       ],
       img: "/07_Website Development.jpg",
+      link: "/services/website-development",
     },
     {
       n: "03",
@@ -53,6 +55,7 @@ const ServicesSection = () => {
         "Every campaign should perform, not just run, that’s where we come in. At Impulse Digital, our performance marketing approach ensures every click, impression and conversion drives measurable growth. We blend strategy, creativity and data to deliver results you can see and scale. From understanding audience behaviour to optimizing spends across channels, we focus on impact over noise. With us, your marketing doesn’t just reach people, it moves them to act.",
       ],
       img: "/01_Pay-Per-Click.jpg",
+      link: "/services/performance-marketing",
     },
     {
       n: "04",
@@ -61,14 +64,16 @@ const ServicesSection = () => {
         "Great content doesn’t just tell a story, it builds a connection. We craft narratives that resonate with your audience and reflect your brand’s true voice. Every word is designed with purpose, ensuring your message reaches the right people in the most meaningful way. From thought-provoking blogs to engaging campaign copy, our content marketing approach blends creativity with strategy. Because when your content speaks the language of your audience, it turns attention into trust.",
       ],
       img: "/02_Content Writing.jpg",
+      link: "/services/content-writing-services",
     },
     {
       n: "05",
       title: " Video Production",
       points: [
-        "Transform Your Brands Online Communication with Social Media Video Production. Our Social Media Video Production service is specifically designed to elevate your brand's online presence with visually appealing and strategically crafted videos tailored to suit your brand and its target audience. From ideation, conceptualization, method storytelling to visually crafting a masterpiece, we handle every aspect of video production with the required ",
+        "Transform Your Brands Online Communication with Social Media Video Production. Our Social Media Video Production service is specifically designed to elevate your brand's online presence with visually appealing and strategically crafted videos tailored to suit your brand and its target audience. From ideation, conceptualization, method storytelling to visually crafting a masterpiece, we handle every aspect of video production with the required creative support and equipment to ensure your brand shines across social media platforms. ",
       ],
       img: "/03_Production.jpg",
+      link: "/services/social-media-video-production",
     },
     {
       n: "06",
@@ -77,7 +82,7 @@ const ServicesSection = () => {
         "Your audience is scrolling, now the question is, are they stopping for you? At Impulse Digital, we make sure your brand stands out in the endless feed. Our social media marketing services blend strategy, creativity and data to create conversations that matter. From relatable content to impactful campaigns, we help you build a community that listens, engages and grows with you. Because on social media, it’s not just about being seen, it’s about being remembered.",
       ],
       img: "/04_Social Media Marketing.jpg",
-     
+      link: "/services/social-media-marketing",
     },
     {
       n: "07",
@@ -86,6 +91,7 @@ const ServicesSection = () => {
         "A strong employer brand doesn’t just attract talent, it inspires it. Our employer branding services help organizations shape how people see, feel and experience their workplace. From defining your EVP to building authentic storytelling that reflects your culture, we turn your employees into brand ambassadors and your company into a talent magnet. Through strategy, design and communication, we craft a brand narrative that resonates both inside and outside the organization. Because when people believe in where they work, they help the world believe in it too.",
       ],
       img: "/05_Employer Branding.jpg",
+      link: "/services/employer-branding",
     },
     {
       n: "08",
@@ -94,6 +100,7 @@ const ServicesSection = () => {
         "A brand is more than just a logo, it is the feeling people associate with your name. Through our corporate branding services, we help you create that emotion by shaping how your audience perceives and connects with your business. From uncovering your core values to crafting a powerful visual and verbal identity, every detail is designed to make your brand stand apart. We blend strategy with creativity to build a consistent and lasting impression across every touchpoint. When your brand feels authentic, it does not just capture attention, it earns trust.",
       ],
       img: "/08_Branding.jpg",
+      link: "/services/branding-creative-services",
     },
   ];
 
@@ -159,7 +166,7 @@ const ServicesSection = () => {
       if (!dragging) return;
       curX = e.clientX;
       const dx = curX - startX;
-      track.style.transform = `translateX(${ -idx * slideW() + dx }px)`;
+      track.style.transform = `translateX(${-idx * slideW() + dx}px)`;
     };
     const onUp = () => {
       if (!dragging) return;
@@ -203,8 +210,6 @@ const ServicesSection = () => {
 
   return (
     <>
-      {/* font (same as your HTML) */}
-
       {/* same CSS */}
       <style>{`
   
@@ -353,20 +358,20 @@ const ServicesSection = () => {
                   <div className="num">{s.n}</div>
                   <div className="copy">
                     <h3 className="w-full lg:w-[340px] [font-family:'Space Grotesk', sans-serif] font-semibold text-white text-[28px] lg:text-[35px] leading-[32px] lg:leading-[40px]">
-                      <a href="">{s.title}</a>
+                      <a href={s.link}>{s.title}</a>
                     </h3>
                     <ul>{s.points.map((p) => <li key={p}>{p}</li>)}</ul>
                   </div>
                   <div className="visual ">
                     <div className="shot">
-                      <a href="#">
+                      <a href={s.link}>
                         <img src={s.img} alt={s.title} />
                       </a>
                     </div>
                   </div>
 
                   <div className="group flex w-60 items-start justify-center lg:justify-end pt-2 lg:pt-[7px]">
-                    <a href="">
+                    <a href={s.link}>
                       <img
                         src="/Arrow.png"
                         alt="Arrow"
@@ -387,21 +392,25 @@ const ServicesSection = () => {
               {data.map((s) => (
                 <div className="mcard" key={`m-${s.n}`}>
                   <div className="m-num text-white">{s.n}</div>
-                  <div className="m-title text-white">{s.title}</div>
+                  <a href={s.link} className="m-title text-white block">
+                    {s.title}
+                  </a>
                   <ul className="m-list">
                     {s.points.map((p) => (
                       <li key={`m-${s.n}-${p}`}>{p}</li>
                     ))}
                   </ul>
                   <div className="m-shot">
-                    <img src={s.img} alt={s.title} />
+                    <a href={s.link}>
+                      <img src={s.img} alt={s.title} />
+                    </a>
                   </div>
                 </div>
               ))}
             </div>
 
-           <center>
-            <div className="flex items-center justify-center gap-2 mb-5">
+            <center>
+              <div className="flex items-center justify-center gap-2 mb-5">
                 {data.map((_, i) => (
                   <button
                     key={i}
@@ -413,11 +422,11 @@ const ServicesSection = () => {
                   />
                 ))}
               </div>
-            </center> <br></br>
+            </center>
+            <br></br>
 
             <div className="mnav">
               {/* dots (kept exactly where you placed them) */}
-              
 
               <Button
                 className="navbtn prev group w-15 h-15 rounded-full border-2 border-[#543d98] bg-white flex items-center justify-center group transition-all duration-300 hover:bg-[#f5f5f5] hover:border-[#543d98]"
@@ -456,9 +465,7 @@ const ServicesSection = () => {
                 {[...Array(3)].map((_, setIndex) => (
                   <React.Fragment key={`purple-set-${setIndex}`}>
                     {services.map((service, index) => (
-                      <React.Fragment
-                        key={`purple-${setIndex}-${index}`}
-                      >
+                      <React.Fragment key={`purple-${setIndex}-${index}`}>
                         <span className="[font-family:'DM_Sans',Helvetica] font-semibold text-white text-2xl md:text-4xl lg:text-5xl whitespace-nowrap">
                           {service}
                         </span>

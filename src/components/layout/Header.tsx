@@ -73,9 +73,9 @@ const DEFAULT_ITEMS: NavItem[] = [
     href: "",
     hasDropdown: true,
     dropdownItems: [
-      { label: "EBooks", href: "/resources/EBooks" },
+      { label: "EBooks", href: "/resources/ebooks" },
       { label: "Videos", href: "/resources/videos" },
-      { label: "Slideshare PPT", href: "/resources/Slideshare-PPT" }
+      { label: "Slideshare PPT", href: "/resources/slideshare-PPT" }
     ]
     },
   // { label: "Career", href: "/career" },
