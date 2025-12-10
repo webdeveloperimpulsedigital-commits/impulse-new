@@ -254,6 +254,7 @@ export const FooterSection: React.FC = () => {
           box-shadow: 0 3px 8px rgba(0,0,0,0.25);
           transition: all 0.3s ease;
           cursor: pointer;
+        
         }
         .actionBtn img {
           width: 22px;
