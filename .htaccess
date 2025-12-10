@@ -15,6 +15,21 @@
   RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/(?:\ Ballot169)?
   RewriteRule ^(.*)$ https://www.theimpulsedigital.com/$1 [R=301,L]
 
+
+  # REMOVE TRAILING SLASH (except for root)
+RewriteEngine On
+ 
+# Redirect trailing slash URL → non-slash URL
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} .+/$
+RewriteRule ^(.+?)\/$ /$1 [R=301,L]
+ 
+# React routing support
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.html [L]
+
+
   # --------------------------------
   # 2. LEGACY 301 REDIRECTS (OLD → NEW URLs)
   # --------------------------------
