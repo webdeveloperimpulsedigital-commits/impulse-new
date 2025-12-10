@@ -4,7 +4,7 @@
   RewriteBase /
 
   # --------------------------------
-  # 1. CANONICAL HOST & HTTPS
+  # 1. CANONICAL HOST (IP / non-www → www)
   # --------------------------------
   RewriteCond %{HTTP_HOST} ^111\.118\.215\.65$ [NC,OR]
   RewriteCond %{HTTP_HOST} ^theimpulsedigital\.com$ [NC]
@@ -13,10 +13,11 @@
 
 
   # --------------------------------
-  # 2. REMOVE TRAILING SLASH (EXCEPT ROOT)
+  # 2. REMOVE TRAILING SLASH (EXCEPT ROOT & FILES WITH EXTENSIONS)
   # --------------------------------
+  # /services/content-writing-services/ -> /services/content-writing-services
   RewriteCond %{REQUEST_URI} !^/$
-  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_URI} !\.[^./]+$        # don't touch URLs with a file extension
   RewriteRule ^(.+?)/$ /$1 [R=301,L]
 
 
@@ -39,7 +40,7 @@
 
 
   # --------------------------------
-  # 4. CLEAN INDEX.PHP → ROOT
+  # 4. CLEAN index.php → /
   # --------------------------------
   RewriteCond %{THE_REQUEST} \s/+index\.php[\s?] [NC]
   RewriteRule ^index\.php$ / [R=301,L]
@@ -53,14 +54,17 @@
 
 
   # --------------------------------
-  # 6. REACT SPA ROUTING (FALLBACK)
+  # 6. REACT SPA ROUTING (FALLBACK TO index.html)
   # --------------------------------
+  # Don't rewrite the actual index.html file
   RewriteRule ^index\.html$ - [L]
 
+  # If the requested path is a real file or directory, serve it
   RewriteCond %{REQUEST_FILENAME} -f [OR]
   RewriteCond %{REQUEST_FILENAME} -d
   RewriteRule . - [L]
 
+  # Otherwise, let React handle it
   RewriteRule . /index.html [L]
 
 </IfModule>
