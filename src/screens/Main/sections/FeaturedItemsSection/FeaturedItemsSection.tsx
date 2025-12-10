@@ -10,22 +10,29 @@ export const FeaturedItemsSection = (): JSX.Element => {
     <>
       {/* ✅ SEO Meta Tags */}
 <Helmet>
+  {/* Basic SEO */}
   <title>Best Digital Marketing Agency in Mumbai | Impulse Digital</title>
   <meta
     name="description"
-    content="Impulse Digital is a top digital marketing agency in Mumbai that has the expertise to expand your business reach in the digital space. Our creative, innovative, and energetic team helps us stand out from a cluster of digital marketing agencies in Mumbai. We are handling a plethora of clients which includes Amazon, HUL, OLA, Dmart, HDFC, and more big market giants."
+    content="Impulse Digital is a top digital marketing agency in Mumbai that helps businesses expand their reach in the digital space with strategy, performance marketing, SEO, social media, content, and creative solutions for brands like Amazon, HUL, OLA, Dmart, HDFC and more."
   />
   <meta
     name="keywords"
     content="digital marketing agency in mumbai, digital marketing company, impulse digital"
   />
+  <meta name="robots" content="index, follow" />
+  <meta name="revisit-after" content="1 day" />
+  <meta name="language" content="English" />
+  <meta name="generator" content="N/A" />
+
+  {/* Open Graph */}
   <meta
     property="og:title"
     content="Best Digital Marketing Agency in Mumbai | Impulse Digital"
   />
   <meta
     property="og:description"
-    content="Impulse Digital is a top digital marketing agency in Mumbai that has the expertise to expand your business reach in the digital space. Our creative, innovative, and energetic team helps us stand out from a cluster of digital marketing agencies in Mumbai. We are handling a plethora of clients which includes Amazon, HUL, OLA, Dmart, HDFC, and more big market giants."
+    content="Impulse Digital is a top digital marketing agency in Mumbai that helps businesses expand their reach in the digital space with strategy, performance marketing, SEO, social media, content, and creative solutions."
   />
   <meta property="og:url" content="https://www.theimpulsedigital.com" />
   <meta
@@ -34,11 +41,8 @@ export const FeaturedItemsSection = (): JSX.Element => {
   />
   <meta property="og:site_name" content="Impulse Digital" />
   <meta property="og:type" content="website" />
-  <meta name="robots" content="index, follow" />
-  <meta name="revisit-after" content="1 day" />
-  <meta name="language" content="English" />
-  <meta name="generator" content="N/A" />
 
+  {/* Twitter */}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@impulsedigi" />
   <meta name="twitter:creator" content="@impulsedigi" />
@@ -48,7 +52,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
   />
   <meta
     name="twitter:description"
-    content="Impulse Digital is a top digital marketing agency in Mumbai that has the expertise to expand your business reach in the digital space. Our creative, innovative, and energetic team helps us stand out from a cluster of digital marketing agencies in Mumbai. We are handling a plethora of clients which includes Amazon, HUL, OLA, Dmart, HDFC, and more big market giants."
+    content="Impulse Digital is a top digital marketing agency in Mumbai that helps businesses expand their digital presence with performance ads, SEO, social media, content, design and strategy."
   />
   <meta
     name="twitter:image"
@@ -56,10 +60,13 @@ export const FeaturedItemsSection = (): JSX.Element => {
   />
   <meta name="twitter:url" content="https://www.theimpulsedigital.com" />
 
+  {/* Canonical + Favicon */}
   <link rel="canonical" href="https://www.theimpulsedigital.com" />
   <link rel="icon" type="image/x-icon" href="/resource-icon.png" />
 
-  {/* ✅ JSON-LD: ProfessionalService */}
+  {/* ================================
+      JSON-LD: ProfessionalService
+  ================================= */}
   <script
     type="application/ld+json"
     dangerouslySetInnerHTML={{
@@ -103,7 +110,9 @@ export const FeaturedItemsSection = (): JSX.Element => {
     }}
   />
 
-  {/* ✅ JSON-LD: WebSite */}
+  {/* ================================
+      JSON-LD: WebSite + SearchAction
+  ================================= */}
   <script
     type="application/ld+json"
     dangerouslySetInnerHTML={{
@@ -123,7 +132,9 @@ export const FeaturedItemsSection = (): JSX.Element => {
     }}
   />
 
-  {/* ✅ JSON-LD: FAQPage */}
+  {/* ================================
+      JSON-LD: FAQPage
+  ================================= */}
   <script
     type="application/ld+json"
     dangerouslySetInnerHTML={{
@@ -136,7 +147,8 @@ export const FeaturedItemsSection = (): JSX.Element => {
             name: "What is a digital marketing agency?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "A digital marketing agency helps businesses grow online using services like performance ads, SEO, social, content, automation and analytics tailored to goals and budgets.",
+              text:
+                "A digital marketing agency helps businesses grow online using services like performance ads, SEO, social, content, automation and analytics tailored to goals and budgets.",
             },
           },
           {
@@ -145,7 +157,8 @@ export const FeaturedItemsSection = (): JSX.Element => {
               "What are the benefits of hiring a digital marketing agency to leverage your business?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "You get senior expertise, speed of execution, cross-channel strategy, creative at scale, and measurable performance without building a large in-house team.",
+              text:
+                "You get senior expertise, speed of execution, cross-channel strategy, creative at scale, and measurable performance without building a large in-house team.",
             },
           },
           {
@@ -154,7 +167,8 @@ export const FeaturedItemsSection = (): JSX.Element => {
               "What is the role of a result-oriented digital marketing agency in elevating your business?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "A results-driven partner aligns channels to KPIs, runs continuous experiments, optimizes budgets in real-time, and reports outcomes clearly to drive revenue and efficiency.",
+              text:
+                "A results-driven partner aligns channels to KPIs, runs continuous experiments, optimizes budgets in real-time, and reports outcomes clearly to drive revenue and efficiency.",
             },
           },
           {
@@ -230,6 +244,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
     }}
   />
 </Helmet>
+
 
 
       {/* ✅ Hero Section */}
