@@ -16,9 +16,8 @@
   # 2. REMOVE TRAILING SLASH (EXCEPT ROOT)
   # --------------------------------
   RewriteCond %{REQUEST_URI} !^/$
-  RewriteCond %{REQUEST_URI} (.+)/$
   RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule ^ %1 [R=301,L]
+  RewriteRule ^(.+?)/$ /$1 [R=301,L]
 
 
   # --------------------------------
