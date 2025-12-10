@@ -46,7 +46,7 @@ export const ResourcesTeaserSection: React.FC = () => {
             className="w-[150px] h-[44px] group sm:inline-flex items-center gap-2 px-4 py-5 bg-white rounded-xl hover:bg-[#543d98] hover:text-[#ffffff] text-[#543d98]"
           >
             <Link
-              to="/contact"
+              to="/casestudies"
               className="[font-family:'DM_Sans',Helvetica] font-bold text-sm md:text-base"
             >
               Explore

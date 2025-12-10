@@ -69,7 +69,7 @@ const DEFAULT_ITEMS: NavItem[] = [
   // { label: "Resouces", href: "/resources"},
 
   {
-    label: "Resouces",
+    label: "Resources",
     href: "",
     hasDropdown: true,
     dropdownItems: [
