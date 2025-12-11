@@ -33,7 +33,7 @@ export const ContentWritingHeroSection = (): JSX.Element => {
 <meta name="twitter:url" content="https://www.theimpulsedigital.com/employer-branding-agency"/>
 
 
-<link rel="canonical" href="htthttps://www.theimpulsedigital.com/services/employee-branding-agencyps://www.theimpulsedigital.com/services/branding-creative-services"/>
+<link rel="canonical" href="https://www.theimpulsedigital.com/services/employee-branding-agency"/>
 </Helmet>
     
     <section

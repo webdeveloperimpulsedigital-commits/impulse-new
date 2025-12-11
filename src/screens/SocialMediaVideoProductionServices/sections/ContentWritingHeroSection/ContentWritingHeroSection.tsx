@@ -15,7 +15,7 @@ export const ContentWritingHeroSection = (): JSX.Element => {
 <meta name="revisit-after" content="1 day" />
 <meta name="language" content="English" />
 <meta name="generator" content="N/A" />
-
+<meta name="keywords" content="social media video production, video production, thane, impulse digital"/>
 <meta property="og:title" content="Social Media Video Production Services | Creative Video Agency" />
 <meta property="og:description" content="Our Social media video production services enhances your brand s social presence!From concept to execution every detail is perfected to grab attention. Enquire Now!" />
 <meta property="og:url" content="https://www.theimpulsedigital.com/services/social-media-video-production" />

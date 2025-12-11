@@ -8,7 +8,7 @@ export const ContactHeroSection = (): JSX.Element => {
     <>
     <Helmet>
       <meta name="description" content="If you are looking for digital marketing solutions for your brand, feel free to submit the inquiry form or give us a call." />
-<meta name="keywords" content="" />
+<meta name="keywords" content="contact us, impulse digital" />
 <title>Get In Touch | Impulse Digital</title>
 <meta name="robots" content="index, follow" />
 <meta name="revisit-after" content="1 day" />

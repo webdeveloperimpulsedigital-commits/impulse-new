@@ -8,7 +8,7 @@ export const CasestudiesHeroSection = (): JSX.Element => {
     <>
     <Helmet>
     <meta name="description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
-<meta name="keywords" content="" />
+<meta name="keywords" content="case studies, impulse digital" />
 <title>Digital Marketing Case Studies - Impulse Digital</title>
 
 <meta name="robots" content="index, follow" />
@@ -29,6 +29,7 @@ export const CasestudiesHeroSection = (): JSX.Element => {
 <meta name="twitter:description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
 <meta name="twitter:url" content="https://www.theimpulsedigital.com/case-studies" />
+<link rel="canonical" href="https://www.theimpulsedigital.com/services/social-media-video-production"/>
 
     </Helmet>
     

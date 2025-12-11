@@ -3,7 +3,6 @@ import { Helmet } from "react-helmet-async";
 export const FeaturedItemsSection = (): JSX.Element => {
   
   const heroTextLines = ["CREATING", "DIGITAL GROWTH", "STORIES"];
-  
 
   const handleContactClick = () => {
     console.log("Contact button clicked");
@@ -34,6 +33,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
 <meta name="twitter:description" content="Impulse Digital is a best digital marketing agency in Navi Mumbai with decades of expertise in global marketing. Our team of proficient experts endure 24*7 to see your brand excel in the online landscape. As a leading digital marketing agency, we seamlessly fulfil all your marketing endeavours within steadfast timelines. Transform your digital marketing goals into impactful revenue with Impulse Digital." />
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/uploads/images/content/contact.jpg" />
 <meta name="twitter:url" content="https://www.theimpulsedigital.com/digital-marketing-agency-in-navi-mumbai" />
+<link rel="canonical" href="https://www.theimpulsedigital.com/digital-marketing-agency-in-navi-mumbai"/>
 
     </Helmet>
   

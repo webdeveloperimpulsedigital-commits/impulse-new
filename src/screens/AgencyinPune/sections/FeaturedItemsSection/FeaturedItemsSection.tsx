@@ -35,6 +35,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
 <meta name="twitter:description" content="Impulse Digital is a next-generation digital marketing agency in Pune that helps you build your own online space. Do not Google for digital marketing solutions, just Impulse Digital. Cause even if do Google anything similar to Best Digital Marketing Company in Pune, the chances are high that you might land on this page." />
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/impulse-logo.jpg" />
 <meta name="twitter:url" content="https://www.theimpulsedigital.com/digital-marketing-agency-in-pune" />
+<link rel="canonical" href="https://www.theimpulsedigital.com/digital-marketing-agency-in-pune"/>
 
     </Helmet>
     

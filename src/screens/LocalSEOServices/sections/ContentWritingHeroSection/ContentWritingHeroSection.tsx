@@ -6,29 +6,29 @@ export const ContentWritingHeroSection = (): JSX.Element => {
 return (
 <>
 <Helmet> 
-<meta name="description" content="Impulse Digital offers the best enterprise seo service backed by captivating content for your target audience. With decades of industry experience, we have a sterling track record of delivering unmatched enterprise seo services and results"/>
-<meta name="keywords" content="enterprise seo services, mumbai, india, impulse digital"/>
-<title>Best Enterprise SEO Service | Impulse Digital</title>
+<meta name="description" content="Impulse Digital is one of the best local SEO company in Mumbai that offers end to end local SEO services in India. At Impulse Digital, we fuel all your Local SEO dreams and bring them to life. We strive to offer you the local SEO services that promote all your business locations optimally."/>
+<meta name="keywords" content="local seo services, mumbai, local search engine optimization services, india"/>
+<title>Best Local SEO Services in India | Impulse Digital</title>
 
 <meta name="robots" content="index, follow"/>
 <meta name="revisit-after" content="1 day"/>
 <meta name="language" content="English"/>
 <meta name="generator" content="N/A"/>
 
-<meta property="og:title" content="Best Enterprise SEO Service | Impulse Digital"/>
-<meta property="og:description" content="Impulse Digital offers the best enterprise seo service backed by captivating content for your target audience. With decades of industry experience, we have a sterling track record of delivering unmatched enterprise seo services and results"/>
-<meta property="og:url" content="https://www.theimpulsedigital.com/services/search-engine-optimization/enterprise-seo-services"/>
+<meta property="og:title" content="Best Local SEO Services in India | Impulse Digital"/>
+<meta property="og:description" content="Impulse Digital is one of the best local SEO company in Mumbai that offers end to end local SEO services in India. At Impulse Digital, we fuel all your Local SEO dreams and bring them to life. We strive to offer you the local SEO services that promote all your business locations optimally."/>
+<meta property="og:url" content="https://www.theimpulsedigital.com/local-seo-service"/>
 <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
 <meta property="og:site_name" content="Impulse Digital"/>
 <meta property="og:type" content="website"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="@impulsedigi"/>
 <meta name="twitter:creator" content="@impulsedigi"/>
-<meta name="twitter:title" content="Best Enterprise SEO Service | Impulse Digital"/>
-<meta name="twitter:description" content="Impulse Digital offers the best enterprise seo service backed by captivating content for your target audience. With decades of industry experience, we have a sterling track record of delivering unmatched enterprise seo services and results"/>
+<meta name="twitter:title" content="Best Local SEO Services in India | Impulse Digital"/>
+<meta name="twitter:description" content="Impulse Digital is one of the best local SEO company in Mumbai that offers end to end local SEO services in India. At Impulse Digital, we fuel all your Local SEO dreams and bring them to life. We strive to offer you the local SEO services that promote all your business locations optimally."/>
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
-<meta name="twitter:url" content="https://www.theimpulsedigital.com/enterprise-seo-service"/>
-<link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/enterprise-seo-services"/>
+<meta name="twitter:url" content="https://www.theimpulsedigital.com/local-seo-service"/>
+<link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/local-seo-services"/>
 </Helmet>
 
     <section

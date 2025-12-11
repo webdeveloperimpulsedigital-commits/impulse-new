@@ -29,6 +29,7 @@ export const ContentWritingHeroSection = (): JSX.Element => {
       <meta name="twitter:description" content="Best social media marketing services in Mumbai offered by Impulse digital are combined with creative strategies to make your business grow faster on social media. Our social media marketing services will ensure that your brand communication reaches the target audience along with having an access to the valuable insights on your customers’ behavioural pattern" />
       <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
       <meta name="twitter:url" content="https://www.theimpulsedigital.com/social-media-marketing" />
+      <link rel="canonical" href="https://www.theimpulsedigital.com/services/social-media-marketing"/>
 
     </Helmet>
     <section

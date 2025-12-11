@@ -34,6 +34,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/mumbai-img/digital-marketing-company-in-thane.jpg" />
 <meta name="twitter:url" content="https://www.theimpulsedigital.com/digital-marketing-agency-in-thane" />
 <meta name="robots" content="index, follow"/>
+<link rel="canonical" href="https://www.theimpulsedigital.com/digital-marketing-agency-in-thane"/>
 
     </Helmet>
    

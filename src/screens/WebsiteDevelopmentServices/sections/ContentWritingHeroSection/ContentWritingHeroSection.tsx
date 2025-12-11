@@ -27,6 +27,7 @@ export const ContentWritingHeroSection = (): JSX.Element => {
         <meta name="twitter:description" content="Looking for a top website design and development company in thane to create the website suited for your brand image. Our website design and development services do not just focus on a play of words and pictures, rather, we aim at creating an online persona effectively that entices the users to click more and enables them to understand your brand better." />
         <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
         <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/website-development" />
+        <link rel="canonical" href="https://www.theimpulsedigital.com/services/website-development"/>
    </Helmet>
     <section
       className="relative w-full lg:h-screen sm:h-screen lg:min-h-[700px] sm:min-h-[500px] rounded-t-[55px] overflow-hidden"

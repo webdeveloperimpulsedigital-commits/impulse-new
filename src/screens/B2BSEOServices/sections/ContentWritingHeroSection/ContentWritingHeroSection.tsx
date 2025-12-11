@@ -6,29 +6,30 @@ export const ContentWritingHeroSection = (): JSX.Element => {
   return (
     <>
     <Helmet> 
-<meta name="description" content="Impulse Digital offers the best enterprise seo service backed by captivating content for your target audience. With decades of industry experience, we have a sterling track record of delivering unmatched enterprise seo services and results"/>
-<meta name="keywords" content="enterprise seo services, mumbai, india, impulse digital"/>
-<title>Best Enterprise SEO Service | Impulse Digital</title>
+<meta name="description" content="Impulse Digital offers the best B2B SEO service in India. Get your business wired for success with the right B2B SEO strategy put together by experts at Impulse Digital. We have a dedicated team of B2B SEO experts that work round-the-clock to give your business the absolute attention it needs."/>
+<meta name="keywords" content="b2b seo services, mumbai, india, impulse digital"/>
+<title>B2B SEO Service in India | Impulse Digital</title>
 
 <meta name="robots" content="index, follow"/>
 <meta name="revisit-after" content="1 day"/>
 <meta name="language" content="English"/>
 <meta name="generator" content="N/A"/>
 
-<meta property="og:title" content="Best Enterprise SEO Service | Impulse Digital"/>
-<meta property="og:description" content="Impulse Digital offers the best enterprise seo service backed by captivating content for your target audience. With decades of industry experience, we have a sterling track record of delivering unmatched enterprise seo services and results"/>
-<meta property="og:url" content="https://www.theimpulsedigital.com/services/search-engine-optimization/enterprise-seo-services"/>
+<meta property="og:title" content="B2B SEO Service in India | Impulse Digital"/>
+<meta property="og:description" content="Impulse Digital offers the best B2B SEO service in India. Get your business wired for success with the right B2B SEO strategy put together by experts at Impulse Digital. We have a dedicated team of B2B SEO experts that work round-the-clock to give your business the absolute attention it needs."/>
+<meta property="og:url" content="https://www.theimpulsedigital.com/b2b-seo-service"/>
 <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
 <meta property="og:site_name" content="Impulse Digital"/>
 <meta property="og:type" content="website"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="@impulsedigi"/>
 <meta name="twitter:creator" content="@impulsedigi"/>
-<meta name="twitter:title" content="Best Enterprise SEO Service | Impulse Digital"/>
-<meta name="twitter:description" content="Impulse Digital offers the best enterprise seo service backed by captivating content for your target audience. With decades of industry experience, we have a sterling track record of delivering unmatched enterprise seo services and results"/>
+<meta name="twitter:title" content="B2B SEO Service in India | Impulse Digital"/>
+<meta name="twitter:description" content="Impulse Digital offers the best B2B SEO service in India. Get your business wired for success with the right B2B SEO strategy put together by experts at Impulse Digital. We have a dedicated team of B2B SEO experts that work round-the-clock to give your business the absolute attention it needs."/>
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
-<meta name="twitter:url" content="https://www.theimpulsedigital.com/enterprise-seo-service"/>
-<link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/enterprise-seo-services"/>
+<meta name="twitter:url" content="https://www.theimpulsedigital.com/b2b-seo-service"/>
+
+<link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/b2b-seo-services"/>
 </Helmet>
   
     <section
