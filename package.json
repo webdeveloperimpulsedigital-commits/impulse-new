@@ -11,9 +11,9 @@
   },
   "reactSnap": {
     "source": "dist",
-    "publicPath": "/",           
-    "port": 45678,                          
-    "crawl": false,                         
+    "publicPath": "/",
+    "port": 45678,
+    "crawl": false,
     "include": [
       "/",
       "/about-us",
@@ -32,12 +32,9 @@
       "/services/employee-branding-agency",
       "/services/social-media-video-production",
       "/services/agentic-ai",
-
       "/services/intelli-pulse",
       "/services/ai-video-production",
-       "/services/video-production",
-
-  
+      "/services/video-production",
       "/casestudies",
       "/casestudies/shree-rubber-works",
       "/casestudies/atrac-engine-parts",
@@ -47,12 +44,12 @@
       "/casestudies/hem",
       "/casestudies/crafting-the-employer-value-proposition-for-amazon-india",
       "/casestudies/grasim-pulp-and-fibre",
-      "/casestudies/laljee-godhoo" ,
-      "/casestudies/mastercard" ,
-      "/casestudies/d-mart" ,
-      "/casestudies/hul" ,
+      "/casestudies/laljee-godhoo",
+      "/casestudies/mastercard",
+      "/casestudies/d-mart",
+      "/casestudies/hul",
       "/casestudies/keva",
-      "/casestudies/vendiman" ,
+      "/casestudies/vendiman",
       "/resources",
       "/resources/EBooks/",
       "/resources/videos/",
@@ -73,7 +70,9 @@
       "/terms-and-conditions"
     ],
     "skipThirdPartyRequests": true,
-    "puppeteerArgs": ["--no-sandbox"]
+    "puppeteerArgs": [
+      "--no-sandbox"
+    ]
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.1",
@@ -89,6 +88,7 @@
     "react-flip-numbers": "^3.0.9",
     "react-helmet-async": "^2.0.5",
     "react-router-dom": "^7.9.1",
+    "react-schemaorg": "^2.0.0",
     "swiper": "^12.0.2",
     "tailwind-merge": "2.5.4",
     "tailwindcss-animate": "1.0.7"
