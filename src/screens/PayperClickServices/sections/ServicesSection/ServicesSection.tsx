@@ -84,7 +84,7 @@ const ServicesSection = () => {
       n: "08",
       title: "Twitter Ads",
       points: [
-        "Want to reach out to decision-makers at top companies in the world? Our highly targeted LinkedIn ads leverage detailed demographic and job role data to connect you with the right audience to support your business’s sustainable growth in the B2B arena.",
+        "Reach an engaged audience with real-time messaging, thanks to your PPC services for Twitter ads that capture attention through concise, impactful copy and eye-catching visuals. Our experts continually monitor campaigns and adjust strategies to maintain relevance in the fast-paced Twitter environment.",
       ],
       img: "/service section 520 x 340 - Linkedin Ads.jpg",
     },

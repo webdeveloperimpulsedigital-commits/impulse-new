@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
- 
+
 interface BlogPost {
   id: string;
   author: string;
@@ -15,52 +15,53 @@ interface BlogPost {
   title: string;
   description: string;
   image: string;
+  url: string;  // added URL field for each blog post
   category?: string;
 }
- 
+
 export const BlogSection = (): JSX.Element => {
   const [isMobile, setIsMobile] = useState(false);
- 
+
   useEffect(() => {
     const checkMobile = () => setIsMobile(window.innerWidth < 768);
     checkMobile();
     window.addEventListener('resize', checkMobile);
     return () => window.removeEventListener('resize', checkMobile);
   }, []);
- 
+
   const blogPosts: BlogPost[] = [
     {
       id: "1",
       author: "Admin",
-      date: "Sep 26, 2025",
-      title:
-        "Storytelling in Digital Marketing: How to Build Emotional Brands",
+      date: "Dec 11, 2025",
+      title: "How to Use User Generated Content to Create Real Brand Stories",
       description:
-        "Marketing today focuses on showing deep connections rather than just selling goods or services. A brand’s skill to tell an engaging story is what will make them stand out in this world of changing trends. Digital Marketing turns into emotional experience through storytelling instead of a transactional pitch. Customers feel motivated, appreciated, and understood as a result...",
-      image: "/blog/Storytelling-in-Digital-Marketing-1024x683.webp",
+        "As digital ecosystems get busier, people are becoming more picky about which brands they trust. It’s no longer enough to only use traditional advertising to build trust or an emotional connection. Instead, brands are using user generated content (UGC) as a strategic tool to create real, trustworthy brand stories. When done right, UGC makes storytelling stronger by putting real customer experiences at the heart of a brand’s message.",
+      image: "/dec-11.jpg",
+      url: "https://www.theimpulsedigital.com/blog/how-to-use-user-generated-content-to-create-real-brand-stories/"
     },
     {
       id: "2",
       author: "Admin",
-      date: "Sep 19, 2025",
-      title:
-        "SEO vs Google Ads: Which Is Better for Your Business in 2025? ",
+      date: "Sep 26, 2025",
+      title: "Storytelling in Digital Marketing: How to Build Emotional Brands",
       description:
-        "In this digital age, visibility on the web might build or ruin your business. In 2025, the way to dominate the market is through either Search Engine Optimisation (SEO) or Google Ads. Even though they have the same goal of raising potential clients and brand awareness, they work quite differently. Knowing how and when to use each to achieve certain business objectives is much...",
-      image: "/blog/Compare-SEO-and-Google-Ads-in-2025-1024x683.webp",
+        "Marketing today focuses on showing deep connections rather than just selling goods or services. A brand’s skill to tell an engaging story is what will make them stand out in this world of changing trends. Digital Marketing turns into emotional experience through storytelling instead of a transactional pitch. Customers feel motivated, appreciated, and understood as a result.",
+      image: "/September 26, 2025.jpg",
+      url: "https://www.theimpulsedigital.com/blog/storytelling-in-digital-marketing-how-to-build-emotional-brands/"
     },
     {
       id: "3",
       author: "Admin",
       date: "Sep 12, 2025",
-      title:
-        "What Is ROAS and How Do You Calculate It? Everything you need to know",
+      title: "SEO vs Google Ads: Which Is Better for Your Business in 2025?",
       description:
-        "In this competitive digital market, businesses tend to not foolishly spend on advertising. Every rupee or dollar put into it must have measurable results, and marketers must have a proper means to know where campaigns are effective. ROAS (Return on Ad Spend) is a much-needed performance statistic that directly correlates ad spending with revenue outcomes. ROAS gives a clear financial perspective on how much...",
-      image: "/blog/What-Is-ROAS-and-How-Do-You-Calculate-It-1024x683.webp",
+        "In this digital age, visibility on the web might build or ruin your business. In 2025, the way to dominate the market is through either Search Engine Optimisation (SEO) or Google Ads. Even though they have the same goal of raising potential clients and brand awareness, they work quite differently. Knowing how and when to use each to achieve certain business objectives is much better than debating which one is the greater choice.",
+      image: "/seo-gd.jpg",
+      url: "https://www.theimpulsedigital.com/blog/seo-vs-google-ads-which-is-better-for-your-business-in-2025/"
     },
   ];
- 
+
   const BlogCard = ({ post }: { post: BlogPost }) => (
     <article
       className="card group bg-white rounded-xl overflow-hidden border border-gray-100 shadow-sm
@@ -74,23 +75,19 @@ export const BlogSection = (): JSX.Element => {
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]" style={{ borderRadius: '12px'}}
         />
       </div>
- 
+
       <div className="flex-1 p-4 md:p-5 flex flex-col min-h-0 overflow-hidden">
         <div className="flex items-center justify-between gap-3 mb-2 shrink-0">
-          
           <span className="[font-family:'DM_Sans',Helvetica] font-normal text-[#666] text-xs md:text-sm">
             {post.date}
           </span>
-          <span className="[font-family:'DM_Sans',Helvetica] font-medium text-[#030019] text-xs md:text-sm">
-            {/* By {post.author} */}
-          </span>
         </div>
- 
+
         <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-sm md:text-base leading-snug mb-2
                        group-hover:text-[#543d98] transition-colors line-clamp-2">
           {post.title}
         </h3>
- 
+
         <div
           className="desc flex-1 overflow-hidden group-hover:overflow-auto pr-0 group-hover:pr-1
                      text-[#666] text-xs md:text-sm leading-relaxed"
@@ -99,18 +96,26 @@ export const BlogSection = (): JSX.Element => {
             {post.description}
           </p>
         </div>
- 
+
+        {/* Updated Read More Link */}
         <div className="mt-3 flex items-center gap-2 text-[#543d98] opacity-1 -translate-x-1
                         transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0">
-          <span className="[font-family:'DM_Sans',Helvetica] font-semibold text-sm">
-            Read More
-          </span>
-          <ArrowRightIcon className="w-4 h-4" />
+          <a
+            href={post.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2"
+          >
+            <span className="[font-family:'DM_Sans',Helvetica] font-semibold text-sm">
+              Read More
+            </span>
+            <ArrowRightIcon className="w-4 h-4" />
+          </a>
         </div>
       </div>
     </article>
   );
- 
+
   /* ---------------- MOBILE SLIDER (peek prev/next at corners) ---------------- */
   const MobileSlider = () => (
     <div className="lg:pt-5 block md:hidden px-0">
@@ -144,7 +149,7 @@ export const BlogSection = (): JSX.Element => {
           </SwiperSlide>
         ))}
       </Swiper>
- 
+
       {/* ✅ Mobile "See All Articles" button BEFORE controllers */}
       <div className="flex justify-center mt-4">
         <Button className="w-[220px] h-[44px] group flex items-center justify-center gap-2 px-4 py-6 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border-[#543d98] hover:border hover:border-[#543d98]">
@@ -159,7 +164,7 @@ export const BlogSection = (): JSX.Element => {
           />
         </Button>
       </div>
- 
+
       {/* Controllers (prev/next) */}
       <div className="flex justify-center items-center gap-4 mt-4">
         <Button className="group blog-nav-button blog-button-prev ">
@@ -173,7 +178,7 @@ export const BlogSection = (): JSX.Element => {
       </div>
     </div>
   );
- 
+
   /* ---------------- DESKTOP GRID (unchanged) ---------------- */
   const DesktopGrid = () => (
     <div className="hidden md:block">
@@ -184,7 +189,7 @@ export const BlogSection = (): JSX.Element => {
       </div>
     </div>
   );
- 
+
   return (
     <section className="bg-gray mx-auto px-0 md:px-8 lg:px-20 py-10 sm:pt-8 lg:pt-16 pb-16 sec-border-abt" id="sec-border" data-section="blog">
       <div className="mx-auto px-4 md:px-4">
@@ -200,7 +205,7 @@ export const BlogSection = (): JSX.Element => {
               </span>
             </h2>
           </div>
- 
+
           {/* ✅ Hide header button on mobile, keep on desktop */}
           <div className="flex-shrink-0 hidden md:block">
             <Button className="w-[220px] h-[44px] group inline-flex items-center gap-2 px-4 py-6 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border-[#543d98] hover:border hover:border-[#543d98]">
@@ -216,11 +221,11 @@ export const BlogSection = (): JSX.Element => {
             </Button>
           </div>
         </div>
- 
+
         <MobileSlider />
         <DesktopGrid />
       </div>
- 
+
       <style>{`
         .blog-row .card {
           flex: 1 1 0%;
@@ -228,14 +233,14 @@ export const BlogSection = (): JSX.Element => {
         }
         .blog-row:has(.card:hover) .card { flex-basis: 22.5%; }
         .blog-row:has(.card:hover) .card:hover { flex-basis: 45%; }
- 
+
         .desc::-webkit-scrollbar { width: 6px; }
         .desc::-webkit-scrollbar-thumb { background: #e5e7eb; border-radius: 9999px; }
         .desc { scrollbar-width: thin; }
- 
+
         #blog .w-full{ height: 390px; border-radius: 13px; }
         .blog-row .card { flex: 1 1 0%; background: #fff; padding: 1rem; height: 650px; gap:0px;}
- 
+
         /* Swiper basics */
         .blog-swiper { overflow: hidden; padding-bottom: 0px !important; }
         .blog-swiper .swiper-pagination {
@@ -247,7 +252,7 @@ export const BlogSection = (): JSX.Element => {
           width: 8px; height: 8px; background: rgba(84, 61, 152, 0.3);
           border-radius: 50%; margin: 0 4px; cursor: pointer; transition: all 0.3s ease;
         }
- 
+
         .blog-button-prev{ background: #fff; }
         .blog-nav-button {
           width: 50px; height: 50px; border-radius: 50%;
@@ -256,7 +261,7 @@ export const BlogSection = (): JSX.Element => {
         }
         .blog-nav-button:hover { transform: scale(1.1); border-color: #543d98; background: #543d98; color: white; }
         .blog-nav-button svg { width: 20px; height: 20px; stroke-width: 2; }
- 
+
         /* ---------------- MOBILE ONLY: corner previews ---------------- */
         @media (max-width: 767px) {
           .blog-swiper { overflow: hidden; }
@@ -266,14 +271,12 @@ export const BlogSection = (): JSX.Element => {
           }
           .blog-swiper .swiper-slide-prev,
           .blog-swiper .swiper-slide-next { transform: scale(.97); }
- 
+
           .blog-swiper .swiper-pagination { display: none !important; }
- 
+
           .card { background: #ffffff; padding: 0px; }
         }
       `}</style>
     </section>
   );
 };
- 
- 

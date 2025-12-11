@@ -30,6 +30,7 @@ export const ServicesHeroSection = (): JSX.Element => {
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/impulse-logo.jpg" />
 <meta name="twitter:url" content="https://www.theimpulsedigital.com/digital-marketing-agency-in-pune" />
 <link rel="icon" type="image/x-icon" href="/resource-icon.png" />
+<link rel="canonical" href="https://www.theimpulsedigital.com/services"/>
 
     </Helmet>
     
