@@ -64,6 +64,8 @@ export const AiSeoAgencyHeroSection = (): JSX.Element => {
             Home
           </NavLink>
           <span className="select-none">{">"}</span>
+          <span className="text-white">Services</span>
+           <span className="select-none">{">"}</span>
           <span className="text-white">AI SEO</span>
         </nav>
       </div>

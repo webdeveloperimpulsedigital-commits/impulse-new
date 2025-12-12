@@ -30,7 +30,7 @@ const ServicesSection = () => {
     points: [
       "At Impulse Digital, we optimize for the next era of search, ensuring your brand is discoverable across AI-driven engines and voice assistants through context-rich, conversational content.",
     ],
-    img: "/aeo.jpg", // change if you have a different image
+    img: "/AEO (Answer Engine Optimization).png", // change if you have a different image
   },
 
   {
@@ -39,7 +39,7 @@ const ServicesSection = () => {
     points: [
       "We craft content that earns your brand a place in AI-generated answers, summaries, and recommendations—making sure you stay visible where audiences seek instant insights.",
     ],
-    img: "/geo.jpg", // change if needed
+    img: "/GEO.png", // change if needed
   },
 
   {
@@ -48,7 +48,7 @@ const ServicesSection = () => {
     points: [
       "Powered by leading AI tools and automation, we combine data intelligence with creativity to deliver SEO strategies that adapt, perform, and scale in real time.",
     ],
-    img: "/ai-platforms.jpg", // change if needed
+    img: "/ai-platforms.png", // change if needed
   },
 ];
 
@@ -254,10 +254,10 @@ const ServicesSection = () => {
             <div className="mx-auto relative">
               <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
                 <span className="text-[#ffffffb2]  lg:text-[34px] sm:text-[16px]">
-                  Our AI SEO
+                  Unlock The AI SEO Solutions 
                 </span>
                 <span className="font-bold text-[#ffffff] lg:text-[52px] md:text-[52px] sm:text-[26px]">
-                 Services
+                 You Need
                 </span>
               </h2>
             </div>

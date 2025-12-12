@@ -101,10 +101,10 @@ export const BrandVisionSection = (): JSX.Element => {
         {/* Title */}
         <div className="mb-6 lg:mb-8 pt-10">
           <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px] ">
-            AI SEO
+           Search Intelligence 
           </h2>
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-            Agency Overview
+            Built With Artificial Intelligence
           </h2>
         </div>
 
@@ -114,7 +114,7 @@ export const BrandVisionSection = (): JSX.Element => {
           <div className="lg:col-span-5 lg:w-[600px]">
             <div className="relative rounded-2xl overflow-hidden shadow-lg ">
               <img
-                src="/ai-se-about.jpg"
+                src="/Ai Seo-01.png"
                 alt="SEO workspace"
                 className="w-full sm:h-[400px] lg:h-[700px] object-cover"
               />

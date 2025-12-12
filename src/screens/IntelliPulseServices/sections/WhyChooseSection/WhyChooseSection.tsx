@@ -12,10 +12,10 @@ export const WhyChooseSection = (): JSX.Element => {
         {/* Heading */}
         <div className="mb-6 lg:mb-8 pt-0">
           <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px] ">
-            Why Choose Impulse Digital for Intelli Pulse
+            For Brands that want Insight 
           </h2>
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-            Insight That Moves Business Forward
+            Not Just Information
           </h2>
         </div>
 

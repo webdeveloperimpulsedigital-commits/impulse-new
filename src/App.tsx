@@ -80,7 +80,7 @@ export const App = (): JSX.Element => {
       <Route path="/services/search-engine-optimization/local-seo-services" element={<LocalSEOServices />}/>
       <Route path="/services/website-development" element={<WebsiteDevelopmentServices />}/>
       <Route path="/services/branding-creative-services" element={<BrandingCreativeServices />}/>
-      <Route path="/services/employee-branding-agency" element={<EmployerBrandingServices />}/>
+      <Route path="/services/employer-branding-agency" element={<EmployerBrandingServices />}/>
       <Route path="/services/corporate-communication-agency" element={<CorporateCommunicationServices />}/>
       <Route path="/services/social-media-video-production" element={<SocialMediaVideoProductionServices />}/>
       <Route path="/services/search-engine-optimization/ai-seo-agency" element={<AiSeoAgency />} />

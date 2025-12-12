@@ -37,14 +37,24 @@ const DEFAULT_ITEMS: NavItem[] = [
     href: "/services",
     hasDropdown: true,
     dropdownItems: [
-      { label: "Content Writing ", href: "/services/content-writing-services" },
-      { label: "Performance Marketing (PPC)", href: "/services/performance-marketing" },
-      { label: "Social Media Marketing", href: "/services/social-media-marketing" },
+      // {label: "Intelli Pulse", href: "/services/intelli-pulse"},
+      // { label: " Agentic AI", href: "/services/agentic-ai"},
+     
+      // {
+      //   label: "Video Production",
+      //   href: "/services/video-production",
+      //   hasSubDropdown: true,
+      //   subItems: [
+          
+      //     {label: "AI Video Production", href: "/services/ai-video-production"},
+      //   ],
+      // },
       {
         label: "Search Engine Optimization",
         href: "/services/search-engine-optimization",
         hasSubDropdown: true,
         subItems: [
+          
           // { label: "AI Seo" , href: "/services/search-engine-optimization/ai-seo-agency"},
           { label: "Enterprise SEO ", href: "/services/search-engine-optimization/enterprise-seo-services" },
           { label: "eCommerce SEO ", href: "/services/search-engine-optimization/ecommerce-seo-services" },
@@ -52,15 +62,18 @@ const DEFAULT_ITEMS: NavItem[] = [
           { label: "Local SEO ", href: "/services/search-engine-optimization/local-seo-services" },
         ],
       },
-      { label: "Website Development", href: "/services/website-development" },
-      { label: "Branding Creative", href: "/services/branding-creative-services" },
-      { label: "Employee Branding", href: "/services/employee-branding-agency" },
-      // { label: "Corporate Communication", href: "/services/corporate-communication-agency" },
       { label: "Social Media Video Production", href: "/services/social-media-video-production" },
-      // { label: " Agentic AI", href: "/services/agentic-ai"},
-      // {label: "Intelli Pulse", href: "/services/intelli-pulse"},
-      // {label: "AI Video Production", href: "/services/ai-video-production"},
-      // {label: "Video Production", href: "/services/video-production"},
+      { label: "Content Writing ", href: "/services/content-writing-services" },
+      { label: "Performance Marketing (PPC)", href: "/services/performance-marketing" },
+      { label: "Social Media Marketing", href: "/services/social-media-marketing" },
+      { label: "Website Development", href: "/services/website-development" },
+      { label: "Branding", href: "/services/branding-creative-services" },
+      { label: "Employer Branding", href: "/services/employer-branding-agency" },
+      // { label: "Corporate Communication", href: "/services/corporate-communication-agency" },
+      
+      
+      
+      
     ],
   },
   { label: "Case Studies", href: "/casestudies",
@@ -75,16 +88,14 @@ const DEFAULT_ITEMS: NavItem[] = [
     dropdownItems: [
       { label: "EBooks", href: "/resources/ebooks" },
       { label: "Videos", href: "/resources/videos" },
-      { label: "Slideshare PPT", href: "/resources/slideshare-PPT" }
+      { label: "Slideshare PPT", href: "/resources/slideshare-ppt" }
     ]
     },
   // { label: "Career", href: "/career" },
 ];
-
 export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
   const navigationItems = items ?? DEFAULT_ITEMS;
   const location = useLocation();
-
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
   const [openSubDropdown, setOpenSubDropdown] = useState<string | null>(null);

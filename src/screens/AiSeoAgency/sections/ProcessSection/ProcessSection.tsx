@@ -72,18 +72,12 @@ export const ProcessSection = (): JSX.Element => {
       <div className="max-w-[1280px] mx-auto px-4 lg:px-8">
         {/* Header */}
         <div className="mb-5 lg:mb-16">
-          
-
           <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
-
-              How Great Content
-
-             </p>
+            How We Make AI Work 
+            </p>
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-           Comes to Life 
+          For You
           </h2>
-
-
         </div>
 
         {/* Process Steps */}
