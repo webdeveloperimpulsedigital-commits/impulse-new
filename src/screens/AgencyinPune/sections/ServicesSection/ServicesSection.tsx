@@ -91,7 +91,7 @@ const ServicesSection = () => {
         "A strong employer brand doesn’t just attract talent, it inspires it. Our employer branding services help organizations shape how people see, feel and experience their workplace. From defining your EVP to building authentic storytelling that reflects your culture, we turn your employees into brand ambassadors and your company into a talent magnet. Through strategy, design and communication, we craft a brand narrative that resonates both inside and outside the organization. Because when people believe in where they work, they help the world believe in it too.",
       ],
       img: "/05_Employer Branding.jpg",
-      link: "/services/employer-branding",
+      link: "/services/employer-branding-agency",
     },
     {
       n: "08",
