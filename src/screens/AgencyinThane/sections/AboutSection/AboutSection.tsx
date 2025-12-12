@@ -160,18 +160,20 @@ export const AboutSection = (): JSX.Element => {
         <div className="flex flex-col gap-6 md:gap-8 w-full lg:w-[540px] xl:w-[670px]">
           <div className="flex flex-col gap-4 md:gap-6">
             <p className="pt-5 [font-family:'DM_Sans',Helvetica] text-[#030019] sm:text-[12px] md:text-[24px] lg:text-[24px] leading-relaxed text-justify">
-              We are a Mumbai-based 360° digital marketing agency, a family of
-              go-getters who love creating brands and telling stories. Our team
-              is rightfully an extension of your business, helping you find your
-              unique voice, redefine your messaging, and stir conversations that
-              resonate with your audience.
+              At Impulse Digital, we’re more than just a digital marketing agency, we’re growth partners for brands that want to make their mark online. Our approach blends data-driven strategies, customer-centric insights, and realistic timelines to ensure your digital presence aligns seamlessly with your business goals. 
+
+
             </p>
 
             <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] sm:text-[12px] md:text-[24px] lg:text-[24px]  leading-relaxed text-justify">
-              What makes us one of the top digital marketing companies? It's the
-              way we marry creativity, strategy, and client relationship to
-              deliver results you can data-check and rely on because, for us,
-              the idea is simple: We grow when you grow.
+              We believe in long-term partnerships over one-time transactions. By deeply understanding our clients’ industries and speaking their language, we design digital strategies that don’t just create noise but deliver measurable results. As a trusted digital marketing agency in Thane, we simplify the ever-expanding digital landscape for our clients, making it easier to boost visibility, increase engagement, and win on social media. 
+
+
+            </p>
+             <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] sm:text-[12px] md:text-[24px] lg:text-[24px]  leading-relaxed text-justify">
+              
+
+So, why keep searching for digital marketing solutions when the answer is right here? Choose Impulse Digital, your Digital Marketing Agency in Thane. 
             </p>
           </div>
 

@@ -6,47 +6,47 @@ type QA = { q: string; a: string };
 
 const DEFAULT_QA: QA[] = [
   {
-    q: "What is a digital marketing agency?",
-    a: "A digital marketing agency helps businesses grow online using services like performance ads, SEO, social, content, automation and analytics tailored to goals and budgets."
+    q: "What does Impulse Digital do for brands in Navi Mumbai?",
+    a: "We plan and execute digital marketing that aligns with business goals. Our team blends strategy, creative, media, web, content, and analytics to build visibility, engagement, and conversions."
   },
   {
-    q: "What are the benefits of hiring a digital marketing agency to leverage your business?",
-    a: "You get senior expertise, speed of execution, cross-channel strategy, creative at scale, and measurable performance without building a large in-house team."
+    q: "How do you create a strategy that matches our goals and timelines?",
+    a: "We begin with discovery and an audit of your market and current performance, define clear objectives, and build a roadmap that prioritizes actions by expected impact and required effort."
   },
   {
-    q: "What is the role of a result-oriented digital marketing agency in elevating your business?",
-    a: "A results-driven partner aligns channels to KPIs, runs continuous experiments, optimizes budgets in real-time, and reports outcomes clearly to drive revenue and efficiency."
+    q: "Which services can you manage within one engagement?",
+    a: "We manage performance marketing, search engine optimization, social media, content creation, branding, website design and development, video production, and analytics under one coordinated plan."
   },
   {
-    q: "Top 6 services an agency should offer for your business?",
-    a: "Strategy, Performance Ads, SEO, Social & Content, Marketing Automation/CRM, and Analytics/Attribution."
+    q: "Do you work only with brands in Navi Mumbai or across regions as well?",
+    a: "We are based in Navi Mumbai and partner with clients across India and overseas. Collaboration is supported through shared workspaces, regular reviews, and clear points of contact."
   },
   {
-    q: "What are the advantages of hiring a leading digital marketing agency?",
-    a: "Proven playbooks, specialized teams, enterprise-grade tools, faster time-to-value, and lower total cost of ownership."
+    q: "How do you measure success and report progress?",
+    a: "Success is defined through agreed KPIs such as reach, engagement, qualified leads, sales, and return on investment. Dashboards and review calls translate data into actions for the next cycle."
   },
   {
-    q: "Can I expect instant results after hiring an agency?",
-    a: "Some channels show quick lifts (e.g., performance ads). Others compound over time (e.g., SEO). A balanced mix delivers both short-term and long-term ROI."
+    q: "How quickly can we expect results after launch?",
+    a: "Paid campaigns can show early signals within days once tracking is verified, while organic growth builds over weeks and months as technical fixes, content, and community programs take effect."
   },
   {
-    q: "Is it possible to measure the efficacy of your digital marketing agency's strategies?",
-    a: "Yes. With clear KPIs, proper tracking, conversion events, and multi-touch attribution, you can measure impact across the funnel."
-  },
-
-  {
-    q: "What is the budget to hire a digital marketing agency for your business?",
-    a: "The budget to hire the best digital marketing agency in Mumbai depends on your requirements which includes various factors like your scope of services, the industry, the size of your business and, most importantly, your marketing goals and expectations. It is essential to contact the agency directly for any further queries about budget or services to make a better deal. Approximately the budget ranges from 70k to 2 Lakh to hire a good marketing agency for your business.To ensure an informed decision, consider several factors carefully."
+    q: "Will you handle content creation and production or do we need other partners?",
+    a: "Our in-house teams produce copy, design, and video so execution stays consistent with strategy. We can also collaborate with your existing partners where preferred."
   },
   {
-    q: "Before signing up with an agency, should I consider geographic factors like location?",
-    a: "No, one does not need to consider the agency's location, as digital marketing services are provided online and are certainly not restricted to physical presence or areas. Anyone can easily receive top digital marketing services from Mumbai to anywhere in the world. However, it is essential to consider the following factors: the agency's expertise in your domain, industry alignment, experience, and facilities they provide for online operations to ensure a smooth working process."
+    q: "Can you share case studies and learning resources before we decide?",
+    a: "Yes. Public case studies and knowledge resources are available, and additional references can be shared on request subject to confidentiality. We can outline expected benchmarks for similar categories."
   },
   {
-    q: "What skills are necessary for an agency before onboarding?",
-    a: "When onboarding and deciding on an agency, it is essential to prioritize domain expertise, transparent communication that helps build trust, creative design and marketing strategy, and keeping a track record of quality work. The team of people coordinating should have qualities of problem-solving with efficiency. This shows that the agency is highly dependable and trustworthy."
+    q: "How do you ensure brand safety and data privacy?",
+    a: "We request only the access required, follow your privacy and compliance policies, and document permissions in the agreement. Creative and placements follow platform guidelines and category norms."
+  },
+  {
+    q: "How do we get a proposal tailored to our needs?",
+    a: "Share your objectives, timelines, target markets, and any past reports through the contact form. We will set a discovery call and return with a plan that includes scope, milestones, and measurement."
   }
 ];
+
 
 export const FAQSection: React.FC<{ items?: QA[] }> = ({ items = DEFAULT_QA }) => {
   const [openIndex, setOpenIndex] = useState<number | null>(0);

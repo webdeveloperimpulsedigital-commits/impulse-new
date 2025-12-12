@@ -6,47 +6,39 @@ type QA = { q: string; a: string };
 
 const DEFAULT_QA: QA[] = [
   {
-    q: "What is a digital marketing agency?",
-    a: "A digital marketing agency helps businesses grow online using services like performance ads, SEO, social, content, automation and analytics tailored to goals and budgets."
+    q: "What does it mean that Impulse Digital is a growth partner rather than a vendor?",
+    a: "It means we work as an extension of your team, aligning strategy and execution with your goals and sharing responsibility for outcomes. Collaboration, transparency, and measurable progress drive every decision."
   },
   {
-    q: "What are the benefits of hiring a digital marketing agency to leverage your business?",
-    a: "You get senior expertise, speed of execution, cross-channel strategy, creative at scale, and measurable performance without building a large in-house team."
+    q: "How do you build a strategy that fits my brand and market?",
+    a: "We begin with discovery and a performance audit, define clear objectives, and map audience journeys. From there we create a test and learn roadmap that prioritizes initiatives by impact and effort."
   },
   {
-    q: "What is the role of a result-oriented digital marketing agency in elevating your business?",
-    a: "A results-driven partner aligns channels to KPIs, runs continuous experiments, optimizes budgets in real-time, and reports outcomes clearly to drive revenue and efficiency."
+    q: "How will success be measured and reported to us?",
+    a: "We set KPIs at the start and track visibility, engagement, conversions, and return on investment. Dashboards and review calls convert the data into actions for the next cycle."
   },
   {
-    q: "Top 6 services an agency should offer for your business?",
-    a: "Strategy, Performance Ads, SEO, Social & Content, Marketing Automation/CRM, and Analytics/Attribution."
+    q: "Do you serve only Pune based businesses or work across regions as well?",
+    a: "We are based in Pune and support clients across India and overseas. Delivery models are flexible so collaboration remains smooth regardless of location."
   },
   {
-    q: "What are the advantages of hiring a leading digital marketing agency?",
-    a: "Proven playbooks, specialized teams, enterprise-grade tools, faster time-to-value, and lower total cost of ownership."
+    q: "What services can you manage under one engagement?",
+    a: "We offer performance marketing, search engine optimization, social media, content, branding, website design and development, video production, and analytics. You can choose full service or project based support."
   },
   {
-    q: "Can I expect instant results after hiring an agency?",
-    a: "Some channels show quick lifts (e.g., performance ads). Others compound over time (e.g., SEO). A balanced mix delivers both short-term and long-term ROI."
+    q: "How soon can we expect results from a new engagement?",
+    a: "Paid campaigns can show directional signals within days once tracking is verified. Organic growth compounds over weeks and months as technical and content improvements take effect."
   },
   {
-    q: "Is it possible to measure the efficacy of your digital marketing agency's strategies?",
-    a: "Yes. With clear KPIs, proper tracking, conversion events, and multi-touch attribution, you can measure impact across the funnel."
-  },
-
-  {
-    q: "What is the budget to hire a digital marketing agency for your business?",
-    a: "The budget to hire the best digital marketing agency in Mumbai depends on your requirements which includes various factors like your scope of services, the industry, the size of your business and, most importantly, your marketing goals and expectations. It is essential to contact the agency directly for any further queries about budget or services to make a better deal. Approximately the budget ranges from 70k to 2 Lakh to hire a good marketing agency for your business.To ensure an informed decision, consider several factors carefully."
+    q: "What does the process look like from first call to launch?",
+    a: "We align on goals, run an audit, agree on a plan with milestones, set up tracking, and prepare creative and landing experiences. Launch follows a quality checklist so that data and delivery are reliable from day one."
   },
   {
-    q: "Before signing up with an agency, should I consider geographic factors like location?",
-    a: "No, one does not need to consider the agency's location, as digital marketing services are provided online and are certainly not restricted to physical presence or areas. Anyone can easily receive top digital marketing services from Mumbai to anywhere in the world. However, it is essential to consider the following factors: the agency's expertise in your domain, industry alignment, experience, and facilities they provide for online operations to ensure a smooth working process."
-  },
-  {
-    q: "What skills are necessary for an agency before onboarding?",
-    a: "When onboarding and deciding on an agency, it is essential to prioritize domain expertise, transparent communication that helps build trust, creative design and marketing strategy, and keeping a track record of quality work. The team of people coordinating should have qualities of problem-solving with efficiency. This shows that the agency is highly dependable and trustworthy."
+    q: "Can you share case studies and references before we decide?",
+    a: "Yes. Public case studies are available and additional references can be shared on request subject to confidentiality terms. We can also outline expected benchmarks for similar categories."
   }
 ];
+
 
 export const FAQSection: React.FC<{ items?: QA[] }> = ({ items = DEFAULT_QA }) => {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
