@@ -188,11 +188,12 @@ export const OpenPositionsSection = (): JSX.Element => {
               {/* Apply Button */}
               <Button className="w-[250px] h-[44px] group inline-flex items-center gap-2 px-4 py-6 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border-[#543d98] hover:border hover:border-[#543d98]">
                 <a
-                  href="mailto:hr@theimpulsedigital.com"
-                  className="font-bold text-white text-sm md:text-base group-hover:text-[#543d98] transition-colors duration-300"
-                >
-                  Apply Now
-                </a>
+  href="#application-form"
+  className="font-bold text-white text-sm md:text-base group-hover:text-[#543d98] transition-colors duration-300"
+>
+  Apply Now
+</a>
+
                 <img
                   src="/button-icon.svg"
                   alt="Arrow"

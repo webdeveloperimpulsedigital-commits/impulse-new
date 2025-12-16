@@ -52,7 +52,7 @@ export const WhyChooseSection = (): JSX.Element => {
               Creative excellence across platforms
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-             LinkedIn is text-first while Instagram, Facebook, YouTube and pinterest are visual-first. Even within this, there are nuances. We have expert designers and writers to understand
+             LinkedIn is text-first while Instagram, Facebook, YouTube and Pinterest are visual-first. Even within this, there are nuances. We have expert designers and writers to understand
             </p>
           </div>
  
@@ -95,7 +95,7 @@ export const WhyChooseSection = (): JSX.Element => {
                 Creative excellence across platforms
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed mb-0">
-                LinkedIn is text-first while Instagram, Facebook, YouTube and pinterest are visual-first. Even within this, there are nuances. We have expert designers and writers to understand
+                LinkedIn is text-first while Instagram, Facebook, YouTube and Pinterest are visual-first. Even within this, there are nuances. We have expert designers and writers to understand
               </p>
             </div>
  

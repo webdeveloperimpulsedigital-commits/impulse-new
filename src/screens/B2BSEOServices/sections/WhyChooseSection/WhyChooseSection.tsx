@@ -58,7 +58,7 @@ export const WhyChooseSection = (): JSX.Element => {
               SEO Strategies for Every Business
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              No two businesses are alike, and neither is our SEO strategy. We tailor every plan to suit your industry, goal, and audience. Whether you are a startup seeking visibility</p>
+              No two businesses are alike, and neither is our SEO strategy. We tailor every plan to suit your industry, goal, and audience. Whether you are a startup seeking visibility or an enterprise aiming for dominance, we have it all covered.</p>
           </div>
  
           {/* 3) Tailored Content Strategy */}

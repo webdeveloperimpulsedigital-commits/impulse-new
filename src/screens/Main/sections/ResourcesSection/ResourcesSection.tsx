@@ -31,14 +31,13 @@ export const ResourcesTeaserSection: React.FC = () => {
             </span>
             <br />
             <span className="font-bold text-[#ffffff] lg:text-[49px] md:text-[52px] sm:text-[26px]">
-              Resources
+              Case Studies
             </span>
           </h2>
 
           <p className="pt-5 [font-family:'DM_Sans',Helvetica] text-[#ffffff] sm:text-[12px] md:text-[24px] lg:text-[20px] leading-relaxed text-left pb-8">
-            We have always believed that knowledge is best shared. Check our
-            curation of industry-specific ebooks, videos, and powerpoints to
-            learn more, apply better, and achieve more.
+           We don’t just talk strategy - we prove it with results.
+Explore how we’ve helped brands increase visibility, drive qualified leads, and achieve measurable growth through data-driven digital solutions. Each case study breaks down the challenge, approach, and real outcomes that made the difference.
           </p>
 
           <Button

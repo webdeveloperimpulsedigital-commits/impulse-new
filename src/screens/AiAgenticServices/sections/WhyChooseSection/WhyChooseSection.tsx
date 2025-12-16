@@ -1,5 +1,5 @@
 import React from "react";
- 
+
 export const WhyChooseSection = (): JSX.Element => {
   return (
     <section
@@ -11,79 +11,81 @@ export const WhyChooseSection = (): JSX.Element => {
         {/* Header */}
         <div className="mb-6 lg:mb-8 pt-0">
           <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px] ">
-            Agents Built Around 
-
+            Agents Built Around
           </h2>
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
             Your Reality
-                       </h2>
+          </h2>
         </div>
- 
-        {/* ===== MOBILE-ONLY: Image → Content pairs in required mapping ===== */}
+
+        {/* ===== MOBILE-ONLY ===== */}
         <div className="block lg:hidden space-y-10">
-          {/* 1) Optimized Writing */}
+          {/* 1 */}
           <div>
             <div className="relative overflow-hidden rounded-[24px] shadow-lg mb-4">
               <img
-                src="/Agentic Ai-02.png"
+                src="/Data-driven intelligence that learns and adapts.jfif"
                 alt="Creative workspace content writing"
                 className="w-full h-[320px] sm:h-[400px] object-cover transition-transform duration-300 hover:scale-[1.03]"
                 loading="lazy"
               />
             </div>
+
             <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-2">
-              Tailored AI solutions built for your business goals 
+              Tailored AI solutions built for your business goals
             </h3>
-            {/* <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              Optimized content is more than just inserting keywords. It’s
-              about understanding your audience’s intent and creating content
-              that resonates with their needs and level of understanding.
-            </p> */}
+
+            <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
+              We Don’t Just Build AI Agents. We engineer intelligent systems that work like real team members.
+              At Impulse, our Agentic AI solutions are custom-built around your business goals, workflows, and data,
+              ensuring every agent understands context, adapts to change, and delivers measurable outcomes.
+            </p>
           </div>
- 
-          {/* 2) Versatile Writing Styles */}
+
+          {/* 2 */}
           <div>
             <div className="relative overflow-hidden rounded-[24px] shadow-lg mb-4">
               <img
-                src="/Agentic Ai-03.png"
+                src="/Tailored AI solutions built for your business goals.jfif"
                 alt="Laptop with content writing screen"
                 className="w-full h-[320px] sm:h-[400px] object-cover transition-transform duration-300 hover:scale-[1.03]"
                 loading="lazy"
               />
             </div>
+
             <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-2">
               Data-driven intelligence that learns and adapts
             </h3>
-            {/* <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              Every business or brand has a distinct voice. It needs to align
-              with your values, strike a chord with your audience, and reflect
-              your personality. Our content writing adapts to your voice
-              seamlessly.
-            </p> */}
+
+            <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
+              Built for Real Business Use. Our Agentic AI systems are designed to solve real operational challenges
+              - not run demos. Every agent is trained on your workflows, data, and goals to deliver outcomes that matter.
+            </p>
           </div>
- 
-          {/* 3) Tailored Content Strategy */}
+
+          {/* 3 */}
           <div>
             <div className="relative overflow-hidden rounded-[28px] shadow-lg mb-4">
               <img
-                src="/Agentic Ai-04.png"
+                 src="/seamless integration.jfif"
                 alt="Content strategy workspace"
                 className="w-full h-[320px] sm:h-[400px] object-cover transition-transform duration-300 hover:scale-[1.03]"
                 loading="lazy"
               />
             </div>
+
             <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-2">
-              Seamless integration across your existing digital stack 
+              Seamless integration across your existing digital stack
             </h3>
-            {/* <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              You’ve written the best piece of content—great! What’s next? With
-              the right channel, timing, and format, it performs. Our strategy
-              makes sure it does.
-            </p> */}
+
+            <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
+              End-to-End Execution. From research and strategy to deployment and optimization, we manage the complete
+              Agentic AI lifecycle - so you focus on growth while your AI works in the background.
+            </p>
           </div>
         </div>
- 
-        {/* ===== DESKTOP-ONLY: Original layout preserved exactly ===== */}
+
+        {/* ===== DESKTOP-ONLY ===== */}
         <div className="hidden lg:block">
           {/* Main Grid */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 mb-8 lg:mb-10 items-start">
@@ -92,40 +94,42 @@ export const WhyChooseSection = (): JSX.Element => {
               {/* Image 1 */}
               <div className="relative overflow-hidden rounded-[24px] shadow-lg mb-4">
                 <img
-                  src="/Agentic Ai-02.png"
+                  src="/Data-driven intelligence that learns and adapts.jfif"
                   alt="Laptop with content writing screen"
                   className="w-full h-[630px] object-cover transition-transform duration-300 hover:scale-[1.03]"
                   loading="lazy"
                 />
-              </div><br></br>
+              </div>
+              <br></br>
+
               {/* Content 1 */}
               <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-2xl mb-2 pt-16">
-                Data-driven intelligence that learns and adapts 
+                Data-driven intelligence that learns and adapts
               </h3>
-              {/* <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed mb-0">
-                Every business or brand has a distinct voice. It needs to align
-                with your values, strike a chord with your audience, and reflect
-                your personality. Our content writing adapts to your voice
-                seamlessly.
-              </p> */}
+
+              <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed mb-0">
+                Built for Real Business Use. Our Agentic AI systems are designed to solve real operational challenges
+                - not run demos. Every agent is trained on your workflows, data, and goals to deliver outcomes that matter.
+              </p>
             </div>
- 
+
             {/* Right Column */}
             <div className="lg:col-span-6 flex flex-col">
               <div className="pr-2 mb-8 mt-12 pb-16">
                 <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-2xl mb-2">
-                  Tailored AI solutions built for your business goals 
+                  Tailored AI solutions built for your business goals
                 </h3>
-                {/* <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed max-w-[620px]">
-                  Optimized content is more than just inserting keywords. It’s
-                  about understanding your audience’s intent and creating content
-                  that resonates with their needs and level of understanding.
-                </p> */}
+
+                <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed max-w-[620px]">
+                  We Don’t Just Build AI Agents. We engineer intelligent systems that work like real team members.
+                  At Impulse, our Agentic AI solutions are custom-built around your business goals, workflows, and data,
+                  ensuring every agent understands context, adapts to change, and delivers measurable outcomes.
+                </p>
               </div>
- 
+
               <div className="relative overflow-hidden rounded-[24px] shadow-lg">
                 <img
-                  src="/Agentic Ai-03.png"
+                  src="/Tailored AI solutions built for your business goals.jfif"
                   alt="Creative workspace content writing"
                   className="w-full h-[630px] object-cover transition-transform duration-300 hover:scale-[1.03]"
                   loading="lazy"
@@ -133,27 +137,27 @@ export const WhyChooseSection = (): JSX.Element => {
               </div>
             </div>
           </div>
- 
+
           {/* Full-width banner + copy below */}
           <div>
             <div className="relative overflow-hidden rounded-[28px] shadow-lg">
               <img
-                src="/Agentic Ai-04.png"
+                src="/seamless integration.jfif"
                 alt="Content strategy workspace"
                 className="w-full h-[510px] object-cover transition-transform duration-300 hover:scale-[1.03]"
                 loading="lazy"
               />
             </div>
- 
+
             <div className="mt-6 max-w-12xl">
               <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-2xl mb-2">
-                Seamless integration across your existing digital stack 
+                Seamless integration across your existing digital stack
               </h3>
-              {/* <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-                You’ve written the best piece of content—great! What’s next? With
-                the right channel, timing, and format, it performs. Our strategy
-                makes sure it does.
-              </p> */}
+
+              <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
+                End-to-End Execution. From research and strategy to deployment and optimization, we manage the complete
+                Agentic AI lifecycle - so you focus on growth while your AI works in the background.
+              </p>
             </div>
           </div>
         </div>
@@ -162,5 +166,3 @@ export const WhyChooseSection = (): JSX.Element => {
     </section>
   );
 };
- 
- 

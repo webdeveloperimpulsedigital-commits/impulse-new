@@ -30,7 +30,7 @@ const ServicesSection = () => {
     points: [
       "Multilingual conversations, instant responses, smart follow-ups, and secure document sharing-all powered by intelligent automation. We help you turn WhatsApp into a high-converting communication channel that feels personal, fast, and effortless for your customers."
     ],
-    img: "/WhatsApp.png",
+    img: "/wp.jpg",
   },
   {
     n: "02",
@@ -38,7 +38,7 @@ const ServicesSection = () => {
     points: [
       "AI-powered email communication that listens, understands, and responds just like your best sales rep. From inquiries to follow-ups to nurturing flows, we craft emails that persuade, convert, and maintain a consistent brand voice-24/7."
     ],
-    img: "/Email.png",
+    img: "/email.jpg",
   },
   {
     n: "03",
@@ -46,7 +46,7 @@ const ServicesSection = () => {
     points: [
       "Personalized, context-rich voice notes that feel human, authentic, and action-driven. Whether it's sales follow-ups, service updates, or onboarding messages, our AI-generated voice drops help you build stronger emotional connections at scale."
     ],
-    img: "/Voice Notes.png",
+    img: "/voice-note.jpg",
   },
   {
     n: "04",
@@ -54,7 +54,7 @@ const ServicesSection = () => {
     points: [
       "Engage audiences instantly with conversational AI that answers questions, guides users, handles queries, and keeps them connected to your brand. Perfect for lead generation, customer care, and nurturing prospects without manual effort."
     ],
-    img: "/Facebook Messenger.png",
+    img: "/facebook.jpg",
   },
   {
     n: "05",
@@ -62,7 +62,7 @@ const ServicesSection = () => {
     points: [
       "Automated, human-like Instagram DM interactions that convert casual chats into long-term customer relationships. From keyword triggers to personalized replies and funnel journeys, we help you turn your DMs into a sales-ready powerhouse."
     ],
-    img: "/Instagram DM.png",
+    img: "/insta-dm.jpg",
   },
   {
     n: "05",
@@ -70,7 +70,7 @@ const ServicesSection = () => {
     points: [
       "Fast, direct, and effective communication with customers, right where they are."
     ],
-    img: "/sm.png",
+    img: "/sms.jpg",
   },
 ];
 

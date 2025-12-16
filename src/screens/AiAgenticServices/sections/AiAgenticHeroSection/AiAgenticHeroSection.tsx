@@ -6,28 +6,29 @@ export const AiAgenticHeroSection = (): JSX.Element => {
   return (
     <>
       <Helmet> 
-        <meta name="description" content="Our Social media video production services enhances your brand s social presence!From concept to execution every detail is perfected to grab attention. Enquire Now!" />
-    <meta name="keywords" content="" />
-    <title>Social Media Video Production Services | Creative Video Agency</title>
+        <meta name="description" content="Impulse Digital is a leading agentic AI agency delivering advanced agentic AI service that powers smart, autonomous customer engagement across WhatsApp, email, voice, and social. Boosting conversions, sales efficiency, and ROI with agentic ai service." />
+    <meta name="keywords" content="agentic ai agency, agentic ai service, multilingual ai agents, lead conversion ai, mumbai, india, impulse digital" />
+    <title>Agentic AI Agency | Intelligent Agentic AI Service for Growth</title>
     
     <meta name="robots" content="index, follow" />
     <meta name="revisit-after" content="1 day" />
     <meta name="language" content="English" />
     <meta name="generator" content="N/A" />
     
-    <meta property="og:title" content="Social Media Video Production Services | Creative Video Agency" />
-    <meta property="og:description" content="Our Social media video production services enhances your brand s social presence!From concept to execution every detail is perfected to grab attention. Enquire Now!" />
+    <meta property="og:title" content="Agentic AI Agency | Intelligent Agentic AI Service for Growth" />
+    <meta property="og:description" content="Impulse Digital is a leading agentic AI agency delivering advanced agentic AI service that powers smart, autonomous customer engagement across WhatsApp, email, voice, and social. Boosting conversions, sales efficiency, and ROI with agentic ai service." />
     <meta property="og:url" content="https://www.theimpulsedigital.com/social-media-video-production" />
-    <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
+    <meta property="og:image" content="https://www.theimpulsedigital.com/agentic-a.jfif" />
     <meta property="og:site_name" content="Impulse Digital" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content= "summary_large_image"  />
     <meta name="twitter:site" content="@impulsedigi" />
     <meta name="twitter:creator" content="@impulsedigi" />
-    <meta name="twitter:title" content="Social Media Video Production Services | Creative Video Agency" />
-    <meta name="twitter:description" content="Our Social media video production services enhances your brand s social presence!From concept to execution every detail is perfected to grab attention. Enquire Now!" />
-    <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-    <meta name="twitter:url" content="https://www.theimpulsedigital.com/social-media-video-production" />
+    <meta name="twitter:title" content="Agentic AI Agency | Intelligent Agentic AI Service for Growth" />
+    <meta name="twitter:description" content="Impulse Digital is a leading agentic AI agency delivering advanced agentic AI service that powers smart, autonomous customer engagement across WhatsApp, email, voice, and social. Boosting conversions, sales efficiency, and ROI with agentic ai service." />
+    <meta name="twitter:image" content="https://www.theimpulsedigital.com/agentic-a.jfif" />
+    <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/agentic-ai" />
+        <link rel="canonical" href="https://www.theimpulsedigital.com/services/agentic-ai" />
     
       </Helmet>
    
@@ -71,7 +72,9 @@ export const AiAgenticHeroSection = (): JSX.Element => {
             Home
           </NavLink>
           <span className="select-none">{">"}</span>
-          <span className="text-white">Services</span>
+          <NavLink to="/services" className="hover:text-white transition-colors">
+            Services
+          </NavLink>
           <span className="select-none">{">"}</span>
           <span className="text-white">AGENTIC AI</span>
         </nav>

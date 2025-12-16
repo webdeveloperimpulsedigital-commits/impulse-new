@@ -38,7 +38,7 @@ const DEFAULT_ITEMS: NavItem[] = [
     hasDropdown: true,
     dropdownItems: [
       // {label: "Intelli Pulse", href: "/services/intelli-pulse"},
-      // { label: " Agentic AI", href: "/services/agentic-ai"},
+      { label: " Agentic AI", href: "/services/agentic-ai"},
      
       // {
       //   label: "Video Production",
@@ -55,7 +55,7 @@ const DEFAULT_ITEMS: NavItem[] = [
         hasSubDropdown: true,
         subItems: [
           
-          // { label: "AI Seo" , href: "/services/search-engine-optimization/ai-seo-agency"},
+          { label: "AI Seo" , href: "/services/search-engine-optimization/ai-seo-agency"},
           { label: "Enterprise SEO ", href: "/services/search-engine-optimization/enterprise-seo-services" },
           { label: "eCommerce SEO ", href: "/services/search-engine-optimization/ecommerce-seo-services" },
           { label: "B2B SEO", href: "/services/search-engine-optimization/b2b-seo-services" },

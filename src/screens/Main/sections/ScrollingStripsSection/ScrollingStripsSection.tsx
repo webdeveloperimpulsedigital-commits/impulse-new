@@ -23,6 +23,7 @@ export const ScrollingStripsSection = (): JSX.Element => {
     { name: "hindalco", src: "https://www.theimpulsedigital.com/hindalco.jpg" },
     { name: "abps", src: "https://www.theimpulsedigital.com/abps.jpg" },
     { name: "birla-celilues", src: "https://www.theimpulsedigital.com/birla-celilues.jpg" },
+    { name: "abg-chemical", src: "https://www.theimpulsedigital.com/hindustan-uniliver.jpg" },
     { name: "hdfc", src: "https://www.theimpulsedigital.com/hdfc.jpg" },
     { name: "godrej", src: "https://www.theimpulsedigital.com/godrej.jpg" },
     { name: "amazone", src: "https://www.theimpulsedigital.com/amazone.jpg" },

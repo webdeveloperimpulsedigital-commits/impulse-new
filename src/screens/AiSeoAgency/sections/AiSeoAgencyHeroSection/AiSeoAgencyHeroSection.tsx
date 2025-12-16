@@ -7,23 +7,23 @@ export const AiSeoAgencyHeroSection = (): JSX.Element => {
   return (
     <>
   <Helmet> 
-    <title>Best Digital Marketing Agency in Mumbai | Impulse</title>
-    <meta name="description" content="Impulse Digital is a top digital marketing agency in Mumbai that has the expertise to expand your business reach in the digital space. Our creative, innovative, and energetic"/>
-    <meta name="keywords" content="digital marketing agency in mumbai, digital marketing company, impulse digital"/>
-    <meta property="og:title" content="Best Digital Marketing Agency in Mumbai | Impulse Digital" />
-    <meta property="og:description" content="Impulse Digital is a top digital marketing agency in Mumbai that has the expertise to expand your business reach in the digital space. Our creative, innovative, and energetic team helps us stand out from a cluster of digital marketing agencies in Mumbai. We are handling a plethora of clients which includes Amazon, HUL, OLA, Dmart, HDFC, and more big market giants." />
+    <title>AI SEO Agency | Advanced AI SEO Service for Higher Rankings</title>
+    <meta name="description" content="Partner with a top AI SEO agency in Mumbai that delivers data-driven AI SEO services to boost organic rankings, enhance search visibility, and accelerate business growth with intelligent automation and strategic optimization."/>
+    <meta name="keywords" content="ai seo agency, ai seo service, mumbai, india, impulse digital"/>
+    <meta property="og:title" content="AI SEO Agency | Advanced AI SEO Service for Higher Rankings Digital" />
+    <meta property="og:description" content="Partner with a top AI SEO agency in Mumbai that delivers data-driven AI SEO services to boost organic rankings, enhance search visibility, and accelerate business growth with intelligent automation and strategic optimization. team helps us stand out from a cluster of digital marketing agencies in Mumbai. We are handling a plethora of clients which includes Amazon, HUL, OLA, Dmart, HDFC, and more big market giants." />
     <meta property="og:url" content="https://www.theimpulsedigital.com" />
-    <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
+    <meta property="og:image" content="https://www.theimpulsedigital.com/AI-SEO-Agency.jpg" />
     <meta property="og:site_name" content="Impulse Digital" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@impulsedigi" />
     <meta name="twitter:creator" content="@impulsedigi" />
-    <meta name="twitter:title" content="Best Digital Marketing Agency in Mumbai | Impulse Digital" />
-    <meta name="twitter:description" content="Impulse Digital is a top digital marketing agency in Mumbai that has the expertise to expand your business reach in the digital space. Our creative, innovative, and energetic team helps us stand out from a cluster of digital marketing agencies in Mumbai. We are handling a plethora of clients which includes Amazon, HUL, OLA, Dmart, HDFC, and more big market giants." />
-    <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-    <meta name="twitter:url" content="https://www.theimpulsedigital.com" />
-    <link rel="canonical" href="https://www.theimpulsedigital.com" />
+    <meta name="twitter:title" content="AI SEO Agency | Advanced AI SEO Service for Higher Rankings Digital" />
+    <meta name="twitter:description" content="Partner with a top AI SEO agency in Mumbai that delivers data-driven AI SEO services to boost organic rankings, enhance search visibility, and accelerate business growth with intelligent automation and strategic optimization. team helps us stand out from a cluster of digital marketing agencies in Mumbai. We are handling a plethora of clients which includes Amazon, HUL, OLA, Dmart, HDFC, and more big market giants." />
+    <meta name="twitter:image" content="https://www.theimpulsedigital.com/AI-SEO-Agency.jpg" />
+    <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/search-engine-optimization/ai-seo-agency" />
+    <link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/ai-seo-agency" />
   </Helmet>
     <section
       className="relative w-full lg:h-screen sm:h-screen lg:min-h-[700px] sm:min-h-[500px] rounded-t-[55px] overflow-hidden"
@@ -64,8 +64,15 @@ export const AiSeoAgencyHeroSection = (): JSX.Element => {
             Home
           </NavLink>
           <span className="select-none">{">"}</span>
-          <span className="text-white">Services</span>
+          <NavLink to="/services" className="hover:text-white transition-colors">
+            Services
+          </NavLink>
+          
            <span className="select-none">{">"}</span>
+           <NavLink to="/services/search-engine-optimization" className="hover:text-white transition-colors">
+            Seo
+          </NavLink>
+          <span className="select-none">{">"}</span>
           <span className="text-white">AI SEO</span>
         </nav>
       </div>

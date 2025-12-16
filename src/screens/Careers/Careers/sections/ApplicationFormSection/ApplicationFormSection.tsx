@@ -20,7 +20,7 @@ export const ApplicationFormSection = (): JSX.Element => {
     >
       <div className="max-w-[800px] mx-auto px-4 lg:px-8">
         {/* Header */}
-        <div className="text-center mb-12">
+        {/* <div className="text-center mb-12">
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-3xl md:text-4xl lg:text-5xl mb-6">
             Apply Now
           </h2>
@@ -28,7 +28,7 @@ export const ApplicationFormSection = (): JSX.Element => {
             Ready to join our team? Fill out the form below and attach your resume. <br />
             We'll get back to you within 48 hours.
           </p>
-        </div>
+        </div> */}
 
         {/* Application Form */}
         <Card className="bg-white rounded-2xl border-0 shadow-lg">

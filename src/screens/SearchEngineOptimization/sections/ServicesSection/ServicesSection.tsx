@@ -23,42 +23,91 @@ const ServicesSection = () => {
   // 👉 added state for dots
   const [slide, setSlide] = useState(0);
 
- const data = [
-    { n:"01", title:"Enterprise SEO",
-      points:["Enterprise site isn’t a ‘normal’ site. The difference is in the scale. Having more pages means scaling everything 100x-keyword ranking, tools, content, teams-for your desired outcome. Then there’s the need to have custom CMS, multiple department buy-ins, scheme markup-the list is endless but we have it covered for you. "],
-      img:"/service section 520 x 340 - Enterprise SEO.jpg" },
-    { n:"02", title:"E-Commerce SEO",
-      points:["You can set up your store, add your products, and share the word, yet there can be zero traffic and no new leads. That’s because your audience is unable to find you and, thus, your product. Zero sales. eCommerce SEO sets you on the right path again. "],
-      img:"/service section 520 x 340 - Ecommerce SEO.jpg" },
-    { n:"03", title:"Local SEO",
-      points:["Conquer home and then move to geography unknown. Turn your business’s location into its superpower and beat your competitors strategically. Local SEO can pin you on the local pack, make your business discoverable, and help you set the stage to go global. "],
-      img:"/service section 520 x 340 - Local SEO.jpg" },
-    { n:"04", title:"B2B SEO",
-      points:["With B2B, your audience isn’t generic. They are key decision-makers, and you need to find out exactly what they are searching for. We make it easier for you with our 6-step, full-proof plan to put your business’s online assets in front of the top decision-makers. "],
-      img:"/service section 520 x 340 - B2B SEO.jpg" },
-    { n:"05", title:"App Store Optimization (ASO)",
-      points:["Without ASO, even the greatest apps remain undiscovered. Think about optimizing app titles, descriptions, keywords, visuals, and everything else. Result? Higher app downloads, better rankings, and increased user engagement. Plus, you get to save user acquisition costs. Are you ready for it? We are. "],
-      img:"/service section 520 x 340 - App Store Optimization.jpg" },
-    { n:"06", title:"International SEO",
-      points:["Ready to go global and conquer internationally? This is your chance to connect with your audience across borders, maintain relevance in diverse markets, and penetrate them to expand your reach. Think of one business, multiple geographies, diverse audiences, yet one big family."],
-      img:"/service section 520 x 340 - International SEO.jpg" },
-    { n:"07", title:"Franchise SEO",
-      points:["Bridge the gap between local visibility and national branding by balancing the unique needs of a franchise with the overall brand guidelines. Franchise SEO ensures a unified digital presence while driving local traffic for higher revenues and a competitive edge locally and nationally."],
-      img:"/Franchise SEO.jpg" },
-    { n:"08", title:"Shopify SEO",
-      points:["Without SEO, you’d be competing in a saturated eCommerce market with low-quality traffic. Shopify SEO is the answer to enhance the performance of your Shopify stores-better descriptions, site structure, faster site loading, and more. Result? Not just a store but a discoverable and profitable platform."],
-      img:"/service section 520 x 340 - Shopify SEO.jpg",
+  const data = [
+    {
+      n: "01",
+      title: "Enterprise SEO",
+      link: "/services/search-engine-optimization/enterprise-seo-services",
+      points: [
+        "Enterprise site isn’t a ‘normal’ site. The difference is in the scale. Having more pages means scaling everything 100x-keyword ranking, tools, content, teams-for your desired outcome. Then there’s the need to have custom CMS, multiple department buy-ins, scheme markup-the list is endless but we have it covered for you. ",
+      ],
+      img: "/service section 520 x 340 - Enterprise SEO.jpg",
     },
     {
-      n:"09", title:"Conversion Rate Optimization",
-      points:["Got website visitors but no paying customers? We will solve that problem here by analyzing user behavior, improving navigation, and tailoring content to match the audience’s needs. Be ready for an influx of loyal customers."],
-      img:"/service section 520 x 340 - Conversion Rate SEO.jpg",
+      n: "02",
+      title: "E-Commerce SEO",
+      link: "/services/search-engine-optimization/ecommerce-seo-services",
+      points: [
+        "You can set up your store, add your products, and share the word, yet there can be zero traffic and no new leads. That’s because your audience is unable to find you and, thus, your product. Zero sales. eCommerce SEO sets you on the right path again. ",
+      ],
+      img: "/service section 520 x 340 - Ecommerce SEO.jpg",
     },
     {
-      n:"10", title:"Content Marketing",
-      points:["What if you are telling the wrong stories to the right audience or vice-versa? That's your 1st challenge. The 2nd challenge is maintaining consistent, engaging content while satisfying search engines. Sounds like a task? It isn’t when you partner with the right team. See what we can do for you."],
-      img:"/service section 520 x 340 - Content Marketing SEO.jpg ",
-    }
+      n: "03",
+      title: "Local SEO",
+      link: "/services/search-engine-optimization/local-seo-services",
+      points: [
+        "Conquer home and then move to geography unknown. Turn your business’s location into its superpower and beat your competitors strategically. Local SEO can pin you on the local pack, make your business discoverable, and help you set the stage to go global. ",
+      ],
+      img: "/service section 520 x 340 - Local SEO.jpg",
+    },
+    {
+      n: "04",
+      title: "B2B SEO",
+      link: "/services/search-engine-optimization/b2b-seo-services",
+      points: [
+        "With B2B, your audience isn’t generic. They are key decision-makers, and you need to find out exactly what they are searching for. We make it easier for you with our 6-step, full-proof plan to put your business’s online assets in front of the top decision-makers. ",
+      ],
+      img: "/service section 520 x 340 - B2B SEO.jpg",
+    },
+    {
+      n: "05",
+      title: "App Store Optimization (ASO)",
+      points: [
+        "Without ASO, even the greatest apps remain undiscovered. Think about optimizing app titles, descriptions, keywords, visuals, and everything else. Result? Higher app downloads, better rankings, and increased user engagement. Plus, you get to save user acquisition costs. Are you ready for it? We are. ",
+      ],
+      img: "/service section 520 x 340 - App Store Optimization.jpg",
+    },
+    {
+      n: "06",
+      title: "International SEO",
+      points: [
+        "Ready to go global and conquer internationally? This is your chance to connect with your audience across borders, maintain relevance in diverse markets, and penetrate them to expand your reach. Think of one business, multiple geographies, diverse audiences, yet one big family.",
+      ],
+      img: "/service section 520 x 340 - International SEO.jpg",
+    },
+    {
+      n: "07",
+      title: "Franchise SEO",
+      points: [
+        "Bridge the gap between local visibility and national branding by balancing the unique needs of a franchise with the overall brand guidelines. Franchise SEO ensures a unified digital presence while driving local traffic for higher revenues and a competitive edge locally and nationally.",
+      ],
+      img: "/Franchise SEO.jpg",
+    },
+    {
+      n: "08",
+      title: "Shopify SEO",
+      points: [
+        "Without SEO, you’d be competing in a saturated eCommerce market with low-quality traffic. Shopify SEO is the answer to enhance the performance of your Shopify stores-better descriptions, site structure, faster site loading, and more. Result? Not just a store but a discoverable and profitable platform.",
+      ],
+      img: "/service section 520 x 340 - Shopify SEO.jpg",
+    },
+    {
+      n: "09",
+      title: "Conversion Rate Optimization",
+      points: [
+        "Got website visitors but no paying customers? We will solve that problem here by analyzing user behavior, improving navigation, and tailoring content to match the audience’s needs. Be ready for an influx of loyal customers.",
+      ],
+      img: "/service section 520 x 340 - Conversion Rate SEO.jpg",
+    },
+    {
+      n: "10",
+      title: "Content Marketing",
+      points: [
+        "What if you are telling the wrong stories to the right audience or vice-versa? That's your 1st challenge. The 2nd challenge is maintaining consistent, engaging content while satisfying search engines. Sounds like a task? It isn’t when you partner with the right team. See what we can do for you.",
+      ],
+      img: "/service section 520 x 340 - Content Marketing SEO.jpg ",
+    },
   ];
 
   // Desktop: active sticky card (same IntersectionObserver logic)
@@ -114,17 +163,21 @@ const ServicesSection = () => {
     let startX = 0,
       curX = 0,
       dragging = false;
+
     const onDown = (e) => {
       dragging = true;
       startX = e.clientX;
+      curX = startX;
       track.style.transition = "none";
     };
+
     const onMove = (e) => {
       if (!dragging) return;
       curX = e.clientX;
       const dx = curX - startX;
       track.style.transform = `translateX(${ -idx * slideW() + dx }px)`;
     };
+
     const onUp = () => {
       if (!dragging) return;
       dragging = false;
@@ -167,126 +220,116 @@ const ServicesSection = () => {
 
   return (
     <>
-      {/* font (same as your HTML) */}
-
-      {/* same CSS */}
       <style>{`
-  
-  *{box-sizing:border-box;margin:0;padding:0}
-  img{display:block;max-width:100%;height:auto;}
+        *{box-sizing:border-box;margin:0;padding:0}
+        img{display:block;max-width:100%;height:auto;}
 
-  .wrap{max-width:100%;margin:auto;position:relative;background:var(--bg);padding:4rem 6rem}
+        .wrap{max-width:100%;margin:auto;position:relative;background:var(--bg);padding:4rem 6rem}
 
-  .eyebrow{font-size:20px;letter-spacing:.02em;color:#b7b9c9;margin-bottom:4px;opacity:.85}
-  .h1{font-size:56px;font-weight:800;line-height:1.05;margin-bottom:36px}
+        .eyebrow{font-size:20px;letter-spacing:.02em;color:#b7b9c9;margin-bottom:4px;opacity:.85}
+        .h1{font-size:56px;font-weight:800;line-height:1.05;margin-bottom:36px}
 
-  /* ---------- DESKTOP (unchanged sticky effect) ---------- */
-  .stack{display:grid;grid-template-columns:1fr auto;gap:18px}
-  .section{min-height:100vh;display:flex;align-items:center;justify-content:center}
-  .card{
-    min-height:600px; position:sticky; top:64px;
-    display:flex; align-items:flex-start; justify-content:space-between; gap:42px;
-    width:100%; background:#020018;
-    border-radius:var(--radius); padding:180px 10px 0px; box-shadow:var(--shadow);
-    transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease;
-  }
-  .card.is-active{transform:scale(1.01);border:none;}
-  .num{flex:0 0 72px;font-weight:700;font-size:42px;letter-spacing:.02em;line-height:1;color:#fff;margin-top:6px}
-  .copy{flex:1 1 auto;width:300px;padding-right:10px}
-  .copy h3{font-size:40px;font-weight:700;letter-spacing:.01em;margin-bottom:18px}
-  .copy ul{list-style:none;display:grid;gap:16px}
-  .copy li{font-size:18px;color:#e9eaf5;padding-left:0px;position:relative}
-  .copy li::before{content:none;position:absolute;left:0;top:.68em;width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.8)}
-  .visual{flex:0 0 420px;display:flex;justify-content:flex-end}
-  .shot{width:420px;height:340px;overflow:hidden;border-radius:32px;position:relative;background:linear-gradient(180deg,rgba(255,255,255,.04),transparent)}
-  .shot img{width:100%;height:100%;object-fit:cover;border-radius:32px}
+        /* ---------- DESKTOP (unchanged sticky effect) ---------- */
+        .stack{display:grid;grid-template-columns:1fr auto;gap:18px}
+        .section{min-height:100vh;display:flex;align-items:center;justify-content:center}
+        .card{
+          min-height:600px; position:sticky; top:64px;
+          display:flex; align-items:flex-start; justify-content:space-between; gap:42px;
+          width:100%; background:#020018;
+          border-radius:var(--radius); padding:180px 10px 0px; box-shadow:var(--shadow);
+          transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+        }
+        .card.is-active{transform:scale(1.01);border:none;}
+        .num{flex:0 0 72px;font-weight:700;font-size:42px;letter-spacing:.02em;line-height:1;color:#fff;margin-top:6px}
+        .copy{flex:1 1 auto;width:300px;padding-right:10px}
+        .copy h3{font-size:40px;font-weight:700;letter-spacing:.01em;margin-bottom:18px}
+        .copy ul{list-style:none;display:grid;gap:16px}
+        .copy li{font-size:18px;color:#e9eaf5;padding-left:0px;position:relative}
+        .copy li::before{content:none;position:absolute;left:0;top:.68em;width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.8)}
+        .visual{flex:0 0 420px;display:flex;justify-content:flex-end}
+        .shot{width:420px;height:340px;overflow:hidden;border-radius:32px;position:relative;background:linear-gradient(180deg,rgba(255,255,255,.04),transparent)}
+        .shot img{width:100%;height:100%;object-fit:cover;border-radius:32px}
 
-  /* Make the title area sticky */
-.wrap > .top-0{
-  position: sticky;
-  top: 0;                 /* adjust if you have a fixed site header */
-  z-index: 99;
-  background: #020018;  /* solid backdrop while stuck */
-}
+        /* Make the title area sticky */
+        .wrap > .top-0{
+          position: sticky;
+          top: 0;
+          z-index: 99;
+          background: #020018;
+        }
 
-/* Draw a thin HR right under the title block */
-.wrap > .top-0::after{
-  content: "";
-  display: block;
-  height: 1px;
-  width: 100%;
-  margin-top: 40px;
-  background: rgba(255,255,255,0.15);
-}
+        /* Draw a thin HR right under the title block */
+        .wrap > .top-0::after{
+          content: "";
+          display: block;
+          height: 1px;
+          width: 100%;
+          margin-top: 40px;
+          background: rgba(255,255,255,0.15);
+        }
 
-/* Ensure the eyebrow line ("Every goal needs a roadmap") is visible */
-.wrap > .top-0 span:first-child{
-  display: block;
-  color: rgba(255,255,255,0.72) !important;
-  margin-bottom: 4px;
-}
+        /* Ensure the eyebrow line is visible */
+        .wrap > .top-0 span:first-child{
+          display: block;
+          color: rgba(255,255,255,0.72) !important;
+          margin-bottom: 4px;
+        }
 
-  /* ---------- MOBILE SLIDER (only on <= 980px) ---------- */
- 
-  .mobile-slider{display:none}
+        /* ---------- MOBILE SLIDER (only on <= 980px) ---------- */
+        .mobile-slider{display:none}
 
-  @media (max-width:980px){
-  .py-8{
-  padding-top:3rem;}
-    .wrap{padding:2.8rem 1.25rem}
-    .stack{display:none}                 /* hide desktop stack */
-    .mobile-slider{display:block;position:relative;overflow:hidden}
-    .track{display:flex;will-change:transform;transition:transform .35s ease}
-    .mcard{
-      flex:0 0 100%;
-      background:var(--card);
-      border-radius:var(--radius);
-      padding: 45px 0px 20px 10px;
-      min-height: calc(88vh - 190px);   /* room for header + nav buttons */
-      display:flex;flex-direction:column;gap:18px;
-      box-shadow:var(--shadow);
-    }
-    .m-num{font-size:16px;font-weight:400; line-height: 0px;}
-    .m-title{font-size:20px;font-weight:700}
-    .m-list{list-style:none;display:grid;gap:12px}
-    .m-list li{font-size:16px;color:#e9eaf5;padding-left:0px;position:relative}
-    .m-list li::before{content:none;position:absolute;left:0;top:.58em;width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.8)}
-    .m-shot{width:100%;border-radius:20px;overflow:hidden}
-    .m-shot img{width:100%;height:auto;border-radius:20px}
+        @media (max-width:980px){
+          .py-8{ padding-top:3rem; }
+          .wrap{padding:2.8rem 1.25rem}
+          .stack{display:none}
+          .mobile-slider{display:block;position:relative;overflow:hidden}
+          .track{display:flex;will-change:transform;transition:transform .35s ease}
+          .mcard{
+            flex:0 0 100%;
+            background:var(--card);
+            border-radius:var(--radius);
+            padding: 45px 0px 20px 10px;
+            min-height: calc(88vh - 190px);
+            display:flex;flex-direction:column;gap:18px;
+            box-shadow:var(--shadow);
+          }
+          .m-num{font-size:16px;font-weight:400; line-height: 0px;}
+          .m-title{font-size:20px;font-weight:700}
+          .m-list{list-style:none;display:grid;gap:12px}
+          .m-list li{font-size:16px;color:#e9eaf5;padding-left:0px;position:relative}
+          .m-list li::before{content:none;position:absolute;left:0;top:.58em;width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.8)}
+          .m-shot{width:100%;border-radius:20px;overflow:hidden}
+          .m-shot img{width:100%;height:auto;border-radius:20px}
 
-    /* Bottom-center nav */
-    .mnav{
-      position:relative;left:0;right:0;bottom:20px;
-      display:flex;justify-content:center;gap:12px;pointer-events:none;
-    }
-    .navbtn{
-      pointer-events:auto;
-      width:50px;height:50px;border-radius:999px;border:1px solid rgba(255,255,255,.25);
-      background:#ffffff;
-      display:grid;place-items:center;backdrop-filter:blur(4px);
-    }
-    .navbtn svg{width:50px;height:50px}
-    .navbtn.next{background:var(--accent);border-color:var(--accent)}
-    .navbtn[disabled]{opacity:1}
+          .mnav{
+            position:relative;left:0;right:0;bottom:20px;
+            display:flex;justify-content:center;gap:12px;pointer-events:none;
+          }
+          .navbtn{
+            pointer-events:auto;
+            width:50px;height:50px;border-radius:999px;border:1px solid rgba(255,255,255,.25);
+            background:#ffffff;
+            display:grid;place-items:center;backdrop-filter:blur(4px);
+          }
+          .navbtn svg{width:50px;height:50px}
+          .navbtn.next{background:var(--accent);border-color:var(--accent)}
+          .navbtn[disabled]{opacity:1}
 
-     /* Make the title area sticky */
-.wrap > .top-0{
-  position: relative;
-  top: 0;                 /* adjust if you have a fixed site header */
-  z-index: 99;
-  background: var(--bg);  /* solid backdrop while stuck */
-}
-  }
+          .wrap > .top-0{
+            position: relative;
+            top: 0;
+            z-index: 99;
+            background: var(--bg);
+          }
+        }
 
-  /* extra responsive tweaks */
-  @media (max-width:1100px){
-    .visual{flex:0 0 440px}
-    .shot{width:440px;height:290px}
-    .copy h3{font-size:34px}
-  }
-
-  
+        @media (max-width:1100px){
+          .visual{flex:0 0 440px}
+          .shot{width:440px;height:290px}
+          .copy h3{font-size:34px}
+        }
       `}</style>
+
       <section
         className="relative w-full bg-[#020018]"
         id="sec-border"
@@ -312,25 +355,25 @@ const ServicesSection = () => {
           <div className="stack" id="stack" ref={stackRef}>
             {data.map((s, i) => (
               <React.Fragment key={s.n}>
-                {/* matching your HTML: card appended directly (no section wrapper) */}
                 <article className="card  mx-auto" data-index={i}>
                   <div className="num">{s.n}</div>
                   <div className="copy">
                     <h3 className="w-full lg:w-[340px] [font-family:'Space Grotesk', sans-serif] font-semibold text-white text-[28px] lg:text-[35px] leading-[32px] lg:leading-[40px]">
-                      <a href="">{s.title}</a>
+                      <a href={s.link || ""}>{s.title}</a>
                     </h3>
                     <ul>{s.points.map((p) => <li key={p}>{p}</li>)}</ul>
                   </div>
+
                   <div className="visual ">
                     <div className="shot">
-                      <a href="#">
+                      <a href={s.link || "#"}>
                         <img src={s.img} alt={s.title} />
                       </a>
                     </div>
                   </div>
 
                   <div className="group flex w-60 items-start justify-center lg:justify-end pt-2 lg:pt-[7px]">
-                    <a href="">
+                    <a href={s.link || ""}>
                       <img
                         src="/Arrow.png"
                         alt="Arrow"
@@ -339,7 +382,7 @@ const ServicesSection = () => {
                     </a>
                   </div>
                 </article>
-                {/* placeholder for second grid column */}
+
                 <div style={{ height: "1px", visibility: "hidden" }} />
               </React.Fragment>
             ))}
@@ -364,8 +407,8 @@ const ServicesSection = () => {
               ))}
             </div>
 
-           <center>
-            <div className="flex items-center justify-center gap-2 mb-5">
+            <center>
+              <div className="flex items-center justify-center gap-2 mb-5">
                 {data.map((_, i) => (
                   <button
                     key={i}
@@ -377,12 +420,10 @@ const ServicesSection = () => {
                   />
                 ))}
               </div>
-            </center> <br></br>
+            </center>
+            <br />
 
             <div className="mnav">
-              {/* dots (kept exactly where you placed them) */}
-              
-
               <Button
                 className="navbtn prev group w-15 h-15 rounded-full border-2 border-[#543d98] bg-white flex items-center justify-center group transition-all duration-300 hover:bg-[#f5f5f5] hover:border-[#543d98]"
                 id="prevBtn"
@@ -411,8 +452,6 @@ const ServicesSection = () => {
             </div>
           </div>
         </div>
-
-   
       </section>
     </>
   );

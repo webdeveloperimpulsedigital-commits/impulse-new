@@ -71,7 +71,13 @@ return (
             Home
           </NavLink>
           <span className="select-none">{">"}</span>
-          <span className="text-white">Seo</span>
+           <NavLink to="/services" className="hover:text-white transition-colors">
+            Services
+          </NavLink>
+           <span className="select-none">{">"}</span>
+          <NavLink to="/services/search-engine-optimization" className="hover:text-white transition-colors">
+            Seo
+          </NavLink>
            <span className="select-none">{">"}</span>
           <span className="text-white">Enterprise SEO </span>
         </nav>

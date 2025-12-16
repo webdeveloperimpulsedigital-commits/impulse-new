@@ -30,7 +30,7 @@ const ServicesSection = () => {
     points: [
       "At Impulse Digital, we optimize for the next era of search, ensuring your brand is discoverable across AI-driven engines and voice assistants through context-rich, conversational content.",
     ],
-    img: "/AEO (Answer Engine Optimization).png", // change if you have a different image
+    img: "/AEO.jpg", // change if you have a different image
   },
 
   {
@@ -39,7 +39,7 @@ const ServicesSection = () => {
     points: [
       "We craft content that earns your brand a place in AI-generated answers, summaries, and recommendations—making sure you stay visible where audiences seek instant insights.",
     ],
-    img: "/GEO.png", // change if needed
+    img: "/geo-1.jfif", // change if needed
   },
 
   {
@@ -48,7 +48,7 @@ const ServicesSection = () => {
     points: [
       "Powered by leading AI tools and automation, we combine data intelligence with creativity to deliver SEO strategies that adapt, perform, and scale in real time.",
     ],
-    img: "/ai-platforms.png", // change if needed
+    img: "/ai-platform.jfif", // change if needed
   },
 ];
 
