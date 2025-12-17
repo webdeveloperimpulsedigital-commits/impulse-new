@@ -229,8 +229,8 @@ export const FooterSection: React.FC = () => {
       <style>{`
         .fixedButtons {
           position: fixed;
-          right: 20px;
-          bottom: 20px;
+          right: 10px;
+          bottom: 70px;
           display: flex;
           flex-direction: column-reverse;
           gap: 12px;
