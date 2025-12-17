@@ -5414,7 +5414,7 @@ padding-bottom: 6rem;
 .zsiq-float {
     background: #543d98 !important;
     border-radius: 100%;
-    bottom: 6px;
+    bottom: 6px !important;
     cursor: pointer;
     font-size: 15px;
     height: 48px !important;
