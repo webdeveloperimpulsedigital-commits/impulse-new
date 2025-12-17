@@ -20,7 +20,7 @@ export const ClientsSection = (): JSX.Element => {
 
   const logos = [
     
-    { name: "amazone", src: "/public/Aditya_Birla_Group_Logo.svg (1).png" },
+    { name: "amazone", src: "/Aditya_Birla_Group_Logo.svg (1).png" },
     { name: "amazone", src: "/High Res Logo resize_Artboard 1 copy 40.png" },
     { name: "HUL", src: "/High Res Logo resize_Artboard 1 copy 52.png" },
     { name: "hdfc", src: "https://www.theimpulsedigital.com/hdfc.jpg" },
