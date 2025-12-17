@@ -19,36 +19,37 @@ export const ScrollingStripsSection = (): JSX.Element => {
   ];
 
   const logos = [
-    { name: "abg-chemical", src: "https://www.theimpulsedigital.com/abg-chemical.jpg" },
-    { name: "hindalco", src: "https://www.theimpulsedigital.com/hindalco.jpg" },
-    { name: "abps", src: "https://www.theimpulsedigital.com/abps.jpg" },
-    { name: "birla-celilues", src: "https://www.theimpulsedigital.com/birla-celilues.jpg" },
-    { name: "abg-chemical", src: "https://www.theimpulsedigital.com/hindustan-uniliver.jpg" },
+    
+    { name: "amazone", src: "/public/Aditya_Birla_Group_Logo.svg (1).png" },
+    { name: "amazone", src: "/High Res Logo resize_Artboard 1 copy 40.png" },
+    { name: "HUL", src: "/High Res Logo resize_Artboard 1 copy 52.png" },
     { name: "hdfc", src: "https://www.theimpulsedigital.com/hdfc.jpg" },
-    { name: "godrej", src: "https://www.theimpulsedigital.com/godrej.jpg" },
-    { name: "amazone", src: "https://www.theimpulsedigital.com/amazone.jpg" },
-    { name: "ola", src: "https://www.theimpulsedigital.com/ola.jpg" },
-    { name: "chings", src: "https://www.theimpulsedigital.com/chings.jpg" },
-    { name: "d-mart", src: "https://www.theimpulsedigital.com/d-mart.jpg" },
     { name: "mastercard", src: "https://www.theimpulsedigital.com/mastercard.jpg" },
-    { name: "tjsb", src: "https://www.theimpulsedigital.com/tjsb.jpg" },
-    { name: "tata-soulful", src: "https://www.theimpulsedigital.com/tata-soulful.jpg" },
-    { name: "tata", src: "https://www.theimpulsedigital.com/tata.jpg" },
-    { name: "jankalyan", src: "https://www.theimpulsedigital.com/jankalyan.jpg" },
-    { name: "croda", src: "https://www.theimpulsedigital.com/croda.jpg" },
-    { name: "qure-ai", src: "https://www.theimpulsedigital.com/qure-ai.jpg" },
-    { name: "aster", src: "https://www.theimpulsedigital.com/aster.jpg" },
-    { name: "automag", src: "https://www.theimpulsedigital.com/Automag.jpg" },
-    { name: "datar", src: "https://www.theimpulsedigital.com/datar.jpg" },
-    { name: "dts", src: "https://www.theimpulsedigital.com/dts.jpg" },
-    { name: "emech", src: "https://www.theimpulsedigital.com/emech.jpg" },
-    { name: "enpro", src: "https://www.theimpulsedigital.com/enpro.jpg" },
-    { name: "goma", src: "https://www.theimpulsedigital.com/goma.jpg" },
-    { name: "hem", src: "https://www.theimpulsedigital.com/hem.jpg" },
-    { name: "lg", src: "https://www.theimpulsedigital.com/lg.jpg" },
+    { name: "ola", src: "https://www.theimpulsedigital.com/ola.jpg" },
+    { name: "tata", src: "/High Res Logo resize_Artboard 1 copy 45.png" },
+    { name: "d-mart", src: "/High Res Logo resize_Artboard 1 copy 34.png" },
+     { name: "tata-soulful", src: "/High Res Logo resize_Artboard 1 copy 47.png" },
+    { name: "abg-chemical", src: "/High Res Logo resize_Artboard 1 copy 43.png" },
+    { name: "hindalco", src: "/High Res Logo resize_Artboard 1 copy 42.png" },
+    { name: "abps", src: "/High Res Logo resize_Artboard 1 copy 38.png" },
+    { name: "birla-celilues", src: "/High Res Logo resize_Artboard 1 copy 39.png" },
+    { name: "godrej", src: "/High Res Logo resize_Artboard 1 copy 58.png" },
+    { name: "chings", src: "https://www.theimpulsedigital.com/chings.jpg" },
     { name: "more", src: "https://www.theimpulsedigital.com/more.jpg" },
+    { name: "tjsb", src: "/High Res Logo resize_Artboard 1 copy 46.png" },
+    { name: "jankalyan", src: "/High Res Logo resize_Artboard 1 copy 56.png" },
     { name: "navayasa", src: "https://www.theimpulsedigital.com/navayasa.jpg" },
-    { name: "shree-rubber", src: "https://www.theimpulsedigital.com/shree-rubber.jpg" },
+    { name: "croda", src: "/High Res Logo resize_Artboard 1 copy 35.png" },
+    { name: "qure-ai", src: "https://www.theimpulsedigital.com/qure-ai.jpg" },
+    { name: "aster", src: "/High Res Logo resize_Artboard 1 copy 60.png" },
+    { name: "automag", src: "/High Res Logo resize_Artboard 1 copy 51.png" },
+    { name: "datar", src: "https://www.theimpulsedigital.com/datar.jpg" },
+    { name: "dts", src: "/High Res Logo resize_Artboard 1 copy 59.png" },
+    { name: "emech", src: "/High Res Logo resize_Artboard 1 copy 33.png" },
+    { name: "lg", src: "https://www.theimpulsedigital.com/lg.jpg" },
+    { name: "goma", src: "https://www.theimpulsedigital.com/goma.jpg" },
+    { name: "hem", src: "/High Res Logo resize_Artboard 1 copy 57.png" },
+    // { name: "enpro", src: "/High Res Logo resize_Artboard 1 copy 54.png" },
     { name: "vendiman", src: "https://www.theimpulsedigital.com/vendiman.jpg" },
   ];
 
@@ -77,7 +78,6 @@ export const ScrollingStripsSection = (): JSX.Element => {
       <div className="relative h-[100px] md:h-[200px] w-full">
         {/* Black Strip */}
         <div className="absolute lg:top-[100px] md:top-[100px] left-0 w-full h-[80px] md:h-[100px] bg-[#000000] transform skew-y-3 origin-bottom-left overflow-hidden z-[999]">
-          {/* Animated track — no transform classes here */}
           <div className="flex items-center h-full marquee-track-3x-reverse whitespace-nowrap">
             <div className="flex items-center gap-6 md:gap-8 md:px-8">
               {[...Array(3)].map((_, setIndex) => (
@@ -103,7 +103,7 @@ export const ScrollingStripsSection = (): JSX.Element => {
         </div>
       </div>
 
-      {/* Businesses We Have Transformed Section */}
+      {/* Heading */}
       <div className="relative bg-white pt-8 md:pt-16">
         <div className="wrap-clients">
           <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between mb-8 md:mb-16">
@@ -134,17 +134,42 @@ export const ScrollingStripsSection = (): JSX.Element => {
         </div>
       </div>
 
-      {/* Logo Carousel */}
-      <div className="relative overflow-hidden group m-0 p-0">
+      {/* ✅ DESKTOP GRID (lg and above) — bigger logos */}
+      <div className="relative bg-white pb-12 hidden lg:block">
+        <div className="wrap-clients">
+          <div className="grid grid-cols-5 gap-8">
+            {logos.map((logo, index) => (
+              <div
+                key={`grid-${index}`}
+                className="w-full h-[160px] flex items-center justify-center"
+              >
+                <img
+                  className="max-w-[92%] max-h-[92%] object-contain"
+                  alt={logo.name}
+                  src={logo.src}
+                  loading="lazy"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* ✅ MOBILE/TABLET SLIDER (below lg) — with border only here */}
+      <div className="relative overflow-hidden group m-0 p-0 lg:hidden">
         <div className="flex marquee-track-logos group-hover:[animation-play-state:paused]">
           {[...Array(2)].map((_, setIndex) => (
             <div key={`logo-set-${setIndex}`} className="flex items-center flex-shrink-0">
               {logos.map((logo, index) => (
                 <div
                   key={`logo-${setIndex}-${index}`}
-                  className="flex-shrink-0 w-[100px] h-[70px] md:w-[140px] md:h-[90px] lg:w-[180px] lg:h-[120px] bg-white border border-gray-200 flex items-center justify-center client-logo"
+                  className="flex-shrink-0 w-[130px] h-[90px] md:w-[180px] md:h-[120px] lg:w-[220px] lg:h-[140px] bg-white flex items-center justify-center client-logo"
                 >
-                  <img className="max-w-full max-h-full object-contain" alt={logo.name} src={logo.src} />
+                  <img
+                    className="max-w-[92%] max-h-[92%] object-contain"
+                    alt={logo.name}
+                    src={logo.src}
+                  />
                 </div>
               ))}
             </div>
@@ -153,9 +178,6 @@ export const ScrollingStripsSection = (): JSX.Element => {
       </div>
 
       <style>{`
-      .client-logo {
-        padding: 0rem;
-      }
         .wrap-clients {
           max-width: 100%;
           margin: auto;
@@ -168,12 +190,10 @@ export const ScrollingStripsSection = (): JSX.Element => {
         }
 
         :root{
-          /* Adjust speeds here */
-          --strip-speed: 10s;   /* services strips (3x clones) */
-          --logos-speed: 60s;   /* logos (2x clones) */
+          --strip-speed: 10s;
+          --logos-speed: 60s;
         }
 
-        /* ========== SERVICES STRIPS (3 clones → move 33.3333%) ========== */
         @keyframes marquee3x {
           0%   { transform: translateX(0); }
           100% { transform: translateX(-33.3333%); }
@@ -191,7 +211,6 @@ export const ScrollingStripsSection = (): JSX.Element => {
           white-space: nowrap;
         }
 
-        /* ========== LOGO MARQUEE (2 clones → move 50%) ========== */
         @keyframes marqueeLogos {
           0%   { transform: translateX(0); }
           100% { transform: translateX(-50%); }
@@ -203,11 +222,17 @@ export const ScrollingStripsSection = (): JSX.Element => {
           animation: marqueeLogos var(--logos-speed) linear infinite;
         }
 
-        /* Safety: keep timing strictly linear and avoid transitions creeping in */
         .marquee-track-3x, .marquee-track-3x * ,
         .marquee-track-3x-reverse, .marquee-track-3x-reverse * ,
         .marquee-track-logos, .marquee-track-logos * {
           animation-timing-function: linear !important;
+        }
+
+        /* ✅ border ONLY for mobile/tablet slider cards */
+        .client-logo {
+          padding: 0rem;
+          border: 1px solid #e5e7eb; /* gray-200 */
+          border-radius: 10px;
         }
 
         @media (prefers-reduced-motion: reduce){
