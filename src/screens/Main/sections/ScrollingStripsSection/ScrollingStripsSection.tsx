@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const ScrollingStripsSection = (): JSX.Element => {
   const servicesSecond = [
     "Services",
-    "Production",
+    "Production", 
     "Social Media Marketing",
     "Content Strategy",
     "Digital Marketing",
