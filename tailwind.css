@@ -6159,7 +6159,7 @@ padding-bottom: 6rem;
 .zsiq-float{
     background: #543d98 !important;
     border-radius: 100%;
-    bottom: 76px;
+    bottom: 76px !important;
     right: calc(16px + var(--zsiq-seasonal-float-image-position)) !important;
     cursor: pointer;
     font-size: 15px;
