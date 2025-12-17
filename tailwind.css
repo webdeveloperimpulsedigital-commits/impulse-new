@@ -5410,6 +5410,19 @@ padding-bottom: 6rem;
 #contact-border-sec-two{
   margin-bottom: 4rem;
 }
+
+.zsiq-float {
+    background: #543d98;
+    border-radius: 100%;
+    bottom: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    height: 48px;
+    padding: 0px;
+    position: fixed;
+    right: calc(0px + var(--zsiq-seasonal-float-image-position));
+    width: 48px;
+}
 }
 
 @media (min-width: 768px) {
@@ -6143,3 +6156,11 @@ padding-bottom: 6rem;
 }
 
 
+.zsiq-float{
+    background: #543d98;
+    border-radius: 100%;
+    bottom: 76px;
+    right: calc(16px + var(--zsiq-seasonal-float-image-position));
+    cursor: pointer;
+    font-size: 15px;
+}

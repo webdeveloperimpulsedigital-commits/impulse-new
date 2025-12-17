@@ -280,8 +280,12 @@ export const FooterSection: React.FC = () => {
             gap: 10px;
           }
           .actionBtn {
-            width: 44px;
-            height: 44px;
+            width: 34px;
+            height: 34px;
+            bottom: 44px;
+            right: 0px;
+            position: relative;
+            left: 9px;
           }
         }
       `}</style>
