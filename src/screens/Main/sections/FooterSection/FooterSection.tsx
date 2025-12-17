@@ -205,7 +205,7 @@ export const FooterSection: React.FC = () => {
               className="actionBtn"
               aria-label="Chat on WhatsApp"
             >
-              <img src="/whatsapp.png" alt="WhatsApp" />
+              <img src="./WhatsApp.png" alt="WhatsApp" />
             </a>
 
             <a
@@ -213,7 +213,7 @@ export const FooterSection: React.FC = () => {
               className="actionBtn"
               aria-label="Call Impulse Digital"
             >
-              <img src="/footer-call.png" alt="Call" />
+              <img src="./call.png" alt="Call" />
             </a>
           </div>
         )}
@@ -229,8 +229,8 @@ export const FooterSection: React.FC = () => {
       <style>{`
         .fixedButtons {
           position: fixed;
-          right: 20px;
-          bottom: 20px;
+          right: 10px;
+          bottom: 70px;
           display: flex;
           flex-direction: column-reverse;
           gap: 12px;
