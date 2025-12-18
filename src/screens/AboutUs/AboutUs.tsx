@@ -1,7 +1,7 @@
 //import { ScrollRevealLogo } from "../../components/ScrollRevealLogo/ScrollRevealLogo";
 import { AboutHeroSection } from "./sections/AboutHeroSection/AboutHeroSection";
 import { AgencyIntroSection } from "./sections/AgencyIntroSection/AgencyIntroSection";
-import { AbtZoomGridSection } from "./sections/AbtZoomGridSection";
+// import { AbtZoomGridSection } from "./sections/AbtZoomGridSection";
 // import { StatisticsSection } from "./sections/StatisticsSection/StatisticsSection";
 // import { BeyondDigitalMarketingSection } from "./sections/BeyondDigitalMarketingSection/BeyondDigitalMarketingSection";
 // import { BlogSection } from "../Main/sections/BlogSection/BlogSection";
@@ -17,7 +17,7 @@ export const AboutUs = (): JSX.Element => {
       <div className="relative w-full space-y-0">
         <AboutHeroSection />
         <AgencyIntroSection />
-        <AbtZoomGridSection />
+        {/* <AbtZoomGridSection /> */}
         {/* <StatisticsSection />
         <BeyondDigitalMarketingSection />
         <BlogSection />

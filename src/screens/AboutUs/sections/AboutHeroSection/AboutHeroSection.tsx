@@ -17,8 +17,8 @@ export const AboutHeroSection = (): JSX.Element => {
 
 <meta property="og:title" content="About Impulse Digital - Creative Digital Marketing Agency"/>
 <meta property="og:description" content="A full-fledged creative digital marketing agency to help you unleash the true potential of your brand on the digital front. With Impulse Digital, get more leads &amp; grow revenue."/>
-<meta property="og:url" content="https://web.archive.org/web/20250610013748/https://www.theimpulsedigital.com/about-us"/>
-<meta property="og:image" content="https://web.archive.org/web/20250610013748im_/https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
+<meta property="og:url" content="https://www.theimpulsedigital.com/about-us"/>
+<meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
 <meta property="og:site_name" content="Impulse Digital"/>
 <meta property="og:type" content="website"/>
 <meta name="twitter:card" content="summary_large_image"/>
@@ -26,8 +26,8 @@ export const AboutHeroSection = (): JSX.Element => {
 <meta name="twitter:creator" content="@impulsedigi"/>
 <meta name="twitter:title" content="About Impulse Digital - Creative Digital Marketing Agency"/>
 <meta name="twitter:description" content="A full-fledged creative digital marketing agency to help you unleash the true potential of your brand on the digital front. With Impulse Digital, get more leads &amp; grow revenue."/>
-<meta name="twitter:image" content="https://web.archive.org/web/20250610013748im_/https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
-<meta name="twitter:url" content="https://web.archive.org/web/20250610013748im_/https://www.theimpulsedigital.com/about-us"/>
+<meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
+<meta name="twitter:url" content="https://www.theimpulsedigital.com/about-us"/>
 <link rel="canonical" href="https://www.theimpulsedigital.com/about-us" />
 <link rel="icon" type="image/x-icon" href="/resource-icon.png" />
 
@@ -73,7 +73,7 @@ export const AboutHeroSection = (): JSX.Element => {
             Home
           </NavLink>
           <span className="select-none">{">"}</span>
-          <span className="text-white">About U111ssss</span>
+          <span className="text-white">About Us</span>
         </nav>
       </div>
     </section>

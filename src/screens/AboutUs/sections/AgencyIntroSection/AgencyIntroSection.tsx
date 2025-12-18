@@ -1,341 +1,247 @@
-import { useEffect, useRef, useState } from "react";
+import React from "react";
 
 export const AgencyIntroSection = (): JSX.Element => {
-  const introRef = useRef<HTMLDivElement>(null);
-  const sliderRef = useRef<HTMLDivElement>(null);
-  const [revealed, setRevealed] = useState(false);
-  const [activeSlide, setActiveSlide] = useState(0);
-
-  useEffect(() => {
-    const root = introRef.current;
-    if (!root) return;
-    const sentinel = root.querySelector(".intro__sentinel") as HTMLElement | null;
-    if (!sentinel) return;
-
-    const io = new IntersectionObserver(
-      ([entry]) => setRevealed(entry.isIntersecting),
-      { threshold: 0.1, rootMargin: "0px 0px -20% 0px" }
-    );
-    io.observe(sentinel);
-    return () => io.disconnect();
-  }, []);
-
-  useEffect(() => {
-    const scroller = sliderRef.current;
-    if (!scroller) return;
-    const onScroll = () => {
-      const { scrollLeft, clientWidth } = scroller;
-      const index = Math.round(scrollLeft / (clientWidth * 0.8));
-      setActiveSlide(index);
-    };
-    scroller.addEventListener("scroll", onScroll, { passive: true });
-    return () => scroller.removeEventListener("scroll", onScroll);
-  }, []);
-
   return (
-    <section className="w-full bg-white py-14 lg:py-24" id="abt-sec-border">
-      <div className="max-w-[1400px] mx-auto px-4 lg:px-0">
-        {/* Heading + Paragraph */}
-        <div className="intro__topcopy">
-          <h2 className="intro__title">Creativity Is Our Business Plan.</h2>
-         <p className="intro__subtitle">
-  At Impulse Digital, we turn strategy into stories and caffeine into campaigns. 
-  We don’t just market brands-we make them unforgettable.{" "}
-  <span className="text-[#543d98] font-semibold">
-    Scroll down to meet the two minds who turn “what ifs” into “wow!”
-  </span>
-</p>
-        </div>
+    <section className="w-full bg-white py-16 lg:py-28" id="abt-sec-border">
+      <div className="max-w-[1200px] mx-auto px-4 lg:px-8 space-y-20 lg:space-y-28">
+        {/* ================= HERO ================= */}
+       <section className="relative overflow-hidden rounded-[32px] border border-[#ece8ff] bg-[#563d99] shadow-[0_22px_55px_rgba(15,23,42,0.18)]">
+  
+  {/* SUBTLE GRADIENT FOR DEPTH */}
+  <div className="absolute inset-0 bg-gradient-to-r from-black/25 via-transparent to-black/15" />
 
-        <div ref={introRef} className={`intro ${revealed ? "intro--revealed" : ""}`}>
-          {/* Logo */}
-          <img
-            src="/Impulse Logo.png"
-            alt="Impulse Digital"
-            className="intro__logo"
-          />
+  {/* CONTENT */}
+  <div className="relative px-6 py-10 md:px-12 md:py-14 lg:px-16">
+    <p className="text-white/70 text-[12px] tracking-[0.18em] uppercase mb-3">
+      ABOUT US
+    </p>
 
-          {/* Founders (desktop) */}
-          <div className="intro__photos">
-            <div className="intro__person">
-              <img
-                src="/adwait-sir.jpg"
-                alt="Adwait Joshi"
-                className="intro__photo"
-              />
-              <div className="intro__caption">
-                <h4 className="intro__name">Adwait Joshi</h4>
-                <p className="intro__role">Founder & Director</p>
-              </div>
-            </div>
-            <div className="intro__person">
-              <img
-                src="/Abhishek Image.jpg"
-                alt="Abhishek Arekar"
-                className="intro__photo"
-              />
-              <div className="intro__caption">
-                <h4 className="intro__name">Abhishek Arekar</h4>
-                <p className="intro__role">Director</p>
-              </div>
-            </div>
-          </div>
+    <h1 className="[font-family:'DM_Sans',Helvetica] font-extrabold text-white text-[30px] md:text-[54px] leading-[1.05] max-w-3xl">
+      Marketing that doesn’t need babysitting.
+    </h1>
 
-          {/* Mobile slider */}
-          <div className="intro__sliderWrap">
-            <div className="intro__slider" ref={sliderRef}>
-              <div className="intro__slide">
-                <img
-                  src="/adwait-sir.jpg"
-                  alt="Adwait Joshi"
-                  className="intro__slidePhoto"
-                />
-                <div className="intro__slideCaption">
-                  <h4 className="intro__name">Adwait Joshi</h4>
-                  <p className="intro__role">Founder & Director</p>
-                </div>
-              </div>
-              <div className="intro__slide">
-                <img
-                  src="/Abhishek Image.jpg"
-                  alt="Abhishek Arekar"
-                  className="intro__slidePhoto"
-                />
-                <div className="intro__slideCaption">
-                  <h4 className="intro__name">Abhishek Arekar</h4>
-                  <p className="intro__role">Director</p>
-                </div>
-              </div>
-            </div>
-            <div className="intro__dots">
-              <span className={`intro__dot ${activeSlide === 0 ? "is-active" : ""}`} />
-              <span className={`intro__dot ${activeSlide === 1 ? "is-active" : ""}`} />
+    <p className="text-white/85 text-[15px] md:text-[20px] leading-[1.6] mt-4 max-w-3xl">
+      We take full ownership of your marketing, then prove it with outcomes.
+    </p>
+  </div>
+</section>
+
+
+        {/* ============ WHAT WE SOLVE ============ */}
+        <section className="grid gap-10 lg:grid-cols-[1.1fr_0.9fr] items-start">
+          {/* Text */}
+          <div className="space-y-4">
+            <h2 className="text-[#543d98] font-bold text-[22px] md:text-[34px] leading-[1.15]">
+              What We’re Here to Solve
+            </h2>
+
+            <div className="space-y-4 text-[#030019] text-[14px] md:text-[18px] leading-[1.75]">
+              <p>
+                Impulse Digital is a marketing agency built for brands that want marketing
+                to run smoothly and actually move the needle.{" "}
+                <span className="font-semibold">Not louder. Not busier. Better.</span>
+              </p>
+
+              <p>
+                We work with teams who would rather spend their time building the business
+                than chasing vendors, reviewing endless drafts, or sitting in meetings that
+                do not change decisions.
+              </p>
+
+              <p>
+                Increasingly, that also means building systems where technology and AI reduce
+                friction, not add complexity.
+              </p>
             </div>
           </div>
 
-          <div className="intro__sentinel" />
-        </div>
+          {/* Image */}
+          <div className="relative overflow-hidden rounded-3xl border border-[#ece8ff] bg-slate-200 shadow-[0_18px_45px_rgba(15,23,42,0.10)]">
+            <div className="aspect-[16/10]">
+              <img
+                src="/Career Page Images-14.png"
+                alt=""
+                className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-black/0 to-transparent" />
+          </div>
+        </section>
+
+        {/* ============ BELIEFS ============ */}
+        <section className="grid gap-10 lg:grid-cols-[0.95fr_1.05fr] items-start">
+          {/* Left image */}
+          <div className="relative overflow-hidden rounded-3xl border border-[#ece8ff] bg-slate-200 shadow-[0_18px_45px_rgba(15,23,42,0.10)] order-2 lg:order-1">
+            <div className="aspect-[16/11]">
+              <img
+                src="/Career Page Images-03.png"
+                alt=""
+                className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-black/0 to-transparent" />
+          </div>
+
+          {/* Right text */}
+          <div className="space-y-5 order-1 lg:order-2">
+            <h2 className="text-[#543d98] font-bold text-[22px] md:text-[34px] leading-[1.15]">
+              What We Actually Believe
+            </h2>
+
+            <div className="space-y-3">
+              {[
+                "Marketing should feel clear, not chaotic.",
+                "Execution should feel reliable, not reactive.",
+                "Results should be the conversation, not activity.",
+              ].map((t) => (
+                <div
+                  key={t}
+                  className="flex items-start gap-3 rounded-2xl border border-[#ece8ff] bg-white p-4 shadow-[0_10px_25px_rgba(15,23,42,0.05)]"
+                >
+                  <span className="mt-0.5 inline-flex h-9 w-9 items-center justify-center rounded-full bg-[#f0ebff] text-[#543d98] font-bold">
+                    ✓
+                  </span>
+                  <p className="text-[#030019] text-[14px] md:text-[18px] leading-[1.7]">
+                    {t}
+                  </p>
+                </div>
+              ))}
+            </div>
+
+            <div className="space-y-4 text-slate-700 text-[14px] md:text-[18px] leading-[1.75]">
+              <p>
+                We believe technology should remove manual effort, surface better decisions,
+                and let humans focus on what actually matters.
+              </p>
+              <p>
+                If we are your agency, marketing should stop being a daily burden for your
+                leadership team.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        {/* ============ EXPERIENCE ============ */}
+        <section className="grid gap-10 lg:grid-cols-[1.05fr_0.95fr] items-start">
+          {/* Text */}
+          <div className="space-y-4">
+            <h2 className="text-[#543d98] font-bold text-[22px] md:text-[34px] leading-[1.15]">
+              What Working With Us Feels Like
+            </h2>
+
+            <div className="space-y-4 text-[#030019] text-[14px] md:text-[18px] leading-[1.75]">
+              <p>
+                You get fewer follow-ups, fewer loose ends, and fewer “quick calls” to fix
+                avoidable problems.
+              </p>
+
+              <p>
+                You get strategy that shows up before the work does. You get content and
+                campaigns that are built to perform, not just exist.
+              </p>
+
+              <p>
+                Behind the scenes, we use data, automation, and AI-led systems to make marketing
+                faster, smarter, and more consistent.
+              </p>
+
+              <p className="font-semibold text-[#030019]">
+                Marketing becomes a system, not a scramble.
+              </p>
+            </div>
+          </div>
+
+          {/* Image */}
+          <div className="relative overflow-hidden rounded-3xl border border-[#ece8ff] bg-slate-200 shadow-[0_18px_45px_rgba(15,23,42,0.10)]">
+            <div className="aspect-[16/11]">
+              <img
+                src="/Career Page Images-15.png"
+                alt=""
+                className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-black/0 to-transparent" />
+          </div>
+        </section>
+
+        {/* ============ HUMANS ============ */}
+        <section className="grid gap-10 lg:grid-cols-2 items-start">
+          <div className="space-y-4">
+            <h2 className="text-[#543d98] font-bold text-[22px] md:text-[34px] leading-[1.15]">
+              The Humans Behind the Work
+            </h2>
+
+            <div className="space-y-4 text-[#030019] text-[14px] md:text-[18px] leading-[1.75]">
+              <p>We are led by a senior team that stays close to the work.</p>
+              <p>
+                Strategy is not a one-time deck. Creative is not “just designs.” Execution is not
+                “figure it out.”
+              </p>
+              <p>
+                We combine human judgement with technology-driven workflows, so clients do not have
+                to manage what they have already outsourced.
+              </p>
+            </div>
+          </div>
+
+          <div className="relative overflow-hidden rounded-3xl border border-[#ece8ff] bg-slate-200 shadow-[0_18px_45px_rgba(15,23,42,0.10)]">
+            <div className="aspect-[16/12]">
+              <img
+                src="/Artboard 2 copy 21.jpg"
+                alt=""
+                className="w-full h-full object-cover"
+                loading="lazy"
+                decoding="async"
+              />
+            </div>
+            <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-black/0 to-transparent" />
+          </div>
+        </section>
+
+        {/* ============ WHO THIS IS FOR ============ */}
+        <section className="border-t border-[#ece8ff] pt-14">
+  <div className="max-w-4xl space-y-6">
+    <h2 className="text-[#543d98] font-bold text-[22px] md:text-[34px] leading-[1.15]">
+      Who This Works Best For
+    </h2>
+
+    <div className="space-y-4 text-[#030019] text-[14px] md:text-[18px] leading-[1.75]">
+      <p>
+        If you want a partner who can simplify complexity and still deliver serious
+        outcomes, we will work well together.
+      </p>
+      <p>
+        If you need an agency that requires constant steering,{" "}
+        <span className="font-semibold">we are not it.</span>
+      </p>
+    </div>
+
+    {/* CTA STRIP */}
+    <div className="mt-10 flex flex-col gap-6 sm:flex-row sm:items-center sm:justify-between rounded-3xl border border-[#ece8ff] bg-[#f8f5ff] px-6 py-6">
+      <p className="text-[16px] md:text-[20px] font-medium text-[#030019] leading-[1.4]">
+        You focus on the business.{" "}
+        <span className="text-[#543d98] font-bold">
+          We make sure marketing keeps up.
+        </span>
+      </p>
+
+      <a
+        href="#contact"
+        className="inline-flex items-center justify-center rounded-full bg-[#543d98] px-6 py-3 text-[14px] md:text-[15px] font-semibold text-white shadow-md hover:bg-[#4a338b] transition"
+      >
+        Start the conversation
+      </a>
+    </div>
+  </div>
+</section>
+
       </div>
-
-      <style>{`
-        /* Top Copy */
-        .intro__topcopy {
-          text-align: center;
-          margin: 0 auto 0.5rem auto;
-          max-width: 880px;
-          padding: 0 1rem;
-        }
-        .intro__title {
-          font-family: 'DM Sans', Helvetica, sans-serif;
-          font-weight: 800;
-          font-size: clamp(30px, 4vw, 52px);
-          color: #543d98;
-          margin: 0 0 0.5rem 0;
-          line-height: 1.1;
-        }
-        .intro__subtitle {
-          font-family: 'DM Sans', Helvetica, sans-serif;
-          font-size: clamp(16px, 1.5vw, 20px);
-          color: #030019;
-          opacity: 0.85;
-          margin: 0;
-        }
-
-        /* Main Section */
-        .intro {
-          position: relative;
-          width: 100%;
-          min-height: 90vh;
-          display: grid;
-          place-items: center;
-          overflow: visible;
-          --photo-shift: 140px;
-          padding-top: 0.25rem;
-          padding-bottom: 10rem; /* space below photos */
-          margin-bottom: 20rem;  /* gap before next section */
-        }
-
-        /* Logo */
-        .intro__logo {
-          width: min(60vw, 740px);
-          max-width: 740px;
-          opacity: 1;
-          transform: scale(1);
-          transition: opacity 0.8s ease, transform 1s ease;
-          z-index: 2;
-          filter: drop-shadow(0 10px 28px rgba(0,0,0,0.08));
-        }
-
-        /* Photos */
-        .intro__photos {
-          position: absolute;
-          inset: 0;
-          display: flex;
-          align-items: flex-start;
-          justify-content: center;
-          gap: 120px;
-          padding: 13rem 4rem 8rem;
-          opacity: 0;
-          transform: translateY(calc(var(--photo-shift) + 10px));
-          transition: opacity 0.8s ease, transform 1s ease;
-          z-index: 1;
-        }
-        .intro__person {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          text-align: center;
-          gap: 0.8rem;
-        }
-        .intro__photo {
-          width: 22vw;
-          max-width: 360px;
-          border-radius: 18px;
-          object-fit: cover;
-          box-shadow: 0 16px 40px rgba(0,0,0,0.18);
-
-          /* B/W by default */
-          filter: grayscale(100%) saturate(0.9) contrast(1.05) brightness(0.9);
-          transition: filter .35s ease, transform .35s ease;
-          will-change: filter, transform;
-        }
-        /* Color on hover/focus (desktop pointer devices) */
-        @media (hover:hover) and (pointer:fine) {
-          .intro__person:hover .intro__photo,
-          .intro__person:focus-within .intro__photo {
-            filter: none;
-            transform: scale(1.012);
-          }
-        }
-
-        /* Caption */
-        .intro__caption,
-        .intro__slideCaption {
-          font-family: 'DM Sans', Helvetica, sans-serif;
-          text-align: center;
-        }
-        .intro__name {
-          font-weight: 700;
-          color: #030019;
-          font-size: 1.4rem;
-          margin: 0;
-        }
-        .intro__role {
-          color: #543d98;
-          font-size: 1rem;
-          margin-top: 4px;
-        }
-
-        /* Animation states */
-        .intro__sentinel {
-          position: absolute;
-          bottom: 0;
-          width: 100%;
-          height: 1px;
-        }
-        .intro--revealed .intro__logo {
-          opacity: 0;
-          transform: scale(0.9) translateY(-25px);
-        }
-        .intro--revealed .intro__photos,
-        .intro--revealed .intro__sliderWrap {
-          opacity: 1;
-          transform: translateY(var(--photo-shift));
-          z-index: 3;
-        }
-
-        /* Mobile slider */
-        .intro__sliderWrap {
-          display: none;
-          position: absolute;
-          inset: 0;
-          opacity: 0;
-          transition: opacity 0.8s ease, transform 1s ease;
-          transform: translateY(calc(var(--photo-shift) + 10px));
-          z-index: 1;
-          padding-top: 7rem;
-          padding-bottom: 5rem; /* space between slider and next section */
-        }
-        .intro__slider {
-          display: flex;
-          overflow-x: auto;
-          scroll-snap-type: x mandatory;
-          -webkit-overflow-scrolling: touch;
-          gap: 1rem;
-          padding-left: 1rem;
-        }
-        .intro__slide {
-          scroll-snap-align: start;
-          flex: 0 0 80%;
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          justify-content: center;
-          gap: 0.75rem;
-        }
-        .intro__slidePhoto {
-          width: 100%;
-          border-radius: 16px;
-          object-fit: cover;
-          box-shadow: 0 16px 40px rgba(0,0,0,0.18);
-
-          /* B/W by default */
-          filter: grayscale(100%) saturate(0.9) contrast(1.05) brightness(0.9);
-          transition: filter .35s ease, transform .35s ease;
-          will-change: filter, transform;
-        }
-        /* Color on hover/focus for devices that support it */
-        @media (hover:hover) and (pointer:fine) {
-          .intro__slide:hover .intro__slidePhoto,
-          .intro__slide:focus-within .intro__slidePhoto {
-            filter: none;
-            transform: scale(1.01);
-          }
-        }
-
-        /* Dots */
-        .intro__dots {
-          display: flex;
-          justify-content: center;
-          gap: 10px;
-          margin-top: 12px;
-        }
-        .intro__dot {
-          width: 8px;
-          height: 8px;
-          border-radius: 50%;
-          background: #d8c8ff;
-          transition: transform 0.25s ease, background 0.25s ease;
-        }
-        .intro__dot.is-active {
-          background: #543d98;
-          transform: scale(1.25);
-        }
-
-        /* Reduced motion */
-        @media (prefers-reduced-motion: reduce) {
-          .intro__photo,
-          .intro__slidePhoto { transition: none; }
-        }
-
-        /* Mobile */
-        @media (max-width: 768px) {
-          .intro {
-            min-height: 78vh;
-            padding-top: 0.25rem;
-            padding-bottom: 11rem; /* extra spacing below photos */
-            --photo-shift: 110px;
-            margin-bottom: 5rem;
-          }
-          .intro__logo { width: min(70vw, 420px); }
-          .intro__photos { display: none; }
-          .intro__sliderWrap { display: block; }
-          .intro__name { font-size: 1.2rem; }
-          .intro__role { font-size: 0.95rem; }
-          .intro__subtitle { font-size: 15px; } /* fixed typo */
-          .intro__topcopy { margin-bottom: 0.5rem; }
-        }
-      `}</style>
     </section>
   );
 };
