@@ -1,0 +1,1 @@
+export { BrutindiaCaseStudyHeroSection } from "./BrutindiaCaseStudyHeroSection";
