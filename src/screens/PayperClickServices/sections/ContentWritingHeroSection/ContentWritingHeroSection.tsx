@@ -6,7 +6,7 @@ export const ContentWritingHeroSection = (): JSX.Element => {
   const heroTextLines = ["Performance Marketing (PPC)"];
 
   return (
-    <>
+    <> 
       {/* ✅ SEO Meta Tags */}
     <Helmet> 
         <meta name="description" content="The Impulse Digital is a leading PPC company in Mumbai, India. Our PPC & search engine marketing services give boost to your online marketing efforts. We help you channelize your spends wisely to generate leads and get the best ROI." />

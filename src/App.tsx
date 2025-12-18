@@ -56,6 +56,9 @@ import { DmartCasestudy } from "./screens/DmartCasestudy";
 import { HulCaseStudy } from "./screens/HulCaseStudy";
 import { KevaCaseStudy } from "./screens/KevaCaseStudy";
 import { VendimanCaseStudy } from "./screens/VendimanCaseStudy";
+import { BrutindiaCaseStudy } from "./screens/BrutindiaCaseStudy";
+import { AforceforgoodCaseStudy } from "./screens/AforceforgoodCaseStudy";
+import { Fourse4goodCaseStudy } from "./screens/Fourse4goodCaseStudy";
 import { Privacypage } from "./screens/Privacypage";
 import { TermsAndConditions } from "./screens/TermsAndConditionsPage";
 
@@ -106,6 +109,9 @@ export const App = (): JSX.Element => {
       <Route path="/casestudies/hul" element={<HulCaseStudy/>}/>
       <Route path="/casestudies/keva" element={<KevaCaseStudy/>}/>
       <Route path="/casestudies/vendiman" element={<VendimanCaseStudy/>}/>
+      <Route path="/casestudies/brutindia" element={<BrutindiaCaseStudy/>}/>
+      <Route path="/casestudies/aforceforgood" element={<AforceforgoodCaseStudy/>}/>
+      <Route path="/casestudies/fourseforgood" element={<Fourse4goodCaseStudy/>}/>
 
 
  
@@ -122,7 +128,7 @@ export const App = (): JSX.Element => {
 <Route path="/resources/employer-branding-PPT" element={<EmployerBrandingPPTS />} />
 
 
-    <Route path="/career" element={<Careers />} />
+    <Route path="/careers" element={<Careers />} />
 
       <Route path="/contact-us" element={<Contact />} />
 

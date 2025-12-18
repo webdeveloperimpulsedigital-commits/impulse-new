@@ -8,7 +8,7 @@ import { CaseStudiesGrid } from "./sections/CaseStudiesGrid/CaseStudiesGrid";
 import { TestimonialsSection } from "./sections/TestimonialsSection/TestimonialsSection";
 import { BlogSection } from "./sections/BlogSection/BlogSection";
 import { ContactResourcesSection } from "./sections/ContactResourcesSection/ContactResourcesSection";
-import { ResourcesTeaserSection } from "./sections/ResourcesSection/ResourcesSection";
+//import { ResourcesTeaserSection } from "./sections/ResourcesSection/ResourcesSection";
 import { FAQSection } from "./sections/FAQSection/FAQSection";
 import { FooterSection } from "./sections/FooterSection/FooterSection";
 
@@ -26,7 +26,7 @@ export const Main = (): JSX.Element => {
         <TestimonialsSection />
         <BlogSection />
         <ContactResourcesSection />
-        <ResourcesTeaserSection />
+        {/* <ResourcesTeaserSection /> */}
         <FAQSection />
         <FooterSection />
       </div>

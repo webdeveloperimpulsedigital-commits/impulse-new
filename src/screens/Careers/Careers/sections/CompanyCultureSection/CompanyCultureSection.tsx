@@ -4,7 +4,7 @@ export const CompanyCultureSection = (): JSX.Element => {
   return (
     <section
       className="w-full bg-gradient-to-b from-[#f8f5ff] via-white to-[#f4f7fb] py-20 lg:pt-28 lg:pb-32"
-      data-section="company-culture"
+      data-section="company-culture" id="sec-border"
     >
       {/* ✅ CHANGED ONLY THIS WRAPPER: removed max-w + mx-auto to make full width */}
       <div className="max-w-[1440px] mx-auto px-8 md:px-12 lg:px-16 space-y-16 lg:space-y-24">

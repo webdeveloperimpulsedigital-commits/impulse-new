@@ -145,6 +145,10 @@ export const ContactFormSection = () => {
 
       {/* INLINE CSS FOR CONTACT LIST */}
       <style>{`
+      .w-120 {
+    width: 7%;
+    max-width: 10%;
+}
         .contact-list {
           list-style: none;
           padding: 0;

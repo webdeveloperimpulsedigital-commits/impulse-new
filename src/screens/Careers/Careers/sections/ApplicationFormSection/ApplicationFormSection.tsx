@@ -60,10 +60,9 @@ export const ApplicationFormSection = (): JSX.Element => {
                   defaultValue="-Select-"
                 >
                   <option value="-Select-">Position Applying For</option>
-                  <option value="Digital Marketing Manager">Digital Marketing Manager</option>
-                  <option value="Content Writer">Content Writer</option>
-                  <option value="SEO Specialist">SEO Specialist</option>
-                  <option value="Graphic Designer">Graphic Designer</option>
+                  <option value="Social Media Manager">Social Media Manager</option>
+                  <option value="Video Editor">Video Editor</option>
+                  <option value="Copywriter">Copywriter</option>
                 </select>
               </div>
 

@@ -91,7 +91,7 @@ const DEFAULT_ITEMS: NavItem[] = [
       { label: "Slideshare PPT", href: "/resources/slideshare-ppt" }
     ]
     },
-  // { label: "Career", href: "/career" },
+ { label: "Careers", href: "/careers" },
 ];
 export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
   const navigationItems = items ?? DEFAULT_ITEMS;

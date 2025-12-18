@@ -8,7 +8,7 @@ import { CaseStudiesGrid } from "./sections/CaseStudiesGrid/CaseStudiesGrid";
 import { TestimonialsSection } from "./sections/TestimonialsSection/TestimonialsSection";
 import { BlogSection } from "../Main/sections/BlogSection"
 import { ContactResourcesSection } from "../Main/sections/ContactResourcesSection";
-import { ResourcesTeaserSection } from "./sections/ResourcesSection/ResourcesSection";
+//import { ResourcesTeaserSection } from "./sections/ResourcesSection/ResourcesSection";
 import { FAQSection } from "./sections/FAQSection/FAQSection";
 import { FooterSection } from "../Main/sections/FooterSection/FooterSection";
  
@@ -26,7 +26,7 @@ export const DigitalMarketingAgencyinIndia = (): JSX.Element => {
         <TestimonialsSection />
         <BlogSection /> 
         <ContactResourcesSection />
-        <ResourcesTeaserSection />
+        {/* <ResourcesTeaserSection /> */}
         <FAQSection />
         <FooterSection />
       </div>

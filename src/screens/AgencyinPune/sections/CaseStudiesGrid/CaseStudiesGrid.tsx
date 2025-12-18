@@ -150,12 +150,12 @@ const css = `
 const caseStudiesData = [
   {
     id: 1,
-    title: "Mastercard Inc.",
-    image: "/14_mastercard.jpg",
+    title: "Amazone Employer Branding",
+    image: "/Amazon EB.jpg",
     tags: ["Product Design"],
     tall: true,
     corner: false,
-    link: "/casestudies/mastercard"
+    link: "/casestudies/amazon-eb",
   },
   {
     id: 2,
@@ -177,30 +177,30 @@ const caseStudiesData = [
   },
   {
     id: 4,
-    title: "Vendiman",
-    image: "/17_Vendiman.jpg",
+    title: "Mastercard",
+    image: "/14_mastercard.jpg",
     tags: ["Creative"],
     tall: false,
     corner: false,
-    link: "/casestudies/vendiman"
+    link: "/casestudies/mastercard"
   },
   {
     id: 5,
-    title: "ElectroMech",
-    image: "/18_Emech.png",
-    tags: ["Branding"],
+     title: "Keva",
+    image: "/Keva.png",
+    tags: ["Product Design"],
     tall: false,
     corner: false,
-    link: "/casestudies/electromech"
+    link: "/casestudies/keva",
   },
   {
     id: 6,
-    title: "HEM Corporation",
-    image: "/19_HEM.jpg",
+     title: "Amazone Employee Value Proposition",
+    image: "/Amazon EVP.jpg",
     tags: ["Packaging"],
     tall: false,
     corner: false,
-    link: "/casestudies/hem"
+    link: "/casestudies/crafting-the-employer-value-proposition-for-amazon-india",
   }
 ];
 
