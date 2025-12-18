@@ -91,10 +91,14 @@ export const SocialMediaMarketingHeroSection = (): JSX.Element => {
               {/* Breadcrumb */}
         <nav className="flex items-center justify-center gap-2 text-white/80 text-sm">
           <NavLink to="/" className="hover:text-white transition-colors">
-            SEARCH ENGINE OPTIMIZATION
+            Home
           </NavLink>
           <span className="select-none">{">"}</span>
-          <span className="text-white">SEARCH ENGINE OPTIMIZATION</span>
+          <NavLink to="/services" className="hover:text-white transition-colors">
+          Services
+          </NavLink>
+          <span className="select-none">{">"}</span>
+          <span className="text-white">SEO</span>
         </nav>
             </div>
           </div>

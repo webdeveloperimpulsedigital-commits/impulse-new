@@ -19,7 +19,10 @@ export const FeaturedItemsSection = (): JSX.Element => {
           name="keywords"
           content="digital marketing agency in mumbai, digital marketing company, impulse digital"
         />
-
+<meta name="robots" content="index, follow"/>
+<meta name="revisit-after" content="1 day"/>
+<meta name="language" content="English"/>
+<meta name="generator" content="N/A"/>
         {/* Open Graph Meta Tags */}
         <meta property="og:title" content="Best Digital Marketing Agency in Mumbai | Impulse Digital" />
         <meta
@@ -29,6 +32,9 @@ export const FeaturedItemsSection = (): JSX.Element => {
         <meta property="og:url" content="https://www.theimpulsedigital.com" />
         <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
         <meta property="og:type" content="website" />
+        
+       <link rel="canonical" href="https://www.theimpulsedigital.com"/>
+
       </Helmet>
 
       {/* JSON-LD Schema for ProfessionalService using JsonLd component */}

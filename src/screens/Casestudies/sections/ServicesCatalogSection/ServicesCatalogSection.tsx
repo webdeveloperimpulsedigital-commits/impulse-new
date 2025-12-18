@@ -530,7 +530,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
     <>
       <section
         className="case-studies-section pt-16 bg-white pb-0 mx-auto md:px-4"
-        data-section="case-studies"
+        data-section="case-studies" id="sec-border"
       >
         <div className="wrap-casestuides">
           <div className="case-studies-header">
