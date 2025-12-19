@@ -73,33 +73,33 @@ export const OpenPositionsSection = (): JSX.Element => {
     },
 
     // ⭐ NEW COPYWRITER POSITION ADDED HERE
-    {
-      id: "copywriter",
-      title: "Copywriter",
-      department: "Content",
-      location: "Mumbai, India",
-      type: "Full-time",
-      experience: "2+ years",
-      description:
-        "Elevate our current copy game to new heights. We’re looking for someone whose words are rooted in research, insight, relevance, and a dash of wit. Your copy should not only earn client praise but also drive measurable engagement across content assets and deliver better results for paid campaigns.",
-      responsibilities: [
-        "Work on 8+ brands in parallel for tactical campaigns and ongoing projects.",
-        "Assist the strategy team with 4+ pitches every month.",
-        "Guide a team of 2+ interns on copy and content tasks.",
-        "Create hero campaign copy monthly in collaboration with creative & social teams.",
-        "Act as a quality controller for all internal content assets.",
-        "Deliver fresh, insight-driven, creative copy for multiple platforms.",
-        "Support pitch decks with strong narratives and messaging structures."
-      ],
-      requirements: [
-        "Exceptional written and verbal communication skills.",
-        "A passion for storytelling and a flair for creativity.",
-        "Ability to meet deadlines without breaking a sweat.",
-        "Experience in copywriting across platforms is a strong advantage.",
-        "Minimum 2 years of experience in an agency environment.",
-        "High attention to detail and proofreading ability."
-      ]
-    }
+    // {
+    //   id: "copywriter",
+    //   title: "Copywriter",
+    //   department: "Content",
+    //   location: "Mumbai, India",
+    //   type: "Full-time",
+    //   experience: "2+ years",
+    //   description:
+    //     "Elevate our current copy game to new heights. We’re looking for someone whose words are rooted in research, insight, relevance, and a dash of wit. Your copy should not only earn client praise but also drive measurable engagement across content assets and deliver better results for paid campaigns.",
+    //   responsibilities: [
+    //     "Work on 8+ brands in parallel for tactical campaigns and ongoing projects.",
+    //     "Assist the strategy team with 4+ pitches every month.",
+    //     "Guide a team of 2+ interns on copy and content tasks.",
+    //     "Create hero campaign copy monthly in collaboration with creative & social teams.",
+    //     "Act as a quality controller for all internal content assets.",
+    //     "Deliver fresh, insight-driven, creative copy for multiple platforms.",
+    //     "Support pitch decks with strong narratives and messaging structures."
+    //   ],
+    //   requirements: [
+    //     "Exceptional written and verbal communication skills.",
+    //     "A passion for storytelling and a flair for creativity.",
+    //     "Ability to meet deadlines without breaking a sweat.",
+    //     "Experience in copywriting across platforms is a strong advantage.",
+    //     "Minimum 2 years of experience in an agency environment.",
+    //     "High attention to detail and proofreading ability."
+    //   ]
+    // }
   ];
 
   return (

@@ -62,7 +62,7 @@ export const ApplicationFormSection = (): JSX.Element => {
                   <option value="-Select-">Position Applying For</option>
                   <option value="Social Media Manager">Social Media Manager</option>
                   <option value="Video Editor">Video Editor</option>
-                  <option value="Copywriter">Copywriter</option>
+                  {/* <option value="Copywriter">Copywriter</option> */}
                 </select>
               </div>
 

@@ -10,7 +10,7 @@ export const ContactResourcesSection = () => {
     }, 300);
   };
   return (
-    <section className="contact-section sm:pt-5 lg:pt-16" id="contact-border-sec">
+    <section className="contact-section sm:pt-5 lg:pt-16" id="contact-border-sec-two">
       <div className="wrap-contact" data-section="contact-resources">
         {/* LEFT: heading + contact details */}
         <div className="contact-left0">
@@ -128,10 +128,10 @@ export const ContactResourcesSection = () => {
             />
           </div>
         </div>
-      </div>
+      </div><br></br>
  
       {/* Divider */}
-      <div className="contact-divider" />
+      {/* <div className="contact-divider" /> */}
  
       
     </section>
