@@ -51,7 +51,7 @@ export const AiAgenticHeroSection = (): JSX.Element => {
               <video
                 className="w-full h-full object-cover"
                 autoPlay
-                muted
+                muted 
                 loop
                 playsInline
                 preload="metadata"
