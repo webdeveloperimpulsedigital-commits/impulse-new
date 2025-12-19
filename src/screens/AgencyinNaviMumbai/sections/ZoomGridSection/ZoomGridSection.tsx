@@ -115,10 +115,7 @@ export const ZoomGridSection = (): JSX.Element => {
 
           <div className="mb-8 md:mb-16">
             <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-sm md:text-base lg:text-[26px] xl:text[26px] sm:text-[13px] lg:leading-[40px] lg:w-6xl xl:w-7xl">
-              Our clients have heard it, experienced it, and loved it. Now, it's
-              your turn. Take a look at what our digital marketing agency has
-              created and achieved out of our love for creating brands and building
-              their stories.
+              Our clients don’t just see results, they feel them. From “wow” moments to measurable wins, we’ve built brands that spark love, clicks, and conversions. Think of us as your creative growth partner, we’ll turn your goals into a spotlight moment.  
             </p>
           </div>
         </div>

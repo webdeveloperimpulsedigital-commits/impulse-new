@@ -78,7 +78,7 @@ export const BrandVisionSection = (): JSX.Element => {
             <div className="lg:col-span-6 order-1 lg:order-2">
               <div className="rounded-[28px] overflow-hidden shadow-lg bg-[#F6F6FB]">
                 <img
-                  src="/border-g.webp"
+                  src="/05_Employer Branding.jpg"
                   alt=""
                   className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
                   loading="lazy"

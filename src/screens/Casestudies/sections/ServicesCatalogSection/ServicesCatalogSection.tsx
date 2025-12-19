@@ -168,28 +168,28 @@ const caseStudiesData = [
   
   {
     id: 3,
-    title: "brutindia",
-    image: "/Amazon EVP.jpg",
+    title: "A Force For Good",
+    image: "/force-for-thumbnail.png",
     tags: ["Packaging"],
     tall: true,
     corner: false,
-    link: "/casestudies/brutindia",
-  },
-
-  {
-    id: 4,
-    title: "aforceforgood",
-    image: "/Amazon EVP.jpg",
-    tags: ["Packaging"],
-    tall: false,
-    corner: true,
     link: "/casestudies/aforceforgood",
   },
 
   {
+    id: 4,
+    title: "Brut India",
+    image: "/brut-thumbnail.png",
+    tags: ["Packaging"],
+    tall: false,
+    corner: true,
+    link: "/casestudies/brutindia",
+  },
+
+  {
     id: 5,
-    title: "fourseforgood",
-    image: "/Amazon EVP.jpg",
+    title: "Fours For Good",
+    image: "/forse-thumbnail.png",
     tags: ["Packaging"],
     tall: false,
     corner: true,

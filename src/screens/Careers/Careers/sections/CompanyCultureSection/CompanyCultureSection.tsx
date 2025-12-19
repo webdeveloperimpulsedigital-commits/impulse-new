@@ -149,17 +149,7 @@ export const CompanyCultureSection = (): JSX.Element => {
                 THE CODE WE LIVE BY.
               </h3>
 
-              <p
-                className="
-          [font-family:'DM_Sans',Helvetica]
-          text-[#030019]
-          text-[16px] md:text-[20px]
-          leading-[1.6]
-          mt-2
-        "
-              >
-                Values (Written as actions, not posters)
-              </p>
+             
             </div>
 
             <div className="grid gap-6 lg:grid-cols-[minmax(0,1.3fr)_minmax(0,1fr)] items-start">
