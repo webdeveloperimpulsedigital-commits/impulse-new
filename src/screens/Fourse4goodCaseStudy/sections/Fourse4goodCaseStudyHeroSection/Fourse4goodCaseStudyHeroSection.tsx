@@ -61,7 +61,7 @@ export const Fourse4goodCaseStudyHeroSection = (): JSX.Element => {
       {/* Hero Copy */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center pt-24 px-4">
         <h1 className="uppercase [font-family:'DM_Sans',Helvetica] font-black text-white text-[32px] sm:text-[40px] md:text-[48px] lg:text-[56px] xl:text-[64px] leading-[40px] tracking-tight mb-6">
-          Amazon Employer Branding
+          FOURS FOR GOOD
         </h1>
 
         {/* Breadcrumb */}
@@ -72,7 +72,7 @@ export const Fourse4goodCaseStudyHeroSection = (): JSX.Element => {
           <span className="select-none">{">"}</span>
            <span className="text-white">Case Studies</span>
             <span className="select-none">{">"}</span>
-          <span className="text-white">Amazon Employer Branding</span>
+          <span className="text-white">Fours For good</span>
         </nav>
       </div>
     </section>

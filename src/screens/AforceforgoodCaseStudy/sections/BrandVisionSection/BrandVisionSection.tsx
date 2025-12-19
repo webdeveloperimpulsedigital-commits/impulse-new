@@ -12,28 +12,22 @@ export const BrandVisionSection = (): JSX.Element => {
         {/* ================== HEADER ================== */}
         <div className="mb-10 lg:mb-14 pt-4">
           <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
-            Employer Branding with Amazon India
+            Aditya Birla Group: A Force for Good
           </h2>
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight">
-            Campaigns that Turned Employees into Storytellers
+            Transforming Corporate Purpose into a National Movement
           </h2>
-          <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] lg:text-[17px] leading-relaxed max-w-[720px] mt-4">
-            From video podcasts to advocacy programs, our work with Amazon India
-            spans content, design, and execution across multiple employer
-            branding campaigns—each driving reach, engagement, and stronger
-            talent pipelines.
-          </p>
         </div>
 
         <div className="space-y-16 lg:space-y-20">
-          {/* ============== 1. AMAZON UNPLUGGED ============== */}
+          {/* ============== 1) OVERVIEW ============== */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
             {/* Left: Visual */}
             <div className="lg:col-span-6">
               <div className="relative rounded-[28px] overflow-hidden shadow-lg bg-[#20124d]">
                 <img
-                  src="/amazon-unplugged-thumbnail.png"
-                  alt="Amazon Unplugged podcast setup"
+                  src="/ffg.png"
+                  alt="Campaign visual"
                   className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
                   loading="lazy"
                 />
@@ -42,99 +36,48 @@ export const BrandVisionSection = (): JSX.Element => {
 
             {/* Right: Copy */}
             <div className="lg:col-span-6">
-              {/* <p className="text-xs tracking-[0.2em] uppercase text-[#8D8DAA] mb-2 [font-family:'DM_Sans',Helvetica]">
-                Campaign 01
-              </p> */}
-              <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] font-bold text-[26px] md:text-[30px] mb-3">
-                Amazon Unplugged – Leadership, Unfiltered
-              </h3>
-              <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed mb-5">
-                A video-podcast series designed to showcase authentic leadership
-                stories, career journeys, and the culture that powers Amazon’s
-                success. We owned the end-to-end execution—from concept and
-                scripting to shoots and edits—for 6 episodes.
+              <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed">
+                Aditya Birla Group undertook a meaningful shift in its corporate
+                brand narrative, moving from “Big in Your Life” to “A Force for
+                Good.” This was not just a positioning update. It was the
+                articulation of a larger purpose to enrich lives, inspire trust,
+                and create measurable positive change.
               </p>
-
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <div className="bg-[#F6F6FB] rounded-2xl px-4 py-3">
-                  <p className="text-[12px] text-[#7B7B8A] mb-1 [font-family:'DM_Sans',Helvetica]">
-                    Views
-                  </p>
-                  <p className="text-[#543d98] text-[22px] font-bold [font-family:'DM_Sans',Helvetica]">
-                    1.2M+
-                  </p>
-                </div>
-                <div className="bg-[#F6F6FB] rounded-2xl px-4 py-3">
-                  <p className="text-[12px] text-[#7B7B8A] mb-1 [font-family:'DM_Sans',Helvetica]">
-                    Impressions
-                  </p>
-                  <p className="text-[#543d98] text-[22px] font-bold [font-family:'DM_Sans',Helvetica]">
-                    9.5M+
-                  </p>
-                </div>
-                <div className="bg-[#F6F6FB] rounded-2xl px-4 py-3">
-                  <p className="text-[12px] text-[#7B7B8A] mb-1 [font-family:'DM_Sans',Helvetica]">
-                    Engagement
-                  </p>
-                  <p className="text-[#543d98] text-[22px] font-bold [font-family:'DM_Sans',Helvetica]">
-                    10K+
-                  </p>
-                </div>
-              </div>
+              <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed mt-4">
+                The objective of this campaign was to introduce Force for Good
+                to the nation with credibility and scale, in a way that felt
+                human, participative, and rooted in impact.
+              </p>
             </div>
           </div>
 
-          {/* ============== 2. POWERING PRIME DAY ============== */}
+          {/* ============== 2) THE IDEA ============== */}
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
             {/* Left: Copy */}
             <div className="lg:col-span-6 order-2 lg:order-1">
-              {/* <p className="text-xs tracking-[0.2em] uppercase text-[#8D8DAA] mb-2 [font-family:'DM_Sans',Helvetica]">
-                Campaign 02
-              </p> */}
               <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] font-bold text-[26px] md:text-[30px] mb-3">
-                Powering Prime Day – Employees in the Spotlight
+                The Idea
               </h3>
-              <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed mb-5">
-                A global Prime Day themed campaign that celebrated employees
-                behind the event’s success through story-driven spotlights. We
-                handled content and design for a series of assets that travelled
-                across internal and external channels.
+              <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed">
+                To launch a purpose-led narrative at national scale, ABG
+                partnered with Kaun Banega Crorepati, one of India’s most
+                trusted and widely watched platforms.
               </p>
-
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <div className="bg-[#F6F6FB] rounded-2xl px-4 py-3">
-                  <p className="text-[12px] text-[#7B7B8A] mb-1 [font-family:'DM_Sans',Helvetica]">
-                    Organic Views
-                  </p>
-                  <p className="text-[#543d98] text-[22px] font-bold [font-family:'DM_Sans',Helvetica]">
-                    75K+
-                  </p>
-                </div>
-                <div className="bg-[#F6F6FB] rounded-2xl px-4 py-3">
-                  <p className="text-[12px] text-[#7B7B8A] mb-1 [font-family:'DM_Sans',Helvetica]">
-                    Employee Advocacy
-                  </p>
-                  <p className="text-[#543d98] text-[22px] font-bold [font-family:'DM_Sans',Helvetica]">
-                    10×
-                  </p>
-                </div>
-                <div className="bg-[#F6F6FB] rounded-2xl px-4 py-3">
-                  <p className="text-[12px] text-[#7B7B8A] mb-1 [font-family:'DM_Sans',Helvetica]">
-                    Social Engagement
-                  </p>
-                  <p className="text-[#543d98] text-[22px] font-bold [font-family:'DM_Sans',Helvetica]">
-                    2.4×
-                  </p>
-                </div>
-              </div>
+              <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed mt-4">
+                In a high-impact integration, every question asked on the show
+                symbolised the education of a child sponsored by Aditya Birla
+                Group. This connection made the campaign tangible and
+                emotionally resonant, turning purpose into a real-world outcome
+                rather than a slogan.
+              </p>
             </div>
 
-            {/* Right: Collage */}
+            {/* Right: Visual */}
             <div className="lg:col-span-6 order-1 lg:order-2">
               <div className="rounded-[28px] overflow-hidden shadow-lg bg-[#F6F6FB]">
                 <img
-                  src="/Powering Prime Day.png"
-                  alt="Powering Prime Day employee collage"
+                  src="/ffg-nantional-platform.jfif"
+                  alt="National platform visual"
                   className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
                   loading="lazy"
                 />
@@ -142,14 +85,14 @@ export const BrandVisionSection = (): JSX.Element => {
             </div>
           </div>
 
-          {/* ============== 3. EMPLOYEE ADVOCACY ============== */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+          {/* ============== 3) IMPULSE DIGITAL’S ROLE ============== */}
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
             {/* Left: Visual */}
             <div className="lg:col-span-6">
               <div className="rounded-[28px] overflow-hidden shadow-lg bg-[#F6F6FB]">
                 <img
-                  alt="Employees creating advocacy content"
-                  src="/Employee Advocacy.png"
+                  src="/impulse-team-ffg.jfif"
+                  alt="Execution and coordination visual"
                   className="w-full h-[240px] md:h-[300px] lg:h-[340px] object-cover"
                   loading="lazy"
                 />
@@ -158,130 +101,110 @@ export const BrandVisionSection = (): JSX.Element => {
 
             {/* Right: Copy */}
             <div className="lg:col-span-6">
-              {/* <p className="text-xs tracking-[0.2em] uppercase text-[#8D8DAA] mb-2 [font-family:'DM_Sans',Helvetica]">
-                Program 03
-              </p> */}
               <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] font-bold text-[26px] md:text-[30px] mb-3">
-                Employee Advocacy – Turning Teams into Ambassadors
+                Impulse Digital’s Role
               </h3>
-              <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed mb-5">
-                We built a structured advocacy engine—content calendars,
-                internal campaigns, and performance tracking—to empower Amazon
-                employees to champion the brand on social media.
+              <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed mb-4">
+                Impulse Digital supported the campaign by strengthening the
+                creative and executional ecosystem across digital and broadcast
+                touchpoints, ensuring the narrative translated seamlessly across
+                platforms while staying consistent and clear.
               </p>
 
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                <div className="bg-[#F6F6FB] rounded-2xl px-4 py-3">
-                  <p className="text-[12px] text-[#7B7B8A] mb-1 [font-family:'DM_Sans',Helvetica]">
-                    ROI
-                  </p>
-                  <p className="text-[#543d98] text-[22px] font-bold [font-family:'DM_Sans',Helvetica]">
-                    5-digit $
-                  </p>
-                </div>
-                <div className="bg-[#F6F6FB] rounded-2xl px-4 py-3">
-                  <p className="text-[12px] text-[#7B7B8A] mb-1 [font-family:'DM_Sans',Helvetica]">
-                    Impressions
-                  </p>
-                  <p className="text-[#543d98] text-[22px] font-bold [font-family:'DM_Sans',Helvetica]">
-                    2.1M+
-                  </p>
-                </div>
-                <div className="bg-[#F6F6FB] rounded-2xl px-4 py-3">
-                  <p className="text-[12px] text-[#7B7B8A] mb-1 [font-family:'DM_Sans',Helvetica]">
-                    Engagement
-                  </p>
-                  <p className="text-[#543d98] text-[22px] font-bold [font-family:'DM_Sans',Helvetica]">
-                    67K+
-                  </p>
-                </div>
-              </div>
+              <ul className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed space-y-2">
+                <li>
+                  Supported the campaign with digital and television-ready
+                  creative assets
+                </li>
+                <li>
+                  Designed cohesive visual communication bridging television,
+                  social media, and corporate channels
+                </li>
+                <li>
+                  Enabled real-time coordination across stakeholders to ensure a
+                  smooth rollout
+                </li>
+              </ul>
+
+              <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed mt-4">
+                Our focus was precision and consistency at scale.
+              </p>
             </div>
           </div>
 
-          {/* ============== 4. SOCIAL & JOB BOARDS ============== */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-start">
-            {/* Social Media Mgmt */}
-            <div className="lg:col-span-6 space-y-4">
-              {/* <p className="text-xs tracking-[0.2em] uppercase text-[#8D8DAA] mb-1 [font-family:'DM_Sans',Helvetica]">
-                Always-On
-              </p> */}
-              <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] font-bold text-[24px] md:text-[28px]">
-                Social Media Management
+          {/* ============== 4) IMPACT ============== */}
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+            {/* Left: Copy */}
+            <div className="lg:col-span-6 order-2 lg:order-1">
+              <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] font-bold text-[26px] md:text-[30px] mb-3">
+                Impact
               </h3>
-              <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed mb-3">
-                At the forefront of Amazon APAC’s employer-branding content, we
-                manage strategy, execution and promotion of internal programs
-                across platforms.
+              <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed mb-5">
+                The campaign delivered strong national visibility while
+                reinforcing ABG’s purpose-led identity.
               </p>
 
-              <div className="grid grid-cols-3 gap-4">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div className="bg-[#F6F6FB] rounded-2xl px-4 py-3">
                   <p className="text-[12px] text-[#7B7B8A] mb-1 [font-family:'DM_Sans',Helvetica]">
-                    Followers Gained
+                    TV Reach
                   </p>
-                  <p className="text-[#543d98] text-[20px] font-bold [font-family:'DM_Sans',Helvetica]">
-                    10K+
+                  <p className="text-[#543d98] text-[22px] font-bold [font-family:'DM_Sans',Helvetica]">
+                    4.3 Mn+
                   </p>
                 </div>
+
                 <div className="bg-[#F6F6FB] rounded-2xl px-4 py-3">
                   <p className="text-[12px] text-[#7B7B8A] mb-1 [font-family:'DM_Sans',Helvetica]">
-                    Engagement
+                    Digital Reach
                   </p>
-                  <p className="text-[#543d98] text-[20px] font-bold [font-family:'DM_Sans',Helvetica]">
-                    23K+
+                  <p className="text-[#543d98] text-[22px] font-bold [font-family:'DM_Sans',Helvetica]">
+                    1 Mn+
                   </p>
                 </div>
+
                 <div className="bg-[#F6F6FB] rounded-2xl px-4 py-3">
                   <p className="text-[12px] text-[#7B7B8A] mb-1 [font-family:'DM_Sans',Helvetica]">
-                    Views & Impressions
+                    Brand Recall
                   </p>
-                  <p className="text-[#543d98] text-[20px] font-bold [font-family:'DM_Sans',Helvetica]">
-                    2M+
+                  <p className="text-[#543d98] text-[18px] font-bold [font-family:'DM_Sans',Helvetica]">
+                    Enhanced through purpose-linked storytelling
+                  </p>
+                </div>
+
+                <div className="bg-[#F6F6FB] rounded-2xl px-4 py-3">
+                  <p className="text-[12px] text-[#7B7B8A] mb-1 [font-family:'DM_Sans',Helvetica]">
+                    Perception Shift
+                  </p>
+                  <p className="text-[#543d98] text-[18px] font-bold [font-family:'DM_Sans',Helvetica]">
+                    From corporate conglomerate to purposeful enabler
                   </p>
                 </div>
               </div>
-            </div>
 
-            {/* Job Board Optimisation */}
-            <div className="lg:col-span-6 space-y-4">
-              {/* <p className="text-xs tracking-[0.2em] uppercase text-[#8D8DAA] mb-1 [font-family:'DM_Sans',Helvetica]">
-                Always-On
-              </p> */}
-              <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] font-bold text-[24px] md:text-[28px]">
-                Job Board Optimisation
-              </h3>
-              <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed mb-3">
-                We refresh careers pages and job-board profiles with updated
-                campaigns, SEO-aligned copy, and timely news so candidates see a
-                current, compelling picture of life at Amazon.
+              <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed mt-6">
+                This campaign was not built for volume alone. It was built for
+                credibility. By anchoring Force for Good within a trusted
+                cultural platform, ABG introduced its purpose in a way that felt
+                authentic, accessible, and outcome-led.
               </p>
 
-              <div className="grid grid-cols-3 gap-4">
-                <div className="bg-[#F6F6FB] rounded-2xl px-4 py-3">
-                  <p className="text-[12px] text-[#7B7B8A] mb-1 [font-family:'DM_Sans',Helvetica]">
-                    Followers Gain
-                  </p>
-                  <p className="text-[#543d98] text-[20px] font-bold [font-family:'DM_Sans',Helvetica]">
-                    60K+
-                  </p>
-                </div>
-                <div className="bg-[#F6F6FB] rounded-2xl px-4 py-3">
-                  <p className="text-[12px] text-[#7B7B8A] mb-1 [font-family:'DM_Sans',Helvetica]">
-                    Impressions
-                  </p>
-                  <p className="text-[#543d98] text-[20px] font-bold [font-family:'DM_Sans',Helvetica]">
-                    2.4M+
-                  </p>
-                </div>
-                <div className="bg-[#F6F6FB] rounded-2xl px-4 py-3">
-                  <p className="text-[12px] text-[#7B7B8A] mb-1 [font-family:'DM_Sans',Helvetica]">
-                    Engagement
-                  </p>
-                  <p className="text-[#543d98] text-[20px] font-bold [font-family:'DM_Sans',Helvetica]">
-                    400K+
-                  </p>
-                </div>
+              <p className="[font-family:'DM_Sans',Helvetica] text-[#4B4B5C] text-[15px] md:text-[16px] leading-relaxed mt-4">
+                For Impulse Digital, this work reflects our ability to support
+                high-stakes corporate narratives where scale, sensitivity, and
+                storytelling must coexist.
+              </p>
+            </div>
+
+            {/* Right: Visual */}
+            <div className="lg:col-span-6 order-1 lg:order-2">
+              <div className="rounded-[28px] overflow-hidden shadow-lg bg-[#20124d]">
+                <img
+                  src="/impact-ffg.jfif"
+                  alt="Impact visual"
+                  className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
+                  loading="lazy"
+                />
               </div>
             </div>
           </div>
