@@ -189,24 +189,25 @@ const caseStudiesData = [
 
   {
     id: 5,
-    title: "Aditya Birla Group - Fours for Good",
-    image: "/forse-thumbnail.png",
-    tags: ["Packaging"],
+    title: "Grasim Pulp and Fibre",
+    image: "/Grasim Pulp and fiber.jpg",
+    tags: ["Branding"],
     tall: true,
-    corner: true,
-    link: "/casestudies/fourseforgood",
+    corner: false,
+    link: "/casestudies/grasim-pulp-and-fibre",
   },
 
 
 
   {
     id: 6,
-    title: "Grasim Pulp and Fibre",
-    image: "/Grasim Pulp and fiber.jpg",
-    tags: ["Branding"],
+    title: "Aditya Birla Group - Fours for Good",
+    image: "/forse-thumbnail.png",
+    tags: ["Packaging"],
     tall: false,
-    corner: false,
-    link: "/casestudies/grasim-pulp-and-fibre",
+    corner: true,
+    link: "/casestudies/fourseforgood",
+    
   },
   {
     id: 7,
