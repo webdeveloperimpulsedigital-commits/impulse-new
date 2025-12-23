@@ -202,7 +202,7 @@ const caseStudiesData = [
   {
     id: 6,
     title: "Aditya Birla Group - Fours for Good",
-    image: "/forse-thumbnail.png",
+    image: "/forse-thumbnail1.png",
     tags: ["Packaging"],
     tall: false,
     corner: true,
