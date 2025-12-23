@@ -89,7 +89,7 @@ const css = `
   right: 0;
   width: 40px;
   height: 40px;
-  background: #23b26d;
+  background: transparent;
   clip-path: polygon(0 0, 100% 0, 100% 100%);
 }
 .case-study-meta { padding: 20px; }
@@ -184,24 +184,44 @@ const caseStudiesData = [
     corner: false,
     link: "/casestudies/mastercard"
   },
+  // {
+  //   id: 5,
+  //    title: "Keva",
+  //   image: "/Keva.png",
+  //   tags: ["Product Design"],
+  //   tall: false,
+  //   corner: false,
+  //   link: "/casestudies/keva",
+  // },
+  // {
+  //   id: 6,
+  //    title: "Amazone Employee Value Proposition",
+  //   image: "/Amazon EVP.jpg",
+  //   tags: ["Packaging"],
+  //   tall: false,
+  //   corner: false,
+  //   link: "/casestudies/crafting-the-employer-value-proposition-for-amazon-india",
+  // }
+
   {
     id: 5,
-     title: "Keva",
-    image: "/Keva.png",
-    tags: ["Product Design"],
-    tall: false,
-    corner: false,
-    link: "/casestudies/keva",
-  },
-  {
-    id: 6,
-     title: "Amazone Employee Value Proposition",
-    image: "/Amazon EVP.jpg",
+    title: "A Force for Good - BRUT INDIA",
+    image: "/brut-thumbnail.png",
     tags: ["Packaging"],
     tall: false,
-    corner: false,
-    link: "/casestudies/crafting-the-employer-value-proposition-for-amazon-india",
-  }
+    corner: true,
+    link: "/casestudies/brutindia",
+  },
+
+  {
+    id: 6,
+    title: "Aditya Birla Group - Fours for Good",
+    image: "/forse-thumbnail.png",
+    tags: ["Packaging"],
+    tall: false,
+    corner: true,
+    link: "/casestudies/fourseforgood",
+  },
 ];
 
 export const CaseStudiesGrid = (): JSX.Element => {
