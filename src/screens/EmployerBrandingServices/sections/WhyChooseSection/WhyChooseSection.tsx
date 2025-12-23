@@ -52,7 +52,7 @@ export const WhyChooseSection = (): JSX.Element => {
               Data-driven branding strategies
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              We continuously monitor what’s been spoken about your company to manage your reputation, whether positive or negative. Our efforts are guided by actual numbers
+              We continuously monitor what’s been spoken about your company to manage your reputation, whether positive or negative. Our efforts are guided by actual numbers that tell us the right direction to steer your employer brand in.
             </p>
           </div>
  
@@ -96,7 +96,7 @@ export const WhyChooseSection = (): JSX.Element => {
 
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed mb-0">
-                We continuously monitor what’s been spoken about your company to manage your reputation, whether positive or negative. Our efforts are guided by actual numbers
+                We continuously monitor what’s been spoken about your company to manage your reputation, whether positive or negative. Our efforts are guided by actual numbers that tell us the right direction to steer your employer brand in. 
 
 
               </p>

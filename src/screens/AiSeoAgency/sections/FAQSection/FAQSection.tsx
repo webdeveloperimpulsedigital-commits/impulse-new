@@ -7,7 +7,7 @@ type QA = { q: string; a: string };
 const DEFAULT_QA: QA[] = [
   {
     q: "What is AI SEO and how is it different from traditional SEO?",
-    a: "AI SEO applies machine learning, predictive analytics, and automation to decisions that traditionally relied on manual research. It accelerates insight discovery, improves targeting, and adapts in real time—while still maintaining the fundamentals of relevance, authority, and user experience.",
+    a: "AI SEO applies machine learning, predictive analytics, and automation to decisions that traditionally relied on manual research. It accelerates insight discovery, improves targeting, and adapts in real time-while still maintaining the fundamentals of relevance, authority, and user experience.",
   },
   {
     q: "What are AEO and GEO and why do they matter now?",

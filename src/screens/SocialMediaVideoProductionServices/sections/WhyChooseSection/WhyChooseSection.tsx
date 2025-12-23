@@ -34,7 +34,7 @@ export const WhyChooseSection = (): JSX.Element => {
               Video content for maximum engagement
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              We are a niche social media video production agency with experienced strategists, designers, and executors. Our high-tech tools and teams ensure your social media videos
+              We are a niche social media video production agency with experienced strategists, designers, and executors. Our high-tech tools and teams ensure your social media videos, be it for instagram, facebook, youtube, or any other platform, are optimized for maximum engagement.
             </p>
           </div>
  
@@ -70,7 +70,7 @@ export const WhyChooseSection = (): JSX.Element => {
               End-to-end video production
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              We handle everything for you—from concept to final cut—to bring your vision to life. Our creative video agency boasts expert individuals, each specialized in scripting, shooting, editing, and post-production, ensuring professional execution at every stage.
+              We handle everything for you-from concept to final cut-to bring your vision to life. Our creative video agency boasts expert individuals, each specialized in scripting, shooting, editing, and post-production, ensuring professional execution at every stage.
             </p>
           </div>
         </div>
@@ -95,7 +95,7 @@ export const WhyChooseSection = (): JSX.Element => {
                 Knowledge of social media algorithms and trends
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed mb-0">
-                We are on the top of what’s happening in the social world with a knack for instantly hopping onto trends that align with your brand. Be it updates in platform.
+                We are on the top of what’s happening in the social world with a knack for instantly hopping onto trends that align with your brand. Be it updates in platform algorithms or predicting trends, we ensure your brand is always visible.
               </p>
             </div>
  
@@ -106,7 +106,7 @@ export const WhyChooseSection = (): JSX.Element => {
                   Video content for maximum engagement
                 </h3>
                 <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed max-w-[620px]">
-                  We are a niche social media video production agency with experienced strategists, designers, and executors. Our high-tech tools and teams ensure your social media videos.
+                  We are a niche social media video production agency with experienced strategists, designers, and executors. Our high-tech tools and teams ensure your social media videos, be it for instagram, facebook, youtube, or any other platform, are optimized for maximum engagement.
                 </p>
               </div>
  
@@ -134,10 +134,11 @@ export const WhyChooseSection = (): JSX.Element => {
  
             <div className="mt-6 max-w-12xl">
               <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-2xl mb-2">
-                Knowledge of social media algorithms and trends
+                End-to-end video production
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-                We are on the top of what’s happening in the social world with a knack for instantly hopping onto trends that align with your brand. Be it updates in platform.
+               We handle everything for you-from concept to final cut-to bring your vision to life. Our creative video agency boasts expert individuals, each specialized in scripting, shooting, editing, and post-production, ensuring professional execution at every stage. No matter the scale of your project, our end-to-end social media video production services can take care of everything. 
+
               </p>
             </div>
           </div>

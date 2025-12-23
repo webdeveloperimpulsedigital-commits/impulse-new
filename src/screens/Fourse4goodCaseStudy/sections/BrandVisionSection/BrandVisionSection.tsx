@@ -78,7 +78,7 @@ export const BrandVisionSection = (): JSX.Element => {
             <div className="lg:col-span-6 order-1 lg:order-2">
               <div className="rounded-[28px] overflow-hidden shadow-lg bg-[#F6F6FB]">
                 <img
-                  src="/05_Employer Branding.jpg"
+                  src="/Influencers.jpg"
                   alt=""
                   className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
                   loading="lazy"
@@ -93,7 +93,7 @@ export const BrandVisionSection = (): JSX.Element => {
             <div className="lg:col-span-6">
               <div className="rounded-[28px] overflow-hidden shadow-lg bg-[#F6F6FB]">
                 <img
-                  src="/After about us section 800 x 530 2.jpg"
+                  src="/aston.png"
                   alt=""
                   className="w-full h-[240px] md:h-[300px] lg:h-[340px] object-cover"
                   loading="lazy"
@@ -193,7 +193,7 @@ export const BrandVisionSection = (): JSX.Element => {
             <div className="lg:col-span-6 order-1 lg:order-2">
               <div className="rounded-[28px] overflow-hidden shadow-lg bg-[#20124d]">
                 <img
-                  src="/rahul-dravid.png"
+                  src="/impact-forse.jpg"
                   alt=""
                   className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
                   loading="lazy"

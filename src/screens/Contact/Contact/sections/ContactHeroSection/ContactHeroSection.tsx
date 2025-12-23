@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import Header from "../../../../../components/layout/Header";
 
 export const ContactHeroSection = (): JSX.Element => {
-  const heroTextLines = ["Contact Us"];
+  const heroTextLines = ["CONTACT US"];
 
   return (
     <> 

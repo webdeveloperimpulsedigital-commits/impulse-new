@@ -13,6 +13,7 @@ export const AiSeoAgencyHeroSection = (): JSX.Element => {
     <meta name="description" content="Partner with a top AI SEO agency in Mumbai that delivers data-driven AI SEO services to boost organic rankings, enhance search visibility, and accelerate business growth with intelligent automation and strategic optimization."/>
     <meta name="keywords" content="ai seo agency, ai seo service, mumbai, india, impulse digital"/>
     <meta property="og:title" content="AI SEO Agency | Advanced AI SEO Service for Higher Rankings Digital" />
+    <meta name="robots" content="index, follow"/>
     <meta property="og:description" content="Partner with a top AI SEO agency in Mumbai that delivers data-driven AI SEO services to boost organic rankings, enhance search visibility, and accelerate business growth with intelligent automation and strategic optimization. team helps us stand out from a cluster of digital marketing agencies in Mumbai. We are handling a plethora of clients which includes Amazon, HUL, OLA, Dmart, HDFC, and more big market giants." />
     <meta property="og:url" content="https://www.theimpulsedigital.com" />
     <meta property="og:image" content="https://www.theimpulsedigital.com/AI-SEO-Agency.jpg" />

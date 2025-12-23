@@ -35,7 +35,7 @@ export const WhyChooseSection = (): JSX.Element => {
               Increased Local Visibility
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-             Our Local SEO services make it easier for nearby audiences to discover you. Our unmatched efforts to optimize your GMB profile, website, NAP citations.
+             Our Local SEO services make it easier for nearby audiences to discover you. Our unmatched efforts to optimize your GMB profile, website, NAP citations and other aspects ensure that your business is a go-to option for the audience near you.
             </p>
           </div>
  
@@ -107,7 +107,7 @@ export const WhyChooseSection = (): JSX.Element => {
                   Increased Local Visibility
                 </h3>
                 <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed max-w-[620px]">
-                  Our Local SEO services make it easier for nearby audiences to discover you. Our unmatched efforts to optimize your GMB profile, website, NAP citations and
+                 Our Local SEO services make it easier for nearby audiences to discover you. Our unmatched efforts to optimize your GMB profile, website, NAP citations and other aspects ensure that your business is a go-to option for the audience near you. 
                 </p>
               </div>
  

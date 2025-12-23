@@ -70,7 +70,10 @@ export const AforceforgoodCaseStudyHeroSection = (): JSX.Element => {
             Home
           </NavLink>
           <span className="select-none">{">"}</span>
-           <span className="text-white">Case Studies</span>
+           
+           <NavLink to="/casestudies" className="hover:text-white transition-colors">
+            Case Studies
+          </NavLink>
             <span className="select-none">{">"}</span>
           <span className="text-white">A FORCE FOR GOOD</span>
         </nav>

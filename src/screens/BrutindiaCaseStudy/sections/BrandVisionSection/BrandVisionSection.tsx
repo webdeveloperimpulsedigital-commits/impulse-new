@@ -246,7 +246,7 @@ export const BrandVisionSection = (): JSX.Element => {
             <div className="lg:col-span-6">
               <div className="rounded-[28px] overflow-hidden shadow-lg bg-[#20124d]">
                 <img
-                  src="/campaign-impact-brut.jfif"
+                  src="/impact-brut.png"
                   alt="Force for Good social content frames"
                   className="w-full h-[240px] md:h-[300px] lg:h-[340px] object-cover"
                   loading="lazy"

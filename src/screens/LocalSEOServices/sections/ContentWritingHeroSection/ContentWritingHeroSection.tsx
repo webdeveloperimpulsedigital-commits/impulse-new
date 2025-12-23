@@ -87,12 +87,21 @@ return (
               {/* Description */}
               {/* Breadcrumb */}
       <nav className="flex items-center justify-center gap-2 text-white/80 text-sm">
-          <NavLink to="/" className="hover:text-white transition-colors">
+         
+          
+         <NavLink to="/" className="hover:text-white transition-colors">
             Home
           </NavLink>
-          <span className="select-none">{">"}</span>
-          <span className="text-white">Seo</span>
            <span className="select-none">{">"}</span>
+            <NavLink to="/Services" className="hover:text-white transition-colors">
+            Services
+          </NavLink>
+          
+            <span className="select-none">{">"}</span>
+            <NavLink to="/services/search-engine-optimization" className="hover:text-white transition-colors">
+            SEO
+          </NavLink>
+          <span className="select-none">{">"}</span>
           <span className="text-white">Local SEO </span>
         </nav>
             </div>

@@ -92,8 +92,10 @@ export const ContentWritingHeroSection = (): JSX.Element => {
                   Home
                 </NavLink>
                 <span className="select-none">{">"}</span>
-              Services 
-                <span className="text-white"></span>
+          <NavLink to="/services" className="hover:text-white transition-colors">
+                  Services
+                </NavLink> 
+                
                 <span className="select-none">{">"}</span>
               Branding 
                 <span className="text-white"></span>

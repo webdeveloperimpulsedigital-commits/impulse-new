@@ -34,7 +34,7 @@ export const WhyChooseSection = (): JSX.Element => {
               End to end creative solutions across all touchpoints
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              We leave no stone unturned to ensure your brand stays unique at all touchpoints. From the first visiting card to your social media, website, brochures, and thank you cards.
+              We leave no stone unturned to ensure your brand stays unique at all touchpoints. From the first visiting card to your social media, website, brochures, and thank you cards, our team will come up with creative solutions that represent your brands.
             </p>
           </div>
  
@@ -53,7 +53,7 @@ export const WhyChooseSection = (): JSX.Element => {
 
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-             Every brand has a unique audience that has distinct desires. Whether you cater to a niche audience or a global one, our strategies—crafted with market research
+           Every brand has a unique audience that has distinct desires. Whether you cater to a niche audience or a global one, our strategies-crafted with market research, expert insights, and audience feedback-ensure that your brand connects with your audience. 
 
 
             </p>
@@ -73,7 +73,7 @@ export const WhyChooseSection = (): JSX.Element => {
               Data-driven creativity for measurable impact
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              Our creative strategies are grounded in analytics, meaning they are very well tried-and-tested ways to leave an impact. Be it social media campaigns or virtual assets, creativity keeps your audience hooked while analytics help us identify trends, monitor performance
+              Our creative strategies are grounded in analytics, meaning they are very well tried-and-tested ways to leave an impact. Be it social media campaigns or virtual assets, creativity keeps your audience hooked while analytics help us identify trends, monitor performance, and refine our approach.
             </p>
           </div>
         </div>
@@ -98,7 +98,7 @@ export const WhyChooseSection = (): JSX.Element => {
                Tailored brand strategies that resonate with your audience
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed mb-0">
-                Every brand has a unique audience that has distinct desires. Whether you cater to a niche audience or a global one, our strategies—crafted with market research
+                Every brand has a unique audience that has distinct desires. Whether you cater to a niche audience or a global one, our strategies-crafted with market research, expert insights, and audience feedback-ensure that your brand connects with your audience. 
               </p>
             </div>
  
@@ -109,7 +109,7 @@ export const WhyChooseSection = (): JSX.Element => {
                   End to end creative solutions across all touchpoints
                 </h3>
                 <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed max-w-[620px]">
-                  We leave no stone unturned to ensure your brand stays unique at all touchpoints. From the first visiting card to your social media, website, brochures, and thank you cards
+                  Every brand has a unique audience that has distinct desires. Whether you cater to a niche audience or a global one, our strategies-crafted with market research, expert insights, and audience feedback-ensure that your brand connects with your audience. 
                 </p>
               </div>
  
@@ -140,8 +140,7 @@ export const WhyChooseSection = (): JSX.Element => {
                Data-driven creativity for measurable impact
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-                Our creative strategies are grounded in analytics, meaning they are very well tried-and-tested ways to leave an impact. Be it social media campaigns or virtual assets, creativity keeps your audience hooked while analytics help us identify trends, monitor performance
-
+               Our creative strategies are grounded in analytics, meaning they are very well tried-and-tested ways to leave an impact. Be it social media campaigns or virtual assets, creativity keeps your audience hooked while analytics help us identify trends, monitor performance, and refine our approach. 
 
               </p>
             </div>

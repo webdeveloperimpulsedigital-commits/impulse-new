@@ -28,7 +28,7 @@ const ServicesSection = () => {
       points:["Every business has a story, and a template design isn’t going to get the story out. For one, they lack the elements that make your brand unique. Our website design and development services understand the story behind your brand, brainstorm elements, and create a custom design from scratch."],
       img:"/web  service section 520 x 340 - Custom Website Design.jpg" },
     { n:"02", title:"eCommerce Website Design",
-      points:["TTurn visitors into loyal customers with our eCommerce website design. These visually stunning, user-friendly online stores are tailored for your brand to offer seamless navigation and secure checkouts, ensuring that your shoppers are engaged in an experience that boosts their satisfaction and revenue."],
+      points:["Turn visitors into loyal customers with our eCommerce website design. These visually stunning, user-friendly online stores are tailored for your brand to offer seamless navigation and secure checkouts, ensuring that your shoppers are engaged in an experience that boosts their satisfaction and revenue."],
       img:"/web  service section 520 x 340 - ecommerce website design.jpg" },
     { n:"03", title:"Web Maintenance & Support",
       points:["Designing and deploying a website is just the beginning. It needs constant maintenance efforts to keep it running smoothly. Our website development company handles updates, security checks, and performance optimization, ensuring your website is fast, secure, and bug-free."],

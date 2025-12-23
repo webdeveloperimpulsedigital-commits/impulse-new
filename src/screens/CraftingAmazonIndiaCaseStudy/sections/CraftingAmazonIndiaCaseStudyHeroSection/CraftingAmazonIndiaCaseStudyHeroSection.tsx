@@ -92,6 +92,10 @@ export const CraftingAmazonIndiaCaseStudyHeroSection = (): JSX.Element => {
             Home
           </NavLink>
           <span className="select-none">{">"}</span>
+           <NavLink to="/casestudies" className="hover:text-white transition-colors">
+            Case Studies 
+          </NavLink>
+          <span className="select-none">{">"}</span>
           <span className="text-white">Amazon Employer Value Proposition</span>
         </nav>
             </div>

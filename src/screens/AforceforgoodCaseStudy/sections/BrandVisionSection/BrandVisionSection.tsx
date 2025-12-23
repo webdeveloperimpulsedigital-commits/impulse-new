@@ -26,7 +26,7 @@ export const BrandVisionSection = (): JSX.Element => {
             <div className="lg:col-span-6">
               <div className="relative rounded-[28px] overflow-hidden shadow-lg bg-[#20124d]">
                 <img
-                  src="/ffg.png"
+                  src="/ffg-main.jpg"
                   alt="Campaign visual"
                   className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
                   loading="lazy"
@@ -76,7 +76,7 @@ export const BrandVisionSection = (): JSX.Element => {
             <div className="lg:col-span-6 order-1 lg:order-2">
               <div className="rounded-[28px] overflow-hidden shadow-lg bg-[#F6F6FB]">
                 <img
-                  src="/ffg-nantional-platform.jfif"
+                  src="/heroes-banner.jpg"
                   alt="National platform visual"
                   className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
                   loading="lazy"
@@ -91,7 +91,7 @@ export const BrandVisionSection = (): JSX.Element => {
             <div className="lg:col-span-6">
               <div className="rounded-[28px] overflow-hidden shadow-lg bg-[#F6F6FB]">
                 <img
-                  src="/impulse-team-ffg.jfif"
+                  src="/aston.png"
                   alt="Execution and coordination visual"
                   className="w-full h-[240px] md:h-[300px] lg:h-[340px] object-cover"
                   loading="lazy"
@@ -200,7 +200,7 @@ export const BrandVisionSection = (): JSX.Element => {
             <div className="lg:col-span-6 order-1 lg:order-2">
               <div className="rounded-[28px] overflow-hidden shadow-lg bg-[#20124d]">
                 <img
-                  src="/impact-ffg.jfif"
+                  src="/impact-forse.jpg"
                   alt="Impact visual"
                   className="w-full h-[260px] md:h-[320px] lg:h-[360px] object-cover"
                   loading="lazy"
