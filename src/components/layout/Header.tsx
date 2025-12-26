@@ -78,7 +78,7 @@ const DEFAULT_ITEMS: NavItem[] = [
   },
   { label: "Case Studies", href: "/casestudies",
   },
-  { label: "Blog", href: "/blog/" },
+  { label: "Blog", href: "/blog" },
   // { label: "Resouces", href: "/resources"},
 
   {
