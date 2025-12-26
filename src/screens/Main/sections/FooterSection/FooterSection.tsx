@@ -35,7 +35,7 @@ export const FooterSection: React.FC = () => {
 
             <div className="footer__social">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Ftheimpulsedigital%2F"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer__socialBtn"
@@ -44,7 +44,7 @@ export const FooterSection: React.FC = () => {
               </a>
 
               <a
-                href="https://twitter.com"
+                href="https://x.com/impulsedigi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer__socialBtn"
@@ -53,7 +53,7 @@ export const FooterSection: React.FC = () => {
               </a>
 
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F_impulse_digital%2F&is_from_rle"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer__socialBtn"
@@ -62,7 +62,7 @@ export const FooterSection: React.FC = () => {
               </a>
 
               <a
-                href="https://linkedin.com"
+                href="https://in.linkedin.com/company/impulse-digital-marketing-mumbai"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer__socialBtn"
@@ -71,7 +71,7 @@ export const FooterSection: React.FC = () => {
               </a>
 
               <a
-                href="https://youtube.com"
+                href="https://www.youtube.com/channel/UCzQglQAeXGI99Z-LZI9jBkw"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="footer__socialBtn"
