@@ -77,12 +77,12 @@ export const FeaturedItemsSection = (): JSX.Element => {
             {/* Main Heading */}
             <div className="mb-8 sm:mb-12 text-center lg:text-left">
               {heroTextLines.map((line, index) => (
-                <h1
+                <h2
                   key={index}
                   className="font-dm-sans font-black text-white text-[32px] sm:text-[48px] md:text-[64px] lg:text-[100px] xl:text-[100px] lg:leading-[100px] xl:leading-[120px] tracking-tight mb-1"
                 >
                   {line}
-                </h1>
+                </h2>
               ))}
             </div>
 
