@@ -160,11 +160,11 @@ export const AboutSection = (): JSX.Element => {
         <div className="flex flex-col gap-6 md:gap-8 w-full lg:w-[540px] xl:w-[670px]">
           <div className="flex flex-col gap-4 md:gap-6">
             <p className="pt-5 [font-family:'DM_Sans',Helvetica] text-[#030019] sm:text-[12px] md:text-[24px] lg:text-[24px] leading-relaxed text-justify">
-              At Impulse Digital, we’re more than just a digital marketing agency, we’re partners in your brand’s growth journey. By combining data-driven strategies, customer insights, and goal-focused timelines, we ensure your online presence is not only visible but also impactful. 
+              Is your brand missing a powerful digital impact? Are your revenue goals hampered due to a drab marketing strategy? With Impulse Digital, your digital evolution is in the right hands. We are a veteran digital marketing agency in Navi Mumbai with decades of expertise in global marketing. Our team of proficient experts endure 24*7 to see your brand excel in the online landscape.
             </p>
 
             <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] sm:text-[12px] md:text-[24px] lg:text-[24px]  leading-relaxed text-justify">
-             We believe real success is built on collaboration, not transactions. By immersing ourselves in your business, we design strategies that speak your brand’s language and deliver measurable outcomes. As a leading digital marketing agency in Navi Mumbai, we simplify the overwhelming digital landscape, helping brands increase visibility, engagement, and conversions. 
+             At Impulse Digital, we unleash your business potential to conquer the most challenging goals. How do we achieve this? Our professionals employ thoroughly-analysed, cutting-edge digital marketing strategies that are tailor-made for your brand! From competent SEO strategies, website development, and innovative social media campaigns to PPC, content marketing, employer branding and more, we fulfil all your marketing endeavours seamlessly within steadfast timelines.
             </p>
           </div>
 
