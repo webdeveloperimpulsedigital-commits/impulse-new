@@ -386,7 +386,7 @@ export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
               {/* Button (Mobile) */}
               <Button
                 variant="outline"
-                className="w-120 group flex items-center gap-2 px-4 py-6 bg-white rounded-xl hover:bg-gray-100 text-[#543d98]"
+                className="w-100 group flex items-center gap-2 px-4 py-6 bg-white rounded-xl hover:bg-gray-100 text-[#543d98]"
               >
                 <Link to="/contact-us" className="font-dm-sans font-bold text-sm text-[#543d98]">
                   Contact Us
