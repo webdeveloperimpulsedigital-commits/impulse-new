@@ -1,0 +1,1 @@
+export { RainbowInternationalSchoolHeroSection } from "./RainbowInternationalSchoolHeroSection";
