@@ -96,7 +96,8 @@ export const RainbowInternationalSchoolHeroSection = (): JSX.Element => {
             Case Studies
           </NavLink>
             <span className="select-none">{">"}</span>
-          <span className="text-white">Amazon Employer Branding</span>
+          <span className="text-white">Rainbow International School
+ </span>
         </nav>
             </div>
           </div>

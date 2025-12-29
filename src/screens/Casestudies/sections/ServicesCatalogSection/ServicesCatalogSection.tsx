@@ -308,6 +308,15 @@ const caseStudiesData = [
     corner: true,
     link: "/casestudies/vendiman",
   }, 
+  {
+    id: 18,
+    title: "Rainbow International School",
+    image: "/Rainbow.jpg",
+    tags: ["Packaging"],
+    tall: false,
+    corner: true,
+    link: "/casestudies/rainbow-international-school",
+  }, 
 ];
 
 export const ServicesCatalogSection = (): JSX.Element => {
