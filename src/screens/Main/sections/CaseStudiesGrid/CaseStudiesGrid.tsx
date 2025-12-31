@@ -151,7 +151,7 @@ const caseStudiesData = [
   {
     id: 1,
     title: "Amazone Employer Branding",
-    image: "/Amazon EB.jpg",
+    image: "/Amazon EB-new.jpg",
     tags: ["Product Design"],
     tall: true,
     corner: false,
@@ -169,7 +169,7 @@ const caseStudiesData = [
   {
     id: 3,
     title: "Avenue Supermarts/DMart",
-    image: "/15_Dmart.jpg",
+    image: "/15_Dmart-new.jpg",
     tags: ["Branding"],
     tall: true,
     corner: true,
