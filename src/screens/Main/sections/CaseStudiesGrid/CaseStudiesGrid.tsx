@@ -206,7 +206,7 @@ const caseStudiesData = [
   {
     id: 5,
     title: "A Force for Good - BRUT INDIA",
-    image: "/brut-thumbnail.png",
+    image: "/brut-thumbnail.jpg",
     tags: ["Packaging"],
     tall: false,
     corner: true,
@@ -216,7 +216,7 @@ const caseStudiesData = [
   {
     id: 6,
     title: "Aditya Birla Group - Fours for Good",
-    image: "/forse-thumbnail1.png",
+    image: "/forse-thumbnail1.jpg",
     tags: ["Packaging"],
     tall: false,
     corner: true,
