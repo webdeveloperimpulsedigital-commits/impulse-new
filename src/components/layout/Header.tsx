@@ -18,6 +18,7 @@ type DropdownItem = {
 type NavItem = {
   label: string;
   href: string;
+  external?: boolean;  
   hasDropdown?: boolean;
   dropdownItems?: DropdownItem[];
   active?: boolean;
@@ -78,7 +79,11 @@ const DEFAULT_ITEMS: NavItem[] = [
   },
   { label: "Case Studies", href: "/casestudies",
   },
-  { label: "Blogs", href: "/blog" },
+  {
+    label: "Blog",
+    href: "https://www.theimpulsedigital.com/blog",
+    external: true,
+  },
   // { label: "Resouces", href: "/resources"},
 
   {
