@@ -80,7 +80,7 @@ const DEFAULT_ITEMS: NavItem[] = [
   { label: "Case Studies", href: "/casestudies",
   },
   {
-    label: "Blog",
+    label: "Blogs",
     href: "https://www.theimpulsedigital.com/blog",
     external: true,
   },
