@@ -68,7 +68,7 @@ const DEFAULT_ITEMS: NavItem[] = [
 
   // ✅ FIXED BLOG LINK
   {
-    label: "Blog",
+    label: "Blogs",
     href: "https://www.theimpulsedigital.com/blog",
     external: true,
   },
