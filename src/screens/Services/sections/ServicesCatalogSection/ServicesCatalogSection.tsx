@@ -13,6 +13,15 @@ interface Service {
 export const ServicesCatalogSection = (): JSX.Element => {
   const services: Service[] = [
     {
+      id: "AGENTIC AI",
+      title: "Agentic AI",
+      description:
+        "Build intelligent AI agents that automate tasks, make decisions, and work autonomously to improve efficiency and scale your business operations.",
+      features: ["WhatsApp", "Email", "Voice Notes", "Facebook Messenger","Instagram DM","SMS"],
+      image: "/agentic-ai-thumbnail.jpg",
+      link: "/services/agentic-ai",
+    },
+    {
       id: "content",
       title: "Content Writing Services",
       description:
@@ -44,7 +53,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
       title: "Search Engine Optimization",
       description:
         "Improve your website visibility and rankings with robust SEO strategies built to deliver sustainable growth.",
-      features: ["Technical SEO", "On-Page Optimization", "Off-Page SEO", "Local SEO"],
+      features: ["AI SEO", "Enterprise SEO","eCommerce SEO","Local SEO","B2B SEO"],
       image: "/servicepage-SEO.jpg",
       link: "/services/search-engine-optimization",
     },
@@ -53,7 +62,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
       title: "Website Development",
       description:
         "Design and develop user-focused websites that look great, perform well, and convert visitors into customers.",
-      features: ["UI/UX Design", "Responsive Development", "CMS Setup", "Website SEO"],
+      features: ["UI/UX Design", "Responsive Development", "CMS Setup", "Website SEO","Website AMC"],
       image: "/servicepage-Website Development.jpg",
       link: "/services/website-development",
     },
