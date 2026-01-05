@@ -33,32 +33,32 @@ export const BlogSection = (): JSX.Element => {
     {
       id: "1",
       author: "Admin",
+      date: "Dec 25, 2025",
+      title: "The Rise of Sustainability in Marketing: How Green Marketing is Becoming the New Norm",
+      description:
+        "Sustainability has become a defining factor in how modern brands are evaluated. Consumers today are more informed, more conscious, and more selective about the businesses they support. Environmental responsibility is no longer viewed as an optional initiative it is increasingly expected as part of a brand’s identity.",
+      image: "/The-Rise-of-Sustainability-in-Marketing.jpg",
+      url: "https://www.theimpulsedigital.com/blog/the-rise-of-sustainability-in-marketing-how-green-marketing-is-becoming-the-new-norm/"
+    },
+    {
+      id: "2",
+      author: "Admin",
+      date: "Dec 19, 2025",
+      title: "Voice Search Optimization: The Increasing Importance in Today’s Digital Landscape",
+      description:
+        "Voice search has swiftly progressed from a novelty feature to a prevalent search method. With the extensive proliferation of smartphones, smart speakers, and AI powered assistants such as Google Assistant, Siri, and Alexa, users are progressively dependent on voice commands to access information, make decisions, and execute routine duties. As this transition accelerates, optimizing for voice search has become an essential element of any progressive digital marketing strategy.",
+      image: "/closeup-shot-of-happy-indian-man-recording-voice-m-2025-03-18-16-24-47-utc-1.jpg",
+      url: "https://www.theimpulsedigital.com/blog/voice-search-optimization-the-increasing-importance-in-todays-digital-landscape/"
+    },
+    {
+      id: "3",
+      author: "Admin",
       date: "Dec 11, 2025",
       title: "How to Use User Generated Content to Create Real Brand Stories",
       description:
         "As digital ecosystems get busier, people are becoming more picky about which brands they trust. It’s no longer enough to only use traditional advertising to build trust or an emotional connection. Instead, brands are using user generated content (UGC) as a strategic tool to create real, trustworthy brand stories. When done right, UGC makes storytelling stronger by putting real customer experiences at the heart of a brand’s message.",
       image: "/dec-11.jpg",
       url: "https://www.theimpulsedigital.com/blog/how-to-use-user-generated-content-to-create-real-brand-stories/"
-    },
-    {
-      id: "2",
-      author: "Admin",
-      date: "Sep 26, 2025",
-      title: "Storytelling in Digital Marketing: How to Build Emotional Brands",
-      description:
-        "Marketing today focuses on showing deep connections rather than just selling goods or services. A brand’s skill to tell an engaging story is what will make them stand out in this world of changing trends. Digital Marketing turns into emotional experience through storytelling instead of a transactional pitch. Customers feel motivated, appreciated, and understood as a result.",
-      image: "/September 26, 2025.jpg",
-      url: "https://www.theimpulsedigital.com/blog/storytelling-in-digital-marketing-how-to-build-emotional-brands/"
-    },
-    {
-      id: "3",
-      author: "Admin",
-      date: "Sep 12, 2025",
-      title: "SEO vs Google Ads: Which Is Better for Your Business in 2025?",
-      description:
-        "In this digital age, visibility on the web might build or ruin your business. In 2025, the way to dominate the market is through either Search Engine Optimisation (SEO) or Google Ads. Even though they have the same goal of raising potential clients and brand awareness, they work quite differently. Knowing how and when to use each to achieve certain business objectives is much better than debating which one is the greater choice.",
-      image: "/seo-gd.jpg",
-      url: "https://www.theimpulsedigital.com/blog/seo-vs-google-ads-which-is-better-for-your-business-in-2025/"
     },
   ];
 
