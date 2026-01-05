@@ -45,7 +45,7 @@ const ServicesSection = () => {
       points: [
         "Your website is more than just a digital address, it’s your brand’s first impression, storyteller, and salesperson, all rolled into one.  We design and develop websites that not only look stunning but also perform seamlessly. From intuitive navigation to engaging visuals and compelling content, we build experiences that keep visitors clicking and coming back for more. Every line of code and pixel is crafted to reflect your brand’s essence and purpose. In a world full of tabs and distractions, we make sure your website stands out and speaks volumes.",
       ],
-      img: "/07_Website Development.jpg",
+      img: "/07_Website Development-new.jpg",
       link: "/services/website-development",
     },
     {
@@ -72,7 +72,7 @@ const ServicesSection = () => {
       points: [
         "Transform Your Brands Online Communication with Social Media Video Production. Our Social Media Video Production service is specifically designed to elevate your brand's online presence with visually appealing and strategically crafted videos tailored to suit your brand and its target audience. From ideation, conceptualization, method storytelling to visually crafting a masterpiece, we handle every aspect of video production with the required creative support and equipment to ensure your brand shines across social media platforms. ",
       ],
-      img: "/03_Production.jpg",
+      img: "/03_Production-new.jpg",
       link: "/services/social-media-video-production",
     },
     {
@@ -90,7 +90,7 @@ const ServicesSection = () => {
       points: [
         "A strong employer brand doesn’t just attract talent, it inspires it. Our employer branding services help organizations shape how people see, feel and experience their workplace. From defining your EVP to building authentic storytelling that reflects your culture, we turn your employees into brand ambassadors and your company into a talent magnet. Through strategy, design and communication, we craft a brand narrative that resonates both inside and outside the organization. Because when people believe in where they work, they help the world believe in it too.",
       ],
-      img: "/05_Employer Branding.jpg",
+      img: "/05_Employer Branding-new.jpg",
       link: "/services/employer-branding-agency",
     },
     {
@@ -99,7 +99,7 @@ const ServicesSection = () => {
       points: [
         "A brand is more than just a logo, it is the feeling people associate with your name. Through our corporate branding services, we help you create that emotion by shaping how your audience perceives and connects with your business. From uncovering your core values to crafting a powerful visual and verbal identity, every detail is designed to make your brand stand apart. We blend strategy with creativity to build a consistent and lasting impression across every touchpoint. When your brand feels authentic, it does not just capture attention, it earns trust.",
       ],
-      img: "/08_Branding.jpg",
+      img: "/08_Branding-new.jpg",
       link: "/services/branding-creative-services",
     },
   ];

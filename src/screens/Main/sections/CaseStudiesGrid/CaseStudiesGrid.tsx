@@ -160,7 +160,7 @@ const caseStudiesData = [
   {
     id: 2,
     title: "Hindustan Unilever Limited",
-    image: "/16_Unilever.jpg",
+    image: "/16_Unilever-new.jpg",
     tags: ["Packaging"],
     tall: false,
     corner: true,
