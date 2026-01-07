@@ -45,7 +45,7 @@ const ServicesSection = () => {
       points: [
         "Your prospects are searching, we make sure they find you first. We combine technical expertise with creative content strategies to boost your website’s visibility and ranking. Our SEO team optimizes every aspect of your online presence to attract, engage, and convert the right audience, ensuring your business grows where it matters most: search results.",
       ],
-      img: "/06_SEO.jpg",
+      img: "/06_SEO-new.jpg",
       link: "/services/search-engine-optimization",
     },
     {
@@ -63,7 +63,7 @@ const ServicesSection = () => {
       points: [
         "Every campaign should perform, not just run, that’s where we come in. At Impulse Digital, our performance marketing approach ensures every click, impression and conversion drives measurable growth. We blend strategy, creativity and data to deliver results you can see and scale. From understanding audience behaviour to optimizing spends across channels, we focus on impact over noise. With us, your marketing doesn’t just reach people, it moves them to act.",
       ],
-      img: "/01_Pay-Per-Click.jpg",
+      img: "/01_Pay-Per-Click-new.jpg",
       link: "/services/performance-marketing",
     },
     {
@@ -72,7 +72,7 @@ const ServicesSection = () => {
       points: [
         "Great content doesn’t just tell a story, it builds a connection. We craft narratives that resonate with your audience and reflect your brand’s true voice. Every word is designed with purpose, ensuring your message reaches the right people in the most meaningful way. From thought-provoking blogs to engaging campaign copy, our content marketing approach blends creativity with strategy. Because when your content speaks the language of your audience, it turns attention into trust.",
       ],
-      img: "/02_Content Writing.jpg",
+      img: "/02_Content Writing-new.jpg",
       link: "/services/content-writing-services",
     },
     {
@@ -90,7 +90,7 @@ const ServicesSection = () => {
       points: [
         "Your audience is scrolling, now the question is, are they stopping for you? At Impulse Digital, we make sure your brand stands out in the endless feed. Our social media marketing services blend strategy, creativity and data to create conversations that matter. From relatable content to impactful campaigns, we help you build a community that listens, engages and grows with you. Because on social media, it’s not just about being seen, it’s about being remembered.",
       ],
-      img: "/04_Social Media Marketing.jpg",
+      img: "/04_Social Media Marketing-new.jpg",
       link: "/services/social-media-marketing",
     },
     {
