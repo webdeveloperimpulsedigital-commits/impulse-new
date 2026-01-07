@@ -85,14 +85,23 @@ export const FooterSection: React.FC = () => {
           <nav className="footer__nav">
             <ul className="footer__col">
               <strong>Quick Links</strong>
-              <li><Link to="/">Home</Link></li>
+              <li><Link to="/">Home</Link></li> 
               {/* <li><Link to="/about-us">About Us</Link></li> */}
               <li><Link to="/services">Services</Link></li>
             </ul>
 
             <ul className="footer__col">
               <strong>Resources</strong>
-              <li><Link to="https://www.theimpulsedigital.com/blog/">Blog</Link></li>
+              <li>
+  <a
+    href="https://www.theimpulsedigital.com/blog/"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Blog
+  </a>
+</li>
+
               {/* <li><Link to="/career">Career</Link></li> */}
             </ul>
 
