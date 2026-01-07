@@ -159,7 +159,7 @@ const caseStudiesData = [
   },
   {
     id: 2,
-    title: "Amazone Employee Value Proposition",
+    title: "Amazon Employee Value Proposition",
     image: "/Amazon EVP.jpg",
     tags: ["Packaging"],
     tall: false,
