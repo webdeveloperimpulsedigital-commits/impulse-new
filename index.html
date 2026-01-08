@@ -6,11 +6,10 @@
 
     <title>Best Digital Marketing Agency in Mumbai | Impulse Digital</title>
 
-    <!-- ✅ Faster Google Fonts (no render-blocking @import) -->
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
-    <!-- Load fonts without blocking first paint -->
     <link
       rel="preload"
       as="style"
@@ -29,35 +28,68 @@
       />
     </noscript>
 
-    <!-- ✅ Keep only one CSS include (remove duplicates) -->
     <link href="/tailwind.css" rel="stylesheet" />
 
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EFFQ2YYFN8"></script>
+    <!-- ✅ GA4: define gtag stub early, but load gtag.js later (idle) -->
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+      function gtag(){ dataLayer.push(arguments); }
+
+      // Don’t auto fire page_view from GA snippet in SPAs
       gtag("js", new Date());
-      gtag("config", "G-EFFQ2YYFN8");
+      gtag("config", "G-EFFQ2YYFN8", { send_page_view: false });
+
+      (function loadGAWhenIdle(){
+        function load() {
+          if (window.__gaLoaded) return;
+          window.__gaLoaded = true;
+          var s = document.createElement("script");
+          s.src = "https://www.googletagmanager.com/gtag/js?id=G-EFFQ2YYFN8";
+          s.async = true;
+          document.head.appendChild(s);
+        }
+
+        if ("requestIdleCallback" in window) {
+          requestIdleCallback(load, { timeout: 2500 });
+        } else {
+          setTimeout(load, 2500);
+        }
+      })();
     </script>
   </head>
 
   <body>
     <div id="app"></div>
 
-    <!-- If you are deploying a built SPA, this should usually point to /assets/... not ./src/... -->
-    <script type="module" src="/src/index.tsx"></script>
+    <!-- ✅ Production build entry (example for Vite) -->
+    <!-- In Vite build output, you'll typically have /assets/index-xxxxx.js -->
+    <script type="module" src="/assets/index-DGyUAiyd.js"></script>
 
-    <!-- ZOHO SALESIQ TRACKING CODE START -->
+    <!-- ✅ Zoho SalesIQ: load after interaction (or you can delay by timeout) -->
     <script>
       window.$zoho = window.$zoho || {};
       $zoho.salesiq = $zoho.salesiq || { ready: function () {} };
+
+      (function loadSalesIQ(){
+        function load() {
+          if (window.__siqLoaded) return;
+          window.__siqLoaded = true;
+
+          var s = document.createElement("script");
+          s.id = "zsiqscript";
+          s.src = "https://salesiq.zohopublic.in/widget?wc=siqe8e2de51a58ff011f46d1d5718469d24fb1812f710b8e38bd932663adc239364";
+          s.defer = true;
+          document.body.appendChild(s);
+        }
+
+        // Load on first interaction
+        ["scroll","mousemove","touchstart","keydown","click"].forEach(function(evt){
+          window.addEventListener(evt, load, { once: true, passive: true });
+        });
+
+        // Safety fallback: load after 10s even if no interaction
+        setTimeout(load, 10000);
+      })();
     </script>
-    <script
-      id="zsiqscript"
-      src="https://salesiq.zohopublic.in/widget?wc=siqe8e2de51a58ff011f46d1d5718469d24fb1812f710b8e38bd932663adc239364"
-      defer
-    ></script>
-    <!-- ZOHO SALESIQ TRACKING CODE END -->
   </body>
 </html>
