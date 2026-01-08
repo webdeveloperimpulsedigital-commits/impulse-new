@@ -37,7 +37,7 @@ export const BlogSection = (): JSX.Element => {
       title: "The Rise of Sustainability in Marketing: How Green Marketing is Becoming the New Norm",
       description:
         "Sustainability has become a defining factor in how modern brands are evaluated. Consumers today are more informed, more conscious, and more selective about the businesses they support. Environmental responsibility is no longer viewed as an optional initiative it is increasingly expected as part of a brand’s identity.",
-      image: "/The-Rise-of-Sustainability-in-Marketing.jpg",
+      image: "/green-marketing-2.jpg",
       url: "https://www.theimpulsedigital.com/blog/the-rise-of-sustainability-in-marketing-how-green-marketing-is-becoming-the-new-norm/"
     },
     {

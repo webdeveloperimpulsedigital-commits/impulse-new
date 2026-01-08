@@ -27,7 +27,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Craft compelling, SEO-driven content that tells your brand story and drives measurable engagement across platforms.",
       features: ["Blog Writing", "Website Copy", "Landing Pages", "Corporate Communication"],
-      image: "/servicepage-COntent writing.jpg",
+      image: "/servicepage-COntent writing-new.jpg",
       link: "/services/content-writing-services",
     },
     {
@@ -36,7 +36,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Run targeted campaigns across Google, Meta, and more to maximize ROI through data-backed performance marketing strategies.",
       features: ["Google Ads", "Meta Campaigns", "Bid Optimization", "Landing Page Testing"],
-      image: "/servicepage-PPC.jpg",
+      image: "/servicepage-PPC-new.jpg",
       link: "/services/performance-marketing",
     },
     {
@@ -45,7 +45,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Build strong social communities and boost engagement through creative content and performance-driven strategies.",
       features: ["Strategy & Planning", "Content Creation", "Paid Campaigns", "Community Management"],
-      image: "/servicepage-Social Media Marketing.jpg",
+      image: "/servicepage-Social Media Marketing-new.jpg",
       link: "/services/social-media-marketing",
     },
     {
@@ -54,7 +54,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Improve your website visibility and rankings with robust SEO strategies built to deliver sustainable growth.",
       features: ["AI SEO", "Enterprise SEO","eCommerce SEO","Local SEO","B2B SEO"],
-      image: "/servicepage-SEO.jpg",
+      image: "/servicepage-SEO-new.jpg",
       link: "/services/search-engine-optimization",
     },
     {
@@ -63,16 +63,16 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Design and develop user-focused websites that look great, perform well, and convert visitors into customers.",
       features: ["UI/UX Design", "Responsive Development", "CMS Setup", "Website SEO","Website AMC"],
-      image: "/servicepage-Website Development.jpg",
+      image: "/servicepage-Website Development-new.jpg",
       link: "/services/website-development",
     },
     {
       id: "branding",
-      title: "Branding Creative",
+      title: "Branding",
       description:
         "Shape your brand’s visual and emotional identity through design, storytelling, and creative strategy.",
       features: ["Logo Design", "Brand Guidelines", "Campaign Design", "Creative Strategy"],
-      image: "/servicepage-Branding and Identity.jpg",
+      image: "/servicepage-Branding and Identity-new.jpg",
       link: "/services/branding-creative-services",
     },
     {
@@ -81,7 +81,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Build a strong employer brand that attracts, engages, and retains top talent aligned with your company’s values.",
       features: ["EVP Creation", "Recruitment Marketing", "Internal Campaigns", "Culture Storytelling"],
-      image: "/servicepage-Employeer Branding.jpg",
+      image: "/servicepage-Employeer Branding-new.jpg",
       link: "/services/employee-branding-agency",
     },
     // {
@@ -99,7 +99,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
       description:
         "Produce short-form videos, reels, and branded storytelling content that stand out and drive engagement.",
       features: ["Concept Development", "Scriptwriting", "Production", "Editing & Animation"],
-      image: "/servicepage-Video Production.jpg",
+      image: "/servicepage-Video Production-new.jpg",
       link: "/services/social-media-video-production",
     },
   ];
