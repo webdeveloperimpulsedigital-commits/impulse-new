@@ -33,12 +33,12 @@ export const BlogSection = (): JSX.Element => {
     {
       id: "1",
       author: "Admin",
-      date: "Dec 25, 2025",
-      title: "The Rise of Sustainability in Marketing: How Green Marketing is Becoming the New Norm",
+      date: "Jan 6, 2026",
+      title: "Why Every Business Needs an AI Chatbot for Customer Service Today",
       description:
-        "Sustainability has become a defining factor in how modern brands are evaluated. Consumers today are more informed, more conscious, and more selective about the businesses they support. Environmental responsibility is no longer viewed as an optional initiative it is increasingly expected as part of a brand’s identity.",
-      image: "/green-marketing-2.jpg",
-      url: "https://www.theimpulsedigital.com/blog/the-rise-of-sustainability-in-marketing-how-green-marketing-is-becoming-the-new-norm/"
+        "Today’s customers expect instant, accurate, and personalized support regardless of time or channel. For businesses, meeting these expectations at scale has become increasingly challenging. This is where chatbots in customer service are making a measurable impact. From answering routine queries to guiding users through complex journeys, automation is reshaping how brands interact with customers.",
+      image: "/impulse-blog-about-ai-chatbot-1.jpg",
+      url: "https://www.theimpulsedigital.com/blog/why-every-business-needs-an-ai-chatbot-for-customer-service-today/"
     },
     {
       id: "2",

@@ -184,7 +184,7 @@ export const FooterSection: React.FC = () => {
         {/* Bottom Row */}
         <div className="footer__bottom">
           <div className="footer__copy">
-            © 2025 Impulse Digital All rights reserved
+            © 2026 Impulse Digital All rights reserved
           </div>
 
           <div className="footer__links">
