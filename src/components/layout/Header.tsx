@@ -48,7 +48,7 @@ const DEFAULT_ITEMS: NavItem[] = [
       //   hasSubDropdown: true,
       //   subItems: [
           
-      //     {label: "AI Video Production", href: "/services/ai-video-production"},
+      //     {label: "AI Video Production", href: "/services/video-production/ai-video-production"},
       //   ],
       // },
       {

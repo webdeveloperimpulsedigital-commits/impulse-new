@@ -6,19 +6,19 @@ export const WhyChooseSection = (): JSX.Element => {
       title: "Creative Storytelling with Strategic Depth",
       description:
         "Every video is designed with purpose - tailored to your brand message, audience, and business objectives.",
-      img: "/impulse-website/why-choose-1.png",
+      img: "/Production Expertise.jpg",
     },
     {
       title: "End-to-End Production Expertise",
       description:
         "From scripting to shooting, editing, animations, sound, and final delivery - we manage the entire workflow seamlessly.",
-      img: "/impulse-website/why-choose-2.jpg",
+      img: "/Creative Storytelling.jpg",
     },
     {
       title: "Cinematic Quality, No Compromise",
       description:
         "We use high-grade equipment, studio setups, and industry-standard post-production workflows to ensure exceptional output.",
-      img: "/impulse-website/content-full-width-img.jpg",
+      img: "/Cinematic Quality.jpg",
     },
   ];
 
@@ -32,10 +32,10 @@ export const WhyChooseSection = (): JSX.Element => {
         {/* Header */}
         <div className="mb-6 lg:mb-8 pt-0">
           <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
-            Why Choose
+            Why Brands
           </h2>
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight">
-            Our Video Production Expertise
+             Trust Us With Their Videos
           </h2>
         </div>
 

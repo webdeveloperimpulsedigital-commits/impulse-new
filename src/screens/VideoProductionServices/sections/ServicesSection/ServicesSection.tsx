@@ -30,7 +30,7 @@ const ServicesSection = () => {
     points: [
       "Showcase your brand’s vision, culture, achievements, and identity through cinematic films crafted to inspire trust and admiration.",
     ],
-    img: "/impulse-website/Video1.jpg",
+    img: "/Brand Films.jpg",
   },
   {
     n: "02",
@@ -38,7 +38,7 @@ const ServicesSection = () => {
     points: [
       "Highlight features, benefits, and real-world usage with aesthetic, clear, and performance-focused product demonstrations.",
     ],
-    img: "/impulse-website/Video2.jpg",
+    img: "/Product Videos.jpg",
   },
   {
     n: "03",
@@ -46,15 +46,15 @@ const ServicesSection = () => {
     points: [
       "Create high-impact ads for digital, TV, and campaigns that capture attention and drive action within the first few seconds.",
     ],
-    img: "/impulse-website/Video3.jpg",
+    img: "/Commercials Promo Videos.jpg",
   },
   {
     n: "04",
     title: "Explainer Videos",
     points: [
-      "Simplify complex ideas with easy-to-follow visual storytelling — perfect for apps, processes, onboarding, and training.",
+      "Simplify complex ideas with easy-to-follow visual storytelling - perfect for apps, processes, onboarding, and training.",
     ],
-    img: "/impulse-website/Video4.jpg",
+    img: "/Explainer Videos.jpg",
   },
   {
     n: "05",
@@ -62,7 +62,7 @@ const ServicesSection = () => {
     points: [
       "Build credibility with authentic customer stories and leadership messaging that showcases your brand’s real-world impact.",
     ],
-    img: "/impulse-website/Video5.jpg",
+    img: "/Testimonial  Founder Videos.jpg",
   },
   {
     n: "06",
@@ -70,7 +70,7 @@ const ServicesSection = () => {
     points: [
       "Capture key moments, energy, and highlights from corporate events, conferences, and launches in compelling post-event films.",
     ],
-    img: "/impulse-website/Video6.jpg",
+    img: "/Event Coverage.jpg",
   },
   {
     n: "07",
@@ -78,7 +78,7 @@ const ServicesSection = () => {
     points: [
       "Add clarity and style through animated videos, 2D/3D graphics, typography, and visual elements that enhance your narrative.",
     ],
-    img: "/impulse-website/Video7.jpg",
+    img: "/Animation Motion Graphics.jpg",
   },
   {
     n: "08",
@@ -86,7 +86,7 @@ const ServicesSection = () => {
     points: [
       "Optimised for reels, shorts, and digital platforms with high retention editing styles and fast-paced visual storytelling.",
     ],
-    img: "/impulse-website/Video8.jpg",
+    img: "/Short-Form.jpg",
   },
 ];
 
@@ -292,11 +292,11 @@ const ServicesSection = () => {
             <div className="mx-auto relative">
               <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
                 <span className="text-[#ffffffb2]  lg:text-[34px] sm:text-[16px]">
-                  Video Production 
+                  Videos
 
                 </span>
                 <span className="font-bold text-[#ffffff] lg:text-[52px] md:text-[52px] sm:text-[26px]">
-                 Services
+                  That Work While You Don’t
                 </span>
               </h2>
             </div>
@@ -334,7 +334,7 @@ const ServicesSection = () => {
                       tabIndex={-1}
                     >
                       <img
-                        src="/impulse-website/Arrow.png"
+                        src="/Arrow.png"
                         alt=""
                         aria-hidden="true"
                         className="w-[56px] lg:w-[80px] object-contain transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
@@ -390,7 +390,7 @@ const ServicesSection = () => {
                 aria-label="Previous"
               >
                 <img
-                  src="/impulse-website/left-arrow.png"
+                  src="/left-arrow.png"
                   alt="Previous"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />
@@ -403,7 +403,7 @@ const ServicesSection = () => {
                 aria-label="Next"
               >
                 <img
-                  src="/impulse-website/right-arrow.png"
+                  src="/right-arrow.png"
                   alt="Next"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />

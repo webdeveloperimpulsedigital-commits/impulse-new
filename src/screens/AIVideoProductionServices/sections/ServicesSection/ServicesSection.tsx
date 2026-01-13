@@ -30,7 +30,7 @@ const ServicesSection = () => {
     points: [
       "Turn complex ideas into clear, beautifully rendered videos using AI-generated visuals, clean animations, and automated voice narration that makes learning seamless and engaging."
     ],
-    img: "/impulse-website/AI-Explainer.jpg",
+    img: "/AI-Generated Explainer Videos.jpg",
   },
   {
     n: "02",
@@ -38,7 +38,7 @@ const ServicesSection = () => {
     points: [
       "Use realistic AI avatars for product walkthroughs, announcements, training modules, and multilingual adaptations - no camera crew required, high-quality results every time."
     ],
-    img: "/impulse-website/Avatar-Video.jpg",
+    img: "/Avatar Video Creation.jpg",
   },
   {
     n: "03",
@@ -46,7 +46,7 @@ const ServicesSection = () => {
     points: [
       "Convert your text, blog, or script into a complete video with visuals, transitions, voiceover, and subtitles - automatically generated within minutes."
     ],
-    img: "/impulse-website/Script-To-Video.jpg",
+    img: "/Script-to-Video Automation.jpg",
   },
   {
     n: "04",
@@ -54,7 +54,7 @@ const ServicesSection = () => {
     points: [
       "Create natural-sounding voiceovers in multiple languages, tones, and styles - perfect for localisation, marketing, and international audiences."
     ],
-    img: "/impulse-website/AI-Voiceover.jpg",
+    img: "/AI Voiceovers Dubbing.jpg",
   },
   {
     n: "05",
@@ -62,7 +62,7 @@ const ServicesSection = () => {
     points: [
       "Automated color correction, smart cuts, background removal, upscaling, sound enhancement, and motion graphics - professionally refined in minutes."
     ],
-    img: "/impulse-website/AI-Editing.jpg",
+    img: "/AI-Powered Editing & Enhancement.jpg",
   },
   {
     n: "06",
@@ -70,7 +70,7 @@ const ServicesSection = () => {
     points: [
       "Generate customised videos at scale for sales, onboarding, marketing automation, and customer engagement - powered by AI personalisation."
     ],
-    img: "/impulse-website/Personalised-Video.jpg",
+    img: "/Personalised Video Messaging.jpg",
   },
   {
     n: "07",
@@ -78,7 +78,7 @@ const ServicesSection = () => {
     points: [
       "High-retention vertical edits created using AI-powered editing tools - designed for fast-paced platforms like Instagram & YouTube Shorts."
     ],
-    img: "/impulse-website/Short-Form-Video.jpg",
+    img: "/Short-Form AI.jpg",
   },
   {
     n: "08",
@@ -86,7 +86,7 @@ const ServicesSection = () => {
     points: [
       "Create consistent, clear videos for onboarding, SOPs, HR messaging, product understanding, and internal communication - scalable and accurate."
     ],
-    img: "/impulse-website/Corporate-Training.jpg",
+    img: "/Training & Corporate AI Videos.jpg",
   },
 ];
 
@@ -292,16 +292,15 @@ const ServicesSection = () => {
             <div className="mx-auto relative">
               <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
                 <span className="text-[#ffffffb2]  lg:text-[34px] sm:text-[16px]">
-                  Our AI Video 
+                  AI Video Production 
 
                 </span>
                 <span className="font-bold text-[#ffffff] lg:text-[52px] md:text-[52px] sm:text-[26px]">
-                 Production Services  
+                 for Modern Brands  
                 </span>
               </h2>
             </div>
           </div>
-
           {/* DESKTOP: sticky stack */}
           <div className="stack" id="stack" ref={stackRef}>
             {data.map((s, i) => (
@@ -334,7 +333,7 @@ const ServicesSection = () => {
                       tabIndex={-1}
                     >
                       <img
-                        src="/impulse-website/Arrow.png"
+                        src="/Arrow.png"
                         alt=""
                         aria-hidden="true"
                         className="w-[56px] lg:w-[80px] object-contain transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
@@ -390,7 +389,7 @@ const ServicesSection = () => {
                 aria-label="Previous"
               >
                 <img
-                  src="/impulse-website/left-arrow.png"
+                  src="/left-arrow.png"
                   alt="Previous"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />
@@ -403,7 +402,7 @@ const ServicesSection = () => {
                 aria-label="Next"
               >
                 <img
-                  src="/impulse-website/right-arrow.png"
+                  src="/right-arrow.png"
                   alt="Next"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />

@@ -91,7 +91,7 @@ export const App = (): JSX.Element => {
        <Route path="/services/agentic-ai" element={<AiAgenticServices />} /> 
 
       <Route path="/services/intelli-pulse" element={<IntelliPulseServices/>}/>
-      <Route path="/services/ai-video-production" element={<AIVideoProductionServices/>}/>
+      <Route path="/services/video-production/ai-video-production" element={<AIVideoProductionServices/>}/>
        <Route path="/services/video-production" element={<VideoProductionServices />}/>
 
 

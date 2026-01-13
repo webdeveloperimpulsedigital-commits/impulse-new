@@ -70,6 +70,14 @@ export const AIVideoProductionServicesHeroSection = (): JSX.Element => {
             Home
           </NavLink>
           <span className="select-none">{">"}</span>
+           <NavLink to="/services" className="hover:text-white transition-colors">
+            Services
+          </NavLink>
+          <span className="select-none">{">"}</span>
+          <NavLink to="/services/video-production" className="hover:text-white transition-colors">
+            Video Production
+          </NavLink>
+          <span className="select-none">{">"}</span>
           <span className="text-white">Ai Video Production</span>
         </nav>
       </div>
