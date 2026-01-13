@@ -62,6 +62,7 @@ import { Fourse4goodCaseStudy } from "./screens/Fourse4goodCaseStudy";
 import { Privacypage } from "./screens/Privacypage";
 import { TermsAndConditions } from "./screens/TermsAndConditionsPage";
 import { RainbowInternationalSchoolCaseStudy } from "./screens/RainbowInternationalSchoolCaseStudy";
+import { Thankyou } from "./screens/Thankyou";
 
 
 
@@ -141,7 +142,7 @@ export const App = (): JSX.Element => {
       <Route path="/digital-marketing-agency-in-pune" element={<AgencyinPune />} />
       <Route path="/privacy-policy" element={<Privacypage/>}/>
       <Route path="/terms-and-conditions" element={<TermsAndConditions/>}/>
-
+      <Route path="/thank-you" element={<Thankyou/>}/>
     </Routes>
   );
 };
