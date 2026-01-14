@@ -1,15 +1,77 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import { Card, CardContent } from "../../../../../components/ui/card";
 import { Button } from "../../../../../components/ui/button";
 
 export const ApplicationFormSection = (): JSX.Element => {
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    // Do NOT preventDefault – we want the browser to submit to Zoho
-    // Redirect shortly after, so Zoho gets the data in the hidden iframe
-    setTimeout(() => {
-      window.location.href = "/thank-you"; // or full URL if needed
-      // e.g. "https://www.theimpulsedigital.com/thank-you"
-    }, 300);
+  const formRef = useRef<HTMLFormElement | null>(null);
+
+  const [submitting, setSubmitting] = useState(false);
+  const [errorMsg, setErrorMsg] = useState<string>("");
+  const [successMsg, setSuccessMsg] = useState<string>("");
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault(); // ✅ we will submit via fetch to PHP
+
+    setErrorMsg("");
+    setSuccessMsg("");
+
+    if (!formRef.current) return;
+
+    // Basic front-end validation (extra safety)
+    const form = formRef.current;
+    const position = (form.elements.namedItem("Dropdown") as HTMLSelectElement | null)?.value || "";
+    const firstName = (form.elements.namedItem("Name_First") as HTMLInputElement | null)?.value?.trim() || "";
+    const lastName = (form.elements.namedItem("Name_Last") as HTMLInputElement | null)?.value?.trim() || "";
+    const email = (form.elements.namedItem("Email") as HTMLInputElement | null)?.value?.trim() || "";
+    const phone = (form.elements.namedItem("Phone") as HTMLInputElement | null)?.value?.trim() || "";
+    const exp = (form.elements.namedItem("Dropdown1") as HTMLSelectElement | null)?.value || "";
+    const fileInput = form.elements.namedItem("FileUpload") as HTMLInputElement | null;
+
+    if (!position || position === "-Select-") return setErrorMsg("Please select a position.");
+    if (!firstName) return setErrorMsg("Please enter your first name.");
+    if (!lastName) return setErrorMsg("Please enter your last name.");
+    if (!email) return setErrorMsg("Please enter your email.");
+    if (!phone) return setErrorMsg("Please enter your phone number.");
+    if (!exp || exp === "-Select-") return setErrorMsg("Please select your experience level.");
+    if (!fileInput?.files?.length) return setErrorMsg("Please upload your resume.");
+
+    // Build FormData
+    const fd = new FormData(form);
+
+    // IMPORTANT: your PHP endpoint path
+    // If your React is deployed on same domain: "/api/send-career.php"
+    // If different domain, use full URL: "https://www.theimpulsedigital.com/api/send-career.php"
+    const endpoint = "/api/send-career.php";
+
+    try {
+      setSubmitting(true);
+
+      const res = await fetch(endpoint, {
+        method: "POST",
+        body: fd,
+      });
+
+      const data = await res.json().catch(() => null);
+
+      if (!res.ok || !data?.ok) {
+        setErrorMsg(data?.message || "Something went wrong. Please try again.");
+        setSubmitting(false);
+        return;
+      }
+
+      setSuccessMsg("Application submitted successfully. Redirecting...");
+      // Reset form (optional)
+      form.reset();
+
+      // redirect
+      setTimeout(() => {
+        window.location.href = "/thank-you";
+      }, 600);
+    } catch (err) {
+      setErrorMsg("Network error. Please try again.");
+    } finally {
+      setSubmitting(false);
+    }
   };
 
   return (
@@ -19,35 +81,25 @@ export const ApplicationFormSection = (): JSX.Element => {
       data-section="application-form"
     >
       <div className="max-w-[800px] mx-auto px-4 lg:px-8">
-        {/* Header */}
-        {/* <div className="text-center mb-12">
-          <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-3xl md:text-4xl lg:text-5xl mb-6">
-            Apply Now
-          </h2>
-          <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[#666] text-base leading-relaxed">
-            Ready to join our team? Fill out the form below and attach your resume. <br />
-            We'll get back to you within 48 hours.
-          </p>
-        </div> */}
-
-        {/* Application Form */}
         <Card className="bg-white rounded-2xl border-0 shadow-lg">
           <CardContent className="p-8 lg:p-12">
             <form
-              action="https://forms.zohopublic.in/adwait1/form/Careers/formperma/GKY3G9OL-53XSaF-g9oblI3hLZeb9tOF4_dU-ORfagA/htmlRecords/submit"
-              name="form"
-              id="form"
+              ref={formRef}
+              name="careers-form"
+              id="careers-form"
               method="POST"
-              acceptCharset="UTF-8"
               encType="multipart/form-data"
               className="space-y-6"
-              target="hidden_iframe"          // submit to Zoho in background
-              onSubmit={handleSubmit}         // control redirect from React
+              onSubmit={handleSubmit}
             >
-              {/* Zoho hidden fields */}
-              <input type="hidden" name="zf_referrer_name" value="" />
-              <input type="hidden" name="zf_redirect_url" value="" />
-              <input type="hidden" name="zc_gad" value="" />
+              {/* ✅ Honeypot (bots fill this, humans won't) */}
+              <input
+                type="text"
+                name="website_check"
+                tabIndex={-1}
+                autoComplete="off"
+                style={{ display: "none" }}
+              />
 
               {/* Position Applying For (Dropdown) */}
               <div className="space-y-2">
@@ -58,11 +110,11 @@ export const ApplicationFormSection = (): JSX.Element => {
                   name="Dropdown"
                   className="w-full h-[50px] px-4 py-3 bg-[#f8f9fa] rounded-lg border border-gray-200 [font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-base focus:border-[#543d98] focus:outline-none transition-colors"
                   defaultValue="-Select-"
+                  required
                 >
-                  <option value="-Select-">Position Applying For</option>
+                  <option value="-Select-">Select Position</option>
                   <option value="Social Media Manager">Social Media Manager</option>
                   <option value="Video Editor">Video Editor</option>
-                  {/* <option value="Copywriter">Copywriter</option> */}
                 </select>
               </div>
 
@@ -76,9 +128,7 @@ export const ApplicationFormSection = (): JSX.Element => {
                     type="text"
                     maxLength={255}
                     name="Name_First"
-                    placeholder="Name"
-                    // @ts-ignore Zoho-specific attribute
-                    fieldType={7}
+                    placeholder="First Name"
                     className="w-full h-[50px] px-4 py-3 bg-[#f8f9fa] rounded-lg border border-gray-200 [font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-base focus:border-[#543d98] focus:outline-none transition-colors"
                     required
                   />
@@ -93,8 +143,6 @@ export const ApplicationFormSection = (): JSX.Element => {
                     maxLength={255}
                     name="Name_Last"
                     placeholder="Last Name"
-                    // @ts-ignore
-                    fieldType={7}
                     className="w-full h-[50px] px-4 py-3 bg-[#f8f9fa] rounded-lg border border-gray-200 [font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-base focus:border-[#543d98] focus:outline-none transition-colors"
                     required
                   />
@@ -107,12 +155,10 @@ export const ApplicationFormSection = (): JSX.Element => {
                   Email <em>*</em>
                 </label>
                 <input
-                  type="text"
+                  type="email"
                   maxLength={255}
                   name="Email"
                   placeholder="Enter Your Email Address"
-                  // @ts-ignore
-                  fieldType={9}
                   className="w-full h-[50px] px-4 py-3 bg-[#f8f9fa] rounded-lg border border-gray-200 [font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-base focus:border-[#543d98] focus:outline-none transition-colors"
                   required
                 />
@@ -125,17 +171,8 @@ export const ApplicationFormSection = (): JSX.Element => {
                 </label>
                 <input
                   type="text"
-                  name="PhoneNumber_countrycode"
+                  name="Phone"
                   maxLength={20}
-                  // @ts-ignore Zoho attributes
-                  compname="PhoneNumber"
-                  // @ts-ignore
-                  phoneFormat="1"
-                  // @ts-ignore
-                  isCountryCodeEnabled={false}
-                  // @ts-ignore
-                  fieldType={11}
-                  id="international_PhoneNumber_countrycode"
                   placeholder="Enter Your Phone Number"
                   className="w-full h-[50px] px-4 py-3 bg-[#f8f9fa] rounded-lg border border-gray-200 [font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-base focus:border-[#543d98] focus:outline-none transition-colors"
                   required
@@ -151,9 +188,9 @@ export const ApplicationFormSection = (): JSX.Element => {
                   name="Dropdown1"
                   className="w-full h-[50px] px-4 py-3 bg-[#f8f9fa] rounded-lg border border-gray-200 [font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-base focus:border-[#543d98] focus:outline-none transition-colors"
                   defaultValue="-Select-"
+                  required
                 >
                   <option value="-Select-">Select Experience Level</option>
-                  <option value="Select experience level">Select experience level</option>
                   <option value="0-1 years (Fresher)">0-1 years (Fresher)</option>
                   <option value="1-2 years">1-2 years</option>
                   <option value="3-5 years">3-5 years</option>
@@ -169,8 +206,6 @@ export const ApplicationFormSection = (): JSX.Element => {
                 <input
                   type="file"
                   name="FileUpload"
-                  // @ts-ignore
-                  checktype="c1"
                   accept=".pdf,.doc,.docx"
                   className="w-full h-[50px] file:mr-4 file:px-4 file:py-2 file:rounded-lg file:border-0 file:bg-[#543d98] file:text-white file:text-sm bg-[#f8f9fa] rounded-lg border border-gray-200 [font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-base focus:border-[#543d98] focus:outline-none transition-colors"
                   required
@@ -185,7 +220,7 @@ export const ApplicationFormSection = (): JSX.Element => {
                 <textarea
                   name="MultiLine"
                   maxLength={65535}
-                  placeholder="Tell us why you're interested in this position and what makes you a great fit for our team..."
+                  placeholder="Tell us why you're interested in this position and what makes you a great fit..."
                   className="w-full h-[150px] px-4 py-3 bg-[#f8f9fa] rounded-lg border border-gray-200 [font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-base focus:border-[#543d98] focus:outline-none transition-colors resize-none"
                 />
               </div>
@@ -196,7 +231,7 @@ export const ApplicationFormSection = (): JSX.Element => {
                   Portfolio/LinkedIn URL (Optional)
                 </label>
                 <input
-                  type="text"
+                  type="url"
                   maxLength={2083}
                   name="Website"
                   placeholder="https://your-portfolio.com or LinkedIn profile"
@@ -204,14 +239,28 @@ export const ApplicationFormSection = (): JSX.Element => {
                 />
               </div>
 
+              {/* Alerts */}
+              {errorMsg ? (
+                <div className="rounded-lg border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
+                  {errorMsg}
+                </div>
+              ) : null}
+
+              {successMsg ? (
+                <div className="rounded-lg border border-green-200 bg-green-50 px-4 py-3 text-sm text-green-700">
+                  {successMsg}
+                </div>
+              ) : null}
+
               {/* Submit Button */}
               <div className="pt-6 text-center">
                 <Button
                   type="submit"
-                  className="w-[160px] h-[44px] group inline-flex items-center gap-2 px-4 py-6 bg-[#543d98] hover:bg-[#543d98]/90 rounded-xl text-white"
+                  disabled={submitting}
+                  className="w-[160px] h-[44px] group inline-flex items-center gap-2 px-4 py-6 bg-[#543d98] hover:bg-[#543d98]/90 rounded-xl text-white disabled:opacity-60"
                 >
                   <span className="[font-family:'DM_Sans',Helvetica] font-bold text-white text-sm md:text-base">
-                    Submit
+                    {submitting ? "Submitting..." : "Submit"}
                   </span>
                   <img
                     src="/button-icon.svg"
@@ -229,13 +278,6 @@ export const ApplicationFormSection = (): JSX.Element => {
                 </p>
               </div>
             </form>
-
-            {/* Hidden iframe to receive Zoho response */}
-            <iframe
-              name="hidden_iframe"
-              style={{ display: "none" }}
-              title="hidden_iframe_for_zoho"
-            />
           </CardContent>
         </Card>
 
