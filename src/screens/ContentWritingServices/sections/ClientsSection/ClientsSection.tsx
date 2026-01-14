@@ -25,6 +25,8 @@ export const ClientsSection = (): JSX.Element => {
     { name: "HUL", src: "/High Res Logo resize_Artboard 1 copy 52.png" },
     { name: "hdfc", src: "https://www.theimpulsedigital.com/hdfc.jpg" },
     { name: "mastercard", src: "https://www.theimpulsedigital.com/mastercard.jpg" },
+     { name: "uppercase", src: "/uppercase.png" },
+    { name: "Bajaj", src: "/Bajaj group.png" },
     { name: "ola", src: "https://www.theimpulsedigital.com/ola.jpg" },
     { name: "tata", src: "/High Res Logo resize_Artboard 1 copy 45.png" },
     { name: "d-mart", src: "/High Res Logo resize_Artboard 1 copy 34.png" },
