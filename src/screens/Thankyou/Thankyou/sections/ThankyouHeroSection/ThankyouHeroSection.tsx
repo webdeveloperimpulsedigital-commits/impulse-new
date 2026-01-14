@@ -32,7 +32,7 @@ export const ThankyouHeroSection = (): JSX.Element => {
     </Helmet>
 
     <section
-      className="relative w-full lg:h-screen sm:h-screen lg:min-h-[700px] sm:min-h-[500px] rounded-t-[55px] overflow-hidden"
+      className="relative w-full  rounded-t-[55px] overflow-hidden bg-black/60 min-h-[00px] flex items-center justify-center text-center pt-24 px-4"
       data-section="content-writing-hero"
     >
       {/* Background video */}
@@ -59,20 +59,13 @@ export const ThankyouHeroSection = (): JSX.Element => {
       </div>
 
       {/* Hero Copy */}
-      <div className="absolute inset-0 flex flex-col items-center justify-center text-center pt-24 px-4">
-        <h1 className="uppercase [font-family:'DM_Sans',Helvetica] font-black text-white text-[32px] sm:text-[40px] md:text-[48px] lg:text-[56px] xl:text-[64px] leading-[40px] tracking-tight mb-6">
-         Thank You
-        </h1>
-
-        {/* Breadcrumb */}
-        <nav className="flex items-center justify-center gap-2 text-white/80 text-sm">
-          <NavLink to="/" className="hover:text-white transition-colors">
-            Home
-          </NavLink>
-          <span className="select-none">{">"}</span>
-          <span className="text-white">Thank You</span>
-        </nav>
-      </div>
+      
+      <style>{`
+      .border-bot {
+    border-bottom: 0px solid gray;
+}
+      `}
+      </style>
     </section>
     </>
   );
