@@ -1,8 +1,15 @@
 import "./ContactResourcesSection.css";
-import { useRef } from "react"; 
+import React, { useRef, useState } from "react"; // ✅ add useState (and React)
 import { Button } from "../../../../components/ui/button";
+import ReCAPTCHA from "react-google-recaptcha";
+
 export const ContactResourcesSection = () => {
   const submitBtnRef = useRef<HTMLButtonElement | null>(null);
+
+  const captchaRef = useRef<ReCAPTCHA | null>(null);
+
+  // store token from reCAPTCHA
+  const [captchaToken, setCaptchaToken] = useState<string>("");
 
   const validate = (form: HTMLFormElement) => {
     const company = (form.elements.namedItem("Company") as HTMLInputElement | null)?.value?.trim() || "";
@@ -21,6 +28,10 @@ export const ContactResourcesSection = () => {
       return { ok: false, msg: "Please enter a valid email address.", focus: "Email" };
     }
 
+    // IMPORTANT: require captcha token
+    if (!captchaToken) return { ok: false, msg: "Please verify you are not a robot.", focus: "recaptcha" };
+
+
     return { ok: true as const };
   };
 
@@ -31,7 +42,12 @@ export const ContactResourcesSection = () => {
     if (!res.ok) {
       e.preventDefault();
       alert(res.msg);
-      (form.elements.namedItem(res.focus) as HTMLElement | null)?.focus?.();
+      if (res.focus === "recaptcha") {
+        // scroll to captcha area nicely
+        document.getElementById("recaptcha-box")?.scrollIntoView({ behavior: "smooth", block: "center" });
+      } else {
+        (form.elements.namedItem(res.focus) as HTMLElement | null)?.focus?.();
+      }
       return false;
     }
 
@@ -146,6 +162,18 @@ export const ContactResourcesSection = () => {
 
               <label>Message</label>
               <textarea id="Description" name="Description" />
+              {/* ✅ Zoho needs this field in POST. We pass token here. */}
+              <input type="hidden" name="g-recaptcha-response" value={captchaToken} />
+
+              {/* ✅ Visible reCAPTCHA widget */}
+              <div id="recaptcha-box" style={{ marginTop: 12, marginBottom: 12 }}>
+                <ReCAPTCHA
+                  ref={captchaRef}
+                  sitekey={import.meta.env.VITE_RECAPTCHA_SITE_KEY as string}
+                  onChange={(token) => setCaptchaToken(token || "")}
+                  onExpired={() => setCaptchaToken("")}
+                />
+              </div>
 
               
 
