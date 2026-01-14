@@ -177,8 +177,12 @@ export const ContactResourcesSection = () => {
 
               
 
-              <Button className="w-[150px] h-[44px] group inline-flex items-center gap-2 px-4 py-6 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border-[#543d98] hover:border hover:border-[#543d98]" 
-              ref={submitBtnRef} type="submit">
+              <Button
+                className="w-[150px] h-[44px] group inline-flex items-center gap-2 px-4 py-6 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border-[#543d98] hover:border hover:border-[#543d98]"
+                ref={submitBtnRef}
+                type="submit"
+                disabled={!captchaToken}   // ✅ stops submission before captcha
+              >
                 Submit
                 <img
                   src="/button-icon.svg"
@@ -186,6 +190,7 @@ export const ContactResourcesSection = () => {
                   className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 pointer-events-none"
                 />
               </Button>
+
             </form>
 
             {/* IMPORTANT:
