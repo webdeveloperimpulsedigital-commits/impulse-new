@@ -7,8 +7,8 @@ export const AIVideoProductionServicesHeroSection = (): JSX.Element => {
   return (
     <>
      <Helmet> 
-    <meta name="description" content="We offer superior content writing services in Mumbai, India. We create blog, creative infographic designs, videos, whitepaper creation & design, corporate communication & digital brochures under our content marketing services." />
-<meta name="keywords" content="content writing services in mumbai, content marketing services, content marketing agency in mumbai, best content writing services, content writing services india" />
+    <meta name="description" content="Create AI-powered videos faster with avatars, automation, voiceovers and smart editing. Ideal for marketing, training and social platforms. Enquire now!" />
+<meta name="keywords" content="AI video production services, AI video agency in Mumbai, AI video creation, AI-powered video production in Mumbai, AI video content creation" />
 <title>Content Writing Services in Mumbai, India | Content Marketing | Impulse Digital</title>
 
 <meta name="robots" content="index, follow" />
@@ -17,8 +17,8 @@ export const AIVideoProductionServicesHeroSection = (): JSX.Element => {
 <meta name="generator" content="N/A" />
 
 <meta property="og:title" content="Content Writing Services in Mumbai, India | Content Marketing | Impulse Digital" />
-<meta property="og:description" content="We offer superior content writing services in Mumbai, India. We create blog, creative infographic designs, videos, whitepaper creation & design, corporate communication & digital brochures under our content marketing services." />
-<meta property="og:url" content="https://www.theimpulsedigital.com/content-marketing-services" />
+<meta property="og:description" content="Create AI-powered videos faster with avatars, automation, voiceovers and smart editing. Ideal for marketing, training and social platforms. Enquire now!" />
+<meta property="og:url" content="https://www.theimpulsedigital.com/services/video-production/ai-video-production" />
 <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
 <meta property="og:site_name" content="Impulse Digital" />
 <meta property="og:type" content="website" />
@@ -26,9 +26,9 @@ export const AIVideoProductionServicesHeroSection = (): JSX.Element => {
 <meta name="twitter:site" content="@impulsedigi" />
 <meta name="twitter:creator" content="@impulsedigi" />
 <meta name="twitter:title" content="Content Writing Services in Mumbai, India | Content Marketing | Impulse Digital" />
-<meta name="twitter:description" content="We offer superior content writing services in Mumbai, India. We create blog, creative infographic designs, videos, whitepaper creation & design, corporate communication & digital brochures under our content marketing services." />
+<meta name="twitter:description" content="Create AI-powered videos faster with avatars, automation, voiceovers and smart editing. Ideal for marketing, training and social platforms. Enquire now!" />
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-<meta name="twitter:url" content="https://www.theimpulsedigital.com/content-marketing-services" />
+<meta name="twitter:url" content="https://www.theimpulsedigital.com/services/video-production/ai-video-production" />
 
     </Helmet>
     <section
