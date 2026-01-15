@@ -135,7 +135,7 @@ export const ContactResourcesSection = () => {
                   <div className="contact-right">
                     <form
                       id="webform1132219000000597005"
-                      action="https://crm.zoho.in/crm/WebToLeadForm"
+                      action="https://www.theimpulsedigital.com/api/zoho-lead-gateway.php"
                       name="WebToLeads1132219000000597005"
                       method="POST"
                       acceptCharset="UTF-8"
