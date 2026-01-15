@@ -4,13 +4,11 @@ import { useEffect, useRef } from "react";
 export const ContactResourcesSection = () => {
   const submitBtnRef = useRef<HTMLButtonElement | null>(null);
 
-  // Load Google reCAPTCHA script (Zoho requires this)
   useEffect(() => {
     const existing = document.querySelector(
       'script[src="https://www.google.com/recaptcha/api.js"]'
     );
     if (existing) return;
-
     const s = document.createElement("script");
     s.src = "https://www.google.com/recaptcha/api.js";
     s.async = true;
@@ -18,87 +16,30 @@ export const ContactResourcesSection = () => {
     document.body.appendChild(s);
   }, []);
 
-  // ✅ EXACT functions from Zoho snippet (kept same IDs)
   useEffect(() => {
     (window as any).rccallback1132219000000597005 = function () {
       const recap = document.getElementById("recap1132219000000597005");
       if (recap) recap.setAttribute("captcha-verified", "true");
-
-      const err = document.getElementById("recapErr1132219000000597005");
-      if (err && err.style.visibility === "visible") err.style.visibility = "hidden";
     };
 
     (window as any).reCaptchaAlert1132219000000597005 = function () {
       const recap = document.getElementById("recap1132219000000597005");
       if (recap && recap.getAttribute("captcha-verified") === "false") {
-        const err = document.getElementById("recapErr1132219000000597005");
-        if (err) err.style.visibility = "visible";
+        alert("Please verify captcha.");
         return false;
       }
       return true;
     };
-
-    (window as any).validateEmail1132219000000597005 = function () {
-      const form = document.forms["WebToLeads1132219000000597005"] as any;
-      const emailFld = form?.querySelectorAll?.("[ftype=email]") || [];
-
-      for (let i = 0; i < emailFld.length; i++) {
-        const emailVal = (emailFld[i] as HTMLInputElement).value;
-        if (emailVal.trim().length !== 0) {
-          const atpos = emailVal.indexOf("@");
-          const dotpos = emailVal.lastIndexOf(".");
-          if (atpos < 1 || dotpos < atpos + 2 || dotpos + 2 >= emailVal.length) {
-            alert("Please enter a valid email address.");
-            (emailFld[i] as HTMLElement).focus();
-            return false;
-          }
-        }
-      }
-      return true;
-    };
-
-    (window as any).checkMandatory1132219000000597005 = function () {
-      const form = document.forms["WebToLeads1132219000000597005"] as any;
-
-      const mndFileds = ["Company", "Last Name", "Email", "Phone"];
-      const fldLangVal = ["Company", "Name", "Email", "Phone"];
-
-      for (let i = 0; i < mndFileds.length; i++) {
-        const fieldObj = form?.[mndFileds[i]];
-        if (fieldObj) {
-          if ((String(fieldObj.value).trim()).length === 0) {
-            alert(fldLangVal[i] + " cannot be empty");
-            fieldObj.focus();
-            return false;
-          }
-        }
-      }
-
-      if (!(window as any).validateEmail1132219000000597005()) return false;
-      if (!(window as any).reCaptchaAlert1132219000000597005()) return false;
-
-      // disable submit to prevent double submit
-      if (submitBtnRef.current) submitBtnRef.current.setAttribute("disabled", "true");
-
-      return true;
-    };
   }, []);
 
-  // ✅ Correct React submit handler (IMPORTANT)
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    // run Zoho style validation
-    (document as any).charset = "UTF-8";
-    const ok = (window as any).checkMandatory1132219000000597005();
-
-    // if not ok, stop the form submit
+    const ok = (window as any).reCaptchaAlert1132219000000597005();
     if (!ok) {
       e.preventDefault();
       return;
     }
-
-    // else allow submit (do nothing)
+    if (submitBtnRef.current) submitBtnRef.current.disabled = true;
   };
-
   return (
     <section className="contact-section sm:pt-5 lg:pt-16" id="contact-border-sec-two">
       <div className="wrap-contact" data-section="contact-resources">
@@ -143,104 +84,42 @@ export const ContactResourcesSection = () => {
         {/* RIGHT */}
         <div className="contact-right-wrapper">
           <div className="contact-right">
-            <form
-              id="webform1132219000000597005"
-              action="https://www.theimpulsedigital.com/api/zoho-lead-gateway.php"
-              name="WebToLeads1132219000000597005"
-              method="POST"
-              acceptCharset="UTF-8"
-              onSubmit={handleSubmit}
-            >
-              {/* ✅ MUST match your Zoho snippet tokens */}
-              <input
-                type="hidden"
-                name="xnQsjsdp"
-                value="129de3e9e86d28352bbc079c3d8a9d4e13b71a04b39d06e245ab5a86066e3e88"
-              />
-              <input type="hidden" name="zc_gad" id="zc_gad" value="" />
-              <input
-                type="hidden"
-                name="xmIwtLD"
-                value="3d7313f92ff3e94a2444f046709523e068b4f61545cd79a78b8a0e6ffa24c582a00869d10b70b78f61614cfd5b705d0c"
-              />
-              <input type="hidden" name="actionType" value="TGVhZHM=" />
-              <input type="hidden" name="returnURL" value="https://www.theimpulsedigital.com/thank-you/" />
+             <form
+                      id="webform1132219000000597005"
+                      action="https://www.theimpulsedigital.com/api/zoho-lead-gateway.php"
+                      name="WebToLeads1132219000000597005"
+                      method="POST"
+                      acceptCharset="UTF-8"
+                      onSubmit={handleSubmit}
+                    >
+                      <input type="hidden" name="xnQsjsdp" value="129de3e9e86d28352bbc079c3d8a9d4e13b71a04b39d06e245ab5a86066e3e88" />
+                      <input type="hidden" name="xmIwtLD" value="3d7313f92ff3e94a2444f046709523e068b4f61545cd79a78b8a0e6ffa24c582a00869d10b70b78f61614cfd5b705d0c" />
+                      <input type="hidden" name="actionType" value="TGVhZHM=" />
+                      <input type="hidden" name="returnURL" value="https://www.theimpulsedigital.com/thank-you/" />
+                      <input type="hidden" name="zc_gad" id="zc_gad" value="" />
 
-              {/* honeypot */}
-              <input
-                type="text"
-                style={{ display: "none" }}
-                name="aG9uZXlwb3Q"
-                defaultValue=""
-                tabIndex={-1}
-                autoComplete="off"
-                aria-hidden="true"
-              />
+                      {/* honeypot */}
+                      <input type="text" style={{ display: "none" }} name="aG9uZXlwb3Q" defaultValue="" />
 
-              {/* Fields */}
-              <label>
-                Company <span style={{ color: "red" }}>*</span>
-              </label>
-              <input type="text" id="Company" name="Company" maxLength={200} required />
+                      {/* MUST match these names */}
+                      <input name="Company" placeholder="Company" required />
+                      <input name="Last Name" placeholder="Name" required />
+                      <input name="Email" placeholder="Email" required />
+                      <input name="Phone" placeholder="Phone" required />
+                      <textarea name="Description" placeholder="Message" />
 
-              <label>
-                Name <span style={{ color: "red" }}>*</span>
-              </label>
-              <input type="text" id="Last_Name" name="Last Name" maxLength={80} required />
+                      <div
+                        className="g-recaptcha"
+                        data-sitekey="6LdaK0osAAAAADC8CEqZGlK1VgN2CkYB-iRXfn3y"
+                        data-callback="rccallback1132219000000597005"
+                        captcha-verified="false"
+                        id="recap1132219000000597005"
+                      />
 
-              <label>
-                Email <span style={{ color: "red" }}>*</span>
-              </label>
-              <input
-                type="text"
-                ftype="email"
-                id="Email"
-                name="Email"
-                maxLength={100}
-                autoComplete="off"
-                required
-              />
-
-              <label>
-                Phone <span style={{ color: "red" }}>*</span>
-              </label>
-              <input type="text" id="Phone" name="Phone" maxLength={30} required />
-
-              <label>Message</label>
-              <textarea id="Description" name="Description" />
-
-              {/* ✅ Zoho reCAPTCHA block */}
-              <div className="mt-3 mb-2">
-                <div
-                  className="g-recaptcha"
-                  data-sitekey="6LdaK0osAAAAADC8CEqZGlK1VgN2CkYB-iRXfn3y"
-                  data-theme="light"
-                  data-callback="rccallback1132219000000597005"
-                  captcha-verified="false"
-                  id="recap1132219000000597005"
-                />
-                <div
-                  id="recapErr1132219000000597005"
-                  style={{ fontSize: 12, color: "red", visibility: "hidden" }}
-                >
-                  Captcha validation failed. If you are not a robot then please try again.
-                </div>
-              </div>
-
-              {/* ✅ Use native button first to ensure POST works */}
-              <button
-                ref={submitBtnRef}
-                type="submit"
-                className="w-[150px] h-[44px] group inline-flex items-center justify-center gap-2 px-4 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border border-[#543d98]"
-              >
-                Submit
-                <img
-                  src="/button-icon.svg"
-                  alt="Arrow"
-                  className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 pointer-events-none"
-                />
-              </button>
-            </form>
+                      <button ref={submitBtnRef} type="submit">
+                        Submit
+                      </button>
+               </form>
           </div>
         </div>
       </div>
