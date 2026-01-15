@@ -22,6 +22,42 @@ export const ServicesCatalogSection = (): JSX.Element => {
       link: "/services/agentic-ai",
     },
     {
+      id: "Video Production",
+      title: "Video Production",
+      description:
+        "Create high-impact videos that tell your brand story, engage your audience, and drive results. From concept to final edit, we produce visually stunning videos tailored for marketing, branding, and digital platforms.",
+      features: ["Brand Films & Corporate Videos", "Product Videos & Demos", "Commercials & Promo Videos", "Explainer Videos","Testimonial & Founder Videos","Event Coverage & After-Movies","Animation & Motion Graphics","Short-Form Video Content"],
+      image: "/video-production-service.jpg",
+      link: "/services/video-production",
+    },
+    {
+      id: "seo",
+      title: "Search Engine Optimization",
+      description:
+        "Improve your website visibility and rankings with robust SEO strategies built to deliver sustainable growth.",
+      features: ["AI SEO", "Enterprise SEO","eCommerce SEO","Local SEO","B2B SEO"],
+      image: "/servicepage-SEO-new.jpg",
+      link: "/services/search-engine-optimization",
+    },
+    {
+      id: "web",
+      title: "Website Development",
+      description:
+        "Design and develop user-focused websites that look great, perform well, and convert visitors into customers.",
+      features: ["UI/UX Design", "Responsive Development", "CMS Setup", "Website SEO","Website AMC"],
+      image: "/servicepage-Website Development-new.jpg",
+      link: "/services/website-development",
+    },
+{
+      id: "video",
+      title: "Social Media Video Production",
+      description:
+        "Produce short-form videos, reels, and branded storytelling content that stand out and drive engagement.",
+      features: ["Concept Development", "Scriptwriting", "Production", "Editing & Animation"],
+      image: "/servicepage-Video Production-new.jpg",
+      link: "/services/social-media-video-production",
+    },
+    {
       id: "content",
       title: "Content Writing Services",
       description:
@@ -48,24 +84,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
       image: "/servicepage-Social Media Marketing-new.jpg",
       link: "/services/social-media-marketing",
     },
-    {
-      id: "seo",
-      title: "Search Engine Optimization",
-      description:
-        "Improve your website visibility and rankings with robust SEO strategies built to deliver sustainable growth.",
-      features: ["AI SEO", "Enterprise SEO","eCommerce SEO","Local SEO","B2B SEO"],
-      image: "/servicepage-SEO-new.jpg",
-      link: "/services/search-engine-optimization",
-    },
-    {
-      id: "web",
-      title: "Website Development",
-      description:
-        "Design and develop user-focused websites that look great, perform well, and convert visitors into customers.",
-      features: ["UI/UX Design", "Responsive Development", "CMS Setup", "Website SEO","Website AMC"],
-      image: "/servicepage-Website Development-new.jpg",
-      link: "/services/website-development",
-    },
+    
     {
       id: "branding",
       title: "Branding",
@@ -93,15 +112,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
     //   image: "/Corporate Communication.jpg",
     //   link: "/services/corporate-communication-agency",
     // },
-    {
-      id: "video",
-      title: "Social Media Video Production",
-      description:
-        "Produce short-form videos, reels, and branded storytelling content that stand out and drive engagement.",
-      features: ["Concept Development", "Scriptwriting", "Production", "Editing & Animation"],
-      image: "/servicepage-Video Production-new.jpg",
-      link: "/services/social-media-video-production",
-    },
+    
   ];
 
   const [expanded, setExpanded] = useState<Record<string, boolean>>({});

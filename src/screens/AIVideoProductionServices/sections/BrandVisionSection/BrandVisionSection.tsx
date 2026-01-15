@@ -161,7 +161,7 @@ export const BrandVisionSection = (): JSX.Element => {
             faster, at scale, and without the traditional limitations of shoots.
             AI eliminates location constraints, speeds up production, and unlocks
             multi-language versions in minutes. For brands needing frequent content,
-            fast turnarounds, or global scalability — AI video becomes a competitive edge.
+            fast turnarounds, or global scalability-AI video becomes a competitive edge.
             With Impulse Digital, you get technology + creative direction + storytelling
             in one unified production ecosystem.
           </p>
