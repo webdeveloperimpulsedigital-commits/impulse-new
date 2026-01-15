@@ -42,15 +42,15 @@ const DEFAULT_ITEMS: NavItem[] = [
       // {label: "Intelli Pulse", href: "/services/intelli-pulse"},
       { label: " Agentic AI", href: "/services/agentic-ai"},
      
-      // {
-      //   label: "Video Production",
-      //   href: "/services/video-production",
-      //   hasSubDropdown: true,
-      //   subItems: [
+      {
+        label: "Video Production",
+        href: "/services/video-production",
+        hasSubDropdown: true,
+        subItems: [
           
-      //     {label: "AI Video Production", href: "/services/video-production/ai-video-production"},
-      //   ],
-      // },
+          {label: "AI Video Production", href: "/services/video-production/ai-video-production"},
+        ],
+      },
       {
         label: "Search Engine Optimization",
         href: "/services/search-engine-optimization",
@@ -64,11 +64,11 @@ const DEFAULT_ITEMS: NavItem[] = [
           { label: "Local SEO ", href: "/services/search-engine-optimization/local-seo-services" },
         ],
       },
+      { label: "Website Development", href: "/services/website-development" },
       { label: "Social Media Video Production", href: "/services/social-media-video-production" },
       { label: "Content Writing ", href: "/services/content-writing-services" },
       { label: "Performance Marketing (PPC)", href: "/services/performance-marketing" },
       { label: "Social Media Marketing", href: "/services/social-media-marketing" },
-      { label: "Website Development", href: "/services/website-development" },
       { label: "Branding", href: "/services/branding-creative-services" },
       { label: "Employer Branding", href: "/services/employer-branding-agency" },
       // { label: "Corporate Communication", href: "/services/corporate-communication-agency" },
