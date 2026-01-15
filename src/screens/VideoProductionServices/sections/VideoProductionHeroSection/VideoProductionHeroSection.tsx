@@ -7,28 +7,28 @@ export const VideoProductionHeroSection = (): JSX.Element => {
   return (
     <>
      <Helmet> 
-    <meta name="description" content="We offer superior content writing services in Mumbai, India. We create blog, creative infographic designs, videos, whitepaper creation & design, corporate communication & digital brochures under our content marketing services." />
-<meta name="keywords" content="content writing services in mumbai, content marketing services, content marketing agency in mumbai, best content writing services, content writing services india" />
-<title>Content Writing Services in Mumbai, India | Content Marketing | Impulse Digital</title>
+    <meta name="description" content="Our professional video production services help brands stand out. From idea to execution, we create compelling videos designed to grab attention. Enquire now!" />
+<meta name="keywords" content="professional video production services, video production agency in Mumbai, corporate video production in Mumbai, brand video production, marketing video production in Mumbai" />
+<title>Professional Video Production Services | Creative Agency | Impulse Digital</title>
 
 <meta name="robots" content="index, follow" />
 <meta name="revisit-after" content="1 day" />
 <meta name="language" content="English" />
 <meta name="generator" content="N/A" />
 
-<meta property="og:title" content="Content Writing Services in Mumbai, India | Content Marketing | Impulse Digital" />
-<meta property="og:description" content="We offer superior content writing services in Mumbai, India. We create blog, creative infographic designs, videos, whitepaper creation & design, corporate communication & digital brochures under our content marketing services." />
-<meta property="og:url" content="https://www.theimpulsedigital.com/content-marketing-services" />
+<meta property="og:title" content="Professional Video Production Services | Creative Agency | Impulse Digital" />
+<meta property="og:description" content="Our professional video production services help brands stand out. From idea to execution, we create compelling videos designed to grab attention. Enquire now!" />
+<meta property="og:url" content="https://www.theimpulsedigital.com/services/video-production" />
 <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
 <meta property="og:site_name" content="Impulse Digital" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content= "summary_large_image"  />
 <meta name="twitter:site" content="@impulsedigi" />
 <meta name="twitter:creator" content="@impulsedigi" />
-<meta name="twitter:title" content="Content Writing Services in Mumbai, India | Content Marketing | Impulse Digital" />
-<meta name="twitter:description" content="We offer superior content writing services in Mumbai, India. We create blog, creative infographic designs, videos, whitepaper creation & design, corporate communication & digital brochures under our content marketing services." />
+<meta name="twitter:title" content="Professional Video Production Services | Creative Agency | Impulse Digital" />
+<meta name="twitter:description" content="Our professional video production services help brands stand out. From idea to execution, we create compelling videos designed to grab attention. Enquire now!" />
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-<meta name="twitter:url" content="https://www.theimpulsedigital.com/content-marketing-services" />
+<meta name="twitter:url" content="https://www.theimpulsedigital.com/services/video-production" />
 
     </Helmet>
     <section
