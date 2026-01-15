@@ -165,9 +165,11 @@ export const ContactSection = () => {
                 ref={submitBtnRef}
                 type="submit"
                 disabled={!captchaOk}
-                className="w-[150px] h-[44px] rounded-xl bg-[#543d98] text-white"
-              >
+                className="inline-flex justify-center whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#543d98] disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0 w-[180px] h-[44px] group sm:inline-flex items-center gap-2 px-4 py-6 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border-[#543d98] hover:border hover:border-[#543d98]">
+              
                 Submit
+
+                <img src="https://www.theimpulsedigital.com/button-icon.svg" alt="Arrow" className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert-0 group-hover:invert pointer-events-none"></img>
               </button>
             </form>
           </div>
