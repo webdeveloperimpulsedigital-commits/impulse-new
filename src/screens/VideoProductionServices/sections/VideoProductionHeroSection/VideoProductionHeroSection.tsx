@@ -30,6 +30,7 @@ export const VideoProductionHeroSection = (): JSX.Element => {
 <meta name="twitter:title" content="Professional Video Production Services | Creative Agency | Impulse Digital" />
 <meta name="twitter:description" content="Our professional video production services help brands stand out. From idea to execution, we create compelling videos designed to grab attention. Enquire now!" />
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
+<link rel="canonical" href="https://www.theimpulsedigital.com/services/video-production" />
 <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/video-production" />
 
     </Helmet>

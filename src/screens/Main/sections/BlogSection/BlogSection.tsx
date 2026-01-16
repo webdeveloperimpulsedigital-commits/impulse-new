@@ -43,22 +43,22 @@ export const BlogSection = (): JSX.Element => {
     {
       id: "2",
       author: "Admin",
-      date: "Dec 19, 2025",
-      title: "Voice Search Optimization: The Increasing Importance in Today’s Digital Landscape",
+      date: "Dec 25, 2025",
+      title: "The Rise of Sustainability in Marketing: How Green Marketing is Becoming the New Norm",
       description:
-        "Voice search has swiftly progressed from a novelty feature to a prevalent search method. With the extensive proliferation of smartphones, smart speakers, and AI powered assistants such as Google Assistant, Siri, and Alexa, users are progressively dependent on voice commands to access information, make decisions, and execute routine duties. As this transition accelerates, optimizing for voice search has become an essential element of any progressive digital marketing strategy.",
-      image: "/closeup-shot-of-happy-indian-man-recording-voice-m-2025-03-18-16-24-47-utc-1.jpg",
-      url: "https://www.theimpulsedigital.com/blog/voice-search-optimization-the-increasing-importance-in-todays-digital-landscape/"
+        "Sustainability has become a defining factor in how modern brands are evaluated. Consumers today are more informed, more conscious, and more selective about the businesses they support. Environmental responsibility is no longer viewed as an optional initiative it is increasingly expected as part of a brand’s identity.",
+      image: "/green-marketing-2.jpg",
+      url: "https://www.theimpulsedigital.com/blog/the-rise-of-sustainability-in-marketing-how-green-marketing-is-becoming-the-new-norm/"
     },
     {
       id: "3",
       author: "Admin",
-      date: "Dec 11, 2025",
-      title: "How to Use User Generated Content to Create Real Brand Stories",
+      date: "Dec 19, 2025",
+      title: "Voice Search Optimization: The Increasing Importance in Today’s Digital Landscape",
       description:
-        "As digital ecosystems get busier, people are becoming more picky about which brands they trust. It’s no longer enough to only use traditional advertising to build trust or an emotional connection. Instead, brands are using user generated content (UGC) as a strategic tool to create real, trustworthy brand stories. When done right, UGC makes storytelling stronger by putting real customer experiences at the heart of a brand’s message.",
-      image: "/dec-11.jpg",
-      url: "https://www.theimpulsedigital.com/blog/how-to-use-user-generated-content-to-create-real-brand-stories/"
+        "Voice search has swiftly progressed from a novelty feature to a prevalent search method. With the extensive proliferation of smartphones, smart speakers, and AI powered assistants such as Google Assistant, Siri, and Alexa, users are progressively dependent on voice commands to access information, make decisions, and execute routine duties. As this transition accelerates, optimizing for voice search has become an essential element of any progressive digital marketing strategy.",
+      image: "/voice-search.jpg",
+      url: "https://www.theimpulsedigital.com/blog/voice-search-optimization-the-increasing-importance-in-todays-digital-landscape/"
     },
   ];
 

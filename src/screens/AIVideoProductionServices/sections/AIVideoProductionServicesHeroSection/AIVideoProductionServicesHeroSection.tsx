@@ -29,6 +29,7 @@ export const AIVideoProductionServicesHeroSection = (): JSX.Element => {
 <meta name="twitter:creator" content="@impulsedigi" />
 <meta name="twitter:title" content="AI Video Production Services | Impulse Digital" />
 <meta name="twitter:description" content="Create AI-powered videos faster with avatars, automation, voiceovers and smart editing. Ideal for marketing, training and social platforms. Enquire now!" />
+<link rel="canonical" href="https://www.theimpulsedigital.com/services/video-production/ai-video-production" />
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
 <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/video-production/ai-video-production" />
 
