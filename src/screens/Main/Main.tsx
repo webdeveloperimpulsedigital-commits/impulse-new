@@ -2,7 +2,7 @@ import { ScrollRevealLogoHome } from "../../components/ScrollRevealLogo/ScrollRe
 import { FeaturedItemsSection } from "./sections/FeaturedItemsSection/FeaturedItemsSection";
 import { AboutSection } from "./sections/AboutSection/AboutSection";
 import { ServicesSection } from "./sections/ServicesSection/ServicesSection";
-import { ClientsSection } from "../ContentWritingServices/sections/ClientsSection";
+import { ClientsSection } from "./sections/ClientSection/ClientSection";
 import { ScrollingStripsSection } from "./sections/ScrollingStripsSection/ScrollingStripsSection";
 import { ZoomGridSection } from "./sections/ZoomGridSection/ZoomGridSection";
 import { CaseStudiesGrid } from "./sections/CaseStudiesGrid/CaseStudiesGrid";

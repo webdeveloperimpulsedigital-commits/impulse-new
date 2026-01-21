@@ -269,7 +269,7 @@ export const AboutSection = (): JSX.Element => {
 
       @media (max-width:980px){
         .wrap-abt{padding:3rem 1.5rem 0rem}
-        .wrap-abt1{padding:0rem 1.5rem 6rem}
+        .wrap-abt1{padding:0rem 1.5rem 0rem}
       }
       `}</style>
     </section>
