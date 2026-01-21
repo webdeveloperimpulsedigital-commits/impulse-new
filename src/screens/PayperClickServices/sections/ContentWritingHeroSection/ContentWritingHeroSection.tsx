@@ -57,7 +57,7 @@ export const ContentWritingHeroSection = (): JSX.Element => {
                 preload="metadata"
                 poster="/rectangle-35.png"
               >
-                <source src="/bg-video.mp4" type="video/mp4" />
+                <source src="/performecne-marketing-video.mp4" type="video/mp4" />
               </video>
               {/* Dark overlay */}
               <div

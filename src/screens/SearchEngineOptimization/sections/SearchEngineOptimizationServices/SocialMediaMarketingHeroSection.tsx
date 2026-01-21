@@ -58,7 +58,7 @@ export const SocialMediaMarketingHeroSection = (): JSX.Element => {
                 preload="metadata"
                 poster="/rectangle-35.png"
               >
-                <source src="/seo-Video_Generation_Without_Animation.mp4" type="video/mp4" />
+                <source src="/seo-video.mp4" type="video/mp4" />
               </video>
               {/* Dark overlay */}
               <div
