@@ -265,6 +265,7 @@ export const TestimonialsSection = (): JSX.Element => {
       data-section="testimonials"
     >
       <div className="max-w-[1280px] mx-auto px-4 md:px-8 mb-8 md:mb-12 text-center">
+        <br></br>
         <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
           <span className="text-[#030019]  lg:text-[34px] sm:text-[16px]">
             Testimonial
