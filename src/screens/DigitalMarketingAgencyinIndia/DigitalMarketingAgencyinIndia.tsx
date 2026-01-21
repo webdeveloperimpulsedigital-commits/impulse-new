@@ -1,6 +1,8 @@
 import { ScrollRevealLogoHome } from "../../components/ScrollRevealLogo/ScrollRevealLogoHome";
 import { FeaturedItemsSection } from "./sections/FeaturedItemsSection/FeaturedItemsSection";
 import { AboutSection } from "./sections/AboutSection/AboutSection";
+import { ClientsSection } from "../Main/sections/ClientSection/ClientSection";
+
 import { ServicesSection } from "./sections/ServicesSection/ServicesSection";
 import { ScrollingStripsSection } from "../Main/sections/ScrollingStripsSection/ScrollingStripsSection";
 import { ZoomGridSection } from "./sections/ZoomGridSection/ZoomGridSection";
@@ -19,10 +21,12 @@ export const DigitalMarketingAgencyinIndia = (): JSX.Element => {
       <div className="relative w-full space-y-0">
         <FeaturedItemsSection />
         <AboutSection />
-        <ServicesSection />
-        <ScrollingStripsSection />
         <ZoomGridSection />
         <CaseStudiesGrid />
+        <ClientsSection/>
+        <ServicesSection />
+        <ScrollingStripsSection />
+        
         <TestimonialsSection />
         <BlogSection /> 
         <ContactResourcesSection />

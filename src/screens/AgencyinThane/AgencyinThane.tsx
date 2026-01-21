@@ -2,6 +2,7 @@ import { ScrollRevealLogoHome } from "../../components/ScrollRevealLogo/ScrollRe
 import { FeaturedItemsSection } from "./sections/FeaturedItemsSection/FeaturedItemsSection";
 import { AboutSection } from "./sections/AboutSection/AboutSection";
 import { ServicesSection } from "./sections/ServicesSection/ServicesSection";
+import { ClientsSection } from "../Main/sections/ClientSection/ClientSection";
 import { ScrollingStripsSection } from "../Main/sections/ScrollingStripsSection/ScrollingStripsSection";
 import { ZoomGridSection } from "./sections/ZoomGridSection/ZoomGridSection";
 import { CaseStudiesGrid } from "./sections/CaseStudiesGrid/CaseStudiesGrid";
@@ -19,10 +20,13 @@ export const AgencyinThane = (): JSX.Element => {
       <div className="relative w-full space-y-0">
         <FeaturedItemsSection />
         <AboutSection />
-        <ServicesSection />
-        <ScrollingStripsSection />
-        <ZoomGridSection />
+         <ZoomGridSection />
         <CaseStudiesGrid />
+        <ClientsSection />
+        <ServicesSection />
+        
+        <ScrollingStripsSection />
+       
         <TestimonialsSection />
         <BlogSection />
         <ContactResourcesSection />

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 export const ScrollingStripsSection = (): JSX.Element => {
   const servicesSecond = [
     "Services",
-    "Production",
+    "Production", 
     "Social Media Marketing",
     "Content Strategy",
     "Digital Marketing",
@@ -18,38 +18,42 @@ export const ScrollingStripsSection = (): JSX.Element => {
     "Brand Strategy",
   ];
 
-  const logos = [
-    { name: "abg-chemical", src: "./impulse-clients/abg-chemical.jpg" },
-    { name: "hindalco", src: "./impulse-clients/hindalco.jpg" },
-    { name: "abps", src: "./impulse-clients/abps.jpg" },
-    { name: "birla-celilues", src: "./impulse-clients/birla-celilues.jpg" },
-    { name: "hdfc", src: "./impulse-clients/hdfc.jpg" },
-    { name: "godrej", src: "./impulse-clients/godrej.jpg" },
-    { name: "amazone", src: "./impulse-clients/amazone.jpg" },
-    { name: "ola", src: "./impulse-clients/ola.jpg" },
-    { name: "chings", src: "./impulse-clients/chings.jpg" },
-    { name: "d-mart", src: "./impulse-clients/d-mart.jpg" },
-    { name: "mastercard", src: "./impulse-clients/mastercard.jpg" },
-    { name: "tjsb", src: "./impulse-clients/tjsb.jpg" },
-    { name: "tata-soulful", src: "./impulse-clients/tata-soulful.jpg" },
-    { name: "tata", src: "./impulse-clients/tata.jpg" },
-    { name: "jankalyan", src: "./impulse-clients/jankalyan.jpg" },
-    { name: "croda", src: "./impulse-clients/croda.jpg" },
-    { name: "qure-ai", src: "./impulse-clients/qure-ai.jpg" },
-    { name: "aster", src: "./impulse-clients/aster.jpg" },
-    { name: "automag", src: "./impulse-clients/automag.jpg" },
-    { name: "datar", src: "./impulse-clients/datar.jpg" },
-    { name: "dts", src: "./impulse-clients/dts.jpg" },
-    { name: "emech", src: "./impulse-clients/emech.jpg" },
-    { name: "enpro", src: "./impulse-clients/enpro.jpg" },
-    { name: "goma", src: "./impulse-clients/goma.jpg" },
-    { name: "hem", src: "./impulse-clients/hem.jpg" },
-    { name: "lg", src: "./impulse-clients/lg.jpg" },
-    { name: "more", src: "./impulse-clients/more.jpg" },
-    { name: "navayasa", src: "./impulse-clients/navayasa.jpg" },
-    { name: "shree-rubber", src: "./impulse-clients/shree-rubber.jpg" },
-    { name: "vendiman", src: "./impulse-clients/vendiman.jpg" },
-  ];
+  // const logos = [
+    
+  //   { name: "amazone", src: "/Aditya_Birla_Group_Logo.svg (1).jpg" },
+  //   { name: "amazone", src: "/High Res Logo resize_Artboard 1 copy 40.png" },
+  //   { name: "HUL", src: "/High Res Logo resize_Artboard 1 copy 52.png" },
+  //   { name: "hdfc", src: "https://www.theimpulsedigital.com/hdfc.jpg" },
+  //   { name: "mastercard", src: "https://www.theimpulsedigital.com/mastercard.jpg" },
+  //   { name: "uppercase", src: "/uppercase.png" },
+  //   { name: "Bajaj", src: "/Bajaj group.png" },
+  //   { name: "ola", src: "https://www.theimpulsedigital.com/ola.jpg" },
+  //   { name: "tata", src: "/High Res Logo resize_Artboard 1 copy 45.png" },
+  //   { name: "d-mart", src: "/High Res Logo resize_Artboard 1 copy 34.png" },
+  //    { name: "tata-soulful", src: "/High Res Logo resize_Artboard 1 copy 47.png" },
+  //   { name: "abg-chemical", src: "/High Res Logo resize_Artboard 1 copy 43.png" },
+  //   { name: "hindalco", src: "/High Res Logo resize_Artboard 1 copy 42.png" },
+  //   { name: "abps", src: "/High Res Logo resize_Artboard 1 copy 38.png" },
+  //   { name: "birla-celilues", src: "/High Res Logo resize_Artboard 1 copy 39.png" },
+  //   { name: "godrej", src: "/High Res Logo resize_Artboard 1 copy 58.png" },
+  //   { name: "chings", src: "https://www.theimpulsedigital.com/chings.jpg" },
+  //   { name: "more", src: "https://www.theimpulsedigital.com/more.jpg" },
+  //   { name: "tjsb", src: "/High Res Logo resize_Artboard 1 copy 46.png" },
+  //   { name: "jankalyan", src: "/High Res Logo resize_Artboard 1 copy 56.png" },
+  //   { name: "navayasa", src: "https://www.theimpulsedigital.com/navayasa.jpg" },
+  //   { name: "croda", src: "/High Res Logo resize_Artboard 1 copy 35.png" },
+  //   { name: "qure-ai", src: "https://www.theimpulsedigital.com/qure-ai.jpg" },
+  //   { name: "aster", src: "/High Res Logo resize_Artboard 1 copy 60.png" },
+  //   { name: "automag", src: "/High Res Logo resize_Artboard 1 copy 51.png" },
+  //   { name: "datar", src: "https://www.theimpulsedigital.com/datar.jpg" },
+  //   { name: "dts", src: "/High Res Logo resize_Artboard 1 copy 59.png" },
+  //   { name: "emech", src: "/High Res Logo resize_Artboard 1 copy 33.png" },
+  //   { name: "lg", src: "https://www.theimpulsedigital.com/lg.jpg" },
+  //   { name: "goma", src: "https://www.theimpulsedigital.com/goma.jpg" },
+  //   { name: "hem", src: "/High Res Logo resize_Artboard 1 copy 57.png" },
+  //   // { name: "enpro", src: "/High Res Logo resize_Artboard 1 copy 54.png" },
+  //   { name: "vendiman", src: "https://www.theimpulsedigital.com/vendiman.jpg" },
+  // ];
 
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const [scale, setScale] = useState(1);
@@ -71,12 +75,11 @@ export const ScrollingStripsSection = (): JSX.Element => {
   }, []);
 
   return (
-    <section className="relative w-full bg-white overflow-hidden" data-section="clients">
+    <section className="relative w-full bg-white overflow-hidden">
       {/* Scrolling Strips */}
       <div className="relative h-[100px] md:h-[200px] w-full">
         {/* Black Strip */}
         <div className="absolute lg:top-[100px] md:top-[100px] left-0 w-full h-[80px] md:h-[100px] bg-[#000000] transform skew-y-3 origin-bottom-left overflow-hidden z-[999]">
-          {/* Animated track — no transform classes here */}
           <div className="flex items-center h-full marquee-track-3x-reverse whitespace-nowrap">
             <div className="flex items-center gap-6 md:gap-8 md:px-8">
               {[...Array(3)].map((_, setIndex) => (
@@ -89,7 +92,7 @@ export const ScrollingStripsSection = (): JSX.Element => {
                       <img
                         className="flex-shrink-0 w-[20px] h-[20px] md:w-[30px] md:h-[30px] lg:w-[40px] lg:h-[40px] mx-2 md:mx-4"
                         alt="Vector"
-                        src="vector-6.png"
+                        src="https://www.theimpulsedigital.com/vector-6.png"
                         loading="eager"
                         decoding="async"
                       />
@@ -102,8 +105,8 @@ export const ScrollingStripsSection = (): JSX.Element => {
         </div>
       </div>
 
-      {/* Businesses We Have Transformed Section */}
-      <div className="relative bg-white pt-8 md:pt-16">
+      {/* Heading */}
+      {/* <div className="relative bg-white pt-8 md:pt-16">
         <div className="wrap-clients">
           <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between mb-8 md:mb-16">
             <div className="flex flex-col items-start mb-6 lg:mb-0">
@@ -118,38 +121,63 @@ export const ScrollingStripsSection = (): JSX.Element => {
 
             <Button className="w-[180px] h-[44px] group sm:inline-flex items-center gap-2 px-4 py-6 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border-[#543d98] hover:border hover:border-[#543d98]">
               <Link
-                to="/contact-us"
+                to="https://www.theimpulsedigital.com/contact-us"
                 className="[font-family:'DM_Sans',Helvetica] font-bold text-white text-sm md:text-base group-hover:text-[#543d98] transition-colors duration-300"
               >
                 Connect Now
               </Link>
               <img
-                src="/button-icon.svg"
+                src="https://www.theimpulsedigital.com/button-icon.svg"
                 alt="Arrow"
                 className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert-0 group-hover:invert pointer-events-none"
               />
             </Button>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      {/* Logo Carousel */}
-      <div className="relative overflow-hidden group m-0 p-0">
+      {/* ✅ DESKTOP GRID (lg and above) — bigger logos */}
+      {/* <div className="relative bg-white pb-12 hidden lg:block">
+        <div className="wrap-clients">
+          <div className="grid grid-cols-5 gap-8">
+            {logos.map((logo, index) => (
+              <div
+                key={`grid-${index}`}
+                className="w-full h-[160px] flex items-center justify-center"
+              >
+                <img
+                  className="max-w-[92%] max-h-[92%] object-contain"
+                  alt={logo.name}
+                  src={logo.src}
+                  loading="lazy"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </div> */}
+
+      {/* ✅ MOBILE/TABLET SLIDER (below lg) — with border only here */}
+      {/* <div className="relative overflow-hidden group m-0 p-0 lg:hidden">
         <div className="flex marquee-track-logos group-hover:[animation-play-state:paused]">
           {[...Array(2)].map((_, setIndex) => (
             <div key={`logo-set-${setIndex}`} className="flex items-center flex-shrink-0">
               {logos.map((logo, index) => (
                 <div
                   key={`logo-${setIndex}-${index}`}
-                  className="flex-shrink-0 w-[100px] h-[70px] md:w-[140px] md:h-[90px] lg:w-[180px] lg:h-[120px] bg-white border border-gray-200 flex items-center justify-center client-logo"
+                  className="flex-shrink-0 w-[130px] h-[90px] md:w-[180px] md:h-[120px] lg:w-[220px] lg:h-[140px] bg-white flex items-center justify-center client-logo"
                 >
-                  <img className="max-w-full max-h-full object-contain" alt={logo.name} src={logo.src} />
+                  <img
+                    className="max-w-[92%] max-h-[92%] object-contain"
+                    alt={logo.name}
+                    src={logo.src}
+                  />
                 </div>
               ))}
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
       <style>{`
         .wrap-clients {
@@ -164,12 +192,10 @@ export const ScrollingStripsSection = (): JSX.Element => {
         }
 
         :root{
-          /* Adjust speeds here */
-          --strip-speed: 10s;   /* services strips (3x clones) */
-          --logos-speed: 60s;   /* logos (2x clones) */
+          --strip-speed: 10s;
+          --logos-speed: 60s;
         }
 
-        /* ========== SERVICES STRIPS (3 clones → move 33.3333%) ========== */
         @keyframes marquee3x {
           0%   { transform: translateX(0); }
           100% { transform: translateX(-33.3333%); }
@@ -187,7 +213,6 @@ export const ScrollingStripsSection = (): JSX.Element => {
           white-space: nowrap;
         }
 
-        /* ========== LOGO MARQUEE (2 clones → move 50%) ========== */
         @keyframes marqueeLogos {
           0%   { transform: translateX(0); }
           100% { transform: translateX(-50%); }
@@ -199,11 +224,17 @@ export const ScrollingStripsSection = (): JSX.Element => {
           animation: marqueeLogos var(--logos-speed) linear infinite;
         }
 
-        /* Safety: keep timing strictly linear and avoid transitions creeping in */
         .marquee-track-3x, .marquee-track-3x * ,
         .marquee-track-3x-reverse, .marquee-track-3x-reverse * ,
         .marquee-track-logos, .marquee-track-logos * {
           animation-timing-function: linear !important;
+        }
+
+        /* ✅ border ONLY for mobile/tablet slider cards */
+        .client-logo {
+          padding: 0rem;
+          border: 1px solid #e5e7eb; /* gray-200 */
+          border-radius: 10px;
         }
 
         @media (prefers-reduced-motion: reduce){
