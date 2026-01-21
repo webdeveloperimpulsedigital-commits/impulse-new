@@ -2,6 +2,7 @@ import { ScrollRevealLogoHome } from "../../components/ScrollRevealLogo/ScrollRe
 import { FeaturedItemsSection } from "./sections/FeaturedItemsSection/FeaturedItemsSection";
 import { AboutSection } from "./sections/AboutSection/AboutSection";
 import { ServicesSection } from "./sections/ServicesSection/ServicesSection";
+import { ClientsSection } from "../ContentWritingServices/sections/ClientsSection";
 import { ScrollingStripsSection } from "./sections/ScrollingStripsSection/ScrollingStripsSection";
 import { ZoomGridSection } from "./sections/ZoomGridSection/ZoomGridSection";
 import { CaseStudiesGrid } from "./sections/CaseStudiesGrid/CaseStudiesGrid";
@@ -19,10 +20,11 @@ export const Main = (): JSX.Element => {
       <div className="relative w-full space-y-0">
         <FeaturedItemsSection />
         <AboutSection />
+         <ZoomGridSection />
+        <CaseStudiesGrid />
+        <ClientsSection/> 
         <ServicesSection />
         <ScrollingStripsSection />
-        <ZoomGridSection />
-        <CaseStudiesGrid />
         <TestimonialsSection />
         <BlogSection />
         <ContactResourcesSection />

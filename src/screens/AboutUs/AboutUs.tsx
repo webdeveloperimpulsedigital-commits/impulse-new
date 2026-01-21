@@ -5,9 +5,10 @@ import { AgencyIntroSection } from "./sections/AgencyIntroSection/AgencyIntroSec
 // import { StatisticsSection } from "./sections/StatisticsSection/StatisticsSection";
 // import { BeyondDigitalMarketingSection } from "./sections/BeyondDigitalMarketingSection/BeyondDigitalMarketingSection";
 // import { BlogSection } from "../Main/sections/BlogSection/BlogSection";
-// import { ContactSection } from "./sections/ContactSection/ContactSection";
+import { ContactSection } from "./sections/ContactSection/ContactSection";
 // import { FAQSection } from "./sections/FAQSection/FAQSection";
 // import { TeamSection } from "./sections/TeamSection/TeamSection";
+
 import { FooterSection } from "../Main/sections/FooterSection/FooterSection";
 
 export const AboutUs = (): JSX.Element => {
@@ -21,7 +22,7 @@ export const AboutUs = (): JSX.Element => {
         {/* <StatisticsSection />
         <BeyondDigitalMarketingSection />
         <BlogSection />
-        <ContactSection />
+        // <ContactSection />
         <FAQSection /> */}
         {/* <TeamSection /> */}
         <FooterSection />

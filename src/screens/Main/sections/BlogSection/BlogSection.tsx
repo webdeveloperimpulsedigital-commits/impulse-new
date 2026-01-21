@@ -30,8 +30,18 @@ export const BlogSection = (): JSX.Element => {
   }, []);
 
   const blogPosts: BlogPost[] = [
-    {
+     {
       id: "1",
+      author: "Admin",
+      date: "Jan 16, 2026",
+      title: "Why Every Business Needs a Website Audit Before Running Ads",
+      description:
+        "In today’s digital-first world, paid advertising has become one of the fastest ways for businesses to generate traffic, leads, and sales. Platforms like Google Ads and social media advertising offer powerful targeting options that can put your brand in front of the right audience instantly. However, many businesses make a costly mistake they start running ads without first auditing their website.",
+      image: "/Why-Every-Business-Needs-a-Website-Audit-Before-Running-Ads.jpg",
+      url: "https://www.theimpulsedigital.com/blog/why-every-business-needs-a-website-audit-before-running-ads/"
+    },
+    {
+      id: "2",
       author: "Admin",
       date: "Jan 6, 2026",
       title: "Why Every Business Needs an AI Chatbot for Customer Service Today",
@@ -41,7 +51,7 @@ export const BlogSection = (): JSX.Element => {
       url: "https://www.theimpulsedigital.com/blog/why-every-business-needs-an-ai-chatbot-for-customer-service-today/"
     },
     {
-      id: "2",
+      id: "3",
       author: "Admin",
       date: "Dec 25, 2025",
       title: "The Rise of Sustainability in Marketing: How Green Marketing is Becoming the New Norm",
@@ -50,16 +60,7 @@ export const BlogSection = (): JSX.Element => {
       image: "/green-marketing-2.jpg",
       url: "https://www.theimpulsedigital.com/blog/the-rise-of-sustainability-in-marketing-how-green-marketing-is-becoming-the-new-norm/"
     },
-    {
-      id: "3",
-      author: "Admin",
-      date: "Dec 19, 2025",
-      title: "Voice Search Optimization: The Increasing Importance in Today’s Digital Landscape",
-      description:
-        "Voice search has swiftly progressed from a novelty feature to a prevalent search method. With the extensive proliferation of smartphones, smart speakers, and AI powered assistants such as Google Assistant, Siri, and Alexa, users are progressively dependent on voice commands to access information, make decisions, and execute routine duties. As this transition accelerates, optimizing for voice search has become an essential element of any progressive digital marketing strategy.",
-      image: "/voice-search.jpg",
-      url: "https://www.theimpulsedigital.com/blog/voice-search-optimization-the-increasing-importance-in-todays-digital-landscape/"
-    },
+   
   ];
 
   const BlogCard = ({ post }: { post: BlogPost }) => (

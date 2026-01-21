@@ -340,7 +340,7 @@ const ServicesSection = () => {
       <section
         className="relative w-full bg-[#020018]"
         id="sec-border"
-        data-section="services"
+        data-section="services" 
       >
         <div className="wrap">
           {/* Fixed/Sticky Header */}

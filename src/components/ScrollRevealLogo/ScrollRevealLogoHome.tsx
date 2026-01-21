@@ -101,7 +101,7 @@ export const ScrollRevealLogoHome: React.FC<ScrollRevealLogoProps> = ({
             });
           } else if (sectionName === 'clients') {
             const size = isMobile ? '50px' : isTablet ? '70px' : '80px';
-             const top = sectionTop + (isMobile ? 130 : isTablet ? 260 : 280);
+             const top = sectionTop + (isMobile ? 130 : isTablet ? 260 : 80);
             //const top = sectionTop + sectionHeight / 2.5;
             //const left = '70%';
             const left = isMobile ? 300 : isTablet ? 650 : Math.max(10, Math.floor(vw * 0.56));
