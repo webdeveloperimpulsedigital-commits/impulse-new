@@ -110,7 +110,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
                 <br />
                Digital Marketing
                <br />
-                Agency in Thane
+                 Agency in Thane
               </h1>
 
               {/* Description */}
