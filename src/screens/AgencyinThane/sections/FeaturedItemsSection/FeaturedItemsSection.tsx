@@ -108,7 +108,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
               <h1 className="font-dm-sans font-black text-white text-[32px] sm:text-[48px] md:text-[64px] lg:text-[100px] xl:text-[100px] lg:leading-[100px] xl:leading-[120px] tracking-tight mb-8 sm:mb-12">
                Result-Driven 
                 <br />
-               Digital Marketing
+                Digital Marketing
                <br />
                  Agency in Thane
               </h1>
