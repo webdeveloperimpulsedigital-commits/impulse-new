@@ -31,7 +31,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
 <link rel="canonical" href="https://www.theimpulsedigital.com/digital-marketing-agency-in-thane"/>
  
     </Helmet>
-Bot Verification
+
  
 
       <section
