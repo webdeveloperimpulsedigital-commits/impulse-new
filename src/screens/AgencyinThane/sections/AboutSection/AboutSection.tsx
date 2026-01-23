@@ -146,11 +146,11 @@ export const AboutSection = (): JSX.Element => {
       <div className="wrap-abt">
         <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
           <span className="text-[#030019] lg:text-[34px] sm:text-[16px]">
-            Digital Marketing Agency{" "}
+            Digital Marketing Agency <br></br>in Thane{" "}
           </span>
           <br />
           <span className="font-bold text-[#543d98] lg:text-[49px] xl:text-[52px] md:text-[52px] sm:text-[26px]">
-           in Thane Helping Brands Go from Seen to Remembered
+           Helping Brands Go from Seen <br></br>to Remembered
           </span>
         </h2>
       </div>

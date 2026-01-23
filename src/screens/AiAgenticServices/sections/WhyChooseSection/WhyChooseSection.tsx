@@ -10,13 +10,16 @@ export const WhyChooseSection = (): JSX.Element => {
       <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
         {/* Header */}
         <div className="mb-6 lg:mb-8 pt-0">
-          <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px] ">
-            Agents Built Around
-          </h2>
-          <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-            Your Reality
-          </h2>
-        </div>
+  <h2 className="[font-family:'DM_Sans',Helvetica] leading-tight">
+    <span className="block text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
+      Agents Built Around&nbsp;
+    </span>
+    <span className="block text-[#543d98] font-bold lg:text-[52px] sm:text-[26px]">
+      Your Reality
+    </span>
+  </h2>
+</div>
+
 
         {/* ===== MOBILE-ONLY ===== */}
         <div className="block lg:hidden space-y-10">
@@ -32,13 +35,11 @@ export const WhyChooseSection = (): JSX.Element => {
             </div>
 
             <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-2">
-              Tailored AI solutions built for your business goals
+              Tailored Agentic AI Services Built for Your Business Goals
             </h3>
 
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              We Don’t Just Build AI Agents. We engineer intelligent systems that work like real team members.
-              At Impulse, our Agentic AI solutions are custom-built around your business goals, workflows, and data,
-              ensuring every agent understands context, adapts to change, and delivers measurable outcomes.
+             We Don’t Just Build Agentic AI Agents. We engineer intelligent systems that work like real team members. At Impulse Digital, our agentic AI service are custom-built around your business goals, workflows, and data, ensuring every agent understands context, adapts to change, and delivers measurable outcomes.
             </p>
           </div>
 
@@ -54,12 +55,11 @@ export const WhyChooseSection = (): JSX.Element => {
             </div>
 
             <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-2">
-              Data-driven intelligence that learns and adapts
+              Agentic AI Powered by Data That Learns and Adapts
             </h3>
 
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              Built for Real Business Use. Our Agentic AI systems are designed to solve real operational challenges
-              - not run demos. Every agent is trained on your workflows, data, and goals to deliver outcomes that matter.
+              Built for real business use, our agentic ai agency designs sgentic ai systems to solve real operational challenges, not run demos. Every agent is trained on your workflows, data, and goals to deliver outcomes that truly matter.
             </p>
           </div>
 
@@ -75,12 +75,11 @@ export const WhyChooseSection = (): JSX.Element => {
             </div>
 
             <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-2">
-              Seamless integration across your existing digital stack
+              Agentic AI Agency Enabling Seamless Integration Across Your Digital Stack
             </h3>
 
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              End-to-End Execution. From research and strategy to deployment and optimization, we manage the complete
-              Agentic AI lifecycle - so you focus on growth while your AI works in the background.
+              End-to-End Execution. From research and strategy to deployment and optimization, our Agentic AI Agency manages the complete agentic ai lifecycle so you can focus on growth while your AI works in the background.
             </p>
           </div>
         </div>
@@ -104,12 +103,11 @@ export const WhyChooseSection = (): JSX.Element => {
 
               {/* Content 1 */}
               <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-2xl mb-2 pt-16">
-                Data-driven intelligence that learns and adapts
+                Agentic AI Powered by Data That Learns and Adapts
               </h3>
 
               <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed mb-0">
-                Built for Real Business Use. Our Agentic AI systems are designed to solve real operational challenges
-                - not run demos. Every agent is trained on your workflows, data, and goals to deliver outcomes that matter.
+                Built for real business use, our agentic ai agency designs sgentic ai systems to solve real operational challenges, not run demos. Every agent is trained on your workflows, data, and goals to deliver outcomes that truly matter.
               </p>
             </div>
 
@@ -151,12 +149,11 @@ export const WhyChooseSection = (): JSX.Element => {
 
             <div className="mt-6 max-w-12xl">
               <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-2xl mb-2">
-                Seamless integration across your existing digital stack
+                Agentic AI Agency Enabling Seamless Integration Across Your Digital Stack
               </h3>
 
               <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-                End-to-End Execution. From research and strategy to deployment and optimization, we manage the complete
-                Agentic AI lifecycle - so you focus on growth while your AI works in the background.
+                End-to-End Execution. From research and strategy to deployment and optimization, our Agentic AI Agency manages the complete agentic ai lifecycle so you can focus on growth while your AI works in the background.
               </p>
             </div>
           </div>

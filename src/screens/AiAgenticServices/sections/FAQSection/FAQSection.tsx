@@ -7,11 +7,11 @@ type QA = { q: string; a: string };
 const DEFAULT_QA: QA[] = [
   {
     q: "What is agentic AI and how is it different from traditional automation?",
-    a: "Agentic AI uses intelligent agents that can analyze data, make contextual decisions, and execute tasks in real time. Unlike rule-based automation, agents learn from outcomes, adapt to new inputs, and coordinate actions across multiple channels."
+    a: "Our agentic ai agency builds intelligent agents that analyze data, make contextual decisions, and execute tasks in real time. Unlike traditional automation, these agents learn from outcomes, adapt to new inputs, and seamlessly coordinate actions across multiple channels."
   },
   {
     q: "Which use cases do your AI agents support today?",
-    a: "Our agents support lead qualification, customer support, appointment booking, pricing and offer responses, reactivation journeys, win-back flows, campaign reporting, and creative testing. Supported channels include WhatsApp, email, voice notes, Facebook Messenger, Instagram DM, and SMS."
+    a: "Our agentic ai service helps businesses with lead qualification, customer support, appointment booking, pricing and offer responses, reactivation journeys, win-back flows, campaign reporting, and creative testing. Supported channels include WhatsApp, email, voice notes, Facebook Messenger, Instagram DM, and SMS."
   },
   {
     q: "How do agents integrate with our tools and data sources?",

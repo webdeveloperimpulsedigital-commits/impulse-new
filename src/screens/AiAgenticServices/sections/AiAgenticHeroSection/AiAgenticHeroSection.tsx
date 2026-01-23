@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import Header from "../../../../components/layout/Header";
 
 export const AiAgenticHeroSection = (): JSX.Element => {
-  const heroTextLines = ["AGENTIC AI"];
+  const heroTextLines = ["AGENTIC AI AGENCY"];
 
   return (
     <>

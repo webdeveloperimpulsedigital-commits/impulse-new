@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 export const BrandVisionSection = (): JSX.Element => {
   const overlayText =
-    "Empowering brands with intelligent automation, we build Agentic AI systems that think, act, and deliver real business impact.";
+    "Empowering brands with intelligent automation, we are an Agentic AI Agency that builds AI systems that think, act, and deliver real business impact.";
 
   // ================== COUNTERS ==================
   const [counters, setCounters] = useState({
@@ -96,15 +96,17 @@ export const BrandVisionSection = (): JSX.Element => {
     >
       <div className="max-w-[1280px] mx-auto px-2 lg:px-5 sm:py-10">
         {/* Title */}
-        <div className="mb-6 lg:mb-8 pt-10">
-          <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px] ">
-            Meet The AI 
+       <div className="mb-6 lg:mb-8 pt-10">
+  <h2 className="[font-family:'DM_Sans',Helvetica] leading-tight">
+    <span className="block text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
+     Meet the Agentic&nbsp;
+    </span>
+    <span className="block text-[#543d98] font-bold lg:text-[52px] sm:text-[26px]">
+       AI Agency That Acts Without Waiting for Instructions
+    </span>
+  </h2>
+</div>
 
-          </h2>
-          <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-            That Doesn’t Wait For Instructions
-          </h2>
-        </div>
 
         {/* Image + Overlay + Counters */}
         <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-12 items-start mb-6">
@@ -181,7 +183,10 @@ export const BrandVisionSection = (): JSX.Element => {
         {/* Body Copy */}
         <div className="text-left mb-12">
           <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[12px] lg:text-[24px] text-[#030019]">
-          Our Agentic AI offering equips your brand with intelligent digital agents that don’t just chat - they act. These agents are powered by a central intelligence engine connected to your CRM, APIs, data systems, and communication channels, giving them full context about leads, past interactions, funnel stages and campaign history. As a result, they can engage prospects across channels (WhatsApp, email, voice, social, SMS), respond intelligently in multiple languages, recall past conversations, handle objections, and even book appointments - all while preserving your brand’s tone and compliance requirements. Our Agentic AI becomes an always-on digital teammate that automates follow-ups, revives cold leads, nurtures prospects, and ensures no opportunity slips through the cracks - elevating productivity, improving conversions, and freeing your human team to focus on strategy and growth.
+         Our Agentic AI offering equips your brand with intelligent digital agents that don’t just chat, they act. As an experienced agentic ai agency, we deliver advanced agentic ai services powered by a central intelligence engine connected to your CRM, APIs, data systems, and communication channels. This gives your agents full context about leads, past interactions, funnel stages, and campaign history.
+          </p><br></br>
+           <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[12px] lg:text-[24px] text-[#030019]">
+         As a result, these Agentic AI systems engage prospects across channels such as WhatsApp, email, voice, social media, and SMS; respond intelligently in multiple languages; recall past conversations; handle objections; and even book appointments-all while preserving your brand’s tone and compliance requirements. Our Agentic AI acts as an always-on digital teammate, automating follow-ups, reviving cold leads, nurturing prospects, and ensuring no opportunity slips through the cracks. Backed by a results-driven agentic AI agency, our agentic AI services elevate productivity, improve conversions, and free your human team to focus on strategy and scalable growth.
           </p>
         </div>
       </div>
