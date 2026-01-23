@@ -8,12 +8,9 @@ export const FeaturedItemsSection = (): JSX.Element => {
       <meta name="description" content="Impulse Digital is a leading digital marketing agency in Thane serving large and small businesses with their customer and sales-driven marketing solutions. Our expert team of digital marketers are well-equipped with market insights that help them design digital marketing strategies and solutions that help you stand out of the competition." />
 <meta name="keywords" content="digital marketing agency in thane, digital marketing company, impulse digital" />
 <title>Digital Marketing Agency in Thane | SEO Company | Impulse Digital</title>
- 
- 
 <meta name="revisit-after" content="1 day" />
 <meta name="language" content="English" />
 <meta name="generator" content="Impulse Digital" />
- 
 <meta property="og:title" content="Digital Marketing Agency in Thane | SEO Company | Impulse Digital" />
 <meta property="og:description" content="Impulse Digital is a leading digital marketing agency in Thane serving large and small businesses with their customer and sales-driven marketing solutions. Our expert team of digital marketers are well-equipped with market insights that help them design digital marketing strategies and solutions that help you stand out of the competition." />
 <meta property="og:url" content="https://www.theimpulsedigital.com/digital-marketing-agency-in-thane" />
