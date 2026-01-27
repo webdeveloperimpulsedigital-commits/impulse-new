@@ -88,6 +88,8 @@ export const FooterSection: React.FC = () => {
               <li><Link to="/">Home</Link></li> 
               {/* <li><Link to="/about-us">About Us</Link></li> */}
               <li><Link to="/services">Services</Link></li>
+              <li><Link to="/casestudies">Case Studies</Link></li>
+              <li><Link to="/careers">Careers</Link></li>
             </ul>
 
             <ul className="footer__col">
@@ -99,6 +101,33 @@ export const FooterSection: React.FC = () => {
     rel="noopener noreferrer"
   >
     Blog
+  </a>
+</li>
+ <li>
+  <a
+    href="https://www.theimpulsedigital.com/resources/ebooks"
+    target=""
+    rel="noopener noreferrer"
+  >
+  EBooks
+  </a>
+</li>
+<li>
+  <a
+    href="https://www.theimpulsedigital.com/resources/videos"
+    target=""
+    rel="noopener noreferrer"
+  >
+  Videos
+  </a>
+</li>
+<li>
+  <a
+    href="https://www.theimpulsedigital.com/resources/slideshare-ppt"
+    target=""
+    rel="noopener noreferrer"
+  >
+  Slideshare ppt
   </a>
 </li>
 
