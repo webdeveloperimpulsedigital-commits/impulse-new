@@ -40,7 +40,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
    
     <section
       className="relative w-full h-screen min-h-[600px] mb-0 h-[600px] sm:h-[700px] md:h-[800px] lg:h-[820px] rounded-t-[55px] overflow-hidden"
-      data-section="hero"
+      data-section="india-hero"
     >
       <header>
         {/* Common header (overlay) */}

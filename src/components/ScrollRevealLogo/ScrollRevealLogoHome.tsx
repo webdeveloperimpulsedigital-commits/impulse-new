@@ -65,7 +65,28 @@ export const ScrollRevealLogoHome: React.FC<ScrollRevealLogoProps> = ({
               zIndex: 999,
               transition: 'all 1.2s cubic-bezier(0.22, 1, 0.36, 1)',
             });
-          } else if (sectionName === 'about') {
+          } 
+         else if (sectionName === 'india-hero') {
+            setIsVisible(true);
+            const size = isMobile ? '60px' : isTablet ? '80px' : '300px';
+            const top = sectionTop + (isMobile ? 120 : isTablet ? 200 : 250);
+            // desktop: keep min 80px from edge or ~10vw, whichever is larger
+            const right = isMobile ? 40 : isTablet ? 40 : Math.max(80, Math.floor(vw * 0.10));
+            
+            setLogoStyle({
+              position: 'absolute',
+              top: `${top}px`,
+              right: `${right}px`,
+              left: 'auto',
+              transform: 'none',
+              filter: 'brightness(1) ', // White
+              width: size,
+              height: size,
+              zIndex: 999,
+              transition: 'all 1.2s cubic-bezier(0.22, 1, 0.36, 1)',
+            });
+          }
+          else if (sectionName === 'about') {
             const size = isMobile ? '50px' : isTablet ? '60px' : '80px';
             const top = sectionTop + (isMobile ? 30 : isTablet ? 100 : 120);
             const right = isMobile ? 20 : isTablet ? 40 : Math.max(80, Math.floor(vw * 0.08));
