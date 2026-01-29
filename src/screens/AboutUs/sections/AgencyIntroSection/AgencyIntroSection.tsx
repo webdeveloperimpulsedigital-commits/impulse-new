@@ -121,7 +121,7 @@ export const AgencyIntroSection = () => {
           </div>
 
           <img
-            src="/team-3.jpg"
+            src="/team-new-impulse.jpg"
             className="rounded-3xl shadow-xl"
             alt=""
           />

@@ -30,8 +30,18 @@ export const BlogSection = (): JSX.Element => {
   }, []);
 
   const blogPosts: BlogPost[] = [
-     {
+    {
       id: "1",
+      author: "Admin",
+      date: "Jan 29, 2026",
+      title: "What Is Agentic AI, and How Is It Different from Traditional AI?",
+      description:
+        "Artificial intelligence has evolved rapidly over the past decade, moving from rule-based automation to advanced systems that can understand language, generate content, and analyze complex data. Most people are familiar with traditional AI tools that respond to prompts, follow instructions, or automate specific tasks. But a new paradigm is emerging – Agentic AI.",
+      image: "/Agentic-Ai.jpg",
+      url: "https://www.theimpulsedigital.com/blog/what-is-agentic-ai-and-how-is-it-different-from-traditional-ai/"
+    },
+     {
+      id: "2",
       author: "Admin",
       date: "Jan 16, 2026",
       title: "Why Every Business Needs a Website Audit Before Running Ads",
@@ -41,7 +51,7 @@ export const BlogSection = (): JSX.Element => {
       url: "https://www.theimpulsedigital.com/blog/why-every-business-needs-a-website-audit-before-running-ads/"
     },
     {
-      id: "2",
+      id: "3",
       author: "Admin",
       date: "Jan 6, 2026",
       title: "Why Every Business Needs an AI Chatbot for Customer Service Today",
@@ -50,16 +60,7 @@ export const BlogSection = (): JSX.Element => {
       image: "/impulse-blog-about-ai-chatbot-1.jpg",
       url: "https://www.theimpulsedigital.com/blog/why-every-business-needs-an-ai-chatbot-for-customer-service-today/"
     },
-    {
-      id: "3",
-      author: "Admin",
-      date: "Dec 25, 2025",
-      title: "The Rise of Sustainability in Marketing: How Green Marketing is Becoming the New Norm",
-      description:
-        "Sustainability has become a defining factor in how modern brands are evaluated. Consumers today are more informed, more conscious, and more selective about the businesses they support. Environmental responsibility is no longer viewed as an optional initiative it is increasingly expected as part of a brand’s identity.",
-      image: "/green-marketing-2.jpg",
-      url: "https://www.theimpulsedigital.com/blog/the-rise-of-sustainability-in-marketing-how-green-marketing-is-becoming-the-new-norm/"
-    },
+    
    
   ];
 
