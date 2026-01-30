@@ -35,7 +35,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
 
       <section
         className="relative w-full min-h-[600px] sm:h-[700px] md:h-[800px] lg:h-[820px] rounded-t-[55px] overflow-hidden"
-        data-section="hero"
+        data-section="hero-navi-mumbai"
       >
         <header>
           <Header />
