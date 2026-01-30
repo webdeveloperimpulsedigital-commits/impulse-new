@@ -144,7 +144,7 @@ export const AboutSection = (): JSX.Element => {
       id="sec-border"
     >
       <div className="wrap-abt">
-        <h1 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
+        <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
           <span className="text-[#030019] lg:text-[34px] sm:text-[16px]">
             BEST DIGITAL MARKETING AGENCY{" "}
           </span>
@@ -152,7 +152,7 @@ export const AboutSection = (): JSX.Element => {
           <span className="font-bold text-[#543d98] lg:text-[49px] xl:text-[52px] md:text-[52px] sm:text-[26px]">
            IN NAVI MUMBAI THAT DRIVES  <br></br>EXCELLENCE!
           </span>
-        </h1>
+        </h2>
       </div>
 
       <div className="wrap-abt1 flex flex-col lg:flex-row gap-8 lg:gap-16">
@@ -164,7 +164,7 @@ export const AboutSection = (): JSX.Element => {
             </p>
 
             <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] sm:text-[12px] md:text-[24px] lg:text-[24px]  leading-relaxed text-justify">
-             At Impulse Digital, we unleash your business potential to conquer the most challenging goals. How do we achieve this? Our professionals employ thoroughly-analysed, cutting-edge digital marketing strategies that are tailor-made for your brand! From competent SEO strategies, website development, and innovative social media campaigns to PPC, content marketing, employer branding and more, we fulfil all your marketing endeavours seamlessly within steadfast timelines.
+            At Impulse Digital, we unleash your business potential to conquer the most challenging goals. As a digital marketing agency in Navi Mumbai, we achieve this by employing thoroughly analysed, cutting-edge digital marketing strategies tailored specifically for your brand. From result-driven SEO strategies and high-performance website development to innovative social media campaigns, PPC, content marketing, employer branding, and more, we seamlessly fulfil all your marketing endeavours within steadfast timelines.
             </p>
           </div>
 

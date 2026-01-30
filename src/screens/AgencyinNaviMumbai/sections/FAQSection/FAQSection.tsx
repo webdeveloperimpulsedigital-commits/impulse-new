@@ -7,7 +7,7 @@ type QA = { q: string; a: string };
 const DEFAULT_QA: QA[] = [
   {
     q: "What does Impulse Digital do for brands in Navi Mumbai?",
-    a: "We plan and execute digital marketing that aligns with business goals. Our team blends strategy, creative, media, web, content, and analytics to build visibility, engagement, and conversions."
+    a: "As a trusted digital marketing agency in Navi Mumbai, Impulse Digital plans and executes digital marketing strategies that align closely with business goals. Our team blends strategy, creative, media, web, content, and analytics to build strong visibility, meaningful engagement, and consistent conversions."
   },
   {
     q: "How do you create a strategy that matches our goals and timelines?",
@@ -19,7 +19,7 @@ const DEFAULT_QA: QA[] = [
   },
   {
     q: "Do you work only with brands in Navi Mumbai or across regions as well?",
-    a: "We are based in Navi Mumbai and partner with clients across India and overseas. Collaboration is supported through shared workspaces, regular reviews, and clear points of contact."
+    a: "While we are a digital marketing agency in Navi Mumbai, we partner with clients across India and overseas. Our collaborations are supported through shared workspaces, regular reviews, and clear points of contact to ensure seamless communication and execution across regions."
   },
   {
     q: "How do you measure success and report progress?",
@@ -43,7 +43,7 @@ const DEFAULT_QA: QA[] = [
   },
   {
     q: "How do we get a proposal tailored to our needs?",
-    a: "Share your objectives, timelines, target markets, and any past reports through the contact form. We will set a discovery call and return with a plan that includes scope, milestones, and measurement."
+    a: "As a digital marketing agency in Navi Mumbai, we start by understanding your objectives, timelines, target markets, and any past reports shared through our contact form. We then set up a discovery call and return with a clear plan that outlines scope, milestones, and measurement."
   }
 ];
 

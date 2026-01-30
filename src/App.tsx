@@ -90,12 +90,9 @@ export const App = (): JSX.Element => {
       <Route path="/services/social-media-video-production" element={<SocialMediaVideoProductionServices />}/>
       <Route path="/services/search-engine-optimization/ai-seo-agency" element={<AiSeoAgency />} />
        <Route path="/services/agentic-ai" element={<AiAgenticServices />} /> 
-
       <Route path="/services/intelli-pulse" element={<IntelliPulseServices/>}/>
       <Route path="/services/video-production/ai-video-production" element={<AIVideoProductionServices/>}/>
        <Route path="/services/video-production" element={<VideoProductionServices />}/>
-
-
       <Route path="/casestudies" element={<Casestudies/>}/>
       <Route path="/casestudies/shree-rubber-works" element={<ShreeRubberWorksCaseStudy />} />
       <Route path="/casestudies/automag-india" element={<AutomagIndiaCaseStudy />} />
