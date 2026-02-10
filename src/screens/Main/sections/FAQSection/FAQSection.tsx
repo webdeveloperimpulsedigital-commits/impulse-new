@@ -7,7 +7,7 @@ type QA = { q: string; a: string };
 const DEFAULT_QA: QA[] = [
   {
     q: "What is a digital marketing agency?",
-    a: "A digital marketing agency helps businesses grow online using data-driven strategies such as performance advertising, SEO, social media marketing, content, automation, and analytics. At Impulse Digital, every solution is tailored to your business goals, audience, and budget - not generic packages."
+    a: "A digital marketing agency helps businesses grow online using data-driven strategies such as performance advertising, SEO, social media marketing, content, automation, and analytics. At Impulse Digital, every solution is tailored to your business goals, audience, and budget not generic packages."
   },
   {
     q: "What are the benefits of hiring a digital marketing agency to leverage your business?",
@@ -15,11 +15,21 @@ const DEFAULT_QA: QA[] = [
   },
   {
     q: "What is the role of a result-oriented digital marketing agency in elevating your business?",
-    a: "A result-oriented digital marketing company in Mumbai aligns every channel with clear KPIs. At Impulse Digital, we continuously test, optimize budgets in real time, and focus on outcomes that matter - leads, revenue, efficiency, and long-term growth."
+    a: "A result-oriented digital marketing company in Mumbai aligns every channel with clear KPIs. At Impulse Digital, we continuously test, optimize budgets in real time, and focus on outcomes that matter leads, revenue, efficiency, and long-term growth."
   },
   {
     q: "What are the top services an agency should offer for your business?",
-    a: "A leading digital marketing company in Mumbai should offer Agentic AI, Digital Strategy & Growth Planning, Performance Marketing (Google Ads, Meta, LinkedIn), SEO (Technical, On-page & Content-led), Social Media & Content Marketing, Marketing Automation & CRM Integration, and Analytics, Tracking & Attribution. Impulse Digital delivers all of these under one unified growth framework."
+    a: [
+      "A leading digital marketing company in Mumbai should offer:",
+      "Agentic AI",
+      "Digital Strategy & Growth Planning",
+      "Performance Marketing (Google Ads, Meta, LinkedIn)",
+      "SEO (Technical, On-page & Content-led)",
+      "Social Media & Content Marketing",
+      "Marketing Automation & CRM Integration",
+      "Analytics, Tracking & Attribution",
+      "Impulse Digital delivers all of these under one unified growth framework."
+    ]
   },
   {
     q: "What are the advantages of hiring a leading digital marketing agency?",
@@ -27,11 +37,11 @@ const DEFAULT_QA: QA[] = [
   },
   {
     q: "Can I expect instant results after hiring an agency?",
-    a: "Some channels show quick lifts, such as performance advertising. Others compound over time, like SEO. A balanced strategy ensures both short-term wins and sustainable long-term ROI."
+    a: "Some channels show quick lifts (e.g., performance ads). Others compound over time (e.g., SEO). A balanced mix delivers both short-term and long-term ROI."
   },
   {
     q: "Is it possible to measure the efficacy of your digital marketing agency’s strategies?",
-    a: "Yes. A reliable digital marketing agency in Mumbai sets clear KPIs, implements proper tracking, defines conversion events, and uses attribution models. At Impulse Digital, performance is reviewed regularly and communicated clearly - no vanity metrics."
+    a: "Yes. A reliable digital marketing agency in Mumbai sets clear KPIs, implements proper tracking, defines conversion events, and uses attribution models. At Impulse Digital, performance is reviewed regularly and communicated clearly, no vanity metrics."
   },
   {
     q: "What is the budget to hire a digital marketing agency for your business?",
@@ -39,13 +49,14 @@ const DEFAULT_QA: QA[] = [
   },
   {
     q: "Before signing up with an agency, should I consider geographic factors like location?",
-    a: "No. Digital marketing services are delivered online and are not limited by geography. Businesses can work with top agencies from Mumbai or anywhere in the world. What matters most is domain expertise, industry alignment, experience, and strong online collaboration processes."
+    a: "No, one does not need to consider the agency's location, as digital marketing services are provided online and are certainly not restricted to physical presence or areas. Anyone can easily receive top digital marketing services from Mumbai to anywhere in the world. However, it is essential to consider the following factors: the agency's expertise in your domain, industry alignment, experience, and facilities they provide for online operations to ensure a smooth working process."
   },
   {
     q: "What skills are necessary for an agency before onboarding?",
-    a: "Before onboarding, prioritize domain expertise, transparent communication, strong creative and strategic capabilities, and a proven track record. A dependable agency should demonstrate efficient problem-solving, accountability, and consistency in delivering results."
+    a: "When onboarding and deciding on an agency, it is essential to prioritize domain expertise, transparent communication that helps build trust, creative design and marketing strategy, and keeping a track record of quality work. The team of people coordinating should have qualities of problem-solving with efficiency. This shows that the agency is highly dependable and trustworthy."
   }
 ];
+
 
 
 export const FAQSection: React.FC<{ items?: QA[] }> = ({ items = DEFAULT_QA }) => {
