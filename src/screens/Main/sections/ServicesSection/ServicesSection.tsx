@@ -26,8 +26,15 @@ const ServicesSection = () => {
   const prevBtnRef = useRef(null);
   const nextBtnRef = useRef(null);
 
-  // 👉 added state for dots
+  // dots
   const [slide, setSlide] = useState(0);
+
+  // ✅ mobile read more/less state (per card index)
+  const [expanded, setExpanded] = useState({});
+
+  const toggleRead = (index) => {
+    setExpanded((prev) => ({ ...prev, [index]: !prev[index] }));
+  };
 
   const data = [
     {
@@ -134,7 +141,7 @@ const ServicesSection = () => {
     return () => io.disconnect();
   }, []);
 
-  // Mobile slider: arrows + swipe (same as your HTML) — only added setSlide to keep dots in sync
+  // Mobile slider: arrows + swipe — with dots sync
   useEffect(() => {
     const slider = sliderRef.current;
     const track = trackRef.current;
@@ -151,7 +158,7 @@ const ServicesSection = () => {
       track.style.transform = `translateX(${-idx * slideW()}px)`;
       prevBtn.disabled = idx === 0;
       nextBtn.disabled = idx === max;
-      setSlide(idx); // <-- keep dots in sync
+      setSlide(idx);
     };
 
     const onResize = () => go(idx);
@@ -166,17 +173,20 @@ const ServicesSection = () => {
     let startX = 0,
       curX = 0,
       dragging = false;
+
     const onDown = (e) => {
       dragging = true;
       startX = e.clientX;
       track.style.transition = "none";
     };
+
     const onMove = (e) => {
       if (!dragging) return;
       curX = e.clientX;
       const dx = curX - startX;
       track.style.transform = `translateX(${-idx * slideW() + dx}px)`;
     };
+
     const onUp = () => {
       if (!dragging) return;
       dragging = false;
@@ -204,7 +214,7 @@ const ServicesSection = () => {
     };
   }, [data.length]);
 
-  // 👉 helper for dot click — no layout changes
+  // dots click helper
   const goTo = (i) => {
     const slider = sliderRef.current;
     const track = trackRef.current;
@@ -219,128 +229,133 @@ const ServicesSection = () => {
 
   return (
     <>
-      {/* same CSS */}
       <style>{`
-  
-  *{box-sizing:border-box;margin:0;padding:0}
-  img{display:block;max-width:100%;height:auto;}
+        *{box-sizing:border-box;margin:0;padding:0}
+        img{display:block;max-width:100%;height:auto;}
 
-  .wrap{max-width:100%;margin:auto;position:relative;background:var(--bg);padding:4rem 6rem}
+        .wrap{max-width:100%;margin:auto;position:relative;background:var(--bg);padding:4rem 6rem}
 
-  .eyebrow{font-size:20px;letter-spacing:.02em;color:#b7b9c9;margin-bottom:4px;opacity:.85}
-  .h1{font-size:56px;font-weight:800;line-height:1.05;margin-bottom:36px}
+        .eyebrow{font-size:20px;letter-spacing:.02em;color:#b7b9c9;margin-bottom:4px;opacity:.85}
+        .h1{font-size:56px;font-weight:800;line-height:1.05;margin-bottom:36px}
 
-  /* ---------- DESKTOP (unchanged sticky effect) ---------- */
-  .stack{display:grid;grid-template-columns:1fr auto;gap:18px}
-  .section{min-height:100vh;display:flex;align-items:center;justify-content:center}
-  .card{
-    min-height:600px; position:sticky; top:64px;
-    display:flex; align-items:flex-start; justify-content:space-between; gap:42px;
-    width:100%; background:#020018;
-    border-radius:var(--radius); padding:180px 10px 0px; box-shadow:var(--shadow);
-    transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease;
-  }
-  .card.is-active{transform:scale(1.01);border:none;}
-  .num{flex:0 0 72px;font-weight:700;font-size:42px;letter-spacing:.02em;line-height:1;color:#fff;margin-top:6px}
-  .copy{flex:1 1 auto;width:300px;padding-right:10px}
-  .copy h3{font-size:40px;font-weight:700;letter-spacing:.01em;margin-bottom:18px}
-  .copy ul{list-style:none;display:grid;gap:16px}
-  .copy li{font-size:18px;color:#e9eaf5;padding-left:0px;position:relative}
-  .copy li::before{content:none;position:absolute;left:0;top:.68em;width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.8)}
-  .visual{flex:0 0 420px;display:flex;justify-content:flex-end}
-  .shot{width:420px;height:340px;overflow:hidden;border-radius:32px;position:relative;background:linear-gradient(180deg,rgba(255,255,255,.04),transparent)}
-  .shot img{width:100%;height:100%;object-fit:cover;border-radius:32px}
+        /* ---------- DESKTOP (unchanged sticky effect) ---------- */
+        .stack{display:grid;grid-template-columns:1fr auto;gap:18px}
+        .section{min-height:100vh;display:flex;align-items:center;justify-content:center}
+        .card{
+          min-height:600px; position:sticky; top:64px;
+          display:flex; align-items:flex-start; justify-content:space-between; gap:42px;
+          width:100%; background:#020018;
+          border-radius:var(--radius); padding:180px 10px 0px; box-shadow:var(--shadow);
+          transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+        }
+        .card.is-active{transform:scale(1.01);border:none;}
+        .num{flex:0 0 72px;font-weight:700;font-size:42px;letter-spacing:.02em;line-height:1;color:#fff;margin-top:6px}
+        .copy{flex:1 1 auto;width:300px;padding-right:10px}
+        .copy h3{font-size:40px;font-weight:700;letter-spacing:.01em;margin-bottom:18px}
+        .copy ul{list-style:none;display:grid;gap:16px}
+        .copy li{font-size:18px;color:#e9eaf5;padding-left:0px;position:relative}
+        .copy li::before{content:none;position:absolute;left:0;top:.68em;width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.8)}
+        .visual{flex:0 0 420px;display:flex;justify-content:flex-end}
+        .shot{width:420px;height:340px;overflow:hidden;border-radius:32px;position:relative;background:linear-gradient(180deg,rgba(255,255,255,.04),transparent)}
+        .shot img{width:100%;height:100%;object-fit:cover;border-radius:32px}
 
-  /* Make the title area sticky */
-.wrap > .top-0{
-  position: sticky;
-  top: 0;                 /* adjust if you have a fixed site header */
-  z-index: 99;
-  background: #020018;  /* solid backdrop while stuck */
-}
+        /* Make the title area sticky */
+        .wrap > .top-0{
+          position: sticky;
+          top: 0;
+          z-index: 99;
+          background: #020018;
+        }
 
-/* Draw a thin HR right under the title block */
-.wrap > .top-0::after{
-  content: "";
-  display: block;
-  height: 1px;
-  width: 100%;
-  margin-top: 40px;
-  background: rgba(255,255,255,0.15);
-}
+        /* Draw a thin HR right under the title block */
+        .wrap > .top-0::after{
+          content: "";
+          display: block;
+          height: 1px;
+          width: 100%;
+          margin-top: 40px;
+          background: rgba(255,255,255,0.15);
+        }
 
-/* Ensure the eyebrow line ("Every goal needs a roadmap") is visible */
-.wrap > .top-0 span:first-child{
-  display: block;
-  color: rgba(255,255,255,0.72) !important;
-  margin-bottom: 4px;
-}
+        /* Ensure the eyebrow line is visible */
+        .wrap > .top-0 span:first-child{
+          display: block;
+          color: rgba(255,255,255,0.72) !important;
+          margin-bottom: 4px;
+        }
 
-  /* ---------- MOBILE SLIDER (only on <= 980px) ---------- */
- 
-  .mobile-slider{display:none}
+        /* ---------- MOBILE SLIDER ---------- */
+        .mobile-slider{display:none}
 
-  @media (max-width:980px){
-  .py-8{
-  padding-top:3rem;}
-    .wrap{padding:2.8rem 1.25rem}
-    .stack{display:none}                 /* hide desktop stack */
-    .mobile-slider{display:block;position:relative;overflow:hidden}
-    .track{display:flex;will-change:transform;transition:transform .35s ease}
-    .mcard{
-      flex:0 0 100%;
-      background:var(--card);
-      border-radius:var(--radius);
-      padding: 45px 0px 20px 10px;
-      min-height: calc(85vh - 190px);   /* room for header + nav buttons */
-      display:flex;flex-direction:column;gap:18px;
-      box-shadow:var(--shadow);
-    }
-    .m-num{font-size:16px;font-weight:400; line-height: 0px;}
-    .m-title{font-size:20px;font-weight:700}
-    .m-list{list-style:none;display:grid;gap:12px}
-    .m-list li{font-size:16px;color:#e9eaf5;padding-left:0px;position:relative}
-    .m-list li::before{content:none;position:absolute;left:0;top:.58em;width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.8)}
-    .m-shot{width:100%;border-radius:20px;overflow:hidden}
-    .m-shot img{width:100%;height:auto;border-radius:20px}
+        @media (max-width:980px){
+          .py-8{padding-top:3rem;}
+          .wrap{padding:2.8rem 1.25rem}
+          .stack{display:none}
+          .mobile-slider{display:block;position:relative;overflow:hidden}
+          .track{display:flex;will-change:transform;transition:transform .35s ease}
+          .mcard{
+            flex:0 0 100%;
+            background:var(--card);
+            border-radius:var(--radius);
+            padding: 45px 0px 20px 10px;
+            min-height: calc(85vh - 190px);
+            display:flex;flex-direction:column;gap:18px;
+            box-shadow:var(--shadow);
+          }
+          .m-num{font-size:16px;font-weight:400; line-height: 0px;}
+          .m-title{font-size:20px;font-weight:700}
+          .m-list{list-style:none;display:grid;gap:12px}
+          .m-list li{font-size:16px;color:#e9eaf5;padding-left:0px;position:relative}
+          .m-list li::before{content:none;position:absolute;left:0;top:.58em;width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.8)}
+          .m-shot{width:100%;border-radius:20px;overflow:hidden}
+          .m-shot img{width:100%;height:auto;border-radius:20px}
 
-    /* Bottom-center nav */
-    .mnav{
-      position:relative;left:0;right:0;bottom:20px;
-      display:flex;justify-content:center;gap:12px;pointer-events:none;
-    }
-    .navbtn{
-      pointer-events:auto;
-      width:50px;height:50px;border-radius:999px;border:1px solid rgba(255,255,255,.25);
-      background:#ffffff;
-      display:grid;place-items:center;backdrop-filter:blur(4px);
-    }
-    .navbtn svg{width:50px;height:50px}
-    .navbtn.next{background:var(--accent);border-color:var(--accent)}
-    .navbtn[disabled]{opacity:1}
+          /* ✅ clamp to 2 lines (mobile only) */
+          .line-clamp-2{
+            display:-webkit-box;
+            -webkit-line-clamp:2;
+            -webkit-box-orient:vertical;
+            overflow:hidden;
+          }
+          .line-clamp-none{
+            display:block;
+            overflow:visible;
+          }
 
-     /* Make the title area sticky */
-.wrap > .top-0{
-  position: relative;
-  top: 0;                 /* adjust if you have a fixed site header */
-  z-index: 99;
-  background: var(--bg);  /* solid backdrop while stuck */
-}
-  }
+          .mnav{
+            position:relative;left:0;right:0;bottom:20px;
+            display:flex;justify-content:center;gap:12px;pointer-events:none;
+          }
+          .navbtn{
+            pointer-events:auto;
+            width:50px;height:50px;border-radius:999px;border:1px solid rgba(255,255,255,.25);
+            background:#ffffff;
+            display:grid;place-items:center;backdrop-filter:blur(4px);
+          }
+          .navbtn svg{width:50px;height:50px}
+          .navbtn.next{background:var(--accent);border-color:var(--accent)}
+          .navbtn[disabled]{opacity:1}
 
-  /* extra responsive tweaks */
-  @media (max-width:1100px){
-    .visual{flex:0 0 440px}
-    .shot{width:440px;height:290px}
-    .copy h3{font-size:34px}
-  }
+          .wrap > .top-0{
+            position: relative;
+            top: 0;
+            z-index: 99;
+            background: var(--bg);
+          }
+        }
 
-  
+        /* extra responsive tweaks */
+        @media (max-width:1100px){
+          .visual{flex:0 0 440px}
+          .shot{width:440px;height:290px}
+          .copy h3{font-size:34px}
+        }
       `}</style>
+
       <section
         className="relative w-full bg-[#020018]"
         id="sec-border"
-        data-section="services" 
+        data-section="services"
       >
         <div className="wrap">
           {/* Fixed/Sticky Header */}
@@ -362,7 +377,6 @@ const ServicesSection = () => {
           <div className="stack" id="stack" ref={stackRef}>
             {data.map((s, i) => (
               <React.Fragment key={s.n}>
-                {/* matching your HTML: card appended directly (no section wrapper) */}
                 <article className="card  mx-auto" data-index={i}>
                   <div className="num">{s.n}</div>
                   <div className="copy">
@@ -389,7 +403,6 @@ const ServicesSection = () => {
                     </a>
                   </div>
                 </article>
-                {/* placeholder for second grid column */}
                 <div style={{ height: "1px", visibility: "hidden" }} />
               </React.Fragment>
             ))}
@@ -398,17 +411,34 @@ const ServicesSection = () => {
           {/* MOBILE: horizontal slider */}
           <div className="mobile-slider" id="mobileSlider" ref={sliderRef}>
             <div className="track" id="mobileTrack" ref={trackRef}>
-              {data.map((s) => (
+              {data.map((s, i) => (
                 <div className="mcard" key={`m-${s.n}`}>
                   <div className="m-num text-white">{s.n}</div>
+
                   <a href={s.link} className="m-title text-white block">
                     {s.title}
                   </a>
+
+                  {/* ✅ Mobile content with Read more / Read less (2-line clamp) */}
                   <ul className="m-list">
                     {s.points.map((p) => (
-                      <li key={`m-${s.n}-${p}`}>{p}</li>
+                      <li
+                        key={`m-${s.n}-${p}`}
+                        className={expanded[i] ? "line-clamp-none" : "line-clamp-2"}
+                      >
+                        {p}
+                      </li>
                     ))}
                   </ul>
+
+                  <button
+                    type="button"
+                    onClick={() => toggleRead(i)}
+                    className="mt-1 text-sm font-medium text-[#8b7cf6] w-fit"
+                  >
+                    {expanded[i] ? "Read less" : "Read more"}
+                  </button>
+
                   <div className="m-shot">
                     <a href={s.link}>
                       <img src={s.img} alt={s.title} />
@@ -432,11 +462,9 @@ const ServicesSection = () => {
                 ))}
               </div>
             </center>
-            <br></br>
+            <br />
 
             <div className="mnav">
-              {/* dots (kept exactly where you placed them) */}
-
               <Button
                 className="navbtn prev group w-15 h-15 rounded-full border-2 border-[#543d98] bg-white flex items-center justify-center group transition-all duration-300 hover:bg-[#f5f5f5] hover:border-[#543d98]"
                 id="prevBtn"
@@ -445,7 +473,7 @@ const ServicesSection = () => {
               >
                 <img
                   src="/left-arrow.png"
-                  alt="Next"
+                  alt="Previous"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />
               </Button>
