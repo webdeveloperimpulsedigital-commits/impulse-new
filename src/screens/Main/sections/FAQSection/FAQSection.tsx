@@ -7,46 +7,46 @@ type QA = { q: string; a: string };
 const DEFAULT_QA: QA[] = [
   {
     q: "What is a digital marketing agency?",
-    a: "A digital marketing agency helps businesses grow online using services like performance ads, SEO, social, content, automation and analytics tailored to goals and budgets."
+    a: "A digital marketing agency helps businesses grow online using data-driven strategies such as performance advertising, SEO, social media marketing, content, automation, and analytics. At Impulse Digital, every solution is tailored to your business goals, audience, and budget - not generic packages."
   },
   {
     q: "What are the benefits of hiring a digital marketing agency to leverage your business?",
-    a: "You get senior expertise, speed of execution, cross-channel strategy, creative at scale, and measurable performance without building a large in-house team."
+    a: "By partnering with a digital marketing agency in Mumbai like Impulse Digital, you gain access to senior-level expertise, faster execution, cross-channel strategy, scalable creativity, and measurable performance without the cost and complexity of building a large in-house team."
   },
   {
     q: "What is the role of a result-oriented digital marketing agency in elevating your business?",
-    a: "A results-driven partner aligns channels to KPIs, runs continuous experiments, optimizes budgets in real-time, and reports outcomes clearly to drive revenue and efficiency."
+    a: "A result-oriented digital marketing company in Mumbai aligns every channel with clear KPIs. At Impulse Digital, we continuously test, optimize budgets in real time, and focus on outcomes that matter - leads, revenue, efficiency, and long-term growth."
   },
   {
-    q: "Top 6 services an agency should offer for your business?",
-    a: "Strategy, Performance Ads, SEO, Social & Content, Marketing Automation/CRM, and Analytics/Attribution."
+    q: "What are the top services an agency should offer for your business?",
+    a: "A leading digital marketing company in Mumbai should offer Agentic AI, Digital Strategy & Growth Planning, Performance Marketing (Google Ads, Meta, LinkedIn), SEO (Technical, On-page & Content-led), Social Media & Content Marketing, Marketing Automation & CRM Integration, and Analytics, Tracking & Attribution. Impulse Digital delivers all of these under one unified growth framework."
   },
   {
     q: "What are the advantages of hiring a leading digital marketing agency?",
-    a: "Proven playbooks, specialized teams, enterprise-grade tools, faster time-to-value, and lower total cost of ownership."
+    a: "A proven digital marketing agency in Mumbai brings tested playbooks, specialized teams, enterprise-grade tools, faster time-to-value, and a lower total cost of ownership. With Impulse Digital, you also get transparent reporting and direct access to decision-makers."
   },
   {
     q: "Can I expect instant results after hiring an agency?",
-    a: "Some channels show quick lifts (e.g., performance ads). Others compound over time (e.g., SEO). A balanced mix delivers both short-term and long-term ROI."
+    a: "Some channels show quick lifts, such as performance advertising. Others compound over time, like SEO. A balanced strategy ensures both short-term wins and sustainable long-term ROI."
   },
   {
-    q: "Is it possible to measure the efficacy of your digital marketing agency's strategies?",
-    a: "Yes. With clear KPIs, proper tracking, conversion events, and multi-touch attribution, you can measure impact across the funnel."
+    q: "Is it possible to measure the efficacy of your digital marketing agency’s strategies?",
+    a: "Yes. A reliable digital marketing agency in Mumbai sets clear KPIs, implements proper tracking, defines conversion events, and uses attribution models. At Impulse Digital, performance is reviewed regularly and communicated clearly - no vanity metrics."
   },
-
   {
     q: "What is the budget to hire a digital marketing agency for your business?",
-    a: "The budget to hire the best digital marketing agency in Mumbai depends on your requirements which includes various factors like your scope of services, the industry, the size of your business and, most importantly, your marketing goals and expectations. It is essential to contact the agency directly for any further queries about budget or services to make a better deal. Approximately the budget ranges from 70k to 2 Lakh to hire a good marketing agency for your business.To ensure an informed decision, consider several factors carefully."
+    a: "The cost of hiring a digital marketing agency in Mumbai depends on your scope, industry, business size, and growth goals. Typically, budgets range from ₹70,000 to ₹2,00,000 per month for a professional agency. We recommend discussing requirements directly with Impulse Digital to design a cost-effective, results-focused plan."
   },
   {
     q: "Before signing up with an agency, should I consider geographic factors like location?",
-    a: "No, one does not need to consider the agency's location, as digital marketing services are provided online and are certainly not restricted to physical presence or areas. Anyone can easily receive top digital marketing services from Mumbai to anywhere in the world. However, it is essential to consider the following factors: the agency's expertise in your domain, industry alignment, experience, and facilities they provide for online operations to ensure a smooth working process."
+    a: "No. Digital marketing services are delivered online and are not limited by geography. Businesses can work with top agencies from Mumbai or anywhere in the world. What matters most is domain expertise, industry alignment, experience, and strong online collaboration processes."
   },
   {
     q: "What skills are necessary for an agency before onboarding?",
-    a: "When onboarding and deciding on an agency, it is essential to prioritize domain expertise, transparent communication that helps build trust, creative design and marketing strategy, and keeping a track record of quality work. The team of people coordinating should have qualities of problem-solving with efficiency. This shows that the agency is highly dependable and trustworthy."
+    a: "Before onboarding, prioritize domain expertise, transparent communication, strong creative and strategic capabilities, and a proven track record. A dependable agency should demonstrate efficient problem-solving, accountability, and consistency in delivering results."
   }
 ];
+
 
 export const FAQSection: React.FC<{ items?: QA[] }> = ({ items = DEFAULT_QA }) => {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
