@@ -25,7 +25,7 @@ export const ProcessSection = (): JSX.Element => {
     description:
       "It begins with understanding your website’s structure and what’s working and what’s not.",
     expandedContent:
-      "It begins with understanding your website’s structure and what’s working and what’s not. Our analysis analyzes key factors like site structure, page loading speed, backlinking quality, and content audits. The goal is to identify loopholes, technical issues, missed opportunities, and areas for improvement, setting the perfect stage for the next steps.",
+      "It begins with understanding your website’s structure and identifying what’s working and what’s not. As a strategic B2B SEO company, our analysis evaluates key factors such as site architecture, page loading speed, backlink quality, and in-depth content audits. The goal is to uncover technical gaps, missed opportunities, and areas for improvement—setting the perfect foundation for the next stages of growth.",
   },
   {
     id: 3,
@@ -41,7 +41,7 @@ export const ProcessSection = (): JSX.Element => {
     description:
       "Our goal is to make your website search engine’s best friend by improving technical performance.",
     expandedContent:
-      "Next, our goal is to make your website search engine’s best friend. Here, we focus on essentials like crawlability and site architecture, as well as resolve concerns like broken links and duplicate content to improve your audience’s experience for higher organic traffic and reduced bounce rates.",
+      "Next, our goal is to make your website search engines’ best friend. As a performance-driven B2B SEO agency in Mumbai, we focus on essentials such as crawlability and site architecture, while resolving issues like broken links and duplicate content. This ensures a seamless user experience, drives higher organic traffic, and reduces bounce rates across your key pages.",
   },
   {
     id: 5,
@@ -66,20 +66,17 @@ export const ProcessSection = (): JSX.Element => {
     <section className="w-full bg-white py-8 lg:py-20" data-section="content-process">
       <div className="max-w-[1280px] mx-auto px-4 lg:px-8">
         {/* Header */}
-        <div className="mb-5 lg:mb-16">
-          
+        <div className="mb-6 lg:mb-8 pt-0">
+  <h2 className="[font-family:'DM_Sans',Helvetica] leading-tight">
+    <span className="block text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
+      Our Proven B2B SEO Agency 
+    </span>
+    <span className="block text-[#543d98] font-bold lg:text-[52px] sm:text-[26px]">
+      Framework for Sustainable Growth
+    </span>
+  </h2>
+</div>
 
-          <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
-
-            Our Proven B2B SEO
-
-             </p>
-          <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-            Framework for Sustainable Growth 
-          </h2>
-
-
-        </div>
 
         {/* Process Steps */}
         <div className="space-y-4">

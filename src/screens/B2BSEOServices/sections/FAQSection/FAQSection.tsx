@@ -7,38 +7,39 @@ type QA = { q: string; a: string };
 
 const DEFAULT_QA: QA[] = [
   {
-    q: "What is B2B SEO Service and how is it different from B2C or D2C SEO?",
-    a: "B2B SEO focuses on reaching business decision-makers through targeted search visibility, high-value content, and long-term trust building. Unlike B2C, which targets immediate consumer action, B2B SEO supports a longer sales cycle and prioritizes authority, credibility, and qualified B2B lead generation."
+    q: "What is B2B SEO service and how is it different from B2C or D2C SEO?",
+    a: "B2B SEO focuses on reaching business decision-makers through targeted search visibility, high-value content, and long-term trust building. Unlike B2C or D2C SEO, which often targets quick consumer actions, B2B SEO supports longer sales cycles and complex decision-making. As a strategic B2B SEO agency, Impulse Digital prioritizes authority, credibility, and qualified B2B lead generation over short-term traffic spikes."
   },
   {
     q: "How does Impulse Digital align SEO with the B2B buyer journey?",
-    a: "We design strategies around the three stages of the buyer’s journey: awareness, consideration, and decision. Each content piece is mapped to these stages to ensure your audience finds relevant, informative, and persuasive information at every step of their decision-making process."
+    a: "At Impulse Digital, we design SEO strategies around the three core stages of the B2B buyer journey: awareness, consideration, and decision. Each piece of content is mapped to a specific stage so your audience finds the right information at the right time. This structured approach helps us perform as a results-driven B2B SEO company, supporting informed decisions rather than rushed conversions."
   },
   {
     q: "How do you reach and influence multiple decision-makers?",
-    a: "We create role-specific content that speaks to different stakeholders such as technical heads, financial officers, and executive leadership. This ensures that every decision-maker finds information that matches their priorities, strengthening your overall conversion potential."
+    a: "B2B buying decisions rarely involve just one person. We create role-specific content that speaks directly to technical heads, finance teams, procurement managers, and executive leadership. As an experienced B2B SEO agency in Mumbai, we ensure that every stakeholder finds content aligned with their priorities, strengthening trust and improving conversion potential across the funnel."
   },
   {
     q: "What is your approach to keyword research for niche B2B industries?",
-    a: "We combine qualitative and quantitative research to identify intent-based, industry-specific keywords. The focus is on discovering phrases that indicate genuine buying intent or problem-solving queries rather than generic high-volume keywords."
+    a: "Our keyword research combines qualitative industry understanding with quantitative data analysis. Instead of chasing vanity keywords, we focus on intent-driven, niche-specific phrases that signal real buying interest or problem-solving needs. This approach allows Impulse Digital to deliver SEO strategies that attract high-quality leads, not just traffic."
   },
   {
     q: "How do you establish authority and trust for B2B brands?",
-    a: "We build trust by producing expert-led content, earning backlinks from credible industry sources, showcasing case studies, and maintaining a consistent digital footprint. This approach positions your brand as an authoritative voice in your niche."
+    a: "Authority is built through consistency and expertise. We produce expert-led content, earn backlinks from credible industry sources, showcase real case studies, and maintain a strong digital footprint. This proven framework positions your brand as a trusted voice and reinforces the credibility expected from a leading B2B SEO company."
   },
   {
     q: "What technical elements are part of B2B SEO optimization?",
-    a: "Our team improves technical health by addressing site architecture, load speed, indexation, schema markup, and various on-page & off-page SEO strategies. We also streamline navigation and ensure all pages are crawlable, improving discoverability and user experience."
+    a: "Our technical SEO framework focuses on site architecture, page speed, indexation, schema markup, and strong on-page and off-page SEO practices. We also improve navigation and ensure all key pages are fully crawlable. These foundations allow our B2B SEO agency to improve both discoverability and user experience at scale."
   },
   {
-    q: "How do Impulse Digital measure success in B2B SEO campaigns?",
-    a: "We measure performance across multiple metrics such as organic visibility, lead quality, engagement rate, and conversion from target segments. Tracking is done using Google Analytics (GA4) & Google Tag Manager to ensure every improvement aligns with long-term business goals."
+    q: "How does Impulse Digital measure success in B2B SEO campaigns?",
+    a: "Success goes beyond rankings. We track organic visibility, lead quality, engagement metrics, and conversions from target segments. Using tools like GA4 and Google Tag Manager, we ensure every SEO improvement aligns with long-term revenue and growth objectives — not just surface-level metrics."
   },
   {
     q: "Can you manage SEO for global or region-specific B2B operations?",
-    a: "Yes. We develop multilingual and multi-regional SEO strategies using correct Hreflang implementation and localized content. This ensures your message resonates with diverse markets while maintaining a unified global brand voice."
+    a: "Yes. Impulse Digital builds multilingual and multi-regional SEO strategies using correct hreflang implementation and localized content. Whether you’re targeting India, the US, or global markets, our approach ensures consistency in brand voice while adapting to regional search behavior — a key strength of our B2B SEO agency in Mumbai."
   }
 ];
+
 
 export const FAQSection: React.FC<{ items?: QA[] }> = ({ items = DEFAULT_QA }) => {
   const [openIndex, setOpenIndex] = useState<number | null>(0);

@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 export const BrandVisionSection = (): JSX.Element => {
   const overlayText =
-    "We help your business get noticed, trusted, and chosen by the right people.";
+    "Through a proven B2B SEO agency framework, we help your business get noticed, trusted, and chosen by the right people.";
 
   // ================== COUNTERS ==================
   const [counters, setCounters] = useState({
@@ -135,14 +135,17 @@ export const BrandVisionSection = (): JSX.Element => {
     >
       <div className="max-w-[1280px] mx-auto px-2 lg:px-5 sm:py-10">
         {/* Title */}
-        <div className="mb-6 lg:mb-8 pt-10">
-          <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px] ">
-            B2B SEO Built 
-          </h2>
-          <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-           for Long Cycles & Lasting ROI
-          </h2>
-        </div>
+       <div className="mb-6 lg:mb-8 pt-10">
+  <h2 className="[font-family:'DM_Sans',Helvetica] leading-tight">
+    <span className="block text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
+      B2B SEO Agency
+    </span>
+    <span className="block text-[#543d98] font-bold lg:text-[52px] sm:text-[26px]">
+      Built for Long Cycles & Lasting ROI
+    </span>
+  </h2>
+</div>
+
 
         {/* Image + Overlay + Counters */}
         <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-12 items-start mb-6">
@@ -217,7 +220,10 @@ export const BrandVisionSection = (): JSX.Element => {
         {/* Body copy */}
         <div className="text-left mb-12">
           <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[12px] lg:text-[24px] text-[#030019]">
-           B2B audiences make decisions based on information, and we help you deliver it effectively. We position your brand as an expert voice that resonates with decision-makers. Through research-driven SEO, we elevate your visibility across the platforms that matter most to your audience. Impulse strengthens credibility by combining thought leadership with measurable strategy. We build engagement that nurtures leads, builds authority, and drives results. Our methods support long sales cycles while maintaining trust throughout the process. With Impulse, your brand is not only visible but respected and remembered. 
+          B2B audiences make decisions based on information, and we help you deliver it effectively. As a strategic B2B SEO agency in Mumbai, we position your brand as an expert voice that resonates with decision-makers. Through research-driven SEO, we elevate your visibility across the platforms that matter most to your audience.
+          </p><br></br>
+           <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[12px] lg:text-[24px] text-[#030019]">
+          Impulse strengthens credibility by combining thought leadership with measurable strategy. We build engagement that nurtures leads, builds authority, and drives results. Our methods support long sales cycles while maintaining trust throughout the process. With Impulse, your brand is not only visible but respected and remembered
           </p>
         </div>
       </div>

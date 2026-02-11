@@ -16,13 +16,16 @@ export const WhyChooseSection = (): JSX.Element => {
 
 
         <div className="mb-6 lg:mb-8 pt-0">
-          <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px] ">
-            Why Our B2B SEO
-          </h2>
-          <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-             Drives Revenue, Not Just Rankings
-          </h2>
-        </div>
+  <h2 className="[font-family:'DM_Sans',Helvetica] leading-tight">
+    <span className="block text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
+      Why Our B2B SEO Agency 
+    </span>
+    <span className="block text-[#543d98] font-bold lg:text-[52px] sm:text-[26px]">
+      Drives Revenue, Not Just Rankings
+    </span>
+  </h2>
+</div>
+
  
         {/* ===== MOBILE-ONLY: Image → Content pairs in required mapping ===== */}
         <div className="block lg:hidden space-y-10">
@@ -58,7 +61,7 @@ export const WhyChooseSection = (): JSX.Element => {
               SEO Strategies for Every Business
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              No two businesses are alike, and neither is our SEO strategy. We tailor every plan to suit your industry, goal, and audience. Whether you are a startup seeking visibility or an enterprise aiming for dominance, we have it all covered.</p>
+              No two businesses are alike, and neither is our approach as an experienced B2B SEO agency in Mumbai. We tailor every SEO plan to suit your industry, goals, and audience. Whether you’re a startup seeking visibility or an enterprise aiming for market dominance, our strategies are built to scale and deliver measurable results.</p>
           </div>
  
           {/* 3) Tailored Content Strategy */}
@@ -75,7 +78,8 @@ export const WhyChooseSection = (): JSX.Element => {
               Transparent Reporting and Communication
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              We run on trust, which is why transparency is at the heart of everything we do. Our detailed Google search optimization reports highlight every little aspect of your business’s online presence, making sure you always know where your investments stand.
+              We run on trust, which is why transparency is at the heart of everything we do. As a results-focused B2B SEO company in Mumbai, our detailed Google search optimization reports highlight every aspect of your business’s online presence, ensuring you always know where your investments stand and how they’re performing. 
+
             </p>
           </div>
         </div>
@@ -100,7 +104,7 @@ export const WhyChooseSection = (): JSX.Element => {
               SEO Strategies for Every Business
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed mb-0">
-                No two businesses are alike, and neither is our SEO strategy. We tailor every plan to suit your industry, goal, and audience. Whether you are a startup seeking visibility or an enterprise aiming for dominance, we have it all covered.
+                No two businesses are alike, and neither is our approach as an experienced B2B SEO agency in Mumbai. We tailor every SEO plan to suit your industry, goals, and audience. Whether you’re a startup seeking visibility or an enterprise aiming for market dominance, our strategies are built to scale and deliver measurable results.
               </p>
             </div>
  
@@ -142,7 +146,8 @@ export const WhyChooseSection = (): JSX.Element => {
                 Transparent Reporting and Communication
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-                We run on trust, which is why transparency is at the heart of everything we do. Our detailed Google search optimization reports highlight every little aspect of your business’s online presence, making sure you always know where your investments stand.
+                We run on trust, which is why transparency is at the heart of everything we do. As a results-focused B2B SEO company in Mumbai, our detailed Google search optimization reports highlight every aspect of your business’s online presence, ensuring you always know where your investments stand and how they’re performing. 
+
 
 
               </p>

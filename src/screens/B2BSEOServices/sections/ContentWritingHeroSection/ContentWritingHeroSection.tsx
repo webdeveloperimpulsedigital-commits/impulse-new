@@ -3,36 +3,36 @@ import { Helmet } from 'react-helmet-async';
 import Header from "../../../../components/layout/Header";
 
 export const ContentWritingHeroSection = (): JSX.Element => {
-  const heroTextLines = ["B2B SEO"];
+  const heroTextLines = [" B2B SEO AGENCY"];
 
   return (
     <>
       {/* ✅ SEO Meta Tags */}
   <Helmet> 
-<meta name="description" content="Impulse Digital offers the best B2B SEO service in India. Get your business wired for success with the right B2B SEO strategy put together by experts at Impulse Digital. We have a dedicated team of B2B SEO experts that work round-the-clock to give your business the absolute attention it needs."/>
+<meta name="description" content="Impulse Digital is a leading B2B SEO agency in Mumbai helping brands generate qualified leads through data-driven strategy, technical SEO, and authority building. Partner with a trusted B2B SEO company focused on long-term ROI. "/>
 <meta name="keywords" content="b2b seo services, mumbai, india, impulse digital"/>
-<title>B2B SEO Service in India | Impulse Digital</title>
+<title>Top B2B SEO Agency & Results-Driven B2B SEO Company in Mumbai </title>
 
 <meta name="robots" content="index, follow"/>
 <meta name="revisit-after" content="1 day"/>
 <meta name="language" content="English"/>
 <meta name="generator" content="N/A"/>
 
-<meta property="og:title" content="B2B SEO Service in India | Impulse Digital"/>
-<meta property="og:description" content="Impulse Digital offers the best B2B SEO service in India. Get your business wired for success with the right B2B SEO strategy put together by experts at Impulse Digital. We have a dedicated team of B2B SEO experts that work round-the-clock to give your business the absolute attention it needs."/>
-<meta property="og:url" content="https://www.theimpulsedigital.com/b2b-seo-service"/>
+<meta property="og:title" content="Top B2B SEO Agency & Results-Driven B2B SEO Company in Mumbai "/>
+<meta property="og:description" content="Impulse Digital is a leading B2B SEO agency in Mumbai helping brands generate qualified leads through data-driven strategy, technical SEO, and authority building. Partner with a trusted B2B SEO company focused on long-term ROI. "/>
+<meta property="og:url" content="https://www.theimpulsedigital.com/services/search-engine-optimization/b2b-seo-services/"/>
 <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
 <meta property="og:site_name" content="Impulse Digital"/>
 <meta property="og:type" content="website"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="@impulsedigi"/>
 <meta name="twitter:creator" content="@impulsedigi"/>
-<meta name="twitter:title" content="B2B SEO Service in India | Impulse Digital"/>
-<meta name="twitter:description" content="Impulse Digital offers the best B2B SEO service in India. Get your business wired for success with the right B2B SEO strategy put together by experts at Impulse Digital. We have a dedicated team of B2B SEO experts that work round-the-clock to give your business the absolute attention it needs."/>
+<meta name="twitter:title" content="Top B2B SEO Agency & Results-Driven B2B SEO Company in Mumbai "/>
+<meta name="twitter:description" content="Impulse Digital is a leading B2B SEO agency in Mumbai helping brands generate qualified leads through data-driven strategy, technical SEO, and authority building. Partner with a trusted B2B SEO company focused on long-term ROI. "/>
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
-<meta name="twitter:url" content="https://www.theimpulsedigital.com/b2b-seo-service"/>
+<meta name="twitter:url" content="https://www.theimpulsedigital.com/services/search-engine-optimization/b2b-seo-services/"/>
 
-<link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/b2b-seo-services"/>
+<link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/b2b-seo-services/"/>
 </Helmet>
          
 
@@ -103,7 +103,7 @@ export const ContentWritingHeroSection = (): JSX.Element => {
           <span className="select-none">{">"}</span>
           
          
-          <span className="text-white">B2B seo </span>
+          <span className="text-white">B2B Seo Agency</span>
         </nav>
             </div>
           </div>
