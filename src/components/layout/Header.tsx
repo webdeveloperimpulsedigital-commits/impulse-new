@@ -78,7 +78,7 @@ const DEFAULT_ITEMS: NavItem[] = [
       
     ],
   },
-  { label: "Case Studies", href: "/casestudies",
+  { label: "Case Studies", href: "/casestudies/",
   },
   {
     label: "Blog",
@@ -92,12 +92,12 @@ const DEFAULT_ITEMS: NavItem[] = [
     href: "",
     hasDropdown: true,
     dropdownItems: [
-      { label: "EBooks", href: "/resources/ebooks" },
+      { label: "EBooks", href: "/resources/ebooks/" },
       { label: "Videos", href: "/resources/videos" },
-      { label: "Slideshare PPT", href: "/resources/slideshare-ppt" }
+      { label: "Slideshare PPT", href: "/resources/slideshare-ppt/" }
     ]
     },
- { label: "Careers", href: "/careers" },
+ { label: "Careers", href: "/careers/" },
 ];
 export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
   const navigationItems = items ?? DEFAULT_ITEMS;
@@ -300,7 +300,7 @@ export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
             className="w-[150px] h-[44px] group hidden sm:inline-flex items-center gap-2 px-4 py-5 bg-white rounded-xl hover:bg-[#543d98] hover:text-[#ffffff] text-[#543d98]"
           >
             <Link
-              to="/contact-us"
+              to="/contact-us/"
               className="[font-family:'DM_Sans',Helvetica] font-bold text-sm md:text-base"
             >
               Contact Us

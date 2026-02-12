@@ -87,9 +87,9 @@ export const FooterSection: React.FC = () => {
               <strong>Quick Links</strong>
               <li><Link to="/">Home</Link></li> 
               {/* <li><Link to="/about-us">About Us</Link></li> */}
-              <li><Link to="/services">Services</Link></li>
-              <li><Link to="/casestudies">Case Studies</Link></li>
-              <li><Link to="/careers">Careers</Link></li>
+              <li><Link to="/services/">Services</Link></li>
+              <li><Link to="/casestudies/">Case Studies</Link></li>
+              <li><Link to="/careers/">Careers</Link></li>
             </ul>
 
             <ul className="footer__col">
@@ -105,7 +105,7 @@ export const FooterSection: React.FC = () => {
 </li>
  <li>
   <a
-    href="https://www.theimpulsedigital.com/resources/ebooks"
+    href="https://www.theimpulsedigital.com/resources/ebooks/"
     target=""
     rel="noopener noreferrer"
   >
@@ -114,7 +114,7 @@ export const FooterSection: React.FC = () => {
 </li>
 <li>
   <a
-    href="https://www.theimpulsedigital.com/resources/videos"
+    href="https://www.theimpulsedigital.com/resources/videos/"
     target=""
     rel="noopener noreferrer"
   >
@@ -123,7 +123,7 @@ export const FooterSection: React.FC = () => {
 </li>
 <li>
   <a
-    href="https://www.theimpulsedigital.com/resources/slideshare-ppt"
+    href="https://www.theimpulsedigital.com/resources/slideshare-ppt/"
     target=""
     rel="noopener noreferrer"
   >
@@ -138,7 +138,7 @@ export const FooterSection: React.FC = () => {
               <strong>Locations</strong>
               <li>
                 <a
-                  href="/digital-marketing-agency-in-india"
+                  href="/digital-marketing-agency-in-india/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -148,7 +148,7 @@ export const FooterSection: React.FC = () => {
 
               <li>
                 <a
-                  href="/digital-marketing-agency-in-thane"
+                  href="/digital-marketing-agency-in-thane/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -158,7 +158,7 @@ export const FooterSection: React.FC = () => {
 
               <li>
                 <a
-                  href="/digital-marketing-agency-in-navi-mumbai"
+                  href="/digital-marketing-agency-in-navi-mumbai/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -168,7 +168,7 @@ export const FooterSection: React.FC = () => {
 
               <li>
                 <a
-                  href="/digital-marketing-agency-in-pune"
+                  href="/digital-marketing-agency-in-pune/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
