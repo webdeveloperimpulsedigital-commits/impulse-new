@@ -33,10 +33,10 @@ type HeaderProps = {
 
 const DEFAULT_ITEMS: NavItem[] = [
   { label: "Home", href: "/" },
-  { label: "About Us", href: "/about-us" },
+  { label: "About Us", href: "/about-us/" },
   {
     label: "Services",
-    href: "/services",
+    href: "/services/",
     hasDropdown: true,
     dropdownItems: [
       // {label: "Intelli Pulse", href: "/services/intelli-pulse"},
@@ -82,7 +82,7 @@ const DEFAULT_ITEMS: NavItem[] = [
   },
   {
     label: "Blog",
-    href: "https://www.theimpulsedigital.com/blog",
+    href: "https://www.theimpulsedigital.com/blog/",
     external: true,
   },
   // { label: "Resouces", href: "/resources"},
@@ -93,7 +93,7 @@ const DEFAULT_ITEMS: NavItem[] = [
     hasDropdown: true,
     dropdownItems: [
       { label: "EBooks", href: "/resources/ebooks/" },
-      { label: "Videos", href: "/resources/videos" },
+      { label: "Videos", href: "/resources/videos/" },
       { label: "Slideshare PPT", href: "/resources/slideshare-ppt/" }
     ]
     },
