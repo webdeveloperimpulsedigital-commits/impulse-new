@@ -63,6 +63,7 @@ import { Privacypage } from "./screens/Privacypage";
 import { TermsAndConditions } from "./screens/TermsAndConditionsPage";
 import { RainbowInternationalSchoolCaseStudy } from "./screens/RainbowInternationalSchoolCaseStudy";
 import { Thankyou } from "./screens/Thankyou";
+import { NotFound } from "./screens/NotFound/NotFound";
 
 
 
@@ -140,6 +141,9 @@ export const App = (): JSX.Element => {
       <Route path="/privacy-policy" element={<Privacypage/>}/>
       <Route path="/terms-and-conditions" element={<TermsAndConditions/>}/>
       <Route path="/thank-you" element={<Thankyou/>}/>
+
+      <Route path="*" element={<NotFound />} />
+
     </Routes>
   );
 };
