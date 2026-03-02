@@ -141,7 +141,7 @@ export const ZoomGridSection = (): JSX.Element => {
                 loop
                 preload="auto"
               >
-                <source src="/impulse-video.mp4" type="video/mp4" />
+                <source src="/impulse-video-new.mp4" type="video/mp4" />
               </video>
             </div>
 
