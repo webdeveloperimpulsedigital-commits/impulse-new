@@ -127,7 +127,7 @@ export const ZoomGridSection = (): JSX.Element => {
           <div className="grid1" ref={gridRef}>
             {/* Row 1 */}
             <div className="tile" data-grid-item>
-              <img src="/12_Mastercard.jpg" alt="Project 1" />
+              <img src="/12_Mastercard.jpeg" alt="Project 1" />
             </div>
 
             {/* ✅ VIDEO (continues playing even while scrolling) */}
@@ -151,13 +151,13 @@ export const ZoomGridSection = (): JSX.Element => {
 
             {/* Row 2 */}
             <div className="tile" data-grid-item>
-              <img src="/11_Emech.jpg" alt="Project 4" />
+              <img src="/11_Emech.jpeg" alt="Project 4" />
             </div>
             <div className="tile" data-grid-item>
-              <img src="/12_HEM.jpg" alt="Project 5" />
+              <img src="/12_HEM.jpeg" alt="Project 5" />
             </div>
             <div className="tile" data-grid-item>
-              <img src="/09_Automag.jpg" alt="Project 6" />
+              <img src="/09_Automag.jpeg" alt="Project 6" />
             </div>
           </div>
         </div>

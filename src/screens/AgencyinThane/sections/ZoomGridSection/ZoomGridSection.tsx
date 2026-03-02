@@ -115,7 +115,10 @@ export const ZoomGridSection = (): JSX.Element => {
 
           <div className="mb-8 md:mb-16">
             <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-sm md:text-base lg:text-[26px] xl:text[26px] sm:text-[13px] lg:leading-[40px] lg:w-6xl xl:w-7xl">
-              Every campaign we craft isn’t just marketing; it’s a story lived by our clients and loved by their audiences. From sparking conversations to building communities, our results aren’t numbers on a sheet their experiences that last. Ready for your story to be heard?
+              Our clients have heard it, experienced it, and loved it. Now, it's
+              your turn. Take a look at what our digital marketing agency has
+              created and achieved out of our love for creating brands and building
+              their stories.
             </p>
           </div>
         </div>
@@ -124,7 +127,7 @@ export const ZoomGridSection = (): JSX.Element => {
           <div className="grid1" ref={gridRef}>
             {/* Row 1 */}
             <div className="tile" data-grid-item>
-              <img src="/12_Mastercard.jpg" alt="Project 1" />
+              <img src="/12_Mastercard.jpeg" alt="Project 1" />
             </div>
 
             {/* ✅ VIDEO (continues playing even while scrolling) */}
@@ -148,13 +151,13 @@ export const ZoomGridSection = (): JSX.Element => {
 
             {/* Row 2 */}
             <div className="tile" data-grid-item>
-              <img src="/11_Emech.jpg" alt="Project 4" />
+              <img src="/11_Emech.jpeg" alt="Project 4" />
             </div>
             <div className="tile" data-grid-item>
-              <img src="/12_HEM.jpg" alt="Project 5" />
+              <img src="/12_HEM.jpeg" alt="Project 5" />
             </div>
             <div className="tile" data-grid-item>
-              <img src="/09_Automag.jpg" alt="Project 6" />
+              <img src="/09_Automag.jpeg" alt="Project 6" />
             </div>
           </div>
         </div>
