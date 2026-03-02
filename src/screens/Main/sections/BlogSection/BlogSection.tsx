@@ -30,8 +30,28 @@ export const BlogSection = (): JSX.Element => {
   }, []);
 
   const blogPosts: BlogPost[] = [
-    {
+     {
       id: "1",
+      author: "Admin",
+      date: "Feb 19, 2026",
+      title: "How AI Agents Think: Planning, Memory, and Tool Use Explained",
+      description:
+        "Artificial intelligence is evolving rapidly from systems that simply respond to prompts to intelligent agents capable of planning, reasoning, and taking action. These advanced systems, often referred to as AI agents, represent a major shift in how businesses use automation.",
+      image: "/How-AI-Agents.jpg",
+      url: "https://www.theimpulsedigital.com/blog/how-ai-agents-think-planning-memory-and-tool-use-explained/"
+    },
+     {
+      id: "2",
+      author: "Admin",
+      date: "Feb 4, 2026",
+      title: "5 Social Media Mistakes Small Businesses Make (And How to Fix Them)",
+      description:
+        "Social media has become one of the most powerful tools for small businesses to build visibility, connect with customers, and drive growth. Platforms like Instagram, Facebook, LinkedIn, and X offer direct access to audiences that were once expensive and difficult to reach. Yet, despite the opportunity, many small businesses struggle to see real results from their social media efforts.",
+      image: "/Social-Media-blog.jpg",
+      url: "https://www.theimpulsedigital.com/blog/5-social-media-mistakes-small-businesses-make-and-how-to-fix-them/"
+    },
+    {
+      id: "3",
       author: "Admin",
       date: "Jan 29, 2026",
       title: "What Is Agentic AI, and How Is It Different from Traditional AI?",
@@ -40,27 +60,7 @@ export const BlogSection = (): JSX.Element => {
       image: "/Agentic-Ai.jpg",
       url: "https://www.theimpulsedigital.com/blog/what-is-agentic-ai-and-how-is-it-different-from-traditional-ai/"
     },
-     {
-      id: "2",
-      author: "Admin",
-      date: "Jan 16, 2026",
-      title: "Why Every Business Needs a Website Audit Before Running Ads",
-      description:
-        "In today’s digital-first world, paid advertising has become one of the fastest ways for businesses to generate traffic, leads, and sales. Platforms like Google Ads and social media advertising offer powerful targeting options that can put your brand in front of the right audience instantly. However, many businesses make a costly mistake they start running ads without first auditing their website.",
-      image: "/Why-Every-Business-Needs-a-Website-Audit-Before-Running-Ads.jpg",
-      url: "https://www.theimpulsedigital.com/blog/why-every-business-needs-a-website-audit-before-running-ads/"
-    },
-    {
-      id: "3",
-      author: "Admin",
-      date: "Jan 6, 2026",
-      title: "Why Every Business Needs an AI Chatbot for Customer Service Today",
-      description:
-        "Today’s customers expect instant, accurate, and personalized support regardless of time or channel. For businesses, meeting these expectations at scale has become increasingly challenging. This is where chatbots in customer service are making a measurable impact. From answering routine queries to guiding users through complex journeys, automation is reshaping how brands interact with customers.",
-      image: "/impulse-blog-about-ai-chatbot-1.jpg",
-      url: "https://www.theimpulsedigital.com/blog/why-every-business-needs-an-ai-chatbot-for-customer-service-today/"
-    },
-    
+     
    
   ];
 
