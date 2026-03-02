@@ -103,7 +103,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
           {/* Common header (overlay) */}
           <Header />
 
-          <div className="absolute inset-0 w-full h-[598px] sm:h-[698px] md:h-[798px] lg:h-[818px] bg-[url(/rectangle-35.png)] bg-cover bg-center">
+          <div className="absolute inset-0 w-full h-[598px] sm:h-[698px] md:h-[798px] lg:h-[818px] bg-[url(/rectangle-35.jpg)] bg-cover bg-center">
             {/* Background Video */}
             <div className="absolute inset-0 z-0">
               <video
@@ -113,7 +113,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
                 loop
                 playsInline
                 preload="metadata"
-                poster="/rectangle-35.png"
+                poster="/rectangle-35.jpg"
               >
                 <source src="/bg-video.mp4" type="video/mp4" />
               </video>
