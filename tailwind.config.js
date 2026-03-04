@@ -46,17 +46,24 @@ module.exports = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
-      fontFamily: {
-        sans: [
-          "ui-sans-serif",
-          "system-ui",
-          "sans-serif",
-          '"Apple Color Emoji"',
-          '"Segoe UI Emoji"',
-          '"Segoe UI Symbol"',
-          '"Noto Color Emoji"',
-        ],
-      },
+     fontFamily: {
+  // ✅ default sans for your whole site
+  sans: [
+    "Inter",
+    "ui-sans-serif",
+    "system-ui",
+    "sans-serif",
+    '"Apple Color Emoji"',
+    '"Segoe UI Emoji"',
+    '"Segoe UI Symbol"',
+    '"Noto Color Emoji"',
+  ],
+ 
+  // ✅ optional utility classes
+  inter: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
+  grotesk: ["Space Grotesk", "ui-sans-serif", "system-ui", "sans-serif"],
+},
+ 
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
