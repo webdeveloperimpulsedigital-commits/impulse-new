@@ -6,8 +6,7 @@
     all: unset;
   }
 }
-
-
+ 
 :root {
   --animate-spin: spin 1s linear infinite;
 }
