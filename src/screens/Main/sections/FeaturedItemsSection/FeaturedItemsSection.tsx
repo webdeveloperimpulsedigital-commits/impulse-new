@@ -1,5 +1,6 @@
-import { Helmet } from 'react-helmet-async';
-import { JsonLd } from 'react-schemaorg';
+import React from "react";
+import { Helmet } from "react-helmet-async";
+import { JsonLd } from "react-schemaorg";
 import Header from "../../../../components/layout/Header";
 
 export const FeaturedItemsSection = (): JSX.Element => {
@@ -19,25 +20,40 @@ export const FeaturedItemsSection = (): JSX.Element => {
           name="keywords"
           content="digital marketing agency in mumbai, digital marketing company, impulse digital"
         />
-<meta name="robots" content="index, follow"/>
-<meta name="revisit-after" content="1 day"/>
-<meta name="language" content="English"/>
-<meta name="generator" content="N/A"/>
+        <meta name="robots" content="index, follow" />
+        <meta name="revisit-after" content="1 day" />
+        <meta name="language" content="English" />
+        <meta name="generator" content="N/A" />
+
         {/* Open Graph Meta Tags */}
-        <meta property="og:title" content="Best Digital Marketing Agency in Mumbai | Impulse Digital" />
+        <meta
+          property="og:title"
+          content="Best Digital Marketing Agency in Mumbai | Impulse Digital"
+        />
         <meta
           property="og:description"
           content="Impulse Digital is a top digital marketing agency in Mumbai that helps businesses expand their reach in the digital space with strategy, performance marketing, SEO, social media, content, and creative solutions."
         />
         <meta property="og:url" content="https://www.theimpulsedigital.com" />
-        <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
+        <meta
+          property="og:image"
+          content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"
+        />
         <meta property="og:type" content="website" />
-        
-       <link rel="canonical" href="https://www.theimpulsedigital.com"/>
 
+        <link rel="canonical" href="https://www.theimpulsedigital.com" />
+
+        {/* ✅ LCP FIX: Preload hero LCP image ASAP */}
+        <link
+          rel="preload"
+          as="image"
+          href="/rectangle-35.jpg"
+          // @ts-expect-error - TS DOM typings may not include fetchpriority yet
+          fetchpriority="high"
+        />
       </Helmet>
 
-      {/* JSON-LD Schema for ProfessionalService using JsonLd component */}
+      {/* JSON-LD Schema for ProfessionalService */}
       <JsonLd
         item={{
           "@context": "https://schema.org",
@@ -100,10 +116,23 @@ export const FeaturedItemsSection = (): JSX.Element => {
         data-section="hero"
       >
         <header>
-          {/* Common header (overlay) */}
           <Header />
 
-          <div className="absolute inset-0 w-full h-[598px] sm:h-[698px] md:h-[798px] lg:h-[818px] bg-[url(/rectangle-35.jpg)] bg-cover bg-center">
+          <div className="absolute inset-0 w-full h-[598px] sm:h-[698px] md:h-[798px] lg:h-[818px]">
+            {/* ✅ LCP FIX: HTML image (so browser can prioritize it) */}
+            <img
+              src="/rectangle-35.jpg"
+              alt=""
+              aria-hidden="true"
+              className="absolute inset-0 w-full h-full object-cover"
+              width={1920}
+              height={1080}
+              decoding="async"
+              {...({
+                fetchpriority: "high",
+              } as React.ImgHTMLAttributes<HTMLImageElement>)}
+            />
+
             {/* Background Video */}
             <div className="absolute inset-0 z-0">
               <video
@@ -117,6 +146,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
               >
                 <source src="/bg-video.mp4" type="video/mp4" />
               </video>
+
               {/* Dark overlay */}
               <div
                 className="absolute inset-0 pointer-events-none"
@@ -134,8 +164,10 @@ export const FeaturedItemsSection = (): JSX.Element => {
             >
               {/* Main Heading */}
               <div className="mb-8 sm:mb-12 text-center lg:text-left">
-                <h1 className="font-dm-sans font-black text-white text-[32px] sm:text-[48px] md:text-[64px] lg:text-[100px]
-                      xl:text-[100px] lg:leading-[100px] xl:leading-[120px] tracking-tight mb-1">
+                <h1
+                  className="font-dm-sans font-black text-white text-[32px] sm:text-[48px] md:text-[64px] lg:text-[100px]
+                      xl:text-[100px] lg:leading-[100px] xl:leading-[120px] tracking-tight mb-1"
+                >
                   {heroTextLines.map((line, index) => (
                     <span key={index}>
                       {line}
@@ -151,8 +183,8 @@ export const FeaturedItemsSection = (): JSX.Element => {
                           max-w-[90%] sm:max-w-[80%] md:max-w-[70%] lg:max-w-[60%]
                           mx-auto lg:mx-0 lg:leading-[40px] mb-8 sm:mb-12"
               >
-                We blend strategy, design, and AI to build iconic brands.
-                Because good isn’t enough when great is possible.
+                We blend strategy, design, and AI to build iconic brands. Because
+                good isn’t enough when great is possible.
               </p>
             </div>
           </div>
