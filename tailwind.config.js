@@ -57,8 +57,6 @@ module.exports = {
           '"Noto Color Emoji"',
         ],
       },
- 
- 
   // ✅ optional utility classes
   inter: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
   grotesk: ["Space Grotesk", "ui-sans-serif", "system-ui", "sans-serif"],
