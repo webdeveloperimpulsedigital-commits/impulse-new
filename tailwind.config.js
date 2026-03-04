@@ -46,7 +46,7 @@ module.exports = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
-    fontFamily: {
+      fontFamily: {
         sans: [
           "ui-sans-serif",
           "system-ui",
@@ -57,11 +57,6 @@ module.exports = {
           '"Noto Color Emoji"',
         ],
       },
-  // ✅ optional utility classes
-  inter: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
-  grotesk: ["Space Grotesk", "ui-sans-serif", "system-ui", "sans-serif"],
-},
- 
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
@@ -81,7 +76,7 @@ module.exports = {
         },
         "marquee-left-to-right": {
       "0%": { transform: "translateX(-50%)" },
-      "100%": { transform: "translateX(0%)" },   
+      "100%": { transform: "translateX(0%)" },  
     },
     "marquee-ltr": {
     "0%": { transform: "translateX(-100%)" },
