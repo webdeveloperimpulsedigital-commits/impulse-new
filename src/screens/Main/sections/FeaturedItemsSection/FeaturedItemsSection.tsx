@@ -4,7 +4,7 @@ import { JsonLd } from "react-schemaorg";
 import Header from "../../../../components/layout/Header";
 
 export const FeaturedItemsSection = (): JSX.Element => {
-  const heroTextLines = ["TURNING", "YOUR BUSINESS", "INTO A BRAND"];
+  const heroTextLines = ["For Anything", "But Ordinary",];
 
   return (
     <>
@@ -183,8 +183,8 @@ export const FeaturedItemsSection = (): JSX.Element => {
                           max-w-[90%] sm:max-w-[80%] md:max-w-[70%] lg:max-w-[60%]
                           mx-auto lg:mx-0 lg:leading-[40px] mb-8 sm:mb-12"
               >
-                We blend strategy, design, and AI to build iconic brands. Because
-                good isn’t enough when great is possible.
+                We blend strategy, design, and AI to create brands that stand apart.
+                Because the world has enough average already.
               </p>
             </div>
           </div>
