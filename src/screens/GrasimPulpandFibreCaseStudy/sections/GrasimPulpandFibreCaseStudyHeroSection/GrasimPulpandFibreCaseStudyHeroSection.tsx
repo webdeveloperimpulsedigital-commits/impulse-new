@@ -8,18 +8,18 @@ export const GrasimPulpandFibreCaseStudyHeroSection = (): JSX.Element => {
   return (
     <> 
       {/* ✅ SEO Meta Tags */}
-   <Helmet>
-        <meta name="description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
+     <Helmet>
+    <title>Grasim Pulp and Fibre LinkedIn Growth Case Study | Impulse Digital</title>
+    <meta name="description" content="See how Impulse Digital enhanced Grasim Pulp and Fibre’s LinkedIn presence with data-driven content strategies, achieving 67% higher reach, 34K+ likes, 1,300+ comments, and engagement rates well above industry benchmarks." />
     <meta name="keywords" content="" />
-    <title>Digital Marketing Case Studies - Impulse Digital</title>
     
     <meta name="robots" content="index, follow" />
     <meta name="revisit-after" content="1 day" />
     <meta name="language" content="English" />
     <meta name="generator" content="N/A" />
     
-    <meta property="og:title" content="Digital Marketing Case Studies - Impulse Digital" />
-    <meta property="og:description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
+    <meta property="og:title" content="Grasim Pulp and Fibre LinkedIn Growth Case Study | Impulse Digital" />
+    <meta property="og:description" content="See how Impulse Digital enhanced Grasim Pulp and Fibre’s LinkedIn presence with data-driven content strategies, achieving 67% higher reach, 34K+ likes, 1,300+ comments, and engagement rates well above industry benchmarks." />
     <meta property="og:url" content="https://www.theimpulsedigital.com/case-studies" />
     <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
     <meta property="og:site_name" content="Impulse Digital" />
@@ -27,12 +27,38 @@ export const GrasimPulpandFibreCaseStudyHeroSection = (): JSX.Element => {
     <meta name="twitter:card" content= "summary_large_image"  />
     <meta name="twitter:site" content="@impulsedigi" />
     <meta name="twitter:creator" content="@impulsedigi" />
-    <meta name="twitter:title" content="Digital Marketing Case Studies - Impulse Digital" />
-    <meta name="twitter:description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
+    <meta name="twitter:title" content="Grasim Pulp and Fibre LinkedIn Growth Case Study | Impulse Digital" />
+    <meta name="twitter:description" content="See how Impulse Digital enhanced Grasim Pulp and Fibre’s LinkedIn presence with data-driven content strategies, achieving 67% higher reach, 34K+ likes, 1,300+ comments, and engagement rates well above industry benchmarks." />
     <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
     <meta name="twitter:url" content="https://www.theimpulsedigital.com/case-studies" />
     
-  </Helmet>
+    {/* Open Graph Meta Tags */}
+        <meta
+          property="og:title"
+          content="Grasim Pulp and Fibre LinkedIn Growth Case Study | Impulse Digital"
+        />
+        <meta
+          property="og:description"
+          content="See how Impulse Digital enhanced Grasim Pulp and Fibre’s LinkedIn presence with data-driven content strategies, achieving 67% higher reach, 34K+ likes, 1,300+ comments, and engagement rates well above industry benchmarks."
+        />
+        <meta property="og:url" content="https://www.theimpulsedigital.com" />
+        <meta
+          property="og:image"
+          content="https://www.theimpulsedigital.com/Grasim%20Pulp%20and%20Fibre.png"
+        />
+        <meta property="og:type" content="website" />
+
+        <link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/grasim-pulp-and-fibre/" />
+
+        {/* ✅ LCP FIX: Preload hero LCP image ASAP */}
+        <link
+          rel="preload"
+          as="image"
+          href="/rectangle-35.jpg"
+          // @ts-expect-error - TS DOM typings may not include fetchpriority yet
+          fetchpriority="high"
+        />
+    </Helmet>
          
 
       {/* ✅ Hero Section */}

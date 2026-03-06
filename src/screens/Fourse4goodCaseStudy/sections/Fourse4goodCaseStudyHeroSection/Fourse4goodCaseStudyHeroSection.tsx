@@ -5,18 +5,18 @@ import { Helmet } from "react-helmet-async";
 export const Fourse4goodCaseStudyHeroSection = (): JSX.Element => {
   return (
     <>
-    <Helmet>
-        <meta name="description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
+      <Helmet>
+    <title>Fours for Good Campaign Case Study | Aditya Birla Group × Cricket Impact</title>
+    <meta name="description" content="Explore how Impulse Digital executed Aditya Birla Group’s “Fours for Good” campaign during the Border-Gavaskar Trophy, converting cricket moments into real impact with 200+ children receiving professional training and 8.1M+ digital impressions." />
     <meta name="keywords" content="" />
-    <title>Digital Marketing Case Studies - Impulse Digital</title>
     
     <meta name="robots" content="index, follow" />
     <meta name="revisit-after" content="1 day" />
     <meta name="language" content="English" />
     <meta name="generator" content="N/A" />
     
-    <meta property="og:title" content="Digital Marketing Case Studies - Impulse Digital" />
-    <meta property="og:description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
+    <meta property="og:title" content="Fours for Good Campaign Case Study | Aditya Birla Group × Cricket Impact" />
+    <meta property="og:description" content="Explore how Impulse Digital executed Aditya Birla Group’s “Fours for Good” campaign during the Border-Gavaskar Trophy, converting cricket moments into real impact with 200+ children receiving professional training and 8.1M+ digital impressions." />
     <meta property="og:url" content="https://www.theimpulsedigital.com/case-studies" />
     <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
     <meta property="og:site_name" content="Impulse Digital" />
@@ -24,12 +24,38 @@ export const Fourse4goodCaseStudyHeroSection = (): JSX.Element => {
     <meta name="twitter:card" content= "summary_large_image"  />
     <meta name="twitter:site" content="@impulsedigi" />
     <meta name="twitter:creator" content="@impulsedigi" />
-    <meta name="twitter:title" content="Digital Marketing Case Studies - Impulse Digital" />
-    <meta name="twitter:description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
+    <meta name="twitter:title" content="Fours for Good Campaign Case Study | Aditya Birla Group × Cricket Impact" />
+    <meta name="twitter:description" content="Explore how Impulse Digital executed Aditya Birla Group’s “Fours for Good” campaign during the Border-Gavaskar Trophy, converting cricket moments into real impact with 200+ children receiving professional training and 8.1M+ digital impressions." />
     <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
     <meta name="twitter:url" content="https://www.theimpulsedigital.com/case-studies" />
     
-        </Helmet>
+    {/* Open Graph Meta Tags */}
+        <meta
+          property="og:title"
+          content="Fours for Good Campaign Case Study | Aditya Birla Group × Cricket Impact"
+        />
+        <meta
+          property="og:description"
+          content="Explore how Impulse Digital executed Aditya Birla Group’s “Fours for Good” campaign during the Border-Gavaskar Trophy, converting cricket moments into real impact with 200+ children receiving professional training and 8.1M+ digital impressions."
+        />
+        <meta property="og:url" content="https://www.theimpulsedigital.com" />
+        <meta
+          property="og:image"
+          content="https://www.theimpulsedigital.com/rahul-dravid.png"
+        />
+        <meta property="og:type" content="website" />
+
+        <link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/fourseforgood/" />
+
+        {/* ✅ LCP FIX: Preload hero LCP image ASAP */}
+        <link
+          rel="preload"
+          as="image"
+          href="/rectangle-35.jpg"
+          // @ts-expect-error - TS DOM typings may not include fetchpriority yet
+          fetchpriority="high"
+        />
+    </Helmet>
   
     <section
       className="relative w-full lg:h-screen sm:h-screen lg:min-h-[700px] sm:min-h-[500px] rounded-t-[55px] overflow-hidden"

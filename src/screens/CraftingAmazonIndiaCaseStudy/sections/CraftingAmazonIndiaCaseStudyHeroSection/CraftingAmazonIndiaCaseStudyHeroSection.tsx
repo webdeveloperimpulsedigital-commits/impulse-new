@@ -8,10 +8,10 @@ export const CraftingAmazonIndiaCaseStudyHeroSection = (): JSX.Element => {
   return (
     <> 
       {/* ✅ SEO Meta Tags */}
-    <Helmet>
-        <meta name="description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
+      <Helmet>
+    <title>Employer Value Proposition Case Study for Amazon India | Impulse Digital</title>
+    <meta name="description" content="Explore how Impulse Digital crafted a compelling Employer Value Proposition for Amazon India to strengthen employer branding and attract top talent." />
     <meta name="keywords" content="" />
-    <title>Digital Marketing Case Studies - Impulse Digital</title>
     
     <meta name="robots" content="index, follow" />
     <meta name="revisit-after" content="1 day" />
@@ -19,7 +19,7 @@ export const CraftingAmazonIndiaCaseStudyHeroSection = (): JSX.Element => {
     <meta name="generator" content="N/A" />
     
     <meta property="og:title" content="Digital Marketing Case Studies - Impulse Digital" />
-    <meta property="og:description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
+    <meta property="og:description" content="Explore how Impulse Digital crafted a compelling Employer Value Proposition for Amazon India to strengthen employer branding and attract top talent." />
     <meta property="og:url" content="https://www.theimpulsedigital.com/case-studies" />
     <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
     <meta property="og:site_name" content="Impulse Digital" />
@@ -28,10 +28,36 @@ export const CraftingAmazonIndiaCaseStudyHeroSection = (): JSX.Element => {
     <meta name="twitter:site" content="@impulsedigi" />
     <meta name="twitter:creator" content="@impulsedigi" />
     <meta name="twitter:title" content="Digital Marketing Case Studies - Impulse Digital" />
-    <meta name="twitter:description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
+    <meta name="twitter:description" content="Explore how Impulse Digital executed a powerful Amazon Employer Branding campaign using targeted digital strategies to enhance brand visibility and attract talent." />
     <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
     <meta name="twitter:url" content="https://www.theimpulsedigital.com/case-studies" />
     
+    {/* Open Graph Meta Tags */}
+        <meta
+          property="og:title"
+          content="Employer Value Proposition Case Study for Amazon India | Impulse Digital"
+        />
+        <meta
+          property="og:description"
+          content="Explore how Impulse Digital crafted a compelling Employer Value Proposition for Amazon India to strengthen employer branding and attract top talent."
+        />
+        <meta property="og:url" content="https://www.theimpulsedigital.com" />
+        <meta
+          property="og:image"
+          content="https://www.theimpulsedigital.com/Crafting%20the%20Employer%20Value.png"
+        />
+        <meta property="og:type" content="website" />
+
+        <link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/crafting-the-employer-value-proposition-for-amazon-india/" />
+
+        {/* ✅ LCP FIX: Preload hero LCP image ASAP */}
+        <link
+          rel="preload"
+          as="image"
+          href="/rectangle-35.jpg"
+          // @ts-expect-error - TS DOM typings may not include fetchpriority yet
+          fetchpriority="high"
+        />
     </Helmet>
          
 

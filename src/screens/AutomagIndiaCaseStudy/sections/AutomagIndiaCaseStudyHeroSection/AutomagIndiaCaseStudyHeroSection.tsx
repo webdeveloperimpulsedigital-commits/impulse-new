@@ -8,18 +8,18 @@ export const AutomagIndiaCaseStudyHeroSection = (): JSX.Element => {
   return (
     <> 
       {/* ✅ SEO Meta Tags */}
-    <Helmet>
-        <meta name="description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
+  <Helmet>
+    <title>Automag India SEO Case Study | 2400% B2B Lead Growth in 4 Months</title>
+    <meta name="description" content="Explore how Impulse Digital transformed Automag India’s website into a B2B lead generation engine, achieving 48% organic traffic growth and increasing leads from 1-2 to 45-50 per month through strategic SEO." />
     <meta name="keywords" content="" />
-    <title>Digital Marketing Case Studies - Impulse Digital</title>
     
     <meta name="robots" content="index, follow" />
     <meta name="revisit-after" content="1 day" />
     <meta name="language" content="English" />
     <meta name="generator" content="N/A" />
     
-    <meta property="og:title" content="Digital Marketing Case Studies - Impulse Digital" />
-    <meta property="og:description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
+    <meta property="og:title" content="Automag India SEO Case Study | 2400% B2B Lead Growth in 4 Months" />
+    <meta property="og:description" content="Explore how Impulse Digital transformed Automag India’s website into a B2B lead generation engine, achieving 48% organic traffic growth and increasing leads from 1-2 to 45-50 per month through strategic SEO." />
     <meta property="og:url" content="https://www.theimpulsedigital.com/case-studies" />
     <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
     <meta property="og:site_name" content="Impulse Digital" />
@@ -27,12 +27,38 @@ export const AutomagIndiaCaseStudyHeroSection = (): JSX.Element => {
     <meta name="twitter:card" content= "summary_large_image"  />
     <meta name="twitter:site" content="@impulsedigi" />
     <meta name="twitter:creator" content="@impulsedigi" />
-    <meta name="twitter:title" content="Digital Marketing Case Studies - Impulse Digital" />
-    <meta name="twitter:description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
+    <meta name="twitter:title" content="Automag India SEO Case Study | 2400% B2B Lead Growth in 4 Months" />
+    <meta name="twitter:description" content="Explore how Impulse Digital transformed Automag India’s website into a B2B lead generation engine, achieving 48% organic traffic growth and increasing leads from 1-2 to 45-50 per month through strategic SEO." />
     <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
     <meta name="twitter:url" content="https://www.theimpulsedigital.com/case-studies" />
     
-        </Helmet>
+    {/* Open Graph Meta Tags */}
+        <meta
+          property="og:title"
+          content="Automag India SEO Case Study | 2400% B2B Lead Growth in 4 Months"
+        />
+        <meta
+          property="og:description"
+          content="Explore how Impulse Digital transformed Automag India’s website into a B2B lead generation engine, achieving 48% organic traffic growth and increasing leads from 1-2 to 45-50 per month through strategic SEO."
+        />
+        <meta property="og:url" content="https://www.theimpulsedigital.com" />
+        <meta
+          property="og:image"
+          content="https://www.theimpulsedigital.com/Industrial%20automation%20line%20with%20robotic%20arms.png"
+        />
+        <meta property="og:type" content="website" />
+
+        <link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/automag-india/" />
+
+        {/* ✅ LCP FIX: Preload hero LCP image ASAP */}
+        <link
+          rel="preload"
+          as="image"
+          href="/rectangle-35.jpg"
+          // @ts-expect-error - TS DOM typings may not include fetchpriority yet
+          fetchpriority="high"
+        />
+    </Helmet>
          
 
       {/* ✅ Hero Section */}
