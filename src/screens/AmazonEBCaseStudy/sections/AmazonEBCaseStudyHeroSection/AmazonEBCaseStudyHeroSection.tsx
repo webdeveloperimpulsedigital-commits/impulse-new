@@ -18,19 +18,19 @@ export const AmazonEBCaseStudyHeroSection = (): JSX.Element => {
     <meta name="language" content="English" />
     <meta name="generator" content="N/A" />
     
-    <meta property="og:title" content="Digital Marketing Case Studies - Impulse Digital" />
+    <meta property="og:title" content="Amazon Employer Branding Case Study | Impulse Digital Success Story" />
     <meta property="og:description" content="Explore how Impulse Digital executed a powerful Amazon Employer Branding campaign using targeted digital strategies to enhance brand visibility and attract talent." />
-    <meta property="og:url" content="https://www.theimpulsedigital.com/case-studies" />
+    <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/amazon-eb/" />
     <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
     <meta property="og:site_name" content="Impulse Digital" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content= "summary_large_image"  />
     <meta name="twitter:site" content="@impulsedigi" />
     <meta name="twitter:creator" content="@impulsedigi" />
-    <meta name="twitter:title" content="Digital Marketing Case Studies - Impulse Digital" />
+    <meta name="twitter:title" content="Amazon Employer Branding Case Study | Impulse Digital Success Story" />
     <meta name="twitter:description" content="Explore how Impulse Digital executed a powerful Amazon Employer Branding campaign using targeted digital strategies to enhance brand visibility and attract talent." />
     <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-    <meta name="twitter:url" content="https://www.theimpulsedigital.com/case-studies" />
+    <meta name="twitter:url" content="https://www.theimpulsedigital.com/casestudies/amazon-eb/" />
     
     {/* Open Graph Meta Tags */}
         <meta

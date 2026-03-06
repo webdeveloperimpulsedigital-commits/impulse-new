@@ -31,7 +31,7 @@ export const CasestudiesHeroSection = (): JSX.Element => {
       <meta name="twitter:description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
       <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
       <meta name="twitter:url" content="https://www.theimpulsedigital.com/case-studies" />
-      <link rel="canonical" href="https://www.theimpulsedigital.com/services/social-media-video-production"/>
+      <link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/"/>
 
     </Helmet>
          
