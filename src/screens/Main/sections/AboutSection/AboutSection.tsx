@@ -150,7 +150,7 @@ export const AboutSection = (): JSX.Element => {
           </span>
           <br />
           <span className="font-bold text-[#543d98] lg:text-[49px] xl:text-[52px] md:text-[52px] sm:text-[26px]">
-            Where Brands Go from Seen<br></br>To Remembered
+           Where Brands <br></br>Go Beyond Ordinary
           </span>
         </h2>
       </div>
