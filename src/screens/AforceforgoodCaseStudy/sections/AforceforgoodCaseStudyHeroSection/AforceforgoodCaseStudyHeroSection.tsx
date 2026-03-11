@@ -17,7 +17,7 @@ export const AforceforgoodCaseStudyHeroSection = (): JSX.Element => {
     
     <meta property="og:title" content="How Impulse Digital Powered the ‘A Force For Good’ Campaign | Case Study" />
     <meta property="og:description" content="A case study on the ‘A Force For Good’ campaign by Impulse Digital, showcasing creative branding, storytelling, and digital marketing impact." />
-    <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/aforceforgood" />
+    <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/aforceforgood/" />
     <meta property="og:image" content="https://www.theimpulsedigital.com/ffg-main.jpg" />
     <meta property="og:site_name" content="Impulse Digital" />
     <meta property="og:type" content="website" />
@@ -27,7 +27,7 @@ export const AforceforgoodCaseStudyHeroSection = (): JSX.Element => {
     <meta name="twitter:title" content="How Impulse Digital Powered the ‘A Force For Good’ Campaign | Case Study" />
     <meta name="twitter:description" content="A case study on the ‘A Force For Good’ campaign by Impulse Digital, showcasing creative branding, storytelling, and digital marketing impact." />
     <meta name="twitter:image" content="https://www.theimpulsedigital.com/ffg-main.jpg" />
-    <meta name="twitter:url" content="https://www.theimpulsedigital.com/casestudies/aforceforgood" />
+    <meta name="twitter:url" content="https://www.theimpulsedigital.com/casestudies/aforceforgood/" />
     
     {/* Open Graph Meta Tags */}
         <meta
@@ -45,7 +45,7 @@ export const AforceforgoodCaseStudyHeroSection = (): JSX.Element => {
         />
         <meta property="og:type" content="website" />
 
-        <link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/aforceforgood" />
+        <link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/aforceforgood/" />
 
         {/* ✅ LCP FIX: Preload hero LCP image ASAP */}
         <link
