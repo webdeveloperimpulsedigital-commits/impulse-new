@@ -6,8 +6,8 @@ export const AforceforgoodCaseStudyHeroSection = (): JSX.Element => {
   return (
     <>
       <Helmet>
-    <title>Aditya Birla Group × Brut India Campaign | Force for Good Case Study</title>
-    <meta name="description" content="Discover how Impulse Digital helped Aditya Birla Group and Brut India bring the “Force for Good” campaign to life by showcasing real changemakers and generating 27M+ campaign views through impactful storytelling." />
+    <title>How Impulse Digital Powered the ‘A Force For Good’ Campaign | Case Study</title>
+    <meta name="description" content="A case study on the ‘A Force For Good’ campaign by Impulse Digital, showcasing creative branding, storytelling, and digital marketing impact." />
     <meta name="keywords" content="" />
     
     <meta name="robots" content="index, follow" />
@@ -15,28 +15,28 @@ export const AforceforgoodCaseStudyHeroSection = (): JSX.Element => {
     <meta name="language" content="English" />
     <meta name="generator" content="N/A" />
     
-    <meta property="og:title" content="Aditya Birla Group × Brut India Campaign | Force for Good Case Study" />
-    <meta property="og:description" content="Discover how Impulse Digital helped Aditya Birla Group and Brut India bring the “Force for Good” campaign to life by showcasing real changemakers and generating 27M+ campaign views through impactful storytelling." />
-    <meta property="og:url" content="https://www.theimpulsedigital.com/case-studies" />
-    <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
+    <meta property="og:title" content="How Impulse Digital Powered the ‘A Force For Good’ Campaign | Case Study" />
+    <meta property="og:description" content="A case study on the ‘A Force For Good’ campaign by Impulse Digital, showcasing creative branding, storytelling, and digital marketing impact." />
+    <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/aforceforgood" />
+    <meta property="og:image" content="https://www.theimpulsedigital.com/ffg-main.jpg" />
     <meta property="og:site_name" content="Impulse Digital" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content= "summary_large_image"  />
     <meta name="twitter:site" content="@impulsedigi" />
     <meta name="twitter:creator" content="@impulsedigi" />
-    <meta name="twitter:title" content="Aditya Birla Group × Brut India Campaign | Force for Good Case Study" />
-    <meta name="twitter:description" content="Discover how Impulse Digital helped Aditya Birla Group and Brut India bring the “Force for Good” campaign to life by showcasing real changemakers and generating 27M+ campaign views through impactful storytelling." />
-    <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-    <meta name="twitter:url" content="https://www.theimpulsedigital.com/case-studies" />
+    <meta name="twitter:title" content="How Impulse Digital Powered the ‘A Force For Good’ Campaign | Case Study" />
+    <meta name="twitter:description" content="A case study on the ‘A Force For Good’ campaign by Impulse Digital, showcasing creative branding, storytelling, and digital marketing impact." />
+    <meta name="twitter:image" content="https://www.theimpulsedigital.com/ffg-main.jpg" />
+    <meta name="twitter:url" content="https://www.theimpulsedigital.com/casestudies/aforceforgood" />
     
     {/* Open Graph Meta Tags */}
         <meta
           property="og:title"
-          content="Aditya Birla Group × Brut India Campaign | Force for Good Case Study"
+          content="How Impulse Digital Powered the ‘A Force For Good’ Campaign | Case Study"
         />
         <meta
           property="og:description"
-          content="Discover how Impulse Digital helped Aditya Birla Group and Brut India bring the “Force for Good” campaign to life by showcasing real changemakers and generating 27M+ campaign views through impactful storytelling."
+          content="A case study on the ‘A Force For Good’ campaign by Impulse Digital, showcasing creative branding, storytelling, and digital marketing impact."
         />
         <meta property="og:url" content="https://www.theimpulsedigital.com" />
         <meta
@@ -45,7 +45,7 @@ export const AforceforgoodCaseStudyHeroSection = (): JSX.Element => {
         />
         <meta property="og:type" content="website" />
 
-        <link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/brutindia" />
+        <link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/aforceforgood" />
 
         {/* ✅ LCP FIX: Preload hero LCP image ASAP */}
         <link

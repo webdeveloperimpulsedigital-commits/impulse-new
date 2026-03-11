@@ -20,8 +20,8 @@ export const ElectromechCaseStudyHeroSection = (): JSX.Element => {
     
     <meta property="og:title" content="ElectroMech Digital Transformation Case Study | 20× Lead Growth" />
     <meta property="og:description" content="Explore how Impulse Digital transformed ElectroMech’s digital ecosystem with SEO, website restructuring, and social media strategy, doubling first-page rankings, achieving 20× verified leads, and increasing engagement by 300%." />
-    <meta property="og:url" content="https://www.theimpulsedigital.com/case-studies" />
-    <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
+    <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/electromech/" />
+    <meta property="og:image" content="https://www.theimpulsedigital.com/electromech-website-revamp.png" />
     <meta property="og:site_name" content="Impulse Digital" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content= "summary_large_image"  />
@@ -29,8 +29,8 @@ export const ElectromechCaseStudyHeroSection = (): JSX.Element => {
     <meta name="twitter:creator" content="@impulsedigi" />
     <meta name="twitter:title" content="ElectroMech Digital Transformation Case Study | 20× Lead Growth" />
     <meta name="twitter:description" content="Explore how Impulse Digital transformed ElectroMech’s digital ecosystem with SEO, website restructuring, and social media strategy, doubling first-page rankings, achieving 20× verified leads, and increasing engagement by 300%." />
-    <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-    <meta name="twitter:url" content="https://www.theimpulsedigital.com/case-studies" />
+    <meta name="twitter:image" content="https://www.theimpulsedigital.com/electromech-website-revamp.png" />
+    <meta name="twitter:url" content="https://www.theimpulsedigital.com/casestudies/electromech/" />
     
     {/* Open Graph Meta Tags */}
         <meta
@@ -41,7 +41,7 @@ export const ElectromechCaseStudyHeroSection = (): JSX.Element => {
           property="og:description"
           content="Explore how Impulse Digital transformed ElectroMech’s digital ecosystem with SEO, website restructuring, and social media strategy, doubling first-page rankings, achieving 20× verified leads, and increasing engagement by 300%."
         />
-        <meta property="og:url" content="https://www.theimpulsedigital.com" />
+        <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/electromech/" />
         <meta
           property="og:image"
           content="https://www.theimpulsedigital.com/electromech-website-revamp.png"

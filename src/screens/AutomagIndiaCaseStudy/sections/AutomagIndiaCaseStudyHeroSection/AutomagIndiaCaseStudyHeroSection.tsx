@@ -20,8 +20,8 @@ export const AutomagIndiaCaseStudyHeroSection = (): JSX.Element => {
     
     <meta property="og:title" content="Automag India SEO Case Study | 2400% B2B Lead Growth in 4 Months" />
     <meta property="og:description" content="Explore how Impulse Digital transformed Automag India’s website into a B2B lead generation engine, achieving 48% organic traffic growth and increasing leads from 1-2 to 45-50 per month through strategic SEO." />
-    <meta property="og:url" content="https://www.theimpulsedigital.com/case-studies" />
-    <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
+    <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/automag-india/" />
+    <meta property="og:image" content="https://www.theimpulsedigital.com/Industrial%20automation%20line%20with%20robotic%20arms.png" />
     <meta property="og:site_name" content="Impulse Digital" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content= "summary_large_image"  />
@@ -29,8 +29,8 @@ export const AutomagIndiaCaseStudyHeroSection = (): JSX.Element => {
     <meta name="twitter:creator" content="@impulsedigi" />
     <meta name="twitter:title" content="Automag India SEO Case Study | 2400% B2B Lead Growth in 4 Months" />
     <meta name="twitter:description" content="Explore how Impulse Digital transformed Automag India’s website into a B2B lead generation engine, achieving 48% organic traffic growth and increasing leads from 1-2 to 45-50 per month through strategic SEO." />
-    <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-    <meta name="twitter:url" content="https://www.theimpulsedigital.com/case-studies" />
+    <meta name="twitter:image" content="https://www.theimpulsedigital.com/Industrial%20automation%20line%20with%20robotic%20arms.png" />
+    <meta name="twitter:url" content="https://www.theimpulsedigital.com/casestudies/automag-india/" />
     
     {/* Open Graph Meta Tags */}
         <meta

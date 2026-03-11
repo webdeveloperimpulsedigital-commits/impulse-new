@@ -20,8 +20,8 @@ export const HemCasestudyHeroSection = (): JSX.Element => {
         
         <meta property="og:title" content="Global SEO Strategy for HEM Incense | Impulse Digital Case Study" />
         <meta property="og:description" content="Explore how Impulse Digital helped HEM Incense achieve 300% more first-page rankings and 5× organic traffic with technical SEO and multi-country websites." />
-        <meta property="og:url" content="https://www.theimpulsedigital.com/case-studies" />
-        <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
+        <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/hem/" />
+        <meta property="og:image" content="https://www.theimpulsedigital.com/13_HEM.jpg" />
         <meta property="og:site_name" content="Impulse Digital" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content= "summary_large_image"  />
@@ -29,8 +29,8 @@ export const HemCasestudyHeroSection = (): JSX.Element => {
         <meta name="twitter:creator" content="@impulsedigi" />
         <meta name="twitter:title" content="Global SEO Strategy for HEM Incense | Impulse Digital Case Study" />
         <meta name="twitter:description" content="Explore how Impulse Digital helped HEM Incense achieve 300% more first-page rankings and 5× organic traffic with technical SEO and multi-country websites." />
-        <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-        <meta name="twitter:url" content="https://www.theimpulsedigital.com/case-studies" />
+        <meta name="twitter:image" content="https://www.theimpulsedigital.com/13_HEM.jpg" />
+        <meta name="twitter:url" content="https://www.theimpulsedigital.com/casestudies/hem/" />
         
         {/* Open Graph Meta Tags */}
             <meta
@@ -41,10 +41,10 @@ export const HemCasestudyHeroSection = (): JSX.Element => {
               property="og:description"
               content="Explore how Impulse Digital helped HEM Incense achieve 300% more first-page rankings and 5× organic traffic with technical SEO and multi-country websites."
             />
-            <meta property="og:url" content="https://www.theimpulsedigital.com" />
+            <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/hem/" />
             <meta
               property="og:image"
-              content="https://www.theimpulsedigital.com/lg-hing-packshot.png"
+              content="https://www.theimpulsedigital.com/13_HEM.jpg"
             />
             <meta property="og:type" content="website" />
     

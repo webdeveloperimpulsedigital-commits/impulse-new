@@ -9,28 +9,29 @@ export const MastercardCaseStudyHeroSection = (): JSX.Element => {
     <> 
       {/* ✅ SEO Meta Tags */}
     <Helmet>
-        <meta name="description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
+        <meta name="description" content="See how Mastercard used WhatsApp marketing and cluster-head influence to drive merchant engagement, achieving a 90.9% response rate and 101 product inquiries." />
     <meta name="keywords" content="" />
-    <title>Digital Marketing Case Studies - Impulse Digital</title>
+    <title>Mastercard WhatsApp Marketing Case Study | 90.9% Merchant Response Rate</title>
     
     <meta name="robots" content="index, follow" />
     <meta name="revisit-after" content="1 day" />
     <meta name="language" content="English" />
     <meta name="generator" content="N/A" />
     
-    <meta property="og:title" content="Digital Marketing Case Studies - Impulse Digital" />
-    <meta property="og:description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
-    <meta property="og:url" content="https://www.theimpulsedigital.com/case-studies" />
-    <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
+    <meta property="og:title" content="Mastercard WhatsApp Marketing Case Study | 90.9% Merchant Response Rate" />
+    <meta property="og:description" content="See how Mastercard used WhatsApp marketing and cluster-head influence to drive merchant engagement, achieving a 90.9% response rate and 101 product inquiries." />
+    <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/mastercard/" />
+    <meta property="og:image" content="https://www.theimpulsedigital.com/14_mastercard.jpg" />
     <meta property="og:site_name" content="Impulse Digital" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content= "summary_large_image"  />
     <meta name="twitter:site" content="@impulsedigi" />
     <meta name="twitter:creator" content="@impulsedigi" />
-    <meta name="twitter:title" content="Digital Marketing Case Studies - Impulse Digital" />
-    <meta name="twitter:description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
-    <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-    <meta name="twitter:url" content="https://www.theimpulsedigital.com/case-studies" />
+    <meta name="twitter:title" content="Mastercard WhatsApp Marketing Case Study | 90.9% Merchant Response Rate" />
+    <meta name="twitter:description" content="See how Mastercard used WhatsApp marketing and cluster-head influence to drive merchant engagement, achieving a 90.9% response rate and 101 product inquiries." />
+    <meta name="twitter:image" content="https://www.theimpulsedigital.com/14_mastercard.jpg" />
+    <meta name="twitter:url" content="https://www.theimpulsedigital.com/casestudies/mastercard/" />
+     <link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/mastercard/" />
     
   </Helmet>
   

@@ -20,8 +20,8 @@ export const LaljeeGodhooCaseStudyHeroSection = (): JSX.Element => {
         
         <meta property="og:title" content="LG Hing Brand Campaign Case Study: Empowering Women | Impulse Digital" />
         <meta property="og:description" content="Read how LG Hing’s purpose-driven Diwali campaign empowered women entrepreneurs and achieved 507K impressions with strong engagement." />
-        <meta property="og:url" content="https://www.theimpulsedigital.com/case-studies" />
-        <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
+        <meta property="og:url" content="http://theimpulsedigital.com/casestudies/laljee-godhoo/" />
+        <meta property="og:image" content="https://www.theimpulsedigital.com/lg-hing-packshot.png" />
         <meta property="og:site_name" content="Impulse Digital" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content= "summary_large_image"  />
@@ -29,8 +29,8 @@ export const LaljeeGodhooCaseStudyHeroSection = (): JSX.Element => {
         <meta name="twitter:creator" content="@impulsedigi" />
         <meta name="twitter:title" content="LG Hing Brand Campaign Case Study: Empowering Women | Impulse Digital" />
         <meta name="twitter:description" content="Read how LG Hing’s purpose-driven Diwali campaign empowered women entrepreneurs and achieved 507K impressions with strong engagement." />
-        <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-        <meta name="twitter:url" content="https://www.theimpulsedigital.com/case-studies" />
+        <meta name="twitter:image" content="https://www.theimpulsedigital.com/lg-hing-packshot.png" />
+        <meta name="twitter:url" content="http://theimpulsedigital.com/casestudies/laljee-godhoo/" />
         
         {/* Open Graph Meta Tags */}
             <meta
@@ -41,7 +41,7 @@ export const LaljeeGodhooCaseStudyHeroSection = (): JSX.Element => {
               property="og:description"
               content="Read how LG Hing’s purpose-driven Diwali campaign empowered women entrepreneurs and achieved 507K impressions with strong engagement."
             />
-            <meta property="og:url" content="https://www.theimpulsedigital.com" />
+            <meta property="og:url" content="http://theimpulsedigital.com/casestudies/laljee-godhoo/" />
             <meta
               property="og:image"
               content="https://www.theimpulsedigital.com/lg-hing-packshot.png"

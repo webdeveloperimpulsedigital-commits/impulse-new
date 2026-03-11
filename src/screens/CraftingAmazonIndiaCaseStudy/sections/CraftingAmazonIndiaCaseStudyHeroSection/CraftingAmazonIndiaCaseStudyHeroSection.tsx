@@ -18,19 +18,19 @@ export const CraftingAmazonIndiaCaseStudyHeroSection = (): JSX.Element => {
     <meta name="language" content="English" />
     <meta name="generator" content="N/A" />
     
-    <meta property="og:title" content="Digital Marketing Case Studies - Impulse Digital" />
+    <meta property="og:title" content="Employer Value Proposition Case Study for Amazon India | Impulse Digital" />
     <meta property="og:description" content="Explore how Impulse Digital crafted a compelling Employer Value Proposition for Amazon India to strengthen employer branding and attract top talent." />
-    <meta property="og:url" content="https://www.theimpulsedigital.com/case-studies" />
+    <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/crafting-the-employer-value-proposition-for-amazon-india/" />
     <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
     <meta property="og:site_name" content="Impulse Digital" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content= "summary_large_image"  />
     <meta name="twitter:site" content="@impulsedigi" />
     <meta name="twitter:creator" content="@impulsedigi" />
-    <meta name="twitter:title" content="Digital Marketing Case Studies - Impulse Digital" />
+    <meta name="twitter:title" content="Employer Value Proposition Case Study for Amazon India | Impulse Digital" />
     <meta name="twitter:description" content="Explore how Impulse Digital executed a powerful Amazon Employer Branding campaign using targeted digital strategies to enhance brand visibility and attract talent." />
     <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-    <meta name="twitter:url" content="https://www.theimpulsedigital.com/case-studies" />
+    <meta name="twitter:url" content="https://www.theimpulsedigital.com/casestudies/crafting-the-employer-value-proposition-for-amazon-india/" />
     
     {/* Open Graph Meta Tags */}
         <meta

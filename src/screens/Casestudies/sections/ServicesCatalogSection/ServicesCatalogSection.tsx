@@ -155,7 +155,7 @@ const caseStudiesData = [
     tags: ["Product Design"],
     tall: true,
     corner: false,
-    link: "/casestudies/amazon-eb",
+    link: "/casestudies/amazon-eb/",
   },
   {
     id: 2,
@@ -164,7 +164,7 @@ const caseStudiesData = [
     tags: ["Packaging"],
     tall: false,
     corner: true,
-    link: "/casestudies/crafting-the-employer-value-proposition-for-amazon-india",
+    link: "/casestudies/crafting-the-employer-value-proposition-for-amazon-india/",
   },
   
   {
@@ -174,7 +174,7 @@ const caseStudiesData = [
     tags: ["Packaging"],
     tall: true,
     corner: false,
-    link: "/casestudies/aforceforgood",
+    link: "/casestudies/aforceforgood/",
   },
 
   {
@@ -184,7 +184,7 @@ const caseStudiesData = [
     tags: ["Packaging"],
     tall: false,
     corner: true,
-    link: "/casestudies/brutindia",
+    link: "/casestudies/brutindia/",
   },
 
   {
@@ -194,7 +194,7 @@ const caseStudiesData = [
     tags: ["Branding"],
     tall: true,
     corner: false,
-    link: "/casestudies/grasim-pulp-and-fibre",
+    link: "/casestudies/grasim-pulp-and-fibre/",
   },
 
 
@@ -206,7 +206,7 @@ const caseStudiesData = [
     tags: ["Packaging"],
     tall: false,
     corner: true,
-    link: "/casestudies/fourseforgood",
+    link: "/casestudies/fourseforgood/",
     
   },
   {
@@ -216,7 +216,7 @@ const caseStudiesData = [
     tags: ["Packaging"],
     tall: true,
     corner: false,
-    link: "/casestudies/hul",
+    link: "/casestudies/hul/",
   },
   {
     id: 8,
@@ -225,7 +225,7 @@ const caseStudiesData = [
     tags: ["Branding"],
     tall: false,
     corner: false,
-    link: "/casestudies/automag-india",
+    link: "/casestudies/automag-india/",
   },
   {
     id: 9,
@@ -234,7 +234,7 @@ const caseStudiesData = [
     tags: ["Packaging"],
     tall: true,
     corner: true,
-    link: "/casestudies/atrac-engine-parts",
+    link: "/casestudies/atrac-engine-parts/",
   },  
   {
     id: 10,
@@ -243,7 +243,7 @@ const caseStudiesData = [
     tags: ["Product Design"],
     tall: false,
     corner: false,
-    link: "/casestudies/electromech",
+    link: "/casestudies/electromech/",
   },
   {
     id: 11,
@@ -252,7 +252,7 @@ const caseStudiesData = [
     tags: ["Packaging"],
     tall: true,
     corner: true,
-    link: "/casestudies/hem",
+    link: "/casestudies/hem/",
   },
   {
     id: 12,
@@ -261,7 +261,7 @@ const caseStudiesData = [
     tags: ["Branding"],
     tall: false,
     corner: false,
-    link: "/casestudies/laljee-godhoo",
+    link: "/casestudies/laljee-godhoo/",
   },
   {
     id: 13,
@@ -270,7 +270,7 @@ const caseStudiesData = [
     tags: ["Creative"],
     tall: true,
     corner: false,
-    link: "/casestudies/mastercard",
+    link: "/casestudies/mastercard/",
   },
   {
     id: 14,
@@ -279,7 +279,7 @@ const caseStudiesData = [
     tags: ["Branding"],
     tall: false,
     corner: true,
-    link: "/casestudies/d-mart",
+    link: "/casestudies/d-mart/",
   },
   {
     id: 15,
@@ -288,7 +288,7 @@ const caseStudiesData = [
     tags: ["Creative"],
     tall: true,
     corner: true,
-    link: "/casestudies/shree-rubber-works",
+    link: "/casestudies/shree-rubber-works/",
   },
   {
     id: 16,
@@ -297,7 +297,7 @@ const caseStudiesData = [
     tags: ["Product Design"],
     tall: false,
     corner: false,
-    link: "/casestudies/keva",
+    link: "/casestudies/keva/",
   },
   {
     id: 17,
@@ -306,7 +306,7 @@ const caseStudiesData = [
     tags: ["Packaging"],
     tall: false,
     corner: true,
-    link: "/casestudies/vendiman",
+    link: "/casestudies/vendiman/",
   }, 
   {
     id: 18,
@@ -315,7 +315,7 @@ const caseStudiesData = [
     tags: ["Packaging"],
     tall: false,
     corner: true,
-    link: "/casestudies/rainbow-international-school",
+    link: "/casestudies/rainbow-international-school/",
   }, 
 ];
 

@@ -20,8 +20,8 @@ export const AtracEnginePartsCaseStudyHeroSection = (): JSX.Element => {
         
         <meta property="og:title" content="Atrac Engine Parts Social Media Success | Impulse Digital Case Study" />
         <meta property="og:description" content="See how Impulse Digital helped Atrac Engine Parts reposition as a manufacturer on LinkedIn, achieving 11K+ impressions and an 8.3% engagement rate." />
-        <meta property="og:url" content="https://www.theimpulsedigital.com/case-studies" />
-        <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
+        <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/atrac-engine-parts/" />
+        <meta property="og:image" content="https://www.theimpulsedigital.com/Atrac%20Engine%20Parts.JPG" />
         <meta property="og:site_name" content="Impulse Digital" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content= "summary_large_image"  />
@@ -29,8 +29,8 @@ export const AtracEnginePartsCaseStudyHeroSection = (): JSX.Element => {
         <meta name="twitter:creator" content="@impulsedigi" />
         <meta name="twitter:title" content="Atrac Engine Parts Social Media Success | Impulse Digital Case Study" />
         <meta name="twitter:description" content="See how Impulse Digital helped Atrac Engine Parts reposition as a manufacturer on LinkedIn, achieving 11K+ impressions and an 8.3% engagement rate." />
-        <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-        <meta name="twitter:url" content="https://www.theimpulsedigital.com/case-studies" />
+        <meta name="twitter:image" content="https://www.theimpulsedigital.com/Atrac%20Engine%20Parts.JPG" />
+        <meta name="twitter:url" content="https://www.theimpulsedigital.com/casestudies/atrac-engine-parts/" />
         
         {/* Open Graph Meta Tags */}
             <meta
@@ -41,7 +41,7 @@ export const AtracEnginePartsCaseStudyHeroSection = (): JSX.Element => {
               property="og:description"
               content="See how Impulse Digital helped Atrac Engine Parts reposition as a manufacturer on LinkedIn, achieving 11K+ impressions and an 8.3% engagement rate."
             />
-            <meta property="og:url" content="https://www.theimpulsedigital.com" />
+            <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/atrac-engine-parts/" />
             <meta
               property="og:image"
               content="https://www.theimpulsedigital.com/Atrac%20Engine%20Parts.JPG"

@@ -20,8 +20,8 @@ export const DmartHeroSection = (): JSX.Element => {
         
         <meta property="og:title" content="DMart Digital Campaign Case Study | Driving Store Footfall with Social Media" />
         <meta property="og:description" content="See how a targeted social media campaign helped DMart reach 13.43 lakh students in Pune and drive store visits for its Trendy College Wear sale." />
-        <meta property="og:url" content="https://www.theimpulsedigital.com/case-studies" />
-        <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
+        <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/d-mart/" />
+        <meta property="og:image" content="https://www.theimpulsedigital.com/dmart-challenge.png" />
         <meta property="og:site_name" content="Impulse Digital" />
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content= "summary_large_image"  />
@@ -29,8 +29,8 @@ export const DmartHeroSection = (): JSX.Element => {
         <meta name="twitter:creator" content="@impulsedigi" />
         <meta name="twitter:title" content="DMart Digital Campaign Case Study | Driving Store Footfall with Social Media" />
         <meta name="twitter:description" content="See how a targeted social media campaign helped DMart reach 13.43 lakh students in Pune and drive store visits for its Trendy College Wear sale." />
-        <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-        <meta name="twitter:url" content="https://www.theimpulsedigital.com/case-studies" />
+        <meta name="twitter:image" content="https://www.theimpulsedigital.com/dmart-challenge.png" />
+        <meta name="twitter:url" content="https://www.theimpulsedigital.com/casestudies/d-mart/" />
         
         {/* Open Graph Meta Tags */}
             <meta
@@ -41,7 +41,7 @@ export const DmartHeroSection = (): JSX.Element => {
               property="og:description"
               content="See how a targeted social media campaign helped DMart reach 13.43 lakh students in Pune and drive store visits for its Trendy College Wear sale."
             />
-            <meta property="og:url" content="https://www.theimpulsedigital.com" />
+            <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/d-mart/" />
             <meta
               property="og:image"
               content="https://www.theimpulsedigital.com/dmart-challenge.png"

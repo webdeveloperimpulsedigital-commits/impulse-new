@@ -20,8 +20,8 @@ export const GrasimPulpandFibreCaseStudyHeroSection = (): JSX.Element => {
     
     <meta property="og:title" content="Grasim Pulp and Fibre LinkedIn Growth Case Study | Impulse Digital" />
     <meta property="og:description" content="See how Impulse Digital enhanced Grasim Pulp and Fibre’s LinkedIn presence with data-driven content strategies, achieving 67% higher reach, 34K+ likes, 1,300+ comments, and engagement rates well above industry benchmarks." />
-    <meta property="og:url" content="https://www.theimpulsedigital.com/case-studies" />
-    <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
+    <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/grasim-pulp-and-fibre/" />
+    <meta property="og:image" content="https://www.theimpulsedigital.com/Grasim%20Pulp%20and%20Fibre.png" />
     <meta property="og:site_name" content="Impulse Digital" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content= "summary_large_image"  />
@@ -29,8 +29,8 @@ export const GrasimPulpandFibreCaseStudyHeroSection = (): JSX.Element => {
     <meta name="twitter:creator" content="@impulsedigi" />
     <meta name="twitter:title" content="Grasim Pulp and Fibre LinkedIn Growth Case Study | Impulse Digital" />
     <meta name="twitter:description" content="See how Impulse Digital enhanced Grasim Pulp and Fibre’s LinkedIn presence with data-driven content strategies, achieving 67% higher reach, 34K+ likes, 1,300+ comments, and engagement rates well above industry benchmarks." />
-    <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-    <meta name="twitter:url" content="https://www.theimpulsedigital.com/case-studies" />
+    <meta name="twitter:image" content="https://www.theimpulsedigital.com/Grasim%20Pulp%20and%20Fibre.png" />
+    <meta name="twitter:url" content="https://www.theimpulsedigital.com/casestudies/grasim-pulp-and-fibre/" />
     
     {/* Open Graph Meta Tags */}
         <meta
@@ -41,7 +41,7 @@ export const GrasimPulpandFibreCaseStudyHeroSection = (): JSX.Element => {
           property="og:description"
           content="See how Impulse Digital enhanced Grasim Pulp and Fibre’s LinkedIn presence with data-driven content strategies, achieving 67% higher reach, 34K+ likes, 1,300+ comments, and engagement rates well above industry benchmarks."
         />
-        <meta property="og:url" content="https://www.theimpulsedigital.com" />
+        <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/grasim-pulp-and-fibre/" />
         <meta
           property="og:image"
           content="https://www.theimpulsedigital.com/Grasim%20Pulp%20and%20Fibre.png"

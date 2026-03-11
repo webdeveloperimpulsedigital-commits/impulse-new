@@ -17,7 +17,7 @@ export const Fourse4goodCaseStudyHeroSection = (): JSX.Element => {
     
     <meta property="og:title" content="Fours for Good Campaign Case Study | Aditya Birla Group × Cricket Impact" />
     <meta property="og:description" content="Explore how Impulse Digital executed Aditya Birla Group’s “Fours for Good” campaign during the Border-Gavaskar Trophy, converting cricket moments into real impact with 200+ children receiving professional training and 8.1M+ digital impressions." />
-    <meta property="og:url" content="https://www.theimpulsedigital.com/case-studies" />
+    <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/fourseforgood/" />
     <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
     <meta property="og:site_name" content="Impulse Digital" />
     <meta property="og:type" content="website" />
@@ -27,7 +27,7 @@ export const Fourse4goodCaseStudyHeroSection = (): JSX.Element => {
     <meta name="twitter:title" content="Fours for Good Campaign Case Study | Aditya Birla Group × Cricket Impact" />
     <meta name="twitter:description" content="Explore how Impulse Digital executed Aditya Birla Group’s “Fours for Good” campaign during the Border-Gavaskar Trophy, converting cricket moments into real impact with 200+ children receiving professional training and 8.1M+ digital impressions." />
     <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-    <meta name="twitter:url" content="https://www.theimpulsedigital.com/case-studies" />
+    <meta name="twitter:url" content="https://www.theimpulsedigital.com/casestudies/fourseforgood/" />
     
     {/* Open Graph Meta Tags */}
         <meta
@@ -45,7 +45,7 @@ export const Fourse4goodCaseStudyHeroSection = (): JSX.Element => {
         />
         <meta property="og:type" content="website" />
 
-        <link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/fourseforgood/" />
+        <link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/fourseforgood/fourseforgood/" />
 
         {/* ✅ LCP FIX: Preload hero LCP image ASAP */}
         <link
