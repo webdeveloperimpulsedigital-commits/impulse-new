@@ -15,91 +15,63 @@ interface JobPosition {
 export const OpenPositionsSection = (): JSX.Element => {
   const jobPositions: JobPosition[] = [
     {
-      id: "social-media-manager",
-      title: "Social Media Manager",
-      department: "Social Media",
+      id: "content-writer",
+      title: "Social Media Content Writer",
+      department: "Content",
       location: "Mumbai, India",
       type: "Full-time",
-      experience: "4–6 years",
+      experience: "2+ years",
       description:
-        "We are looking for an experienced Social Media Manager who understands platform behaviour, digital storytelling, and brand communication. The ideal candidate should be able to plan, create, and execute social media strategies that drive engagement, visibility, and growth across multiple platforms.",
+        "We’re looking for someone who can write engaging social media content. Your job is simple: take a clear idea and turn it into content people actually want to read, watch, and engage with. You will work closely with our Social Media Head and focus on executing content through strong writing.",
       responsibilities: [
-        "Develop and execute platform-specific social media strategies for brand awareness and engagement.",
-        "Plan, organise, and manage monthly content calendars.",
-        "Coordinate with design, content, and marketing teams for cohesive brand communication.",
-        "Oversee daily posting, scheduling, and performance tracking across platforms.",
-        "Analyse insights and analytics to optimise content performance.",
-        "Stay updated with platform updates, algorithms, and social media trends.",
-        "Manage comments, messages, and ORM responses.",
-        "Contribute creative ideas for campaigns and social-first concepts.",
-        "Monitor competitors and industry trends."
+        "Write Instagram captions, reel/video scripts, carousel content, and LinkedIn posts.",
+        "Convert briefs into structured content formats.",
+        "Adapt one idea into multiple formats (reel, carousel, LinkedIn).",
+        "Work across industries like Corporate/B2B, BFSI, Education, and Consumer brands.",
+        "Create engaging hooks and scroll-stopping content.",
+        "Maintain clarity, structure, and avoid fluff.",
+        "Take feedback and iterate quickly."
       ],
       requirements: [
-        "Minimum 4–6 years of social media management experience (agency preferred).",
-        "Strong understanding of platform algorithms and best practices.",
-        "Good communication and copywriting abilities.",
-        "Ability to analyse data and create actionable strategies.",
-        "Basic knowledge of Canva or creative briefing tools."
+        "Strong English writing skills (clear, simple, engaging).",
+        "Understanding of social media hooks and engagement patterns.",
+        "Ability to structure short-form and medium-form content.",
+        "Good grasp of platform tone (LinkedIn vs Instagram).",
+        "Basic Hindi/Marathi understanding is a plus.",
+        "Ability to follow briefs and adapt across industries."
       ]
     },
 
     {
-      id: "video-editor",
-      title: "Video Editor",
-      department: "Creative",
+      id: "seo-executive",
+      title: "SEO Executive",
+      department: "SEO",
       location: "Mumbai, India",
       type: "Full-time",
-      experience: "4+ years",
+      experience: "2–3 years",
       description:
-        "We’re looking for an experienced Video Editor who is well-versed with modern editing techniques, the latest industry tools, and emerging technologies. The ideal candidate should be able to create high-quality, engaging video content tailored for digital platforms.",
+        "We are looking for an SEO Executive who can manage end-to-end SEO activities, improve website rankings, and drive organic traffic growth. The candidate should have strong knowledge of on-page, off-page, and technical SEO along with hands-on experience in SEO tools.",
       responsibilities: [
-        "Edit and finalise high-quality videos for social media, campaigns, ads, and branded content.",
-        "Collaborate with the creative team to bring concepts to life.",
-        "Use modern editing styles, effects, transitions, and storytelling methods.",
-        "Handle raw footage, sound, colour grading, motion graphics, and exports.",
-        "Stay updated with AI tools, editing plugins, and industry trends.",
-        "Ensure timely delivery while maintaining quality.",
-        "Organise files, maintain backups, and manage workflows."
+        "Perform keyword research, competitor analysis, and search intent analysis.",
+        "Execute on-page SEO (meta tags, headings, internal linking, schema).",
+        "Plan and implement off-page SEO strategies and link building.",
+        "Conduct technical SEO audits and coordinate fixes.",
+        "Monitor performance using Google Analytics and Search Console.",
+        "Track rankings, traffic, and SEO KPIs.",
+        "Optimize website structure, speed, and mobile performance.",
+        "Collaborate with content team for SEO-friendly content.",
+        "Stay updated with SEO trends and Google algorithm updates."
       ],
       requirements: [
-        "Minimum 4 years of professional editing experience.",
-        "Strong command of Adobe Premiere Pro, Final Cut Pro, After Effects, etc.",
-        "Familiarity with AI editing workflows and plugins.",
-        "Strong sense of pacing, audio syncing, colour correction, and storytelling.",
-        "Ability to work independently and collaboratively.",
-        "Portfolio showcasing past editing work.",
-        "Bonus: Knowledge of videography."
+        "2–3 years of SEO experience.",
+        "Strong understanding of On-page, Off-page, and Technical SEO.",
+        "Experience with tools like Ahrefs, SEMrush, Screaming Frog.",
+        "Knowledge of Google Analytics and Search Console.",
+        "Basic HTML and schema markup understanding.",
+        "Strong analytical and problem-solving skills.",
+        "Good communication and teamwork."
       ]
-    },
-
-    // ⭐ NEW COPYWRITER POSITION ADDED HERE
-    // {
-    //   id: "copywriter",
-    //   title: "Copywriter",
-    //   department: "Content",
-    //   location: "Mumbai, India",
-    //   type: "Full-time",
-    //   experience: "2+ years",
-    //   description:
-    //     "Elevate our current copy game to new heights. We’re looking for someone whose words are rooted in research, insight, relevance, and a dash of wit. Your copy should not only earn client praise but also drive measurable engagement across content assets and deliver better results for paid campaigns.",
-    //   responsibilities: [
-    //     "Work on 8+ brands in parallel for tactical campaigns and ongoing projects.",
-    //     "Assist the strategy team with 4+ pitches every month.",
-    //     "Guide a team of 2+ interns on copy and content tasks.",
-    //     "Create hero campaign copy monthly in collaboration with creative & social teams.",
-    //     "Act as a quality controller for all internal content assets.",
-    //     "Deliver fresh, insight-driven, creative copy for multiple platforms.",
-    //     "Support pitch decks with strong narratives and messaging structures."
-    //   ],
-    //   requirements: [
-    //     "Exceptional written and verbal communication skills.",
-    //     "A passion for storytelling and a flair for creativity.",
-    //     "Ability to meet deadlines without breaking a sweat.",
-    //     "Experience in copywriting across platforms is a strong advantage.",
-    //     "Minimum 2 years of experience in an agency environment.",
-    //     "High attention to detail and proofreading ability."
-    //   ]
-    // }
+    }
   ];
 
   return (
@@ -188,11 +160,11 @@ export const OpenPositionsSection = (): JSX.Element => {
               {/* Apply Button */}
               <Button className="w-[250px] h-[44px] group inline-flex items-center gap-2 px-4 py-6 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border-[#543d98] hover:border hover:border-[#543d98]">
                 <a
-  href="#application-form"
-  className="font-bold text-white text-sm md:text-base group-hover:text-[#543d98] transition-colors duration-300"
->
-  Apply Now
-</a>
+                  href="#application-form"
+                  className="font-bold text-white text-sm md:text-base group-hover:text-[#543d98] transition-colors duration-300"
+                >
+                  Apply Now
+                </a>
 
                 <img
                   src="/button-icon.svg"
