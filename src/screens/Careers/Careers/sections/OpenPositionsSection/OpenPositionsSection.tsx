@@ -20,7 +20,7 @@ export const OpenPositionsSection = (): JSX.Element => {
       department: "Content",
       location: "Mumbai, India",
       type: "Full-time",
-      experience: "2+ years",
+      experience: "4+ years",
       description:
         "We’re looking for someone who can write engaging social media content. Your job is simple: take a clear idea and turn it into content people actually want to read, watch, and engage with. You will work closely with our Social Media Head and focus on executing content through strong writing.",
       responsibilities: [
