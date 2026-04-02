@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     
-    <!-- Viewport (improved for mobile) -->
+    <!-- Viewport -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!-- Favicon -->
@@ -12,7 +12,11 @@
     <!-- Manifest -->
     <link rel="manifest" href="/site.webmanifest" />
 
-    <!-- Google Fonts (optimized loading) -->
+    <!-- Preconnect for Fonts (Performance Boost) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Google Fonts -->
     <link
       rel="preload"
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap"
@@ -28,15 +32,6 @@
 
     <!-- Tailwind CSS -->
     <link href="/tailwind.css" rel="stylesheet" />
-
-    <!-- Google Analytics (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EFFQ2YYFN8"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag("js", new Date());
-      gtag("config", "G-EFFQ2YYFN8");
-    </script>
 
     <!-- Google Tag Manager -->
     <script>
@@ -55,15 +50,20 @@
   </head>
 
   <body>
+
     <!-- Google Tag Manager (noscript) -->
     <noscript>
-      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4TW43X3"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe>
+      <iframe 
+        src="https://www.googletagmanager.com/ns.html?id=GTM-M4TW43X3"
+        height="0" 
+        width="0" 
+        style="display:none;visibility:hidden">
+      </iframe>
     </noscript>
 
     <div id="app"></div>
 
-    <!-- SPA Entry -->
+    <!-- React App Entry -->
     <script type="module" src="/src/index.tsx"></script>
 
     <!-- ZOHO SALESIQ -->
