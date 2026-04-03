@@ -1,5 +1,3 @@
-import React from "react";
-
 interface EbookItem {
   id: string;
   title: string;
@@ -16,7 +14,7 @@ export const Ebook = (): JSX.Element => {
       description:
         "Understand how the COVID19 lockdown accelerated digital adoption, reshaped industries, and influenced consumer behavior across platforms.",
       image: "/ID_Banner-11.jpg",
-      pdf: "/pdfs/covid-digital-transformation.pdf",
+      pdf: "/pdfs/Covid-19-Digital-Transformation.pdf",
     },
     {
       id: "covid-consumer-behaviour",
@@ -24,7 +22,7 @@ export const Ebook = (): JSX.Element => {
       description:
         "Explore how COVID19 impacted purchasing behavior, digital usage trends, and what it means for brands in the post-pandemic world.",
       image: "/ebook-baner6.jpg",
-      pdf: "/pdfs/covid-consumer-behaviour.pdf",
+      pdf: "/pdfs/How-Covid-Has-Changed-Consumer-Behaviour.pdf",
     },
   ];
 
