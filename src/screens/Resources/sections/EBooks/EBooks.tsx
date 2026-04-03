@@ -22,7 +22,7 @@ export const Ebook = (): JSX.Element => {
       description:
         "Explore how COVID19 impacted purchasing behavior, digital usage trends, and what it means for brands in the post-pandemic world.",
       image: "/ebook-baner6.jpg",
-      pdf: "/pdfs/How-Covid-Has-Changed-Consumer-Behaviour.pdf",
+      pdf: "/pdfs/Covid-Has-Changed-Consumer-Behaviour.pdf",
     },
   ];
 
