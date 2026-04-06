@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import Header from "../../../../components/layout/Header";
 
 export const SocialMediaMarketingHeroSection = (): JSX.Element => {
-  const heroTextLines = ["SEO AGENCY "];
+  const heroTextLines = ["SEO AGENCY IN THANE"];
 
   return (
     <>
