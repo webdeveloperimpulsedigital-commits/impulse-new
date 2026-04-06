@@ -223,6 +223,7 @@ export const BrandVisionSection = (): JSX.Element => {
         {/* Body copy */}
         <div className="text-left mb-12">
           <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[12px] lg:text-[24px] text-[#030019]">We go beyond keywords and backlinks to build sustainable visibility as a leading SEO company in Thane. Our team dives deep into your audience’s search intent, competitor landscape, and on-page performance to create strategies that work smarter, not louder. As a results-driven SEO agency, every technical and creative improvement we implement is designed to strengthen your digital presence. From metadata to meaningful content, Impulse ensures your brand gets found and chosen. Our SEO services in Thane are aligned with your business goals, not vanity metrics, so every improvement translates into measurable growth. Whether you're looking for the best SEO company in Thane or a partner that focuses on long-term success, we bring strategy and execution together seamlessly. Our goal is simple: to help you rank higher, reach further, and stay relevant. With Impulse, your SEO is optimized for both today and tomorrow.</p>
+           <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[12px] lg:text-[24px] text-[#030019]">Our goal is simple: to help you rank higher, reach further, and stay relevant. With Impulse, your SEO is optimized for both today and tomorrow.</p>
         </div>
       </div>
 
