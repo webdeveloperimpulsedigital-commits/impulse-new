@@ -3,14 +3,14 @@ import { Helmet } from 'react-helmet-async';
 import Header from "../../../../components/layout/Header";
 
 export const SocialMediaMarketingHeroSection = (): JSX.Element => {
-  const heroTextLines = ["SEARCH ENGINE OPTIMIZATION"];
+  const heroTextLines = ["SEO AGENCY IN THANE"];
 
   return (
     <>
       {/* ✅ SEO Meta Tags */}
  <Helmet> 
-      <meta name="description" content="Impulse Digital is the best SEO company in Thane that offers complete organic SEO services for your business such as website SEO audit, keyword analysis, onpage & offpage seo, link building, monitoring web traffic, content writing." />
-      <meta name="keywords" content="seo company in thane, seo services, mumbai, search engine optimization services, seo agency" />
+      <meta name="description" content="Impulse Digital is a trusted SEO company in Thane offering SEO services such as website audits, keyword research, link building and content strategy. Choose the best SEO agency in Thane for results." />
+      <meta name="keywords" content="seo company in thane, seo services, mumbai, search engine optimization services, seo agency in thane" />
       <title>SEO Company in Thane | SEO Services | Impulse Digital</title>
 
       <meta name="robots" content="index, follow" />
@@ -19,7 +19,7 @@ export const SocialMediaMarketingHeroSection = (): JSX.Element => {
       <meta name="generator" content="N/A" />
 
       <meta property="og:title" content="SEO Company in Thane | SEO Services | Impulse Digital" />
-      <meta property="og:description" content="Impulse Digital is the best SEO company in Thane that offers complete organic SEO services for your business such as website SEO audit, keyword analysis, onpage & offpage seo, link building, monitoring web traffic, content writing." />
+      <meta property="og:description" content="Impulse Digital is a trusted SEO company in Thane offering SEO services such as website audits, keyword research, link building and content strategy. Choose the best SEO agency in Thane for results." />
       <meta property="og:url" content="hhttps://www.theimpulsedigital.com/services/search-engine-optimization" />
       <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
       <meta property="og:site_name" content="Impulse Digital" />
@@ -28,7 +28,7 @@ export const SocialMediaMarketingHeroSection = (): JSX.Element => {
       <meta name="twitter:site" content="@impulsedigi" />
       <meta name="twitter:creator" content="@impulsedigi" />
       <meta name="twitter:title" content="SEO Company in Thane | SEO Services | Impulse Digital" />
-      <meta name="twitter:description" content="Impulse Digital is the best SEO company in Thane that offers complete organic SEO services for your business such as website SEO audit, keyword analysis, onpage & offpage seo, link building, monitoring web traffic, content writing." />
+      <meta name="twitter:description" content="Impulse Digital is a trusted SEO company in Thane offering SEO services such as website audits, keyword research, link building and content strategy. Choose the best SEO agency in Thane for results." />
       <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
       <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/search-engine-optimization" />
       <link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization"/>
