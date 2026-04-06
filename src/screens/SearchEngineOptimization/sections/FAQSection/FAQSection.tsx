@@ -12,7 +12,7 @@ const DEFAULT_QA: QA[] = [
   },
   {
     q: "How do you decide the right SEO mix for my business?",
-    a: "We audit your site and market, map search intent to the buyer journey, and prioritize fixes and opportunities. The plan balances content, authority building, and technical improvements based on impact and effort."
+    a: "As a leading SEO agency in Thane, we audit your site and market, map search intent to the buyer journey, and prioritize fixes and opportunities. The plan balances content, authority building, and technical improvements based on impact and effort."
   },
   {
     q: "How soon can we expect results?",
@@ -24,7 +24,7 @@ const DEFAULT_QA: QA[] = [
   },
   {
     q: "How do you measure success and report progress?",
-    a: "We set clear goals and track metrics such as qualified impressions, rankings, organic traffic, engagement, and conversion rate. Reporting is delivered at agreed intervals with insights and next steps."
+    a: "As a trusted SEO company in Thane, we set clear goals and track metrics such as qualified impressions, rankings, organic traffic, engagement, and conversion rate. Reporting is delivered at agreed intervals with insights and next steps."
   },
   {
     q: "What is Impulse Digital’s SEO process to rank in search engines?",
