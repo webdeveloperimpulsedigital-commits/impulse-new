@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 export const BrandVisionSection = (): JSX.Element => {
   const overlayText =
-    "Own your space in AI-powered discovery. Stay visible across every LLM, agent, and generative engine.";
+    "Own your space in AI-powered discovery. Stay visible across every LLM, agent, and generative engine With Our AI SEO Service.";
 
   // ================== COUNTERS ==================
   const [counters, setCounters] = useState({
@@ -101,10 +101,10 @@ export const BrandVisionSection = (): JSX.Element => {
         {/* Title */}
         <div className="mb-6 lg:mb-8 pt-10">
           <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px] ">
-           Search Intelligence 
+           AI-Driven Search
           </h2>
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-            Built With Artificial Intelligence
+          Success by an AI SEO Agency in India
           </h2>
         </div>
 
@@ -181,7 +181,7 @@ export const BrandVisionSection = (): JSX.Element => {
         {/* Body copy */}
         <div className="text-left mb-12">
           <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[12px] lg:text-[24px] text-[#030019]">
-            Your brand needs more than Google rankings - it needs visibility across the new world of AI search. At Impulse Digital, our AI SEO solutions are built to make your website appear inside AI answers, summaries, snippets, voice results, and generative platforms like ChatGPT, Gemini, Perplexity, and search generative experiences. We optimize your entire digital presence for how LLMs understand, interpret, and recommend brands - using entity optimization, structured data, GEO, AEO, and LLM-aligned content frameworks. Our approach strengthens your authority across AI ecosystems so that your brand becomes the preferred answer when users ask anything related to your business. With Impulse, you don’t just improve SEO - you future-proof your visibility in the age of AI-driven discovery.
+Your brand needs more than Google rankings; it needs visibility across the new world of AI search. At Impulse Digital, a leading AI SEO agency in India, our advanced AI SEO service is designed to make your website appear inside AI answers, summaries, snippets, voice results, and generative platforms like ChatGPT, Gemini, Perplexity, and search generative experiences. We optimize your entire digital presence for how LLMs understand, interpret, and recommend brands using entity optimization, structured data, GEO, AEO, and LLM-aligned content frameworks. Our strategic AI SEO services in India strengthen your authority across AI ecosystems so your brand becomes the preferred answer when users search for solutions related to your business. With Impulse Digital, you don’t just improve SEO, you future-proof your visibility in the age of AI-driven discovery.
           </p>
         </div>
       </div>
