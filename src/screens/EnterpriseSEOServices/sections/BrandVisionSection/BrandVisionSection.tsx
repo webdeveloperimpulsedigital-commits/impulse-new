@@ -98,16 +98,12 @@ export const BrandVisionSection = (): JSX.Element => {
       <div className="max-w-[1280px] mx-auto px-2 lg:px-5 sm:py-10">
         {/* Title */}
         <div className="mb-6 lg:mb-8 pt-10">
-          <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px] ">
-<<<<<<< HEAD
+          <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
             SEO That Keeps
-=======
-          Enterprise SEO Service That Keeps
->>>>>>> e3a529919e97fb1effbdfcc7bc1a27af3cdc9680
-          </h2>
-          <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
+          
+          <span className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
             Up With the Scale of Your Business
-          </h2>
+          </span></h2>
         </div>
 
         {/* Image + Overlay + Counters */}
@@ -182,14 +178,9 @@ export const BrandVisionSection = (): JSX.Element => {
 
         {/* Body copy */}
         <div className="text-left mb-12">
-<<<<<<< HEAD
           <p className="[font-family:'DM_Sans',Helvetica] text-[12px] lg:text-[24px] text-[#030019]">
             Large websites require large-scale thinking, and that is where we excel. We simplify complex SEO ecosystems with automation, advanced tools, and enterprise-grade strategy. From managing thousands of URLs to optimizing multilingual and multi-region content, Impulse ensures every page performs efficiently. We help large organizations achieve consistency across departments, devices, and geographies. Our approach unites marketing, technical, and content teams toward shared growth goals. Through continuous tracking and adaptive optimization, we ensure long-term performance, not temporary results. At Impulse, scale is not a challenge, it is where we thrive.
           </p>
-=======
-          <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[12px] lg:text-[24px] text-[#030019]">
-           Large websites require large-scale thinking, and that is where we excel as a trusted enterprise SEO company in India. We simplify complex SEO ecosystems with automation, advanced tools, and a strategic enterprise SEO service approach designed for scale. From managing thousands of URLs to optimizing multilingual and multi-region content, Impulse ensures every page performs efficiently. We help large organizations achieve consistency across departments, devices, and geographies. Our approach unites marketing, technical, and content teams toward shared growth goals. Through continuous tracking and adaptive optimization, we ensure long-term performance, not temporary results. At Impulse, scale is not a challenge, it is where we thrive.</p>
->>>>>>> e3a529919e97fb1effbdfcc7bc1a27af3cdc9680
         </div>
       </div>
     </section>
