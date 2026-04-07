@@ -9,9 +9,9 @@ export const ContentWritingHeroSection = (): JSX.Element => {
     <>
       {/* ✅ SEO Meta Tags */}
   <Helmet> 
-<meta name="description" content="Impulse Digital offers the best enterprise seo service backed by captivating content for your target audience. With decades of industry experience, we have a sterling track record of delivering unmatched enterprise seo services and results"/>
+<meta name="description" content="Impulse Digital is a leading enterprise SEO agency delivering result-driven enterprise SEO service in India with strategic content, technical optimization, and proven expertise to grow large-scale businesses online."/>
 <meta name="keywords" content="enterprise seo services, mumbai, india, impulse digital"/>
-<title>Best Enterprise SEO Service | Impulse Digital</title>
+<title>Best Enterprise SEO Service | Enterprise SEO Agency</title>
 
 <meta name="robots" content="index, follow"/>
 <meta name="revisit-after" content="1 day"/>
@@ -19,8 +19,8 @@ export const ContentWritingHeroSection = (): JSX.Element => {
 <meta name="generator" content="N/A"/>
 
 <meta property="og:title" content="Best Enterprise SEO Service | Impulse Digital"/>
-<meta property="og:description" content="Impulse Digital offers the best enterprise seo service backed by captivating content for your target audience. With decades of industry experience, we have a sterling track record of delivering unmatched enterprise seo services and results"/>
-<meta property="og:url" content="https://www.theimpulsedigital.com/services/search-engine-optimization/enterprise-seo-services"/>
+<meta property="og:description" content="Impulse Digital is a leading enterprise SEO agency delivering result-driven enterprise SEO service in India with strategic content, technical optimization, and proven expertise to grow large-scale businesses online."/>
+<meta property="og:url" content="https://www.theimpulsedigital.com/services/search-engine-optimization/enterprise-seo-services/"/>
 <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
 <meta property="og:site_name" content="Impulse Digital"/>
 <meta property="og:type" content="website"/>
@@ -28,10 +28,10 @@ export const ContentWritingHeroSection = (): JSX.Element => {
 <meta name="twitter:site" content="@impulsedigi"/>
 <meta name="twitter:creator" content="@impulsedigi"/>
 <meta name="twitter:title" content="Best Enterprise SEO Service | Impulse Digital"/>
-<meta name="twitter:description" content="Impulse Digital offers the best enterprise seo service backed by captivating content for your target audience. With decades of industry experience, we have a sterling track record of delivering unmatched enterprise seo services and results"/>
+<meta name="twitter:description" content="Impulse Digital is a leading enterprise SEO agency delivering result-driven enterprise SEO service in India with strategic content, technical optimization, and proven expertise to grow large-scale businesses online."/>
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
-<meta name="twitter:url" content="https://www.theimpulsedigital.com/enterprise-seo-service"/>
-<link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/enterprise-seo-services"/>
+<meta name="twitter:url" content="https://www.theimpulsedigital.com/enterprise-seo-service/"/>
+<link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/enterprise-seo-services/"/>
 </Helmet>
          
 
@@ -100,7 +100,7 @@ export const ContentWritingHeroSection = (): JSX.Element => {
                     Seo
                   </NavLink>
                   <span className="select-none">{">"}</span>
-                  <span className="text-white">Enterprise SEO </span>
+                  <span className="text-white">Enterprise SEO Service</span>
                 </nav>
             </div>
           </div>
