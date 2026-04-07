@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 export const BrandVisionSection = (): JSX.Element => {
   const overlayText =
-    "Own your space in AI-powered discovery. Stay visible across every LLM, agent, and generative engine With Our AI SEO Service.";
+    "Own your space in AI-powered discovery. Stay visible across every LLM, agent, and generative engine with our AI SEO service.";
 
   // ================== COUNTERS ==================
   const [counters, setCounters] = useState({
