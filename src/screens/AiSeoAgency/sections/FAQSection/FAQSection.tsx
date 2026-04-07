@@ -6,8 +6,8 @@ type QA = { q: string; a: string };
 
 const DEFAULT_QA: QA[] = [
   {
-    q: "What is AI SEO and how is it different from traditional SEO?",
-    a: "AI SEO applies machine learning, predictive analytics, and automation to decisions that traditionally relied on manual research. It accelerates insight discovery, improves targeting, and adapts in real time-while still maintaining the fundamentals of relevance, authority, and user experience.",
+    q: "What is AI SEO service and how is it different from traditional SEO?",
+    a: "AI SEO applies machine learning, predictive analytics, and automation to decisions that traditionally relied on manual research. Our AI SEO service accelerates insight discovery, improves targeting, and adapts in real time-while still maintaining the fundamentals of relevance, authority, and user experience.",
   },
   {
     q: "What are AEO and GEO and why do they matter now?",
@@ -15,15 +15,15 @@ const DEFAULT_QA: QA[] = [
   },
   {
     q: "How do you use AI for keyword and intent research?",
-    a: "We analyze intent clusters, entities, query patterns, and user journeys to surface high-intent themes and conversion-ready opportunities. AI-driven models help identify gaps, emerging trends, and supporting topics that guide page structure and internal linking.",
+    a: "As an experienced AI SEO agency, we analyze intent clusters, entities, query behavior, and user journeys to uncover high-intent themes and conversion-ready opportunities. Our AI SEO service identifies emerging trends, content gaps, and supporting topic structures that strengthen page architecture and internal linking strategies.",
   },
   {
     q: "How do you optimize content for AI answers and summaries?",
-    a: "We create authoritative, conversational, and well-structured content with verified facts, examples, and clear formatting. Content is aligned to common questions, use cases, and real-world outcomes so AI systems can extract accurate, helpful responses.",
+    a: "Through our structured AI SEO service, we create authoritative, conversational, and well-formatted content aligned with real user questions and outcomes. This ensures platforms like ChatGPT, Gemini, and Perplexity can accurately extract and surface your brand within AI-generated answers and summaries.",
   },
   {
     q: "What is entity optimization and how does it improve results?",
-    a: "Entity optimization clarifies your brand’s identity, offerings, attributes, and relationships with products, people, and locations. By standardizing this information across your website and profiles, AI systems can better connect your brand with relevant queries.",
+    a: "Entity optimization is a core capability of our AI SEO services in India. We define your brand’s identity, offerings, attributes, and relationships across digital platforms so AI systems clearly understand where your brand fits within relevant search contexts-improving recommendation visibility and trust signals.",
   },
   {
     q: "Do you implement structured data and schema, and why is it important?",
@@ -31,11 +31,11 @@ const DEFAULT_QA: QA[] = [
   },
   {
     q: "How do you align content with large language models like GPT or Gemini?",
-    a: "We structure content using model-friendly patterns including concise definitions, step-by-step lists, comparisons, and evidence-backed explanations. By removing ambiguity and adding contextual depth, we ensure LLMs interpret and summarize your information accurately.",
+    a: "Our AI SEO service structures content using model-friendly formats such as definitions, comparisons, step-by-step explanations, and evidence-backed insights. This ensures large language models interpret your brand correctly and surface it in relevant AI-driven discovery experiences.",
   },
   {
     q: "How is performance tracked and reported in an AI SEO program?",
-    a: "We monitor visibility across search and AI answer surfaces, track entity coverage, measure engagement and conversions, and analyze cross-channel impact. Dashboards highlight trends and insights, guiding the next stage of optimization.",
+    a: "As a leading AI SEO agency in Mumbai, we monitor visibility across search and AI answer surfaces, track entity coverage, measure engagement and conversions, and analyze cross-channel impact. Our dashboards highlight trends and insights, guiding the next stage of optimization and continuous visibility improvement.",
   },
 ];
 
