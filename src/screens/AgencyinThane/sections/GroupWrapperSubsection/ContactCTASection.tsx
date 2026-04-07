@@ -9,7 +9,7 @@ export const ContactCTASection = () => {
         {/* LEFT: heading + contact details */}
         <div className="contact-left">
           <p className="contact-subtitle">Let's put </p>
-          <h2 className="contact-title"> Your Auto-fill to Use!</h2>
+          <h2 className="contact-title"> /</h2>
 
           <ul className="contact-list">
             <img className="c-icon w-120" alt="Call Logo" src="call.png" />

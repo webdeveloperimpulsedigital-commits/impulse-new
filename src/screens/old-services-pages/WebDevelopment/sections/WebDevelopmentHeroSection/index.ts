@@ -1,1 +1,0 @@
-export { WebDevelopmentHeroSection } from "./WebDevelopmentHeroSection";

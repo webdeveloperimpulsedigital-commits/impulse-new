@@ -57,7 +57,7 @@ export const FAQSection: React.FC<{ items?: QA[] }> = ({ items = DEFAULT_QA }) =
 
          <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
             <span className="text-[#000000]  lg:text-[34px] sm:text-[16px]">
-              FAQ'S
+              FAQ'S &nbsp;
             </span>
             <br />
             <span className="font-bold text-[#543d98] lg:text-[49px] md:text-[52px] sm:text-[20px]">

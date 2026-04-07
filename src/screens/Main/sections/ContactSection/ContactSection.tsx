@@ -66,7 +66,7 @@ export const ContactSection = () => {
             <span className="text-[#ffffff] lg:text-[34px] sm:text-[16px]">Let's put</span>
             <br />
             <span className="font-bold text-[#ffffff] lg:text-[52px] md:text-[52px] sm:text-[20px]">
-              Your Auto-fill to Use!
+               Your Auto-fill to Use!
             </span>
           </h2>
           <br />

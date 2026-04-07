@@ -60,7 +60,7 @@ export const GroupWrapperSubsection = (): JSX.Element => {
             </span>
 
             <span className="font-bold text-white text-[52px] leading-[60px]">
-              Your Auto-fill to Use!
+               Your Auto-fill to Use!
             </span>
           </div>
 

@@ -54,7 +54,7 @@ export const FAQSection: React.FC<{ items?: QA[] }> = ({ items = DEFAULT_QA }) =
   return (
     <section className="faq" data-section="faq">
       <div className="faq__header">
-        <p className="faq__eyebrow">FAQ</p>
+        <p className="faq__eyebrow">FAQ &nbsp;</p>
         <h2 className="faq__title">Frequently Asked Questions</h2>
       </div>
 

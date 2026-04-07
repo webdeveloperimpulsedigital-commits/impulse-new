@@ -1,6 +1,22 @@
 import React from "react";
  
 export const WhyChooseSection = (): JSX.Element => {
+
+  const content = {
+    dataDriven: {
+      title: "Data-Driven Results",
+      text: "Data unlocks digital growth. Our approach is grounded in analyzing metrics, trends, and user behavior to create strategies that deliver measurable results.",
+    },
+    seoStrategies: {
+      title: "SEO Strategies for Every Business",
+      text: "No two businesses are alike, and neither is our SEO strategy. We tailor every plan to suit your industry, goal, and audience. Whether you are a startup seeking visibility",
+    },
+    transparent: {
+      title: "Enhanced Visibility on Search Engines",
+      text: "How will your audience find out if you don’t stand out? Our job is precisely that. We are skilled at helping businesses rank higher by optimizing every little detail. Think SEO marketing agency. Think Impulse Digital.",
+    }
+  };
+
   return (
     <section
       className="w-full bg-[#F6F6FB] py-16 lg:py-20"
@@ -37,11 +53,11 @@ export const WhyChooseSection = (): JSX.Element => {
               />
             </div>
             <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-2">
-              Data-Driven Results
+              {content.seoStrategies.title}
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              Data unlocks digital growth. Our approach is grounded in analyzing metrics, trends, and user behavior to create strategies that deliver measurable results.
-                          </p>
+              {content.seoStrategies.text}
+            </p>
           </div>
  
           {/* 2) Versatile Writing Styles */}
@@ -55,12 +71,10 @@ export const WhyChooseSection = (): JSX.Element => {
               />
             </div>
             <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-2">
-              SEO Strategies for Every Business
+              {content.seoStrategies.title}
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              No two businesses are alike, and neither is our SEO strategy. We tailor every plan to suit your industry, goal, and audience. Whether you are a startup seeking visibility
-
-
+              {content.seoStrategies.text}
             </p>
           </div>
  
@@ -75,10 +89,10 @@ export const WhyChooseSection = (): JSX.Element => {
               />
             </div>
             <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-2">
-              Enhanced Visibility on Search Engines
+              {content.transparent.title}
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              How will your audience find out if you don’t stand out? Our job is precisely that. We are skilled at helping businesses rank higher by optimizing every little detail. Think SEO marketing agency. Think Impulse Digital.
+              {content.transparent.text}
 
 
             </p>
@@ -102,10 +116,10 @@ export const WhyChooseSection = (): JSX.Element => {
               </div><br></br>
               {/* Content 1 */}
               <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-2xl mb-2 pt-16">
-               SEO Strategies for Every Business
+                {content.seoStrategies.title}
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed mb-0">
-                No two businesses are alike, and neither is our SEO strategy. We tailor every plan to suit your industry, goal, and audience. Whether you are a startup seeking visibility
+                {content.seoStrategies.text}
 
 
               </p>
@@ -115,11 +129,10 @@ export const WhyChooseSection = (): JSX.Element => {
             <div className="lg:col-span-6 flex flex-col">
               <div className="pr-2 mb-8 mt-12 pb-16">
                 <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-2xl mb-2">
-                  Data-Driven Results
-
+                  {content.dataDriven.title}
                 </h3>
                 <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed max-w-[620px]">
-                  Data unlocks digital growth. Our approach is grounded in analyzing metrics, trends, and user behavior to create strategies that deliver measurable results.
+                  {content.dataDriven.text}
 
 
                 </p>
@@ -149,10 +162,10 @@ export const WhyChooseSection = (): JSX.Element => {
  
             <div className="mt-6 max-w-12xl">
               <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-2xl mb-2">
-                Enhanced Visibility on Search Engines
+                {content.transparent.title}
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-                How will your audience find out if you don’t stand out? Our job is precisely that. We are skilled at helping businesses rank higher by optimizing every little detail. Think SEO marketing agency. Think Impulse Digital.
+                {content.transparent.text}
 
 
               </p>

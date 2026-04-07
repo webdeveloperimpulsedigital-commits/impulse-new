@@ -1,6 +1,22 @@
 import React from "react";
  
 export const WhyChooseSection = (): JSX.Element => {
+
+    const content = {
+    dataDriven: {
+      title: "Data-Driven Results",
+      text: "Data unlocks digital growth. Our approach is grounded in analyzing metrics, trends, and user behavior to create strategies that deliver measurable results.",
+    },
+    seoStrategies: {
+      title: "SEO Strategies for Every Business",
+      text: "No two businesses are alike, and neither is our approach as an experienced B2B SEO agency in Mumbai. We tailor every SEO plan to suit your industry, goals, and audience. Whether you’re a startup seeking visibility or an enterprise aiming for market dominance, our strategies are built to scale and deliver measurable results.",
+    },
+    transparent: {
+      title: "Transparent Reporting and Communication",
+      text: "We run on trust, which is why transparency is at the heart of everything we do. As a results-focused B2B SEO company in Mumbai, our detailed Google search optimization reports highlight every aspect of your business’s online presence.",
+    }
+  };
+
   return (
     <section
       className="w-full bg-[#F6F6FB] py-16 lg:py-20"
@@ -40,10 +56,10 @@ export const WhyChooseSection = (): JSX.Element => {
               />
             </div>
             <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-2">
-             Data-Driven Results
+             {content.seoStrategies.title}
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              Data unlocks digital growth. Our approach is grounded in analyzing metrics, trends, and user behavior to create strategies that deliver measurable results.
+              {content.seoStrategies.text}
             </p>
           </div>
  
@@ -58,10 +74,11 @@ export const WhyChooseSection = (): JSX.Element => {
               />
             </div>
             <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-2">
-              SEO Strategies for Every Business
+              {content.seoStrategies.title}
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              No two businesses are alike, and neither is our approach as an experienced B2B SEO agency in Mumbai. We tailor every SEO plan to suit your industry, goals, and audience. Whether you’re a startup seeking visibility or an enterprise aiming for market dominance, our strategies are built to scale and deliver measurable results.</p>
+              {content.seoStrategies.text}
+            </p>
           </div>
  
           {/* 3) Tailored Content Strategy */}
@@ -75,11 +92,10 @@ export const WhyChooseSection = (): JSX.Element => {
               />
             </div>
             <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-2">
-              Transparent Reporting and Communication
+              {content.transparent.title}
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              We run on trust, which is why transparency is at the heart of everything we do. As a results-focused B2B SEO company in Mumbai, our detailed Google search optimization reports highlight every aspect of your business’s online presence, ensuring you always know where your investments stand and how they’re performing. 
-
+              {content.transparent.text}
             </p>
           </div>
         </div>
@@ -101,10 +117,10 @@ export const WhyChooseSection = (): JSX.Element => {
               </div><br></br>
               {/* Content 1 */}
               <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-2xl mb-2 pt-16">
-              SEO Strategies for Every Business
+                {content.seoStrategies.title}
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed mb-0">
-                No two businesses are alike, and neither is our approach as an experienced B2B SEO agency in Mumbai. We tailor every SEO plan to suit your industry, goals, and audience. Whether you’re a startup seeking visibility or an enterprise aiming for market dominance, our strategies are built to scale and deliver measurable results.
+                {content.seoStrategies.text}
               </p>
             </div>
  
@@ -112,10 +128,10 @@ export const WhyChooseSection = (): JSX.Element => {
             <div className="lg:col-span-6 flex flex-col">
               <div className="pr-2 mb-8 mt-12 pb-16">
                 <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-2xl mb-2">
-                  Data-Driven Results
+                  {content.dataDriven.title}
                 </h3>
                 <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed max-w-[620px]">
-                  Data unlocks digital growth. Our approach is grounded in analyzing metrics, trends, and user behavior to create strategies that deliver measurable results.
+                  {content.dataDriven.text}
                 </p>
               </div>
  
@@ -143,10 +159,10 @@ export const WhyChooseSection = (): JSX.Element => {
  
             <div className="mt-6 max-w-12xl">
               <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-2xl mb-2">
-                Transparent Reporting and Communication
+                {content.transparent.title}
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-                We run on trust, which is why transparency is at the heart of everything we do. As a results-focused B2B SEO company in Mumbai, our detailed Google search optimization reports highlight every aspect of your business’s online presence, ensuring you always know where your investments stand and how they’re performing. 
+                {content.transparent.text}
 
 
 

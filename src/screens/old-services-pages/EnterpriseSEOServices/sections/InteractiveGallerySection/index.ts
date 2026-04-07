@@ -1,1 +1,0 @@
-export { InteractiveGallerySection } from "./InteractiveGallerySection";

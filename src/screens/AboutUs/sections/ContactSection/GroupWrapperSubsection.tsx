@@ -55,12 +55,12 @@ export const GroupWrapperSubsection = (): JSX.Element => {
         <div className="flex flex-col w-[533px] items-start gap-[50px]">
           <div className="relative w-fit mt-[-1.00px] [font-family:'DM_Sans',Helvetica] font-normal text-transparent text-[34px] tracking-[0] leading-[34px]">
             <span className="text-[#ffffffb2] font-medium leading-[60px]">
-              Let&#39;s put 
+              Let&#39;s put
               <br />
             </span>
 
             <span className="font-bold text-white text-[52px] leading-[60px]">
-              Your Auto-fill to Use!
+               /
             </span>
           </div>
 

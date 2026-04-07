@@ -12,7 +12,7 @@ export const ContactSection = () => {
 
           <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
             <span className="text-[#ffffff]  lg:text-[34px] sm:text-[16px]">
-              Let's put
+              Let's put 
             </span>
             <br />
             <span className="font-bold text-[#ffffff] lg:text-[52px] md:text-[52px] sm:text-[20px]">

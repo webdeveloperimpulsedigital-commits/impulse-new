@@ -15,7 +15,6 @@ export const BrandVisionSection = (): JSX.Element => {
   const hasAnimated = useRef(false);
   const rafId = useRef<number | null>(null);
 
-  // ---- Helper: animate a single counter with rAF + easing
   const animateCounter = (
     target: number,
     duration: number,
@@ -28,7 +27,7 @@ export const BrandVisionSection = (): JSX.Element => {
 
       const tick = (now: number) => {
         const t = Math.min((now - start) / duration, 1);
-        const ease = 1 - Math.pow(1 - t, 3); // smooth ease-out
+        const ease = 1 - Math.pow(1 - t, 3);
         let current = target * ease;
 
         if (decimals === 0) current = Math.floor(current);
@@ -49,7 +48,6 @@ export const BrandVisionSection = (): JSX.Element => {
       rafId.current = requestAnimationFrame(tick);
     });
 
-  // ---- Animation Trigger
   useEffect(() => {
     const observer = new IntersectionObserver(
       async (entries) => {
@@ -57,7 +55,6 @@ export const BrandVisionSection = (): JSX.Element => {
         if (entry.isIntersecting && !hasAnimated.current) {
           hasAnimated.current = true;
 
-          // Animate sequentially
           await animateCounter(100, 1200, (v) =>
             setCounters((c) => ({ ...c, first: v }))
           );
@@ -68,9 +65,12 @@ export const BrandVisionSection = (): JSX.Element => {
           );
           await new Promise((r) => setTimeout(r, 100));
 
-          await animateCounter(1.5, 900, (v) =>
-            setCounters((c) => ({ ...c, third: v }))
-          , { decimals: 1 });
+          await animateCounter(
+            1.5,
+            900,
+            (v) => setCounters((c) => ({ ...c, third: v })),
+            { decimals: 1 }
+          );
         }
       },
       { threshold: 0.4 }
@@ -82,36 +82,6 @@ export const BrandVisionSection = (): JSX.Element => {
       if (rafId.current) cancelAnimationFrame(rafId.current);
     };
   }, []);
-
-  // ================== PROCESS (hidden on mobile) ==================
-  const steps = [
-    {
-      title: "Discovery and Research",
-      description:
-        "We begin by understanding your goals, audience, and tone, supported by keyword and market research to build performance-driven content",
-    },
-    {
-      title: "Strategy and Structure",
-      description:
-        "We define messaging, map it to funnel stages, and create a clear structure and tone aligned with your objectives",
-    },
-    {
-      title: "Creation and Optimization",
-      description:
-        "Our writers craft original, SEO optimized content that blends brand context, clarity, and engagement for maximum visibility",
-    },
-    {
-      title: "Review and Performance",
-      description:
-        "Every piece goes through editorial checks and client review, followed by tracking visibility, engagement, and conversions to improve future content.",
-    },
-  ];
-
-  const loopedSteps = [...steps, ...steps];
-  const mobileRows = steps.reduce<string[][]>((rows, _, i) => {
-    if (i % 2 === 0) rows.push(steps.slice(i, i + 2));
-    return rows as any;
-  }, [] as any);
 
   return (
     <section
@@ -127,7 +97,7 @@ export const BrandVisionSection = (): JSX.Element => {
             Websites That Look Good. Load Fast.
           </h2>
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-             Sell Better.
+            Sell Better.
           </h2>
         </div>
 
@@ -182,7 +152,8 @@ export const BrandVisionSection = (): JSX.Element => {
               {/* 1.5M+ */}
               <div className="absolute bottom-6 left-0 text-center">
                 <h3 className="[font-family:'DM_Sans',Helvetica] text-[#543d98] text-4xl lg:text-6xl font-black leading-none mb-2">
-                  {counters.third.toFixed(1)}<span className="text-3xl lg:text-4xl">M+</span>
+                  {counters.third.toFixed(1)}
+                  <span className="text-3xl lg:text-4xl">M+</span>
                   <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] text-[16px] leading-relaxed max-w-[250px] font-[400]">
                     Million+ users experienced enhanced website navigation and design that increased engagement and return visits.
                   </p>
@@ -204,71 +175,10 @@ export const BrandVisionSection = (): JSX.Element => {
         {/* Body Copy */}
         <div className="text-left mb-12">
           <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[12px] lg:text-[24px] text-[#030019]">
-            We design websites that work as beautifully as they look. At Impulse, design meets development to create seamless, high-performing digital experiences. We focus on clarity, speed, and engagement to turn visitors into believers. From structure to storytelling, every element serves your brand’s purpose. Our team ensures your website aligns perfectly with your goals and visual identity. With responsive design and strong functionality, your site becomes your most effective marketing tool. We do not just develop websites, we craft digital experiences that leave a lasting impression. 
+           We design websites that work as beautifully as they look. At Impulse, design meets development to create seamless, high-performing digital experiences. We focus on clarity, speed, and engagement to turn visitors into believers. From structure to storytelling, every element serves your brand’s purpose. Our team ensures your website aligns perfectly with your goals and visual identity. With responsive design and strong functionality, your site becomes your most effective marketing tool. We do not just develop websites, we craft digital experiences that leave a lasting impression.
           </p>
         </div>
       </div>
-
-      {/* ---------- AUTO SCROLL (hidden) ---------- */}
-      <div className="hidden opacity-0 pointer-events-none">
-        <div className="absolute left-0 right-0 top-[35px] h-[2px] bg-[#EAEAEA] z-0" />
-        <div className="overflow-hidden">
-          <div className="steps-track flex gap-16 py-6 will-change-transform relative z-10">
-            {loopedSteps.map((s, i) => (
-              <div key={i} className="min-w-[260px] max-w-[300px] relative">
-                <div className="absolute top-[9px] left-0 w-2 h-2 rounded-full bg-[#6B04FD]" />
-                <div className="pt-10">
-                  <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-[20px] mb-1">
-                    {s.title}
-                  </h3>
-                  <p className="[font-family:'DM_Sans',Helvetica] text-[#666] text-[18px] leading-relaxed">
-                    {s.description}
-                  </p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {/* ---------- MOBILE STATIC GRID (hidden) ---------- */}
-      <div className="hidden md:hidden space-y-10 px-4 mb-14">
-        {mobileRows.map((pair, rowIdx) => (
-          <div key={rowIdx} className="relative">
-            <div className="absolute left-0 right-0 top-[13px] h-[2px] bg-[#EAEAEA]" />
-            <div className="grid grid-cols-2 gap-x-8 gap-y-6">
-              {pair.map((s, i) => (
-                <div key={i} className="relative">
-                  <div className="absolute top-[9px] left-0 w-2 h-2 rounded-full bg-[#6B04FD]" />
-                  <div className="pt-10">
-                    <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-[18px] leading-snug mb-1">
-                      {s.title}
-                    </h3>
-                    <p className="[font-family:'DM_Sans',Helvetica] text-[#000] text-[14px] leading-relaxed">
-                      {s.description}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        ))}
-      </div>
-
-      <style>{`
-        @keyframes scroll-rtl {
-          0%   { transform: translateX(0%); }
-          100% { transform: translateX(-50%); }
-        }
-        .steps-track {
-          animation: scroll-rtl 24s linear infinite;
-        }
-        .steps-track:hover { animation-play-state: paused; }
-        @media (prefers-reduced-motion: reduce) {
-          .steps-track { animation: none; transform: translateX(0); }
-        }
-        .mb-14 { margin-bottom: 40px; }
-      `}</style>
     </section>
   );
 };

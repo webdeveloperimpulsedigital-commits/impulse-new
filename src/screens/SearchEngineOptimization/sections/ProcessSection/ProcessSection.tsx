@@ -70,13 +70,13 @@ export const ProcessSection = (): JSX.Element => {
         <div className="mb-5 lg:mb-16">
           
 
-          <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
+          <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
 
-            Our Proven SEO Framework
-             </p>
-          <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
+            Our Proven SEO Framework<br></br>
+             
+          <span className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
              for Sustainable Growth
-          </h2>
+          </span></h2>
 
 
         </div>

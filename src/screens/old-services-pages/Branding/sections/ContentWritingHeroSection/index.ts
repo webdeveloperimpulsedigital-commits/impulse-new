@@ -1,1 +1,0 @@
-export { ContentWritingHeroSection } from "./ContentWritingHeroSection";
