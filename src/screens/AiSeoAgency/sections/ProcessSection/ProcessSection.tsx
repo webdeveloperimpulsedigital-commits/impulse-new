@@ -26,7 +26,7 @@ export const ProcessSection = (): JSX.Element => {
     description:
       "Creating authoritative, conversational, and structured content designed for AI summarization and featured responses.",
     expandedContent:
-      "We craft content intentionally for AI engines—clear, concise, authoritative, and optimized for answer boxes, AI overviews, conversational responses, and instant summaries across platforms.",
+      "As a leading AI SEO Agency in India, We craft content intentionally for AI engines-clear, concise, authoritative, and optimized for answer boxes, AI overviews, conversational responses, and instant summaries across platforms.",
   },
 
   {
@@ -35,7 +35,7 @@ export const ProcessSection = (): JSX.Element => {
     description:
       "Implementing schema markup to help AI understand products, services, and reviews with precision.",
     expandedContent:
-      "By adding advanced schema markup, we give AI models the context they need—improving visibility, comprehension, and the likelihood of appearing in rich results, snippets, and AI-driven answers.",
+      "By adding advanced schema markup, we give AI models the context they need-improving visibility, comprehension, and the likelihood of appearing in rich results, snippets, and AI-driven answers.",
   },
 
   {
