@@ -9,12 +9,12 @@ export const AiSeoAgencyHeroSection = (): JSX.Element => {
     <>
       {/* ✅ SEO Meta Tags */}
   <Helmet> 
-    <title>AI SEO Agency | Advanced AI SEO Service for Higher Rankings</title>
-    <meta name="description" content="Partner with a top AI SEO agency in Mumbai that delivers data-driven AI SEO services to boost organic rankings, enhance search visibility, and accelerate business growth with intelligent automation and strategic optimization."/>
+    <title>AI SEO Agency in India | Advanced AI SEO Service</title>
+    <meta name="description" content="Partner with a top AI SEO agency in Mumbai, India that delivers data-driven AI SEO services to boost organic rankings, enhance search visibility, and accelerate business growth with intelligent automation and strategic optimization."/>
     <meta name="keywords" content="ai seo agency, ai seo service, mumbai, india, impulse digital"/>
-    <meta property="og:title" content="AI SEO Agency | Advanced AI SEO Service for Higher Rankings Digital" />
+    <meta property="og:title" content="AI SEO Agency in India | Advanced AI SEO Service" />
     <meta name="robots" content="index, follow"/>
-    <meta property="og:description" content="Partner with a top AI SEO agency in Mumbai that delivers data-driven AI SEO services to boost organic rankings, enhance search visibility, and accelerate business growth with intelligent automation and strategic optimization. team helps us stand out from a cluster of digital marketing agencies in Mumbai. We are handling a plethora of clients which includes Amazon, HUL, OLA, Dmart, HDFC, and more big market giants." />
+    <meta property="og:description" content="Partner with a top AI SEO agency in Mumbai, India that delivers data-driven AI SEO services to boost organic rankings, enhance search visibility, and accelerate business growth with intelligent automation and strategic optimization. team helps us stand out from a cluster of digital marketing agencies in Mumbai. We are handling a plethora of clients which includes Amazon, HUL, OLA, Dmart, HDFC, and more big market giants." />
     <meta property="og:url" content="https://www.theimpulsedigital.com" />
     <meta property="og:image" content="https://www.theimpulsedigital.com/AI-SEO-Agency.jpg" />
     <meta property="og:site_name" content="Impulse Digital" />
@@ -22,8 +22,8 @@ export const AiSeoAgencyHeroSection = (): JSX.Element => {
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@impulsedigi" />
     <meta name="twitter:creator" content="@impulsedigi" />
-    <meta name="twitter:title" content="AI SEO Agency | Advanced AI SEO Service for Higher Rankings Digital" />
-    <meta name="twitter:description" content="Partner with a top AI SEO agency in Mumbai that delivers data-driven AI SEO services to boost organic rankings, enhance search visibility, and accelerate business growth with intelligent automation and strategic optimization. team helps us stand out from a cluster of digital marketing agencies in Mumbai. We are handling a plethora of clients which includes Amazon, HUL, OLA, Dmart, HDFC, and more big market giants." />
+    <meta name="twitter:title" content="AI SEO Agency in India | Advanced AI SEO Service" />
+    <meta name="twitter:description" content="Partner with a top AI SEO agency in Mumbai, India that delivers data-driven AI SEO services to boost organic rankings, enhance search visibility, and accelerate business growth with intelligent automation and strategic optimization. team helps us stand out from a cluster of digital marketing agencies in Mumbai. We are handling a plethora of clients which includes Amazon, HUL, OLA, Dmart, HDFC, and more big market giants." />
     <meta name="twitter:image" content="https://www.theimpulsedigital.com/AI-SEO-Agency.jpg" />
     <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/search-engine-optimization/ai-seo-agency" />
     <link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/ai-seo-agency" />
@@ -96,7 +96,7 @@ export const AiSeoAgencyHeroSection = (): JSX.Element => {
                       Seo
                     </NavLink>
                     <span className="select-none">{">"}</span>
-                    <span className="text-white">AI SEO</span>
+                    <span className="text-white">AI SEO SERVICE</span>
                   </nav>
             </div>
           </div>
