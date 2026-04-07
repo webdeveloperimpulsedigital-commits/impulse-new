@@ -36,7 +36,7 @@ export const WhyChooseSection = (): JSX.Element => {
               GEO, AEO & LLM-Aligned Strategy
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              Our AI SEO approach combines Generative Engine Optimization, Answer Engine Optimization, and LLM content alignment so AI systems understand, trust, and recommend your brand.
+              Our AI SEO service & approach combines Generative Engine Optimization, Answer Engine Optimization, and LLM content alignment so AI systems understand, trust, and recommend your brand.
             </p>
           </div>
 
@@ -72,7 +72,7 @@ export const WhyChooseSection = (): JSX.Element => {
               Focused on Outcomes, Not Rankings
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              We measure success by AI visibility, brand mentions in generative results, and discovery across AI platforms — not just keyword positions.
+              We measure success by AI visibility, brand mentions in generative results, and discovery across AI platforms, not just keyword positions.
             </p>
           </div>
         </div>
