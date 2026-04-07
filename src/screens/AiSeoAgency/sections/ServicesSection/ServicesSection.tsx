@@ -37,7 +37,7 @@ const ServicesSection = () => {
     n: "02",
     title: "GEO (Generative Engine Optimization)",
     points: [
-      "We craft content that earns your brand a place in AI-generated answers, summaries, and recommendations—making sure you stay visible where audiences seek instant insights.",
+      "We craft content that earns your brand a place in AI-generated answers, summaries, and recommendations, making sure you stay visible where audiences seek instant insights.",
     ],
     img: "/geo-1.jfif", // change if needed
   },
@@ -46,7 +46,7 @@ const ServicesSection = () => {
     n: "03",
     title: "AI Platforms",
     points: [
-      "Powered by leading AI tools and automation, we combine data intelligence with creativity to deliver SEO strategies that adapt, perform, and scale in real time.",
+      "Powered by leading AI tools and automation, we combine data intelligence with creativity to deliver AI SEO services in India that adapt, perform, and scale in real time.",
     ],
     img: "/ai-platform.jfif", // change if needed
   },
@@ -254,7 +254,7 @@ const ServicesSection = () => {
             <div className="mx-auto relative">
               <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
                 <span className="text-[#ffffffb2]  lg:text-[34px] sm:text-[16px]">
-                  Unlock The AI SEO Solutions 
+                  Unlock The AI SEO Services 
                 </span>
                 <span className="font-bold text-[#ffffff] lg:text-[52px] md:text-[52px] sm:text-[26px]">
                  You Need
