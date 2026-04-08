@@ -10,7 +10,7 @@ export const ContentWritingHeroSection = (): JSX.Element => {
       {/* ✅ SEO Meta Tags */}
   <Helmet> 
 <meta name="description" content="Impulse Digital is a leading enterprise SEO agency delivering result-driven enterprise SEO service in India with strategic content, technical optimization, and proven expertise to grow large-scale businesses online."/>
-<meta name="keywords" content="enterprise seo services, mumbai, india, impulse digital"/>
+<meta name="keywords" content="enterprise seo services, enterprise seo agency, enterprise seo company, mumbai, india, impulse digital"/>
 <title>Best Enterprise SEO Service | Enterprise SEO Agency</title>
 
 <meta name="robots" content="index, follow"/>
