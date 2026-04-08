@@ -36,7 +36,7 @@ const DEFAULT_QA: QA[] = [
   },
   {
     q: "How do you collaborate with in-house teams during enterprise projects?",
-    a: "Our processes integrate smoothly with your internal marketing, product, design, and IT teams. We align priorities through shared documentation, scheduled reviews, and transparent communication to ensure that all updates and implementations meet timelines and quality standards."
+    a: "As a leading enterprise SEO agency, our processes integrate smoothly with your internal marketing, product, design, and IT teams. We align priorities through shared documentation, scheduled reviews, and transparent communication to ensure that all updates and implementations meet timelines and quality standards."
   }
 ];
 
