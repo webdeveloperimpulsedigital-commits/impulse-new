@@ -99,7 +99,7 @@ export const BrandVisionSection = (): JSX.Element => {
         {/* Title */}
         <div className="mb-6 lg:mb-8 pt-10">
           <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
-            SEO That Keeps<br></br>
+            Enterprise SEO Service That Keeps<br></br>
           
           <span className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
             Up With the Scale of Your Business
@@ -179,7 +179,7 @@ export const BrandVisionSection = (): JSX.Element => {
         {/* Body copy */}
         <div className="text-left mb-12">
           <p className="[font-family:'DM_Sans',Helvetica] text-[12px] lg:text-[24px] text-[#030019]">
-            Large websites require large-scale thinking, and that is where we excel. We simplify complex SEO ecosystems with automation, advanced tools, and enterprise-grade strategy. From managing thousands of URLs to optimizing multilingual and multi-region content, Impulse ensures every page performs efficiently. We help large organizations achieve consistency across departments, devices, and geographies. Our approach unites marketing, technical, and content teams toward shared growth goals. Through continuous tracking and adaptive optimization, we ensure long-term performance, not temporary results. At Impulse, scale is not a challenge, it is where we thrive.
+          Large websites require large-scale thinking, and that is where we excel as a trusted enterprise SEO agency. We simplify complex SEO ecosystems with automation, advanced tools, and a strategic enterprise SEO service approach designed for scale. From managing thousands of URLs to optimizing multilingual and multi-region content, Impulse ensures every page performs efficiently. We help large organizations achieve consistency across departments, devices, and geographies. Our approach unites marketing, technical, and content teams toward shared growth goals. Through continuous tracking and adaptive optimization, we ensure long-term performance, not temporary results. At Impulse, scale is not a challenge, it is where we thrive.  
           </p>
         </div>
       </div>
