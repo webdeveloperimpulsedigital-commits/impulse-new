@@ -12,10 +12,10 @@ export const WhyChooseSection = (): JSX.Element => {
     
         <div className="mb-6 lg:mb-8 pt-0">
           <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px] ">
-            Enterprise SEO
+            Why Choose Impulse Digital For
           </h2>
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-             Elevated by Impulse 
+             Enterprise SEO Service
           </h2>
         </div>
  
@@ -35,7 +35,7 @@ export const WhyChooseSection = (): JSX.Element => {
               Data-driven, scalable strategy
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              When data-driven insights meets scalability magic happens. Our scalable enterprise SEO strategy ensures that you level up with every activity we do, meeting your target audience right where they are. The logic is simple: perform→ analyze→ repeat. We pick up what’s working the best for you and set it into a continuous cycle.
+              When data-driven insights meets scalability magic happens. Our scalable enterprise SEO service & strategy ensures that you level up with every activity we do, meeting your target audience right where they are. The logic is simple: perform→ analyze→ repeat. We pick up what’s working the best for you and set it into a continuous cycle.
             </p>
           </div>
  
@@ -71,7 +71,7 @@ export const WhyChooseSection = (): JSX.Element => {
               Local and international SEO expertise
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              As an enterprise, you’ve got to dominate locally as well as globally. Our team combines their deep understanding of local search behaviors with global patterns to reach the right audience, no matter where they are. Whether it’s optimizing your ‘near me’ searches or international trends, we’ve got it covered.
+             As an enterprise, you’ve got to dominate locally as well as globally. As a leading enterprise SEO company, our team combines deep understanding of local search behaviors with global patterns to reach the right audience, no matter where they are. Whether it’s optimizing your ‘near me’ searches or aligning with international trends, we’ve got it covered.
             </p>
           </div>
         </div>
