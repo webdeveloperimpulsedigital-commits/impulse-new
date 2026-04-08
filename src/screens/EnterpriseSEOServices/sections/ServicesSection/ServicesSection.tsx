@@ -288,7 +288,7 @@ const ServicesSection = () => {
           <div className="top-0 w-full lg:py-8 sm:py-40 md:py-[60px] z-50">
             <div className="mx-auto relative">
               <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
-                <span className="text-[#ffffffb2]  lg:text-[34px] sm:text-[16px]">SEO That</span>
+                <span className="text-[#ffffffb2]  lg:text-[34px] sm:text-[16px]">Enterprise SEO Service That</span>
                 <span className="font-bold text-[#ffffff] lg:text-[52px] md:text-[52px] sm:text-[26px]">Moves the Needle</span>
               </h2>
             </div>
