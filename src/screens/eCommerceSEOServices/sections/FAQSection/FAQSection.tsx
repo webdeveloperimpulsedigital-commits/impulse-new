@@ -12,7 +12,7 @@ const DEFAULT_QA: QA[] = [
   },
   {
     q: "How does Impulse Digital approach eCommerce SEO for a new or existing store?",
-    a: "As a results-driven eCommerce SEO agency in Mumbai, we begin with a detailed audit covering technical health, keyword opportunities, and user experience. Based on the insights, we design a custom strategy that includes keyword mapping, product-page optimization, internal linking, and performance reporting making our approach one of the best eCommerce SEO services for sustained growth in traffic and conversions."
+    a: "We begin with a detailed audit covering technical health, keyword opportunities, and user experience. Based on the insights, we design a custom strategy that includes keyword mapping, product-page optimization, internal linking, and performance reporting making our approach one of the best eCommerce SEO services for sustained growth in traffic and conversions."
   },
   {
     q: "How do you improve the performance of product and category pages?",
@@ -24,7 +24,7 @@ const DEFAULT_QA: QA[] = [
   },
   {
     q: "How do you make eCommerce stores more mobile-friendly?",
-    a: "Mobile-first optimization is a core part of our eCommerce SEO services in India. We compress media, improve layout responsiveness, and refine navigation flow for touch devices. This ensures your store performs seamlessly across all screen sizes, driving higher engagement and conversions on mobile."
+    a: "Mobile-first optimization is a core part of our eCommerce SEO services in Mumbai, India. We compress media, improve layout responsiveness, and refine navigation flow for touch devices. This ensures your store performs seamlessly across all screen sizes, driving higher engagement and conversions on mobile."
   },
   {
     q: "Can you manage SEO for international or multi-language eCommerce stores?",
@@ -36,7 +36,7 @@ const DEFAULT_QA: QA[] = [
   },
   {
     q: "How do you measure the success of an eCommerce SEO campaign?",
-    a: "We track metrics such as organic sessions, click-through rate, add-to-cart ratio, conversions, and average order value. As a data-driven eCommerce SEO agency, we use analytics and search-console insights to refine strategy continuously ensuring consistent performance and long-term growth."
+    a: "We track metrics such as organic sessions, click-through rate, add-to-cart ratio, conversions, and average order value. We use analytics and search-console insights to refine strategy continuously ensuring consistent performance and long-term growth."
   }
 ];
 
