@@ -57,7 +57,7 @@ export const ProcessSection = (): JSX.Element => {
     description:
       "We track performance through analytics and reporting to refine our strategy.",
     expandedContent:
-      "We are all about measuring how far we have to see how far we still have to go. Our detailed analytics and reporting tracks metrics like organic traffic, bounce rates, and conversions to identify trends, refine our strategy, and make sure that every action is toward your business goals. This is what makes up the best SEO marketing company.",
+      "We are all about measuring how far we have to see how far we still have to go. Our detailed analytics and reporting tracks metrics like organic traffic, bounce rates, and conversions to identify trends, refine our strategy, and make sure that every action is toward your business goals. This is what makes up the best B2B SEO agency in Mumbai, India.",
   },
 ];
 
