@@ -3,36 +3,36 @@ import { Helmet } from 'react-helmet-async';
 import Header from "../../../../components/layout/Header";
 
 export const ContentWritingHeroSection = (): JSX.Element => {
-  const heroTextLines = ["ECOMMERCE SEO"];
+  const heroTextLines = ["ECOMMERCE SEO SERVICE"];
 
   return (
     <>
       {/* ✅ SEO Meta Tags */}
   <Helmet> 
-    <meta name="description" content="Impulse Digital is the best eCommerce SEO company in Mumbai that offers complete eCommerce SEO services in India. Switch to Impulse Digital’s industry-tested eCommerce SEO services that empower your brand to generate traffic that results in conversions and revenues."/>
-<meta name="keywords" content="ecommerce seo services, mumbai, ecommerce search engine optimization services, india"/>
-<title>Best eCommerce SEO Services in India | Impulse Digital</title>
+    <meta name="description" content="Impulse Digital is a trusted ecommerce SEO agency offering result-driven ecommerce SEO service in Mumbai. We help online brands increase visibility, attract qualified traffic, and drive higher conversions through e commerce SEO."/>
+<meta name="keywords" content="ecommerce seo services, ecommerce seo company, agency, e commerce, mumbai, ecommerce search engine optimization services, impulse digital, india"/>
+<title>eCommerce SEO Services in Mumbai | e Commerce SEO Agency</title>
 
 <meta name="robots" content="index, follow"/>
 <meta name="revisit-after" content="1 day"/>
 <meta name="language" content="English"/>
 <meta name="generator" content="N/A"/>
 
-<meta property="og:title" content="Best eCommerce SEO Services in India | Impulse Digital"/>
-<meta property="og:description" content="Impulse Digital is the best eCommerce SEO company in Mumbai that offers complete eCommerce SEO services in India. Switch to Impulse Digital’s industry-tested eCommerce SEO services that empower your brand to generate traffic that results in conversions and revenues."/>
-<meta property="og:url" content="https://www.theimpulsedigital.com/ecommerce-seo-service"/>
-<meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
+<meta property="og:title" content="eCommerce SEO Services in Mumbai | e Commerce SEO Agency"/>
+<meta property="og:description" content="Impulse Digital is a trusted ecommerce SEO agency offering result-driven ecommerce SEO service in Mumbai. We help online brands increase visibility, attract qualified traffic, and drive higher conversions through e commerce SEO."/>
+<meta property="og:url" content="https://www.theimpulsedigital.com/services/search-engine-optimization/ecommerce-seo-services/"/>
+<meta property="og:image" content="https://www.theimpulsedigital.com/ecommerce%20About%20service%20-%20%20451%20x%20500.jpg"/>
 <meta property="og:site_name" content="Impulse Digital"/>
 <meta property="og:type" content="website"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="@impulsedigi"/>
 <meta name="twitter:creator" content="@impulsedigi"/>
-<meta name="twitter:title" content="Best eCommerce SEO Services in India | Impulse Digital"/>
-<meta name="twitter:description" content="Impulse Digital is the best eCommerce SEO company in Mumbai that offers complete eCommerce SEO services in India. Switch to Impulse Digital’s industry-tested eCommerce SEO services that empower your brand to generate traffic that results in conversions and revenues."/>
-<meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
-<meta name="twitter:url" content="https://www.theimpulsedigital.com/ecommerce-seo-service"/>
+<meta name="twitter:title" content="eCommerce SEO Services in Mumbai | e Commerce SEO Agency"/>
+<meta name="twitter:description" content="Impulse Digital is a trusted ecommerce SEO agency offering result-driven ecommerce SEO service in Mumbai. We help online brands increase visibility, attract qualified traffic, and drive higher conversions through e commerce SEO."/>
+<meta name="twitter:image" content="https://www.theimpulsedigital.com/ecommerce%20About%20service%20-%20%20451%20x%20500.jpg"/>
+<meta name="twitter:url" content="https://www.theimpulsedigital.com/services/search-engine-optimization/ecommerce-seo-services/"/>
 
-    <link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/ecommerce-seo-services"/>
+    <link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/ecommerce-seo-services/"/>
     </Helmet>
    
          
@@ -102,7 +102,7 @@ export const ContentWritingHeroSection = (): JSX.Element => {
             Seo
           </NavLink>
           <span className="select-none">{">"}</span>
-          <span className="text-white">eCommerce SEO </span>
+          <span className="text-white">eCommerce SEO Service</span>
         </nav>
             </div>
           </div>
