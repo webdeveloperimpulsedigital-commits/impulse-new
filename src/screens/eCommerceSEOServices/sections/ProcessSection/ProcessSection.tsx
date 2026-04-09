@@ -49,7 +49,7 @@ export const ProcessSection = (): JSX.Element => {
     description:
       "It’s important to learn how far we have to see how far we still have to go.",
     expandedContent:
-      "It’s important to learn how far we have to see how far we still have to go. Our analytics and reporting tracks metrics like traffic, bounce rate, cart abandonment rate, sales conversion rate and customer acquisition cost (CAC) to identify trends, refine our strategy, and make sure that your audience completes the buying cycle. This is what makes us the best eCommerce SEO company.",
+      "It’s important to learn how far we have to see how far we still have to go. Our analytics and reporting tracks metrics like traffic, bounce rate, cart abandonment rate, sales conversion rate and customer acquisition cost (CAC) to identify trends, refine our strategy, and make sure that your audience completes the buying cycle. This is what makes us the best eCommerce SEO company in Mumbai.",
   },
 ];
 
@@ -63,7 +63,7 @@ export const ProcessSection = (): JSX.Element => {
 
           <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
 
-             Our Proven eCommerce SEO 
+             Our Proven eCommerce SEO Service
 
              </p>
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
