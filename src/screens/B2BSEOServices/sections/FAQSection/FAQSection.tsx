@@ -32,11 +32,11 @@ const DEFAULT_QA: QA[] = [
   },
   {
     q: "How does Impulse Digital measure success in B2B SEO campaigns?",
-    a: "Success goes beyond rankings. We track organic visibility, lead quality, engagement metrics, and conversions from target segments. Using tools like GA4 and Google Tag Manager, we ensure every SEO improvement aligns with long-term revenue and growth objectives — not just surface-level metrics."
+    a: "Success goes beyond rankings. We track organic visibility, lead quality, engagement metrics, and conversions from target segments. Using tools like GA4 and Google Tag Manager, we ensure every SEO improvement aligns with long-term revenue and growth objectives, not just surface-level metrics."
   },
   {
     q: "Can you manage SEO for global or region-specific B2B operations?",
-    a: "Yes. Impulse Digital builds multilingual and multi-regional SEO strategies using correct hreflang implementation and localized content. Whether you’re targeting India, the US, or global markets, our approach ensures consistency in brand voice while adapting to regional search behavior — a key strength of our B2B SEO agency in Mumbai."
+    a: "Yes. Impulse Digital builds multilingual and multi-regional SEO strategies using correct hreflang implementation and localized content. Whether you’re targeting India, the US, or global markets, our approach ensures consistency in brand voice while adapting to regional search behavior, a key strength of our B2B SEO agency in Mumbai."
   }
 ];
 
