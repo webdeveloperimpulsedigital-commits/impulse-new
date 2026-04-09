@@ -17,10 +17,10 @@ export const WhyChooseSection = (): JSX.Element => {
 
         <div className="mb-6 lg:mb-8 pt-0">
           <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px] ">
-           Why Brands Trust Us
+          Why Brands Trust Impulse Digital 
           </h2>
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-             To Turn Searches Into Sales 
+             for eCommerce SEO Service
           </h2>
         </div>
  
@@ -102,7 +102,7 @@ export const WhyChooseSection = (): JSX.Element => {
                 Increased organic traffic & sales
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed mb-0">
-               Your audience finding you by themselves and choosing to try what you have to offer is one of the best things that can happen for your business. By optimizing your store for maximum visibility and ensuring your eCommerce platform ranks higher on the search engine, we drive quality organic traffic that converts to loyal customers.
+               Your audience finding you by themselves and choosing to try what you have to offer is one of the best things that can happen for your business. As a trusted ecommerce SEO company, we optimize your store for maximum visibility and ensure your eCommerce platform ranks higher on search engines, driving quality organic traffic that converts into loyal customers.
               </p>
             </div>
  
@@ -110,10 +110,10 @@ export const WhyChooseSection = (): JSX.Element => {
             <div className="lg:col-span-6 flex flex-col">
               <div className="pr-2 mb-8 mt-12 pb-16">
                 <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-2xl mb-2">
-                 Local and international SEO expertise
+                 Local and international eCommerce SEO expertise
                 </h3>
                 <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed max-w-[620px]">
-                 As a business, you’ve got to dominate locally as well as globally. Our team combines their deep understanding of local search behaviors with global patterns to reach the right audience, no matter where they are. Whether it’s optimizing your ‘near me’ searches or international trends, we’ve got it covered.
+As a business, you’ve got to dominate locally as well as globally. Through our strategic ecommerce SEO services, our team combines deep understanding of local search behaviors with global patterns to reach the right audience, no matter where they are. Whether it’s optimizing your ‘near me’ searches or aligning with international trends, we’ve got it covered.
                 </p>
               </div>
  
