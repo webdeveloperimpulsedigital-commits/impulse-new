@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 export const BrandVisionSection = (): JSX.Element => {
   const overlayText =
-    "We help your online store get found, drive traffic, and turn searches into sales.";
+    "Grow Your Store Faster With a Trusted Ecommerce SEO Agency That Turns Searches Into Sales.";
 
   // ================== COUNTERS ==================
   const [counters, setCounters] = useState({
@@ -86,10 +86,10 @@ export const BrandVisionSection = (): JSX.Element => {
         {/* Title */}
         <div className="mb-6 lg:mb-8 pt-10">
           <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
-            Smart SEO
+            eCommerce SEO Service
           </h2>
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight">
-            that drives carts, not just clicks.
+            That drives Carts, Not Just Clicks
           </h2>
         </div>
 
@@ -169,7 +169,7 @@ export const BrandVisionSection = (): JSX.Element => {
         {/* BODY */}
         <div className="text-left mb-12">
           <p className="text-[12px] lg:text-[24px] text-[#030019]">
-            Your products deserve attention, and we make sure they get it. We optimize your store to rank higher, load faster, and convert better. Our team refines every element, from product pages and category layouts to checkout flow, ensuring a seamless user experience. Impulse makes your brand visible where customers are ready to buy. We align design, content, and analytics to create shopping experiences that inspire trust. Beyond visibility, we focus on repeat conversions and long-term ROI. More clicks, better carts, and higher sales are all part of our strategy.
+            Your products deserve attention, and we make sure they get it as a trusted ecommerce SEO company focused on performance-driven growth. We optimize your store to rank higher, load faster, and convert better through strategic e commerce SEO services designed for online retailers. Our team refines every element, from product pages and category layouts to checkout flow, ensuring a seamless user experience. Impulse makes your brand visible where customers are ready to buy. We align design, content, and analytics to create shopping experiences that inspire trust. Beyond visibility, we focus on repeat conversions and long-term ROI. More clicks, better carts, and higher sales are all part of our strategy.
           </p>
         </div>
       </div>
