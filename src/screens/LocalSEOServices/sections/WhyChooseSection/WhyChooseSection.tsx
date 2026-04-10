@@ -12,10 +12,10 @@ export const WhyChooseSection = (): JSX.Element => {
       
         <div className="mb-6 lg:mb-8 pt-0">
           <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px] ">
-           Be Seen for
+           Why Brands Trust Impulse Digital
           </h2>
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-             Every "Near Me" Search
+             for Local SEO Services in Mumbai
           </h2>
         </div>
  
@@ -35,7 +35,7 @@ export const WhyChooseSection = (): JSX.Element => {
               Increased Local Visibility
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-             Our Local SEO services make it easier for nearby audiences to discover you. Our unmatched efforts to optimize your GMB profile, website, NAP citations and other aspects ensure that your business is a go-to option for the audience near you.
+             Our local SEO services in Mumbai make it easier for nearby audiences to discover you. Our unmatched efforts to optimize your GMB profile, website, NAP citations and other aspects ensure that your business is a go-to option for the audience near you.
             </p>
           </div>
  
@@ -107,7 +107,7 @@ export const WhyChooseSection = (): JSX.Element => {
                   Increased Local Visibility
                 </h3>
                 <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed max-w-[620px]">
-                 Our Local SEO services make it easier for nearby audiences to discover you. Our unmatched efforts to optimize your GMB profile, website, NAP citations and other aspects ensure that your business is a go-to option for the audience near you. 
+                 Our Local SEO services in Mumbai make it easier for nearby audiences to discover you. Our unmatched efforts to optimize your GMB profile, website, NAP citations and other aspects ensure that your business is a go-to option for the audience near you. 
                 </p>
               </div>
  
