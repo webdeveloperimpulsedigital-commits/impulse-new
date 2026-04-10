@@ -3,34 +3,34 @@ import { Helmet } from 'react-helmet-async';
 import Header from "../../../../components/layout/Header";
 
 export const ContentWritingHeroSection = (): JSX.Element => {
-  const heroTextLines = ["LOCAL SEO"];
+  const heroTextLines = ["LOCAL SEO SERVICES IN MUMBAI"];
 return (
 <>
       {/* ✅ SEO Meta Tags */}
 <Helmet> 
-<meta name="description" content="Impulse Digital is one of the best local SEO company in Mumbai that offers end to end local SEO services in India. At Impulse Digital, we fuel all your Local SEO dreams and bring them to life. We strive to offer you the local SEO services that promote all your business locations optimally."/>
-<meta name="keywords" content="local seo services, mumbai, local search engine optimization services, india"/>
-<title>Best Local SEO Services in India | Impulse Digital</title>
+<meta name="description" content="Impulse Digital is one of the best local SEO company in Mumbai that offers end to end local SEO services in Mumbai, India. At Impulse Digital, we fuel all your local SEO dreams and bring them to life. We strive to offer you the local SEO services that promote all your business locations optimally."/>
+<meta name="keywords" content="local seo services in mumbai, local seo company in mumbai, local seo agency in mumbai, local search engine optimization services, india, impulse digital"/>
+<title>Local SEO Services in Mumbai | Local SEO Agency</title>
 
 <meta name="robots" content="index, follow"/>
 <meta name="revisit-after" content="1 day"/>
 <meta name="language" content="English"/>
 <meta name="generator" content="N/A"/>
 
-<meta property="og:title" content="Best Local SEO Services in India | Impulse Digital"/>
-<meta property="og:description" content="Impulse Digital is one of the best local SEO company in Mumbai that offers end to end local SEO services in India. At Impulse Digital, we fuel all your Local SEO dreams and bring them to life. We strive to offer you the local SEO services that promote all your business locations optimally."/>
-<meta property="og:url" content="https://www.theimpulsedigital.com/local-seo-service"/>
+<meta property="og:title" content="Local SEO Services in Mumbai | Local SEO Agency"/>
+<meta property="og:description" content="Impulse Digital is one of the best local SEO company in Mumbai that offers end to end local SEO services in Mumbai, India. At Impulse Digital, we fuel all your local SEO dreams and bring them to life. We strive to offer you the local SEO services that promote all your business locations optimally."/>
+<meta property="og:url" content="https://www.theimpulsedigital.com/services/search-engine-optimization/local-seo-services/"/>
 <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
 <meta property="og:site_name" content="Impulse Digital"/>
 <meta property="og:type" content="website"/>
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:site" content="@impulsedigi"/>
 <meta name="twitter:creator" content="@impulsedigi"/>
-<meta name="twitter:title" content="Best Local SEO Services in India | Impulse Digital"/>
-<meta name="twitter:description" content="Impulse Digital is one of the best local SEO company in Mumbai that offers end to end local SEO services in India. At Impulse Digital, we fuel all your Local SEO dreams and bring them to life. We strive to offer you the local SEO services that promote all your business locations optimally."/>
+<meta name="twitter:title" content="Local SEO Services in Mumbai | Local SEO Agency"/>
+<meta name="twitter:description" content="Impulse Digital is one of the best local SEO company in Mumbai that offers end to end local SEO services in Mumbai, India. At Impulse Digital, we fuel all your local SEO dreams and bring them to life. We strive to offer you the local SEO services that promote all your business locations optimally."/>
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
-<meta name="twitter:url" content="https://www.theimpulsedigital.com/local-seo-service"/>
-<link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/local-seo-services"/>
+<meta name="twitter:url" content="https://www.theimpulsedigital.com/services/search-engine-optimization/local-seo-services/"/>
+<link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/local-seo-services/"/>
 </Helmet>
          
 
@@ -102,7 +102,7 @@ return (
             SEO
           </NavLink>
           <span className="select-none">{">"}</span>
-          <span className="text-white">Local SEO </span>
+          <span className="text-white">Local SEO Services in Mumbai</span>
         </nav>
             </div>
           </div>
