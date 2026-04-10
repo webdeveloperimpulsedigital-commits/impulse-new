@@ -7,12 +7,12 @@ type QA = { q: string; a: string };
 
 const DEFAULT_QA: QA[] = [
   {
-    q: "What is Local SEO and how does it help my business?",
-    a: "Local SEO focuses on improving your visibility for searches performed in a specific area or for services “near me.” It ensures your business appears in relevant map results, local listings, and search queries made by nearby customers ready to visit or purchase."
+    q: "What is Local SEO services and how does it help my business?",
+    a: "Local SEO focuses on improving your visibility for searches performed in a specific area or for services “near me.” As a trusted provider of local SEO services in Mumbai, we ensure your business appears in map results, local listings, and search queries made by nearby customers ready to visit or purchase."
   },
   {
     q: "What does Local SEO service with Impulse Digital include?",
-    a: "Our best Local SEO services cover Google Business Profile optimization, citation management, NAP consistency, local keyword research, on-page and off-page optimization, and review strategy. Each activity is designed to increase visibility, credibility, and foot traffic."
+    a: "Our best Local SEO services in Mumbai include Google Business Profile optimization, citation management, NAP consistency, local keyword research, on-page and off-page optimization, and review strategy. Each activity is designed to increase visibility, credibility, and foot traffic."
   },
   {
     q: "How do you optimize a Google Business Profile effectively?",
@@ -24,11 +24,11 @@ const DEFAULT_QA: QA[] = [
   },
   {
     q: "How do you find and target the right local keywords?",
-    a: "We research search terms specific to your service area and customer intent, such as “best [service] near me” or “[product] in [city].” These keywords are then integrated into your website and Google Business Profile to improve discoverability and engagement."
+    a: "Through our strategic local SEO services in Mumbai, we research search terms specific to your service area and customer intent, such as “best [service] near me” or “[product] in [city],” and integrate them into your website and Google Business Profile to improve discoverability."
   },
   {
     q: "Can Local SEO help my business appear in Google’s Map Pack?",
-    a: "Yes. A combination of profile optimization, local content creation, positive reviews, and citation accuracy increases your likelihood of ranking in the Map Pack. The stronger your overall local authority, the better your placement in local search results."
+    a: "Yes. As a results-driven local SEO agency in Mumbai, we combine profile optimization, local content creation, positive reviews, and citation accuracy to improve your chances of ranking in the Map Pack and increasing visibility in nearby searches."
   },
   {
     q: "How do online reviews impact Local SEO performance?",
