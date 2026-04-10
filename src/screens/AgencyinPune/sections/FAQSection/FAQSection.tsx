@@ -7,7 +7,7 @@ type QA = { q: string; a: string };
 const DEFAULT_QA: QA[] = [
   {
     q: "What does it mean that Impulse Digital is a growth partner rather than a vendor?",
-    a: "It means we work as an extension of your team, aligning strategy and execution with your goals and sharing responsibility for outcomes. Collaboration, transparency, and measurable progress drive every decision."
+    a: "As a leading digital marketing agency in Pune, it means we work as an extension of your team, aligning strategy and execution with your goals and sharing responsibility for outcomes. Collaboration, transparency, and measurable progress drive every decision."
   },
   {
     q: "How do you build a strategy that fits my brand and market?",
@@ -15,11 +15,11 @@ const DEFAULT_QA: QA[] = [
   },
   {
     q: "How will success be measured and reported to us?",
-    a: "We set KPIs at the start and track visibility, engagement, conversions, and return on investment. Dashboards and review calls convert the data into actions for the next cycle."
+    a: "At our digital marketing agency in Pune, we set KPIs at the start and track visibility, engagement, conversions, and return on investment. Dashboards and review calls convert the data into actions for the next cycle."
   },
   {
     q: "Do you serve only Pune based businesses or work across regions as well?",
-    a: "We are based in Pune and support clients across India and overseas. Delivery models are flexible so collaboration remains smooth regardless of location."
+    a: "While we are a digital marketing company in Pune, we support clients across India and overseas. Our delivery models remain flexible so collaboration stays smooth regardless of location."
   },
   {
     q: "What services can you manage under one engagement?",
@@ -35,7 +35,7 @@ const DEFAULT_QA: QA[] = [
   },
   {
     q: "Can you share case studies and references before we decide?",
-    a: "Yes. Public case studies are available and additional references can be shared on request subject to confidentiality terms. We can also outline expected benchmarks for similar categories."
+    a: "Yes. As a transparent digital marketing company in Pune, we provide public case studies and can share additional references on request, subject to confidentiality terms."
   }
 ];
 
