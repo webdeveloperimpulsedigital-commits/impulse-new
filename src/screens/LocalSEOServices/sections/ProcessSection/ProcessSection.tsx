@@ -31,9 +31,9 @@ export const ProcessSection = (): JSX.Element => {
     id: 3,
     title: "Perform Local Keyword Research",
     description:
-      "Local search is specific to the T-we focus on location-based keywords that bring real traffic.",
+      "Local search is specific to the fact that we focus on location-based keywords that bring real traffic.",
     expandedContent:
-      "Local search is specific to the T. Our focus is on location-specific keywords like “best [service] near me,” “top [product] in [city],” and more. Once we have them, we strategically integrate them into your website, GMB, and listings to improve your local rankings.",
+      "Our focus is on location-specific keywords like “best [service] near me,” “top [product] in [city],” and more. Once we have them, we strategically integrate them into your website, GMB, and listings to improve your local rankings.",
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ export const ProcessSection = (): JSX.Element => {
     description:
       "NAP consistency (Number, Address, Phone) is crucial for building trust and improving ranking.",
     expandedContent:
-      "NAP—Number, Address, Phone—consistency is crucial for building trust. Our team ensures all your business details are consistent across online directories, business listings, social media profiles, and websites because any inconsistency will confuse the search engine and the audience — and that’ll hurt your ranking.",
+      "NAP-Number, Address, Phone-consistency is crucial for building trust. Our team ensures all your business details are consistent across online directories, business listings, social media profiles, and websites because any inconsistency will confuse the search engine and the audience, and that’ll hurt your ranking.",
   },
   {
     id: 5,
@@ -57,7 +57,7 @@ export const ProcessSection = (): JSX.Element => {
     description:
       "Local SEO is an ongoing process of tracking rankings, traffic, and GMB performance.",
     expandedContent:
-      "The audience needs to keep altering. Local SEO is an ongoing process of tracking metrics like local search rankings, traffic, GMB performance, and user behavior to keep your business up to date with search algorithms and local search. That means consistent visibility, enquiries, and growth.",
+      "The audience needs to keep altering. Local SEO service is an ongoing process of tracking metrics like local search rankings, traffic, GMB performance, and user behavior to keep your business up to date with search algorithms and local search. That means consistent visibility, enquiries, and growth.",
   },
 ];
 
@@ -71,7 +71,7 @@ export const ProcessSection = (): JSX.Element => {
 
           <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
 
-             Our Proven Local SEO
+             Our Proven Local SEO Services
 
              </p>
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
