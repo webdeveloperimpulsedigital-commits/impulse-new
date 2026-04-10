@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 export const BrandVisionSection = (): JSX.Element => {
   const overlayText =
-    "Turning nearby searches into real visits and loyal customers.";
+    "Turning Nearby Searches Into Real Visits and Loyal Customers With a Trusted Local SEO Agency in Mumbai";
 
   // ================== COUNTERS ==================
   const [counters, setCounters] = useState({
@@ -95,10 +95,10 @@ export const BrandVisionSection = (): JSX.Element => {
         {/* Title */}
         <div className="mb-6 lg:mb-8 pt-10">
           <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px] ">
-            Get Found. Get Chosen.
+           Top Local SEO Agency in Mumbai
           </h2>
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-            Get Customers Through Your Door.
+            to Rank You #1 Locally
           </h2>
         </div>
 
