@@ -1,68 +1,72 @@
 import { Button } from "../../../../components/ui/button";
 import { ArrowRightIcon } from "lucide-react";
 import { useState, useEffect } from "react";
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation, Pagination, Autoplay } from 'swiper/modules';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Navigation, Pagination, Autoplay } from "swiper/modules";
 import { Link } from "react-router-dom";
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
+import "swiper/css";
+import "swiper/css/navigation";
+import "swiper/css/pagination";
 
 interface BlogPost {
-  id: string;
+  id: string | number;
   author: string;
   date: string;
   title: string;
   description: string;
   image: string;
-  url: string;  // added URL field for each blog post
+  url: string;
   category?: string;
 }
 
 export const BlogSection = (): JSX.Element => {
   const [isMobile, setIsMobile] = useState(false);
+  const [blogPosts, setBlogPosts] = useState<BlogPost[]>([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const checkMobile = () => setIsMobile(window.innerWidth < 768);
     checkMobile();
-    window.addEventListener('resize', checkMobile);
-    return () => window.removeEventListener('resize', checkMobile);
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
   }, []);
 
-  const blogPosts: BlogPost[] = [
-     {
-      id: "1",
-      author: "Admin",
-      date: "Feb 19, 2026",
-      title: "How AI Agents Think: Planning, Memory, and Tool Use Explained",
-      description:
-        "Artificial intelligence is evolving rapidly from systems that simply respond to prompts to intelligent agents capable of planning, reasoning, and taking action. These advanced systems, often referred to as AI agents, represent a major shift in how businesses use automation.",
-      image: "/How-AI-Agents.jpg",
-      url: "https://www.theimpulsedigital.com/blog/how-ai-agents-think-planning-memory-and-tool-use-explained/"
-    },
-     {
-      id: "2",
-      author: "Admin",
-      date: "Feb 4, 2026",
-      title: "5 Social Media Mistakes Small Businesses Make (And How to Fix Them)",
-      description:
-        "Social media has become one of the most powerful tools for small businesses to build visibility, connect with customers, and drive growth. Platforms like Instagram, Facebook, LinkedIn, and X offer direct access to audiences that were once expensive and difficult to reach. Yet, despite the opportunity, many small businesses struggle to see real results from their social media efforts.",
-      image: "/Social-Media-blog.jpg",
-      url: "https://www.theimpulsedigital.com/blog/5-social-media-mistakes-small-businesses-make-and-how-to-fix-them/"
-    },
-    {
-      id: "3",
-      author: "Admin",
-      date: "Jan 29, 2026",
-      title: "What Is Agentic AI, and How Is It Different from Traditional AI?",
-      description:
-        "Artificial intelligence has evolved rapidly over the past decade, moving from rule-based automation to advanced systems that can understand language, generate content, and analyze complex data. Most people are familiar with traditional AI tools that respond to prompts, follow instructions, or automate specific tasks. But a new paradigm is emerging – Agentic AI.",
-      image: "/Agentic-Ai.jpg",
-      url: "https://www.theimpulsedigital.com/blog/what-is-agentic-ai-and-how-is-it-different-from-traditional-ai/"
-    },
-     
-   
-  ];
+  useEffect(() => {
+    const fetchBlogs = async () => {
+      try {
+        const response = await fetch(
+          "https://www.theimpulsedigital.com/blog/wp-json/wp/v2/posts?_embed&per_page=3"
+        );
+        const data = await response.json();
+
+        const formattedPosts: BlogPost[] = data.map((post: any) => ({
+          id: post.id,
+          author: post._embedded?.author?.[0]?.name || "Admin",
+          date: new Date(post.date).toLocaleDateString("en-US", {
+            month: "short",
+            day: "numeric",
+            year: "numeric",
+          }),
+          title: post.title?.rendered?.replace(/<[^>]*>/g, "") || "",
+          description:
+            post.excerpt?.rendered?.replace(/<[^>]*>/g, "").trim() || "",
+          image:
+            post._embedded?.["wp:featuredmedia"]?.[0]?.source_url ||
+            "/default-blog.jpg",
+          url: post.link,
+          category: post._embedded?.["wp:term"]?.[0]?.[0]?.name || "Blog",
+        }));
+
+        setBlogPosts(formattedPosts);
+      } catch (error) {
+        console.error("Error fetching blog posts:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchBlogs();
+  }, []);
 
   const BlogCard = ({ post }: { post: BlogPost }) => (
     <article
@@ -74,7 +78,8 @@ export const BlogSection = (): JSX.Element => {
         <img
           src={post.image}
           alt={post.title}
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]" style={{ borderRadius: '12px'}}
+          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-[1.03]"
+          style={{ borderRadius: "12px" }}
         />
       </div>
 
@@ -85,8 +90,10 @@ export const BlogSection = (): JSX.Element => {
           </span>
         </div>
 
-        <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-sm md:text-base leading-snug mb-2
-                       group-hover:text-[#543d98] transition-colors line-clamp-2">
+        <h3
+          className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-sm md:text-base leading-snug mb-2
+                       group-hover:text-[#543d98] transition-colors line-clamp-2"
+        >
           {post.title}
         </h3>
 
@@ -99,9 +106,10 @@ export const BlogSection = (): JSX.Element => {
           </p>
         </div>
 
-        {/* Updated Read More Link */}
-        <div className="mt-3 flex items-center gap-2 text-[#543d98] opacity-1 -translate-x-1
-                        transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0">
+        <div
+          className="mt-3 flex items-center gap-2 text-[#543d98] opacity-1 -translate-x-1
+                        transition-all duration-300 group-hover:opacity-100 group-hover:translate-x-0"
+        >
           <a
             href={post.url}
             target="_blank"
@@ -118,12 +126,11 @@ export const BlogSection = (): JSX.Element => {
     </article>
   );
 
-  /* ---------------- MOBILE SLIDER (peek prev/next at corners) ---------------- */
   const MobileSlider = () => (
     <div className="lg:pt-5 block md:hidden px-0">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
-        slidesPerView={"auto"}          // each slide narrower than viewport
+        slidesPerView={"auto"}
         centeredSlides={true}
         spaceBetween={16}
         loop={false}
@@ -133,30 +140,31 @@ export const BlogSection = (): JSX.Element => {
           pauseOnMouseEnter: true,
         }}
         navigation={{
-          nextEl: '.blog-button-next',
-          prevEl: '.blog-button-prev',
+          nextEl: ".blog-button-next",
+          prevEl: ".blog-button-prev",
         }}
         pagination={{
           clickable: true,
-          bulletClass: 'blog-pagination-bullet',
-          bulletActiveClass: 'blog-pagination-bullet-active',
+          bulletClass: "blog-pagination-bullet",
+          bulletActiveClass: "blog-pagination-bullet-active",
         }}
         className="blog-swiper"
       >
         {blogPosts.map((post) => (
           <SwiperSlide key={post.id}>
-            <div className="pb-4" style={{ height: '650px' }}>
+            <div className="pb-4" style={{ height: "650px" }}>
               <BlogCard post={post} />
             </div>
           </SwiperSlide>
         ))}
       </Swiper>
 
-      {/* ✅ Mobile "See All Articles" button BEFORE controllers */}
       <div className="flex justify-center mt-4">
         <Button className="w-[220px] h-[44px] group flex items-center justify-center gap-2 px-4 py-6 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border-[#543d98] hover:border hover:border-[#543d98]">
-          <Link to="/blogs"
-            className="[font-family:'DM_Sans',Helvetica] font-bold text-white text-sm group-hover:text-[#543d98] transition-colors duration-300">
+          <Link
+            to="/blogs"
+            className="[font-family:'DM_Sans',Helvetica] font-bold text-white text-sm group-hover:text-[#543d98] transition-colors duration-300"
+          >
             See All Articles
           </Link>
           <img
@@ -167,21 +175,25 @@ export const BlogSection = (): JSX.Element => {
         </Button>
       </div>
 
-      {/* Controllers (prev/next) */}
       <div className="flex justify-center items-center gap-4 mt-4">
         <Button className="group blog-nav-button blog-button-prev ">
-          <img src="/left-arrow.png" alt="Prev"
-               className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"/>
+          <img
+            src="/left-arrow.png"
+            alt="Prev"
+            className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
+          />
         </Button>
         <Button className="group blog-nav-button blog-button-next ">
-          <img src="/right-arrow.png" alt="Next"
-               className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"/>
+          <img
+            src="/right-arrow.png"
+            alt="Next"
+            className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
+          />
         </Button>
       </div>
     </div>
   );
 
-  /* ---------------- DESKTOP GRID (unchanged) ---------------- */
   const DesktopGrid = () => (
     <div className="hidden md:block">
       <div className="blog-row flex gap-4 md:gap-5 md:h-[650px] overflow-hidden pt-2">
@@ -192,13 +204,29 @@ export const BlogSection = (): JSX.Element => {
     </div>
   );
 
+  if (loading) {
+    return (
+      <section className="bg-gray mx-auto px-0 md:px-8 lg:px-20 py-10 sm:pt-8 lg:pt-16 pb-16 sec-border-abt">
+        <div className="mx-auto px-4 md:px-4">
+          <p className="text-center text-[#666] text-sm md:text-base">
+            Loading articles...
+          </p>
+        </div>
+      </section>
+    );
+  }
+
   return (
-    <section className="bg-gray mx-auto px-0 md:px-8 lg:px-20 py-10 sm:pt-8 lg:pt-16 pb-16 sec-border-abt" id="sec-border" data-section="blog">
+    <section
+      className="bg-gray mx-auto px-0 md:px-8 lg:px-20 py-10 sm:pt-8 lg:pt-16 pb-16 sec-border-abt"
+      id="sec-border"
+      data-section="blog"
+    >
       <div className="mx-auto px-4 md:px-4">
         <div className="relative flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6">
           <div className="text-left max-w-2xl">
             <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
-              <span className="text-[#030019]  lg:text-[34px] sm:text-[16px]">
+              <span className="text-[#030019] lg:text-[34px] sm:text-[16px]">
                 Sharing is
               </span>
               <br />
@@ -208,11 +236,12 @@ export const BlogSection = (): JSX.Element => {
             </h2>
           </div>
 
-          {/* ✅ Hide header button on mobile, keep on desktop */}
           <div className="flex-shrink-0 hidden md:block">
             <Button className="w-[220px] h-[44px] group inline-flex items-center gap-2 px-4 py-6 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border-[#543d98] hover:border hover:border-[#543d98]">
-              <Link to="/blogs"
-                className="[font-family:'DM_Sans',Helvetica] font-bold text-white text-sm md:text-base group-hover:text-[#543d98] transition-colors duration-300">
+              <Link
+                to="/blogs"
+                className="[font-family:'DM_Sans',Helvetica] font-bold text-white text-sm md:text-base group-hover:text-[#543d98] transition-colors duration-300"
+              >
                 See All Articles
               </Link>
               <img
@@ -240,35 +269,66 @@ export const BlogSection = (): JSX.Element => {
         .desc::-webkit-scrollbar-thumb { background: #e5e7eb; border-radius: 9999px; }
         .desc { scrollbar-width: thin; }
 
-        #blog .w-full{ height: 390px; border-radius: 13px; }
-        .blog-row .card { flex: 1 1 0%; background: #fff; padding: 1rem; height: 650px; gap:0px;}
+        #blog .w-full { height: 390px; border-radius: 13px; }
+        .blog-row .card {
+          flex: 1 1 0%;
+          background: #fff;
+          padding: 1rem;
+          height: 650px;
+          gap: 0px;
+        }
 
-        /* Swiper basics */
         .blog-swiper { overflow: hidden; padding-bottom: 0px !important; }
         .blog-swiper .swiper-pagination {
           bottom: 20px !important;
           position: relative !important;
-          text-align: center; margin-top: 20px;
+          text-align: center;
+          margin-top: 20px;
         }
         .blog-pagination-bullet {
-          width: 8px; height: 8px; background: rgba(84, 61, 152, 0.3);
-          border-radius: 50%; margin: 0 4px; cursor: pointer; transition: all 0.3s ease;
+          width: 8px;
+          height: 8px;
+          background: rgba(84, 61, 152, 0.3);
+          border-radius: 50%;
+          margin: 0 4px;
+          cursor: pointer;
+          transition: all 0.3s ease;
         }
 
-        .blog-button-prev{ background: #fff; }
+        .blog-pagination-bullet-active {
+          background: #543d98;
+        }
+
+        .blog-button-prev { background: #fff; }
         .blog-nav-button {
-          width: 50px; height: 50px; border-radius: 50%;
-          border: 1px solid #e5e7eb; display: flex; align-items: center; justify-content: center;
-          cursor: pointer; transition: all 0.3s ease; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); color: #666;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 1px solid #e5e7eb;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          transition: all 0.3s ease;
+          box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+          color: #666;
         }
-        .blog-nav-button:hover { transform: scale(1.1); border-color: #543d98; background: #543d98; color: white; }
-        .blog-nav-button svg { width: 20px; height: 20px; stroke-width: 2; }
+        .blog-nav-button:hover {
+          transform: scale(1.1);
+          border-color: #543d98;
+          background: #543d98;
+          color: white;
+        }
+        .blog-nav-button svg {
+          width: 20px;
+          height: 20px;
+          stroke-width: 2;
+        }
 
-        /* ---------------- MOBILE ONLY: corner previews ---------------- */
         @media (max-width: 767px) {
           .blog-swiper { overflow: hidden; }
           .blog-swiper .swiper-slide {
-            width: 86% !important; /* tweak 82–90% for peek amount */
+            width: 86% !important;
             transition: transform .5s ease, filter .5s ease, opacity .5s ease, z-index .5s ease;
           }
           .blog-swiper .swiper-slide-prev,
