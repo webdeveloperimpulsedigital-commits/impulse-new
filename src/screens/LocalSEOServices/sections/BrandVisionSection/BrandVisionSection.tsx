@@ -177,7 +177,7 @@ export const BrandVisionSection = (): JSX.Element => {
         {/* Body copy */}
         <div className="text-left mb-12">
           <p className="[font-family:'DM_Sans',Helvetica] text-[12px] lg:text-[24px] text-[#030019]">
-            We optimize your Google Business Profile, maps, and reviews to enhance your local presence. We ensure accuracy and consistency in your business information so customers trust what they see. Every optimization, from location keywords to citations, strengthens your local credibility. Our strategy connects you directly with people ready to visit or call. We track performance to help you grow within your community. With Impulse, your brand becomes a trusted name in every neighborhood.
+           We optimize your Google Business Profile, maps, and reviews to enhance your local presence through our strategic local SEO services in Mumbai. We ensure accuracy and consistency in your business information so customers trust what they see. Every optimization, from location keywords to citations, strengthens your local credibility. Our strategy connects you directly with people ready to visit or call. We track performance to help you grow within your community. With Impulse, your brand becomes a trusted name in every neighborhood.
           </p>
         </div>
       </div>
