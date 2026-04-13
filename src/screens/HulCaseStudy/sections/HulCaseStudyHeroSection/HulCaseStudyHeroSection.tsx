@@ -40,7 +40,7 @@ export const HulCaseStudyHeroSection = (): JSX.Element => {
           property="og:description"
           content="Explore how Impulse Digital executed a geo-targeted digital coupon campaign for Hindustan Unilever Limited (HUL) across Pune and Delhi, driving 90% higher CTR, 41.8% more clicks, and 12.5K+ landing page sessions."
         />
-        <meta property="og:url" content="https://www.theimpulsedigital.com" />
+        <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/hul/" />
         <meta
           property="og:image"
           content="https://www.theimpulsedigital.com/casestudies/hul/"

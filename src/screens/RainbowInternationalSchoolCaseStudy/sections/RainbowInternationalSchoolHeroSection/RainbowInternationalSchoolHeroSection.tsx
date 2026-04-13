@@ -20,7 +20,7 @@ export const RainbowInternationalSchoolHeroSection = (): JSX.Element => {
     
     <meta property="og:title" content="Digital Marketing Case Studies - Impulse Digital" />
     <meta property="og:description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
-    <meta property="og:url" content="https://www.theimpulsedigital.com/case-studies" />
+    <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/rainbow-international-school/" />
     <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
     <meta property="og:site_name" content="Impulse Digital" />
     <meta property="og:type" content="website" />
@@ -30,7 +30,8 @@ export const RainbowInternationalSchoolHeroSection = (): JSX.Element => {
     <meta name="twitter:title" content="Digital Marketing Case Studies - Impulse Digital" />
     <meta name="twitter:description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
     <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-    <meta name="twitter:url" content="https://www.theimpulsedigital.com/case-studies" />
+    <meta name="twitter:url" content="https://www.theimpulsedigital.com/casestudies/rainbow-international-school/" />
+     <link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/rainbow-international-school/" />
     
     </Helmet>
          

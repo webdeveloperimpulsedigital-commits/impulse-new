@@ -31,6 +31,8 @@ export const LaljeeGodhooCaseStudyHeroSection = (): JSX.Element => {
         <meta name="twitter:description" content="Read how LG Hing’s purpose-driven Diwali campaign empowered women entrepreneurs and achieved 507K impressions with strong engagement." />
         <meta name="twitter:image" content="https://www.theimpulsedigital.com/lg-hing-packshot.png" />
         <meta name="twitter:url" content="http://theimpulsedigital.com/casestudies/laljee-godhoo/" />
+          <link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/laljee-godhoo/" />
+
         
         {/* Open Graph Meta Tags */}
             <meta

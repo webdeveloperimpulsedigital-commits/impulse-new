@@ -41,7 +41,7 @@ export const AutomagIndiaCaseStudyHeroSection = (): JSX.Element => {
           property="og:description"
           content="Explore how Impulse Digital transformed Automag India’s website into a B2B lead generation engine, achieving 48% organic traffic growth and increasing leads from 1-2 to 45-50 per month through strategic SEO."
         />
-        <meta property="og:url" content="https://www.theimpulsedigital.com" />
+        <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/automag-india/" />
         <meta
           property="og:image"
           content="https://www.theimpulsedigital.com/Industrial%20automation%20line%20with%20robotic%20arms.png"

@@ -9,28 +9,29 @@ export const VendimanCaseStudyHeroSection = (): JSX.Element => {
     <> 
       {/* ✅ SEO Meta Tags */}
     <Helmet>
-        <meta name="description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
+        <meta name="description" content="Explore Vendiman’s digital success story with 87% keywords on page 1, 90% traffic growth and strong lead generation within two months." />
     <meta name="keywords" content="" />
-    <title>Digital Marketing Case Studies - Impulse Digital</title>
+    <title>Vendiman SEO Success Case Story | From Zero Presence to Market Leader</title>
     
     <meta name="robots" content="index, follow" />
     <meta name="revisit-after" content="1 day" />
     <meta name="language" content="English" />
     <meta name="generator" content="N/A" />
     
-    <meta property="og:title" content="Digital Marketing Case Studies - Impulse Digital" />
-    <meta property="og:description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
-    <meta property="og:url" content="https://www.theimpulsedigital.com/case-studies" />
+    <meta property="og:title" content="Vendiman SEO Success Case Story | From Zero Presence to Market Leader" />
+    <meta property="og:description" content="Explore Vendiman’s digital success story with 87% keywords on page 1, 90% traffic growth and strong lead generation within two months." />
+    <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/vendiman/" />
     <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
     <meta property="og:site_name" content="Impulse Digital" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content= "summary_large_image"  />
     <meta name="twitter:site" content="@impulsedigi" />
     <meta name="twitter:creator" content="@impulsedigi" />
-    <meta name="twitter:title" content="Digital Marketing Case Studies - Impulse Digital" />
-    <meta name="twitter:description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
+    <meta name="twitter:title" content="Vendiman SEO Success Case Story | From Zero Presence to Market Leader" />
+    <meta name="twitter:description" content="Explore Vendiman’s digital success story with 87% keywords on page 1, 90% traffic growth and strong lead generation within two months." />
     <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-    <meta name="twitter:url" content="https://www.theimpulsedigital.com/case-studies" />
+    <meta name="twitter:url" content="https://www.theimpulsedigital.com/casestudies/vendiman/" />
+    <link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/vendiman/" />
     
   </Helmet>
          

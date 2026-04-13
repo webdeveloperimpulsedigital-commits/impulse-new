@@ -41,7 +41,7 @@ export const AmazonEBCaseStudyHeroSection = (): JSX.Element => {
           property="og:description"
           content="Explore how Impulse Digital executed a powerful Amazon Employer Branding campaign using targeted digital strategies to enhance brand visibility and attract talent."
         />
-        <meta property="og:url" content="https://www.theimpulsedigital.com" />
+        <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/amazon-eb/" />
         <meta
           property="og:image"
           content="https://www.theimpulsedigital.com/amazon-unplugged-thumbnail.png"

@@ -9,28 +9,30 @@ export const ShreeRubberWorksCaseStudyHeroSection = (): JSX.Element => {
     <> 
       {/* ✅ SEO Meta Tags */}
      <Helmet>
-    <meta name="description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
+    <meta name="description" content="Explore how Impulse Digital helped Shree Rubber Works boost search visibility by 3500% and rank in the top 10 for industry keywords in just 5 months." />
 <meta name="keywords" content="" />
-<title>Digital Marketing Case Studies - Impulse Digital</title>
+<title>SEO Success Story: Shree Rubber Works Achieves 3500% Visibility Growth</title>
 
 <meta name="robots" content="index, follow" />
 <meta name="revisit-after" content="1 day" />
 <meta name="language" content="English" />
 <meta name="generator" content="N/A" />
 
-<meta property="og:title" content="Digital Marketing Case Studies - Impulse Digital" />
-<meta property="og:description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
-<meta property="og:url" content="https://www.theimpulsedigital.com/case-studies" />
+<meta property="og:title" content="SEO Success Story: Shree Rubber Works Achieves 3500% Visibility Growth" />
+<meta property="og:description" content="Explore how Impulse Digital helped Shree Rubber Works boost search visibility by 3500% and rank in the top 10 for industry keywords in just 5 months." />
+<meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/shree-rubber-works/" />
 <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
 <meta property="og:site_name" content="Impulse Digital" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content= "summary_large_image"  />
 <meta name="twitter:site" content="@impulsedigi" />
 <meta name="twitter:creator" content="@impulsedigi" />
-<meta name="twitter:title" content="Digital Marketing Case Studies - Impulse Digital" />
-<meta name="twitter:description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
+<meta name="twitter:title" content="SEO Success Story: Shree Rubber Works Achieves 3500% Visibility Growth" />
+<meta name="twitter:description" content="Explore how Impulse Digital helped Shree Rubber Works boost search visibility by 3500% and rank in the top 10 for industry keywords in just 5 months." />
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-<meta name="twitter:url" content="https://www.theimpulsedigital.com/case-studies" />
+<meta name="twitter:url" content="https://www.theimpulsedigital.com/casestudies/shree-rubber-works/" />
+<link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/shree-rubber-works/" />
+
 
     </Helmet>
          

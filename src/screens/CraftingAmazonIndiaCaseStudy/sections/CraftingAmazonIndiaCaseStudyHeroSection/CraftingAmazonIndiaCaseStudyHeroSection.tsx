@@ -41,7 +41,7 @@ export const CraftingAmazonIndiaCaseStudyHeroSection = (): JSX.Element => {
           property="og:description"
           content="Explore how Impulse Digital crafted a compelling Employer Value Proposition for Amazon India to strengthen employer branding and attract top talent."
         />
-        <meta property="og:url" content="https://www.theimpulsedigital.com" />
+        <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/crafting-the-employer-value-proposition-for-amazon-india/" />
         <meta
           property="og:image"
           content="https://www.theimpulsedigital.com/Crafting%20the%20Employer%20Value.png"
