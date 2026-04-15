@@ -9,28 +9,28 @@ export const CasestudiesHeroSection = (): JSX.Element => {
     <> 
       {/* ✅ SEO Meta Tags */}
     <Helmet>
-    <meta name="description" content="Explore how Impulse Digital crafted a compelling Employer Value Proposition for Amazon India to strengthen employer branding and attract top talent." />
-      <title>Employer Value Proposition Case Study for Amazon India | Impulse Digital</title>
+    <meta name="description" content="Explore real client success stories from Impulse Digital’s digital marketing case studies across SEO, performance marketing, branding, and web strategy delivering measurable growth." />
+      <title>Client Success Stories | Impulse Digital Case Studies</title>
 
       <meta name="robots" content="index, follow" />
       <meta name="revisit-after" content="1 day" />
       <meta name="language" content="English" />
       <meta name="generator" content="N/A" />
 
-      <meta property="og:title" content="Employer Value Proposition Case Study for Amazon India | Impulse Digital" />
-      <meta property="og:description" content="Explore how Impulse Digital crafted a compelling Employer Value Proposition for Amazon India to strengthen employer branding and attract top talent." />
-      <meta property="og:url" content="https://www.theimpulsedigital.com/Crafting%20the%20Employer%20Value.png" />
-      <meta property="og:image" content="https://www.theimpulsedigital.com/Crafting%20the%20Employer%20Value.png" />
+      <meta property="og:title" content="Client Success Stories | Impulse Digital Case Studies" />
+      <meta property="og:description" content="Explore real client success stories from Impulse Digital’s digital marketing case studies across SEO, performance marketing, branding, and web strategy delivering measurable growth." />
+      <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/" />
+      <meta property="og:image" content="https://www.theimpulsedigital.com/Amazon%20EVP.jpg" />
       <meta property="og:site_name" content="Impulse Digital" />
       <meta property="og:type" content="website" />
       <meta name="twitter:card" content= "summary_large_image"  />
       <meta name="twitter:site" content="@impulsedigi" />
       <meta name="twitter:creator" content="@impulsedigi" />
-      <meta name="twitter:title" content="Employer Value Proposition Case Study for Amazon India | Impulse Digital" />
-      <meta name="twitter:description" content="Explore how Impulse Digital crafted a compelling Employer Value Proposition for Amazon India to strengthen employer branding and attract top talent." />
-      <meta name="twitter:image" content="https://www.theimpulsedigital.com/Crafting%20the%20Employer%20Value.png" />
-      <meta name="twitter:url" content="https://www.theimpulsedigital.com/Crafting%20the%20Employer%20Value.png" />
-      <link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/crafting-the-employer-value-proposition-for-amazon-india/"/>
+      <meta name="twitter:title" content="Client Success Stories | Impulse Digital Case Studies" />
+      <meta name="twitter:description" content="Explore real client success stories from Impulse Digital’s digital marketing case studies across SEO, performance marketing, branding, and web strategy delivering measurable growth." />
+      <meta name="twitter:image" content="https://www.theimpulsedigital.com/Amazon%20EVP.jpg" />
+      <meta name="twitter:url" content="https://www.theimpulsedigital.com/casestudies/" />
+      <link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/"/>
 
     </Helmet>
          
