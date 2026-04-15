@@ -9,8 +9,8 @@ export const AboutHeroSection = (): JSX.Element => {
           {/* ✅ SEO Meta Tags */}
     <Helmet> 
     <title>About Impulse Digital - Creative Digital Marketing Agency</title>
-    <meta name="description" content="Get to know Impulse Digital, a trusted digital marketing agency delivering SEO, paid media, branding, agentic ai, and website solutions that drive measurable business growth.">
-    <meta name="keywords" content="digital marketing agency, impulse digital">
+    <meta name="description" content="Get to know Impulse Digital, a trusted digital marketing agency delivering SEO, paid media, branding, agentic ai, and website solutions that drive measurable business growth."/>
+    <meta name="keywords" content="digital marketing agency, impulse digital"/>
 
 <meta name="robots" content="index, follow"/>
 <meta name="revisit-after" content="1 day"/>
