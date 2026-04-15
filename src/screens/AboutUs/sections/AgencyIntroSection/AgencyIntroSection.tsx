@@ -13,9 +13,9 @@ export const AgencyIntroSection = () => {
 <div className="grid md:grid-cols-2 gap-12 items-center rounded-[36px] bg-gradient-to-r from-[#4b378a] to-[#5a42a1] p-12 shadow-xl">
 
   <div>
-    <h1 className="text-white font-extrabold text-[34px] md:text-[56px] leading-tight">
+    <h2 className="text-white font-extrabold text-[34px] md:text-[56px] leading-tight">
       Marketing that doesn’t need babysitting.
-    </h1>
+    </h2>
 
     <p className="mt-5 text-white/90 text-lg">
       We take full ownership of your marketing, then prove it with outcomes.
