@@ -3,14 +3,14 @@ import { Helmet } from 'react-helmet-async';
 import Header from "../../../../components/layout/Header";
 
 export const ContentWritingHeroSection = (): JSX.Element => {
-  const heroTextLines = ["EMPLOYER BRANDING"];
+  const heroTextLines = ["EMPLOYER BRANDING AGENCY"];
 
   return (
     <> 
       {/* ✅ SEO Meta Tags */}
     <Helmet> 
 
-<meta name="description" content="Impulse Digital is a leading Employer Branding agency in India which empowers businesses to optimize their brand strategy as an employer. Our employer branding services help you build an integrated and impactful brand story that is portrayed consistently across your web pages, blogs, and career sites."/>
+<meta name="description" content="Impulse Digital is a leading employer branding agency in India, which empowers businesses to optimise their brand strategy as an employer. Our employer branding services help you build an integrated and impactful brand story that is portrayed consistently across your web pages, blogs, and career sites."/>
 <meta name="keywords" content="employer branding agency, employer branding services, employer branding company, employee,"/>
 <title>Employer Branding Agency | Impulse Digital</title>
 
@@ -20,8 +20,8 @@ export const ContentWritingHeroSection = (): JSX.Element => {
 <meta name="generator" content="N/A"/>
 
 <meta property="og:title" content="Employer Branding Agency | Impulse Digital"/>
-<meta property="og:description" content="Impulse Digital is a leading Employer Branding agency in India which empowers businesses to optimize their brand strategy as an employer. Our employer branding services help you build an integrated and impactful brand story that is portrayed consistently across your web pages, blogs, and career sites."/>
-<meta property="og:url" content="htthttps://www.theimpulsedigital.com/services/employee-branding-agencyps://www.theimpulsedigital.com/services/branding-creative-services"/>
+<meta property="og:description" content="Impulse Digital is a leading employer branding agency in India, which empowers businesses to optimise their brand strategy as an employer. Our employer branding services help you build an integrated and impactful brand story that is portrayed consistently across your web pages, blogs, and career sites."/>
+<meta property="og:url" content="https://www.theimpulsedigital.com/services/employer-branding-agency/"/>
 <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
 <meta property="og:site_name" content="Impulse Digital"/>
 <meta property="og:type" content="website"/>
@@ -29,12 +29,12 @@ export const ContentWritingHeroSection = (): JSX.Element => {
 <meta name="twitter:site" content="@impulsedigi"/>
 <meta name="twitter:creator" content="@impulsedigi"/>
 <meta name="twitter:title" content="Employer Branding Agency | Impulse Digital"/>
-<meta name="twitter:description" content="Impulse Digital is a leading Employer Branding agency in India which empowers businesses to optimize their brand strategy as an employer. Our employer branding services help you build an integrated and impactful brand story that is portrayed consistently across your web pages, blogs, and career sites."/>
+<meta name="twitter:description" content="Impulse Digital is a leading employer branding agency in India, which empowers businesses to optimize their brand strategy as an employer. Our employer branding services help you build an integrated and impactful brand story that is portrayed consistently across your web pages, blogs, and career sites."/>
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
-<meta name="twitter:url" content="https://www.theimpulsedigital.com/employer-branding-agency"/>
+<meta name="twitter:url" content="https://www.theimpulsedigital.com/services/employer-branding-agency/"/>
 
 
-<link rel="canonical" href="https://www.theimpulsedigital.com/services/employee-branding-agency"/>
+<link rel="canonical" href="https://www.theimpulsedigital.com/services/employer-branding-agency/"/>
 </Helmet>
          
 
