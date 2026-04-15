@@ -10,7 +10,7 @@ export const CareersHeroSection = (): JSX.Element => {
       {/* ✅ SEO Meta Tags */}
   <Helmet>
       <meta name="description" content="At Impulse Digital, we always look forward to hire creative minds. Check out our current openings and apply right away to be the part of Impulse Digital team." />
-<meta name="keywords" content="" />
+<meta name="keywords" content="career at impulse digital, thane, mumbai, job, hiring" />
 <title>Careers at Impulse Digital</title>
 
 <meta name="robots" content="index, follow" />
@@ -20,7 +20,7 @@ export const CareersHeroSection = (): JSX.Element => {
 
 <meta property="og:title" content="Careers at Impulse Digital" />
 <meta property="og:description" content="At Impulse Digital, we always look forward to hire creative minds. Check out our current openings and apply right away to be the part of Impulse Digital team." />
-<meta property="og:url" content="https://www.theimpulsedigital.com/career" />
+<meta property="og:url" content="https://www.theimpulsedigital.com/careers/" />
 <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
 <meta property="og:site_name" content="Impulse Digital" />
 <meta property="og:type" content="website" />
@@ -30,7 +30,9 @@ export const CareersHeroSection = (): JSX.Element => {
 <meta name="twitter:title" content="Careers at Impulse Digital" />
 <meta name="twitter:description" content="At Impulse Digital, we always look forward to hire creative minds. Check out our current openings and apply right away to be the part of Impulse Digital team." />
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-<meta name="twitter:url" content="https://www.theimpulsedigital.com/career" />
+<meta name="twitter:url" content="https://www.theimpulsedigital.com/careers/" />
+
+ <link rel="canonical" href="https://www.theimpulsedigital.com/careers/" />   
 
 
     </Helmet>
