@@ -9,6 +9,8 @@ export const AboutHeroSection = (): JSX.Element => {
           {/* ✅ SEO Meta Tags */}
     <Helmet> 
     <title>About Impulse Digital - Creative Digital Marketing Agency</title>
+    <meta name="description" content="Get to know Impulse Digital, a trusted digital marketing agency delivering SEO, paid media, branding, agentic ai, and website solutions that drive measurable business growth.">
+    <meta name="keywords" content="digital marketing agency, impulse digital">
 
 <meta name="robots" content="index, follow"/>
 <meta name="revisit-after" content="1 day"/>
@@ -16,8 +18,8 @@ export const AboutHeroSection = (): JSX.Element => {
 <meta name="generator" content="N/A"/>
 
 <meta property="og:title" content="About Impulse Digital - Creative Digital Marketing Agency"/>
-<meta property="og:description" content="A full-fledged creative digital marketing agency to help you unleash the true potential of your brand on the digital front. With Impulse Digital, get more leads &amp; grow revenue."/>
-<meta property="og:url" content="https://www.theimpulsedigital.com/about-us"/>
+<meta property="og:description" content="Get to know Impulse Digital, a trusted digital marketing agency delivering SEO, paid media, branding, agentic ai, and website solutions that drive measurable business growth."/>
+<meta property="og:url" content="https://www.theimpulsedigital.com/about-us/"/>
 <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
 <meta property="og:site_name" content="Impulse Digital"/>
 <meta property="og:type" content="website"/>
@@ -25,10 +27,10 @@ export const AboutHeroSection = (): JSX.Element => {
 <meta name="twitter:site" content="@impulsedigi"/>
 <meta name="twitter:creator" content="@impulsedigi"/>
 <meta name="twitter:title" content="About Impulse Digital - Creative Digital Marketing Agency"/>
-<meta name="twitter:description" content="A full-fledged creative digital marketing agency to help you unleash the true potential of your brand on the digital front. With Impulse Digital, get more leads &amp; grow revenue."/>
+<meta name="twitter:description" content="Get to know Impulse Digital, a trusted digital marketing agency delivering SEO, paid media, branding, agentic ai, and website solutions that drive measurable business growth."/>
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
-<meta name="twitter:url" content="https://www.theimpulsedigital.com/about-us"/>
-<link rel="canonical" href="https://www.theimpulsedigital.com/about-us" />
+<meta name="twitter:url" content="https://www.theimpulsedigital.com/about-us/"/>
+<link rel="canonical" href="https://www.theimpulsedigital.com/about-us/" />
 <link rel="icon" type="image/x-icon" href="/resource-icon.png" />
 
     </Helmet>
