@@ -34,8 +34,7 @@
   RewriteRule ^online-paid-advertising/?$ https://www.theimpulsedigital.com/services/performance-marketing/ [R=301,L]
   RewriteRule ^content-marketing-services/?$ https://www.theimpulsedigital.com/services/content-writing-services/ [R=301,L]
   RewriteRule ^branding-creative-services/?$ https://www.theimpulsedigital.com/services/branding-creative-services/ [R=301,L]
-  RewriteRule ^employer-branding-agency/?$ https://www.theimpulsedigital.com/services/employee-branding-agency/ [R=301,L]
-  RewriteRule ^corporate-communication-agency/?$ https://www.theimpulsedigital.com/services/branding-creative-services/ [R=301,L]
+ RewriteRule ^employer-branding-agency/?$ https://www.theimpulsedigital.com/services/employer-branding-agency [R=301,L]
   RewriteRule ^social-media-video-production/?$ https://www.theimpulsedigital.com/services/social-media-video-production/ [R=301,L]
 
 
