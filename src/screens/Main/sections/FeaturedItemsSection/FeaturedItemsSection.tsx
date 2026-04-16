@@ -5,7 +5,174 @@ import Header from "../../../../components/layout/Header";
 
 export const FeaturedItemsSection = (): JSX.Element => {
   const heroTextLines = ["For Anything", "But Ordinary",];
-
+ const schema = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://www.theimpulsedigital.com/#organization",
+        name: "Impulse Digital",
+        url: "https://www.theimpulsedigital.com/",
+        logo: "https://www.theimpulsedigital.com/header-logo.png",
+        description:
+          "Impulse Digital is a Mumbai-based 360° digital marketing agency offering branding, SEO, website development, performance marketing, content, video production, social media marketing, employer branding, and Agentic AI services.",
+        email: "collabs@theimpulsedigital.com",
+        telephone: "+91-9769285224",
+        address: {
+          "@type": "PostalAddress",
+          streetAddress:
+            "304 – 305, Chirag Infotech, Road No. 16/Z, Ambica Nagar, Wagle Industrial Estate",
+          addressLocality: "Thane",
+          addressRegion: "Maharashtra",
+          postalCode: "400604",
+          addressCountry: "IN",
+        },
+        areaServed: [
+          { "@type": "Country", name: "India" },
+          { "@type": "City", name: "Mumbai" },
+          { "@type": "City", name: "Thane" },
+          { "@type": "City", name: "Navi Mumbai" },
+          { "@type": "City", name: "Pune" },
+        ],
+        sameAs: [
+          "https://www.facebook.com/theimpulsedigital",
+          "https://twitter.com/impulsedigi",
+          "https://www.instagram.com/_impulse_digital/",
+          "https://www.youtube.com/channel/UCzQglQAeXGI99Z-LZI9jBkw",
+          "https://www.linkedin.com/company/impulse-digital-marketing-mumbai",
+        ],
+        hasOfferCatalog: {
+          "@type": "OfferCatalog",
+          name: "Digital Marketing Services",
+          itemListElement: [
+            {
+              "@type": "Offer",
+              itemOffered: {
+                "@type": "Service",
+                name: "Agentic AI",
+                serviceType: "Agentic AI",
+                url: "https://www.theimpulsedigital.com/services/agentic-ai/",
+              },
+            },
+            {
+              "@type": "Offer",
+              itemOffered: {
+                "@type": "Service",
+                name: "SEO",
+                serviceType: "Search Engine Optimization",
+                url: "https://www.theimpulsedigital.com/services/search-engine-optimization",
+              },
+            },
+            {
+              "@type": "Offer",
+              itemOffered: {
+                "@type": "Service",
+                name: "Website Development & Design",
+                serviceType: "Website Design and Development",
+                url: "https://www.theimpulsedigital.com/services/website-development/",
+              },
+            },
+            {
+              "@type": "Offer",
+              itemOffered: {
+                "@type": "Service",
+                name: "Performance Marketing",
+                serviceType: "Performance Marketing",
+                url: "https://www.theimpulsedigital.com/services/performance-marketing",
+              },
+            },
+            {
+              "@type": "Offer",
+              itemOffered: {
+                "@type": "Service",
+                name: "Content Writing Services",
+                serviceType: "Content Writing",
+                url: "https://www.theimpulsedigital.com/services/content-writing-services/",
+              },
+            },
+            {
+              "@type": "Offer",
+              itemOffered: {
+                "@type": "Service",
+                name: "Video Production",
+                serviceType: "Video Production",
+                url: "https://www.theimpulsedigital.com/services/social-media-video-production",
+              },
+            },
+            {
+              "@type": "Offer",
+              itemOffered: {
+                "@type": "Service",
+                name: "Social Media Marketing",
+                serviceType: "Social Media Marketing",
+                url: "https://www.theimpulsedigital.com/services/social-media-marketing",
+              },
+            },
+            {
+              "@type": "Offer",
+              itemOffered: {
+                "@type": "Service",
+                name: "Employer Branding",
+                serviceType: "Employer Branding",
+                url: "https://www.theimpulsedigital.com/services/employer-branding-agency/",
+              },
+            },
+            {
+              "@type": "Offer",
+              itemOffered: {
+                "@type": "Service",
+                name: "Branding",
+                serviceType: "Branding and Creative Services",
+                url: "https://www.theimpulsedigital.com/services/branding-creative-services",
+              },
+            },
+          ],
+        },
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://www.theimpulsedigital.com/#website",
+        url: "https://www.theimpulsedigital.com/",
+        name: "Impulse Digital",
+        publisher: {
+          "@id": "https://www.theimpulsedigital.com/#organization",
+        },
+        inLanguage: "en",
+        potentialAction: {
+          "@type": "SearchAction",
+          target: "https://www.theimpulsedigital.com/?s={search_term_string}",
+          "query-input": "required name=search_term_string",
+        },
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://www.theimpulsedigital.com/#webpage",
+        url: "https://www.theimpulsedigital.com/",
+        name: "Best Digital Marketing Agency in Mumbai | Impulse Digital",
+        isPartOf: {
+          "@id": "https://www.theimpulsedigital.com/#website",
+        },
+        primaryImageOfPage: {
+          "@type": "ImageObject",
+          url: "https://www.theimpulsedigital.com/",
+        },
+        description:
+          "Impulse Digital is a Mumbai-based digital marketing agency offering SEO, website development, performance marketing, social media marketing, branding, employer branding, content writing, video production, and Agentic AI services.",
+        breadcrumb: {
+          "@type": "BreadcrumbList",
+          itemListElement: [
+            {
+              "@type": "ListItem",
+              position: 1,
+              name: "Home",
+              item: "https://www.theimpulsedigital.com/",
+            },
+          ],
+        },
+        inLanguage: "en",
+      },
+    ],
+  };
   return (
     <>
       {/* ✅ SEO Meta Tags */}
@@ -51,64 +218,14 @@ export const FeaturedItemsSection = (): JSX.Element => {
           // @ts-expect-error - TS DOM typings may not include fetchpriority yet
           fetchpriority="high"
         />
+        <script type="application/ld+json">
+        {JSON.stringify(schema)}
+      </script>
       </Helmet>
 
-      {/* JSON-LD Schema for ProfessionalService */}
-      <JsonLd
-        item={{
-          "@context": "https://schema.org",
-          "@type": "ProfessionalService",
-          name: "Impulse Digital",
-          image: "https://www.theimpulsedigital.com/footer-logo.png",
-          "@id": "https://www.theimpulsedigital.com/#professionalservice",
-          url: "https://www.theimpulsedigital.com",
-          telephone: "+91 9769285224",
-          priceRange: "INR 50000 and above",
-          address: {
-            "@type": "PostalAddress",
-            streetAddress:
-              "304-305, Chirag Infotech, Road No. 16/Z, Ambica Nagar, Wagle Industrial Estate",
-            addressLocality: "Thane",
-            postalCode: "400604",
-            addressRegion: "Maharashtra",
-            addressCountry: "IN",
-          },
-          geo: {
-            "@type": "GeoCoordinates",
-            latitude: 19.2034942,
-            longitude: 72.9539988,
-          },
-          openingHoursSpecification: {
-            "@type": "OpeningHoursSpecification",
-            dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-            opens: "10:00",
-            closes: "19:00",
-          },
-          sameAs: [
-            "https://in.linkedin.com/company/impulse-digital-marketing-mumbai",
-            "https://www.facebook.com/theimpulsedigital",
-            "https://twitter.com/impulsedigi",
-            "https://instagram.com/_impulse_digital",
-            "https://www.youtube.com/channel/UCzQglQAeXGI99Z-LZI9jBkw",
-          ],
-        }}
-      />
+      
 
-      {/* JSON-LD for Website SearchAction */}
-      <JsonLd
-        item={{
-          "@context": "https://schema.org",
-          "@type": "WebSite",
-          name: "Impulse Digital",
-          url: "https://www.theimpulsedigital.com",
-          "@id": "https://www.theimpulsedigital.com/#website",
-          potentialAction: {
-            "@type": "SearchAction",
-            target: "https://www.theimpulsedigital.com/search?q={search_term_string}",
-            "query-input": "required name=search_term_string",
-          },
-        }}
-      />
+      
 
       {/* ✅ Hero Section */}
       <section
