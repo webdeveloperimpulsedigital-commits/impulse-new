@@ -7,7 +7,7 @@ export const TermsAndConditionsPageHeroSection = (): JSX.Element => {
 
     <>
     <Helmet>
-      <meta name="description" content="If you are looking for digital marketing solutions for your brand, feel free to submit the inquiry form or give us a call." />
+      <meta name="description" content="Read the Terms and Conditions of Impulse Digital to understand our service policies, user responsibilities, legal guidelines, and website usage terms before engaging with our services." />
 <meta name="keywords" content="" />
 <title>Terms & Conditions | Impulse Digital</title>
 <meta name="robots" content="index, follow" />
@@ -15,8 +15,8 @@ export const TermsAndConditionsPageHeroSection = (): JSX.Element => {
 <meta name="language" content="English" />
 <meta name="generator" content="N/A" />
 <meta property="og:title" content="Get In Touch | Impulse Digital" />
-<meta property="og:description" content="If you are looking for digital marketing solutions for your brand, feel free to submit the inquiry form or give us a call." />
-<meta property="og:url" content="https://www.theimpulsedigital.com/contact-us" />
+<meta property="og:description" content="Read the Terms and Conditions of Impulse Digital to understand our service policies, user responsibilities, legal guidelines, and website usage terms before engaging with our services." />
+<meta property="og:url" content="https://www.theimpulsedigital.com/terms-and-conditions/" />
 <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
 <meta property="og:site_name" content="Impulse Digital" />
 <meta property="og:type" content="website" />
@@ -24,10 +24,10 @@ export const TermsAndConditionsPageHeroSection = (): JSX.Element => {
 <meta name="twitter:site" content="@impulsedigi" />
 <meta name="twitter:creator" content="@impulsedigi" />
 <meta name="twitter:title" content="Get In Touch | Impulse Digital" />
-<meta name="twitter:description" content="If you are looking for digital marketing solutions for your brand, feel free to submit the inquiry form or give us a call." />
+<meta name="twitter:description" content="Read the Terms and Conditions of Impulse Digital to understand our service policies, user responsibilities, legal guidelines, and website usage terms before engaging with our services." />
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-<meta name="twitter:url" content="https://www.theimpulsedigital.com/contact-us" />
-<link rel="canonical" href="https://www.theimpulsedigital.com/contact-us" />
+<meta name="twitter:url" content="https://www.theimpulsedigital.com/terms-and-conditions/" />
+<link rel="canonical" href="https://www.theimpulsedigital.com/terms-and-conditions/" />
   
     </Helmet>
 
