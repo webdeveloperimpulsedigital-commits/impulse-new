@@ -19,7 +19,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
         "Build intelligent AI agents that automate tasks, make decisions, and work autonomously to improve efficiency and scale your business operations.",
       features: ["WhatsApp", "Email", "Voice Notes", "Facebook Messenger","Instagram DM","SMS"],
       image: "/agentic-ai-thumbnail.jpg",
-      link: "/services/agentic-ai",
+      link: "/services/agentic-ai/",
     },
     {
       id: "Video Production",
@@ -28,7 +28,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
         "Create high-impact videos that tell your brand story, engage your audience, and drive results. From concept to final edit, we produce visually stunning videos tailored for marketing, branding, and digital platforms.",
       features: ["Brand Films & Corporate Videos", "Product Videos & Demos", "Commercials & Promo Videos", "Explainer Videos","Testimonial & Founder Videos","Event Coverage & After-Movies","Animation & Motion Graphics","Short-Form Video Content"],
       image: "/video-production-service.jpg",
-      link: "/services/video-production",
+      link: "/services/video-production/",
     },
     {
       id: "seo",
@@ -37,7 +37,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
         "Improve your website visibility and rankings with robust SEO strategies built to deliver sustainable growth.",
       features: ["AI SEO", "Enterprise SEO","eCommerce SEO","Local SEO","B2B SEO"],
       image: "/servicepage-SEO-new.jpg",
-      link: "/services/search-engine-optimization",
+      link: "/services/search-engine-optimization/",
     },
     {
       id: "web",
@@ -46,7 +46,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
         "Design and develop user-focused websites that look great, perform well, and convert visitors into customers.",
       features: ["UI/UX Design", "Responsive Development", "CMS Setup", "Website SEO","Website AMC"],
       image: "/servicepage-Website Development-new.jpg",
-      link: "/services/website-development",
+      link: "/services/website-development/",
     },
 {
       id: "video",
@@ -55,7 +55,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
         "Produce short-form videos, reels, and branded storytelling content that stand out and drive engagement.",
       features: ["Concept Development", "Scriptwriting", "Production", "Editing & Animation"],
       image: "/servicepage-Video Production-new.jpg",
-      link: "/services/social-media-video-production",
+      link: "/services/social-media-video-production/",
     },
     {
       id: "content",
@@ -64,7 +64,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
         "Craft compelling, SEO-driven content that tells your brand story and drives measurable engagement across platforms.",
       features: ["Blog Writing", "Website Copy", "Landing Pages", "Corporate Communication"],
       image: "/servicepage-COntent writing-new.jpg",
-      link: "/services/content-writing-services",
+      link: "/services/content-writing-services/",
     },
     {
       id: "ppc",
@@ -73,7 +73,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
         "Run targeted campaigns across Google, Meta, and more to maximize ROI through data-backed performance marketing strategies.",
       features: ["Google Ads", "Meta Campaigns", "Bid Optimization", "Landing Page Testing"],
       image: "/servicepage-PPC-new.jpg",
-      link: "/services/performance-marketing",
+      link: "/services/performance-marketing/",
     },
     {
       id: "social",
@@ -82,7 +82,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
         "Build strong social communities and boost engagement through creative content and performance-driven strategies.",
       features: ["Strategy & Planning", "Content Creation", "Paid Campaigns", "Community Management"],
       image: "/servicepage-Social Media Marketing-new.jpg",
-      link: "/services/social-media-marketing",
+      link: "/services/social-media-marketing/",
     },
     
     {
@@ -92,7 +92,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
         "Shape your brand’s visual and emotional identity through design, storytelling, and creative strategy.",
       features: ["Logo Design", "Brand Guidelines", "Campaign Design", "Creative Strategy"],
       image: "/servicepage-Branding and Identity-new.jpg",
-      link: "/services/branding-creative-services",
+      link: "/services/branding-creative-services/",
     },
     {
       id: "employer",
@@ -101,7 +101,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
         "Build a strong employer brand that attracts, engages, and retains top talent aligned with your company’s values.",
       features: ["EVP Creation", "Recruitment Marketing", "Internal Campaigns", "Culture Storytelling"],
       image: "/servicepage-Employeer Branding-new.jpg",
-      link: "/services/employee-branding-agency",
+      link: "/services/employer-branding-agency/",
     },
     // {
     //   id: "corporate",

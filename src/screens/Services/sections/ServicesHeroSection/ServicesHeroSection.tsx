@@ -3,25 +3,24 @@ import { Helmet } from 'react-helmet-async';
 import Header from "../../../../components/layout/Header";
 
 export const ServicesHeroSection = (): JSX.Element => {
-  const heroTextLines = ["SERVICES"];
+  const heroTextLines = ["DIGITAL MARKETING SERVICES"];
 
   return (
     <>
       {/* ✅ SEO Meta Tags */}
        <Helmet>
-      <meta name="description" content="Impulse Digital, a leading digital marketing agency in mumbai, offers various services like  SEO, social media, PPC, web development, branding & employer‑branding to boost your online visibility." />
-<meta name="keywords" content="digital marketing agency in pune, digital marketing company, impulse digital" />
-<title>Best Digital Marketing Services | Impulse Digital</title>
+      <meta name="description" content="Impulse Digital is known for the best digital marketing services in Mumbai, offers various services like  SEO, social media, PPC, web development, branding & employer‑branding to boost your online visibility." />
+<meta name="keywords" content="digital marketing services in mumbai, impulse digital" />
+<title>Best Digital Marketing Services in Mumbai | Impulse Digital</title>
 <meta name="robots" content="index, follow" />
-
 
 <meta name="revisit-after" content="1 day" />
 <meta name="language" content="English" />
 <meta name="generator" content="N/A" />
 
 <meta property="og:title" content="Best Digital Marketing Services | Impulse Digital" />
-<meta property="og:description" content="Impulse Digital, a leading digital marketing agency in mumbai, offers various services like  SEO, social media, PPC, web development, branding & employer‑branding to boost your online visibility." />
-<meta property="og:url" content="https://www.theimpulsedigital.com/digital-marketing-agency-in-pune" />
+<meta property="og:description" content="Impulse Digital is known for the best digital marketing services in Mumbai, offers various services like  SEO, social media, PPC, web development, branding & employer‑branding to boost your online visibility." />
+<meta property="og:url" content="https://www.theimpulsedigital.com/services/" />
 <meta property="og:image" content="https://www.theimpulsedigital.com/img/impulse-logo.jpg" />
 <meta property="og:site_name" content="Impulse Digital" />
 <meta property="og:type" content="website" />
@@ -29,11 +28,11 @@ export const ServicesHeroSection = (): JSX.Element => {
 <meta name="twitter:site" content="@impulsedigi" />
 <meta name="twitter:creator" content="@impulsedigi" />
 <meta name="twitter:title" content="Best Digital Marketing Services | Impulse Digital" />
-<meta name="twitter:description" content="Impulse Digital, a leading digital marketing agency in mumbai, offers various services like  SEO, social media, PPC, web development, branding & employer‑branding to boost your online visibility." />
+<meta name="twitter:description" content="Impulse Digital is known for the best digital marketing services in Mumbai, offers various services like  SEO, social media, PPC, web development, branding & employer‑branding to boost your online visibility." />
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/impulse-logo.jpg" />
-<meta name="twitter:url" content="https://www.theimpulsedigital.com/digital-marketing-agency-in-pune" />
+<meta name="twitter:url" content="https://www.theimpulsedigital.com/services/" />
 <link rel="icon" type="image/x-icon" href="/resource-icon.png" />
-<link rel="canonical" href="https://www.theimpulsedigital.com/services"/>
+<link rel="canonical" href="https://www.theimpulsedigital.com/services/"/>
 
     </Helmet>
 
