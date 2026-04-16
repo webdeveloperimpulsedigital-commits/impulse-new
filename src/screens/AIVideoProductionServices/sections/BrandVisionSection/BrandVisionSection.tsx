@@ -74,14 +74,16 @@ export const BrandVisionSection = (): JSX.Element => {
     >
       <div className="max-w-[1280px] mx-auto px-2 lg:px-5 sm:py-10">
         {/* Title */}
-        <div className="mb-6 lg:mb-8 pt-10">
-          <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
-            Create More Videos.
-          </h2>
-          <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight">
-            In Less Time. With AI.
-          </h2>
-        </div>
+       <div className="mb-6 lg:mb-8 pt-10">
+  <h2 className="[font-family:'DM_Sans',Helvetica] leading-tight">
+    <span className="text-[#030019] font-medium lg:text-[34px] sm:text-[16px] block">
+      Create More Videos.  <br></br>
+    </span>
+    <span className="text-[#543d98] font-bold lg:text-[52px] sm:text-[26px] block">
+      In Less Time. With AI.
+    </span>
+  </h2>
+</div>
 
         {/* Image + Counters */}
         <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-12 items-start mb-6">

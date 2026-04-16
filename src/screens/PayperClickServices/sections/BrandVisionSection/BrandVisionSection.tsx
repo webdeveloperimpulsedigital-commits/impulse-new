@@ -91,14 +91,16 @@ export const BrandVisionSection = (): JSX.Element => {
       ref={sectionRef}
     >
       <div className="max-w-[1280px] mx-auto px-2 lg:px-5 sm:py-10">
-        <div className="mb-6 lg:mb-8 pt-10">
-          <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px] ">
-             From Insights to Impact
-          </h2>
-          <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-PPC that works for your business!
-          </h2>
-        </div>
+       <div className="mb-6 lg:mb-8 pt-10">
+  <h2 className="[font-family:'DM_Sans',Helvetica] leading-tight">
+    <span className="text-[#030019] font-medium lg:text-[34px] sm:text-[16px] block">
+      From Insights to Impact  <br></br>
+    </span>
+    <span className="text-[#543d98] font-bold lg:text-[52px] sm:text-[26px] block">
+      PPC that works for your business!
+    </span>
+  </h2>
+</div>
 
         <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-12 items-start mb-6">
           <div className="lg:col-span-5 lg:w-[600px]">

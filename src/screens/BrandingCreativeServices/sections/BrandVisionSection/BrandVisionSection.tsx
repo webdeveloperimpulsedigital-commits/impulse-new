@@ -99,14 +99,15 @@ export const BrandVisionSection = (): JSX.Element => {
       <div className="max-w-[1280px] mx-auto px-2 lg:px-5 sm:py-10">
         {/* Title */}
         <div className="mb-6 lg:mb-8 pt-10">
-          <h2 className="text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
-            Designing Identities That
-          </h2>
-          <h2 className="font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight">
-            Endure
-          </h2>
-        </div>
-
+  <h2 className="leading-tight">
+    <span className="text-[#030019] font-medium lg:text-[34px] sm:text-[16px] block">
+      Designing Identities That  <br></br>
+    </span>
+    <span className="font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] block">
+      Endure
+    </span>
+  </h2>
+</div>
         {/* Image + Overlay + Counters */}
         <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-12 items-start mb-6">
           

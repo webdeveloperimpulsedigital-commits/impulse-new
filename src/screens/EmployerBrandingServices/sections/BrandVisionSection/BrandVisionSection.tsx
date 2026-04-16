@@ -96,13 +96,15 @@ export const BrandVisionSection = (): JSX.Element => {
         
         {/* Title */}
         <div className="mb-6 lg:mb-8 pt-10">
-          <h2 className="text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
-            Because Great Talent
-          </h2>
-          <h2 className="font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight">
-            Follows Great Stories
-          </h2>
-        </div>
+  <h2 className="leading-tight">
+    <span className="text-[#030019] font-medium lg:text-[34px] sm:text-[16px] block">
+      Because Great Talent <br></br>
+    </span>
+    <span className="font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] block">
+      Follows Great Stories
+    </span>
+  </h2>
+</div>
 
         {/* Image + Overlay + Counters */}
         <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-12 items-start mb-6">

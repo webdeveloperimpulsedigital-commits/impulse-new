@@ -89,7 +89,7 @@ export const BrandVisionSection = (): JSX.Element => {
         <div className="mb-6 lg:mb-8 pt-10">
           <h2 className="[font-family:'DM_Sans',Helvetica] leading-tight">
             <span className="block text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
-              B2B SEO Agency
+              B2B SEO Agency  <br></br>
             </span>
             <span className="block text-[#543d98] font-bold lg:text-[52px] sm:text-[26px]">
               Built for Long Cycles & Lasting ROI
