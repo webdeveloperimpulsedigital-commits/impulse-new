@@ -11,9 +11,18 @@ import { TestimonialsSection } from "../Main/sections/TestimonialsSection/Testim
 import { ContactSection } from "../Main/sections/ContactSection/ContactSection";
 import { FAQSection } from "./sections/FAQSection/FAQSection";
 import { FooterSection } from "../Main/sections/FooterSection/FooterSection";
+
+import { FAQSchema } from "../../components/SEO/FAQSchema";
+import { faqData } from "../../data/faqs";
+
+
 export const AIVideoProductionServices = (): JSX.Element => {
+    const faqs = faqData["/services/video-production/ai-video-production"] || [];
+
   return (
     <main className="relative w-full min-h-screen">
+            <FAQSchema faqs={faqs} />
+
       {/* <ScrollRevealLogo /> */}
       <div className="relative w-full space-y-0">
         <AIVideoProductionServicesHeroSection />
@@ -26,7 +35,7 @@ export const AIVideoProductionServices = (): JSX.Element => {
         <ClientsSection/> 
         <TestimonialsSection />
         <ContactSection />
-        <FAQSection />
+        <FAQSection faqs={faqs} />
         <FooterSection />
       </div>
     </main>

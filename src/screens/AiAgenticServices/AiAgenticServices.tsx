@@ -1,8 +1,5 @@
-//import { ScrollRevealLogo } from "../../components/ScrollRevealLogo/ScrollRevealLogo";
 import { AiAgenticHeroSection } from "./sections/AiAgenticHeroSection/AiAgenticHeroSection";
 import { BrandVisionSection } from "./sections/BrandVisionSection/BrandVisionSection";
-// import { InteractiveGallerySection } from "./sections/InteractiveGallerySection/InteractiveGallerySection";
-// import { InteractiveSliderSection } from "./sections/InteractiveSliderSection/InteractiveSliderSection";
 import { WhyChooseSection } from "./sections/WhyChooseSection/WhyChooseSection";
 import { ServicesSection } from "./sections/ServicesSection";
 import { ProcessSection } from "./sections/ProcessSection/ProcessSection";
@@ -11,22 +8,26 @@ import { TestimonialsSection } from "../Main/sections/TestimonialsSection/Testim
 import { ContactSection } from "../Main/sections/ContactSection/ContactSection";
 import { FAQSection } from "./sections/FAQSection/FAQSection";
 import { FooterSection } from "../Main/sections/FooterSection/FooterSection";
+
+import { FAQSchema } from "../../components/SEO/FAQSchema";
+import { faqData } from "../../data/faqs";
+
 export const AiAgenticServices = (): JSX.Element => {
+  const faqs = faqData["/services/agentic-ai"] || [];
+
   return (
     <main className="relative w-full min-h-screen">
-      {/* <ScrollRevealLogo /> */}
+      <FAQSchema faqs={faqs} />
       <div className="relative w-full space-y-0">
         <AiAgenticHeroSection />
         <BrandVisionSection />
-        {/* <InteractiveGallerySection /> */}
-        {/* <InteractiveSliderSection /> */}
         <ServicesSection />
         <WhyChooseSection />
         <ProcessSection />
-        <ClientsSection/>
+        <ClientsSection />
         <TestimonialsSection />
         <ContactSection />
-        <FAQSection />
+        <FAQSection faqs={faqs} />
         <FooterSection />
       </div>
     </main>
