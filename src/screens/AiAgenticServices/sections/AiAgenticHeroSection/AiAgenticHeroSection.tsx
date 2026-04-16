@@ -9,7 +9,7 @@ export const AiAgenticHeroSection = (): JSX.Element => {
     <>
       {/* ✅ SEO Meta Tags */}
   <Helmet> 
-    <meta name="description" content="Impulse Digital is a leading agentic AI agency delivering advanced agentic AI service that powers smart, autonomous customer engagement across WhatsApp, email, voice, and social. Boosting conversions, sales efficiency, and ROI with agentic ai service." />
+    <meta name="description" content="Impulse Digital is a leading agentic ai agency delivering advanced agentic ai service that powers smart, autonomous customer engagement across WhatsApp, email, voice, and social. Boosting conversions, sales efficiency, and ROI with agentic ai service." />
     <meta name="keywords" content="agentic ai agency, agentic ai service, multilingual ai agents, lead conversion ai, mumbai, india, impulse digital" />
     <title>Agentic AI Agency | Intelligent Agentic AI Service for Growth</title>
     
@@ -20,7 +20,7 @@ export const AiAgenticHeroSection = (): JSX.Element => {
     
     <meta property="og:title" content="Agentic AI Agency | Intelligent Agentic AI Service for Growth" />
     <meta property="og:description" content="Impulse Digital is a leading agentic AI agency delivering advanced agentic AI service that powers smart, autonomous customer engagement across WhatsApp, email, voice, and social. Boosting conversions, sales efficiency, and ROI with agentic ai service." />
-    <meta property="og:url" content="https://www.theimpulsedigital.com/social-media-video-production" />
+    <meta property="og:url" content="https://www.theimpulsedigital.com/services/agentic-ai/" />
     <meta property="og:image" content="https://www.theimpulsedigital.com/agentic-a.jfif" />
     <meta property="og:site_name" content="Impulse Digital" />
     <meta property="og:type" content="website" />
@@ -30,8 +30,8 @@ export const AiAgenticHeroSection = (): JSX.Element => {
     <meta name="twitter:title" content="Agentic AI Agency | Intelligent Agentic AI Service for Growth" />
     <meta name="twitter:description" content="Impulse Digital is a leading agentic AI agency delivering advanced agentic AI service that powers smart, autonomous customer engagement across WhatsApp, email, voice, and social. Boosting conversions, sales efficiency, and ROI with agentic ai service." />
     <meta name="twitter:image" content="https://www.theimpulsedigital.com/agentic-a.jfif" />
-    <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/agentic-ai" />
-        <link rel="canonical" href="https://www.theimpulsedigital.com/services/agentic-ai" />
+    <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/agentic-ai/" />
+        <link rel="canonical" href="https://www.theimpulsedigital.com/services/agentic-ai/" />
     
   </Helmet>
          
