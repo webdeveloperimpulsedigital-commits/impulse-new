@@ -34,7 +34,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
         />
         <meta
           property="og:description"
-          content="Impulse Digital is best digital marketing agency in Pune that helps you build your own online space."
+          content="Impulse Digital is the best digital marketing agency in Pune that helps you build your own online space. Do not Google for digital marketing solutions, just Impulse Digital. Cause even if do Google anything similar to best digital marketing company in Pune, the chances are high that you might land on this page."
         />
         <meta
           property="og:url"
@@ -56,7 +56,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
         />
         <meta
           name="twitter:description"
-          content="Impulse Digital is best digital marketing agency in Pune that helps you build your own online space."
+          content="Impulse Digital is the best digital marketing agency in Pune that helps you build your own online space. Do not Google for digital marketing solutions, just Impulse Digital. Cause even if do Google anything similar to best digital marketing company in Pune, the chances are high that you might land on this page."
         />
         <meta
           name="twitter:image"
