@@ -13,7 +13,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
 <meta name="generator" content="Impulse Digital" />
 <meta property="og:title" content="Digital Marketing Agency in Thane | SEO Company | Impulse Digital" />
 <meta property="og:description" content="Impulse Digital is a leading digital marketing agency in Thane serving large and small businesses with their customer and sales-driven marketing solutions. Our expert team of digital marketers are well-equipped with market insights that help them design digital marketing strategies and solutions that help you stand out of the competition." />
-<meta property="og:url" content="https://www.theimpulsedigital.com/digital-marketing-agency-in-thane" />
+<meta property="og:url" content="https://www.theimpulsedigital.com/digital-marketing-agency-in-thane/" />
 <meta property="og:image" content="https://www.theimpulsedigital.com/img/mumbai-img/digital-marketing-company-in-thane.jpg" />
 <meta property="og:site_name" content="Impulse Digital" />
 <meta property="og:type" content="website" />
@@ -23,9 +23,9 @@ export const FeaturedItemsSection = (): JSX.Element => {
 <meta name="twitter:title" content="Digital Marketing Agency in Thane | SEO Company | Impulse Digital" />
 <meta name="twitter:description" content="Impulse Digital is a leading digital marketing agency in Thane serving large and small businesses with their customer and sales-driven marketing solutions. Our expert team of digital marketers are well-equipped with market insights that help them design digital marketing strategies and solutions that help you stand out of the competition." />
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/mumbai-img/digital-marketing-company-in-thane.jpg" />
-<meta name="twitter:url" content="https://www.theimpulsedigital.com/digital-marketing-agency-in-thane" />
+<meta name="twitter:url" content="https://www.theimpulsedigital.com/digital-marketing-agency-in-thane/" />
 <meta name="robots" content="index, follow"/>
-<link rel="canonical" href="https://www.theimpulsedigital.com/digital-marketing-agency-in-thane"/>
+<link rel="canonical" href="https://www.theimpulsedigital.com/digital-marketing-agency-in-thane/"/>
  
     </Helmet>
 
