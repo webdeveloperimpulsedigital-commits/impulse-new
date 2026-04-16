@@ -10,7 +10,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
 
         <meta
           name="description"
-          content="Impulse Digital is a best digital marketing agency in Navi Mumbai with decades of expertise in global marketing. Our team of proficient experts endure 24*7 to see your brand excel in the online landscape."
+          content="Impulse Digital is the best digital marketing agency in Navi Mumbai with decades of expertise in global marketing. Our team of proficient experts endure 24*7 to see your brand excel in the online landscape."
         />
 
         <meta
@@ -20,14 +20,14 @@ export const FeaturedItemsSection = (): JSX.Element => {
 
         <link
           rel="canonical"
-          href="https://www.theimpulsedigital.com/digital-marketing-agency-in-navi-mumbai"
+          href="https://www.theimpulsedigital.com/digital-marketing-agency-in-navi-mumbai/"
         />
 
         <meta name="robots" content="index, follow" />
 
         <meta property="og:title" content="Digital Marketing Agency in Navi Mumbai | Impulse Digital" />
-        <meta property="og:description" content="Impulse Digital is a best digital marketing agency in Navi Mumbai with decades of expertise in global marketing." />
-        <meta property="og:url" content="https://www.theimpulsedigital.com/digital-marketing-agency-in-navi-mumbai" />
+        <meta property="og:description" content="Impulse Digital is the best digital marketing agency in Navi Mumbai with decades of expertise in global marketing." />
+        <meta property="og:url" content="https://www.theimpulsedigital.com/digital-marketing-agency-in-navi-mumbai/" />
         <meta property="og:image" content="https://www.theimpulsedigital.com/uploads/images/content/contact.jpg" />
 
         <meta name="twitter:card" content="summary_large_image" />
