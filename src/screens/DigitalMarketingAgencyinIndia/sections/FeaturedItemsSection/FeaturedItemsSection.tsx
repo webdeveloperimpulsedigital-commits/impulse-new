@@ -43,7 +43,7 @@ export const FeaturedItemsSection = () => {
         />
         <meta
           property="og:url"
-          content="https://www.theimpulsedigital.com/digital-marketing-agency-in-india"
+          content="https://www.theimpulsedigital.com/digital-marketing-agency-in-india/"
         />
         <meta
           property="og:image"
@@ -70,7 +70,7 @@ export const FeaturedItemsSection = () => {
 
         <link
           rel="canonical"
-          href="https://www.theimpulsedigital.com/digital-marketing-agency-in-india"
+          href="https://www.theimpulsedigital.com/digital-marketing-agency-in-india/"
         />
       </Helmet>
 
