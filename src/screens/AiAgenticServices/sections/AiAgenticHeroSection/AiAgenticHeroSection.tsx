@@ -5,6 +5,80 @@ import Header from "../../../../components/layout/Header";
 export const AiAgenticHeroSection = (): JSX.Element => {
   const heroTextLines = ["AGENTIC AI AGENCY"];
 
+  const schema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "@id": "https://www.theimpulsedigital.com/services/agentic-ai/#service",
+    name: "Agentic AI Services",
+    url: "https://www.theimpulsedigital.com/services/agentic-ai",
+    description:
+      "Impulse Digital provides agentic AI services that build intelligent autonomous systems for customer engagement, follow-ups, lead nurturing, appointment booking, and multi-channel communication across WhatsApp, email, voice, social messaging, and SMS.",
+    serviceType: [
+      "Agentic AI",
+      "AI Automation",
+      "AI Customer Engagement",
+      "WhatsApp Automation",
+      "Email Automation",
+      "Instagram DM Automation",
+      "SMS Automation",
+    ],
+    areaServed: ["IN", "US"],
+    provider: {
+      "@type": "Organization",
+      name: "Impulse Digital",
+      url: "https://www.theimpulsedigital.com/",
+      logo: "https://www.theimpulsedigital.com/header-logo.png",
+    },
+    hasOfferCatalog: {
+      "@type": "OfferCatalog",
+      name: "Agentic AI Solutions",
+      itemListElement: [
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "WhatsApp AI Automation",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Email AI Automation",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Voice Note Automation",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Facebook Messenger Automation",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Instagram DM Automation",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "SMS Automation",
+          },
+        },
+      ],
+    },
+  };
+
   return (
     <>
       {/* ✅ SEO Meta Tags */}
@@ -32,7 +106,9 @@ export const AiAgenticHeroSection = (): JSX.Element => {
     <meta name="twitter:image" content="https://www.theimpulsedigital.com/agentic-a.jfif" />
     <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/agentic-ai/" />
         <link rel="canonical" href="https://www.theimpulsedigital.com/services/agentic-ai/" />
-    
+     <script type="application/ld+json">
+        {JSON.stringify(schema)}
+      </script>
   </Helmet>
          
 
