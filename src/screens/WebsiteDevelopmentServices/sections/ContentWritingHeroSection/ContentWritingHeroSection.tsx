@@ -4,7 +4,31 @@ import Header from "../../../../components/layout/Header";
 
 export const ContentWritingHeroSection = (): JSX.Element => {
   const heroTextLines = ["WEBSITE DEVELOPMENT"];
+   const schema = {
+      "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.theimpulsedigital.com/services/website-development/#service",
+  "name": "Website Design and Development Services",
+  "url": "https://www.theimpulsedigital.com/services/website-development",
+  "description": "Impulse Digital offers website design and development services focused on user experience, responsive development, CMS setup, website SEO, performance, and conversion-driven digital experiences.",
+  "serviceType": [
+    "Website Design",
+    "Website Development",
+    "UI UX Design",
+    "Responsive Development",
+    "CMS Setup",
+    "Website SEO",
+    "Website AMC"
+  ],
+  "areaServed": ["IN", "US"],
+  "provider": {
+    "@type": "Organization",
+    "name": "Impulse Digital",
+    "url": "https://www.theimpulsedigital.com/",
+    "logo": "https://www.theimpulsedigital.com/header-logo.png"
+  }
 
+   }
   return (
     <> 
       {/* ✅ SEO Meta Tags */}
@@ -30,7 +54,10 @@ export const ContentWritingHeroSection = (): JSX.Element => {
         <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
         <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/website-development" />
         <link rel="canonical" href="https://www.theimpulsedigital.com/services/website-development"/>
-   </Helmet>
+        <script type="application/ld+json">
+        {JSON.stringify(schema)}
+      </script>
+      </Helmet>
          
 
       {/* ✅ Hero Section */}

@@ -13,10 +13,15 @@ import { ContactResourcesSection } from "../Main/sections/ContactResourcesSectio
 //import { ResourcesTeaserSection } from "./sections/ResourcesSection/ResourcesSection";
 import { FAQSection } from "./sections/FAQSection/FAQSection";
 import { FooterSection } from "../Main/sections/FooterSection/FooterSection";
+
+import { FAQSchema } from "../../components/SEO/FAQSchema";
+import { faqData } from "../../data/faqs";
  
 export const DigitalMarketingAgencyinIndia = (): JSX.Element => {
+  const faqs = faqData["/digital-marketing-agency-in-india"] || [];
   return (
     <main className="relative w-full min-h-screen">
+      <FAQSchema faqs={faqs} />
       <ScrollRevealLogoHome />
       <div className="relative w-full space-y-0">
         <FeaturedItemsSection />
@@ -31,7 +36,7 @@ export const DigitalMarketingAgencyinIndia = (): JSX.Element => {
         <BlogSection /> 
         <ContactResourcesSection />
         {/* <ResourcesTeaserSection /> */}
-        <FAQSection />
+        <FAQSection faqs={faqs} />
         <FooterSection />
       </div>
     </main>

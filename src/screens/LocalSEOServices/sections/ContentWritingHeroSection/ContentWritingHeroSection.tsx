@@ -4,6 +4,28 @@ import Header from "../../../../components/layout/Header";
 
 export const ContentWritingHeroSection = (): JSX.Element => {
   const heroTextLines = ["LOCAL SEO SERVICES IN MUMBAI"];
+  const schema = {
+      "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.theimpulsedigital.com/services/search-engine-optimization/local-seo-services/#service",
+  "name": "Local SEO Services",
+  "url": "https://www.theimpulsedigital.com/services/search-engine-optimization/local-seo-services",
+  "description": "Impulse Digital provides local SEO services including Google Business Profile optimization, maps visibility, local citations, review optimization, and location-focused search strategies.",
+  "serviceType": [
+    "Local SEO",
+    "Google Business Profile Optimization",
+    "Maps SEO",
+    "Citation Management",
+    "Review Optimization"
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "Impulse Digital",
+    "url": "https://www.theimpulsedigital.com/"
+  },
+  "areaServed": "IN"
+
+  };
 return (
 <>
       {/* ✅ SEO Meta Tags */}
@@ -31,7 +53,11 @@ return (
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
 <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/search-engine-optimization/local-seo-services/"/>
 <link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/local-seo-services/"/>
-</Helmet>
+
+      <script type="application/ld+json">
+        {JSON.stringify(schema)}
+      </script>
+    </Helmet>
          
 
       {/* ✅ Hero Section */}

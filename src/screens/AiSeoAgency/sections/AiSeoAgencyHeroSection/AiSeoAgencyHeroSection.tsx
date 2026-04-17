@@ -4,6 +4,28 @@ import Header from "../../../../components/layout/Header";
 
 export const AiSeoAgencyHeroSection = (): JSX.Element => {
   const heroTextLines = ["AI SEO SERVICE"];
+  const schema = {
+    "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.theimpulsedigital.com/services/search-engine-optimization/ai-seo-agency/#service",
+  "name": "AI SEO Services",
+  "url": "https://www.theimpulsedigital.com/services/search-engine-optimization/ai-seo-agency",
+  "description": "Impulse Digital provides AI SEO services using entity optimization, structured data, GEO, AEO, and LLM-aligned content frameworks to improve brand visibility across AI-driven discovery systems.",
+  "serviceType": [
+    "AI SEO",
+    "Answer Engine Optimization",
+    "Generative Engine Optimization",
+    "Entity SEO",
+    "Structured Data SEO"
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "Impulse Digital",
+    "url": "https://www.theimpulsedigital.com/"
+  },
+  "areaServed": ["IN", "US"]
+
+  };
 
   return (
     <>
@@ -27,6 +49,10 @@ export const AiSeoAgencyHeroSection = (): JSX.Element => {
     <meta name="twitter:image" content="https://www.theimpulsedigital.com/AI-SEO-Agency.jpg" />
     <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/search-engine-optimization/ai-seo-agency" />
     <link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/ai-seo-agency" />
+    <script type="application/ld+json">
+        {JSON.stringify(schema)}
+      </script>
+    
   </Helmet>
          
 

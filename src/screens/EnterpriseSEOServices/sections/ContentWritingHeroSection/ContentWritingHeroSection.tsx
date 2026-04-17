@@ -5,6 +5,29 @@ import Header from "../../../../components/layout/Header";
 export const ContentWritingHeroSection = (): JSX.Element => {
   const heroTextLines = ["ENTERPRISE SEO SERVICE"];
 
+  const schema = {
+      "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.theimpulsedigital.com/services/search-engine-optimization/enterprise-seo-services/#service",
+  "name": "Enterprise SEO Services",
+  "url": "https://www.theimpulsedigital.com/services/search-engine-optimization/enterprise-seo-services/",
+  "description": "Impulse Digital provides enterprise SEO services for large websites, multi-market brands, multilingual SEO, large-scale site optimization, and search growth across complex digital ecosystems.",
+  "serviceType": [
+    "Enterprise SEO",
+    "Multilingual SEO",
+    "Multi-Region SEO",
+    "Large Site SEO",
+    "Scalable Technical SEO"
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "Impulse Digital",
+    "url": "https://www.theimpulsedigital.com/"
+  },
+  "areaServed": ["IN", "US"]
+
+  };
+
   return (
     <>
       {/* ✅ SEO Meta Tags */}
@@ -32,6 +55,9 @@ export const ContentWritingHeroSection = (): JSX.Element => {
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
 <meta name="twitter:url" content="https://www.theimpulsedigital.com/enterprise-seo-service/"/>
 <link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/enterprise-seo-services/"/>
+<script type="application/ld+json">
+        {JSON.stringify(schema)}
+      </script> 
 </Helmet>
          
 

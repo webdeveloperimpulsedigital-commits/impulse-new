@@ -13,9 +13,13 @@ import { ContactResourcesSection } from "../Main/sections/ContactResourcesSectio
 import { FAQSection } from "./sections/FAQSection/FAQSection";
 import { FooterSection } from "../Main/sections/FooterSection/FooterSection";
 
+import { FAQSchema } from "../../components/SEO/FAQSchema";
+import { faqData } from "../../data/faqs";
 export const AgencyinNaviMumbai = (): JSX.Element => {
+  const faqs = faqData["/digital-marketing-agency-in-navi-mumbai"] || [];
   return (
     <main className="relative w-full min-h-screen">
+      <FAQSchema faqs={faqs} />
       <ScrollRevealLogoHome />
       <div className="relative w-full space-y-0">
         <FeaturedItemsSection />
@@ -30,7 +34,7 @@ export const AgencyinNaviMumbai = (): JSX.Element => {
         <BlogSection />
         <ContactResourcesSection />
         {/* <ResourcesTeaserSection /> */}
-        <FAQSection />
+        <FAQSection faqs={faqs} />
         <FooterSection />
       </div>
     </main>

@@ -4,6 +4,48 @@ import Header from "../../../../components/layout/Header";
 
 export const VideoProductionHeroSection = (): JSX.Element => {
   const heroTextLines = ["VIDEO PRODUCTION"];
+  
+
+  const schema = {
+   
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.theimpulsedigital.com/services/video-production/#service",
+  "name": "Video Production Services",
+  "url": "https://www.theimpulsedigital.com/services/video-production/",
+  "description": "Impulse Digital offers end-to-end video production services including brand films, corporate videos, product demos, commercials, explainer videos, founder videos, event after-movies, animation, motion graphics, and short-form digital content.",
+  "serviceType": [
+    "Video Production",
+    "Brand Films",
+    "Corporate Videos",
+    "Product Demo Videos",
+    "Explainer Videos",
+    "Short-Form Video Content",
+    "Animation and Motion Graphics"
+  ],
+  "areaServed": "IN",
+  "provider": {
+    "@type": "Organization",
+    "name": "Impulse Digital",
+    "url": "https://www.theimpulsedigital.com/",
+    "logo": "https://www.theimpulsedigital.com/header-logo.png"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Video Production Offerings",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Brand Films and Corporate Videos" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Product Videos and Demos" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Commercials and Promo Videos" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Explainer Videos" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Testimonial and Founder Videos" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Event Coverage and After-Movies" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Animation and Motion Graphics" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Short-Form Video Content" } }
+    ]
+  }
+}
+
 
   return (
     <>
@@ -32,7 +74,9 @@ export const VideoProductionHeroSection = (): JSX.Element => {
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
 <link rel="canonical" href="https://www.theimpulsedigital.com/services/video-production" />
 <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/video-production" />
-
+ <script type="application/ld+json">
+        {JSON.stringify(schema)}
+      </script>
     </Helmet>
          
 

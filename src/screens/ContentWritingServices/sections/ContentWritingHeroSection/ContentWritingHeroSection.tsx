@@ -5,6 +5,31 @@ import Header from "../../../../components/layout/Header";
 export const ContentWritingHeroSection = (): JSX.Element => {
   const heroTextLines = ["CONTENT WRITING"];
 
+  const schema = {
+    "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.theimpulsedigital.com/services/content-writing-services/#service",
+  "name": "Content Writing Services",
+  "url": "https://www.theimpulsedigital.com/services/content-writing-services",
+  "description": "Impulse Digital provides content writing services including blog writing, website copy, landing pages, corporate communication, whitepapers, and SEO-driven content that supports visibility, engagement, and conversions.",
+  "serviceType": [
+    "Content Writing",
+    "SEO Content Writing",
+    "Blog Writing",
+    "Website Copywriting",
+    "Landing Page Writing",
+    "Corporate Communication"
+  ],
+  "areaServed": ["IN", "US"],
+  "provider": {
+    "@type": "Organization",
+    "name": "Impulse Digital",
+    "url": "https://www.theimpulsedigital.com/",
+    "logo": "https://www.theimpulsedigital.com/header-logo.png"
+  }
+
+  };
+
   return (
     <>
       {/* ✅ SEO Meta Tags */}
@@ -36,6 +61,9 @@ export const ContentWritingHeroSection = (): JSX.Element => {
 
 
 <link rel="canonical" href="https://www.theimpulsedigital.com/services/content-writing-services"/>
+  <script type="application/ld+json">
+        {JSON.stringify(schema)}
+  </script>
     </Helmet>
     
     

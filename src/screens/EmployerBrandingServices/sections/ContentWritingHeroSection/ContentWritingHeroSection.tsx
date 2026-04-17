@@ -5,6 +5,30 @@ import Header from "../../../../components/layout/Header";
 export const ContentWritingHeroSection = (): JSX.Element => {
   const heroTextLines = ["EMPLOYER BRANDING AGENCY"];
 
+  const schema = {
+      "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.theimpulsedigital.com/services/employer-branding-agency/#service",
+  "name": "Employer Branding Services",
+  "url": "https://www.theimpulsedigital.com/services/employer-branding-agency",
+  "description": "Impulse Digital provides employer branding services including EVP creation, recruitment marketing, internal campaigns, culture storytelling, and employer brand strategy to help businesses attract and retain talent.",
+  "serviceType": [
+    "Employer Branding",
+    "EVP Development",
+    "Recruitment Marketing",
+    "Internal Brand Campaigns",
+    "Culture Storytelling"
+  ],
+  "areaServed": ["IN", "US"],
+  "provider": {
+    "@type": "Organization",
+    "name": "Impulse Digital",
+    "url": "https://www.theimpulsedigital.com/",
+    "logo": "https://www.theimpulsedigital.com/header-logo.png"
+  }
+
+  };
+
   return (
     <> 
       {/* ✅ SEO Meta Tags */}
@@ -32,9 +56,12 @@ export const ContentWritingHeroSection = (): JSX.Element => {
 <meta name="twitter:description" content="Impulse Digital is a leading employer branding agency in India, which empowers businesses to optimize their brand strategy as an employer. Our employer branding services help you build an integrated and impactful brand story that is portrayed consistently across your web pages, blogs, and career sites."/>
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
 <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/employer-branding-agency/"/>
-
-
 <link rel="canonical" href="https://www.theimpulsedigital.com/services/employer-branding-agency/"/>
+
+      <script type="application/ld+json">
+        {JSON.stringify(schema)}
+      </script>
+      
 </Helmet>
          
 

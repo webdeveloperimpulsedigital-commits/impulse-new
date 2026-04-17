@@ -4,6 +4,30 @@ import Header from "../../../../components/layout/Header";
 
 export const ContentWritingHeroSection = (): JSX.Element => {
   const heroTextLines = ["SOCIAL MEDIA VIDEO PRODUCTION"];
+  const schema = {
+      "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.theimpulsedigital.com/services/social-media-video-production/#service",
+  "name": "Social Media Video Production Services",
+  "url": "https://www.theimpulsedigital.com/services/social-media-video-production",
+  "description": "Impulse Digital provides social media video production services including concept development, scriptwriting, production, editing, animation, reels, and platform-specific video content for Instagram, YouTube, and digital campaigns.",
+  "serviceType": [
+    "Social Media Video Production",
+    "Reels Production",
+    "Scriptwriting",
+    "Video Editing",
+    "Animation",
+    "Short-Form Video"
+  ],
+  "areaServed": "IN",
+  "provider": {
+    "@type": "Organization",
+    "name": "Impulse Digital",
+    "url": "https://www.theimpulsedigital.com/",
+    "logo": "https://www.theimpulsedigital.com/header-logo.png"
+  }
+
+  };
 
   return (
     <>
@@ -32,7 +56,9 @@ export const ContentWritingHeroSection = (): JSX.Element => {
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
 <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/social-media-video-production" />
 <link rel="canonical" href="https://www.theimpulsedigital.com/services/social-media-video-production"/>
-
+<script type="application/ld+json">
+        {JSON.stringify(schema)}
+      </script>
   </Helmet>
 
       {/* ✅ Hero Section */}

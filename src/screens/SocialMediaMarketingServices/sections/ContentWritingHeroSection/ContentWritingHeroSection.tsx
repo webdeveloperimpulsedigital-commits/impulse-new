@@ -5,6 +5,31 @@ import Header from "../../../../components/layout/Header";
 export const ContentWritingHeroSection = (): JSX.Element => {
   const heroTextLines = ["SOCIAL MEDIA MARKETING"];
 
+  const schema = {
+    "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.theimpulsedigital.com/services/social-media-marketing/#service",
+  "name": "Social Media Marketing Services",
+  "url": "https://www.theimpulsedigital.com/services/social-media-marketing/",
+  "description": "Impulse Digital provides social media marketing services including strategy, content creation, publishing, community management, paid campaigns, and analytics to help brands build visibility, engagement, and conversions across social platforms.",
+  "serviceType": [
+    "Social Media Marketing",
+    "Social Media Strategy",
+    "Content Creation",
+    "Community Management",
+    "Paid Social Campaigns",
+    "Social Media Analytics"
+  ],
+  "areaServed": ["IN", "US"],
+  "provider": {
+    "@type": "Organization",
+    "name": "Impulse Digital",
+    "url": "https://www.theimpulsedigital.com/",
+    "logo": "https://www.theimpulsedigital.com/header-logo.png"
+  }
+
+  };
+
   return (
     <> 
       {/* ✅ SEO Meta Tags */}
@@ -32,8 +57,11 @@ export const ContentWritingHeroSection = (): JSX.Element => {
       <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
       <meta name="twitter:url" content="https://www.theimpulsedigital.com/social-media-marketing" />
       <link rel="canonical" href="https://www.theimpulsedigital.com/services/social-media-marketing"/>
+      <script type="application/ld+json">
+        {JSON.stringify(schema)}
+      </script>
+      </Helmet>
 
-    </Helmet>
          
 
       {/* ✅ Hero Section */}

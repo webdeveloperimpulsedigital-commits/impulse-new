@@ -4,7 +4,28 @@ import Header from "../../../../components/layout/Header";
 
 export const ContentWritingHeroSection = (): JSX.Element => {
   const heroTextLines = [" B2B SEO AGENCY"];
+const schema = {
+    "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.theimpulsedigital.com/services/search-engine-optimization/b2b-seo-services/#service",
+  "name": "B2B SEO Services",
+  "url": "https://www.theimpulsedigital.com/services/search-engine-optimization/b2b-seo-services/",
+  "description": "Impulse Digital provides B2B SEO services focused on qualified lead generation through technical SEO, authority building, search strategy, and content aligned to complex business buying journeys.",
+  "serviceType": [
+    "B2B SEO",
+    "Lead Generation SEO",
+    "Technical SEO",
+    "Authority Building",
+    "B2B Content SEO"
+  ],
+  "provider": {
+    "@type": "Organization",
+    "name": "Impulse Digital",
+    "url": "https://www.theimpulsedigital.com/"
+  },
+  "areaServed": ["IN", "US"]
 
+};
   return (
     <>
       {/* ✅ SEO Meta Tags */}
@@ -33,6 +54,11 @@ export const ContentWritingHeroSection = (): JSX.Element => {
 <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/search-engine-optimization/b2b-seo-services/"/>
 
 <link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/b2b-seo-services/"/>
+
+      <script type="application/ld+json">
+        {JSON.stringify(schema)}
+      </script>
+
 </Helmet>
          
 

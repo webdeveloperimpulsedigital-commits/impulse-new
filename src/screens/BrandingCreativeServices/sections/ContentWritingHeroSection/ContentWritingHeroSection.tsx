@@ -5,6 +5,31 @@ import Header from "../../../../components/layout/Header";
 export const ContentWritingHeroSection = (): JSX.Element => {
   const heroTextLines = ["BRANDING"];
 
+  const schema = {
+    "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.theimpulsedigital.com/services/branding-creative-services/#service",
+  "name": "Branding and Creative Services",
+  "url": "https://www.theimpulsedigital.com/services/branding-creative-services",
+  "description": "Impulse Digital offers branding and creative services that shape brand identity through logo design, brand guidelines, campaign design, storytelling, and creative strategy.",
+  "serviceType": [
+    "Branding Services",
+    "Creative Services",
+    "Logo Design",
+    "Brand Guidelines",
+    "Campaign Design",
+    "Creative Strategy"
+  ],
+  "areaServed": ["IN", "US"],
+  "provider": {
+    "@type": "Organization",
+    "name": "Impulse Digital",
+    "url": "https://www.theimpulsedigital.com/",
+    "logo": "https://www.theimpulsedigital.com/header-logo.png"
+  }
+
+  };
+
   return (
     <> 
       {/* ✅ SEO Meta Tags */}
@@ -32,6 +57,9 @@ export const ContentWritingHeroSection = (): JSX.Element => {
         <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
         <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/branding-creative-services" />
         <link rel="canonical" href="https://www.theimpulsedigital.com/services/branding-creative-services"/>
+        <script type="application/ld+json">
+              {JSON.stringify(schema)}
+        </script>
     </Helmet>
          
 

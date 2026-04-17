@@ -5,6 +5,50 @@ import Header from "../../../../components/layout/Header";
 export const SocialMediaMarketingHeroSection = (): JSX.Element => {
   const heroTextLines = ["SEO AGENCY IN THANE"];
 
+  const schema = {
+    
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.theimpulsedigital.com/services/search-engine-optimization/#service",
+  "name": "SEO Services",
+  "url": "https://www.theimpulsedigital.com/services/search-engine-optimization",
+  "description": "Impulse Digital provides SEO services including SEO audits, keyword research, technical SEO, content strategy, link building, Google Business Profile optimization, local SEO, ecommerce SEO, enterprise SEO, B2B SEO, and AI SEO.",
+  "serviceType": [
+    "SEO Services",
+    "Technical SEO",
+    "On-Page SEO",
+    "Off-Page SEO",
+    "Local SEO",
+    "Enterprise SEO",
+    "eCommerce SEO",
+    "B2B SEO",
+    "AI SEO"
+  ],
+  "areaServed": ["IN", "US"],
+  "provider": {
+    "@type": "Organization",
+    "name": "Impulse Digital",
+    "url": "https://www.theimpulsedigital.com/",
+    "logo": "https://www.theimpulsedigital.com/header-logo.png"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "SEO Offerings",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "SEO Audit" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Keyword Research and Targeting" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Google Business Profile Optimization" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Local SEO" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Enterprise SEO" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "eCommerce SEO" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "B2B SEO" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AI SEO" } }
+    ]
+  }
+}
+
+
+
   return (
     <>
       {/* ✅ SEO Meta Tags */}
@@ -32,9 +76,10 @@ export const SocialMediaMarketingHeroSection = (): JSX.Element => {
       <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
       <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/search-engine-optimization/" />
       <link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/"/>
-      
-
-    </Helmet>
+      <script type="application/ld+json">
+        {JSON.stringify(schema)}
+      </script>
+      </Helmet>
          
 
       {/* ✅ Hero Section */}

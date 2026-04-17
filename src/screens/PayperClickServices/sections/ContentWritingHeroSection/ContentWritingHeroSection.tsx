@@ -4,7 +4,48 @@ import Header from "../../../../components/layout/Header";
 
 export const ContentWritingHeroSection = (): JSX.Element => {
   const heroTextLines = ["PERFORMANCE MARKETING (PPC)"];
+  const schema = {
+      "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://www.theimpulsedigital.com/services/performance-marketing/#service",
+  "name": "Performance Marketing Services",
+  "url": "https://www.theimpulsedigital.com/services/performance-marketing",
+  "description": "Impulse Digital offers performance marketing services across Google Ads, Meta Ads, Amazon Ads, LinkedIn Ads, YouTube Ads, Shopping Ads, Display Ads, and Performance Max campaigns focused on qualified traffic, conversions, and ROI.",
+  "serviceType": [
+    "Performance Marketing",
+    "PPC Services",
+    "Google Ads Management",
+    "Meta Ads Management",
+    "LinkedIn Ads",
+    "Amazon Ads",
+    "YouTube Ads",
+    "Shopping Ads",
+    "Performance Max"
+  ],
+  "areaServed": ["IN", "US"],
+  "provider": {
+    "@type": "Organization",
+    "name": "Impulse Digital",
+    "url": "https://www.theimpulsedigital.com/",
+    "logo": "https://www.theimpulsedigital.com/header-logo.png"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "PPC and Paid Media Services",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Google Search Ads" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Google Display Ads" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Google Shopping Ads" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Google Performance Max Ads" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Meta Branding and Lead Generation" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Amazon Sales and Branding Ads" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "LinkedIn Ads" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Twitter Ads" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "YouTube Ads" } }
+    ]
+  }
 
+  };
   return (
     <> 
       {/* ✅ SEO Meta Tags */}
@@ -32,8 +73,11 @@ export const ContentWritingHeroSection = (): JSX.Element => {
         <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
         <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/performance-marketing" />
         <link rel="canonical" href="https://www.theimpulsedigital.com/services/performance-marketing"/>
+      <script type="application/ld+json">
+        {JSON.stringify(schema)}
+      </script>
+      </Helmet>
 
-    </Helmet>
          
 
       {/* ✅ Hero Section */}

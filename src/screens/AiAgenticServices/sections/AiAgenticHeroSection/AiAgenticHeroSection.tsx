@@ -15,7 +15,7 @@ export const AiAgenticHeroSection = (): JSX.Element => {
       "Impulse Digital provides agentic AI services that build intelligent autonomous systems for customer engagement, follow-ups, lead nurturing, appointment booking, and multi-channel communication across WhatsApp, email, voice, social messaging, and SMS.",
     serviceType: [
       "Agentic AI",
-      "AI Automation",
+      "AI Automation", 
       "AI Customer Engagement",
       "WhatsApp Automation",
       "Email Automation",
