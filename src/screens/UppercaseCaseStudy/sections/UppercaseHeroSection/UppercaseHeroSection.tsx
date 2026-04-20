@@ -13,7 +13,7 @@ export const UppercaseHeroSection = (): JSX.Element => {
     <meta name="keywords" content="" />
     <title>Digital Marketing Case Studies - Impulse Digital</title>
     
-    <meta name="robots" content="index, follow" />
+  <meta name="robots" content="noindex, nofollow" />
     <meta name="revisit-after" content="1 day" />
     <meta name="language" content="English" />
     <meta name="generator" content="N/A" />
