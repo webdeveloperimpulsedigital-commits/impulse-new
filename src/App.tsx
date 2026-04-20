@@ -64,6 +64,7 @@ import { TermsAndConditions } from "./screens/TermsAndConditionsPage";
 import { RainbowInternationalSchoolCaseStudy } from "./screens/RainbowInternationalSchoolCaseStudy";
 import { Thankyou } from "./screens/Thankyou";
 import { NotFound } from "./screens/NotFound/NotFound";
+import { UppercaseCaseStudy } from "./screens/UppercaseCaseStudy";
 
 
 
@@ -114,7 +115,7 @@ export const App = (): JSX.Element => {
       <Route path="/casestudies/fourseforgood" element={<Fourse4goodCaseStudy/>}/>
       <Route path="/casestudies/rainbow-international-school" element={<RainbowInternationalSchoolCaseStudy />} />
 
-
+      <Route path="/casestudies/uppercase" element={<UppercaseCaseStudy />} />
  
       <Route path="/resources" element={<Resources/>}/>
 

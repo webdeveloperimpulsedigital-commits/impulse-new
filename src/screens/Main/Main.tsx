@@ -12,7 +12,7 @@ import { ContactResourcesSection } from "./sections/ContactResourcesSection/Cont
 //import { ResourcesTeaserSection } from "./sections/ResourcesSection/ResourcesSection";
 import { FAQSection } from "./sections/FAQSection/FAQSection";
 import { FooterSection } from "./sections/FooterSection/FooterSection";
-
+ 
 import { FAQSchema } from "../../components/SEO/FAQSchema";
 import { faqData } from "../../data/faqs";
 

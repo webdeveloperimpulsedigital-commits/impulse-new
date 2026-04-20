@@ -1,0 +1,1 @@
+export { UppercaseHeroSection } from "./UppercaseHeroSection";

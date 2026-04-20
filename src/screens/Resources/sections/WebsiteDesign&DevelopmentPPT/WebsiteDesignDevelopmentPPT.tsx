@@ -5,12 +5,12 @@ export const seoPpts = [
   { id: "1", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "Embracing LGBTQ+ Pride in 2023", thumbnail: "/slideshow/ppt1.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/lgbtq-pride" },
   { id: "2", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "How Emotions Drive Advertising", thumbnail: "/slideshow/ppt2.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/emotional-advertising" },
   { id: "3", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "Why Employer Branding Matters", thumbnail: "/slideshow/ppt3.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/employer-branding-plan" },
-  { id: "4", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "Planning to Order from ONDC?", thumbnail: "/slideshow/ppt4.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/ondc-planning" },
-  { id: "5", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "Apple’s VR: What Changes for Marketers", thumbnail: "/slideshow/ppt5.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/apple-vr-marketing" },
-  { id: "6", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "Father’s Day: Brand Playbook", thumbnail: "/slideshow/ppt6.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/fathers-day-campaign" },
-  { id: "7", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "ONDC: Key Takeaways", thumbnail: "/slideshow/ppt7.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/ondc-report" },
-  { id: "8", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "Best AI Tools for India", thumbnail: "/slideshow/ppt8.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/ai-tools" },
-  { id: "9", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "B2B Entrepreneur’s Guide", thumbnail: "/slideshow/ppt9.png", pdfUrl: "https://www.slideshare.net/theimpulsedigital/b2b-guide" },
+  { id: "4", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "Planning to Order from ONDC?", thumbnail: "/slideshow/ppt4.jpg", pdfUrl: "https://www.slideshare.net/theimpulsedigital/ondc-planning" },
+  { id: "5", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "Apple’s VR: What Changes for Marketers", thumbnail: "/slideshow/ppt5.jpg", pdfUrl: "https://www.slideshare.net/theimpulsedigital/apple-vr-marketing" },
+  { id: "6", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "Father’s Day: Brand Playbook", thumbnail: "/slideshow/ppt6.jpg", pdfUrl: "https://www.slideshare.net/theimpulsedigital/fathers-day-campaign" },
+  { id: "7", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "ONDC: Key Takeaways", thumbnail: "/slideshow/ppt7.jpg", pdfUrl: "https://www.slideshare.net/theimpulsedigital/ondc-report" },
+  { id: "8", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "Best AI Tools for India", thumbnail: "/slideshow/ppt8.jpg", pdfUrl: "https://www.slideshare.net/theimpulsedigital/ai-tools" },
+  { id: "9", year: "2023",tag: "PPT", meta: "2023 • Presentation", title: "B2B Entrepreneur’s Guide", thumbnail: "/slideshow/ppt9.jpg", pdfUrl: "https://www.slideshare.net/theimpulsedigital/b2b-guide" },
 
 ];
 

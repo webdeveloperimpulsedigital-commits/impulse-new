@@ -6,12 +6,16 @@ import { ServicesCatalogSection } from "./sections/ServicesCatalogSection/Servic
 //import { WhyChooseUsSection } from "./sections/WhyChooseUsSection/WhyChooseUsSection";
 //import { ServicesCTASection } from "./sections/ServicesCTASection/ServicesCTASection";
 import { ContactSection } from "../Main/sections/ContactSection/ContactSection";
-//import { FAQSection } from "../Main/sections/FAQSection/FAQSection";
+import { FAQSection } from "../Main/sections/FAQSection/FAQSection";
 import { FooterSection } from "../Main/sections/FooterSection/FooterSection";
 
+import { FAQSchema } from "../../components/SEO/FAQSchema";
+import { faqData } from "../../data/faqs";
 export const Resources = (): JSX.Element => {
+    const faqs = faqData["/"] || [];
   return (
     <main className="relative w-full min-h-screen">
+      <FAQSchema faqs={faqs} />
       {/* <ScrollRevealLogo /> */}
       <div className="relative w-full space-y-0">
         <ResourcesHeroSection />
@@ -21,7 +25,7 @@ export const Resources = (): JSX.Element => {
         <WhyChooseUsSection />
         <ServicesCTASection /> */}
         <ContactSection />
-        {/* <FAQSection /> */}
+        <FAQSection faqs={faqs} />
         <FooterSection />
       </div>
     </main>

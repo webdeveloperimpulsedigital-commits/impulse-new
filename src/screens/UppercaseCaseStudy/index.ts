@@ -1,0 +1,1 @@
+export { UppercaseCaseStudy } from "./UppercaseCaseStudy";
