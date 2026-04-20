@@ -8,33 +8,23 @@ export const UppercaseHeroSection = (): JSX.Element => {
   return (
     <> 
       {/* ✅ SEO Meta Tags */}
-    <Helmet>
-        <meta name="description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
-    <meta name="keywords" content="" />
-    <title>Digital Marketing Case Studies - Impulse Digital</title>
-    
+   <Helmet>
+  <title>Uppercase Case Study - Impulse Digital</title>
+
+  <meta name="description" content="Uppercase case study by Impulse Digital showcasing digital marketing strategies and results." />
+
+  {/* 🚫 No Index */}
   <meta name="robots" content="noindex, nofollow" />
-    <meta name="revisit-after" content="1 day" />
-    <meta name="language" content="English" />
-    <meta name="generator" content="N/A" />
-    
-    <meta property="og:title" content="Digital Marketing Case Studies - Impulse Digital" />
-    <meta property="og:description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
-    <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/rainbow-international-school/" />
-    <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-    <meta property="og:site_name" content="Impulse Digital" />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content= "summary_large_image"  />
-    <meta name="twitter:site" content="@impulsedigi" />
-    <meta name="twitter:creator" content="@impulsedigi" />
-    <meta name="twitter:title" content="Digital Marketing Case Studies - Impulse Digital" />
-    <meta name="twitter:description" content="Check digital marketing case studies by Impulse Digital for insight into how we help our clients with SMM, SEO, SEM, designing and overall digital media presence." />
-    <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-    <meta name="twitter:url" content="https://www.theimpulsedigital.com/casestudies/rainbow-international-school/" />
-     <link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/rainbow-international-school/" />
-    
-    </Helmet>
-         
+
+  {/* ✅ Correct Canonical */}
+  <link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/uppercase/" />
+
+  {/* Open Graph */}
+  <meta property="og:title" content="Uppercase Case Study - Impulse Digital" />
+  <meta property="og:description" content="Explore how Impulse Digital delivered results for Uppercase." />
+  <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/uppercase/" />
+  <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
+</Helmet>
 
       {/* ✅ Hero Section */}
       <section
