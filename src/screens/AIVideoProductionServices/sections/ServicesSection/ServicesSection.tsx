@@ -60,7 +60,7 @@ const ServicesSection = () => {
     n: "05",
     title: "AI-Powered Editing & Enhancement",
     points: [
-      "Automated color correction, smart cuts, background removal, upscaling, sound enhancement, and motion graphics - professionally refined in minutes."
+      "Automated colour correction, smart cuts, background removal, upscaling, sound enhancement, and motion graphics - professionally refined in minutes."
     ],
     img: "/AI-Powered Editing & Enhancement.jpg",
   },
@@ -68,7 +68,7 @@ const ServicesSection = () => {
     n: "06",
     title: "Personalised Video Messaging",
     points: [
-      "Generate customised videos at scale for sales, onboarding, marketing automation, and customer engagement - powered by AI personalisation."
+      "Generate customised videos at scale for sales, onboarding, marketing automation, and customer engagement; powered by AI personalisation."
     ],
     img: "/Personalised Video Messaging.jpg",
   },
@@ -76,7 +76,7 @@ const ServicesSection = () => {
     n: "07",
     title: "Short-Form AI Videos (Reels, Shorts, Ads)",
     points: [
-      "High-retention vertical edits created using AI-powered editing tools - designed for fast-paced platforms like Instagram & YouTube Shorts."
+      "High-retention vertical edits created using AI-powered editing tools designed for fast-paced platforms like Instagram & YouTube Shorts."
     ],
     img: "/Short-Form AI.jpg",
   },
@@ -84,7 +84,7 @@ const ServicesSection = () => {
     n: "08",
     title: "Training & Corporate AI Videos",
     points: [
-      "Create consistent, clear videos for onboarding, SOPs, HR messaging, product understanding, and internal communication - scalable and accurate."
+      "Create consistent, clear videos for onboarding, SOPs, HR messaging, product understanding, and internal communication; scalable and accurate."
     ],
     img: "/Training & Corporate AI Videos.jpg",
   },
@@ -292,7 +292,7 @@ const ServicesSection = () => {
             <div className="mx-auto relative">
               <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
                 <span className="text-[#ffffffb2]  lg:text-[34px] sm:text-[16px]">
-                  AI Video Production 
+                  AI Video Production Services 
 
                 </span>
                 <span className="font-bold text-[#ffffff] lg:text-[52px] md:text-[52px] sm:text-[26px]">
