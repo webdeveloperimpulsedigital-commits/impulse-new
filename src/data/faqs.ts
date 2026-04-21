@@ -299,40 +299,40 @@ export const faqData: Record<string, FAQItem[]> = {
 
  "/services/video-production/ai-video-production":[
     {
-    question: "What does a content writing agency like Impulse Digital do beyond writing?",
-    answer: "As a full-service content writing agency, we go beyond copy creation to build a complete content ecosystem for your brand. We translate business goals into a focused strategy, combining research, audience analysis, SEO alignment, and messaging consistency. Every piece of content we deliver from blogs to landing pages is designed to inform, engage, and convert. Our content writing services are built to deliver measurable business impact, not just words."
+    question: "What are AI video production services and how do they work?",
+    answer: "At Impulse Digital, our AI video production services combine intelligent automation with creative storytelling to help brands produce high-quality videos faster and at scale. We use AI-powered avatars, voiceovers, scripting support, and smart editing workflows to create professional videos without traditional shoot limitations."
   },
   {
-    question: "How do you ensure that our content performs well on search engines?",
-    answer: "As an experienced content writing company, we begin with keyword and topic research mapped to buyer intent. Each piece is structured with a clear hierarchy, optimized metadata, internal links, and image alt text. Our content writing services include SEO audits and performance tracking through analytics tools to ensure visibility and continuous improvement."
+    question: "Why should I choose Impulse Digital as my AI video production agency?",
+    answer: "Impulse Digital works as a strategic AI video production agency, not just a production partner. We align video content with your marketing goals, brand voice, and audience expectations so every video contributes to visibility, engagement, and conversions across platforms."
   },
   {
     question: "What content formats and channels do you cover?",
     answer: "Our content writing agency creates diverse formats including blogs, website copy, landing pages, infographics, video scripts, white papers, and product descriptions. We also craft eCommerce listings, Amazon content, and corporate communication pieces. Each deliverable is aligned with your funnel stage and marketing objective ensuring maximum relevance and engagement."
   },
   {
-    question: "What is included in website content creation with your content writing services?",
-    answer: "As part of our website content writing services, we define your page goals, tone of voice, and messaging hierarchy. We create persuasive, SEO-friendly copy that blends storytelling with performance. Deliverables include on-page text, microcopy, and CTAs developed in coordination with design and web teams for a cohesive experience."
+    question: "What types of videos can Impulse Digital create using AI video production services?",
+    answer: "Through our AI video production services, we create product explainers, corporate communication videos, social media campaigns, onboarding videos, training content, brand storytelling films, and multilingual marketing videos designed for scalable distribution."
   },
   {
-    question: "How do you measure content success?",
-    answer: "Our content writing company sets measurable KPIs for every engagement, including visibility, engagement, conversion rate, and assisted leads. We track data in real-time dashboards and share periodic reports. This data-driven approach ensures our content writing services continuously evolve to meet performance goals."
+    question: "Can AI-generated videos match professional production quality?",
+    answer: "Yes, we combine AI tools with creative direction, structured scripting, and visual consistency frameworks to ensure your videos maintain a premium brand standard."
   },
   {
-    question: "What is your process from brief to publication?",
-    answer: "Our structured workflow covers discovery, research, ideation, drafting, editing, optimization, and publishing. Every stage is backed by internal quality checks to maintain accuracy and tone. Post-launch, we monitor content performance and refine future strategies, a hallmark of our process-driven content writing agency."
+    question: "How quickly can Impulse Digital deliver AI-generated videos?",
+    answer: "Our AI video production services significantly reduce production timelines. Depending on complexity, many videos can be delivered within 2 to 4 days while maintaining quality, customisation, and brand alignment."
   },
   {
-    question: "Can you adapt to our brand voice and compliance requirements?",
-    answer: "Yes. Our team ensures that every deliverable reflects your brand personality and complies with industry standards. We study brand guidelines, tone of voice, and legal frameworks to maintain authenticity and precision, one of the key reasons brands trust our content writing company for long-term partnerships."
+    question: "Do you support multilingual video production for global audiences?",
+    answer: "Yes, Impulse Digital enables brands to create multilingual video versions quickly using AI voiceovers and avatar-based delivery, helping you expand communication across markets without additional shoots."
   },
   {
-    question: "Do you offer content design such as infographics and digital brochures?",
-    answer: "Yes. We integrate content writing services with visual storytelling. Our writers and designers collaborate to create infographics, brochures, and presentations that combine clarity, creativity, and data storytelling ensuring every asset communicates effectively and looks professional."
+    question: "Can AI avatars reflect my brand identity and tone?",
+    answer: "Absolutely. Our AI video production services allow customization of avatars, voice styles, messaging structure, and presentation formats so your videos remain consistent with your brand personality."
   },
   {
-    question: "How quickly can we get started, and what are the usual timelines?",
-    answer: "Once the project scope is confirmed, onboarding begins immediately. Smaller deliverables like blogs or pages are typically delivered within one to two weeks. Larger projects such as websites, campaigns, or white papers follow a phased schedule with shared milestones. As a reliable content writing agency, we keep clients informed at every stage."
+    question: "How can I start working with Impulse Digital for AI video production services?",
+    answer: "Getting started with our AI video production services is simple. Share your campaign goals, audience segments, and content priorities, and our team will design a structured production roadmap aligned with your timelines and growth strategy."
   }
  ],
 
