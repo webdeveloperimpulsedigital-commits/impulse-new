@@ -10,16 +10,16 @@ export const faqData: Record<string, FAQItem[]> = {
 "/":[
 
   {
-    question: "What is a digital marketing agency?",
-    answer: "A digital marketing agency helps businesses grow online using data-driven strategies such as performance advertising, SEO, social media marketing, content, automation, and analytics. At Impulse Digital, every solution is tailored to your business goals, audience, and budget not generic packages."
+    question: "How do I choose the right digital marketing agency in Mumbai for my business?",
+    answer: "Choosing the right digital marketing agency in Mumbai depends on evaluating their strategy approach, industry experience, reporting transparency, and ability to align with your business goals. At Impulse Digital, we begin with a discovery audit, define measurable KPIs, and build a customized roadmap so every campaign is structured for sustainable growth rather than short-term results."
   },
   {
-    question: "What are the benefits of hiring a digital marketing agency to leverage your business?",
-    answer: "By partnering with a digital marketing agency in Mumbai like Impulse Digital, you gain access to senior-level expertise, faster execution, cross-channel strategy, scalable creativity, and measurable performance without the cost and complexity of building a large in-house team."
+    question: "What are the benefits of hiring a digital marketing company to leverage your business?",
+    answer: "By partnering with a digital marketing company in Mumbai like Impulse Digital, you gain access to senior-level expertise, faster execution, cross-channel strategy, scalable creativity, and measurable performance without the cost and complexity of building a large in-house team."
   },
   {
     question: "What is the role of a result-oriented digital marketing agency in elevating your business?",
-    answer: "A result-oriented digital marketing company in Mumbai aligns every channel with clear KPIs. At Impulse Digital, we continuously test, optimize budgets in real time, and focus on outcomes that matter leads, revenue, efficiency, and long-term growth."
+    answer: "A result-oriented digital marketing company in Mumbai aligns every channel with clear KPIs. At Impulse Digital, we continuously test, optimize budgets in real time, and focus on outcomes that matter: leads, revenue, efficiency, and long-term growth."
   },
   {
     question: "What are the top services an agency should offer for your business?",
@@ -36,7 +36,7 @@ export const faqData: Record<string, FAQItem[]> = {
     ]
   },
   {
-    question: "What are the advantages of hiring a leading digital marketing agency?",
+    question: "What are the advantages of hiring a leading digital marketing agency in Mumbai?",
     answer: "A proven digital marketing agency in Mumbai brings tested playbooks, specialized teams, enterprise-grade tools, faster time-to-value, and a lower total cost of ownership. With Impulse Digital, you also get transparent reporting and direct access to decision-makers."
   },
   {
@@ -48,7 +48,7 @@ export const faqData: Record<string, FAQItem[]> = {
     answer: "Yes. A reliable digital marketing agency in Mumbai sets clear KPIs, implements proper tracking, defines conversion events, and uses attribution models. At Impulse Digital, performance is reviewed regularly and communicated clearly, no vanity metrics."
   },
   {
-    question: "What is the budget to hire a digital marketing agency for your business?",
+    question: "What is the budget to hire a digital marketing agency in Mumbai for your business?",
     answer: "The cost of hiring a digital marketing agency in Mumbai depends on your scope, industry, business size, and growth goals. Typically, budgets range from ₹70,000 to ₹2,00,000 per month for a professional agency. We recommend discussing requirements directly with Impulse Digital to design a cost-effective, results-focused plan."
   },
   {
