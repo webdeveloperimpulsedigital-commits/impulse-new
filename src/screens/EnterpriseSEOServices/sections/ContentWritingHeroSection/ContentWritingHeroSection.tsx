@@ -53,7 +53,7 @@ export const ContentWritingHeroSection = (): JSX.Element => {
 <meta name="twitter:title" content="Best Enterprise SEO Service | Impulse Digital"/>
 <meta name="twitter:description" content="Impulse Digital is a leading enterprise SEO agency delivering result-driven enterprise SEO service in India with strategic content, technical optimization, and proven expertise to grow large-scale businesses online."/>
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"/>
-<meta name="twitter:url" content="https://www.theimpulsedigital.com/enterprise-seo-service/"/>
+<meta name="twitter:url" content="https://www.theimpulsedigital.com/services/search-engine-optimization/enterprise-seo-services/"/>
 <link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/enterprise-seo-services/"/>
 <script type="application/ld+json">
         {JSON.stringify(schema)}
