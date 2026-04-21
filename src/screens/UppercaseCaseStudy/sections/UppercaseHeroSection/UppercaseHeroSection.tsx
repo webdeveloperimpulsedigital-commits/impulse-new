@@ -1,100 +1,144 @@
 import { NavLink } from "react-router-dom";
 import { Helmet } from 'react-helmet-async';
 import Header from "../../../../components/layout/Header";
+import { useEffect, useRef } from "react";
 
 export const UppercaseHeroSection = (): JSX.Element => {
-  const heroTextLines = ["Uppercase"];
+  const titleRef = useRef<HTMLHeadingElement>(null);
+  const subtitleRef = useRef<HTMLParagraphElement>(null);
+  const badgeRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const els = [badgeRef.current, titleRef.current, subtitleRef.current];
+    els.forEach((el, i) => {
+      if (!el) return;
+      el.style.opacity = "0";
+      el.style.transform = "translateY(40px)";
+      el.style.transition = `opacity 0.9s ease ${i * 0.2}s, transform 0.9s ease ${i * 0.2}s`;
+      setTimeout(() => {
+        el.style.opacity = "1";
+        el.style.transform = "translateY(0)";
+      }, 100);
+    });
+  }, []);
 
   return (
-    <> 
-      {/* ✅ SEO Meta Tags */}
-   <Helmet>
-  <title>Uppercase Case Study - Impulse Digital</title>
+    <>
+      <Helmet>
+        <title>Uppercase × Carry Your Resolution — Impulse Digital Case Study</title>
+        <meta name="description" content="How Impulse Digital turned a year-end insight into a product-led social campaign for Uppercase, achieving 5.4 million plays using AI-led production." />
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/uppercase/" />
+        <meta property="og:title" content="Uppercase × Carry Your Resolution — Impulse Digital" />
+        <meta property="og:description" content="A year-end campaign that hit 5.4M plays. Built entirely with AI. Driven by a human idea." />
+        <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/uppercase/" />
+        <meta property="og:image" content="https://www.theimpulsedigital.com/Carry Your Resolution.png" />
+      </Helmet>
 
-  <meta name="description" content="Uppercase case study by Impulse Digital showcasing digital marketing strategies and results." />
-
-  {/* 🚫 No Index */}
-  <meta name="robots" content="noindex, nofollow" />
-
-  {/* ✅ Correct Canonical */}
-  <link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/uppercase/" />
-
-  {/* Open Graph */}
-  <meta property="og:title" content="Uppercase Case Study - Impulse Digital" />
-  <meta property="og:description" content="Explore how Impulse Digital delivered results for Uppercase." />
-  <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/uppercase/" />
-  <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-</Helmet>
-
-      {/* ✅ Hero Section */}
       <section
-        className="relative w-full h-screen min-h-[600px] mb-0 h-[600px] sm:h-[700px] md:h-[800px] lg:h-[820px] rounded-t-[55px] overflow-hidden"
+        className="relative w-full overflow-hidden"
+        style={{ height: "100svh", minHeight: 600 }}
         data-section="hero"
       >
-        <header>
-          {/* Common header (overlay) */}
-          <Header />
+        <Header />
 
-          <div className="absolute inset-0 w-full h-[598px] sm:h-[698px] md:h-[798px] lg:h-[818px] bg-[url(/rectangle-35.png)] bg-cover bg-center">
-            {/* Background Video */}
-            <div className="absolute inset-0 z-0">
-              <video
-                className="w-full h-full object-cover"
-                autoPlay
-                muted
-                loop
-                playsInline
-                preload="metadata"
-                poster="/rectangle-35.png"
-              >
-                <source src="/bg-video.mp4" type="video/mp4" />
-              </video>
-              {/* Dark overlay */}
-              <div
-                className="absolute inset-0 pointer-events-none"
-                style={{ backgroundColor: "#020018", opacity: 0.85 }}
-                aria-hidden="true"
-              />
-            </div>
+        {/* Background Video */}
+        <div className="absolute inset-0 z-0">
+          <video
+            className="w-full h-full object-cover"
+            autoPlay
+            muted
+            loop
+            playsInline
+            preload="metadata"
+            poster="/Carry Your Resolution.png"
+          >
+            <source src="/uppercasestudy-video.mp4" type="video/mp4" />
+          </video>
 
-            {/* Hero Content */}
-            <div
-              className="xl:w-[1450px] lg:w-[1290px] mx-auto absolute inset-0 flex flex-col justify-center
-                        items-center text-center
-                        lg:items-center lg:text-center
-                        px-0 sm:px-6 md:px-2 lg:px-20 pt-20 lg:pt-24 lg:pl-0 sm:pt-25"
+          {/* Gradient overlay - dark at top, fades to let bottom be visible, darker gradient */}
+          <div
+            className="absolute inset-0"
+            style={{
+              background:
+                "linear-gradient(to bottom, rgba(2,0,24,0.82) 0%, rgba(2,0,24,0.55) 50%, rgba(2,0,24,0.88) 100%)",
+            }}
+          />
+        </div>
+
+        {/* Hero Content */}
+        <div className="relative z-10 flex flex-col justify-end h-full pb-20 px-6 md:px-16 lg:px-24 xl:px-32 max-w-[1600px] mx-auto">
+
+          {/* Brand Badge */}
+          <div ref={badgeRef} className="mb-6">
+            <span
+              className="inline-block text-xs font-semibold tracking-[0.25em] uppercase px-4 py-1.5 rounded-full border"
+              style={{
+                color: "#c4b0ff",
+                borderColor: "rgba(196,176,255,0.35)",
+                background: "rgba(84,61,152,0.25)",
+                backdropFilter: "blur(8px)",
+              }}
             >
-              {/* Main Heading */}
-              <div className="mb-8 sm:mb-12 text-center lg:text-center">
-                <h1 className="uppercase [font-family:'DM_Sans',Helvetica] font-black text-white text-[32px] sm:text-[40px] md:text-[48px] lg:text-[56px] xl:text-[64px] leading-[40px] tracking-tight mb-6">
-                  {heroTextLines.map((line, index) => (
-                    <span key={index}>
-                      {line}
-                      <br />
-                    </span>
-                  ))}
-                </h1>
-              </div>
-
-              {/* Description */}
-              {/* Breadcrumb */}
-         <nav className="flex items-center justify-center gap-2 text-white/80 text-sm">
-          <NavLink to="/" className="hover:text-white transition-colors">
-            Home
-          </NavLink>
-          <span className="select-none">{">"}</span>
-            <NavLink to="/casestudies" className="hover:text-white transition-colors">
-            Case Studies
-          </NavLink>
-            <span className="select-none">{">"}</span>
-          <span className="text-white">Uppercase
- </span>
-        </nav>
-            </div>
+              Case Study · AI-Led Campaign
+            </span>
           </div>
-        </header>
+
+          {/* Main Title */}
+          <h1
+            ref={titleRef}
+            className="font-black text-white mb-4 leading-none"
+            style={{
+              fontFamily: "'DM Sans', sans-serif",
+              fontSize: "clamp(2.8rem, 7vw, 7rem)",
+              letterSpacing: "-0.03em",
+            }}
+          >
+            Carry Your<br />
+            <span style={{ color: "#a78bfa" }}>Resolution.</span>
+          </h1>
+
+          {/* Subtitle */}
+          {/* <p
+            ref={subtitleRef}
+            className="text-white/70 mb-10 max-w-xl"
+            style={{ fontSize: "clamp(1rem, 1.5vw, 1.2rem)", lineHeight: 1.65 }}
+          >
+            Turning a year-end insight into a product-led social campaign for{" "}
+            <span className="text-white font-semibold">Uppercase</span>.
+          </p> */}
+
+          {/* Breadcrumb */}
+          <nav className="flex items-center gap-2 text-white/50 text-sm">
+            <NavLink to="/" className="hover:text-white/80 transition-colors">Home</NavLink>
+            <span className="opacity-50">›</span>
+            <NavLink to="/casestudies" className="hover:text-white/80 transition-colors">Case Studies</NavLink>
+            <span className="opacity-50">›</span>
+            <span className="text-white/80">Uppercase</span>
+          </nav>
+        </div>
+
+        {/* Scroll cue */}
+        <div
+          className="absolute bottom-8 left-1/2 z-10 flex flex-col items-center gap-1"
+          style={{ transform: "translateX(-50%)", animation: "scrollBounce 2.4s ease-in-out infinite" }}
+        >
+          <span className="text-white/40 text-[10px] tracking-widest uppercase">Scroll</span>
+          <svg width="16" height="24" viewBox="0 0 16 24" fill="none">
+            <rect x="1" y="1" width="14" height="22" rx="7" stroke="rgba(255,255,255,0.3)" strokeWidth="1.5" />
+            <circle cx="8" cy="7" r="2.5" fill="rgba(167,139,250,0.8)">
+              <animateTransform attributeName="transform" type="translate" values="0,0;0,9;0,0" dur="2.4s" repeatCount="indefinite" />
+            </circle>
+          </svg>
+        </div>
+
+        <style>{`
+          @keyframes scrollBounce {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+          }
+        `}</style>
       </section>
     </>
   );
 };
-

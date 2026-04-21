@@ -1,1 +1,0 @@
-export { TestimonilasServiceSection } from "./TestimonilasServiceSection";
