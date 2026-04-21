@@ -3,35 +3,35 @@ import { Helmet } from 'react-helmet-async';
 import Header from "../../../../components/layout/Header";
 
 export const AIVideoProductionServicesHeroSection = (): JSX.Element => {
-  const heroTextLines = ["AI VIDEO PRODUCTION"];
+  const heroTextLines = ["AI VIDEO PRODUCTION AGENCY"];
 
   return (
     <>
       {/* ✅ SEO Meta Tags */}
    <Helmet> 
-    <meta name="description" content="Create AI-powered videos faster with avatars, automation, voiceovers and smart editing. Ideal for marketing, training and social platforms. Enquire now!" />
-<meta name="keywords" content="AI video production services, AI video agency in Mumbai, AI video creation, AI-powered video production in Mumbai, AI video content creation" />
-<title>AI Video Production Services | Impulse Digital</title>
+    <meta name="description" content="Impulse Digital is a creative AI video production agency offering advanced AI video production services to create scalable, engaging, and high-impact brand videos faster and smarter." />
+<meta name="keywords" content="ai video production agency, ai video production services, Mumbai, india, impulse digital" />
+<title>AI Video Production Agency | Impulse DIgital</title>
 
 <meta name="robots" content="index, follow" />
 <meta name="revisit-after" content="1 day" />
 <meta name="language" content="English" />
 <meta name="generator" content="N/A" />
 
-<meta property="og:title" content="AI Video Production Services | Impulse Digital" />
-<meta property="og:description" content="Create AI-powered videos faster with avatars, automation, voiceovers and smart editing. Ideal for marketing, training and social platforms. Enquire now!" />
-<meta property="og:url" content="https://www.theimpulsedigital.com/services/video-production/ai-video-production" />
+<meta property="og:title" content="AI Video Production Agency | Impulse DIgital" />
+<meta property="og:description" content="Impulse Digital is a creative AI video production agency offering advanced AI video production services to create scalable, engaging, and high-impact brand videos faster and smarter." />
+<meta property="og:url" content="https://www.theimpulsedigital.com/services/video-production/ai-video-production/" />
 <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
 <meta property="og:site_name" content="Impulse Digital" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content= "summary_large_image"  />
 <meta name="twitter:site" content="@impulsedigi" />
 <meta name="twitter:creator" content="@impulsedigi" />
-<meta name="twitter:title" content="AI Video Production Services | Impulse Digital" />
-<meta name="twitter:description" content="Create AI-powered videos faster with avatars, automation, voiceovers and smart editing. Ideal for marketing, training and social platforms. Enquire now!" />
-<link rel="canonical" href="https://www.theimpulsedigital.com/services/video-production/ai-video-production" />
+<meta name="twitter:title" content="AI Video Production Agency | Impulse DIgital" />
+<meta name="twitter:description" content="Impulse Digital is a creative AI video production agency offering advanced AI video production services to create scalable, engaging, and high-impact brand videos faster and smarter." />
+<link rel="canonical" href="https://www.theimpulsedigital.com/services/video-production/ai-video-production/" />
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-<meta name="twitter:url" content="https://www.theimpulsedigital.com/services/video-production/ai-video-production" />
+<meta name="twitter:url" content="https://www.theimpulsedigital.com/services/video-production/ai-video-production/" />
 
     </Helmet>
          
