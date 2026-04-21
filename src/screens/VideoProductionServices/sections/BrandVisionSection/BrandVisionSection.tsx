@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 export const BrandVisionSection = (): JSX.Element => {
   const overlayText =
-    "Great videos do more than communicate. They captivate, persuade, and stay memorable long after the screen fades with creative video production services in Mumbai.";
+    "Great videos do more than communicate. They captivate, persuade, and stay memorable long after the screen fades";
 
   // ================== COUNTERS ==================
   const [counters, setCounters] = useState({
@@ -95,14 +95,14 @@ export const BrandVisionSection = (): JSX.Element => {
       <div className="max-w-[1280px] mx-auto px-2 lg:px-5 sm:py-10">
         {/* Title */}
         <div className="mb-6 lg:mb-8 pt-10">
-           <h2 className="[font-family:'DM_Sans',Helvetica] leading-tight">
-    <span className="text-[#030019] font-medium lg:text-[34px] sm:text-[16px] block">
-      Powerful Visual Stories by a  <br></br>
-    </span>
-    <span className="text-[#543d98] font-bold lg:text-[52px] sm:text-[26px] block">
-      Video Production Company in Mumbai
-    </span>
-  </h2>
+          <h2 className="[font-family:'DM_Sans',Helvetica] leading-tight">
+            <span className="text-[#030019] font-medium lg:text-[34px] sm:text-[16px] block">
+              Powerful Visual Stories by a  <br></br>
+            </span>
+            <span className="text-[#543d98] font-bold lg:text-[52px] sm:text-[26px] block">
+              Video Production Company in Mumbai
+            </span>
+          </h2>
         </div>
 
         {/* Image + Overlay + Counters */}

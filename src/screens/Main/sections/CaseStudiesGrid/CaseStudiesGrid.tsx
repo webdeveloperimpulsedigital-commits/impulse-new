@@ -393,9 +393,8 @@ export const CaseStudiesGrid = (): JSX.Element => {
   }) => (
     <Link to={caseStudy.link} className="case-study-card">
       <div
-        className={`case-study-media ${
-          !isMobile && caseStudy.tall ? "case-study-media--tall" : ""
-        } ${caseStudy.corner ? "corner" : ""}`}
+        className={`case-study-media ${!isMobile && caseStudy.tall ? "case-study-media--tall" : ""
+          } ${caseStudy.corner ? "corner" : ""}`}
       >
         <img src={caseStudy.image} alt={caseStudy.title} loading="lazy" />
       </div>
@@ -497,16 +496,16 @@ export const CaseStudiesGrid = (): JSX.Element => {
             </div>
 
             <Button className="w-[220px] h-[44px] group flex items-center justify-center gap-2 px-4 py-6 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border-[#543d98] hover:border hover:border-[#543d98]">
-          <Link to="/casestudies"
-            className="[font-family:'DM_Sans',Helvetica] font-bold text-white text-sm group-hover:text-[#543d98] transition-colors duration-300">
-            See All Case Studies
-          </Link>
-          <img
-            src="/button-icon.svg"
-            alt="Arrow"
-            className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert-0 group-hover:invert pointer-events-none"
-          />
-        </Button>
+              <Link to="/casestudies"
+                className="[font-family:'DM_Sans',Helvetica] font-bold text-white text-sm group-hover:text-[#543d98] transition-colors duration-300">
+                See All Case Studies
+              </Link>
+              <img
+                src="/button-icon.svg"
+                alt="Arrow"
+                className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert-0 group-hover:invert pointer-events-none"
+              />
+            </Button>
           </div>
 
           {/* ✅ NEW MOBILE SLIDER (no Swiper) */}
