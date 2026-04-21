@@ -263,12 +263,12 @@ export const faqData: Record<string, FAQItem[]> = {
 
  "/services/video-production": [
     {    
-    question: "What types of videos can you produce?",
-    answer: "We cover brand films, corporate videos, product demos, ads, testimonials, explainers, animations, event videos, and more.",
+    question: "What types of videos can Impulse Digital produce?",
+    answer: "As a full-service video production company in Mumbai, Impulse Digital creates brand films, corporate videos, product demos, advertisements, testimonials, explainers, animations, and event coverage. Our video production are designed to support marketing, training, and storytelling needs across platforms.",
   },
   {
-    question: "Do you handle the entire production?",
-    answer: "Yes. From scripting to shooting, editing, and delivery, we manage everything end-to-end.",
+    question: "Do you handle the entire production process?",
+    answer: "Yes. As an experienced video production agency in Mumbai, we manage everything end-to-end, including scripting, planning, shooting, editing, and final delivery. This ensures consistency in quality and alignment with your business goals throughout the project lifecycle.",
   },
   {
     question: "How long does production usually take?",
@@ -279,20 +279,20 @@ export const faqData: Record<string, FAQItem[]> = {
     answer: "Absolutely. We shoot at your premises, studios, outdoor locations, or any site as required.",
   },
   {
-    question: "Do you offer short-form video editing?",
-    answer: "Yes, we specialise in reels, shorts, and platform-specific versions.",
+    question: "Do you offer short-form video editing for social media?",
+    answer: "Yes. Our video production services in Mumbai include editing reels, shorts, and platform-specific formats optimized for Instagram, YouTube, LinkedIn, and performance campaigns to improve engagement and reach.",
   },
   {
     question: "Do you provide scripts and concepts?",
     answer: "Yes, our creative team develops the script, storyboard, and visual direction based on your goals.",
   },
   {
-    question: "Can you support ongoing video needs?",
-    answer: "We offer monthly retainers and packages for brands needing regular video content.",
+    question: "Can Impulse Digital support ongoing video content requirements?",
+    answer: "Yes. Many brands partner with us through retainers for continuous video production services in Mumbai. This helps maintain consistency across campaigns, social media, internal communication, and product storytelling throughout the year.",
   },
   {
-    question: "What formats will we receive?",
-    answer: "We deliver optimised files in MP4, MOV, vertical (9:16), square (1:1), and landscape (16:9) formats.",
+    question: "What formats will we receive after video production services?",
+    answer: "As a professional video production company in Mumbai, we deliver optimized files in multiple formats including MP4 and MOV, along with platform-ready aspect ratios such as vertical (9:16), square (1:1), and landscape (16:9), ensuring compatibility across digital channels.",
   },
     
  ],
