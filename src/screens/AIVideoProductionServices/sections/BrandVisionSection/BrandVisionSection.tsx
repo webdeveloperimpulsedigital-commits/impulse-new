@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 export const BrandVisionSection = (): JSX.Element => {
   const overlayText =
-    "Smarter, faster & scalable video creation powered by AI.";
+    "Smarter, faster & scalable video creation powered by AI video production services.";
 
   // ================== COUNTERS ==================
   const [counters, setCounters] = useState({
@@ -77,10 +77,10 @@ export const BrandVisionSection = (): JSX.Element => {
        <div className="mb-6 lg:mb-8 pt-10">
   <h2 className="[font-family:'DM_Sans',Helvetica] leading-tight">
     <span className="text-[#030019] font-medium lg:text-[34px] sm:text-[16px] block">
-      Create More Videos.  <br></br>
+      Create More Videos. In Less Time. <br></br>
     </span>
     <span className="text-[#543d98] font-bold lg:text-[52px] sm:text-[26px] block">
-      In Less Time. With AI.
+    With AI Video Production Agency.
     </span>
   </h2>
 </div>
@@ -158,14 +158,7 @@ export const BrandVisionSection = (): JSX.Element => {
         {/* Body Copy */}
         <div className="text-left mb-12">
           <p className="text-[12px] lg:text-[24px] text-[#030019]">
-            The future of video is intelligent. With AI-driven tools, avatars, scripts,
-            voiceovers, and automated editing, brands can now produce high-quality videos
-            faster, at scale, and without the traditional limitations of shoots.
-            AI eliminates location constraints, speeds up production, and unlocks
-            multi-language versions in minutes. For brands needing frequent content,
-            fast turnarounds, or global scalability-AI video becomes a competitive edge.
-            With Impulse Digital, you get technology + creative direction + storytelling
-            in one unified production ecosystem.
+            The future of video is intelligent, and at Impulse Digital, our advanced AI video production services help brands create high-quality content faster and at scale. As a strategic AI video production agency, we combine AI-driven tools, avatars, scripts, voiceovers, and automated editing with creative storytelling to deliver consistent, multilingual video experiences without the traditional limitations of shoots. AI eliminates location constraints, accelerates production timelines, and enables rapid content adaptation for global audiences. For brands that need frequent campaigns, faster turnarounds, or scalable communication across markets, AI-powered video becomes a strong competitive advantage. With Impulse Digital, you get technology + creative direction + storytelling in one unified production ecosystem.
           </p>
         </div>
       </div>
