@@ -27,7 +27,7 @@ export const UppercaseHeroSection = (): JSX.Element => {
       <Helmet>
         <title>Uppercase Case Study | AI-Led Social Film by Impulse Digital</title>
         <meta name="description" content="See how Impulse Digital used AI scripting, visuals, voice, and editing to build a product-led social campaign for Uppercase that stood out during crowded New Year marketing." />
-        <meta name="robots" content="noindex, nofollow" />
+        <meta name="robots" content="index, follow" />
         <link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/uppercase/" />
         <meta property="og:title" content="Uppercase Case Study | AI-Led Social Film by Impulse Digital" />
         <meta property="og:description" content="See how Impulse Digital used AI scripting, visuals, voice, and editing to build a product-led social campaign for Uppercase that stood out during crowded New Year marketing." />

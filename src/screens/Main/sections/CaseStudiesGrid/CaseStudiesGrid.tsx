@@ -150,12 +150,12 @@ const css = `
 const caseStudiesData = [
   {
     id: 1,
-    title: "Amazon Employer Branding",
-    image: "/Amazon EB-new.jpg",
+    title: "Uppercase",
+    image: "/Uppercase-Thumbnail.jpg",
     tags: ["Product Design"],
     tall: true,
     corner: false,
-    link: "/casestudies/amazon-eb",
+    link: "/casestudies/uppercase",
   },
   {
     id: 2,
