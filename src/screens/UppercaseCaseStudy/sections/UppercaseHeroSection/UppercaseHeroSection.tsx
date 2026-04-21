@@ -25,12 +25,12 @@ export const UppercaseHeroSection = (): JSX.Element => {
   return (
     <>
       <Helmet>
-        <title>Uppercase × Carry Your Resolution — Impulse Digital Case Study</title>
-        <meta name="description" content="How Impulse Digital turned a year-end insight into a product-led social campaign for Uppercase, achieving 5.4 million plays using AI-led production." />
+        <title>Uppercase Case Study | AI-Led Social Film by Impulse Digital</title>
+        <meta name="description" content="See how Impulse Digital used AI scripting, visuals, voice, and editing to build a product-led social campaign for Uppercase that stood out during crowded New Year marketing." />
         <meta name="robots" content="noindex, nofollow" />
         <link rel="canonical" href="https://www.theimpulsedigital.com/casestudies/uppercase/" />
-        <meta property="og:title" content="Uppercase × Carry Your Resolution — Impulse Digital" />
-        <meta property="og:description" content="A year-end campaign that hit 5.4M plays. Built entirely with AI. Driven by a human idea." />
+        <meta property="og:title" content="Uppercase Case Study | AI-Led Social Film by Impulse Digital" />
+        <meta property="og:description" content="See how Impulse Digital used AI scripting, visuals, voice, and editing to build a product-led social campaign for Uppercase that stood out during crowded New Year marketing." />
         <meta property="og:url" content="https://www.theimpulsedigital.com/casestudies/uppercase/" />
         <meta property="og:image" content="https://www.theimpulsedigital.com/Carry Your Resolution.png" />
       </Helmet>
@@ -38,7 +38,7 @@ export const UppercaseHeroSection = (): JSX.Element => {
       <div className="relative">
         <div className="absolute bottom-0 w-full h-[150px] bg-white z-0" aria-hidden="true" />
         <section
-          className="relative z-10 w-full h-screen min-h-[600px] mb-0 h-[600px] sm:h-[700px] md:h-[800px] lg:h-[820px] rounded-[55px] overflow-hidden"
+          className="relative w-full h-screen min-h-[600px] mb-0 h-[600px] sm:h-[700px] md:h-[800px] lg:h-[820px] rounded-[55px] overflow-hidden"
           data-section="hero"
         >
           <header>
