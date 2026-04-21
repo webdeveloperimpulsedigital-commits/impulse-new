@@ -713,30 +713,11 @@ export const BrandVisionSection = (): JSX.Element => {
               If you're not using AI for the sake of it, but to make the work better we should talk.
             </p>
 
-            <Link
-              to="/contact-us"
-              className="inline-flex items-center gap-3 font-semibold px-8 py-4 rounded-full text-white transition-all duration-300"
-              style={{
-                background: "linear-gradient(135deg, #543d98, #7c5cbf)",
-                fontSize: "1rem",
-                boxShadow: "0 8px 32px rgba(84,61,152,0.5)",
-              }}
-              onMouseEnter={(e) => {
-                (e.currentTarget as HTMLElement).style.boxShadow = "0 12px 48px rgba(84,61,152,0.75)";
-                (e.currentTarget as HTMLElement).style.transform = "translateY(-2px)";
-              }}
-              onMouseLeave={(e) => {
-                (e.currentTarget as HTMLElement).style.boxShadow = "0 8px 32px rgba(84,61,152,0.5)";
-                (e.currentTarget as HTMLElement).style.transform = "translateY(0)";
-              }}
-            >
-              Let's Build Something
-              <img
-                          src="/button-icon.svg"
-                          alt="Arrow"
-                          className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert pointer-events-none"
-                        />
-            </Link>
+
+
+            <button className="inline-flex justify-center whitespace-nowrap text-sm font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#543d98] disabled:pointer-events-none disabled:opacity-50 [&amp;_svg]:pointer-events-none [&amp;_svg]:size-4 [&amp;_svg]:shrink-0 w-[250px] h-[50px] group sm:inline-flex items-center gap-2 px-4 py-6 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border-[#543d98] hover:border hover:border-[#543d98]"><a className="[font-family:'DM_Sans',Helvetica] font-bold text-white text-sm md:text-base group-hover:text-[#543d98] transition-colors duration-300" href="/contact-us" data-discover="true">              
+            Let's Build Something
+</a><img src="/button-icon.svg" alt="Arrow" className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert-0 group-hover:invert pointer-events-none"/></button>
 
             
 
@@ -754,7 +735,7 @@ export const BrandVisionSection = (): JSX.Element => {
 
       #sec-border-uppercase-study-brand-vision{
         margin-top: -6.9%;
-        z-index: 999;
+        z-index: 9900;
         border-top-right-radius: 55px;
         border-top-left-radius: 55px;
         position: relative;
