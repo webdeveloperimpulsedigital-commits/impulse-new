@@ -317,6 +317,15 @@ const caseStudiesData = [
     corner: true,
     link: "/casestudies/rainbow-international-school/",
   }, 
+  {
+    id: 19,
+    title: "Uppercase",
+    image: "/Uppercase-Thumbnail.jpg",
+    tags: ["Product Design"],
+    tall: true,
+    corner: false,
+    link: "/casestudies/uppercase/",
+  }
 ];
 
 export const ServicesCatalogSection = (): JSX.Element => {
