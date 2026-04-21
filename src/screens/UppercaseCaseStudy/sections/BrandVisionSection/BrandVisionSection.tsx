@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 
+
 /* ─── Scroll reveal hook ─── */
 function useReveal(threshold = 0.12) {
   const ref = useRef<HTMLDivElement>(null);
@@ -167,7 +168,7 @@ export const BrandVisionSection = (): JSX.Element => {
   const prose: React.CSSProperties = { color: "#4B4B5C", fontSize: "1rem", lineHeight: 1.8 };
 
   return (
-    <article className="w-full bg-white" style={{ overflowX: "hidden" }}>
+    <article className="w-full bg-white" style={{ overflowX: "hidden" }} id="sec-border-uppercase-study-brand-vision">
 
       {/* ═══════════════════════════════════════════════
           INTRO "That's where the idea came from"
@@ -217,7 +218,7 @@ export const BrandVisionSection = (): JSX.Element => {
       {/* ═══════════════════════════════════════════════
           THE OPPORTUNITY
       ═══════════════════════════════════════════════ */}
-      <section className="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-20 py-28">
+      <section className="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-20 py-0">
         <div className="w-full max-w-6xl">
           <RevealSection>
 
@@ -730,10 +731,14 @@ export const BrandVisionSection = (): JSX.Element => {
               }}
             >
               Let's Build Something
-              <svg width="18" height="18" viewBox="0 0 18 18" fill="none">
-                <path d="M3.75 9h10.5M9.75 4.5l4.5 4.5-4.5 4.5" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-              </svg>
+              <img
+                          src="/button-icon.svg"
+                          alt="Arrow"
+                          className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert pointer-events-none"
+                        />
             </Link>
+
+            
 
             <div className="mt-16 flex flex-wrap items-center justify-center gap-8 opacity-30">
               <Link to="/casestudies" className="text-white text-sm hover:opacity-60 transition-opacity">
@@ -746,8 +751,18 @@ export const BrandVisionSection = (): JSX.Element => {
 
       {/* Global styles for this page */}
       <style>{`
+
+      #sec-border-uppercase-study-brand-vision{
+        margin-top: -6.9%;
+        z-index: 999;
+        border-top-right-radius: 55px;
+        border-top-left-radius: 55px;
+        position: relative;
+      }
         @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;900&display=swap');
-      `}</style>
+      `}
+      
+      </style>
     </article>
   );
 };
