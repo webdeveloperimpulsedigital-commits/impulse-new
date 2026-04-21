@@ -52,7 +52,7 @@ export const UppercaseHeroSection = (): JSX.Element => {
                 className="hidden md:block w-full h-full object-cover"
               />
               <img
-                src="/Uppercase-banner-mobile.jpg"
+                src="/Uppercase-banner-image.jpg"
                 alt="Uppercase Campaign Background Mobile"
                 className="block md:hidden w-full h-full object-cover"
               />

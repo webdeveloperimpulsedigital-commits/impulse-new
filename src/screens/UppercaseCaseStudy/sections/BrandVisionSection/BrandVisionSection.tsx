@@ -138,7 +138,7 @@ export const BrandVisionSection = (): JSX.Element => {
     opportunity: "/repetitive.jpg",
     shift: "/repetitive.jpg",
     campaign: "/Carry Your Resolution.png",
-    ai: "/AI.png",
+    ai: "/how-we-used-ai-bg.png",
     keepingReal: "/uppercase-bag.jpg",
     carryYour: "/Carry Your Resolution.png",
     resolution: "/Resolution.png",
@@ -569,27 +569,32 @@ export const BrandVisionSection = (): JSX.Element => {
           FULL-WIDTH VIDEO SECTION
       ═══════════════════════════════════════════════ */}
       <RevealSection>
-        <div
-          className="relative w-full"
-          style={{ height: "clamp(340px, 60vw, 800px)" }}
-        >
+        <div className="relative w-full bg-[#0a071d] flex justify-center">
           <video
             src="/uppercasestudy-video.mp4"
             autoPlay
             loop
             muted
             playsInline
-            className="w-full h-full object-cover"
+            className="w-full max-h-[85vh] h-auto object-contain"
           />
           <div
-            className="absolute inset-0 flex items-end justify-center pb-12"
-            style={{ background: "linear-gradient(to bottom, transparent 40%, rgba(2,0,24,0.7) 100%)" }}
+            className="absolute inset-x-0 bottom-0 flex items-end justify-center pb-8 pt-32 pointer-events-none"
+            style={{ background: "linear-gradient(to bottom, transparent 0%, rgba(10,7,29,0.9) 100%)" }}
           >
-            <p
-              className="text-white/60 text-sm tracking-widest uppercase text-center"
+            <a
+              href="https://www.instagram.com/reel/DS2tVfiiO6p/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="pointer-events-auto flex items-center justify-center gap-2 text-white/90 hover:text-white transition-colors text-sm tracking-wide uppercase bg-black/40 hover:bg-black/60 backdrop-blur-md px-6 py-3 rounded-[12px] border border-white/20 shadow-lg"
             >
-              Campaign Film · Uppercase · 2025
-            </p>
+              <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+              </svg>
+              Watch this on Instagram
+            </a>
           </div>
         </div>
       </RevealSection>
