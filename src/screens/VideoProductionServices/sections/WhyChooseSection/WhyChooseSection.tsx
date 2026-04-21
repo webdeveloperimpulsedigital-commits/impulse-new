@@ -33,10 +33,10 @@ export const WhyChooseSection = (): JSX.Element => {
        <div className="mb-6 lg:mb-8 pt-0">
   <h2 className="[font-family:'DM_Sans',Helvetica] leading-tight">
     <span className="text-[#030019] font-medium lg:text-[34px] sm:text-[16px] block">
-      Why Brands  <br></br>
+      Why Brands Trust Impulse Digital <br></br>
     </span>
     <span className="text-[#543d98] font-bold lg:text-[52px] sm:text-[26px] block">
-      Trust Us With Their Videos
+      For Video Production Services
     </span>
   </h2>
 </div>
