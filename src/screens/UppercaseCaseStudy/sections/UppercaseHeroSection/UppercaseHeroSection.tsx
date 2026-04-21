@@ -48,8 +48,13 @@ export const UppercaseHeroSection = (): JSX.Element => {
             <div className="absolute inset-0 w-full h-[598px] sm:h-[698px] md:h-[798px] lg:h-[818px] bg-cover bg-center z-0">
               <img
                 src="/Uppercase-banner-image.jpg"
-                alt="Uppercase Campaign Background"
-                className="w-full h-full object-cover"
+                alt="Uppercase Campaign Background Desktop"
+                className="hidden md:block w-full h-full object-cover"
+              />
+              <img
+                src="/Uppercase-banner-mobile.jpg"
+                alt="Uppercase Campaign Background Mobile"
+                className="block md:hidden w-full h-full object-cover"
               />
 
               {/* Gradient overlay - dark at top, fades to let bottom be visible, darker gradient */}
@@ -101,9 +106,6 @@ export const UppercaseHeroSection = (): JSX.Element => {
               <span className="text-white/80">Uppercase</span>
             </nav>
           </div>
-
-
-
           <style>{`
           @keyframes scrollBounce {
             0%, 100% { opacity: 1; }

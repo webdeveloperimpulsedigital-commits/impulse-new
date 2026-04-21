@@ -8,7 +8,7 @@ import { BrandVisionSection } from "./sections/BrandVisionSection/BrandVisionSec
 // import { ProcessSection } from "./sections/ProcessSection/ProcessSection";
 // import { ClientsSection } from "./sections/ClientsSection";
 // import { TestimonialsSection } from "../Main/sections/TestimonialsSection/TestimonialsSection";
-import { ContactSection } from "../Main/sections/ContactSection/ContactSection";
+// import { ContactSection } from "../Main/sections/ContactSection/ContactSection";
 // import { FAQSection } from "./sections/FAQSection/FAQSection";
 import { FooterSection } from "../Main/sections/FooterSection/FooterSection";
 export const UppercaseCaseStudy = (): JSX.Element => {
@@ -25,7 +25,7 @@ export const UppercaseCaseStudy = (): JSX.Element => {
         <ProcessSection />
         <ClientsSection/> 
         <TestimonialsSection /> */}
-        <ContactSection />
+        {/* <ContactSection /> */}
         {/* <FAQSection /> */}
         <FooterSection />
       </div>

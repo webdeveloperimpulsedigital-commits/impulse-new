@@ -135,11 +135,11 @@ export const BrandVisionSection = (): JSX.Element => {
 
   /* ─── Images ─── */
   const images = {
-    opportunity: "/The Opportunity.png",
-    shift: "/The Shift.jpg",
-    campaign: "/Building the Campaign.png",
+    opportunity: "/repetitive.jpg",
+    shift: "/repetitive.jpg",
+    campaign: "/Carry Your Resolution.png",
     ai: "/AI.png",
-    keepingReal: "/Keeping It Real.png",
+    keepingReal: "/uppercase-bag.jpg",
     carryYour: "/Carry Your Resolution.png",
     resolution: "/Resolution.png",
     closing: "/closing.png",
@@ -170,25 +170,21 @@ export const BrandVisionSection = (): JSX.Element => {
     <article className="w-full bg-white" style={{ overflowX: "hidden" }}>
 
       {/* ═══════════════════════════════════════════════
-          INTRO — "That's where the idea came from"
+          INTRO "That's where the idea came from"
       ═══════════════════════════════════════════════ */}
       <section className="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-20 pt-24 pb-16">
         <RevealSection>
-          <p
-            className="uppercase tracking-[0.22em] text-xs font-semibold mb-5"
-            style={{ color: "#543d98" }}
-          >
-            Uppercase · December 2025
-          </p>
+
+
 
           <h1
             className="font-black leading-none mb-8"
             style={{
               fontFamily: "'DM Sans', sans-serif",
-              fontSize: "clamp(2.5rem, 6vw, 5.5rem)",
+              fontSize: "clamp(2rem, 4vw, 3.5rem)",
               color: "#0f0a2e",
               letterSpacing: "-0.03em",
-              maxWidth: "14ch",
+
             }}
           >
             Turning a year-end insight into a{" "}
@@ -217,49 +213,14 @@ export const BrandVisionSection = (): JSX.Element => {
       {/* ═══════════════════════════════════════════════
           FULL-WIDTH CAMPAIGN IMAGE
       ═══════════════════════════════════════════════ */}
-      <RevealSection>
-        <div
-          className="relative overflow-hidden"
-          style={{ height: "clamp(320px, 52vw, 680px)" }}
-        >
-          <img
-            src={images.carryYour}
-            alt="Carry Your Resolution Campaign"
-            className="w-full h-full object-cover"
-            style={{ transform: "scale(1.02)" }}
-          />
-          <div
-            className="absolute inset-0"
-            style={{ background: "linear-gradient(to top, rgba(2,0,24,0.55) 0%, transparent 50%)" }}
-          />
-          <div className="absolute bottom-10 left-8 md:left-16 lg:left-24">
-            <p
-              className="text-white font-black"
-              style={{
-                fontFamily: "'DM Sans', sans-serif",
-                fontSize: "clamp(1.4rem, 3vw, 2.6rem)",
-                letterSpacing: "-0.02em",
-                textShadow: "0 2px 24px rgba(0,0,0,0.5)",
-              }}
-            >
-              This year, my resolutions are moving with me.
-            </p>
-            <p
-              className="text-white/80 mt-1 font-semibold tracking-wide uppercase text-sm"
-            >
-              UPPERCASE: Carry Your Resolution.
-            </p>
-          </div>
-        </div>
-      </RevealSection>
 
       {/* ═══════════════════════════════════════════════
           THE OPPORTUNITY
       ═══════════════════════════════════════════════ */}
       <section className="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-20 py-28">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
+        <div className="w-full max-w-6xl">
           <RevealSection>
-            <Pill label="The Opportunity" />
+
             <SectionHeading title="Making New Year feel less repetitive" accent />
             <p style={prose}>
               Year-end marketing is crowded. Everyone shows up saying more or less the same thing.
@@ -276,21 +237,6 @@ export const BrandVisionSection = (): JSX.Element => {
                 "Make something that actually works on social",
               ]}
             />
-          </RevealSection>
-
-          <RevealSection delay={0.18}>
-            <div className="relative">
-              <div
-                className="absolute -inset-4 rounded-[32px] opacity-20"
-                style={{ background: "radial-gradient(ellipse at 60% 40%, #a78bfa 0%, transparent 70%)" }}
-              />
-              <img
-                src={images.opportunity}
-                alt="The Opportunity"
-                className="w-full rounded-[28px] object-cover relative z-10"
-                style={{ height: "clamp(280px, 40vw, 520px)", boxShadow: "0 32px 64px rgba(84,61,152,0.18)" }}
-              />
-            </div>
           </RevealSection>
         </div>
 
@@ -326,9 +272,7 @@ export const BrandVisionSection = (): JSX.Element => {
                 />
               </div>
             </RevealSection>
-
             <RevealSection delay={0.2}>
-              <Pill label="The Shift" />
               <h2
                 className="font-black leading-tight mb-6 text-white"
                 style={{
@@ -341,15 +285,13 @@ export const BrandVisionSection = (): JSX.Element => {
                 <span style={{ color: "#a78bfa" }}>"resolutions"</span>{" "}
                 to something you carry.
               </h2>
-
               <p style={{ ...prose, color: "rgba(255,255,255,0.72)" }}>
                 We stopped looking at resolutions as promises.
-                Instead, we treated them like something you carry with you — through travel, work, routines, everything.
+                Instead, we treated them like something you carry with you through travel, work, routines, everything.
               </p>
               <p style={{ ...prose, color: "rgba(255,255,255,0.72)", marginTop: "1rem" }}>
                 That made things click. Now the story could move through real-life situations without losing the core idea.
               </p>
-
               <div
                 className="mt-8 p-6 rounded-[20px]"
                 style={{
@@ -380,61 +322,40 @@ export const BrandVisionSection = (): JSX.Element => {
           BUILDING THE CAMPAIGN
       ═══════════════════════════════════════════════ */}
       <section className="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-20 py-28">
-        <div className="grid lg:grid-cols-2 gap-16 items-center">
-          <RevealSection>
-            <Pill label="Building the Campaign" />
-            <SectionHeading title="Making sure it all holds together" accent />
-            <p style={prose}>
-              Coming up with a line is one part. Making it work across different moments is the real job.
-              We mapped out how this idea would show up in different situations and made sure it still felt like one story.
-            </p>
-            <p style={{ ...prose, marginTop: "0.75rem" }}>That meant figuring out:</p>
-            <BulletList
-              items={[
-                "What each moment should feel like",
-                "Where it plays out",
-                "How the product shows up without interrupting",
-                "How everything ties back to the same thought",
-              ]}
-            />
-          </RevealSection>
-
+        <div className="flex flex-col gap-16">
           <RevealSection delay={0.15}>
-            <div className="relative">
-              <div
-                className="absolute -inset-4 rounded-[32px] opacity-15"
-                style={{ background: "radial-gradient(ellipse, #543d98 0%, transparent 70%)" }}
-              />
+            <div className="relative w-full">
               <img
                 src={images.campaign}
                 alt="Building the Campaign"
-                className="w-full rounded-[28px] object-cover relative z-10"
-                style={{ height: "clamp(280px, 40vw, 520px)", boxShadow: "0 32px 64px rgba(84,61,152,0.18)" }}
+                className="w-full rounded-[28px] h-auto object-contain relative z-10"
+
+              />
+            </div>
+          </RevealSection>
+
+          <RevealSection>
+            <div className="w-full max-w-6xl">
+
+              <SectionHeading title="Making sure it all holds together" accent />
+              <p style={prose}>
+                Coming up with a line is one part. Making it work across different moments is the real job.
+                We mapped out how this idea would show up in different situations and made sure it still felt like one story.
+              </p>
+              <p style={{ ...prose, marginTop: "0.75rem" }}>That meant figuring out:</p>
+              <BulletList
+                items={[
+                  "What each moment should feel like",
+                  "Where it plays out",
+                  "How the product shows up without interrupting",
+                  "How everything ties back to the same thought",
+                ]}
               />
             </div>
           </RevealSection>
         </div>
       </section>
 
-      {/* ═══════════════════════════════════════════════
-          RESOLUTION IMAGE — full bleed
-      ═══════════════════════════════════════════════ */}
-      <RevealSection>
-        <div
-          className="relative overflow-hidden"
-          style={{ height: "clamp(260px, 45vw, 600px)" }}
-        >
-          <img
-            src={images.resolution}
-            alt="Campaign creative scenes"
-            className="w-full h-full object-cover"
-          />
-          <div
-            className="absolute inset-0"
-            style={{ background: "linear-gradient(to right, rgba(15,10,46,0.7) 0%, transparent 50%)" }}
-          />
-        </div>
-      </RevealSection>
 
       {/* ═══════════════════════════════════════════════
           HOW WE USED AI
@@ -459,7 +380,7 @@ export const BrandVisionSection = (): JSX.Element => {
             </RevealSection>
 
             <RevealSection delay={0.2}>
-              <Pill label="How We Used AI" />
+
               <SectionHeading title="Not for the idea, but for everything after." accent />
 
               {/* AI stack callout */}
@@ -478,7 +399,7 @@ export const BrandVisionSection = (): JSX.Element => {
               </div>
 
               <p style={prose}>
-                This entire film was built using AI — script, visuals, models, video, voiceover, music. Everything.
+                This entire film was built using AI script, visuals, models, video, voiceover, music. Everything.
                 But that's not what made it work.
               </p>
               <QuoteBlock text="AI didn't give us the idea. It helped us execute it better." />
@@ -500,7 +421,7 @@ export const BrandVisionSection = (): JSX.Element => {
       <section className="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-20 py-28">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <RevealSection>
-            <Pill label="Keeping It Real" />
+
             <SectionHeading title="Making sure the product earns its place." accent />
             <p style={prose}>
               If the product feels forced, people switch off instantly. So we kept it simple.
@@ -519,7 +440,7 @@ export const BrandVisionSection = (): JSX.Element => {
               </div>
             </div>
             <p style={prose}>
-              That overlap did most of the work. The product didn't need to be explained — it just fit.
+              That overlap did most of the work. The product didn't need to be explained it just fit.
             </p>
           </RevealSection>
 
@@ -541,7 +462,7 @@ export const BrandVisionSection = (): JSX.Element => {
       </section>
 
       {/* ═══════════════════════════════════════════════
-          OUTCOME / STATS — the big numbers
+          OUTCOME / STATS the big numbers
       ═══════════════════════════════════════════════ */}
       <section
         className="w-full py-28 relative overflow-hidden"
@@ -571,7 +492,7 @@ export const BrandVisionSection = (): JSX.Element => {
         <div className="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-20 relative z-10">
           <RevealSection>
             <div className="text-center mb-16">
-              <Pill label="Outcome" />
+
               <h2
                 className="font-black text-white leading-tight"
                 style={{
@@ -610,7 +531,7 @@ export const BrandVisionSection = (): JSX.Element => {
                     minHeight: 200,
                   }}
                 >
-                  <span className="text-3xl mb-3">{icon}</span>
+                  <span className="text-3xl mb-3 text-white">{icon}</span>
                   <span
                     className="font-black text-white block"
                     style={{
@@ -705,7 +626,7 @@ export const BrandVisionSection = (): JSX.Element => {
                 {
                   num: "01",
                   title: "Idea first. Always.",
-                  body: "A lot of brands are using AI right now. Most of the time, it shows — because the work starts with the tool, not the thinking.",
+                  body: "A lot of brands are using AI right now. Most of the time, it shows because the work starts with the tool, not the thinking.",
                 },
                 {
                   num: "02",
@@ -715,7 +636,7 @@ export const BrandVisionSection = (): JSX.Element => {
                 {
                   num: "03",
                   title: "The work is the proof.",
-                  body: "If you're not using AI for the sake of it, but to make the work better — that's exactly how we think too.",
+                  body: "If you're not using AI for the sake of it, but to make the work better that's exactly how we think too.",
                 },
               ].map(({ num, title, body }) => (
                 <div
@@ -765,12 +686,7 @@ export const BrandVisionSection = (): JSX.Element => {
 
         <div className="max-w-[980px] mx-auto px-6 text-center relative z-10">
           <RevealSection>
-            <img
-              src="/uppercase.png"
-              alt="Uppercase"
-              className="h-10 mx-auto mb-10 object-contain"
-              style={{ filter: "brightness(0) invert(1) opacity(0.7)" }}
-            />
+
 
             <h2
               className="font-black text-white mb-6 leading-tight"
