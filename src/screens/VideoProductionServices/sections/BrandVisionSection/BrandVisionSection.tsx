@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 export const BrandVisionSection = (): JSX.Element => {
   const overlayText =
-    "Great videos do more than communicate - they captivate, persuade, and stay memorable long after the screen fades.";
+    "Great videos do more than communicate. They captivate, persuade, and stay memorable long after the screen fades with creative video production services in Mumbai.";
 
   // ================== COUNTERS ==================
   const [counters, setCounters] = useState({
@@ -97,10 +97,10 @@ export const BrandVisionSection = (): JSX.Element => {
         <div className="mb-6 lg:mb-8 pt-10">
            <h2 className="[font-family:'DM_Sans',Helvetica] leading-tight">
     <span className="text-[#030019] font-medium lg:text-[34px] sm:text-[16px] block">
-      Where Ideas Turn Into  <br></br>
+      Powerful Visual Stories by a  <br></br>
     </span>
     <span className="text-[#543d98] font-bold lg:text-[52px] sm:text-[26px] block">
-      Powerful Visual Stories
+      Video Production Company in Mumbai
     </span>
   </h2>
         </div>
@@ -178,7 +178,7 @@ export const BrandVisionSection = (): JSX.Element => {
         {/* Body copy */}
         <div className="text-left mb-12">
           <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[12px] lg:text-[24px] text-[#030019]">
-            Video is the most engaging format for digital audiences. It builds trust, explains your message faster, and strengthens brand recall. Whether you’re launching a product, telling your story, training teams, or creating high-impact ads - the right video elevates your communication across platforms. With Impulse Digital, you get more than a production team - you get partners who understand your business goals and translate them into powerful visuals.
+            Video is one of the most engaging formats for digital audiences. It builds trust, explains your message faster, and strengthens brand recall across platforms. As a leading video production company in Mumbai, Impulse Digital creates strategic videos that support product launches, brand storytelling, team training, and high-impact advertising campaigns. Our integrated video production services in Mumbai combine creative direction, scripting, filming, editing, and distribution planning to ensure every video delivers measurable value. We work closely with your team to understand business objectives and translate them into compelling visuals that improve engagement, credibility, and long-term brand visibility.
           </p>
         </div>
       </div>

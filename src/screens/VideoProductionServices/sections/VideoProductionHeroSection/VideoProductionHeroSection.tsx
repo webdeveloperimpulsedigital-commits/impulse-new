@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import Header from "../../../../components/layout/Header";
 
 export const VideoProductionHeroSection = (): JSX.Element => {
-  const heroTextLines = ["VIDEO PRODUCTION"];
+  const heroTextLines = ["VIDEO PRODUCTION COMPANY IN MUMBAI"];
   
 
   const schema = {
@@ -51,29 +51,29 @@ export const VideoProductionHeroSection = (): JSX.Element => {
     <>
       {/* ✅ SEO Meta Tags */}
    <Helmet> 
-    <meta name="description" content="Our professional video production services help brands stand out. From idea to execution, we create compelling videos designed to grab attention. Enquire now!" />
-<meta name="keywords" content="professional video production services, video production agency in Mumbai, corporate video production in Mumbai, brand video production, marketing video production in Mumbai" />
-<title>Professional Video Production Services | Creative Agency | Impulse Digital</title>
+    <meta name="description" content="Impulse Digital is a leading video production company in Mumbai offering creative video production services in Mumbai for brands, campaigns, and corporate storytelling with measurable impact." />
+<meta name="keywords" content="video production company in mumbai, video production agency in mumbai, video production services, india, impulse digital" />
+<title>Video Production Company in Mumbai | Production Agency | Impulse Digital</title>
 
 <meta name="robots" content="index, follow" />
 <meta name="revisit-after" content="1 day" />
 <meta name="language" content="English" />
 <meta name="generator" content="N/A" />
 
-<meta property="og:title" content="Professional Video Production Services | Creative Agency | Impulse Digital" />
-<meta property="og:description" content="Our professional video production services help brands stand out. From idea to execution, we create compelling videos designed to grab attention. Enquire now!" />
-<meta property="og:url" content="https://www.theimpulsedigital.com/services/video-production" />
-<meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
+<meta property="og:title" content="Video Production Company in Mumbai | Production Agency | Impulse Digital" />
+<meta property="og:description" content="Impulse Digital is a leading video production company in Mumbai offering creative video production services in Mumbai for brands, campaigns, and corporate storytelling with measurable impact." />
+<meta property="og:url" content="https://www.theimpulsedigital.com/services/video-production/" />
+<meta property="og:image" content="https://www.theimpulsedigital.com/video-production.jpg" />
 <meta property="og:site_name" content="Impulse Digital" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content= "summary_large_image"  />
 <meta name="twitter:site" content="@impulsedigi" />
 <meta name="twitter:creator" content="@impulsedigi" />
-<meta name="twitter:title" content="Professional Video Production Services | Creative Agency | Impulse Digital" />
-<meta name="twitter:description" content="Our professional video production services help brands stand out. From idea to execution, we create compelling videos designed to grab attention. Enquire now!" />
-<meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-<link rel="canonical" href="https://www.theimpulsedigital.com/services/video-production" />
-<meta name="twitter:url" content="https://www.theimpulsedigital.com/services/video-production" />
+<meta name="twitter:title" content="Video Production Company in Mumbai | Production Agency | Impulse Digital" />
+<meta name="twitter:description" content="Impulse Digital is a leading video production company in Mumbai offering creative video production services in Mumbai for brands, campaigns, and corporate storytelling with measurable impact." />
+<meta name="twitter:image" content="https://www.theimpulsedigital.com/video-production.jpg" />
+<link rel="canonical" href="https://www.theimpulsedigital.com/services/video-production/" />
+<meta name="twitter:url" content="https://www.theimpulsedigital.com/services/video-production/" />
  <script type="application/ld+json">
         {JSON.stringify(schema)}
       </script>
@@ -143,7 +143,7 @@ export const VideoProductionHeroSection = (): JSX.Element => {
           <span className="select-none">{">"}</span>
            
         
-          <span className="text-white">Video Production</span>
+          <span className="text-white">Video Production Service</span>
         </nav>
             </div>
           </div>
