@@ -754,6 +754,11 @@ export const BrandVisionSection = (): JSX.Element => {
         border-top-left-radius: 55px;
         position: relative;
       }
+        @media screen and (max-width: 480px) {
+        #sec-border-uppercase-study-brand-vision {
+          margin-top: -25.9%;
+      }
+      }
         @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;900&display=swap');
       `}
       
