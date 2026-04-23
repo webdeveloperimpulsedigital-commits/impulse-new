@@ -160,7 +160,7 @@ export const AboutSection = (): JSX.Element => {
         <div className="flex flex-col gap-6 md:gap-8 w-full lg:w-[540px] xl:w-[670px]">
           <div className="flex flex-col gap-4 md:gap-6">
             <p className="pt-5 [font-family:'DM_Sans',Helvetica] text-[#030019] sm:text-[12px] md:text-[24px] lg:text-[24px] leading-relaxed text-justify">
-              Based in India, we proudly offer top-tier 360° digital marketing services to businesses across the USA. Our dedicated team works as an extension of your brand, helping you uncover your unique voice, refine your messaging, and build genuine connections with your audience.
+              Based in India, we proudly offer top-tier 360° digital marketing services to businesses across the India. Our dedicated team works as an extension of your brand, helping you uncover your unique voice, refine your messaging, and build genuine connections with your audience.
 
 
             </p>
