@@ -31,17 +31,14 @@ export const FinalCTASection = (): JSX.Element => {
   };
 
   return (
-    <section className="w-full bg-[#020018] py-16 lg:py-20 rounded-t-[55px] -mt-[55px] relative z-[65]" id="icp-diagnostic-form" data-section="final-cta">
+    <section className="w-full bg-[#020018] py-16 lg:py-20 rounded-t-[55px] -mt-[55px] relative z-[65]" id="contact-border-sec-two" data-section="final-cta">
       <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
           
           <div className="flex flex-col justify-center">
-            <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-white lg:text-[52px] sm:text-[26px] leading-[1.1] mb-8">
-              Your pipeline should not depend on timing, luck, or who you already know.
+            <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-white lg:text-[56px] sm:text-[32px] leading-[1.1] mb-8">
+              Your pipeline should not depend on luck.
             </h2>
-            <p className="[font-family:'DM_Sans',Helvetica] text-white/80 text-base md:text-lg leading-relaxed mb-12">
-              If you are ready to build a repeatable system for reaching the right buyers, the first step is a 30-minute ICP Diagnostic. We will tell you exactly who you should be targeting, and whether this engine is the right way to reach them.
-            </p>
             <div className="text-white/60 text-sm [font-family:'DM_Sans',Helvetica]">
               Limited engagements per quarter. Response within 48 hours.
             </div>
