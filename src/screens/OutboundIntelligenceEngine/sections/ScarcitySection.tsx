@@ -1,17 +1,18 @@
 export const ScarcitySection = (): JSX.Element => {
   return (
-    <section className="w-full bg-white pt-16 lg:pt-20 pb-[120px] lg:pb-[135px] relative overflow-hidden" style={{ marginTop: "-55px", borderTopLeftRadius: "55px", borderTopRightRadius: "55px", zIndex: 70 }} data-section="scarcity">
-      <div className="max-w-[1280px] mx-auto px-6 lg:px-8 text-center">
-        <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[44px] sm:text-[24px] leading-tight mb-8">
-          We take on a limited number of engagements per quarter.
+    <section className="w-full bg-[#020018] pt-24 lg:pt-32 pb-[120px] lg:pb-[140px] relative overflow-hidden" style={{ marginTop: "-55px", borderTopLeftRadius: "55px", borderTopRightRadius: "55px", zIndex: 70 }} data-section="scarcity">
+      {/* Cinematic Glowing Orb */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#8468d9]/10 blur-[100px] rounded-full pointer-events-none" />
+      
+      <div className="max-w-[1280px] mx-auto px-6 lg:px-8 text-center relative z-10">
+        <h2 className="[font-family:'DM_Sans',Helvetica] font-light text-white lg:text-[64px] sm:text-[32px] leading-tight mb-8">
+          <span className="block font-bold">Limited engagements</span>
+          <span className="text-[#8468d9] italic">per quarter.</span>
         </h2>
         
-        <div className="space-y-6 [font-family:'DM_Sans',Helvetica] text-[#666] text-base md:text-lg leading-relaxed max-w-3xl mx-auto">
+        <div className="space-y-6 [font-family:'DM_Sans',Helvetica] text-white/70 text-lg md:text-xl leading-relaxed max-w-3xl mx-auto font-light">
           <p>
-            Every engagement gets dedicated attention. Prospects are individually enriched. Opening lines are written around real signals. Weekly cycles are reviewed, refined, and deployed with care. That depth of execution means we keep the number of active engagements intentionally small.
-          </p>
-          <p>
-            The best way to explore whether this is the right fit is a focused conversation about your ICP and your market. No pitch deck. No generic walkthrough. Just a direct discussion about who you are trying to reach and whether we can help you get there.
+            Every engagement gets dedicated attention. Prospects individually enriched. Opening lines written around real signals. Weekly cycles reviewed and refined. That depth means we keep active engagements intentionally small.
           </p>
         </div>
       </div>

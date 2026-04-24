@@ -7,32 +7,32 @@ export const WhatThisIsSection = (): JSX.Element => {
   const items = [
     {
       title: "Signal Detection",
-      desc: "We track hiring activity, leadership changes, funding rounds, public commitments, and expansion signals across your target market. Every prospect enters the pipeline because something in their world indicates readiness, not because they appeared on a static list.",
+      desc: "Live tracking of hires, leadership changes, funding rounds, and expansion signals. Prospects enter because something in their world indicates readiness.",
       icon: <MonitorDot className="w-6 h-6" strokeWidth={1.5} />,
     },
     {
       title: "Precision Targeting",
-      desc: "Every prospect is matched against a structured Ideal Customer Profile built with you. Title, company size, revenue range, geography, department, and industry. No one enters the pipeline who does not fit. No spray. No waste.",
+      desc: "Every prospect matched against a structured ICP: title, company size, revenue, geography, industry. No one enters who does not fit.",
       icon: <Target className="w-6 h-6" strokeWidth={1.5} />,
     },
     {
       title: "Contact Verification",
-      desc: "Every email address is verified for deliverability before it is ever used. Bounce rates stay below 2%. Your domain reputation stays protected. No guesswork, no damage.",
+      desc: "Every email verified before use. Bounce rates below 2%. Domain reputation protected.",
       icon: <ShieldCheck className="w-6 h-6" strokeWidth={1.5} />,
     },
     {
       title: "Personalised Outreach",
-      desc: "Every opening line references something specific to that person or their company. A recent leadership appointment. A published sustainability commitment. A product launch. Nothing generic. Nothing templated.",
+      desc: "Every opening line references something specific to that person or company. A hire, a commitment, a launch. Nothing generic passes.",
       icon: <Mail className="w-6 h-6" strokeWidth={1.5} />,
     },
     {
       title: "CRM-Native Pipeline",
-      desc: "Every prospect is pushed directly into your CRM, tagged with the ICP definition, the signal that triggered outreach, the date added, and the current pipeline status. Full visibility from the moment a prospect is discovered.",
+      desc: "Prospects pushed directly into your CRM, tagged with ICP, trigger signal, date, and status. Full visibility from discovery.",
       icon: <Workflow className="w-6 h-6" strokeWidth={1.5} />,
     },
     {
       title: "Weekly Iteration",
-      desc: "This is not a quarterly review. Every week, outreach data is analysed, messaging is refined, targeting is sharpened, and the next cycle is deployed. The engine learns as it runs.",
+      desc: "Data reviewed, messaging refined, targeting sharpened, next cycle deployed. Every week, not every quarter.",
       icon: <RefreshCw className="w-6 h-6" strokeWidth={1.5} />,
     },
   ];
@@ -46,14 +46,14 @@ export const WhatThisIsSection = (): JSX.Element => {
           <div className="max-w-3xl">
             <h2 className="[font-family:'DM_Sans',Helvetica] leading-tight mb-6">
               <span className="block text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
-                We build systems that
+                A system,
               </span>
               <span className="block text-[#543d98] font-bold lg:text-[52px] sm:text-[26px]">
-                generate pipeline.
+                not a campaign.
               </span>
             </h2>
             <p className="[font-family:'DM_Sans',Helvetica] text-base md:text-lg text-[#666] leading-relaxed">
-              The Outbound Intelligence Engine is a fully managed pipeline system that finds, qualifies, and engages your highest-value buyers before they ever search for you. It combines market intelligence, signal detection, and personalised multi-channel outreach into a single, repeatable growth engine.
+              The Outbound Intelligence Engine finds, qualifies, and engages your highest-value buyers before they ever search for you. Market intelligence, signal detection, and personalised multi-channel outreach, running as a single repeatable system.
             </p>
           </div>
         </div>

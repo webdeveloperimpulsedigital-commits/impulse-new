@@ -857,35 +857,27 @@ export const faqData: Record<string, FAQItem[]> = {
   "/services/outbound-intelligence-engine": [
     {
       question: "What is an ICP Diagnostic?",
-      answer: "It is a structured conversation where we define your Ideal Customer Profile with precision. We map your target industries, company size, buyer titles, geography, and the trigger signals that indicate a company is ready for your conversation. This is not a sales call. It is a working session that determines whether outbound is the right channel for your growth goals."
+      answer: "A working session where we map your target industries, buyer titles, company profile, geography, and timing signals. It determines whether outbound is the right growth channel for you. Not a sales call."
     },
     {
       question: "How is this different from buying a lead list?",
-      answer: "A lead list is static. It does not tell you why someone should be contacted right now. The Outbound Intelligence Engine discovers prospects through live market signals, enriches each one with current context, verifies contact details, and personalises every touch. The result is a pipeline of people who are relevant today, not six months ago."
+      answer: "A lead list is static and stale. The engine discovers prospects through live signals, enriches each with current context, verifies contacts, and personalises every touch."
     },
     {
-      question: "What channels does the outreach run on?",
-      answer: "Email and LinkedIn, depending on your buyer profile and deal dynamics. Some ICPs respond better to direct email. Others require a LinkedIn-first approach. We recommend the right channel mix based on your buyer's behaviour, not a default playbook."
+      question: "What channels does outreach run on?",
+      answer: "Email and LinkedIn, configured to your buyer's behaviour, not a default playbook."
     },
     {
       question: "How soon do results start?",
-      answer: "The ICP Diagnostic and engine build take approximately two weeks. Live outreach begins in week three. Most engagements see their first qualified responses within the first two to three weekly cycles. This is not a six-month SEO play. It is designed to generate conversations quickly."
+      answer: "ICP and engine build take two weeks. Live outreach begins week three. Most engagements see first qualified responses within the first two to three cycles."
     },
     {
-      question: "What if outbound is not the right fit for my business?",
-      answer: "We will tell you during the ICP Diagnostic itself. If your deal size, buyer profile, or sales process does not suit outbound, we would rather say so upfront than run a campaign that underperforms. Not every business needs outbound. The ones that do, benefit enormously."
+      question: "What if outbound is not right for my business?",
+      answer: "We tell you in the diagnostic. Not every business needs outbound. The ones that do, benefit enormously."
     },
     {
       question: "Do you replace my sales team?",
-      answer: "No. The engine fills the top of your funnel. It discovers and qualifies prospects, initiates conversations, and hands off warm leads with full context to your sales team. Your closers still close. They just have better conversations to walk into."
-    },
-    {
-      question: "How do you measure success?",
-      answer: "Open rates, reply rates, positive reply rates, bounce rates, and most importantly, the number of qualified conversations that reach your sales team. We report weekly, and every metric is tied to pipeline impact, not vanity."
-    },
-    {
-      question: "What CRM do you work with?",
-      answer: "We push all prospect data directly into your CRM with proper tagging, status tracking, and pipeline visibility. The exact CRM integration is configured during the engine build phase."
+      answer: "No. The engine fills the top of your funnel. Your closers still close. They just walk into better conversations."
     }
   ]
 };

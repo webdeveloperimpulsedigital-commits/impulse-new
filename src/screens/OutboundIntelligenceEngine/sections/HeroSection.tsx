@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import Header from "../../../components/layout/Header";
 
 export const HeroSection = (): JSX.Element => {
-  const heroTextLines = ["Your next 50 customers already exist.", "You just haven't met them yet."];
+  const heroTextLines = ["We don't find leads. We find the", "conversation your competitor hasn't started yet."];
 
   return (
     <section
@@ -75,7 +75,7 @@ export const HeroSection = (): JSX.Element => {
               className="[font-family:'DM_Sans',Helvetica] text-white/80 text-sm sm:text-lg md:text-xl lg:text-[22px]
                         max-w-4xl mx-auto leading-relaxed lg:leading-[1.6] font-light mb-6 sm:mb-8"
             >
-              The Outbound Intelligence Engine identifies the exact decision-makers who match your business, reaches them with precision-timed, personalised outreach, and starts conversations that lead to revenue. No ads. No inbound dependency. Direct access to the people who should be buying from you.
+              The Outbound Intelligence Engine identifies the exact decision-makers who match your business, reaches them with signal-timed, personalised outreach, and puts revenue-ready conversations on your calendar.
             </p>
 
             {/* CTA Button */}
