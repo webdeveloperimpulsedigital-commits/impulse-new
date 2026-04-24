@@ -887,5 +887,32 @@ export const faqData: Record<string, FAQItem[]> = {
       question: "What CRM do you work with?",
       answer: "We push all prospect data directly into your CRM with proper tagging, status tracking, and pipeline visibility. The exact CRM integration is configured during the engine build phase."
     }
+  ],
+
+  "/services/search-engine-optimization-in-mumbai": [
+    {
+      question: "Why choose Impulse Digital as your SEO company in Mumbai?",
+      answer: "As an experienced SEO company in Mumbai, we combine technical SEO expertise, localized search strategy, and conversion-focused execution to help your business rank competitively in Mumbai’s digital landscape. Our approach is built around measurable growth, not vanity rankings - ensuring your investment delivers real business impact."
+    },
+    {
+      question: "How does your SEO agency in Mumbai build strategies for local businesses?",
+      answer: "As a performance-driven SEO agency in Mumbai, we start by analyzing your industry competitors, search behavior within Mumbai markets, and keyword opportunities specific to your audience. Based on this research, we create structured optimization roadmaps tailored to your business goals and growth stage."
+    },
+    {
+      question: "How long does it take for SEO services to show results?",
+      answer: "Most businesses working with our SEO services begin seeing measurable improvements in keyword visibility and organic traffic within three to six months. Stronger authority growth and conversion impact continue to build consistently over time with sustained optimization."
+    },
+    {
+      question: "Are you among the best SEO agencies in Mumbai for long-term growth?",
+      answer: "Impulse Digital is recognized by clients as one of the best SEO agencies in Mumbai because of our transparent processes, data-backed strategies, and consistent ranking improvements across industries. We focus on sustainable SEO systems that support long-term visibility rather than short-term spikes."
+    },
+    {
+      question: "Do you provide local SEO services for businesses targeting Mumbai customers?",
+      answer: "Yes. As one of the trusted local SEO service providers in Mumbai, we implement location-focused optimization strategies that improve Google Maps visibility, regional keyword rankings, and enquiry-driven traffic from customers actively searching within Mumbai."
+    },
+    {
+      question:"How do you measure SEO success for Mumbai-based businesses?",
+      answer:"We measure success using keyword ranking improvements, organic traffic growth, engagement quality, and conversion performance. Every SEO campaign is aligned with business KPIs to ensure SEO contributes directly to revenue and brand visibility.",
+    }
   ]
 };

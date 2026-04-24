@@ -72,7 +72,7 @@ const DEFAULT_ITEMS: NavItem[] = [
       { label: "Branding", href: "/services/branding-creative-services/" },
       { label: "Employer Branding", href: "/services/employer-branding-agency/" },
       // { label: "Corporate Communication", href: "/services/corporate-communication-agency" },
-      
+      {label: "Outbound Intelligence Engine", href: "/services/outbound-intelligence-engine/"},
       
       
       

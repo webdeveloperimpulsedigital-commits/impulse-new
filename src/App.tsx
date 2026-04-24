@@ -66,6 +66,7 @@ import { RainbowInternationalSchoolCaseStudy } from "./screens/RainbowInternatio
 import { Thankyou } from "./screens/Thankyou";
 import { NotFound } from "./screens/NotFound/NotFound";
 import { UppercaseCaseStudy } from "./screens/UppercaseCaseStudy";
+import { SearchEngineOptimizationInMumbai } from "./screens/SearchEngineOptimizationInMumbai";
 
 
 
@@ -97,6 +98,8 @@ export const App = (): JSX.Element => {
       <Route path="/services/outbound-intelligence-engine" element={<OutboundIntelligenceEngine />} />
       <Route path="/services/video-production/ai-video-production" element={<AIVideoProductionServices/>}/>
        <Route path="/services/video-production" element={<VideoProductionServices />}/>
+
+       <Route path="/services/search-engine-optimization-in-mumbai" element={<SearchEngineOptimizationInMumbai />} />
       <Route path="/casestudies" element={<Casestudies/>}/>
       <Route path="/casestudies/shree-rubber-works" element={<ShreeRubberWorksCaseStudy />} />
       <Route path="/casestudies/automag-india" element={<AutomagIndiaCaseStudy />} />
