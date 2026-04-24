@@ -52,7 +52,7 @@ export const WhatThisIsSection = (): JSX.Element => {
                 not a campaign.
               </span>
             </h2>
-            <p className="[font-family:'DM_Sans',Helvetica] text-base md:text-lg text-[#666] leading-relaxed">
+            <p className="[font-family:'DM_Sans',Helvetica] text-base md:text-lg text-black leading-relaxed">
               The Outbound Intelligence Engine finds, qualifies, and engages your highest-value buyers before they ever search for you. Market intelligence, signal detection, and personalised multi-channel outreach, running as a single repeatable system.
             </p>
           </div>
@@ -83,7 +83,7 @@ export const WhatThisIsSection = (): JSX.Element => {
                   {item.title}
                 </h3>
                 <div className="h-[2px] w-12 bg-gray-100 mb-4 group-hover:w-full group-hover:bg-[#543d98]/20 transition-all duration-500" />
-                <p className="[font-family:'DM_Sans',Helvetica] text-[#666] text-sm leading-relaxed">
+                <p className="[font-family:'DM_Sans',Helvetica] text-black text-sm leading-relaxed">
                   {item.desc}
                 </p>
 

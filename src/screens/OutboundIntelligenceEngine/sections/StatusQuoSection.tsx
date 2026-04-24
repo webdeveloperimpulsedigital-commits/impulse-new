@@ -37,14 +37,14 @@ export const StatusQuoSection = (): JSX.Element => {
              <div className="text-[#8468d9]/20 font-bold text-4xl lg:text-6xl group-hover:text-[#8468d9] transition-colors duration-500 hidden lg:block mt-2">01</div>
              <h3 className="text-[#030019] font-bold text-[32px] md:text-[48px] lg:text-[64px] leading-[1.1] tracking-tight">
                Referrals got you here. <br className="hidden lg:block"/>
-               <span className="text-[#666] font-light">They will not get you there.</span>
+               <span className="text-black font-light">They will not get you there.</span>
              </h3>
           </div>
 
           {/* Statement 2 */}
           <div className="stagger-item opacity-0 translate-y-12 transition-all duration-1000 delay-200 ease-[cubic-bezier(0.19,1,0.22,1)] flex flex-col lg:flex-row gap-6 lg:gap-12 items-start lg:ml-24 group">
              <div className="text-[#8468d9]/20 font-bold text-4xl lg:text-6xl group-hover:text-[#8468d9] transition-colors duration-500 hidden lg:block">02</div>
-             <p className="text-[#333] text-[20px] md:text-[28px] lg:text-[36px] leading-[1.3] font-medium max-w-3xl">
+             <p className="text-black text-[20px] md:text-[28px] lg:text-[36px] leading-[1.3] font-medium max-w-3xl">
                Inbound compounds slowly. Ads generate volume, rarely the right conversations. And your sales team should be closing, not prospecting.
              </p>
           </div>

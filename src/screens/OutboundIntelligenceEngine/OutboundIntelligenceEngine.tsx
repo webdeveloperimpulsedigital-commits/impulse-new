@@ -1,5 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import { HeroSection } from "./sections/HeroSection";
+import { HighlightSection } from "./sections/HighlightSection";
 import { StatusQuoSection } from "./sections/StatusQuoSection";
 import { WhatThisIsSection } from "./sections/WhatThisIsSection";
 import { EconomicsSection } from "./sections/EconomicsSection";
@@ -23,16 +24,16 @@ export const OutboundIntelligenceEngine = (): JSX.Element => {
 
   return (
     <main className="relative w-full min-h-screen">
-      <Helmet> 
+      <Helmet>
         <title>Outbound Intelligence Engine | Precision B2B Pipeline | Impulse Digital</title>
         <meta name="description" content="Your next customers already exist. The Outbound Intelligence Engine identifies, verifies, and reaches the exact decision-makers who match your business — with precision, not volume." />
         <link rel="canonical" href="https://www.theimpulsedigital.com/services/outbound-intelligence-engine/" />
       </Helmet>
 
       <FAQSchema faqs={faqs} />
-      
       <div className="relative w-full space-y-0">
         <HeroSection />
+        <HighlightSection />
         <StatusQuoSection />
         <WhatThisIsSection />
         <EconomicsSection />
@@ -40,16 +41,19 @@ export const OutboundIntelligenceEngine = (): JSX.Element => {
         <BuyerProfilesSection />
         <MethodologySection />
         <ScarcitySection />
-        
+
         {/* <ClientsSection /> */}
         {/* <TestimonialsSection /> */}
-        <ContactSection />
-        
+        {/* Wrap ContactSection to pull it up over ScarcitySection and fix the white corner gap */}
+        <div style={{ marginTop: "-25px", position: "relative", zIndex: 75 }}>
+          <ContactSection />
+        </div>
+
         {/* Wrap common sections to give them the curved border effect */}
         <div className="w-full bg-[#ffffff] relative overflow-hidden pb-12" style={{ marginTop: "-55px", borderTopLeftRadius: "55px", borderTopRightRadius: "55px", zIndex: 80 }}>
           <FAQSection faqs={faqs} />
         </div>
-        
+
         <FooterSection />
       </div>
     </main>

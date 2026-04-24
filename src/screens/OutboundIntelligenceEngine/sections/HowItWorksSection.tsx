@@ -49,7 +49,7 @@ export const HowItWorksSection = (): JSX.Element => {
                 Process.
               </span>
             </h2>
-            <p className="[font-family:'DM_Sans',Helvetica] text-[#666] text-lg lg:text-xl leading-relaxed">
+            <p className="[font-family:'DM_Sans',Helvetica] text-black text-lg lg:text-xl leading-relaxed">
               We don't do batch-and-blast. The Engine is a precision-engineered outbound system designed to identify, verify, and engage your ideal buyers systematically.
             </p>
           </div>
@@ -77,7 +77,7 @@ export const HowItWorksSection = (): JSX.Element => {
               </h3>
               
               {/* flex-grow ensures the paragraph takes up available space, pushing the bottom text down evenly */}
-              <p className="[font-family:'DM_Sans',Helvetica] text-[#666] text-lg leading-relaxed relative z-10 font-light flex-grow">
+              <p className="[font-family:'DM_Sans',Helvetica] text-black text-lg leading-relaxed relative z-10 font-light flex-grow">
                 {step.description}
               </p>
 

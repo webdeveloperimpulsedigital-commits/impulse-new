@@ -55,7 +55,7 @@ export const HeroSection = (): JSX.Element => {
                       px-6 sm:px-8 md:px-12 lg:px-20 pt-12 sm:pt-24 lg:pt-28"
           >
             {/* Kicker */}
-            <div className="text-[#8468d9] uppercase tracking-[0.2em] font-bold text-xs sm:text-sm md:text-base mb-4 sm:mb-6">
+            <div className="inline-block px-6 py-2.5 rounded-full bg-[#8468d9]/20 border border-[#8468d9]/40 text-[#cbbaff] uppercase tracking-[0.2em] font-black text-sm sm:text-base md:text-lg lg:text-xl mb-6 sm:mb-8 backdrop-blur-md shadow-[0_0_30px_rgba(132,104,217,0.4)]">
               Growth Intelligence
             </div>
 
@@ -71,17 +71,12 @@ export const HeroSection = (): JSX.Element => {
               </h1>
             </div>
 
-            <p
-              className="[font-family:'DM_Sans',Helvetica] text-white/80 text-sm sm:text-lg md:text-xl lg:text-[22px]
-                        max-w-4xl mx-auto leading-relaxed lg:leading-[1.6] font-light mb-6 sm:mb-8"
-            >
-              The Outbound Intelligence Engine identifies the exact decision-makers who match your business, reaches them with signal-timed, personalised outreach, and puts revenue-ready conversations on your calendar.
-            </p>
+
 
             {/* CTA Button */}
             <div className="mb-4 sm:mb-8 flex justify-center">
-              <a 
-                href="#contact-border-sec-two" 
+              <NavLink
+                to="/contact-us/"
                 className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-white rounded-full font-bold text-[#543d98] text-sm sm:text-base md:text-lg hover:bg-[#543d98] hover:text-white transition-all duration-300 shadow-[0_0_20px_rgba(255,255,255,0.2)] hover:shadow-[0_0_30px_rgba(84,61,152,0.4)]"
               >
                 Apply for an ICP Diagnostic
@@ -90,7 +85,7 @@ export const HeroSection = (): JSX.Element => {
                   alt="Arrow"
                   className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert pointer-events-none"
                 />
-              </a>
+              </NavLink>
             </div>
 
             {/* Breadcrumb (Center-aligned, responsive wrap) */}

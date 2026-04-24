@@ -29,7 +29,7 @@ export const BuyerProfilesSection = (): JSX.Element => {
               every conversation counts.
             </span>
           </h2>
-          <p className="[font-family:'DM_Sans',Helvetica] text-base md:text-lg text-[#666] leading-relaxed">
+          <p className="[font-family:'DM_Sans',Helvetica] text-base md:text-lg text-black leading-relaxed">
             When your sales cycle involves multiple stakeholders, considered decisions, and meaningful contract values, every new conversation at the top of your funnel matters.
           </p>
         </div>

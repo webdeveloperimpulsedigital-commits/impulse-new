@@ -14,7 +14,7 @@ export const MethodologySection = (): JSX.Element => {
                 the product.
               </span>
             </h2>
-            <p className="[font-family:'DM_Sans',Helvetica] text-lg lg:text-2xl text-[#666] leading-relaxed font-light max-w-xl">
+            <p className="[font-family:'DM_Sans',Helvetica] text-lg lg:text-2xl text-black leading-relaxed font-light max-w-xl">
               Every prospect individually discovered through live data. Every email verified. Every sequence designed to respect the buyer's intelligence.
             </p>
           </div>
@@ -83,7 +83,7 @@ export const MethodologySection = (): JSX.Element => {
             <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-4 uppercase tracking-wider text-sm">
               The Engine
             </h3>
-            <p className="[font-family:'DM_Sans',Helvetica] text-[#333] text-lg md:text-xl leading-relaxed font-medium">
+            <p className="[font-family:'DM_Sans',Helvetica] text-black text-lg md:text-xl leading-relaxed font-medium">
               Uses AI for enrichment, signal detection, and personalisation at scale. The strategy, the ICP, and the targeting logic are human-built. <span className="text-[#543d98]">Automation without direction is noise. We handle both.</span>
             </p>
           </div>
