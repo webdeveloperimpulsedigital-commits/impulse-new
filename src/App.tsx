@@ -19,6 +19,7 @@ import { SocialMediaVideoProductionServices } from "./screens/SocialMediaVideoPr
 import { AiSeoAgency } from "./screens/AiSeoAgency";
 import { AiAgenticServices } from "./screens/AiAgenticServices";
 
+import { OutboundIntelligenceEngine } from "./screens/OutboundIntelligenceEngine";
 import { Casestudies } from "./screens/Casestudies";
 import { ShreeRubberWorksCaseStudy } from "./screens/ShreeRubberWorksCaseStudy"
 
@@ -92,7 +93,8 @@ export const App = (): JSX.Element => {
       <Route path="/services/social-media-video-production" element={<SocialMediaVideoProductionServices />}/>
       <Route path="/services/search-engine-optimization/ai-seo-agency" element={<AiSeoAgency />} />
        <Route path="/services/agentic-ai" element={<AiAgenticServices />} /> 
-      <Route path="/services/intelli-pulse" element={<IntelliPulseServices/>}/>
+       <Route path="/services/intelli-pulse" element={<IntelliPulseServices/>}/>
+      <Route path="/services/outbound-intelligence-engine" element={<OutboundIntelligenceEngine />} />
       <Route path="/services/video-production/ai-video-production" element={<AIVideoProductionServices/>}/>
        <Route path="/services/video-production" element={<VideoProductionServices />}/>
       <Route path="/casestudies" element={<Casestudies/>}/>

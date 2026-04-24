@@ -80,7 +80,7 @@ export const ClientsSection = (): JSX.Element => {
 
       {/* Heading */}
       <div className="relative bg-white pt-8 md:pt-16">
-        <div className="wrap-clients">
+        <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
           <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between mb-8 md:mb-16">
             <div className="flex flex-col items-start mb-6 lg:mb-0">
               <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
@@ -111,7 +111,7 @@ export const ClientsSection = (): JSX.Element => {
 
       {/* ✅ DESKTOP GRID (lg and above) — bigger logos */}
       <div className="relative bg-white pb-12 hidden lg:block">
-        <div className="wrap-clients">
+        <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-5 gap-8">
             {logos.map((logo, index) => (
               <div
