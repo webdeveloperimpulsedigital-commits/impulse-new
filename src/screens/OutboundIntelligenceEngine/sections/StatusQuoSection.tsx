@@ -36,8 +36,8 @@ export const StatusQuoSection = (): JSX.Element => {
           <div className="stagger-item opacity-0 translate-y-12 transition-all duration-1000 ease-[cubic-bezier(0.19,1,0.22,1)] flex flex-col lg:flex-row gap-6 lg:gap-12 items-start group">
              <div className="text-[#8468d9]/20 font-bold text-4xl lg:text-6xl group-hover:text-[#8468d9] transition-colors duration-500 hidden lg:block mt-2">01</div>
              <h3 className="text-[#030019] font-bold text-[32px] md:text-[48px] lg:text-[64px] leading-[1.1] tracking-tight">
-               Referrals got you here. <br className="hidden lg:block"/>
-               <span className="text-black font-light">They will not get you there.</span>
+               Referrals close well. <br className="hidden lg:block"/>
+               <span className="text-black font-light">They scale poorly.</span>
              </h3>
           </div>
 
