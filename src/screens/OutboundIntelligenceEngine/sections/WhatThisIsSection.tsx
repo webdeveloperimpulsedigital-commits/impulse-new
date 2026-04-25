@@ -52,7 +52,7 @@ export const WhatThisIsSection = (): JSX.Element => {
             </span>
           </h2>
           <p className="[font-family:'DM_Sans',Helvetica] text-lg md:text-[22px] text-gray-600 leading-relaxed font-light">
-            Archer is not a team of people doing outbound on your behalf. It is an AI system, built around your business, that runs the entire outbound pipeline — from signal detection to personalised outreach — with human strategists directing the targeting and refining the output.
+            Archer is not a team of people doing outbound on your behalf. It is an AI system, built around your business, that runs the entire outbound pipeline - from signal detection to personalised outreach - with human strategists directing the targeting and refining the output.
           </p>
         </div>
 

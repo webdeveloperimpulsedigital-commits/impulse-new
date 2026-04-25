@@ -58,7 +58,7 @@ export const StatusQuoSection = (): JSX.Element => {
           <div ref={el => { if (el) textRefs.current[1] = el; }} className="bg-white rounded-[32px] p-10 lg:p-14 shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-gray-100 flex flex-col justify-between group hover:shadow-[0_20px_40px_rgb(0,0,0,0.08)] transition-shadow duration-500">
             <div className="text-[#8468d9]/20 font-black text-6xl lg:text-7xl tracking-tighter mb-12 lg:mb-16 group-hover:text-[#8468d9]/40 transition-colors duration-500">02</div>
             <p className="text-[#030019]/80 text-[20px] md:text-[24px] leading-[1.5] font-medium">
-              Traditional outbound throws people at the problem — SDR teams manually researching, writing, sending, and following up. <br/><br/><span className="text-[#030019] font-bold">It works until the cost of scaling it doesn't.</span>
+              Traditional outbound throws people at the problem - SDR teams manually researching, writing, sending, and following up. <br/><br/><span className="text-[#030019] font-bold">It works until the cost of scaling it doesn't.</span>
             </p>
           </div>
 

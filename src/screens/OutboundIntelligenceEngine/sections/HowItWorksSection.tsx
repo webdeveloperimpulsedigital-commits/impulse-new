@@ -18,7 +18,7 @@ export const HowItWorksSection = (): JSX.Element => {
     {
       id: 2,
       title: "Engine Build",
-      description: "The AI is configured around your ICP. Targeting filters, verification workflows, CRM integrations, and outreach sequences — all built and reviewed with you before anything goes live.",
+      description: "The AI is configured around your ICP. Targeting filters, verification workflows, CRM integrations, and outreach sequences - all built and reviewed with you before anything goes live.",
     },
     {
       id: 3,

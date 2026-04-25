@@ -27,7 +27,7 @@ export const HighlightSection = (): JSX.Element => {
     return () => observer.disconnect();
   }, []);
 
-  const text = "Archer is an AI-powered outbound intelligence engine. It detects buying signals across your target market, identifies the exact decision-makers who match your business, and deploys personalised outreach at scale — putting revenue-ready conversations on your calendar, week after week.";
+  const text = "Archer is an AI-powered outbound intelligence engine. It detects buying signals across your target market, identifies the exact decision-makers who match your business, and deploys personalised outreach at scale - putting revenue-ready conversations on your calendar, week after week.";
   const words = text.split(" ");
 
   return (

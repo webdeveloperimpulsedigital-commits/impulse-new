@@ -133,7 +133,7 @@ export const HeroSection = (): JSX.Element => {
 
             {/* Sub-headline */}
             <p ref={descRef} className="font-dm-sans text-gray-300 text-sm sm:text-base md:text-lg lg:text-[20px] font-medium max-w-[90%] sm:max-w-[80%] md:max-w-[70%] lg:max-w-[65%] leading-[1.6] mb-10 sm:mb-12 tracking-wide">
-              Archer is an AI-powered outbound intelligence engine. It detects buying signals across your target market, identifies the exact decision-makers who match your business, and deploys personalised outreach at scale — putting revenue-ready conversations on your calendar, week after week.
+              Archer is an AI-powered outbound intelligence engine. It detects buying signals across your target market, identifies the exact decision-makers who match your business, and deploys personalised outreach at scale - putting revenue-ready conversations on your calendar, week after week.
             </p>
 
             {/* CTA Button */}

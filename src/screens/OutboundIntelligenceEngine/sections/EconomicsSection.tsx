@@ -40,7 +40,7 @@ export const EconomicsSection = (): JSX.Element => {
                   <div className="relative z-10">
                     <p className="[font-family:'DM_Sans',Helvetica] text-white/80 text-[20px] lg:text-[24px] leading-[1.6] font-light mt-16 lg:mt-24">
                       <span className="text-white font-bold block mb-2 text-2xl lg:text-3xl">Traditional outbound scales linearly</span> 
-                      — more pipeline means more headcount, more cost, more management overhead.
+                      - more pipeline means more headcount, more cost, more management overhead.
                     </p>
                   </div>
                 </div>
@@ -56,7 +56,7 @@ export const EconomicsSection = (): JSX.Element => {
                   <div className="relative z-10">
                     <p className="[font-family:'DM_Sans',Helvetica] text-white/80 text-[20px] lg:text-[24px] leading-[1.6] font-light mt-16 lg:mt-24">
                       <span className="text-white font-bold block mb-2 text-2xl lg:text-3xl">Archer scales horizontally</span> 
-                      — the AI handles volume while the strategist handles direction. Cost stays flat as output grows.
+                      - the AI handles volume while the strategist handles direction. Cost stays flat as output grows.
                     </p>
                   </div>
                 </div>
