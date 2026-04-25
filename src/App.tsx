@@ -1,5 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import { Main } from "./screens/Main/Main";
+import { NewHome } from "./screens/NewHome/NewHome";
 import { AboutUs } from "./screens/AboutUs/AboutUs";
 
 import { Services } from "./screens/Services";
@@ -75,6 +76,7 @@ export const App = (): JSX.Element => {
   return (
     <Routes>
       <Route path="/" element={<Main />} />
+      <Route path="/new-home" element={<NewHome />} />
       <Route path="/about-us" element={<AboutUs />} />
       <Route path="/services" element= {<Services/> } />
       <Route path="/services/content-writing-services" element={<ContentWritingServices />} />

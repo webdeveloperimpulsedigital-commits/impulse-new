@@ -1,89 +1,30 @@
-import { useState } from "react";
+import { NavLink } from "react-router-dom";
 
 export const FinalCTASection = (): JSX.Element => {
-  const [formData, setFormData] = useState({
-    companyName: "",
-    websiteUrl: "",
-    name: "",
-    email: "",
-    phone: "",
-    targetAudience: ""
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    // Handle form submission logic here
-    console.log("Form submitted:", formData);
-    alert("Thank you for your interest. We will be in touch within 48 hours.");
-    setFormData({
-      companyName: "",
-      websiteUrl: "",
-      name: "",
-      email: "",
-      phone: "",
-      targetAudience: ""
-    });
-  };
-
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
-  };
-
   return (
-    <section className="w-full bg-[#020018] py-16 lg:py-20 rounded-t-[55px] -mt-[55px] relative z-[65]" id="contact-border-sec-two" data-section="final-cta">
-      <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24">
-          
-          <div className="flex flex-col justify-center">
-            <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-white lg:text-[56px] sm:text-[32px] leading-[1.1] mb-8">
-              Your pipeline should not depend on luck.
-            </h2>
-            <div className="text-white/60 text-sm [font-family:'DM_Sans',Helvetica]">
-              Limited engagements per quarter. Response within 48 hours.
-            </div>
-          </div>
+    <section className="w-full bg-[#543d98] pt-24 lg:pt-32 pb-[120px] lg:pb-[140px] relative overflow-hidden" style={{ marginTop: "-55px", borderTopLeftRadius: "55px", borderTopRightRadius: "55px", zIndex: 75 }} data-section="final-cta">
+      {/* Background visual accents */}
+      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[#8468d9]/30 blur-[100px] rounded-full pointer-events-none" />
+      <div className="absolute bottom-[-100px] left-[-100px] w-[400px] h-[400px] bg-[#030019]/20 blur-[100px] rounded-full pointer-events-none" />
+      
+      <div className="max-w-[1280px] mx-auto px-6 lg:px-8 text-center relative z-10">
+        <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-white text-[32px] md:text-[52px] lg:text-[72px] leading-[1.1] mb-12 tracking-tight">
+          Your pipeline, <br className="hidden md:block"/>
+          <span className="text-[#cbbaff] font-medium">powered by intelligence.</span>
+        </h2>
+        
+        <div className="flex flex-col items-center justify-center gap-6">
+          <NavLink
+            to="/contact-us/"
+            className="group inline-flex items-center gap-2 px-8 py-4 sm:px-10 sm:py-5 bg-white rounded-full hover:bg-[#030019] hover:text-[#ffffff] text-[#543d98] transition-colors duration-300 font-dm-sans font-bold text-base md:text-xl"
+          >
+            <span>Apply for an ICP Diagnostic</span>
+            <img src="/vector-1-3.svg" alt="Arrow" className="w-5 h-5 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert pointer-events-none" />
+          </NavLink>
 
-          <div className="bg-[#111111] border border-white/10 p-8 md:p-10 rounded-2xl">
-            <form onSubmit={handleSubmit} className="flex flex-col gap-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="flex flex-col gap-2">
-                  <label htmlFor="companyName" className="text-white/80 text-sm font-medium">Company Name</label>
-                  <input required type="text" id="companyName" name="companyName" value={formData.companyName} onChange={handleChange} className="bg-transparent border-b border-white/20 pb-2 text-white outline-none focus:border-purple-400 transition-colors" />
-                </div>
-                <div className="flex flex-col gap-2">
-                  <label htmlFor="websiteUrl" className="text-white/80 text-sm font-medium">Website URL</label>
-                  <input required type="url" id="websiteUrl" name="websiteUrl" value={formData.websiteUrl} onChange={handleChange} className="bg-transparent border-b border-white/20 pb-2 text-white outline-none focus:border-purple-400 transition-colors" />
-                </div>
-              </div>
-
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="flex flex-col gap-2">
-                  <label htmlFor="name" className="text-white/80 text-sm font-medium">Your Name</label>
-                  <input required type="text" id="name" name="name" value={formData.name} onChange={handleChange} className="bg-transparent border-b border-white/20 pb-2 text-white outline-none focus:border-purple-400 transition-colors" />
-                </div>
-                <div className="flex flex-col gap-2">
-                  <label htmlFor="phone" className="text-white/80 text-sm font-medium">Phone Number</label>
-                  <input required type="tel" id="phone" name="phone" value={formData.phone} onChange={handleChange} className="bg-transparent border-b border-white/20 pb-2 text-white outline-none focus:border-purple-400 transition-colors" />
-                </div>
-              </div>
-
-              <div className="flex flex-col gap-2">
-                <label htmlFor="email" className="text-white/80 text-sm font-medium">Work Email</label>
-                <input required type="email" id="email" name="email" value={formData.email} onChange={handleChange} className="bg-transparent border-b border-white/20 pb-2 text-white outline-none focus:border-purple-400 transition-colors" />
-              </div>
-
-              <div className="flex flex-col gap-2">
-                <label htmlFor="targetAudience" className="text-white/80 text-sm font-medium">Who are you trying to reach?</label>
-                <textarea required id="targetAudience" name="targetAudience" value={formData.targetAudience} onChange={handleChange} rows={3} className="bg-transparent border-b border-white/20 pb-2 text-white outline-none focus:border-purple-400 transition-colors resize-none" placeholder="e.g. VP of Sales at Series B B2B SaaS companies in the US..." />
-              </div>
-
-              <button type="submit" className="mt-4 w-full bg-white text-black font-semibold text-lg py-4 hover:bg-gray-200 transition-colors duration-300 rounded-sm">
-                Apply for an ICP Diagnostic
-              </button>
-            </form>
-          </div>
-
+          <p className="[font-family:'DM_Sans',Helvetica] text-white/70 text-sm md:text-base font-medium tracking-wide">
+            Limited engagements per quarter. Response within 48 hours.
+          </p>
         </div>
       </div>
     </section>

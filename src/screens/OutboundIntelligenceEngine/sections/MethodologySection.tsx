@@ -8,14 +8,14 @@ export const MethodologySection = (): JSX.Element => {
           <div className="col-span-1 md:col-span-2 bg-white rounded-[32px] p-10 lg:p-14 border border-gray-100 shadow-[0_10px_40px_rgba(0,0,0,0.03)] flex flex-col justify-center">
             <h2 className="[font-family:'DM_Sans',Helvetica] leading-[1.1] mb-6">
               <span className="block text-[#030019] font-medium lg:text-[40px] sm:text-[24px]">
-                Precision is
+                AI runs the engine.
               </span>
               <span className="block text-[#543d98] font-bold lg:text-[64px] sm:text-[36px] tracking-tight">
-                the product.
+                Humans steer it.
               </span>
             </h2>
             <p className="[font-family:'DM_Sans',Helvetica] text-lg lg:text-2xl text-black leading-relaxed font-light max-w-xl">
-              Every prospect individually discovered through live data. Every email verified. Every sequence designed to respect the buyer's intelligence.
+              This is not AI replacing your sales team. It is AI replacing the manual infrastructure that was never supposed to be done by people in the first place.
             </p>
           </div>
 
@@ -66,25 +66,23 @@ export const MethodologySection = (): JSX.Element => {
              </div>
           </div>
 
-          {/* Small Feature Block */}
+          {/* Small Feature Block (AI) */}
           <div className="col-span-1 md:col-span-1 bg-[#543d98] rounded-[32px] p-10 lg:p-12 text-white flex flex-col justify-between shadow-[0_20px_40px_rgba(84,61,152,0.2)]">
-            <div className="w-12 h-12 rounded-full bg-white/10 flex items-center justify-center mb-10">
-              <svg className="w-6 h-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15.232 5.232l3.536 3.536m-2.036-5.036a2.5 2.5 0 113.536 3.536L6.5 21.036H3v-3.572L16.732 3.732z" />
-              </svg>
-            </div>
-            <p className="[font-family:'DM_Sans',Helvetica] text-xl lg:text-2xl font-bold leading-tight">
-              Every opening line written around a real signal.
+            <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-white/70 text-sm mb-4 uppercase tracking-wider">
+              What AI Handles
+            </h3>
+            <p className="[font-family:'DM_Sans',Helvetica] text-xl lg:text-[22px] font-bold leading-tight">
+              Data mining, pattern recognition, contact verification, copy generation, sequence timing, and performance analysis.
             </p>
           </div>
 
-          {/* Wide Feature Block */}
+          {/* Wide Feature Block (Humans) */}
           <div className="col-span-1 md:col-span-1 lg:col-span-1 bg-white rounded-[32px] p-10 lg:p-12 border border-gray-100 shadow-[0_10px_40px_rgba(0,0,0,0.03)] flex flex-col justify-between">
-            <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-4 uppercase tracking-wider text-sm">
-              The Engine
+            <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] text-sm mb-4 uppercase tracking-wider">
+              What Humans Handle
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-black text-lg md:text-xl leading-relaxed font-medium">
-              Uses AI for enrichment, signal detection, and personalisation at scale. The strategy, the ICP, and the targeting logic are human-built. <span className="text-[#543d98]">Automation without direction is noise. We handle both.</span>
+              ICP strategy, messaging tone, brand alignment, quality review, and the judgment calls that turn data into pipeline.
             </p>
           </div>
 

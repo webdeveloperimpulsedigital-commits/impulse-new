@@ -2,23 +2,23 @@ export const BuyerProfilesSection = (): JSX.Element => {
   const profiles = [
     {
       title: "Entering a new market",
-      desc: "Building pipeline where no one knows you yet. Outbound is the fastest path to the right conversations.",
+      desc: "Need pipeline where no one knows you. The AI finds and reaches the right buyers faster than any human team can.",
       img: "/img-1.png",
     },
     {
-      title: "Strong closers, thin top-of-funnel",
-      desc: "Your team converts well but spends too much time finding their next conversation. The engine fills the gap.",
+      title: "Scaling without scaling headcount",
+      desc: "Your sales team converts well. You need more at-bats without hiring more SDRs. The engine delivers volume without headcount.",
       img: "/img-2.png",
     },
     {
-      title: "Outgrown referrals",
-      desc: "The next phase of growth needs a system, not a network.",
+      title: "Replacing manual prospecting",
+      desc: "Your team is spending hours on research and outreach that an AI can do in minutes, at higher accuracy and lower cost.",
       img: "/img-3.png",
     },
   ];
 
   return (
-    <section className="w-full bg-white pt-16 lg:pt-20 pb-[120px] lg:pb-[135px] relative overflow-hidden" style={{ marginTop: "-55px", borderTopLeftRadius: "55px", borderTopRightRadius: "55px", zIndex: 50 }} data-section="buyer-profiles">
+    <section className="w-full bg-white pt-16 lg:pt-20 pb-[120px] lg:pb-[135px] relative" style={{ marginTop: "-55px", borderTopLeftRadius: "55px", borderTopRightRadius: "55px", zIndex: 50 }} data-section="buyer-profiles">
       <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
         <div className="max-w-4xl mb-16 md:mb-24">
           <h2 className="[font-family:'DM_Sans',Helvetica] leading-tight mb-6">
@@ -30,45 +30,53 @@ export const BuyerProfilesSection = (): JSX.Element => {
             </span>
           </h2>
           <p className="[font-family:'DM_Sans',Helvetica] text-base md:text-lg text-black leading-relaxed">
-            When your sales cycle involves multiple stakeholders, considered decisions, and meaningful contract values, every new conversation at the top of your funnel matters.
+            When your deal size justifies precision and your sales cycle involves real decision-makers, an AI-powered outbound engine is not a luxury. It is the most efficient way to fill your pipeline.
           </p>
         </div>
 
-        <div className="flex flex-col md:flex-row gap-4 lg:gap-6 h-auto md:h-[500px] w-full">
-          {profiles.map((profile, index) => (
-            <div
-              key={index}
-              className="group relative flex-1 md:hover:flex-[1.5] lg:hover:flex-[2] transition-all duration-700 ease-[cubic-bezier(0.19,1,0.22,1)] bg-[#030019] rounded-[32px] overflow-hidden flex flex-col justify-end p-8 lg:p-12 cursor-pointer border border-[#543d98]/20 hover:border-[#8468d9] min-h-[250px] md:min-h-0"
-            >
-              {/* Background Image Overlay */}
-              <div className="absolute inset-0 z-0">
-                <img
-                  src={profile.img}
-                  alt={profile.title}
-                  className="w-full h-full object-cover opacity-50 group-hover:opacity-100 transition-all duration-700 ease-[cubic-bezier(0.19,1,0.22,1)] filter grayscale group-hover:grayscale-0 scale-105 group-hover:scale-100"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#030019] via-[#030019]/60 to-transparent" />
-              </div>
+        <div className="flex flex-col gap-[30vh] lg:gap-[50vh] w-full relative pb-[20vh]">
+          {profiles.map((profile, index) => {
+            return (
+              <div 
+                key={index}
+                className="sticky w-full flex flex-col lg:flex-row gap-8 lg:gap-12 items-center bg-[#020018] rounded-[40px] p-6 lg:p-12 shadow-2xl border border-[#543d98]/30 overflow-hidden group"
+                style={{
+                  top: `${120 + index * 40}px`,
+                  zIndex: 10 + index,
+                  height: "auto",
+                  minHeight: "450px"
+                }}
+              >
+                {/* Background Glow */}
+                <div className="absolute top-0 right-0 w-full h-full bg-gradient-to-l from-[#8468d9]/10 to-transparent pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity duration-700" />
 
-              {/* Massive subtle background number */}
-              <div className="absolute top-4 left-6 text-white/10 font-black text-[80px] lg:text-[120px] leading-none select-none transition-transform duration-700 group-hover:-translate-y-4 z-10 drop-shadow-xl">
-                0{index + 1}
-              </div>
-
-              <div className="relative z-10 flex flex-col h-full justify-end">
-                <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-white text-xl lg:text-2xl mb-2 lg:mb-0 transform transition-transform duration-700 ease-[cubic-bezier(0.19,1,0.22,1)] group-hover:-translate-y-4">
-                  {profile.title}
-                </h3>
-
-                {/* The description expands on hover on desktop, always visible on mobile */}
-                <div className="md:max-h-0 md:opacity-0 group-hover:max-h-[200px] group-hover:opacity-100 transition-all duration-700 ease-[cubic-bezier(0.19,1,0.22,1)] overflow-hidden">
-                  <p className="[font-family:'DM_Sans',Helvetica] text-white/70 text-base lg:text-lg leading-relaxed pt-2">
+                {/* Content Side */}
+                <div className="w-full lg:w-1/2 flex flex-col justify-center relative z-10 lg:pr-8">
+                  <h3 className="[font-family:'DM_Sans',Helvetica] font-black text-white text-3xl lg:text-5xl mb-6 leading-[1.1] tracking-tight">
+                    {profile.title}
+                  </h3>
+                  <p className="[font-family:'DM_Sans',Helvetica] text-white/70 text-lg lg:text-xl leading-relaxed max-w-xl font-medium">
                     {profile.desc}
                   </p>
                 </div>
+
+                {/* Image Side */}
+                <div className="w-full lg:w-1/2 overflow-hidden rounded-[24px] relative aspect-video lg:aspect-[4/3] shadow-2xl z-10 border border-white/5">
+                  <div className="absolute inset-0 bg-[#543d98]/20 mix-blend-overlay group-hover:bg-transparent transition-colors duration-700 z-10" />
+                  <img
+                    src={profile.img}
+                    alt={profile.title}
+                    className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 scale-105 group-hover:scale-100 transition-all duration-1000 ease-[cubic-bezier(0.19,1,0.22,1)]"
+                  />
+                  {/* Subtle decorative number */}
+                  <div className="absolute -bottom-8 -right-4 text-white/20 font-black text-[140px] leading-none select-none z-20 pointer-events-none drop-shadow-2xl">
+                    0{index + 1}
+                  </div>
+                </div>
+
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

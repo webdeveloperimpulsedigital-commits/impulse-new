@@ -19,7 +19,7 @@ export const FAQSection = ({ faqs }: FAQSectionProps): JSX.Element => {
 
   return (
     <section
-      className="max-w-[1280px] mx-auto px-4 lg:px-8 lg:pt-20 lg:pb-20"
+      className="max-w-[1280px] mx-auto px-4 lg:px-8 pt-16 lg:pt-20 pb-8 lg:pb-20"
       data-section="faq"
     >
       <h2 className="text-center [font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight mx-auto">

@@ -27,7 +27,7 @@ export const HighlightSection = (): JSX.Element => {
     return () => observer.disconnect();
   }, []);
 
-  const text = "The Outbound Intelligence Engine identifies the exact decision-makers who match your business, reaches them with signal-timed, personalised outreach, and puts revenue-ready conversations on your calendar.";
+  const text = "Archer is an AI-powered outbound intelligence engine. It detects buying signals across your target market, identifies the exact decision-makers who match your business, and deploys personalised outreach at scale — putting revenue-ready conversations on your calendar, week after week.";
   const words = text.split(" ");
 
   return (
@@ -48,7 +48,7 @@ export const HighlightSection = (): JSX.Element => {
 
         <h2 className="[font-family:'DM_Sans',Helvetica] text-[20px] md:text-[28px] lg:text-[36px] text-[#030019] font-medium leading-[1.4] lg:leading-[1.3] tracking-tight max-w-4xl relative z-10 flex flex-wrap gap-x-2 gap-y-1 lg:gap-x-2.5 lg:gap-y-1.5">
           {words.map((word, index) => {
-            const isGradient = word.includes("Outbound") || word.includes("Intelligence") || word.includes("Engine");
+            const isGradient = word.includes("Archer") || word.includes("AI-powered") || word.includes("outbound") || word.includes("intelligence") || word.includes("engine.");
             return (
               <span 
                 key={index} 

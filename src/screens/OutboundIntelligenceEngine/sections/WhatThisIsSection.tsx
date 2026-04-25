@@ -6,33 +6,33 @@ export const WhatThisIsSection = (): JSX.Element => {
 
   const items = [
     {
-      title: "Signal Detection",
-      desc: "Live tracking of hires, leadership changes, funding rounds, and expansion signals. Prospects enter because something in their world indicates readiness.",
+      title: "AI Signal Detection",
+      desc: "The engine continuously monitors hiring activity, leadership changes, funding rounds, and expansion signals across your target market. It surfaces prospects when they are ready, not when a human happens to find them.",
       icon: <MonitorDot className="w-8 h-8" strokeWidth={1.5} />,
     },
     {
-      title: "Precision Targeting",
-      desc: "Every prospect matched against a structured ICP: title, company size, revenue, geography, industry. No one enters who does not fit.",
+      title: "AI-Driven Discovery",
+      desc: "Prospect identification runs on intelligent matching against your ICP, not manual LinkedIn searches. The AI scores and ranks every potential target before a human ever reviews them.",
       icon: <Target className="w-8 h-8" strokeWidth={1.5} />,
     },
     {
-      title: "Contact Verification",
-      desc: "Every email verified before use. Bounce rates below 2%. Domain reputation protected.",
+      title: "Automated Verification",
+      desc: "Every contact is validated for deliverability through AI-powered verification layers. Bounce rates below 2%. No manual checking. No guesswork.",
       icon: <ShieldCheck className="w-8 h-8" strokeWidth={1.5} />,
     },
     {
-      title: "Personalised Outreach",
-      desc: "Every opening line references something specific to that person or company. A hire, a commitment, a launch. Nothing generic passes.",
+      title: "AI Personalisation",
+      desc: "Every opening line is generated around a real signal specific to that person or company. The AI writes it. A strategist reviews it. Nothing generic ships.",
       icon: <Mail className="w-8 h-8" strokeWidth={1.5} />,
     },
     {
       title: "CRM-Native Pipeline",
-      desc: "Prospects pushed directly into your CRM, tagged with ICP, trigger signal, date, and status. Full visibility from discovery.",
+      desc: "Prospects flow directly into your CRM, auto-tagged with ICP match, trigger signal, enrichment data, and pipeline status. Zero manual data entry.",
       icon: <Workflow className="w-8 h-8" strokeWidth={1.5} />,
     },
     {
-      title: "Weekly Iteration",
-      desc: "Data reviewed, messaging refined, targeting sharpened, next cycle deployed. Every week, not every quarter.",
+      title: "Self-Improving Cycles",
+      desc: "The engine learns from every campaign cycle. Open rates, reply patterns, and response quality feed back into the AI to sharpen targeting and messaging automatically.",
       icon: <RefreshCw className="w-8 h-8" strokeWidth={1.5} />,
     },
   ];
@@ -44,15 +44,15 @@ export const WhatThisIsSection = (): JSX.Element => {
         {/* Header Area */}
         <div className="text-left max-w-4xl mb-16 lg:mb-24">
           <h2 className="[font-family:'DM_Sans',Helvetica] leading-tight mb-6 tracking-tight text-[#030019]">
-            <span className="block font-medium lg:text-[40px] sm:text-[24px]">
-              A system,
-            </span>
             <span className="block text-[#543d98] font-bold lg:text-[64px] sm:text-[36px]">
-              not a campaign.
+              An AI engine,
+            </span>
+            <span className="block font-medium lg:text-[40px] sm:text-[24px]">
+              not a service team.
             </span>
           </h2>
           <p className="[font-family:'DM_Sans',Helvetica] text-lg md:text-[22px] text-gray-600 leading-relaxed font-light">
-            The Outbound Intelligence Engine finds, qualifies, and engages your highest-value buyers before they ever search for you. 
+            Archer is not a team of people doing outbound on your behalf. It is an AI system, built around your business, that runs the entire outbound pipeline — from signal detection to personalised outreach — with human strategists directing the targeting and refining the output.
           </p>
         </div>
 

@@ -12,7 +12,7 @@ export const ScarcitySection = (): JSX.Element => {
         
         <div className="space-y-6 [font-family:'DM_Sans',Helvetica] text-white/70 text-lg md:text-xl leading-relaxed max-w-3xl mx-auto font-light">
           <p>
-            Every engagement gets dedicated attention. Prospects individually enriched. Opening lines written around real signals. Weekly cycles reviewed and refined. That depth means we keep active engagements intentionally small.
+            Every Archer deployment requires custom AI configuration and strategic calibration specific to your ICP and market. That depth means we keep active engagements small.
           </p>
         </div>
       </div>

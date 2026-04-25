@@ -12,18 +12,16 @@ export const EconomicsSection = (): JSX.Element => {
               <div className="w-12 h-1 bg-[#8468d9] mb-8" />
               
               <h2 className="[font-family:'DM_Sans',Helvetica] leading-tight text-white mb-8">
-                <span className="block font-medium lg:text-[40px] sm:text-[24px]">
-                  The math behind
+                <span className="block font-medium lg:text-[36px] sm:text-[24px]">
+                  What used to take a team
                 </span>
-                <span className="block text-[#8468d9] font-bold lg:text-[64px] sm:text-[36px]">
-                  precision.
+                <span className="block text-[#8468d9] font-bold lg:text-[48px] sm:text-[32px]">
+                  now takes an engine.
                 </span>
               </h2>
               
               <p className="[font-family:'DM_Sans',Helvetica] text-lg md:text-xl text-white/70 leading-relaxed max-w-md font-light">
-                Every channel has a cost-per-conversation. Inbound compounds slowly. Ads scale expensively. Referrals are unpredictable. 
-                <br /><br />
-                <span className="text-white font-medium">Outbound is the only channel where you choose exactly who enters your pipeline.</span>
+                A traditional outbound operation needs 3–4 SDRs, a data researcher, a copywriter, and a campaign manager to do what Archer does with AI infrastructure and one strategist.
               </p>
             </div>
           </div>
@@ -41,8 +39,8 @@ export const EconomicsSection = (): JSX.Element => {
                   </div>
                   <div className="relative z-10">
                     <p className="[font-family:'DM_Sans',Helvetica] text-white/80 text-[20px] lg:text-[24px] leading-[1.6] font-light mt-16 lg:mt-24">
-                      <span className="text-white font-bold block mb-2 text-2xl lg:text-3xl">B2B cost per qualified lead</span> 
-                      via paid channels: Rs. 3,000 to Rs. 15,000+. Most go cold within a week.
+                      <span className="text-white font-bold block mb-2 text-2xl lg:text-3xl">Traditional outbound scales linearly</span> 
+                      — more pipeline means more headcount, more cost, more management overhead.
                     </p>
                   </div>
                 </div>
@@ -57,8 +55,8 @@ export const EconomicsSection = (): JSX.Element => {
                   </div>
                   <div className="relative z-10">
                     <p className="[font-family:'DM_Sans',Helvetica] text-white/80 text-[20px] lg:text-[24px] leading-[1.6] font-light mt-16 lg:mt-24">
-                      <span className="text-white font-bold block mb-2 text-2xl lg:text-3xl">Outbound identifies</span> 
-                      the specific company, the specific person, and the specific reason to reach out. Every touch is intentional.
+                      <span className="text-white font-bold block mb-2 text-2xl lg:text-3xl">Archer scales horizontally</span> 
+                      — the AI handles volume while the strategist handles direction. Cost stays flat as output grows.
                     </p>
                   </div>
                 </div>
@@ -73,8 +71,8 @@ export const EconomicsSection = (): JSX.Element => {
                   </div>
                   <div className="relative z-10">
                     <p className="[font-family:'DM_Sans',Helvetica] text-white/80 text-[20px] lg:text-[24px] leading-[1.6] font-light mt-16 lg:mt-24">
-                      <span className="text-white font-bold block mb-2 text-2xl lg:text-3xl">When a single new account</span> 
-                      can change a quarter's trajectory, precision outbound pays for itself fast.
+                      <span className="text-white font-bold block mb-2 text-2xl lg:text-3xl">The result:</span> 
+                      enterprise-grade outbound at a fraction of what it would cost to build internally or staff through an agency.
                     </p>
                   </div>
                 </div>
