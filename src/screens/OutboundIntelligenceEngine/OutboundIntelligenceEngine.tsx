@@ -44,9 +44,9 @@ export const OutboundIntelligenceEngine = (): JSX.Element => {
         {/* <ClientsSection /> */}
         {/* <TestimonialsSection /> */}
         {/* Wrap FinalCTASection to pull it up over ScarcitySection and fix the white corner gap */}
-        <div style={{ marginTop: "-25px", position: "relative", zIndex: 75 }}>
+        {/* <div style={{ marginTop: "-25px", position: "relative", zIndex: 75 }}>
           <FinalCTASection />
-        </div>
+        </div> */}
 
         {/* Wrap common sections to give them the curved border effect */}
         <div className="w-full bg-[#ffffff] relative overflow-hidden pb-12" style={{ marginTop: "-55px", borderTopLeftRadius: "55px", borderTopRightRadius: "55px", zIndex: 80 }}>

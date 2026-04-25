@@ -16,7 +16,7 @@ const getDeviceState = (): DeviceState => {
 };
 
 const getHeroSize = (isMobile: boolean, isTablet: boolean) =>
-  isMobile ? "60px" : isTablet ? "80px" : "300px";
+  isMobile ? "60px" : isTablet ? "80px" : "120px";
 
 export const ScrollRevealLogoHome: React.FC<ScrollRevealLogoProps> = ({
   className = "",

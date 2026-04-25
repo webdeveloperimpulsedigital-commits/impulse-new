@@ -4,8 +4,12 @@ import { JsonLd } from "react-schemaorg";
 import Header from "../../../../components/layout/Header";
 
 export const FeaturedItemsSection = (): JSX.Element => {
-  const heroTextLines = ["For Anything", "But Ordinary",];
- const schema = {
+  const heroTextLines = [
+    "Most marketing decisions",
+    "are made without the most",
+    "important input: your own data."
+  ];
+  const schema = {
     "@context": "https://schema.org",
     "@graph": [
       {
@@ -219,93 +223,99 @@ export const FeaturedItemsSection = (): JSX.Element => {
           fetchpriority="high"
         />
         <script type="application/ld+json">
-        {JSON.stringify(schema)}
-      </script>
+          {JSON.stringify(schema)}
+        </script>
       </Helmet>
 
-      
 
-      
+
+
 
       {/* ✅ Hero Section */}
+      {/* ✅ Hero Section */}
       <section
-        className="relative w-full h-screen min-h-[600px] mb-0 h-[600px] sm:h-[700px] md:h-[800px] lg:h-[820px] rounded-t-[55px] overflow-hidden"
+        className="relative w-full bg-[#020018] rounded-t-[55px] overflow-hidden"
         data-section="hero"
       >
-        <header>
-          <Header />
+        <Header />
 
-          <div className="absolute inset-0 w-full h-[598px] sm:h-[698px] md:h-[798px] lg:h-[818px]">
-            {/* ✅ LCP FIX: HTML image (so browser can prioritize it) */}
-            <img
-              src="/rectangle-35.jpg"
-              alt=""
-              aria-hidden="true"
-              className="absolute inset-0 w-full h-full object-cover"
-              width={1920}
-              height={1080}
-              decoding="async"
-              {...({
-                fetchpriority: "high",
-              } as React.ImgHTMLAttributes<HTMLImageElement>)}
-            />
-
-            {/* Background Video */}
-            <div className="absolute inset-0 z-0">
-              <video
-                className="w-full h-full object-cover"
-                autoPlay
-                muted
-                loop
-                playsInline
-                preload="metadata"
-                poster="/rectangle-35.jpg"
-              >
-                <source src="/bg-video.mp4" type="video/mp4" />
-              </video>
-
-              {/* Dark overlay */}
-              <div
-                className="absolute inset-0 pointer-events-none"
-                style={{ backgroundColor: "#020018", opacity: 0.85 }}
-                aria-hidden="true"
-              />
+        <div className="w-full flex flex-col pt-24 lg:pt-32 pb-0">
+          
+          {/* Top Text Content Area */}
+          <div className="w-full max-w-[1600px] mx-auto px-6 md:px-12 lg:px-20 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-8 items-start mb-8 lg:mb-12">
+            
+            {/* Left Side: Play Button Area */}
+            <div className="col-span-1 lg:col-span-3 flex flex-row items-center gap-4">
+              <button className="w-12 h-12 lg:w-14 lg:h-14 rounded-full border border-white/20 flex items-center justify-center hover:bg-white/10 transition-colors duration-300 group">
+                <svg className="w-3 h-3 lg:w-4 lg:h-4 text-white ml-1 opacity-70 group-hover:opacity-100 transition-opacity" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </button>
+              <div className="flex flex-col text-white/90 text-[10px] lg:text-xs uppercase tracking-[0.15em] font-medium">
+                <span className="underline underline-offset-4 mb-1 hover:text-white/60 cursor-pointer transition-colors">Watch</span>
+                <span className="underline underline-offset-4 hover:text-white/60 cursor-pointer transition-colors">Showreel</span>
+              </div>
+              <span className="text-white/40 text-[10px] lg:text-xs ml-2 font-mono">00:36</span>
             </div>
 
-            {/* Hero Content */}
-            <div
-              className="xl:w-[1450px] lg:w-[1290px] mx-auto absolute inset-0 flex flex-col justify-center
-                        items-center text-center
-                        lg:items-start lg:text-left
-                        px-0 sm:px-6 md:px-2 lg:px-20 pt-20 lg:pt-24 lg:pl-0 sm:pt-25"
-            >
+            {/* Center Area: Title & Paragraph */}
+            <div className="col-span-1 lg:col-span-8 flex flex-col items-start text-left">
               {/* Main Heading */}
-              <div className="mb-8 sm:mb-12 text-center lg:text-left">
-                <h1
-                  className="font-dm-sans font-black text-white text-[32px] sm:text-[48px] md:text-[64px] lg:text-[100px]
-                      xl:text-[100px] lg:leading-[100px] xl:leading-[120px] tracking-tight mb-1"
-                >
-                  {heroTextLines.map((line, index) => (
-                    <span key={index}>
-                      {line}
-                      <br />
-                    </span>
-                  ))}
-                </h1>
-              </div>
+              <h1
+                className="font-dm-sans font-medium text-white text-[22px] sm:text-[28px] md:text-[32px] lg:text-[40px]
+                    xl:text-[44px] lg:leading-[1.2] xl:leading-[1.2] tracking-tight mb-4 max-w-[800px]"
+              >
+                {heroTextLines.map((line, index) => (
+                  <span key={index}>
+                    {line}
+                    <br />
+                  </span>
+                ))}
+              </h1>
 
               {/* Description */}
               <p
-                className="font-dm-sans text-white text-sm sm:text-base md:text-lg lg:text-[26px]
-                          max-w-[90%] sm:max-w-[80%] md:max-w-[70%] lg:max-w-[60%]
-                          mx-auto lg:mx-0 lg:leading-[40px] mb-8 sm:mb-12"
+                className="font-dm-sans text-white/60 text-xs sm:text-sm md:text-sm lg:text-[15px]
+                          max-w-[100%] sm:max-w-[90%] md:max-w-[80%] lg:max-w-[650px]
+                          leading-relaxed lg:leading-[1.6] mb-6 font-light"
               >
-                We blend strategy, design, and AI to create brands that stand apart.
-                Because the world has enough average already.
+                Impulse Digital is the AI-native growth intelligence partner for enterprise marketing teams that need to close the gap between what their data knows and what their decisions reflect.
               </p>
+
+              {/* CTA Button */}
+              <a 
+                href="#work" 
+                className="inline-flex items-center justify-center gap-2 px-6 py-3 md:px-8 md:py-4 bg-white rounded-full hover:bg-[#543d98] hover:text-white text-[#543d98] transition-colors duration-300 group"
+              >
+                <span className="font-dm-sans font-bold text-sm md:text-base">See how we work</span>
+                <img 
+                  src="/vector-1-3.svg" 
+                  alt="Arrow" 
+                  className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert pointer-events-none" 
+                />
+              </a>
             </div>
+
+            {/* Right Side: Empty space (numbers removed per request) */}
+            <div className="hidden lg:block lg:col-span-1"></div>
           </div>
-        </header>
+
+          {/* Full Width Video Section */}
+          <div className="w-full relative h-[400px] sm:h-[500px] md:h-[600px] lg:h-[750px] mt-8 lg:mt-12 bg-[#020018]">
+            <video
+              className="absolute inset-0 w-full h-full object-cover"
+              autoPlay
+              muted
+              loop
+              playsInline
+              preload="metadata"
+              poster="/rectangle-35.jpg"
+            >
+              <source src="/impulse-video-new.mp4" type="video/mp4" />
+            </video>
+          </div>
+
+        </div>
       </section>
     </>
   );

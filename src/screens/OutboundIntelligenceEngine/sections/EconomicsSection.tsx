@@ -21,7 +21,7 @@ export const EconomicsSection = (): JSX.Element => {
               </h2>
               
               <p className="[font-family:'DM_Sans',Helvetica] text-lg md:text-xl text-white/70 leading-relaxed max-w-md font-light">
-                A traditional outbound operation needs 3–4 SDRs, a data researcher, a copywriter, and a campaign manager to do what Archer does with AI infrastructure and one strategist.
+                A traditional outbound operation needs 3–4 Resources, a data researcher, a copywriter, and a campaign manager to do what Archer does with AI infrastructure and one strategist.
               </p>
             </div>
           </div>
