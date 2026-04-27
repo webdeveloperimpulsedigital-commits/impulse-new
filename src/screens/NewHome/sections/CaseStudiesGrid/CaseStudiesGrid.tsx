@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Button } from "../../../../components/ui/button";
 import { Link } from "react-router-dom";
+import { motion } from "motion/react";
 
 const css = `
 .case-studies-header {
@@ -156,6 +157,7 @@ const caseStudiesData = [
     tall: true,
     corner: false,
     link: "/casestudies/uppercase",
+    outcome: "A complete brand film produced entirely with AI: script, visuals, voice, and edit.",
   },
   {
     id: 2,
@@ -164,7 +166,8 @@ const caseStudiesData = [
     tags: ["Packaging"],
     tall: false,
     corner: true,
-    link: "/casestudies/hul"
+    link: "/casestudies/hul",
+    outcome: "Geo-targeted digital coupon campaign delivering 90% higher CTR and 12,548 landing page sessions.",
   },
   {
     id: 3,
@@ -173,7 +176,8 @@ const caseStudiesData = [
     tags: ["Branding"],
     tall: true,
     corner: true,
-    link: "/casestudies/d-mart"
+    link: "/casestudies/d-mart",
+    outcome: "13.43 lakh unique reach and 53K clicks driving store footfall for seasonal retail.",
   },
   {
     id: 4,
@@ -182,27 +186,9 @@ const caseStudiesData = [
     tags: ["Creative"],
     tall: false,
     corner: false,
-    link: "/casestudies/mastercard"
+    link: "/casestudies/mastercard",
+    outcome: "90.9% merchant response rate through WhatsApp-led cluster-head outreach strategy.",
   },
-  // {
-  //   id: 5,
-  //    title: "Keva",
-  //   image: "/Keva.png",
-  //   tags: ["Product Design"],
-  //   tall: false,
-  //   corner: false,
-  //   link: "/casestudies/keva",
-  // },
-  // {
-  //   id: 6,
-  //    title: "Amazone Employee Value Proposition",
-  //   image: "/Amazon EVP.jpg",
-  //   tags: ["Packaging"],
-  //   tall: false,
-  //   corner: false,
-  //   link: "/casestudies/crafting-the-employer-value-proposition-for-amazon-india",
-  // }
-
   {
     id: 5,
     title: "A Force for Good - BRUT INDIA",
@@ -211,8 +197,8 @@ const caseStudiesData = [
     tall: false,
     corner: true,
     link: "/casestudies/brutindia",
+    outcome: "Social impact content partnership for one of India's most-watched digital publishers.",
   },
-
   {
     id: 6,
     title: "Aditya Birla Group - Fours for Good",
@@ -221,6 +207,7 @@ const caseStudiesData = [
     tall: false,
     corner: true,
     link: "/casestudies/fourseforgood",
+    outcome: "Social impact narrative for one of India's largest conglomerates.",
   },
 ];
 
@@ -301,7 +288,8 @@ export const CaseStudiesGrid = (): JSX.Element => {
     image: c.image,
     alt: c.title,
     clientName: c.title,
-    link: c.link
+    link: c.link,
+    outcome: c.outcome
   }));
 
   const handleSlideChange = (newIndex: number) => {
@@ -387,21 +375,36 @@ export const CaseStudiesGrid = (): JSX.Element => {
   };
 
   const CaseStudyCard = ({
-    caseStudy
+    caseStudy,
+    index
   }: {
     caseStudy: (typeof caseStudiesData)[0];
+    index: number;
   }) => (
-    <Link to={caseStudy.link} className="case-study-card">
-      <div
-        className={`case-study-media ${!isMobile && caseStudy.tall ? "case-study-media--tall" : ""
-          } ${caseStudy.corner ? "corner" : ""}`}
-      >
-        <img src={caseStudy.image} alt={caseStudy.title} loading="lazy" />
-      </div>
-      <div className="case-study-meta">
-        <h3 className="case-study-brand">{caseStudy.title}</h3>
-      </div>
-    </Link>
+    <motion.div 
+      className="case-study-card"
+      initial={{ opacity: 0, y: 60, scale: 0.9, filter: "blur(15px)" }}
+      whileInView={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }}
+      transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: index * 0.1 }}
+      viewport={{ once: true, margin: "0px 0px -100px 0px" }}
+    >
+      <Link to={caseStudy.link} className="block w-full h-full text-inherit no-underline">
+        <div
+          className={`case-study-media ${!isMobile && caseStudy.tall ? "case-study-media--tall" : ""
+            } ${caseStudy.corner ? "corner" : ""}`}
+        >
+          <img src={caseStudy.image} alt={caseStudy.title} loading="lazy" />
+        </div>
+        <div className="case-study-meta">
+          <h3 className="case-study-brand text-[#030019] font-bold">{caseStudy.title}</h3>
+          {caseStudy.outcome && (
+            <p className="text-[16px] text-[#030019] font-normal mt-2 leading-tight">
+              {caseStudy.outcome}
+            </p>
+          )}
+        </div>
+      </Link>
+    </motion.div>
   );
 
   const MobileSlider = () => (
@@ -429,10 +432,15 @@ export const CaseStudiesGrid = (): JSX.Element => {
 
       {/* Client name below image */}
       <div className="mt-4 text-left ml-1">
-        <Link to={currentSlide.link}>
-          <h3 className="font-bold text-[#030019] text-[26px] hover:underline">
+        <Link to={currentSlide.link} className="block group">
+          <h3 className="font-bold text-[#030019] text-[26px] group-hover:underline">
             {currentSlide.clientName}
           </h3>
+          {currentSlide.outcome && (
+            <p className="text-[16px] text-[#030019] font-normal mt-1 leading-tight">
+              {currentSlide.outcome}
+            </p>
+          )}
         </Link>
       </div>
 
@@ -468,8 +476,8 @@ export const CaseStudiesGrid = (): JSX.Element => {
   const DesktopGrid = () => (
     <div className="hidden lg:block">
       <div className="case-studies-grid" ref={gridRef}>
-        {caseStudiesData.map((caseStudy) => (
-          <CaseStudyCard key={caseStudy.id} caseStudy={caseStudy} />
+        {caseStudiesData.map((caseStudy, index) => (
+          <CaseStudyCard key={caseStudy.id} caseStudy={caseStudy} index={index} />
         ))}
       </div>
     </div>
@@ -478,8 +486,9 @@ export const CaseStudiesGrid = (): JSX.Element => {
   return (
     <>
       <section
-        className="case-studies-section pt-16 bg-white pb-0 mx-auto md:px-4"
+        className="case-studies-section pt-16 bg-white pb-0 mx-auto md:px-4 relative"
         data-section="case-studies"
+        style={{ marginTop: "-55px", borderTopLeftRadius: "55px", borderTopRightRadius: "55px", zIndex: 50 }}
       >
         <div className="wrap-casestuides">
           <div className="case-studies-header">

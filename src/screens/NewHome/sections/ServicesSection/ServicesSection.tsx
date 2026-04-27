@@ -1,354 +1,146 @@
-// ServicesSection.jsx
-import React, { useEffect, useRef, useState } from "react";
-import { Button } from "../../../../components/ui/button";
+// ServicesSection.tsx — Premium Split-Screen Hover Layout
+import React, { useState } from "react";
+import { motion, AnimatePresence } from "motion/react";
+import { Link } from "react-router-dom";
+
+const PURPLE = "#543d98";
+
+const data = [
+  {
+    index: "01",
+    label: "Intelligence",
+    title: "Growth Intelligence",
+    tagline: "Where most engagements begin.",
+    description:
+      "Marketing analytics, campaign intelligence, consumer insights, and competitive sensing that help enterprise marketing teams act on evidence rather than instinct. This is not a dashboard. It is a decision engine.",
+    img: "/growth_intelligence_premium.png",
+    link: "/services/growth-intelligence",
+    cta: "Explore Growth Intelligence",
+    tags: ["Analytics", "Consumer Insights", "Competitive Sensing"],
+  },
+  {
+    index: "02",
+    label: "AI-Native",
+    title: "AI Agency",
+    tagline: "The 2026-native capability.",
+    description:
+      "Agentic AI for marketing operations, fully AI-produced cinematic brand content, and Generative Search Optimisation for brands that need to move faster than their category allows.",
+    img: "/ai_agency_premium.png",
+    link: "/services/ai-agency",
+    cta: "Explore AI Agency",
+    tags: ["Agentic AI", "Generative Search", "AI Content"],
+  },
+  {
+    index: "03",
+    label: "Execution",
+    title: "Performance Studios",
+    tagline: "The execution engine.",
+    description:
+      "Social media, performance marketing, content, website development, and branding, deployed as the execution layer of a strategic engagement, not as standalone deliverables.",
+    img: "/performance_studios_premium.png",
+    link: "/services/performance-studios",
+    cta: "Explore Performance Studios",
+    tags: ["Social Media", "Performance Marketing", "Branding"],
+  },
+];
 
 const ServicesSection = () => {
-  const services = [
-    "Employer Branding",
-    "SEO",
-    "Website Development",
-    "Branding",
-    "Performance Marketing",
-    "Content Writing Services",
-    "Employer Branding",
-    "SEO",
-    "Website Development",
-    "Branding",
-    "Performance Marketing",
-    "Content Writing Services",
-  ];
+  const [active, setActive] = useState(0);
 
-  const stackRef = useRef(null);
-
-  // Mobile slider refs
-  const sliderRef = useRef(null);
-  const trackRef = useRef(null);
-  const prevBtnRef = useRef(null);
-  const nextBtnRef = useRef(null);
-
-  // dots
-  const [slide, setSlide] = useState(0);
-
-  // ✅ mobile read more/less state (per card index)
-  const [expanded, setExpanded] = useState({});
-
-  const toggleRead = (index) => {
-    setExpanded((prev) => ({ ...prev, [index]: !prev[index] }));
-  };
-
-  const data = [
-    {
-      n: "01",
-      title: "Agentic AI",
-      points: [
-        "Build intelligent AI agents that automate tasks, make decisions, and work autonomously to improve efficiency and scale your business operations.",
-      ],
-      img: "/agentic-ai-homepage.jpg",
-      link: "/services/agentic-ai",
-    },
-    {
-      n: "02",
-      title: "SEO",
-      points: [
-        "Your prospects are searching, we make sure they find you first. We combine technical expertise with creative content strategies to boost your website’s visibility and ranking. Our SEO team optimizes every aspect of your online presence to attract, engage, and convert the right audience, ensuring your business grows where it matters most: search results.",
-      ],
-      img: "/06_SEO-new.jpg",
-      link: "/services/search-engine-optimization",
-    },
-    {
-      n: "03",
-      title: "Website Development & Design",
-      points: [
-        "Your website is more than just a digital address, it’s your brand’s first impression, storyteller, and salesperson, all rolled into one.  We design and develop websites that not only look stunning but also perform seamlessly. From intuitive navigation to engaging visuals and compelling content, we build experiences that keep visitors clicking and coming back for more. Every line of code and pixel is crafted to reflect your brand’s essence and purpose. In a world full of tabs and distractions, we make sure your website stands out and speaks volumes.",
-      ],
-      img: "/07_Website Development-new.jpg",
-      link: "/services/website-development",
-    },
-    {
-      n: "03",
-      title: "Performance Marketing",
-      points: [
-        "Every campaign should perform, not just run, that’s where we come in. At Impulse Digital, our performance marketing approach ensures every click, impression and conversion drives measurable growth. We blend strategy, creativity and data to deliver results you can see and scale. From understanding audience behaviour to optimizing spends across channels, we focus on impact over noise. With us, your marketing doesn’t just reach people, it moves them to act.",
-      ],
-      img: "/01_Pay-Per-Click-new.jpg",
-      link: "/services/performance-marketing",
-    },
-    {
-      n: "05",
-      title: "Content Writing Services",
-      points: [
-        "Great content doesn’t just tell a story, it builds a connection. We craft narratives that resonate with your audience and reflect your brand’s true voice. Every word is designed with purpose, ensuring your message reaches the right people in the most meaningful way. From thought-provoking blogs to engaging campaign copy, our content marketing approach blends creativity with strategy. Because when your content speaks the language of your audience, it turns attention into trust.",
-      ],
-      img: "/02_Content Writing-new.jpg",
-      link: "/services/content-writing-services",
-    },
-    {
-      n: "06",
-      title: " Video Production",
-      points: [
-        "Transform Your Brands Online Communication with Social Media Video Production. Our Social Media Video Production service is specifically designed to elevate your brand's online presence with visually appealing and strategically crafted videos tailored to suit your brand and its target audience. From ideation, conceptualization, method storytelling to visually crafting a masterpiece, we handle every aspect of video production with the required creative support and equipment to ensure your brand shines across social media platforms. ",
-      ],
-      img: "/03_Production-new.jpg",
-      link: "/services/social-media-video-production",
-    },
-    {
-      n: "07",
-      title: "Social Media Marketing",
-      points: [
-        "Your audience is scrolling, now the question is, are they stopping for you? At Impulse Digital, we make sure your brand stands out in the endless feed. Our social media marketing services blend strategy, creativity and data to create conversations that matter. From relatable content to impactful campaigns, we help you build a community that listens, engages and grows with you. Because on social media, it’s not just about being seen, it’s about being remembered.",
-      ],
-      img: "/04_Social Media Marketing-new.jpg",
-      link: "/services/social-media-marketing",
-    },
-    {
-      n: "08",
-      title: "Employer Branding",
-      points: [
-        "A strong employer brand doesn’t just attract talent, it inspires it. Our employer branding services help organizations shape how people see, feel and experience their workplace. From defining your EVP to building authentic storytelling that reflects your culture, we turn your employees into brand ambassadors and your company into a talent magnet. Through strategy, design and communication, we craft a brand narrative that resonates both inside and outside the organization. Because when people believe in where they work, they help the world believe in it too.",
-      ],
-      img: "/05_Employer Branding-new.jpg",
-      link: "/services/employer-branding-agency",
-    },
-    {
-      n: "09",
-      title: "Branding",
-      points: [
-        "A brand is more than just a logo, it is the feeling people associate with your name. Through our corporate branding services, we help you create that emotion by shaping how your audience perceives and connects with your business. From uncovering your core values to crafting a powerful visual and verbal identity, every detail is designed to make your brand stand apart. We blend strategy with creativity to build a consistent and lasting impression across every touchpoint. When your brand feels authentic, it does not just capture attention, it earns trust.",
-      ],
-      img: "/08_Branding-new.jpg",
-      link: "/services/branding-creative-services",
-    },
-  ];
-
-  // Desktop: active sticky card (same IntersectionObserver logic)
-  useEffect(() => {
-    const container = stackRef.current;
-    if (!container) return;
-    const cards = Array.from(container.querySelectorAll(".card"));
-
-    const io = new IntersectionObserver(
-      (entries) => {
-        const visible = entries
-          .filter((e) => e.isIntersecting)
-          .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
-        cards.forEach((c) => c.classList.remove("is-active"));
-        if (visible) visible.target.classList.add("is-active");
-      },
-      { threshold: [0.55, 0.75] }
-    );
-
-    cards.forEach((c) => io.observe(c));
-    return () => io.disconnect();
-  }, []);
-
-  // Mobile slider: arrows + swipe — with dots sync
-  useEffect(() => {
-    const slider = sliderRef.current;
-    const track = trackRef.current;
-    const prevBtn = prevBtnRef.current;
-    const nextBtn = nextBtnRef.current;
-    if (!slider || !track || !prevBtn || !nextBtn) return;
-
-    let idx = 0;
-    const slideW = () => slider.clientWidth;
-
-    const go = (i) => {
-      const max = data.length - 1;
-      idx = Math.max(0, Math.min(i, max));
-      track.style.transform = `translateX(${-idx * slideW()}px)`;
-      prevBtn.disabled = idx === 0;
-      nextBtn.disabled = idx === max;
-      setSlide(idx);
-    };
-
-    const onResize = () => go(idx);
-    window.addEventListener("resize", onResize);
-
-    const onPrev = () => go(idx - 1);
-    const onNext = () => go(idx + 1);
-    prevBtn.addEventListener("click", onPrev);
-    nextBtn.addEventListener("click", onNext);
-
-    // swipe/drag
-    let startX = 0,
-      curX = 0,
-      dragging = false;
-
-    const onDown = (e) => {
-      dragging = true;
-      startX = e.clientX;
-      track.style.transition = "none";
-    };
-
-    const onMove = (e) => {
-      if (!dragging) return;
-      curX = e.clientX;
-      const dx = curX - startX;
-      track.style.transform = `translateX(${-idx * slideW() + dx}px)`;
-    };
-
-    const onUp = () => {
-      if (!dragging) return;
-      dragging = false;
-      track.style.transition = "transform .35s ease";
-      const dx = curX - startX;
-      if (Math.abs(dx) > 60) go(idx + (dx < 0 ? 1 : -1));
-      else go(idx);
-      startX = 0;
-      curX = 0;
-    };
-
-    track.addEventListener("pointerdown", onDown);
-    window.addEventListener("pointermove", onMove);
-    window.addEventListener("pointerup", onUp);
-
-    go(0);
-
-    return () => {
-      window.removeEventListener("resize", onResize);
-      prevBtn.removeEventListener("click", onPrev);
-      nextBtn.removeEventListener("click", onNext);
-      track.removeEventListener("pointerdown", onDown);
-      window.removeEventListener("pointermove", onMove);
-      window.removeEventListener("pointerup", onUp);
-    };
-  }, [data.length]);
-
-  // dots click helper
-  const goTo = (i) => {
-    const slider = sliderRef.current;
-    const track = trackRef.current;
-    if (!slider || !track) return;
-    const max = data.length - 1;
-    const index = Math.max(0, Math.min(i, max));
-    const w = slider.clientWidth;
-    setSlide(index);
-    track.style.transition = "transform .35s ease";
-    track.style.transform = `translateX(${-index * w}px)`;
-  };
+  const current = data[active];
 
   return (
     <>
       <style>{`
-        *{box-sizing:border-box;margin:0;padding:0}
-        img{display:block;max-width:100%;height:auto;}
-
-        .wrap{max-width:100%;margin:auto;position:relative;background:var(--bg);padding:4rem 6rem}
-
-        .eyebrow{font-size:20px;letter-spacing:.02em;color:#b7b9c9;margin-bottom:4px;opacity:.85}
-        .h1{font-size:56px;font-weight:800;line-height:1.05;margin-bottom:36px}
-
-        /* ---------- DESKTOP (unchanged sticky effect) ---------- */
-        .stack{display:grid;grid-template-columns:1fr auto;gap:18px}
-        .section{min-height:100vh;display:flex;align-items:center;justify-content:center}
-        .card{
-          min-height:600px; position:sticky; top:64px;
-          display:flex; align-items:flex-start; justify-content:space-between; gap:42px;
-          width:100%; background:#020018;
-          border-radius:var(--radius); padding:180px 10px 0px; box-shadow:var(--shadow);
-          transition:transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+        .svc-tab {
+          position: relative;
+          cursor: pointer;
+          transition: all 0.3s cubic-bezier(0.16,1,0.3,1);
+          border-bottom: 1px solid rgba(255,255,255,0.06);
         }
-        .card.is-active{transform:scale(1.01);border:none;}
-        .num{flex:0 0 72px;font-weight:700;font-size:42px;letter-spacing:.02em;line-height:1;color:#fff;margin-top:6px}
-        .copy{flex:1 1 auto;width:300px;padding-right:10px}
-        .copy h3{font-size:40px;font-weight:700;letter-spacing:.01em;margin-bottom:18px}
-        .copy ul{list-style:none;display:grid;gap:16px}
-        .copy li{font-size:18px;color:#e9eaf5;padding-left:0px;position:relative}
-        .copy li::before{content:none;position:absolute;left:0;top:.68em;width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.8)}
-        .visual{flex:0 0 420px;display:flex;justify-content:flex-end}
-        .shot{width:420px;height:340px;overflow:hidden;border-radius:32px;position:relative;background:linear-gradient(180deg,rgba(255,255,255,.04),transparent)}
-        .shot img{width:100%;height:100%;object-fit:cover;border-radius:32px}
+        .svc-tab:first-child { border-top: 1px solid rgba(255,255,255,0.06); }
 
-        /* Make the title area sticky */
-        .wrap > .top-0{
-          position: sticky;
-          top: 0;
-          z-index: 99;
-          background: #020018;
+        .svc-tab-bar {
+          position: absolute;
+          left: 0; top: 0; bottom: 0;
+          width: 3px;
+          background: transparent;
+          transition: background 0.3s ease;
+          border-radius: 0 2px 2px 0;
         }
+        .svc-tab.is-active .svc-tab-bar { background: ${PURPLE}; }
 
-        /* Draw a thin HR right under the title block */
-        .wrap > .top-0::after{
-          content: "";
-          display: block;
-          height: 1px;
+        .svc-tab-num {
+          font-size: 11px;
+          font-weight: 600;
+          letter-spacing: 0.15em;
+          color: rgba(255,255,255,0.2);
+          transition: color 0.3s ease;
+        }
+        .svc-tab.is-active .svc-tab-num { color: ${PURPLE}; }
+
+        .svc-tab-title {
+          font-size: clamp(18px, 2vw, 26px);
+          font-weight: 700;
+          color: rgba(255,255,255,0.3);
+          transition: color 0.3s ease;
+          font-family: 'Space Grotesk', sans-serif;
+          line-height: 1.1;
+        }
+        .svc-tab.is-active .svc-tab-title { color: #ffffff; }
+
+        .svc-tab-label {
+          font-size: 10px;
+          letter-spacing: 0.18em;
+          text-transform: uppercase;
+          color: rgba(255,255,255,0.2);
+          transition: color 0.3s ease;
+        }
+        .svc-tab.is-active .svc-tab-label { color: rgba(255,255,255,0.45); }
+
+        .svc-img-wrap {
+          position: relative;
           width: 100%;
-          margin-top: 40px;
-          background: rgba(255,255,255,0.15);
+          aspect-ratio: 4/3;
+          border-radius: 28px;
+          overflow: hidden;
         }
-
-        /* Ensure the eyebrow line is visible */
-        .wrap > .top-0 span:first-child{
+        .svc-img-wrap img {
+          width: 100%; height: 100%;
+          object-fit: cover;
           display: block;
-          color: rgba(255,255,255,0.72) !important;
-          margin-bottom: 4px;
+        }
+        .svc-img-overlay {
+          position: absolute;
+          inset: 0;
+          background: linear-gradient(180deg, transparent 35%, rgba(2,0,24,0.8) 100%);
         }
 
-        /* ---------- MOBILE SLIDER ---------- */
-        .mobile-slider{display:none}
-
-        @media (max-width:980px){
-          .py-8{padding-top:3rem;}
-          .wrap{padding:2.8rem 1.25rem}
-          .stack{display:none}
-          .mobile-slider{display:block;position:relative;overflow:hidden}
-          .track{display:flex;will-change:transform;transition:transform .35s ease}
-          .mcard{
-            flex:0 0 100%;
-            background:var(--card);
-            border-radius:var(--radius);
-            padding: 45px 0px 20px 10px;
-            min-height: calc(85vh - 190px);
-            display:flex;flex-direction:column;gap:18px;
-            box-shadow:var(--shadow);
-          }
-          .m-num{font-size:16px;font-weight:400; line-height: 0px;}
-          .m-title{font-size:20px;font-weight:700}
-          .m-list{list-style:none;display:grid;gap:12px}
-          .m-list li{font-size:16px;color:#e9eaf5;padding-left:0px;position:relative}
-          .m-list li::before{content:none;position:absolute;left:0;top:.58em;width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.8)}
-          .m-shot{width:100%;border-radius:20px;overflow:hidden}
-          .m-shot img{width:100%;height:auto;border-radius:20px}
-
-          /* ✅ clamp to 2 lines (mobile only) */
-          .line-clamp-2{
-            display:-webkit-box;
-            -webkit-line-clamp:2;
-            -webkit-box-orient:vertical;
-            overflow:hidden;
-          }
-          .line-clamp-none{
-            display:block;
-            overflow:visible;
-          }
-
-          .mnav{
-            position:relative;left:0;right:0;bottom:20px;
-            display:flex;justify-content:center;gap:12px;pointer-events:none;
-          }
-          .navbtn{
-            pointer-events:auto;
-            width:50px;height:50px;border-radius:999px;border:1px solid rgba(255,255,255,.25);
-            background:#ffffff;
-            display:grid;place-items:center;backdrop-filter:blur(4px);
-          }
-          .navbtn svg{width:50px;height:50px}
-          .navbtn.next{background:var(--accent);border-color:var(--accent)}
-          .navbtn[disabled]{opacity:1}
-
-          .wrap > .top-0{
-            position: relative;
-            top: 0;
-            z-index: 99;
-            background: var(--bg);
-          }
+        @media (max-width: 900px) {
+          .svc-desktop { display: none !important; }
+          .svc-mobile  { display: flex !important; }
+        }
+        @media (min-width: 901px) {
+          .svc-desktop { display: grid !important; }
+          .svc-mobile  { display: none !important; }
         }
 
-        /* extra responsive tweaks */
-        @media (max-width:1100px){
-          .visual{flex:0 0 440px}
-          .shot{width:440px;height:290px}
-          .copy h3{font-size:34px}
+        /* ── Mobile Peek Slider ── */
+        .svc-scroll-track {
+          display: flex;
+          overflow-x: scroll;
+          scroll-snap-type: x mandatory;
+          -webkit-overflow-scrolling: touch;
+          scroll-behavior: smooth;
+          gap: 14px;
+          padding: 0 20px 8px;
+          scrollbar-width: none;
+        }
+        .svc-scroll-track::-webkit-scrollbar { display: none; }
+        .svc-card-snap {
+          flex: 0 0 82%;
+          scroll-snap-align: center;
+          min-width: 0;
         }
       `}</style>
 
@@ -356,170 +148,243 @@ const ServicesSection = () => {
         className="relative w-full bg-[#020018]"
         id="sec-border"
         data-section="services"
+        style={{
+          position: "relative",
+          zIndex: 10,
+          marginTop: "-55px",
+          borderTopLeftRadius: "55px",
+          borderTopRightRadius: "55px",
+          overflow: "hidden"
+        }}
       >
-        <div className="wrap">
-          {/* Fixed/Sticky Header */}
-          <div className="top-0 w-full lg:py-8 sm:py-40 md:py-[60px] z-50">
-            <div className="mx-auto relative">
-              <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
-                <span className="text-[#ffffffb2]  lg:text-[34px] sm:text-[16px]">
-                  Every goal needs a roadmap
-                </span>
-
-                <span className="font-bold text-[#ffffff] lg:text-[52px] md:text-[52px] sm:text-[26px]">
-                  We've got yours!
-                </span>
+        {/* ── Header ─────────────────────────────── */}
+        <div className="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-20 pt-20 pb-14">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+            viewport={{ once: true }}
+            className="flex flex-col md:flex-row md:items-end md:justify-between gap-6"
+          >
+            <div>
+              <h2
+                className="font-['DM_Sans'] font-normal text-white leading-tight"
+                style={{ fontSize: "clamp(32px, 4.5vw, 60px)" }}
+              >
+                Three ways growth leaders
+                <br />
+                <span className="font-bold text-[#543d98]">work with us.</span>
               </h2>
             </div>
-          </div>
+          </motion.div>
+        </div>
 
-          {/* DESKTOP: sticky stack */}
-          <div className="stack" id="stack" ref={stackRef}>
+        {/* ── DESKTOP: Split-screen ──────────────── */}
+        <div
+          className="svc-desktop max-w-[1400px] mx-auto px-6 md:px-12 lg:px-20 pb-24"
+          style={{ gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "start" }}
+        >
+          {/* Left — hover tab list */}
+          <div>
             {data.map((s, i) => (
-              <React.Fragment key={s.n}>
-                <article className="card  mx-auto" data-index={i}>
-                  <div className="num">{s.n}</div>
-                  <div className="copy">
-                    <h3 className="w-full lg:w-[340px] [font-family:'Space Grotesk', sans-serif] font-semibold text-white text-[28px] lg:text-[35px] leading-[32px] lg:leading-[40px]">
-                      <a href={s.link}>{s.title}</a>
-                    </h3>
-                    <ul>{s.points.map((p) => <li key={p}>{p}</li>)}</ul>
-                  </div>
-                  <div className="visual ">
-                    <div className="shot">
-                      <a href={s.link}>
-                        <img src={s.img} alt={s.title} />
-                      </a>
-                    </div>
-                  </div>
+              <div
+                key={s.title}
+                className={`svc-tab pl-8 pr-6 py-8 ${active === i ? "is-active" : ""}`}
+                onMouseEnter={() => setActive(i)}
+              >
+                <div className="svc-tab-bar" />
 
-                  <div className="group flex w-60 items-start justify-center lg:justify-end pt-2 lg:pt-[7px]">
-                    <a href={s.link}>
-                      <img
-                        src="/Arrow.png"
-                        alt="Arrow"
-                        className="w-[56px] lg:w-[80px] object-contain transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
-                      />
-                    </a>
-                  </div>
-                </article>
-                <div style={{ height: "1px", visibility: "hidden" }} />
-              </React.Fragment>
+                <div className="flex items-center gap-3 mb-2">
+                  <span className="svc-tab-num">{s.index}</span>
+                  <span className="svc-tab-label">{s.label}</span>
+                </div>
+                <div className="svc-tab-title">{s.title}</div>
+
+                {/* Expandable on hover */}
+                <AnimatePresence initial={false}>
+                  {active === i && (
+                    <motion.div
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: "auto", opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
+                      className="overflow-hidden"
+                    >
+                      <p className="text-white/50 text-[15px] leading-relaxed mt-4 mb-5">
+                        {s.description}
+                      </p>
+                      <div className="flex flex-wrap gap-2">
+                        {s.tags.map((tag) => (
+                          <span
+                            key={tag}
+                            className="px-3 py-1 text-[11px] uppercase tracking-wider rounded-full border font-semibold border-white/30 text-white/70"
+                          >
+                            {tag}
+                          </span>
+                        ))}
+                      </div>
+                      {/* CTA */}
+                      <div className="mt-6">
+                        <Link
+                          to={s.link}
+                          className="group inline-flex items-center gap-3 bg-[#543d98] text-white font-bold text-[13px] px-6 py-3 rounded-xl hover:bg-white hover:text-[#543d98] transition-all duration-300"
+                        >
+                          {s.cta}
+                          <img
+                            src="/vector-1-3.svg"
+                            alt="Arrow"
+                            className="w-4 h-4 brightness-0 invert transition-all duration-300 group-hover:rotate-45 group-hover:invert-0 pointer-events-none"
+                          />
+                        </Link>
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
             ))}
           </div>
 
-          {/* MOBILE: horizontal slider */}
-          <div className="mobile-slider" id="mobileSlider" ref={sliderRef}>
-            <div className="track" id="mobileTrack" ref={trackRef}>
-              {data.map((s, i) => (
-                <div className="mcard" key={`m-${s.n}`}>
-                  <div className="m-num text-white">{s.n}</div>
-
-                  <a href={s.link} className="m-title text-white block">
-                    {s.title}
-                  </a>
-
-                  {/* ✅ Mobile content with Read more / Read less (2-line clamp) */}
-                  <ul className="m-list">
-                    {s.points.map((p) => (
-                      <li
-                        key={`m-${s.n}-${p}`}
-                        className={expanded[i] ? "line-clamp-none" : "line-clamp-2"}
-                      >
-                        {p}
-                      </li>
-                    ))}
-                  </ul>
-
-                  <button
-                    type="button"
-                    onClick={() => toggleRead(i)}
-                    className="mt-1 text-sm font-medium text-[#8b7cf6] w-fit"
+          {/* Right — sticky image panel */}
+          <div style={{ position: "sticky", top: "100px" }}>
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={current.title}
+                initial={{ opacity: 0, y: 24, scale: 0.97, filter: "blur(12px)" }}
+                animate={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }}
+                exit={{ opacity: 0, y: -16, scale: 0.97, filter: "blur(8px)" }}
+                transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1] }}
+              >
+                {/* Label */}
+                <div className="flex items-center gap-4 mb-5">
+                  <span
+                    className="text-[11px] font-bold uppercase tracking-[0.2em] px-3 py-1 rounded-full"
+                    style={{ backgroundColor: `${PURPLE}25`, color: PURPLE }}
                   >
-                    {expanded[i] ? "Read less" : "Read more"}
-                  </button>
+                    {current.label}
+                  </span>
+                  <span className="text-white/20 text-[12px] font-mono">{current.index} / 03</span>
+                </div>
 
-                  <div className="m-shot">
-                    <a href={s.link}>
-                      <img src={s.img} alt={s.title} />
-                    </a>
+                {/* Image */}
+                <div className="svc-img-wrap">
+                  <img src={current.img} alt={current.title} />
+                  <div className="svc-img-overlay" />
+                  <div className="absolute bottom-0 left-0 right-0 p-7">
+                    <p
+                      className="text-[11px] uppercase tracking-[0.18em] font-semibold mb-2"
+                      style={{ color: PURPLE }}
+                    >
+                      {current.tagline}
+                    </p>
+                    <h3 className="text-white font-['Space_Grotesk'] font-bold text-[28px] leading-tight">
+                      {current.title}
+                    </h3>
                   </div>
                 </div>
-              ))}
-            </div>
 
-            <center>
-              <div className="flex items-center justify-center gap-2 mb-5">
-                {data.map((_, i) => (
-                  <button
-                    key={i}
-                    aria-label={`Go to slide ${i + 1}`}
-                    onClick={() => goTo(i)}
-                    className={`h-2 rounded-full transition-all ${
-                      slide === i ? "w-5 bg-[#543d98]" : "w-2 bg-[#D1D5DB]"
-                    }`}
-                  />
-                ))}
-              </div>
-            </center>
-            <br />
-
-            <div className="mnav">
-              <Button
-                className="navbtn prev group w-15 h-15 rounded-full border-2 border-[#543d98] bg-white flex items-center justify-center group transition-all duration-300 hover:bg-[#f5f5f5] hover:border-[#543d98]"
-                id="prevBtn"
-                ref={prevBtnRef}
-                aria-label="Previous"
-              >
-                <img
-                  src="/left-arrow.png"
-                  alt="Previous"
-                  className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
-                />
-              </Button>
-
-              <Button
-                className="navbtn next group w-15 h-15 rounded-full border-2 border-[#EAEAEA] bg-[#543d98] flex items-center justify-center group transition-all duration-300"
-                id="nextBtn"
-                ref={nextBtnRef}
-                aria-label="Next"
-              >
-                <img
-                  src="/right-arrow.png"
-                  alt="Next"
-                  className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
-                />
-              </Button>
-            </div>
+                {/* Progress dots */}
+                <div className="flex items-center gap-2 mt-5 justify-center">
+                  {data.map((_, idx) => (
+                    <div
+                      key={idx}
+                      className="rounded-full transition-all duration-300"
+                      style={{
+                        width: active === idx ? "28px" : "6px",
+                        height: "6px",
+                        backgroundColor: active === idx ? PURPLE : "rgba(255,255,255,0.15)",
+                      }}
+                    />
+                  ))}
+                </div>
+              </motion.div>
+            </AnimatePresence>
           </div>
         </div>
 
-        <div className="relative h-[80px] md:h-[100px] w-full">
-          {/* Purple Strip */}
-          <div className="absolute sm:top-[30px] lg:top-[20px] left-0 w-[100%] h-[80px] md:h-[100px] bg-[#6A0DAD] transform -skew-y-3 origin-top-left overflow-hidden -translate-x-[10%] z-0">
-            <div className="flex items-center h-full animate-marquee whitespace-nowrap">
-              <div className="flex items-center gap-6 md:gap-8 md:px-8">
-                {[...Array(3)].map((_, setIndex) => (
-                  <React.Fragment key={`purple-set-${setIndex}`}>
-                    {services.map((service, index) => (
-                      <React.Fragment key={`purple-${setIndex}-${index}`}>
-                        <span className="[font-family:'DM_Sans',Helvetica] font-semibold text-white text-2xl md:text-4xl lg:text-5xl whitespace-nowrap">
-                          {service}
+        {/* ── MOBILE: Peek Slider ─────────────────── */}
+        <div className="svc-mobile flex-col pb-10">
+          {/* Swipe hint */}
+          <p className="text-white/30 text-[11px] uppercase tracking-[0.15em] text-center mb-4 px-5">
+            Swipe to explore
+          </p>
+
+          {/* Scroll container */}
+          <div
+            className="svc-scroll-track"
+            id="svc-mobile-track"
+            onScroll={(e) => {
+              const el = e.currentTarget;
+              const cardW = el.scrollWidth / data.length;
+              const idx = Math.round(el.scrollLeft / cardW);
+              const dots = document.querySelectorAll(".svc-dot");
+              dots.forEach((d, i) => {
+                (d as HTMLElement).style.width = i === idx ? "24px" : "6px";
+                (d as HTMLElement).style.backgroundColor =
+                  i === idx ? PURPLE : "rgba(255,255,255,0.2)";
+              });
+            }}
+          >
+            {data.map((s) => (
+              <div key={`m-${s.title}`} className="svc-card-snap">
+                <div
+                  className="rounded-3xl overflow-hidden h-full"
+                  style={{ border: `1px solid rgba(255,255,255,0.08)`, background: "rgba(255,255,255,0.03)" }}
+                >
+                  {/* Image */}
+                  <div className="relative overflow-hidden" style={{ aspectRatio: "16/9" }}>
+                    <img src={s.img} alt={s.title} className="w-full h-full object-cover" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#020018] via-transparent to-transparent" />
+                    <span className="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-[0.15em] px-3 py-1 rounded-full text-white/70 border border-white/20">
+                      {s.label}
+                    </span>
+                  </div>
+
+                  {/* Content */}
+                  <div className="p-5">
+                    <p className="text-white/35 text-[10px] uppercase tracking-wider font-semibold mb-2">{s.tagline}</p>
+                    <h3 className="font-['Space_Grotesk'] font-bold text-white text-[22px] leading-tight mb-3">{s.title}</h3>
+                    <p className="text-white/50 text-[13px] leading-relaxed mb-4">{s.description}</p>
+                    <div className="flex flex-wrap gap-2">
+                      {s.tags.map((tag) => (
+                        <span key={tag} className="px-3 py-1 text-[10px] uppercase tracking-wider rounded-full border border-white/20 text-white/60 font-semibold">
+                          {tag}
                         </span>
-                        <img
-                          className="w-[20px] h-[20px] md:w-[30px] md:h-[30px] lg:w-[40px] lg:h-[40px] mx-2 md:mx-4"
-                          alt="Vector"
-                          src="https://www.theimpulsedigital.com/vector-6.png"
-                        />
-                      </React.Fragment>
-                    ))}
-                  </React.Fragment>
-                ))}
+                      ))}
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
+            ))}
           </div>
 
-          {/* Black Strip */}
+          {/* Nav buttons */}
+          <div className="flex items-center justify-center gap-4 mt-6 pb-4 px-5">
+            <button
+              type="button"
+              onClick={() => {
+                const track = document.getElementById("svc-mobile-track");
+                if (track) track.scrollBy({ left: -track.clientWidth * 0.82, behavior: "smooth" });
+              }}
+              className="group w-12 h-12 rounded-full border-2 border-[#543d98] bg-white flex items-center justify-center transition-all duration-300 hover:bg-[#f5f5f5] active:scale-90"
+              style={{ touchAction: "manipulation" }}
+              aria-label="Previous"
+            >
+              <img src="/left-arrow.png" alt="Previous" className="w-4 h-4 pointer-events-none transition-transform duration-300 group-hover:rotate-45" />
+            </button>
+
+            <button
+              type="button"
+              onClick={() => {
+                const track = document.getElementById("svc-mobile-track");
+                if (track) track.scrollBy({ left: track.clientWidth * 0.82, behavior: "smooth" });
+              }}
+              className="group w-12 h-12 rounded-full bg-[#543d98] flex items-center justify-center transition-all duration-300 active:scale-90"
+              style={{ touchAction: "manipulation" }}
+              aria-label="Next"
+            >
+              <img src="/right-arrow.png" alt="Next" className="w-4 h-4 pointer-events-none transition-transform duration-300 group-hover:rotate-45" />
+            </button>
+          </div>
         </div>
       </section>
     </>

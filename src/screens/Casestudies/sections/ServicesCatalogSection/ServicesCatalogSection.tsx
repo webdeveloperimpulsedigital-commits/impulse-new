@@ -156,6 +156,7 @@ const caseStudiesData = [
     tall: true,
     corner: false,
     link: "/casestudies/amazon-eb/",
+    outcome: "1.2M+ views and 9.5M+ impressions on the Unplugged leadership podcast series."
   },
   {
     id: 2,
@@ -165,8 +166,8 @@ const caseStudiesData = [
     tall: false,
     corner: true,
     link: "/casestudies/crafting-the-employer-value-proposition-for-amazon-india/",
+    outcome: "Employer Value Proposition designed from scratch through qualitative research across functions, levels, and locations."
   },
-  
   {
     id: 3,
     title: "A Force For Good",
@@ -174,9 +175,8 @@ const caseStudiesData = [
     tags: ["Packaging"],
     tall: true,
     corner: false,
-    link: "/casestudies/aforceforgood/",
+    link: "/casestudies/aforceforgood/"
   },
-
   {
     id: 4,
     title: "A Force for Good - BRUT INDIA",
@@ -185,8 +185,8 @@ const caseStudiesData = [
     tall: false,
     corner: true,
     link: "/casestudies/brutindia/",
+    outcome: "Social impact content partnership for one of India's most-watched digital publishers."
   },
-
   {
     id: 5,
     title: "Grasim Pulp and Fibre",
@@ -195,10 +195,8 @@ const caseStudiesData = [
     tall: true,
     corner: false,
     link: "/casestudies/grasim-pulp-and-fibre/",
+    outcome: "959K impressions on a single LinkedIn post. 31% engagement rate, 29% CTR."
   },
-
-
-
   {
     id: 6,
     title: "Aditya Birla Group - Fours for Good",
@@ -207,7 +205,7 @@ const caseStudiesData = [
     tall: false,
     corner: true,
     link: "/casestudies/fourseforgood/",
-    
+    outcome: "Social impact narrative for one of India's largest conglomerates."
   },
   {
     id: 7,
@@ -217,6 +215,7 @@ const caseStudiesData = [
     tall: true,
     corner: false,
     link: "/casestudies/hul/",
+    outcome: "Geo-targeted digital coupon campaign delivering 90% higher CTR and 12,548 landing page sessions."
   },
   {
     id: 8,
@@ -226,6 +225,7 @@ const caseStudiesData = [
     tall: false,
     corner: false,
     link: "/casestudies/automag-india/",
+    outcome: "B2B leads grew from 1 to 2 per month to 45 to 50 per month in under 4 months."
   },
   {
     id: 9,
@@ -235,6 +235,7 @@ const caseStudiesData = [
     tall: true,
     corner: true,
     link: "/casestudies/atrac-engine-parts/",
+    outcome: "(Outcome line to be confirmed by Adwait — not yet scraped.)"
   },  
   {
     id: 10,
@@ -244,6 +245,7 @@ const caseStudiesData = [
     tall: false,
     corner: false,
     link: "/casestudies/electromech/",
+    outcome: "20x verified leads and 200% more first-page rankings in 6 months for Asia's top 10 crane manufacturer."
   },
   {
     id: 11,
@@ -253,6 +255,7 @@ const caseStudiesData = [
     tall: true,
     corner: true,
     link: "/casestudies/hem/",
+    outcome: "300% more first-page rankings and 5x organic traffic growth across global markets."
   },
   {
     id: 12,
@@ -262,6 +265,7 @@ const caseStudiesData = [
     tall: false,
     corner: false,
     link: "/casestudies/laljee-godhoo/",
+    outcome: "(Outcome line to be confirmed by Adwait — not yet scraped.)"
   },
   {
     id: 13,
@@ -271,6 +275,7 @@ const caseStudiesData = [
     tall: true,
     corner: false,
     link: "/casestudies/mastercard/",
+    outcome: "90.9% merchant response rate through WhatsApp-led cluster-head outreach strategy."
   },
   {
     id: 14,
@@ -280,6 +285,7 @@ const caseStudiesData = [
     tall: false,
     corner: true,
     link: "/casestudies/d-mart/",
+    outcome: "13.43 lakh unique reach and 53K clicks driving store footfall for seasonal retail."
   },
   {
     id: 15,
@@ -289,6 +295,7 @@ const caseStudiesData = [
     tall: true,
     corner: true,
     link: "/casestudies/shree-rubber-works/",
+    outcome: "3,059% impression growth and top 9 keyword rankings in 5 months."
   },
   {
     id: 16,
@@ -298,6 +305,7 @@ const caseStudiesData = [
     tall: false,
     corner: false,
     link: "/casestudies/keva/",
+    outcome: "(Outcome line to be confirmed by Adwait — not yet scraped.)"
   },
   {
     id: 17,
@@ -307,6 +315,7 @@ const caseStudiesData = [
     tall: false,
     corner: true,
     link: "/casestudies/vendiman/",
+    outcome: "First-page rankings within 3 months with 90% of targeted keywords."
   }, 
   {
     id: 18,
@@ -316,6 +325,7 @@ const caseStudiesData = [
     tall: false,
     corner: true,
     link: "/casestudies/rainbow-international-school/",
+    outcome: "(Outcome line to be confirmed by Adwait — not yet scraped.)"
   }, 
   {
     id: 19,
@@ -325,6 +335,7 @@ const caseStudiesData = [
     tall: true,
     corner: false,
     link: "/casestudies/uppercase/",
+    outcome: "A complete brand film produced entirely with AI: script, visuals, voice, and edit."
   }
 ];
 
@@ -408,6 +419,7 @@ export const ServicesCatalogSection = (): JSX.Element => {
     alt: c.title,
     clientName: c.title,
     link: c.link,
+    outcome: c.outcome
   }));
 
   const handleSlideChange = (newIndex: number) => {
@@ -506,7 +518,12 @@ export const ServicesCatalogSection = (): JSX.Element => {
         <img src={caseStudy.image} alt={caseStudy.title} loading="lazy" />
       </div>
       <div className="case-study-meta">
-        <h3 className="case-study-brand">{caseStudy.title}</h3>
+        <h3 className="case-study-brand text-[#030019] font-bold">{caseStudy.title}</h3>
+        {caseStudy.outcome && (
+          <p className="text-[16px] text-[#030019] font-normal mt-2 leading-tight">
+            {caseStudy.outcome}
+          </p>
+        )}
       </div>
     </a>
   );
@@ -533,10 +550,15 @@ export const ServicesCatalogSection = (): JSX.Element => {
 
       {/* Client name below image */}
       <div className="mt-4 text-left ml-1">
-        <a href={currentSlide.link}>
-          <h3 className="font-bold text-[#030019] text-[26px] hover:underline">
+        <a href={currentSlide.link} className="block group">
+          <h3 className="font-bold text-[#030019] text-[26px] group-hover:underline">
             {currentSlide.clientName}
           </h3>
+          {currentSlide.outcome && (
+            <p className="text-[16px] text-[#030019] font-normal mt-1 leading-tight">
+              {currentSlide.outcome}
+            </p>
+          )}
         </a>
       </div>
 

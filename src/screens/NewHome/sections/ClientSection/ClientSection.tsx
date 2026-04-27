@@ -75,8 +75,28 @@ export const ClientsSection = (): JSX.Element => {
   }, []);
 
   return (
-    <section className="relative w-full bg-white overflow-hidden clients-logos" data-section="clients">
-     
+    <section className="relative w-full bg-white overflow-hidden clients-logos" data-section="clients" style={{ position: "relative", zIndex: 1, paddingBottom: "80px" }}>
+      <style>{`
+        @keyframes marqueeLogos {
+          0%   { transform: translateX(0); }
+          100% { transform: translateX(-50%); }
+        }
+        .marquee-track-logos {
+          display: flex;
+          width: max-content;
+          will-change: transform;
+          animation: marqueeLogos 40s linear infinite;
+        }
+        .marquee-track-logos:hover {
+          animation-play-state: paused;
+        }
+        .client-logo {
+          padding: 0.5rem;
+        }
+        @media (prefers-reduced-motion: reduce) {
+          .marquee-track-logos { animation: none; }
+        }
+      `}</style>
 
       {/* Heading */}
       <div className="relative bg-white pt-8 md:pt-16">
@@ -84,20 +104,20 @@ export const ClientsSection = (): JSX.Element => {
           <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between mb-8 md:mb-16">
             <div className="flex flex-col items-start mb-6 lg:mb-0">
               <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
-                <span className="text-[#030019] lg:text-[34px] sm:text-[16px]">Brands</span>
+                <span className="text-[#030019] lg:text-[34px] sm:text-[16px]">Trusted by</span>
                 <br />
                 <span className="font-bold text-[#543d98] lg:text-[49px] md:text-[52px] sm:text-[26px]">
-                  That Trust Our Impulse
+                  marketing teams at
                 </span>
               </h2>
             </div>
 
-            <Button className="w-[180px] h-[44px] group sm:inline-flex items-center gap-2 px-4 py-6 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border-[#543d98] hover:border hover:border-[#543d98]">
+            <Button className="w-auto h-[44px] group sm:inline-flex items-center gap-2 px-4 py-6 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border-[#543d98] hover:border hover:border-[#543d98]">
               <Link
                 to="https://www.theimpulsedigital.com/contact-us"
                 className="[font-family:'DM_Sans',Helvetica] font-bold text-white text-sm md:text-base group-hover:text-[#543d98] transition-colors duration-300"
               >
-                Connect Now
+                Start a conversation
               </Link>
               <img
                 src="https://www.theimpulsedigital.com/button-icon.svg"
@@ -109,7 +129,7 @@ export const ClientsSection = (): JSX.Element => {
         </div>
       </div>
 
-      {/* ✅ DESKTOP GRID (lg and above) — bigger logos */}
+      {/* DESKTOP GRID */}
       <div className="relative bg-white pb-12 hidden lg:block">
         <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-5 gap-8">
@@ -130,18 +150,18 @@ export const ClientsSection = (): JSX.Element => {
         </div>
       </div>
 
-      {/* ✅ MOBILE/TABLET SLIDER (below lg) — with border only here */}
-      <div className="relative overflow-hidden group m-0 p-0 lg:hidden">
-        <div className="flex marquee-track-logos group-hover:[animation-play-state:paused]">
+      {/* MOBILE/TABLET SLIDER */}
+      <div className="relative overflow-hidden m-0 p-0 pb-8 lg:hidden">
+        <div className="marquee-track-logos">
           {[...Array(2)].map((_, setIndex) => (
             <div key={`logo-set-${setIndex}`} className="flex items-center flex-shrink-0">
               {logos.map((logo, index) => (
                 <div
                   key={`logo-${setIndex}-${index}`}
-                  className="flex-shrink-0 w-[130px] h-[90px] md:w-[180px] md:h-[120px] lg:w-[220px] lg:h-[140px] bg-white flex items-center justify-center client-logo"
+                  className="flex-shrink-0 w-[120px] h-[80px] md:w-[160px] md:h-[110px] bg-white flex items-center justify-center client-logo mx-2"
                 >
                   <img
-                    className="max-w-[92%] max-h-[92%] object-contain"
+                    className="max-w-[85%] max-h-[85%] object-contain"
                     alt={logo.name}
                     src={logo.src}
                   />
@@ -149,10 +169,8 @@ export const ClientsSection = (): JSX.Element => {
               ))}
             </div>
           ))}
-        </div><br></br><br></br>
+        </div>
       </div>
-
-     <br></br><br></br>
     </section>
   );
 };

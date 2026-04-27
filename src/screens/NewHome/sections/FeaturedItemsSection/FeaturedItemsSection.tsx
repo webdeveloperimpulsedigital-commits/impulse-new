@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useRef } from "react";
 import { Helmet } from "react-helmet-async";
 import { JsonLd } from "react-schemaorg";
 import Header from "../../../../components/layout/Header";
+import ShimmerText from "../../../../components/ui/shimmer-text";
 
 export const FeaturedItemsSection = (): JSX.Element => {
+  const videoRef = useRef<HTMLDivElement>(null);
+
+  const scrollToVideo = () => {
+    videoRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+
   const heroTextLines = [
     "Most marketing decisions",
     "are made without the most",
@@ -246,31 +253,38 @@ export const FeaturedItemsSection = (): JSX.Element => {
             
             {/* Left Side: Play Button Area */}
             <div className="col-span-1 lg:col-span-3 flex flex-row items-center gap-4">
-              <button className="w-12 h-12 lg:w-14 lg:h-14 rounded-full border border-white/20 flex items-center justify-center hover:bg-white/10 transition-colors duration-300 group">
+              <button 
+                onClick={scrollToVideo}
+                className="w-12 h-12 lg:w-14 lg:h-14 rounded-full border border-white/20 flex items-center justify-center hover:bg-white/10 transition-colors duration-300 group cursor-pointer"
+              >
                 <svg className="w-3 h-3 lg:w-4 lg:h-4 text-white ml-1 opacity-70 group-hover:opacity-100 transition-opacity" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M8 5v14l11-7z" />
                 </svg>
               </button>
-              <div className="flex flex-col text-white/90 text-[10px] lg:text-xs uppercase tracking-[0.15em] font-medium">
-                <span className="underline underline-offset-4 mb-1 hover:text-white/60 cursor-pointer transition-colors">Watch</span>
-                <span className="underline underline-offset-4 hover:text-white/60 cursor-pointer transition-colors">Showreel</span>
+              <div 
+                onClick={scrollToVideo}
+                className="flex flex-col text-white/90 text-[10px] lg:text-xs uppercase tracking-[0.15em] font-medium cursor-pointer"
+              >
+                <span className="underline underline-offset-4 mb-1 hover:text-white/60 transition-colors">Watch</span>
+                <span className="underline underline-offset-4 hover:text-white/60 transition-colors">Showreel</span>
               </div>
-              <span className="text-white/40 text-[10px] lg:text-xs ml-2 font-mono">00:36</span>
             </div>
 
             {/* Center Area: Title & Paragraph */}
             <div className="col-span-1 lg:col-span-8 flex flex-col items-start text-left">
               {/* Main Heading */}
               <h1
-                className="font-dm-sans font-medium text-white text-[22px] sm:text-[28px] md:text-[32px] lg:text-[40px]
+                className="font-dm-sans font-medium text-[22px] sm:text-[28px] md:text-[32px] lg:text-[40px]
                     xl:text-[44px] lg:leading-[1.2] xl:leading-[1.2] tracking-tight mb-4 max-w-[800px]"
               >
-                {heroTextLines.map((line, index) => (
-                  <span key={index}>
-                    {line}
-                    <br />
-                  </span>
-                ))}
+                <ShimmerText className="text-white">
+                  {heroTextLines.map((line, index) => (
+                    <span key={index}>
+                      {line}
+                      <br />
+                    </span>
+                  ))}
+                </ShimmerText>
               </h1>
 
               {/* Description */}
@@ -301,7 +315,11 @@ export const FeaturedItemsSection = (): JSX.Element => {
           </div>
 
           {/* Full Width Video Section */}
-          <div className="w-full relative h-[400px] sm:h-[500px] md:h-[600px] lg:h-[750px] mt-8 lg:mt-12 bg-[#020018]">
+          <div 
+            ref={videoRef}
+            className="w-full relative mt-8 lg:mt-12 bg-[#020018]" 
+            style={{ aspectRatio: "16/9", minHeight: "400px" }}
+          >
             <video
               className="absolute inset-0 w-full h-full object-cover"
               autoPlay
@@ -314,7 +332,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
               <source src="/impulse-video-new.mp4" type="video/mp4" />
             </video>
           </div>
-
+          
         </div>
       </section>
     </>

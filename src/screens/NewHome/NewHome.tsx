@@ -24,12 +24,12 @@ export const NewHome = (): JSX.Element => {
       <ScrollRevealLogoHome />
       <div className="relative w-full space-y-0">
         <FeaturedItemsSection />
-        <AboutSection />
-         <ZoomGridSection />
+        {/* <AboutSection /> */}
+        {/* <ZoomGridSection /> */}
         <CaseStudiesGrid />
         <ClientsSection/> 
         <ServicesSection />
-        <ScrollingStripsSection />
+        {/* <ScrollingStripsSection /> */}
         <TestimonialsSection />
         <BlogSection />
         <ContactResourcesSection />
