@@ -165,7 +165,7 @@ export const BlogSection = (): JSX.Element => {
             to="/blogs"
             className="[font-family:'DM_Sans',Helvetica] font-bold text-white text-sm group-hover:text-[#543d98] transition-colors duration-300"
           >
-            See All Articles
+            Read our thinking
           </Link>
           <img
             src="/button-icon.svg"
@@ -227,11 +227,11 @@ export const BlogSection = (): JSX.Element => {
           <div className="text-left max-w-2xl">
             <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
               <span className="text-[#030019] lg:text-[34px] sm:text-[16px]">
-                Sharing is
+                From the
               </span>
               <br />
               <span className="font-bold text-[#543d98] lg:text-[49px] md:text-[52px] sm:text-[26px]">
-                How We Grow Together
+                intelligence desk.
               </span>
             </h2>
           </div>
@@ -242,7 +242,7 @@ export const BlogSection = (): JSX.Element => {
                 to="/blogs"
                 className="[font-family:'DM_Sans',Helvetica] font-bold text-white text-sm md:text-base group-hover:text-[#543d98] transition-colors duration-300"
               >
-                See All Articles
+                Read our thinking
               </Link>
               <img
                 src="/button-icon.svg"

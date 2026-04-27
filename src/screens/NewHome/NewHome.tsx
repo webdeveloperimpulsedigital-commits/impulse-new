@@ -19,7 +19,23 @@ import { faqData } from "../../data/faqs";
 export const NewHome = (): JSX.Element => { 
   const faqs = faqData["/"] || [];
   return (
-    <main className="relative w-full min-h-screen">
+    <main className="new-home-page relative w-full min-h-screen">
+      <style>{`
+        .new-home-page h1,
+        .new-home-page h2,
+        .new-home-page h3,
+        .new-home-page h4,
+        .new-home-page h5,
+        .new-home-page h6,
+        .new-home-page h1 *,
+        .new-home-page h2 *,
+        .new-home-page h3 *,
+        .new-home-page h4 *,
+        .new-home-page h5 *,
+        .new-home-page h6 * {
+          font-family: 'Neue Montreal', sans-serif !important;
+        }
+      `}</style>
       <FAQSchema faqs={faqs} />
       <ScrollRevealLogoHome />
       <div className="relative w-full space-y-0">

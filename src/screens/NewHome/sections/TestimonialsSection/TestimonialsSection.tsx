@@ -268,11 +268,11 @@ export const TestimonialsSection = (): JSX.Element => {
         <br></br><br></br>
         <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
           <span className="text-[#030019]  lg:text-[34px] sm:text-[16px]">
-            Testimonial
+            From the teams
           </span>
           <br />
           <span className="font-bold text-[#543d98] lg:text-[49px] md:text-[52px] sm:text-[26px]">
-            Real Client Stories
+            we work with.
           </span>
         </h2>
  
