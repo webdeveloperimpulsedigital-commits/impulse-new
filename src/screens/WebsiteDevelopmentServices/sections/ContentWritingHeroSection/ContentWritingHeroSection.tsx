@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet-async';
 import Header from "../../../../components/layout/Header";
 
 export const ContentWritingHeroSection = (): JSX.Element => {
-  const heroTextLines = ["WEBSITE DEVELOPMENT"];
+  const heroTextLines = ["WEBSITE DESIGN & DEVELOPMENT COMPANY"];
    const schema = {
       "@context": "https://schema.org",
   "@type": "Service",
@@ -33,16 +33,16 @@ export const ContentWritingHeroSection = (): JSX.Element => {
     <> 
       {/* ✅ SEO Meta Tags */}
     <Helmet>
-        <meta name="description" content="Looking for a top website design and development company in thane to create the website suited for your brand image. Our website design and development services do not just focus on a play of words and pictures, rather, we aim at creating an online persona effectively that entices the users to click more and enables them to understand your brand better." />
-        <meta name="keywords" content="website design company in thane, website development company in thane, web design and development" />
+        <meta name="description" content="Impulse Digital is a trusted website development company in Thane delivering fast, scalable, and conversion-focused websites for growing businesses. We are also a leading website design company in Thane creating modern, user-friendly interfaces that enhance engagement & performance." />
+        <meta name="keywords" content="website design company in thane, website development company in thane, web design service, website development service, mumbai, india, impulse digital" />
         <title>Website Design Company in Thane | Website Development | Impulse Digital</title>
         <meta name="robots" content="index, follow" />
         <meta name="revisit-after" content="1 day" />
         <meta name="language" content="English" />
         <meta name="generator" content="N/A" />
         <meta property="og:title" content="Website Design Company in Thane | Website Development | Impulse Digital" />
-        <meta property="og:description" content="Looking for a top website design and development company in thane to create the website suited for your brand image. Our website design and development services do not just focus on a play of words and pictures, rather, we aim at creating an online persona effectively that entices the users to click more and enables them to understand your brand better." />
-        <meta property="og:url" content="https://www.theimpulsedigital.com/services/website-development" />
+        <meta property="og:description" content="Impulse Digital is a trusted website development company in Thane delivering fast, scalable, and conversion-focused websites for growing businesses. We are also a leading website design company in Thane creating modern, user-friendly interfaces that enhance engagement & performance." />
+        <meta property="og:url" content="https://www.theimpulsedigital.com/services/website-development/" />
         <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
         <meta property="og:site_name" content="Impulse Digital" />
         <meta property="og:type" content="website" />
@@ -50,10 +50,10 @@ export const ContentWritingHeroSection = (): JSX.Element => {
         <meta name="twitter:site" content="@impulsedigi" />
         <meta name="twitter:creator" content="@impulsedigi" />
         <meta name="twitter:title" content="Website Design Company in Thane | Website Development | Impulse Digital" />
-        <meta name="twitter:description" content="Looking for a top website design and development company in thane to create the website suited for your brand image. Our website design and development services do not just focus on a play of words and pictures, rather, we aim at creating an online persona effectively that entices the users to click more and enables them to understand your brand better." />
+        <meta name="twitter:description" content="Impulse Digital is a trusted website development company in Thane delivering fast, scalable, and conversion-focused websites for growing businesses. We are also a leading website design company in Thane creating modern, user-friendly interfaces that enhance engagement & performance." />
         <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-        <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/website-development" />
-        <link rel="canonical" href="https://www.theimpulsedigital.com/services/website-development"/>
+        <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/website-development/" />
+        <link rel="canonical" href="https://www.theimpulsedigital.com/services/website-development/"/>
         <script type="application/ld+json">
         {JSON.stringify(schema)}
       </script>
