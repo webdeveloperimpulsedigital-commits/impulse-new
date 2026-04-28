@@ -235,7 +235,7 @@ const ServicesSection = () => {
                   Our Website 
                 </span>
                 <span className="font-bold text-[#ffffff] lg:text-[52px] md:text-[52px] sm:text-[26px]">
-                 Design & Development Service
+                 Design & Development Services
                 </span>
               </h2>
             </div>
