@@ -69,7 +69,6 @@ import { NotFound } from "./screens/NotFound/NotFound";
 import { UppercaseCaseStudy } from "./screens/UppercaseCaseStudy";
 import { SearchEngineOptimizationInMumbai } from "./screens/SearchEngineOptimizationInMumbai";
 import { SearchEngineOptimizationInAiroli } from "./screens/SearchEngineOptimizationInAiroli";
-//import { NewHome1 } from "./screens/new-home-1";
 
 
 export const App = (): JSX.Element => {
