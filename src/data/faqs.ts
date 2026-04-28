@@ -573,7 +573,7 @@ export const faqData: Record<string, FAQItem[]> = {
 "/services/website-development":[
     {
     question: "What does Impulse Digital offer in website design & development services?",
-    answer: "As a full-service website development company, we cover every phase of discovery, information architecture, design, development, content support, testing, launch, and post-launch maintenance. Each step is aligned to your goals such as brand credibility, performance, SEO readiness, and lead conversion. Our website design and development services ensure your digital presence is visually engaging and performance-driven."
+    answer: "As a full-service website development company in Thane, we cover every phase of discovery, information architecture, design, development, content support, testing, launch, and post-launch maintenance. Each step is aligned to your goals such as brand credibility, performance, SEO readiness, and lead conversion. Our website design and development services ensure your digital presence is visually engaging and performance-driven."
   },
   {
     question: "How do you decide on the right platform or CMS for our site?",
@@ -581,15 +581,15 @@ export const faqData: Record<string, FAQItem[]> = {
   },
   {
     question: "How do you ensure fast load times and strong performance?",
-    answer: "Performance is a core part of our web services. We optimize images and code, manage scripts efficiently, implement caching, and follow clean coding standards. Core Web Vitals are tracked during development and post-launch to ensure speed and responsiveness."
+    answer: "Performance is a core part of our website development services. We optimize images and code, manage scripts efficiently, implement caching, and follow clean coding standards. Core Web Vitals are tracked during development and post-launch to ensure speed and responsiveness."
   },
   {
     question: "Will the website be mobile-friendly and cross-browser compatible?",
-    answer: "Absolutely. We follow a mobile-first approach and test across modern browsers and devices. Interfaces are optimized for touch gestures, various screen sizes, and accessibility for a consistent experience across platforms."
+    answer: "Absolutely. As a leading website development company in Thane, we follow a mobile-first approach and test across modern browsers and devices. Interfaces are optimized for touch gestures, various screen sizes, and accessibility for a consistent experience across platforms."
   },
   {
     question: "How do you make the website search-ready at launch?",
-    answer: "We integrate on-page SEO best practices from day one — optimized structure, metadata, internal linking, image alt text, analytics, and Google Search Console setup. XML sitemaps are submitted and guidance is provided for content strategy and organic growth."
+    answer: "We integrate on-page SEO best practices from day one and optimized structure, metadata, internal linking, image alt text, analytics, and Google Search Console setup. XML sitemaps are submitted, and guidance is provided for content strategy and organic growth."
   },
   {
     question: "What is your approach to security and data protection?",
@@ -597,7 +597,7 @@ export const faqData: Record<string, FAQItem[]> = {
   },
   {
     question: "Can you handle content migration and redirects from an existing site?",
-    answer: "Yes. We manage content migration and URL mapping to preserve SEO equity. Redirects are tested to ensure a seamless experience for visitors and search engines."
+    answer: "Yes. As a trusted website design company in Thane, we manage content migration and URL mapping to preserve SEO equity. Redirects are tested to ensure a seamless experience for visitors and search engines."
   },
   {
     question: "Do you provide hosting and domain support?",
