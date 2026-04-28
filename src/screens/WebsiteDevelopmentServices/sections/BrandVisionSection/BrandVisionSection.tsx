@@ -95,10 +95,10 @@ export const BrandVisionSection = (): JSX.Element => {
        <div className="mb-6 lg:mb-8 pt-10">
   <h2 className="[font-family:'DM_Sans',Helvetica] leading-tight">
     <span className="text-[#030019] font-medium lg:text-[34px] sm:text-[16px] block">
-      Websites That Look Good. Load Fast. <br></br>
+      Website Design Company in Thane That <br></br>
     </span>
     <span className="text-[#543d98] font-bold lg:text-[52px] sm:text-[26px] block">
-      Sell Better.
+      Elevates Your Brand Online
     </span>
   </h2>
 </div>
@@ -177,7 +177,7 @@ export const BrandVisionSection = (): JSX.Element => {
         {/* Body Copy */}
         <div className="text-left mb-12">
           <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[12px] lg:text-[24px] text-[#030019]">
-           We design websites that work as beautifully as they look. At Impulse, design meets development to create seamless, high-performing digital experiences. We focus on clarity, speed, and engagement to turn visitors into believers. From structure to storytelling, every element serves your brand’s purpose. Our team ensures your website aligns perfectly with your goals and visual identity. With responsive design and strong functionality, your site becomes your most effective marketing tool. We do not just develop websites, we craft digital experiences that leave a lasting impression.
+           We design websites that work as beautifully as they look. Impulse Digital combines website design and development services to create seamless, high-performing digital experiences tailored to your business goals. We focus on clarity, speed, and engagement to turn visitors into believers. From structure to storytelling, every element supports your brand’s identity and purpose. As a reliable website design company in Thane, our team ensures your website aligns perfectly with your objectives while maintaining strong functionality and responsive performance across devices. We do not just develop websites. We craft digital experiences that leave a lasting impression and support long-term growth.
           </p>
         </div>
       </div>
