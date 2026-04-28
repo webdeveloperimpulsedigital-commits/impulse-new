@@ -7,37 +7,6 @@ export type FAQItem = {
 
 export const faqData: Record<string, FAQItem[]> = {
 
-  "/services/outbound-intelligence-engine": [
-    {
-      question: "What is an ICP Diagnostic?",
-      answer: "A strategy session where we define your ideal buyer. The AI needs precise inputs to deliver precise outputs. This is where we build that foundation."
-    },
-    {
-      question: "How is this different from other outbound agencies?",
-      answer: "Most agencies staff SDR teams who manually prospect, write, and send. Archer replaces that manual layer with AI infrastructure. The output is faster, more precise, and costs less to scale."
-    },
-    {
-      question: "Is the outreach fully automated?",
-      answer: "The AI generates and sequences outreach. A strategist reviews quality and approves deployment. Nothing ships without human oversight."
-    },
-    {
-      question: "How soon do results start?",
-      answer: "Engine build takes two weeks. Live outreach begins week three. First qualified responses typically arrive within the first two to three cycles."
-    },
-    {
-      question: "What if outbound is not right for my business?",
-      answer: "We tell you in the diagnostic. If your ICP, deal size, or sales process does not suit outbound, we say so before building anything."
-    },
-    {
-      question: "What CRM do you support?",
-      answer: "Prospects push directly into your CRM with full tagging and pipeline tracking. Integration is configured during the engine build."
-    },
-    {
-      question: "Do you replace my sales team?",
-      answer: "No. Archer fills the top of your funnel. Your closers still close. They just walk into better, better-informed conversations."
-    }
-  ],
-
 "/new-home": [
   {
     question: "How are you different from a traditional digital marketing agency?",

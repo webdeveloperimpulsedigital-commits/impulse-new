@@ -68,8 +68,8 @@ import { Thankyou } from "./screens/Thankyou";
 import { NotFound } from "./screens/NotFound/NotFound";
 import { UppercaseCaseStudy } from "./screens/UppercaseCaseStudy";
 import { SearchEngineOptimizationInMumbai } from "./screens/SearchEngineOptimizationInMumbai";
-
-
+import { SearchEngineOptimizationInAiroli } from "./screens/SearchEngineOptimizationInAiroli";
+import { NewHome1 } from "./screens/new-home-1";
 
 
 export const App = (): JSX.Element => {
@@ -77,67 +77,70 @@ export const App = (): JSX.Element => {
     <Routes>
       <Route path="/" element={<Main />} />
       <Route path="/new-home" element={<NewHome />} />
+      <Route path="/new-home-1" element={<NewHome1 />} />
       <Route path="/about-us" element={<AboutUs />} />
-      <Route path="/services" element= {<Services/> } />
+      <Route path="/services" element={<Services />} />
       <Route path="/services/content-writing-services" element={<ContentWritingServices />} />
       <Route path="/services/performance-marketing" element={<PayperClickServices />} />
       <Route path="/services/social-media-marketing" element={<SocialMediaMarketingServices />} />
-      
-      
-      <Route path="/services/search-engine-optimization" element={<SearchEngineOptimization />}/>
-      <Route path="/services/search-engine-optimization/enterprise-seo-services" element={<EnterpriseSEOServices />}/>
-      <Route path="/services/search-engine-optimization/ecommerce-seo-services" element={<ECommerceSEOServices />}/>
-      <Route path="/services/search-engine-optimization/b2b-seo-services" element={<B2BSEOServices />}/>
-      <Route path="/services/search-engine-optimization/local-seo-services" element={<LocalSEOServices />}/>
-      <Route path="/services/website-development" element={<WebsiteDevelopmentServices />}/>
-      <Route path="/services/branding-creative-services" element={<BrandingCreativeServices />}/>
-      <Route path="/services/employer-branding-agency" element={<EmployerBrandingServices />}/>
-      <Route path="/services/corporate-communication-agency" element={<CorporateCommunicationServices />}/>
-      <Route path="/services/social-media-video-production" element={<SocialMediaVideoProductionServices />}/>
-      <Route path="/services/search-engine-optimization/ai-seo-agency" element={<AiSeoAgency />} />
-       <Route path="/services/agentic-ai" element={<AiAgenticServices />} /> 
-       <Route path="/services/intelli-pulse" element={<IntelliPulseServices/>}/>
-      <Route path="/services/outbound-intelligence-engine" element={<OutboundIntelligenceEngine />} />
-      <Route path="/services/video-production/ai-video-production" element={<AIVideoProductionServices/>}/>
-       <Route path="/services/video-production" element={<VideoProductionServices />}/>
 
-       <Route path="/services/search-engine-optimization-in-mumbai" element={<SearchEngineOptimizationInMumbai />} />
-      <Route path="/casestudies" element={<Casestudies/>}/>
+
+      <Route path="/services/search-engine-optimization" element={<SearchEngineOptimization />} />
+      <Route path="/services/search-engine-optimization/enterprise-seo-services" element={<EnterpriseSEOServices />} />
+      <Route path="/services/search-engine-optimization/ecommerce-seo-services" element={<ECommerceSEOServices />} />
+      <Route path="/services/search-engine-optimization/b2b-seo-services" element={<B2BSEOServices />} />
+      <Route path="/services/search-engine-optimization/local-seo-services" element={<LocalSEOServices />} />
+      <Route path="/services/website-development" element={<WebsiteDevelopmentServices />} />
+      <Route path="/services/branding-creative-services" element={<BrandingCreativeServices />} />
+      <Route path="/services/employer-branding-agency" element={<EmployerBrandingServices />} />
+      <Route path="/services/corporate-communication-agency" element={<CorporateCommunicationServices />} />
+      <Route path="/services/social-media-video-production" element={<SocialMediaVideoProductionServices />} />
+      <Route path="/services/search-engine-optimization/ai-seo-agency" element={<AiSeoAgency />} />
+      <Route path="/services/agentic-ai" element={<AiAgenticServices />} />
+      <Route path="/services/intelli-pulse" element={<IntelliPulseServices />} />
+      <Route path="/services/outbound-intelligence-engine" element={<OutboundIntelligenceEngine />} />
+      <Route path="/services/video-production/ai-video-production" element={<AIVideoProductionServices />} />
+      <Route path="/services/video-production" element={<VideoProductionServices />} />
+
+      <Route path="/services/search-engine-optimization/mumbai" element={<SearchEngineOptimizationInMumbai />} />
+      <Route path="/services/search-engine-optimization/airoli" element={<SearchEngineOptimizationInAiroli />} />
+
+      <Route path="/casestudies" element={<Casestudies />} />
       <Route path="/casestudies/shree-rubber-works" element={<ShreeRubberWorksCaseStudy />} />
       <Route path="/casestudies/automag-india" element={<AutomagIndiaCaseStudy />} />
       <Route path="/casestudies/grasim-pulp-and-fibre" element={<GrasimPulpandFibreCaseStudy />} />
       <Route path="/casestudies/crafting-the-employer-value-proposition-for-amazon-india" element={<CraftingAmazonIndiaCaseStudy />} />
       <Route path="/casestudies/atrac-engine-parts" element={<AtracEnginePartsCaseStudy />} />
       <Route path="/casestudies/amazon-eb" element={<AmazonEBCaseStudy />} />
-      <Route path="/casestudies/electromech" element={<ElectromechCaseStudy />}/>
-      <Route path="/casestudies/hem" element={<HemCasestudy/>}/>
-      <Route path="/casestudies/laljee-godhoo" element={<LaljeeGodhooCaseStudy/>}/>
-      <Route path="/casestudies/mastercard" element={<MastercardCaseStudy/>}/>
-      <Route path="/casestudies/d-mart" element={<DmartCasestudy/>}/>
-      <Route path="/casestudies/hul" element={<HulCaseStudy/>}/>
-      <Route path="/casestudies/keva" element={<KevaCaseStudy/>}/>
-      <Route path="/casestudies/vendiman" element={<VendimanCaseStudy/>}/>
-      <Route path="/casestudies/brutindia" element={<BrutindiaCaseStudy/>}/>
-      <Route path="/casestudies/aforceforgood" element={<AforceforgoodCaseStudy/>}/>
-      <Route path="/casestudies/fourseforgood" element={<Fourse4goodCaseStudy/>}/>
+      <Route path="/casestudies/electromech" element={<ElectromechCaseStudy />} />
+      <Route path="/casestudies/hem" element={<HemCasestudy />} />
+      <Route path="/casestudies/laljee-godhoo" element={<LaljeeGodhooCaseStudy />} />
+      <Route path="/casestudies/mastercard" element={<MastercardCaseStudy />} />
+      <Route path="/casestudies/d-mart" element={<DmartCasestudy />} />
+      <Route path="/casestudies/hul" element={<HulCaseStudy />} />
+      <Route path="/casestudies/keva" element={<KevaCaseStudy />} />
+      <Route path="/casestudies/vendiman" element={<VendimanCaseStudy />} />
+      <Route path="/casestudies/brutindia" element={<BrutindiaCaseStudy />} />
+      <Route path="/casestudies/aforceforgood" element={<AforceforgoodCaseStudy />} />
+      <Route path="/casestudies/fourseforgood" element={<Fourse4goodCaseStudy />} />
       <Route path="/casestudies/rainbow-international-school" element={<RainbowInternationalSchoolCaseStudy />} />
 
       <Route path="/casestudies/uppercase" element={<UppercaseCaseStudy />} />
- 
-      <Route path="/resources" element={<Resources/>}/>
+
+      <Route path="/resources" element={<Resources />} />
 
       <Route path="/resources/EBooks" element={<Ebooks />} />
       <Route path="/resources/videos" element={<Videos />} />
-<Route path="/resources/slideshare-ppt" element={<SlideSharePPTS />} />
-<Route path="/resources/search-engine-optimization-PPT" element={<SearchEngineOptimizationSEOS />} />
-<Route path="/resources/social-media-PPT" element={<SocialMediaPPTS />} />
-<Route path="/resources/google-ads-PPT" element={<GoogleAdsPPTS />} />
-<Route path="/resources/content-marketing-PPT" element={<ContentMarketingPPTS />} />
-<Route path="/resources/website-design-development-PPT" element={<WebsiteDesignDevelopmentPPTS/>} />
-<Route path="/resources/employer-branding-PPT" element={<EmployerBrandingPPTS />} />
+      <Route path="/resources/slideshare-ppt" element={<SlideSharePPTS />} />
+      <Route path="/resources/search-engine-optimization-PPT" element={<SearchEngineOptimizationSEOS />} />
+      <Route path="/resources/social-media-PPT" element={<SocialMediaPPTS />} />
+      <Route path="/resources/google-ads-PPT" element={<GoogleAdsPPTS />} />
+      <Route path="/resources/content-marketing-PPT" element={<ContentMarketingPPTS />} />
+      <Route path="/resources/website-design-development-PPT" element={<WebsiteDesignDevelopmentPPTS />} />
+      <Route path="/resources/employer-branding-PPT" element={<EmployerBrandingPPTS />} />
 
 
-    <Route path="/careers" element={<Careers />} />
+      <Route path="/careers" element={<Careers />} />
 
       <Route path="/contact-us" element={<Contact />} />
 
@@ -146,9 +149,9 @@ export const App = (): JSX.Element => {
       <Route path="/digital-marketing-agency-in-thane" element={<AgencyinThane />} />
       <Route path="/digital-marketing-agency-in-navi-mumbai" element={<AgencyinNaviMumbai />} />
       <Route path="/digital-marketing-agency-in-pune" element={<AgencyinPune />} />
-      <Route path="/privacy-policy" element={<Privacypage/>}/>
-      <Route path="/terms-and-conditions" element={<TermsAndConditions/>}/>
-      <Route path="/thank-you" element={<Thankyou/>}/>
+      <Route path="/privacy-policy" element={<Privacypage />} />
+      <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
+      <Route path="/thank-you" element={<Thankyou />} />
 
       <Route path="*" element={<NotFound />} />
 
