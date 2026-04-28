@@ -69,7 +69,7 @@ import { NotFound } from "./screens/NotFound/NotFound";
 import { UppercaseCaseStudy } from "./screens/UppercaseCaseStudy";
 import { SearchEngineOptimizationInMumbai } from "./screens/SearchEngineOptimizationInMumbai";
 import { SearchEngineOptimizationInAiroli } from "./screens/SearchEngineOptimizationInAiroli";
-import { NewHome1 } from "./screens/new-home-1";
+//import { NewHome1 } from "./screens/new-home-1";
 
 
 export const App = (): JSX.Element => {
@@ -77,7 +77,7 @@ export const App = (): JSX.Element => {
     <Routes>
       <Route path="/" element={<Main />} />
       <Route path="/new-home" element={<NewHome />} />
-      <Route path="/new-home-1" element={<NewHome1 />} />
+      {/* <Route path="/new-home-1" element={<NewHome1 />} /> */}
       <Route path="/about-us" element={<AboutUs />} />
       <Route path="/services" element={<Services />} />
       <Route path="/services/content-writing-services" element={<ContentWritingServices />} />
