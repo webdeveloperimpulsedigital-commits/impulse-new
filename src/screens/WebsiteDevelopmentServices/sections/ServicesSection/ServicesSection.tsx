@@ -31,16 +31,16 @@ const ServicesSection = () => {
       points:["Turn visitors into loyal customers with our eCommerce website design. These visually stunning, user-friendly online stores are tailored for your brand to offer seamless navigation and secure checkouts, ensuring that your shoppers are engaged in an experience that boosts their satisfaction and revenue."],
       img:"/web  service section 520 x 340 - ecommerce website design.jpg" },
     { n:"03", title:"Web Maintenance & Support",
-      points:["Designing and deploying a website is just the beginning. It needs constant maintenance efforts to keep it running smoothly. Our website development company handles updates, security checks, and performance optimization, ensuring your website is fast, secure, and bug-free."],
+      points:["Designing and deploying a website is just the beginning. It needs constant maintenance efforts to keep it running smoothly. Our website development company in Thane handles updates, security checks, and performance optimization, ensuring your website is fast, secure, and bug-free."],
       img:"/web  service section 520 x 340 - Web maintenance & support.jpg" },
     { n:"04", title:"Responsive Web Design",
-      points:["Your audience can be searching for you through any and all their devices. Our website design company ensures that your website is suited for viewing and accessing on all device types-desktops, laptops, tablets, phones-to deliver a flawless user experience."],
+      points:["Your audience can be searching for you through any and all their devices. Our website design company in Thane ensures that your website is suited for viewing and accessing on all device types-desktops, laptops, tablets, phones-to deliver a flawless user experience."],
       img:"/web service section 520 x 340 - Responsive web design.jpg" },
     { n:"05", title:"Website Redesign",
       points:["What if you already have a website? We can help you redesign it, transforming outdated or non-performing websites into a modern, highly functional, and high-performing platform optimized for usability, speed, and conversions. Rest assured that your brand will set benchmarks for visuals, content, and all things website."],
       img:"/web  service section 520 x 340 - Website redesign.jpg" },
     { n:"06", title:"Landing Page Design",
-      points:["A landing page is tailored for conversion. Our website design services deliver high-impact landing pages that are visually compelling and goal-focused, tailored to your campaigns. So whether it’s lead generation or sales, our design compels your audience to take the action you want them to."],
+      points:["A landing page is tailored for conversion. Our website design services in Thane deliver high-impact landing pages that are visually compelling and goal-focused, tailored to your campaigns. So whether it’s lead generation or sales, our design compels your audience to take the action you want them to."],
       img:"/web  service section 520 x 340 - Landing Page Design.jpg" },
     { n:"07", title:"Domain & Hosting services",
       points:["Ensuring seamless performance, minimal downtime, and data security all at once can be a task. Our website development agency takes care of your domain name while offering fast, secure, and reliable hosting solutions. These scalable solutions come with security features like SSL certificates to cater to businesses of all sizes."],
@@ -232,10 +232,10 @@ const ServicesSection = () => {
             <div className="mx-auto relative">
               <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
                 <span className="text-[#ffffffb2]  lg:text-[34px] sm:text-[16px]">
-                  Building Digital Experiences
+                  Our Website 
                 </span>
                 <span className="font-bold text-[#ffffff] lg:text-[52px] md:text-[52px] sm:text-[26px]">
-                 That Convert
+                 Design & Development Service
                 </span>
               </h2>
             </div>
