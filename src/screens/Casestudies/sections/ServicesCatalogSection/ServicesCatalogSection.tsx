@@ -519,11 +519,6 @@ export const ServicesCatalogSection = (): JSX.Element => {
       </div>
       <div className="case-study-meta">
         <h3 className="case-study-brand text-[#030019] font-bold">{caseStudy.title}</h3>
-        {caseStudy.outcome && (
-          <p className="text-[16px] text-[#030019] font-normal mt-2 leading-tight">
-            {caseStudy.outcome}
-          </p>
-        )}
       </div>
     </a>
   );
@@ -554,11 +549,6 @@ export const ServicesCatalogSection = (): JSX.Element => {
           <h3 className="font-bold text-[#030019] text-[26px] group-hover:underline">
             {currentSlide.clientName}
           </h3>
-          {currentSlide.outcome && (
-            <p className="text-[16px] text-[#030019] font-normal mt-1 leading-tight">
-              {currentSlide.outcome}
-            </p>
-          )}
         </a>
       </div>
 
