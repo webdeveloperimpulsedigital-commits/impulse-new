@@ -37,7 +37,7 @@ export const TestimonialsSection = (): JSX.Element => {
         title: "Senior Manager, Consumer Insights, Tata Consumer Products",
         company: "Tata Consumer Products",
         content:
-          "Impulse Digital has been a dependable partner for our social listening and category landscape needs. What stands out is their agility and flexibility, they consistently deliver high-quality outputs, often within tight timelines. They’ve also played a key role in tracking and evaluating our main campaign last year - Agent Chings - where their structured weekly updates on social presence, growth, and sentiment were particularly useful. Their approach is practical, client-centric, and focused on delivering actionable insights. Overall, they are reliable and easy to work with.",
+          "Impulse Digital has been a dependable partner for our social listening and category landscape needs. What stands out is their agility and flexibility, they consistently deliver high-quality outputs, often within tight timelines.\n\nThey’ve also played a key role in tracking and evaluating our main campaign last year - Agent Chings - where their structured weekly updates on social presence, growth, and sentiment were particularly useful.\n\nTheir approach is practical, client-centric, and focused on delivering actionable insights. Overall, they are reliable and easy to work with.",
         avatar: "/Pratik-Shetty.jpeg",
         location: "Mumbai",
       },
@@ -144,7 +144,8 @@ export const TestimonialsSection = (): JSX.Element => {
       style={{
         width: isMobile ? "100%" : "550px",
         marginRight: "16px",
-        height: isMobile ? "100%" : "300px", // stretch on mobile
+        height: isMobile ? "100%" : "auto",
+        minHeight: "300px",
       }}
     >
       <div className="flex items-center mb-4" style={{ gap: "12px" }}>
@@ -178,7 +179,7 @@ export const TestimonialsSection = (): JSX.Element => {
           />
         </div>
       </div>
-      <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-xs md:text-sm leading-relaxed">
+      <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-xs md:text-sm leading-relaxed whitespace-pre-wrap">
         {testimonial.content}
       </p>
     </div>
@@ -213,7 +214,7 @@ export const TestimonialsSection = (): JSX.Element => {
       >
         {allTestimonials.map((testimonial) => (
           <SwiperSlide key={testimonial.id}>
-            <div className="pb-4 h-full">
+            <div className="pb-4 h-full flex">
               <TestimonialCard testimonial={testimonial} />
             </div>
           </SwiperSlide>
@@ -256,7 +257,7 @@ export const TestimonialsSection = (): JSX.Element => {
       >
         <div className="scroller__inner">
           {testimonialsRow1.concat(testimonialsRow1).map((t, i) => (
-            <div className="px-2 md:px-2" key={`r1-${i}`}>
+            <div className="px-2 md:px-2 flex" key={`r1-${i}`}>
               <TestimonialCard testimonial={t} />
             </div>
           ))}
@@ -270,7 +271,7 @@ export const TestimonialsSection = (): JSX.Element => {
       >
         <div className="scroller__inner">
           {testimonialsRow2.concat(testimonialsRow2).map((t, i) => (
-            <div className="px-2 md:px-2" key={`r2-${i}`}>
+            <div className="px-2 md:px-2 flex" key={`r2-${i}`}>
               <TestimonialCard testimonial={t} />
             </div>
           ))}
