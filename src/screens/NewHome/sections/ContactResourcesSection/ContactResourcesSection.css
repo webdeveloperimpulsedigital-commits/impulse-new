@@ -1,14 +1,18 @@
 .contact-section {
- background: #0B0220;
-    
-    color: white;
-    border-radius: 25px 25px 0px 0px;
+  background: #0B0220;
+
+  color: white;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.contact-right button {
+  width: 70%;
 }
 
 .wrap-contact {
-    display: flex;
-    flex-wrap: wrap;     
-    gap: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0px;
 }
 
 .contact-left0 {
@@ -49,11 +53,11 @@
 .contact-list a,
 .contact-list address {
   color: #fff;
-    text-decoration: none;
-    line-height: 1.5;
-    font-size: 26px;
-    margin-bottom: 21px;
-    font-style: normal;
+  text-decoration: none;
+  line-height: 1.5;
+  font-size: 26px;
+  margin-bottom: 21px;
+  font-style: normal;
 }
 
 .contact-list a:hover {
@@ -62,18 +66,18 @@
 
 /* RIGHT FORM WRAPPER with swoosh */
 .contact-right-wrapper {
-    flex: 1;
-    min-width: 259px;
-    position: relative;
+  flex: 1;
+  min-width: 259px;
+  position: relative;
 }
 
 /* swoosh positioning */
 .swoosh {
-    position: absolute;
-    top: -5px;
-    right: 40rem;
-    width: 70px;
-    height: 70px;
+  position: absolute;
+  top: -5px;
+  right: 40rem;
+  width: 70px;
+  height: 70px;
 }
 
 /* Form card */
@@ -82,7 +86,7 @@
   color: #0B0220;
   border-radius: 12px;
   padding: 25px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
   position: relative;
   z-index: 1;
 }
@@ -120,61 +124,84 @@
 
 
 .contact-right button .arrow {
-  background: rgba(255,255,255,0.25);
+  background: rgba(255, 255, 255, 0.25);
   padding: 2px 6px;
   border-radius: 6px;
 }
 
 /* Divider line */
 .contact-divider {
-    margin-top: 75px;
-    height: 1px;
-    width: 84%;
-    background: rgba(255, 255, 255, 0.1);
-    margin-left: 7%;
+  margin-top: 75px;
+  height: 1px;
+  width: 84%;
+  background: rgba(255, 255, 255, 0.1);
+  margin-left: 7%;
 }
-.w-120{
-  max-width: 160%
-} 
 
-.c-icon{
-    background: #1c1930 !important;
-    padding: 0.5em;
-    border-radius: 50%;
+.w-120 {
+  max-width: 160%
+}
+
+.c-icon {
+  background: #1c1930 !important;
+  padding: 0.5em;
+  border-radius: 50%;
 }
 
 
 @media screen and (max-width: 480px) {
-  #contact-border-sec{
+  #contact-border-sec {
     margin-top: -13.5%;
   }
+
   .contact-title {
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 30px;
-}
-.contact-list a, .contact-list address{
-  font-size: 20px;
-}
-.contact-container{
-  gap: 0px;
-}
-.contact-right button{
-  width: 40%;
-}
-.wrap-contact {
+  }
+
+  .contact-list a,
+  .contact-list address {
+    font-size: 20px;
+  }
+
+  .contact-container {
+    gap: 0px;
+  }
+
+  .contact-right {
+    width: 40%;
+  }
+
+  .wrap-contact {
     display: flex;
     flex-wrap: wrap;
     gap: 0px !important;
+  }
+
+  .resources-teaser {
+    padding: 40px 20px 50px !important
+  }
+
+  .contact-section {
+    padding: 50px 20px 30px !important;
+  }
 }
-.resources-teaser{
-padding: 40px 20px 50px !important
+
+.wrap-contact {
+  max-width: 100%;
+  margin: auto;
+  position: relative;
+  background: var(--bg);
+  padding: 0rem 5rem 0rem
 }
-.contact-section{
-  padding: 50px 20px 30px !important;
-}
-}
-.wrap-contact{max-width:100%;margin:auto;position:relative;background:var(--bg);padding:0rem 5rem 0rem}
-@media (max-width:980px){
-  .wrap-contact{max-width:100%;margin:auto;position:relative;background:var(--bg);padding:0rem 1.2rem 0rem}
+
+@media (max-width:980px) {
+  .wrap-contact {
+    max-width: 100%;
+    margin: auto;
+    position: relative;
+    background: var(--bg);
+    padding: 0rem 1.2rem 0rem
+  }
 }

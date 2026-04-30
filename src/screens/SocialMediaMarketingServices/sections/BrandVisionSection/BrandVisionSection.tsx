@@ -134,7 +134,7 @@ export const BrandVisionSection = (): JSX.Element => {
               
               {/* 35% */}
               <div className="absolute top-6 left-0 text-center">
-                <h3 className="[font-family:'Space Grotesk', sans-serif] text-[#543d98] text-4xl lg:text-6xl font-black leading-none mb-2 transition-all">
+                <h3 className="[font-family:'Satoshi', sans-serif] text-[#543d98] text-4xl lg:text-6xl font-black leading-none mb-2 transition-all">
                   {Math.round(counters.first)}%
                   <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] text-[16px] leading-relaxed max-w-[250px] font-[400]">
                     of all leads for our clients are generated through social media campaigns.

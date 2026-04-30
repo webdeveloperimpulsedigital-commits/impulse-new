@@ -273,7 +273,7 @@
 }
 
 h1, h2, h3, h4, h5, h6, span{
- font-family: "Space Grotesk", sans-serif !important;
+ font-family: "Satoshi", sans-serif !important;
 }
 p{
   font-family: "Inter", sans-serif !important;
@@ -291,10 +291,10 @@ a{
 }
 
 .copy a{
-   font-family: "Space Grotesk", sans-serif !important;
+   font-family: "Satoshi", sans-serif !important;
 }
 .num{
- font-family: "Space Grotesk", sans-serif !important;
+ font-family: "Satoshi", sans-serif !important;
 }
 div{
   font-family: "Inter", sans-serif !important;

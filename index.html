@@ -1,82 +1,74 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    
-    <!-- Viewport -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="https://www.theimpulsedigital.com/favicon.ico" />
+<head>
+  <meta charset="utf-8" />
 
-    <!-- Manifest -->
-    <link rel="manifest" href="/site.webmanifest" />
+  <!-- Viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Preconnect for Fonts (Performance Boost) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,300,400&display=swap" rel="stylesheet">
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="https://www.theimpulsedigital.com/favicon.ico" />
 
-    <!-- Google Fonts -->
-    <link
-      rel="preload"
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap"
-      as="style"
-      onload="this.onload=null;this.rel='stylesheet'"
-    />
-    <noscript>
-      <link
-        rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap"
-      />
-    </noscript>
+  <!-- Manifest -->
+  <link rel="manifest" href="/site.webmanifest" />
 
-    <!-- Tailwind CSS -->
-    <link href="/tailwind.css" rel="stylesheet" />
+  <!-- Preconnect for Fonts (Performance Boost) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,300,400&display=swap" rel="stylesheet">
 
-    <!-- Google Tag Manager -->
-    <script>
-      (function(w,d,s,l,i){
-        w[l]=w[l]||[];
-        w[l].push({'gtm.start': new Date().getTime(), event:'gtm.js'});
-        var f=d.getElementsByTagName(s)[0],
-            j=d.createElement(s),
-            dl=l!='dataLayer'?'&l='+l:'';
-        j.async=true;
-        j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
-        f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-M4TW43X3');
-    </script>
+  <!-- Google Fonts -->
+  <link rel="preload"
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap"
+    as="style" onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Space+Grotesk:wght@300..700&display=swap" />
+  </noscript>
 
-  </head>
+  <!-- Tailwind CSS -->
+  <link href="/tailwind.css" rel="stylesheet" />
 
-  <body>
+  <!-- Google Tag Manager -->
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-M4TW43X3');
+  </script>
 
-    <!-- Google Tag Manager (noscript) -->
-    <noscript>
-      <iframe 
-        src="https://www.googletagmanager.com/ns.html?id=GTM-M4TW43X3"
-        height="0" 
-        width="0" 
-        style="display:none;visibility:hidden">
-      </iframe>
-    </noscript>
+</head>
 
-    <div id="app"></div>
+<body>
 
-    <!-- React App Entry -->
-    <script type="module" src="/src/index.tsx"></script>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M4TW43X3" height="0" width="0"
+      style="display:none;visibility:hidden">
+    </iframe>
+  </noscript>
 
-    <!-- ZOHO SALESIQ -->
-    <script>
-      window.$zoho = window.$zoho || {};
-      $zoho.salesiq = $zoho.salesiq || { ready: function () {} };
-    </script>
-    <script
-      id="zsiqscript"
-      src="https://salesiq.zohopublic.in/widget?wc=siqe8e2de51a58ff011f46d1d5718469d24fb1812f710b8e38bd932663adc239364"
-      defer
-    ></script>
+  <div id="app"></div>
 
-  </body>
+  <!-- React App Entry -->
+  <script type="module" src="/src/index.tsx"></script>
+
+  <!-- ZOHO SALESIQ -->
+  <script>
+    window.$zoho = window.$zoho || {};
+    $zoho.salesiq = $zoho.salesiq || { ready: function () { } };
+  </script>
+  <script id="zsiqscript"
+    src="https://salesiq.zohopublic.in/widget?wc=siqe8e2de51a58ff011f46d1d5718469d24fb1812f710b8e38bd932663adc239364"
+    defer></script>
+
+</body>
+
 </html>

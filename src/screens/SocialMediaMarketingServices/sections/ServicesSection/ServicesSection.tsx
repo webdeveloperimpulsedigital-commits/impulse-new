@@ -242,7 +242,7 @@ const ServicesSection = () => {
                 <article className="card mx-auto" data-index={i}>
                   <div className="num">{s.n}</div>
                   <div className="copy">
-                    <h3 className="w-full lg:w-[340px] [font-family:'Space Grotesk', sans-serif] font-semibold text-white text-[28px] lg:text-[35px] leading-[32px] lg:leading-[40px]">
+                    <h3 className="w-full lg:w-[340px] [font-family:'Satoshi', sans-serif] font-semibold text-white text-[28px] lg:text-[35px] leading-[32px] lg:leading-[40px]">
                       {/* removed anchor */}
                       <span>{s.title}</span>
                     </h3>

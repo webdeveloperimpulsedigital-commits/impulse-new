@@ -47,6 +47,7 @@ module.exports = {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
+        satoshi: ["Satoshi", "sans-serif"],
         sans: [
           "ui-sans-serif",
           "system-ui",

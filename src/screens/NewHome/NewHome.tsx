@@ -33,7 +33,7 @@ export const NewHome = (): JSX.Element => {
         .new-home-page h4 *,
         .new-home-page h5 *,
         .new-home-page h6 * {
-          font-family: 'Neue Montreal', sans-serif !important;
+          font-family: 'Satoshi', sans-serif !important;
         }
       `}</style>
       <FAQSchema faqs={faqs} />

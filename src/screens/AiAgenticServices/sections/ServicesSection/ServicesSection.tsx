@@ -295,7 +295,7 @@ const ServicesSection = () => {
                   <div className="num">{s.n}</div>
                   <div className="copy">
                     {/* removed anchor href -> span */}
-                    <h3 className="w-full lg:w-[340px] [font-family:'Space Grotesk', sans-serif] font-semibold text-white text-[28px] lg:text-[35px] leading-[32px] lg:leading-[40px]">
+                    <h3 className="w-full lg:w-[340px] [font-family:'Satoshi', sans-serif] font-semibold text-white text-[28px] lg:text-[35px] leading-[32px] lg:leading-[40px]">
                       <span>{s.title}</span>
                     </h3>
                     <ul>{s.points.map((p) => <li key={p}>{p}</li>)}</ul>

@@ -302,7 +302,7 @@ const ServicesSection = () => {
                   <div className="num">{s.n}</div>
 
                   <div className="copy">
-                    <h3 className="w-full lg:w-[340px] [font-family:'Space Grotesk', sans-serif] font-semibold text-white text-[28px] lg:text-[35px] leading-[32px] lg:leading-[40px]">
+                    <h3 className="w-full lg:w-[340px] [font-family:'Satoshi', sans-serif] font-semibold text-white text-[28px] lg:text-[35px] leading-[32px] lg:leading-[40px]">
                       {isLinked(i) ? <a href={s.link}>{s.title}</a> : <a href="">{s.title}</a>}
                     </h3>
                     <ul>{s.points.map((p) => <li key={p}>{p}</li>)}</ul>

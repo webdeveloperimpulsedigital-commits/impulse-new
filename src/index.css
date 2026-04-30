@@ -7,6 +7,7 @@
   0% {
     transform: translateX(-100%);
   }
+
   100% {
     transform: translateX(0%);
   }
@@ -17,6 +18,7 @@
   0% {
     transform: translateX(-50%) rotate(8deg);
   }
+
   100% {
     transform: translateX(0) rotate(8deg);
   }
@@ -26,6 +28,7 @@
   0% {
     transform: translateX(0) rotate(-5deg);
   }
+
   100% {
     transform: translateX(-50%) rotate(-5deg);
   }
@@ -35,6 +38,7 @@
   0% {
     transform: translateX(-50%);
   }
+
   100% {
     transform: translateX(0);
   }
@@ -45,6 +49,7 @@
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-50%);
   }
@@ -57,13 +62,11 @@
 /* Testimonials Section Scrolling Animations */
 .scroller {
   overflow: hidden;
-  -webkit-mask: linear-gradient(
-    90deg,
-    transparent,
-    white 20%,
-    white 80%,
-    transparent
-  );
+  -webkit-mask: linear-gradient(90deg,
+      transparent,
+      white 20%,
+      white 80%,
+      transparent);
   mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
 }
 
@@ -86,6 +89,7 @@
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-50%);
   }
@@ -94,13 +98,11 @@
 /* Testimonials Section Scrolling Animations */
 .scroller {
   overflow: hidden;
-  -webkit-mask: linear-gradient(
-    90deg,
-    transparent,
-    white 20%,
-    white 80%,
-    transparent
-  );
+  -webkit-mask: linear-gradient(90deg,
+      transparent,
+      white 20%,
+      white 80%,
+      transparent);
   mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
 }
 
@@ -127,6 +129,7 @@
   0% {
     transform: translateX(0);
   }
+
   100% {
     transform: translateX(-50%);
   }
@@ -136,4 +139,15 @@
 
 
 /* GLOBAL css (e.g., index.css or a non-module file that’s imported once) */
+@layer base {
 
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  span {
+    font-family: 'Satoshi', sans-serif;
+  }
+}
