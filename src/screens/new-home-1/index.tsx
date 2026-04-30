@@ -318,6 +318,7 @@ export const NewHome1 = (): JSX.Element => {
     <>
       <Helmet>
         <title>Impulse Digital | AI-Native Growth Intelligence</title>
+        <meta name="robots" content="noindex, nofollow" />
       </Helmet>
 
       <main className="new-home-1-wrapper w-full bg-[#01000B]" style={{ fontFamily: 'Satoshi, sans-serif' }}>
