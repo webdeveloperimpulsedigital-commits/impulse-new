@@ -113,10 +113,9 @@ export const ApplicationFormSection = (): JSX.Element => {
                   required
                 >
                   <option value="-Select-">Select Position</option>
-                  <option value="Social Media Content Writer
-">Social Media Content Writer</option>
-                  <option value="SEO Executive">SEO Executive
-</option>
+                  <option value="Social Media Content Writer">Social Media Content Writer</option>
+                  <option value="SEO Executive">SEO Executive</option>
+                  <option value="HR Executive">HR Executive</option>
                 </select>
               </div>
 
