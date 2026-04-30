@@ -17,7 +17,7 @@ import { FAQSchema } from "../../components/SEO/FAQSchema";
 import { faqData } from "../../data/faqs";
 
 export const NewHome = (): JSX.Element => { 
-  const faqs = faqData["/"] || [];
+  const faqs = faqData["/new-home"] || [];
   return (
     <main className="new-home-page relative w-full min-h-screen">
       <style>{`

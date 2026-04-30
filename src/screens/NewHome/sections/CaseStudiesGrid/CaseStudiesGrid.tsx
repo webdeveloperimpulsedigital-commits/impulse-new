@@ -1,152 +1,29 @@
-import { useEffect, useRef, useState } from "react";
-import { Button } from "../../../../components/ui/button";
 import { Link } from "react-router-dom";
-import { motion } from "motion/react";
+import { motion, useScroll, useTransform } from "motion/react";
+import { useRef } from "react";
 
-const css = `
-.case-studies-header {
-  margin-bottom: 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 20px;
-}
-.case-studies-content { flex: 1; }
-.case-studies-overline {
-  font-family: 'DM Sans', Helvetica;
-  font-weight: normal;
-  color: #030019;
-  font-size: 18px;
-  line-height: 24px;
-  margin-bottom: 8px;
-}
-.case-studies-title {
-  font-family: 'DM Sans', Helvetica;
-  font-weight: bold;
-  color: var(--purple);
-  font-size: clamp(28px, 4vw, 52px);
-  line-height: 1.15;
-  margin: 0;
-}
-.case-studies-button {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 12px 20px;
-  background: var(--purple);
-  color: white;
-  border: none;
-  border-radius: 12px;
-  font-family: 'DM Sans', Helvetica;
-  font-weight: bold;
-  font-size: 14px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  text-decoration: none;
-  white-space: nowrap;
-  flex-shrink: 0;
-}
-.case-studies-button:hover {
-  background: var(--purple-600);
-  transform: translateY(-2px);
-}
-.case-studies-button img { width: 16px; height: 16px; }
+const ParallaxImage = ({ src, alt }: { src: string; alt: string }) => {
+  const ref = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: ref,
+    offset: ["start end", "end start"],
+  });
 
-/* Desktop grid */
-.case-studies-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 24px;
-  grid-auto-rows: 8px;
-  grid-auto-flow: dense;
-}
-.case-study-card {
-  display: block;
-  text-decoration: none;
-  color: inherit;
-  background: transparent;
-  border-radius: 50px;
-  overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-.case-study-media img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-  transition: transform 0.3s ease;
-  border-radius: 42px;
-}
-.case-study-media {
-  position: relative;
-  overflow: hidden;
-  aspect-ratio: 4 / 3;
-}
-.case-study-media--tall { aspect-ratio: 5 / 6; }
-.case-study-media.corner::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 40px;
-  height: 40px;
-  background: transparent;
-  clip-path: polygon(0 0, 100% 0, 100% 100%);
-}
-.case-study-meta { padding: 20px; }
-.case-study-brand {
-  margin: 0 0 12px 0;
-  font-family: 'DM Sans', Helvetica;
-  font-size: 20px;
-  font-weight: bold;
-  color: #030019;
-  line-height: 1.2;
-}
-.case-study-tags {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-}
-.case-study-tag {
-  padding: 6px 16px;
-  background: transparent;
-  border: 1px solid #ddd;
-  border-radius: 20px;
-  font-family: 'DM Sans', Helvetica;
-  font-size: 11px;
-  font-weight: 600;
-  color: #666;
-  text-transform: uppercase;
-  letter-spacing: 0.5px;
-}
+  // Move image from -15% to 15% as it scrolls through viewport
+  const y = useTransform(scrollYProgress, [0, 1], ["-15%", "15%"]);
 
-/* Mobile styles */
-@media (max-width: 767px) {
-  .case-studies-section { padding: 40px 20px; }
-  .case-studies-header {
-    flex-direction: column;
-    align-items: flex-start;
-    margin-bottom: 24px;
-  }
-  .case-studies-overline { font-size: 16px; }
-  .case-studies-title {
-    font-size: 28px;
-    line-height: 1.2;
-    margin-bottom: 16px;
-  }
-  .case-studies-button { padding: 10px 16px; font-size: 13px; }
-  .case-study-meta { padding: 16px; }
-  .case-study-brand { font-size: 18px; margin-bottom: 10px; }
-  .case-study-tag { padding: 4px 12px; font-size: 10px; }
-  .case-study-card { max-width: 320px; margin: 0 auto; width: 100%; }
-}
-
-/* (Kept) wrapper */
-.wrap-casestuides{max-width:100%;margin:auto;position:relative;background:var(--bg);padding:0rem 5rem 0rem}
-@media (max-width:980px){
-  .wrap-casestuides{max-width:100%;margin:auto;position:relative;background:var(--bg);padding:0rem 0rem 0rem}
-}
-`;
+  return (
+    <div ref={ref} className="absolute inset-0 w-full h-full overflow-hidden bg-black">
+      <motion.img 
+        style={{ y, height: "130%", top: "-15%", position: "absolute", left: 0, width: "100%" }} 
+        src={src} 
+        alt={alt} 
+        className="object-cover opacity-90 transition-opacity duration-500 group-hover:opacity-100"
+        loading="lazy"
+      />
+    </div>
+  );
+};
 
 const caseStudiesData = [
   {
@@ -154,8 +31,6 @@ const caseStudiesData = [
     title: "Uppercase",
     image: "/Uppercase-Thumbnail.jpg",
     tags: ["Product Design"],
-    tall: true,
-    corner: false,
     link: "/casestudies/uppercase",
     outcome: "A complete brand film produced entirely with AI: script, visuals, voice, and edit.",
   },
@@ -164,8 +39,6 @@ const caseStudiesData = [
     title: "Hindustan Unilever Limited",
     image: "/16_Unilever-new.jpg",
     tags: ["Packaging"],
-    tall: false,
-    corner: true,
     link: "/casestudies/hul",
     outcome: "Geo-targeted digital coupon campaign delivering 90% higher CTR and 12,548 landing page sessions.",
   },
@@ -174,8 +47,6 @@ const caseStudiesData = [
     title: "Avenue Supermarts/DMart",
     image: "/15_Dmart-new.jpg",
     tags: ["Branding"],
-    tall: true,
-    corner: true,
     link: "/casestudies/d-mart",
     outcome: "13.43 lakh unique reach and 53K clicks driving store footfall for seasonal retail.",
   },
@@ -184,8 +55,6 @@ const caseStudiesData = [
     title: "Mastercard",
     image: "/14_mastercard.jpg",
     tags: ["Creative"],
-    tall: false,
-    corner: false,
     link: "/casestudies/mastercard",
     outcome: "90.9% merchant response rate through WhatsApp-led cluster-head outreach strategy.",
   },
@@ -194,337 +63,127 @@ const caseStudiesData = [
     title: "A Force for Good - BRUT INDIA",
     image: "/brut-thumbnail.jpg",
     tags: ["Packaging"],
-    tall: false,
-    corner: true,
     link: "/casestudies/brutindia",
     outcome: "Social impact content partnership for one of India's most-watched digital publishers.",
   },
   {
     id: 6,
-    title: "Aditya Birla Group - Fours for Good",
+    title: "Aditya Birla Group",
     image: "/forse-thumbnail1.jpg",
     tags: ["Packaging"],
-    tall: false,
-    corner: true,
     link: "/casestudies/fourseforgood",
     outcome: "Social impact narrative for one of India's largest conglomerates.",
   },
 ];
 
 export const CaseStudiesGrid = (): JSX.Element => {
-  const gridRef = useRef<HTMLDivElement | null>(null);
-  const [isMobile, setIsMobile] = useState(
-    typeof window !== "undefined" ? window.innerWidth < 768 : false
-  );
-
-  // state for the INTERACTIVE mobile slider
-  const [activeSlide, setActiveSlide] = useState(0);
-  const [isTransitioning, setIsTransitioning] = useState(false);
-  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
-
-  useEffect(() => {
-    const checkMobile = () => setIsMobile(window.innerWidth < 768);
-    window.addEventListener("resize", checkMobile);
-    return () => window.removeEventListener("resize", checkMobile);
-  }, []);
-
-  // desktop masonry sizing (unchanged)
-  useEffect(() => {
-    if (typeof window === "undefined" || !gridRef.current || isMobile) return;
-    const grid = gridRef.current;
-
-    const getNum = (prop: string) =>
-      parseInt(getComputedStyle(grid).getPropertyValue(prop), 10) || 0;
-
-    const spanItem = (card: HTMLElement) => {
-      const rowH = getNum("grid-auto-rows");
-      const gap = getNum("gap");
-      const media = card.querySelector(
-        ".case-study-media"
-      ) as HTMLElement | null;
-      const meta = card.querySelector(
-        ".case-study-meta"
-      ) as HTMLElement | null;
-      if (!media || !meta) return;
-
-      const total = media.offsetHeight + meta.offsetHeight + gap;
-      const span = Math.ceil((total + gap) / (rowH + gap));
-      card.style.gridRowEnd = `span ${span}`;
-    };
-
-    const resizeAll = () => {
-      grid.querySelectorAll<HTMLElement>(".case-study-card").forEach(spanItem);
-    };
-
-    resizeAll();
-
-    const imgs = Array.from(
-      grid.querySelectorAll<HTMLImageElement>(".case-study-media img")
-    );
-    const handleImgLoad = () => resizeAll();
-    imgs.forEach((img) => {
-      if (!img.complete) img.addEventListener("load", handleImgLoad, { once: true });
-    });
-
-    window.addEventListener("resize", resizeAll);
-    return () => {
-      window.removeEventListener("resize", resizeAll);
-      imgs.forEach((img) => img.removeEventListener("load", handleImgLoad));
-    };
-  }, [isMobile]);
-
-  // reduced-motion preference (for mobile slider)
-  useEffect(() => {
-    const mq = window.matchMedia("(prefers-reduced-motion: reduce)");
-    setPrefersReducedMotion(mq.matches);
-    const handle = (e: MediaQueryListEvent) => setPrefersReducedMotion(e.matches);
-    mq.addEventListener("change", handle);
-    return () => mq.removeEventListener("change", handle);
-  }, []);
-
-  // Reuse your case study data as slides
-  const slides = caseStudiesData.map((c) => ({
-    id: c.id,
-    image: c.image,
-    alt: c.title,
-    clientName: c.title,
-    link: c.link,
-    outcome: c.outcome
-  }));
-
-  const handleSlideChange = (newIndex: number) => {
-    if (isTransitioning || newIndex === activeSlide) return;
-    if (prefersReducedMotion) {
-      setActiveSlide(newIndex);
-      return;
-    }
-    setIsTransitioning(true);
-    setActiveSlide(newIndex);
-    setTimeout(() => setIsTransitioning(false), 450);
-  };
-
-  const goToPrevious = () => {
-    const newIndex = activeSlide === 0 ? slides.length - 1 : activeSlide - 1;
-    handleSlideChange(newIndex);
-  };
-
-  const goToNext = () => {
-    const newIndex = activeSlide === slides.length - 1 ? 0 : activeSlide + 1;
-    handleSlideChange(newIndex);
-  };
-
-  const currentSlide = slides[activeSlide];
-
-  // Layered card positioning logic (mobile)
-  const getCardStyle = (index: number) => {
-    const position = (index - activeSlide + slides.length) % slides.length;
-
-    if (prefersReducedMotion) {
-      return { display: position === 0 ? "block" : "none" } as React.CSSProperties;
-    }
-
-    const base: React.CSSProperties = {
-      transition: "transform 400ms ease, opacity 400ms ease, filter 400ms ease"
-    };
-
-    // tuned for mobile (<= 767px)
-    const x0 = -20;
-    const x1 = 10;
-    const x2 = 30;
-    const scaleActive = 0.9;
-    const scaleBack = 0.88;
-    const mt1 = 12;
-    const mt2 = 28;
-    const h1 = 380;
-    const h2 = 340;
-
-    switch (position) {
-      case 0:
-        return {
-          ...base,
-          transform: `translateX(${x0}px) scale(${scaleActive})`,
-          opacity: 1,
-          zIndex: 30
-        };
-      case 1:
-        return {
-          ...base,
-          transform: `translateX(${x1}px) scale(${scaleBack})`,
-          opacity: 0.8,
-          zIndex: 20,
-          height: h1,
-          marginTop: mt1
-        };
-      case 2:
-        return {
-          ...base,
-          transform: `translateX(${x2}px) scale(${scaleBack})`,
-          opacity: 0.7,
-          zIndex: 10,
-          height: h2,
-          marginTop: mt2
-        };
-      default:
-        return {
-          ...base,
-          transform: `translateX(${x2 * 1.5}px)`,
-          opacity: 0,
-          zIndex: 0
-        };
-    }
-  };
-
-  const CaseStudyCard = ({
-    caseStudy,
-    index
-  }: {
-    caseStudy: (typeof caseStudiesData)[0];
-    index: number;
-  }) => (
-    <motion.div 
-      className="case-study-card"
-      initial={{ opacity: 0, y: 60, scale: 0.9, filter: "blur(15px)" }}
-      whileInView={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }}
-      transition={{ duration: 1, ease: [0.16, 1, 0.3, 1], delay: index * 0.1 }}
-      viewport={{ once: true, margin: "0px 0px -100px 0px" }}
-    >
-      <Link to={caseStudy.link} className="block w-full h-full text-inherit no-underline">
-        <div
-          className={`case-study-media ${!isMobile && caseStudy.tall ? "case-study-media--tall" : ""
-            } ${caseStudy.corner ? "corner" : ""}`}
-        >
-          <img src={caseStudy.image} alt={caseStudy.title} loading="lazy" />
-        </div>
-        <div className="case-study-meta">
-          <h3 className="case-study-brand text-[#030019] font-bold">{caseStudy.title}</h3>
-          {caseStudy.outcome && (
-            <p className="text-[16px] text-[#030019] font-normal mt-2 leading-tight">
-              {caseStudy.outcome}
-            </p>
-          )}
-        </div>
-      </Link>
-    </motion.div>
-  );
-
-  const MobileSlider = () => (
-    <div className="block lg:hidden">
-      {/* Heading (kept consistent with your section) */}
-
-      {/* Layered cards slider */}
-      <div className="relative h-[400px] overflow-visible">
-        {slides.map((slide, i) => (
-          <div
-            key={slide.id}
-            className="absolute inset-0 rounded-2xl overflow-hidden shadow-lg"
-            style={getCardStyle(i)}
-          >
-            <Link to={slide.link}>
-              <img
-                src={slide.image}
-                alt={slide.alt}
-                className="block w-full h-full object-cover"
-              />
-            </Link>
-          </div>
-        ))}
-      </div>
-
-      {/* Client name below image */}
-      <div className="mt-4 text-left ml-1">
-        <Link to={currentSlide.link} className="block group">
-          <h3 className="font-bold text-[#030019] text-[26px] group-hover:underline">
-            {currentSlide.clientName}
-          </h3>
-          {currentSlide.outcome && (
-            <p className="text-[16px] text-[#030019] font-normal mt-1 leading-tight">
-              {currentSlide.outcome}
-            </p>
-          )}
-        </Link>
-      </div>
-
-      {/* Prev / Next buttons */}
-      <div className="flex items-center justify-center gap-4 mt-6 pb-8">
-        <Button
-          onClick={goToPrevious}
-          className="group w-12 h-12 rounded-full border-2 border-[#543d98] bg-white flex items-center justify-center transition-all duration-300 hover:bg-[#f5f5f5] hover:border-[#543d98]"
-          aria-label="Previous"
-        >
-          <img
-            src="/left-arrow.png"
-            alt="Previous"
-            className="w-4 h-4 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
-          />
-        </Button>
-
-        <Button
-          onClick={goToNext}
-          className="group w-12 h-12 rounded-full border-2 border-[#EAEAEA] bg-[#543d98] flex items-center justify-center transition-all duration-300"
-          aria-label="Next"
-        >
-          <img
-            src="/right-arrow.png"
-            alt="Next"
-            className="w-4 h-4 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
-          />
-        </Button>
-      </div>
-    </div>
-  );
-
-  const DesktopGrid = () => (
-    <div className="hidden lg:block">
-      <div className="case-studies-grid" ref={gridRef}>
-        {caseStudiesData.map((caseStudy, index) => (
-          <CaseStudyCard key={caseStudy.id} caseStudy={caseStudy} index={index} />
-        ))}
-      </div>
-    </div>
-  );
-
   return (
-    <>
-      <section
-        className="case-studies-section pt-16 bg-white pb-0 mx-auto md:px-4 relative"
-        data-section="case-studies"
-        style={{ marginTop: "-55px", borderTopLeftRadius: "55px", borderTopRightRadius: "55px", zIndex: 50 }}
-      >
-        <div className="wrap-casestuides">
-          <div className="case-studies-header">
-            <div className="case-studies-content">
-              <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
-                <span className="text-[#030019] lg:text-[34px] sm:text-[16px]">
-                  Case Studies
-                </span>
-                <br />
-                <span className="font-bold text-[#543d98] lg:text-[49px] md:text-[52px] sm:text-[26px]">
-                  Playbook of Proven Wins
-                </span>
-              </h2>
-            </div>
-
-            <Button className="w-[220px] h-[44px] group flex items-center justify-center gap-2 px-4 py-6 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border-[#543d98] hover:border hover:border-[#543d98]">
-              <Link to="/casestudies"
-                className="[font-family:'DM_Sans',Helvetica] font-bold text-white text-sm group-hover:text-[#543d98] transition-colors duration-300">
-                See All Case Studies
-              </Link>
-              <img
-                src="/button-icon.svg"
-                alt="Arrow"
-                className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert-0 group-hover:invert pointer-events-none"
-              />
-            </Button>
+    <section 
+      className="w-full bg-[#f9f9f9] py-24 lg:py-32 relative z-20" 
+      style={{ marginTop: "-55px", borderTopLeftRadius: "55px", borderTopRightRadius: "55px" }}
+      data-section="case-studies"
+    >
+      <div className="max-w-[1600px] mx-auto px-6 md:px-12 lg:px-20">
+        
+        {/* Editorial Header Area */}
+        <div className="flex flex-col md:flex-row items-start md:items-end justify-between relative mb-12 md:mb-16 gap-6">
+          <div className="flex flex-col">
+            <h2 className="[font-family:'DM_Sans',Helvetica] font-normal leading-tight">
+              <span className="text-[#030019] lg:text-[34px] sm:text-[16px] md:text-[34px]">Work</span>
+              <br />
+              <span className="font-bold text-[#543d98] lg:text-[49px] md:text-[52px] sm:text-[26px]">
+                that moved something.
+              </span>
+            </h2>
           </div>
-
-          {/* ✅ NEW MOBILE SLIDER (no Swiper) */}
-          <MobileSlider />
-
-          {/* ✅ DESKTOP GRID UNCHANGED */}
-          <DesktopGrid />
+          
+          <Link to="/casestudies" className="group hidden sm:inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#543d98] rounded-full border border-[#543d98] hover:bg-white text-white hover:text-[#543d98] transition-all duration-300 shadow-md">
+            <span className="font-dm-sans font-bold text-[15px]">See the outcomes</span>
+            <img 
+              src="/vector-1-3.svg" 
+              alt="Arrow" 
+              className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 brightness-0 invert group-hover:brightness-100 group-hover:invert-0 pointer-events-none" 
+            />
+          </Link>
         </div>
-      </section>
-      <style>{css}</style>
-    </>
+
+        {/* Big Image Case Studies List */}
+        <div className="flex flex-col gap-6 md:gap-12">
+          {caseStudiesData.map((study, index) => (
+            <motion.div
+              key={study.id}
+              initial={{ opacity: 0, y: 80, scale: 0.97 }}
+              whileInView={{ opacity: 1, y: 0, scale: 1 }}
+              transition={{ 
+                duration: 1.2, 
+                delay: index * 0.1, 
+                ease: [0.16, 1, 0.3, 1] // Premium exponential ease-out
+              }}
+              viewport={{ once: true, margin: "-120px" }}
+              className="flex flex-col group"
+            >
+              <Link to={study.link} className="block relative w-full overflow-hidden bg-black cursor-pointer rounded-sm">
+                <motion.div
+                  whileHover={{ scale: 1.05 }}
+                  transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
+                  className="w-full aspect-[4/3] md:aspect-[16/9] lg:aspect-[21/9]"
+                >
+                  <ParallaxImage src={study.image} alt={study.title} />
+                  {/* Subtle gradient overlay to ensure text readability */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent pointer-events-none" />
+                </motion.div>
+                
+                {/* Custom Hover Icon (like the green dot in reference, but functional) */}
+                <div className="absolute top-8 right-8 md:top-12 md:right-12 w-12 h-12 md:w-16 md:h-16 bg-[#543d98] rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transform -translate-y-4 group-hover:translate-y-0 transition-all duration-500 shadow-xl z-20">
+                  <svg className="w-5 h-5 md:w-6 md:h-6 text-white transform -rotate-45" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                  </svg>
+                </div>
+
+                {/* Overlay Text Content (Bottom Left & Right) */}
+                <div className="absolute inset-x-0 bottom-0 p-8 md:p-12 flex flex-col md:flex-row items-start md:items-end justify-between gap-6 md:gap-12 z-10 pointer-events-none">
+                  
+                  {/* Left Side: Title */}
+                  <div className="flex items-end flex-1">
+                    <h3 className="font-dm-sans text-[28px] sm:text-[36px] md:text-[48px] lg:text-[56px] leading-[1.1] text-white font-bold drop-shadow-2xl tracking-tight">
+                      {study.title}
+                    </h3>
+                  </div>
+                  
+                  {/* Right Side: Outcome / Tags */}
+                  <div className="w-full md:max-w-[320px] text-left md:text-right hidden sm:block">
+                    <p className="font-dm-sans text-white/80 text-xs md:text-sm leading-relaxed drop-shadow-md font-light mb-4">
+                      {study.outcome}
+                    </p>
+                    <div className="flex flex-wrap gap-2 justify-start md:justify-end">
+                      {study.tags.map(tag => (
+                        <span key={tag} className="font-dm-sans text-[9px] uppercase tracking-[0.2em] text-white/90 border border-white/30 rounded-full px-3 py-1 bg-black/20 backdrop-blur-sm">
+                          {tag}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              </Link>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* Mobile View All Button (Hidden on Desktop) */}
+        <div className="mt-16 sm:hidden flex justify-center">
+           <Link to="/casestudies" className="group inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#543d98] rounded-full border border-[#543d98] hover:bg-white text-white hover:text-[#543d98] transition-all duration-300 shadow-md w-full">
+              <span className="font-dm-sans font-bold text-[15px]">See the outcomes</span>
+              <img 
+                src="/vector-1-3.svg" 
+                alt="Arrow" 
+                className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 brightness-0 invert group-hover:brightness-100 group-hover:invert-0 pointer-events-none" 
+              />
+           </Link>
+        </div>
+
+      </div>
+    </section>
   );
 };
+
+export default CaseStudiesGrid;

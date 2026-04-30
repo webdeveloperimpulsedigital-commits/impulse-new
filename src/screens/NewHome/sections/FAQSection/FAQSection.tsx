@@ -22,13 +22,9 @@ export const FAQSection = ({ faqs }: FAQSectionProps): JSX.Element => {
       className="max-w-[1280px] mx-auto px-4 lg:px-8 lg:pt-20 lg:pb-20"
       data-section="faq"
     >
-      <h2 className="text-center [font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight mx-auto">
-        <span className="text-[#000000] lg:text-[34px] sm:text-[16px]">
-          FAQ&apos;s &nbsp;
-        </span>
-        <br />
+      <h2 className="text-center [font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight mx-auto mb-12">
         <span className="font-bold text-[#543d98] lg:text-[49px] md:text-[52px] sm:text-[20px]">
-          Curious Much?
+          Common questions.
         </span>
       </h2>
 

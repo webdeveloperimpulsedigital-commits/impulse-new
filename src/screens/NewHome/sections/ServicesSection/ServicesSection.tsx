@@ -1,6 +1,6 @@
-// ServicesSection.tsx — Premium Split-Screen Hover Layout
-import React, { useState } from "react";
-import { motion, AnimatePresence } from "motion/react";
+// ServicesSection.tsx — Premium Sticky Stacking Cards
+import React, { useRef } from "react";
+import { motion, useScroll, useTransform } from "motion/react";
 import { Link } from "react-router-dom";
 
 const PURPLE = "#543d98";
@@ -13,7 +13,7 @@ const data = [
     tagline: "Where most engagements begin.",
     description:
       "Marketing analytics, campaign intelligence, consumer insights, and competitive sensing that help enterprise marketing teams act on evidence rather than instinct. This is not a dashboard. It is a decision engine.",
-    img: "/growth_intelligence_premium.png",
+    img: "/01_Pay-Per-Click.jpg",
     link: "/services/growth-intelligence",
     cta: "Explore Growth Intelligence",
     tags: ["Analytics", "Consumer Insights", "Competitive Sensing"],
@@ -25,7 +25,7 @@ const data = [
     tagline: "The 2026-native capability.",
     description:
       "Agentic AI for marketing operations, fully AI-produced cinematic brand content, and Generative Search Optimisation for brands that need to move faster than their category allows.",
-    img: "/ai_agency_premium.png",
+    img: "/03_Production.jpg",
     link: "/services/ai-agency",
     cta: "Explore AI Agency",
     tags: ["Agentic AI", "Generative Search", "AI Content"],
@@ -37,357 +37,155 @@ const data = [
     tagline: "The execution engine.",
     description:
       "Social media, performance marketing, content, website development, and branding, deployed as the execution layer of a strategic engagement, not as standalone deliverables.",
-    img: "/performance_studios_premium.png",
+    img: "/04_Social Media Marketing.jpg",
     link: "/services/performance-studios",
     cta: "Explore Performance Studios",
     tags: ["Social Media", "Performance Marketing", "Branding"],
   },
 ];
 
-const ServicesSection = () => {
-  const [active, setActive] = useState(0);
+const Card = ({ study, index, total }: { study: any; index: number; total: number }) => {
+  const cardRef = useRef<HTMLDivElement>(null);
+  const { scrollYProgress } = useScroll({
+    target: cardRef,
+    offset: ["start end", "start start"],
+  });
 
-  const current = data[active];
+  // Optional: scale down slightly as it hits the top
+  const scale = useTransform(scrollYProgress, [0, 1], [1, 1]);
 
   return (
-    <>
-      <style>{`
-        .svc-tab {
-          position: relative;
-          cursor: pointer;
-          transition: all 0.3s cubic-bezier(0.16,1,0.3,1);
-          border-bottom: 1px solid rgba(255,255,255,0.06);
-        }
-        .svc-tab:first-child { border-top: 1px solid rgba(255,255,255,0.06); }
-
-        .svc-tab-bar {
-          position: absolute;
-          left: 0; top: 0; bottom: 0;
-          width: 3px;
-          background: transparent;
-          transition: background 0.3s ease;
-          border-radius: 0 2px 2px 0;
-        }
-        .svc-tab.is-active .svc-tab-bar { background: ${PURPLE}; }
-
-        .svc-tab-num {
-          font-size: 11px;
-          font-weight: 600;
-          letter-spacing: 0.15em;
-          color: rgba(255,255,255,0.2);
-          transition: color 0.3s ease;
-        }
-        .svc-tab.is-active .svc-tab-num { color: ${PURPLE}; }
-
-        .svc-tab-title {
-          font-size: clamp(18px, 2vw, 26px);
-          font-weight: 700;
-          color: rgba(255,255,255,0.3);
-          transition: color 0.3s ease;
-          font-family: 'Space Grotesk', sans-serif;
-          line-height: 1.1;
-        }
-        .svc-tab.is-active .svc-tab-title { color: #ffffff; }
-
-        .svc-tab-label {
-          font-size: 10px;
-          letter-spacing: 0.18em;
-          text-transform: uppercase;
-          color: rgba(255,255,255,0.2);
-          transition: color 0.3s ease;
-        }
-        .svc-tab.is-active .svc-tab-label { color: rgba(255,255,255,0.45); }
-
-        .svc-img-wrap {
-          position: relative;
-          width: 100%;
-          aspect-ratio: 4/3;
-          border-radius: 28px;
-          overflow: hidden;
-        }
-        .svc-img-wrap img {
-          width: 100%; height: 100%;
-          object-fit: cover;
-          display: block;
-        }
-        .svc-img-overlay {
-          position: absolute;
-          inset: 0;
-          background: linear-gradient(180deg, transparent 35%, rgba(2,0,24,0.8) 100%);
-        }
-
-        @media (max-width: 900px) {
-          .svc-desktop { display: none !important; }
-          .svc-mobile  { display: flex !important; }
-        }
-        @media (min-width: 901px) {
-          .svc-desktop { display: grid !important; }
-          .svc-mobile  { display: none !important; }
-        }
-
-        /* ── Mobile Peek Slider ── */
-        .svc-scroll-track {
-          display: flex;
-          overflow-x: scroll;
-          scroll-snap-type: x mandatory;
-          -webkit-overflow-scrolling: touch;
-          scroll-behavior: smooth;
-          gap: 14px;
-          padding: 0 20px 8px;
-          scrollbar-width: none;
-        }
-        .svc-scroll-track::-webkit-scrollbar { display: none; }
-        .svc-card-snap {
-          flex: 0 0 82%;
-          scroll-snap-align: center;
-          min-width: 0;
-        }
-      `}</style>
-
-      <section
-        className="relative w-full bg-[#020018]"
-        id="sec-border"
-        data-section="services"
-        style={{
-          position: "relative",
-          zIndex: 10,
-          marginTop: "-55px",
-          borderTopLeftRadius: "55px",
-          borderTopRightRadius: "55px",
-          overflow: "hidden"
-        }}
+    <div
+      ref={cardRef}
+      className="sticky flex items-center justify-center w-full"
+      style={{
+        top: `calc(15vh + ${index * 30}px)`, // Stack offset
+        zIndex: index + 1,
+      }}
+    >
+      <motion.div
+        style={{ scale }}
+        initial={{ opacity: 0, y: 100 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
+        className="relative w-full max-w-[1400px] mx-auto bg-[#06041a] border border-white/10 rounded-[30px] md:rounded-[50px] overflow-hidden shadow-[0_-10px_40px_rgba(0,0,0,0.5)] flex flex-col md:flex-row h-auto md:h-[70vh] min-h-[600px]"
       >
-        {/* ── Header ─────────────────────────────── */}
-        <div className="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-20 pt-20 pb-14">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-            viewport={{ once: true }}
-            className="flex flex-col md:flex-row md:items-end md:justify-between gap-6"
-          >
-            <div>
-              <h2
-                className="font-['DM_Sans'] font-normal text-white leading-tight"
-                style={{ fontSize: "clamp(32px, 4.5vw, 60px)" }}
-              >
-                Three ways growth leaders
-                <br />
-                <span className="font-bold text-[#543d98]">work with us.</span>
-              </h2>
-            </div>
-          </motion.div>
-        </div>
-
-        {/* ── DESKTOP: Split-screen ──────────────── */}
-        <div
-          className="svc-desktop max-w-[1400px] mx-auto px-6 md:px-12 lg:px-20 pb-24"
-          style={{ gridTemplateColumns: "1fr 1fr", gap: "80px", alignItems: "start" }}
-        >
-          {/* Left — hover tab list */}
+        {/* Content Side (Left) */}
+        <div className="w-full md:w-[55%] p-8 sm:p-12 lg:p-20 flex flex-col justify-between relative z-10 bg-[#06041a]/90 backdrop-blur-sm">
           <div>
-            {data.map((s, i) => (
-              <div
-                key={s.title}
-                className={`svc-tab pl-8 pr-6 py-8 ${active === i ? "is-active" : ""}`}
-                onMouseEnter={() => setActive(i)}
-              >
-                <div className="svc-tab-bar" />
+            <div className="flex items-center gap-4 mb-8">
+              <span className="text-[12px] font-bold uppercase tracking-[0.2em] px-4 py-2 rounded-full bg-[#543d98]/20 text-[#856ecf]">
+                {study.label}
+              </span>
+              <span className="text-white/30 text-[13px] font-mono tracking-widest">
+                {study.index} / 0{total}
+              </span>
+            </div>
 
-                <div className="flex items-center gap-3 mb-2">
-                  <span className="svc-tab-num">{s.index}</span>
-                  <span className="svc-tab-label">{s.label}</span>
-                </div>
-                <div className="svc-tab-title">{s.title}</div>
+            <h3 className="text-white font-['DM_Sans'] text-[32px] sm:text-[40px] lg:text-[56px] leading-[1.1] font-bold tracking-tight">
+              {study.title}
+            </h3>
+            
+            <p className="text-[#856ecf] text-sm uppercase tracking-widest font-semibold mt-6 mb-4">
+              {study.tagline}
+            </p>
 
-                {/* Expandable on hover */}
-                <AnimatePresence initial={false}>
-                  {active === i && (
-                    <motion.div
-                      initial={{ height: 0, opacity: 0 }}
-                      animate={{ height: "auto", opacity: 1 }}
-                      exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.45, ease: [0.16, 1, 0.3, 1] }}
-                      className="overflow-hidden"
-                    >
-                      <p className="text-white/50 text-[15px] leading-relaxed mt-4 mb-5">
-                        {s.description}
-                      </p>
-                      <div className="flex flex-wrap gap-2">
-                        {s.tags.map((tag) => (
-                          <span
-                            key={tag}
-                            className="px-3 py-1 text-[11px] uppercase tracking-wider rounded-full border font-semibold border-white/30 text-white/70"
-                          >
-                            {tag}
-                          </span>
-                        ))}
-                      </div>
-                      {/* CTA */}
-                      <div className="mt-6">
-                        <Link
-                          to={s.link}
-                          className="group inline-flex items-center gap-3 bg-[#543d98] text-white font-bold text-[13px] px-6 py-3 rounded-xl hover:bg-white hover:text-[#543d98] transition-all duration-300"
-                        >
-                          {s.cta}
-                          <img
-                            src="/vector-1-3.svg"
-                            alt="Arrow"
-                            className="w-4 h-4 brightness-0 invert transition-all duration-300 group-hover:rotate-45 group-hover:invert-0 pointer-events-none"
-                          />
-                        </Link>
-                      </div>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
-              </div>
-            ))}
-          </div>
+            <p className="text-white/60 text-base lg:text-lg leading-relaxed max-w-lg font-light">
+              {study.description}
+            </p>
 
-          {/* Right — sticky image panel */}
-          <div style={{ position: "sticky", top: "100px" }}>
-            <AnimatePresence mode="wait">
-              <motion.div
-                key={current.title}
-                initial={{ opacity: 0, y: 24, scale: 0.97, filter: "blur(12px)" }}
-                animate={{ opacity: 1, y: 0, scale: 1, filter: "blur(0px)" }}
-                exit={{ opacity: 0, y: -16, scale: 0.97, filter: "blur(8px)" }}
-                transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1] }}
-              >
-                {/* Label */}
-                <div className="flex items-center gap-4 mb-5">
-                  <span
-                    className="text-[11px] font-bold uppercase tracking-[0.2em] px-3 py-1 rounded-full"
-                    style={{ backgroundColor: `${PURPLE}25`, color: PURPLE }}
-                  >
-                    {current.label}
-                  </span>
-                  <span className="text-white/20 text-[12px] font-mono">{current.index} / 03</span>
-                </div>
-
-                {/* Image */}
-                <div className="svc-img-wrap">
-                  <img src={current.img} alt={current.title} />
-                  <div className="svc-img-overlay" />
-                  <div className="absolute bottom-0 left-0 right-0 p-7">
-                    <p
-                      className="text-[11px] uppercase tracking-[0.18em] font-semibold mb-2"
-                      style={{ color: PURPLE }}
-                    >
-                      {current.tagline}
-                    </p>
-                    <h3 className="text-white font-['Space_Grotesk'] font-bold text-[28px] leading-tight">
-                      {current.title}
-                    </h3>
-                  </div>
-                </div>
-
-                {/* Progress dots */}
-                <div className="flex items-center gap-2 mt-5 justify-center">
-                  {data.map((_, idx) => (
-                    <div
-                      key={idx}
-                      className="rounded-full transition-all duration-300"
-                      style={{
-                        width: active === idx ? "28px" : "6px",
-                        height: "6px",
-                        backgroundColor: active === idx ? PURPLE : "rgba(255,255,255,0.15)",
-                      }}
-                    />
-                  ))}
-                </div>
-              </motion.div>
-            </AnimatePresence>
-          </div>
-        </div>
-
-        {/* ── MOBILE: Peek Slider ─────────────────── */}
-        <div className="svc-mobile flex-col pb-10">
-          {/* Swipe hint */}
-          <p className="text-white/30 text-[11px] uppercase tracking-[0.15em] text-center mb-4 px-5">
-            Swipe to explore
-          </p>
-
-          {/* Scroll container */}
-          <div
-            className="svc-scroll-track"
-            id="svc-mobile-track"
-            onScroll={(e) => {
-              const el = e.currentTarget;
-              const cardW = el.scrollWidth / data.length;
-              const idx = Math.round(el.scrollLeft / cardW);
-              const dots = document.querySelectorAll(".svc-dot");
-              dots.forEach((d, i) => {
-                (d as HTMLElement).style.width = i === idx ? "24px" : "6px";
-                (d as HTMLElement).style.backgroundColor =
-                  i === idx ? PURPLE : "rgba(255,255,255,0.2)";
-              });
-            }}
-          >
-            {data.map((s) => (
-              <div key={`m-${s.title}`} className="svc-card-snap">
-                <div
-                  className="rounded-3xl overflow-hidden h-full"
-                  style={{ border: `1px solid rgba(255,255,255,0.08)`, background: "rgba(255,255,255,0.03)" }}
+            <div className="flex flex-wrap gap-3 mt-8">
+              {study.tags.map((tag: string) => (
+                <span
+                  key={tag}
+                  className="px-4 py-2 text-[11px] uppercase tracking-wider rounded-full border border-white/20 text-white/70"
                 >
-                  {/* Image */}
-                  <div className="relative overflow-hidden" style={{ aspectRatio: "16/9" }}>
-                    <img src={s.img} alt={s.title} className="w-full h-full object-cover" />
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#020018] via-transparent to-transparent" />
-                    <span className="absolute top-4 left-4 text-[10px] font-bold uppercase tracking-[0.15em] px-3 py-1 rounded-full text-white/70 border border-white/20">
-                      {s.label}
-                    </span>
-                  </div>
-
-                  {/* Content */}
-                  <div className="p-5">
-                    <p className="text-white/35 text-[10px] uppercase tracking-wider font-semibold mb-2">{s.tagline}</p>
-                    <h3 className="font-['Space_Grotesk'] font-bold text-white text-[22px] leading-tight mb-3">{s.title}</h3>
-                    <p className="text-white/50 text-[13px] leading-relaxed mb-4">{s.description}</p>
-                    <div className="flex flex-wrap gap-2">
-                      {s.tags.map((tag) => (
-                        <span key={tag} className="px-3 py-1 text-[10px] uppercase tracking-wider rounded-full border border-white/20 text-white/60 font-semibold">
-                          {tag}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
+                  {tag}
+                </span>
+              ))}
+            </div>
           </div>
 
-          {/* Nav buttons */}
-          <div className="flex items-center justify-center gap-4 mt-6 pb-4 px-5">
-            <button
-              type="button"
-              onClick={() => {
-                const track = document.getElementById("svc-mobile-track");
-                if (track) track.scrollBy({ left: -track.clientWidth * 0.82, behavior: "smooth" });
-              }}
-              className="group w-12 h-12 rounded-full border-2 border-[#543d98] bg-white flex items-center justify-center transition-all duration-300 hover:bg-[#f5f5f5] active:scale-90"
-              style={{ touchAction: "manipulation" }}
-              aria-label="Previous"
+          <div className="mt-12">
+            <Link
+              to={study.link}
+              className="group inline-flex items-center gap-3 bg-[#543d98] text-white font-bold text-[14px] px-8 py-4 rounded-full hover:bg-white hover:text-[#543d98] transition-all duration-300 shadow-lg"
             >
-              <img src="/left-arrow.png" alt="Previous" className="w-4 h-4 pointer-events-none transition-transform duration-300 group-hover:rotate-45" />
-            </button>
-
-            <button
-              type="button"
-              onClick={() => {
-                const track = document.getElementById("svc-mobile-track");
-                if (track) track.scrollBy({ left: track.clientWidth * 0.82, behavior: "smooth" });
-              }}
-              className="group w-12 h-12 rounded-full bg-[#543d98] flex items-center justify-center transition-all duration-300 active:scale-90"
-              style={{ touchAction: "manipulation" }}
-              aria-label="Next"
-            >
-              <img src="/right-arrow.png" alt="Next" className="w-4 h-4 pointer-events-none transition-transform duration-300 group-hover:rotate-45" />
-            </button>
+              {study.cta}
+              <img
+                src="/vector-1-3.svg"
+                alt="Arrow"
+                className="w-4 h-4 brightness-0 invert transition-all duration-300 group-hover:rotate-45 group-hover:brightness-100 group-hover:invert-0 pointer-events-none"
+              />
+            </Link>
           </div>
         </div>
-      </section>
-    </>
+
+        {/* Image Side (Right) */}
+        <div className="w-full md:w-[45%] h-[300px] md:h-full relative overflow-hidden group">
+          <motion.div
+            className="w-full h-full"
+            whileHover={{ scale: 1.05 }}
+            transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
+          >
+            <img
+              src={study.img}
+              alt={study.title}
+              className="w-full h-full object-cover"
+            />
+          </motion.div>
+          {/* Subtle gradient to blend image into the dark card */}
+          <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#06041a] via-[#06041a]/40 to-transparent pointer-events-none" />
+        </div>
+      </motion.div>
+    </div>
+  );
+};
+
+const ServicesSection = () => {
+  return (
+    <section
+      className="relative w-full bg-[#020018] pb-32 md:pb-48"
+      id="sec-border"
+      data-section="services"
+      style={{
+        position: "relative",
+        zIndex: 10,
+        marginTop: "-55px",
+        borderTopLeftRadius: "55px",
+        borderTopRightRadius: "55px",
+      }}
+    >
+      {/* ── Header ─────────────────────────────── */}
+      <div className="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-20 pt-32 pb-16 md:pb-24">
+        <motion.div
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          viewport={{ once: true }}
+          className="flex flex-col gap-6"
+        >
+          <h2 className="[font-family:'DM_Sans',Helvetica] font-normal leading-tight">
+            <span className="text-white text-[34px] sm:text-[42px] lg:text-[56px]">
+              Three ways growth leaders
+            </span>
+            <br />
+            <span className="font-bold text-[#543d98] text-[40px] sm:text-[48px] lg:text-[64px]">
+              work with us.
+            </span>
+          </h2>
+        </motion.div>
+      </div>
+
+      {/* ── Stacking Cards Container ────────────── */}
+      <div className="relative px-6 md:px-12 lg:px-20 pb-32">
+        <div className="flex flex-col gap-8 md:gap-0">
+          {data.map((study, index) => (
+            <Card key={study.title} study={study} index={index} total={data.length} />
+          ))}
+        </div>
+      </div>
+    </section>
   );
 };
 

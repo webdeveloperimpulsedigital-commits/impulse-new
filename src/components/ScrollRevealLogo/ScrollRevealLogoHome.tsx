@@ -110,10 +110,34 @@ export const ScrollRevealLogoHome: React.FC<ScrollRevealLogoProps> = ({
             });
           }
 
+          // NEW HERO
+          else if (sectionName === "new-hero") {
+            const size = getHeroSize(isMobile, isTablet);
+            const top = sectionTop + (isMobile ? 120 : isTablet ? 150 : 150);
+            const right = isMobile
+              ? 40
+              : isTablet
+              ? 40
+              : Math.max(80, Math.floor(vw * 0.1));
+
+            applyStyle({
+              position: "absolute",
+              top: `${top}px`,
+              right: `${right}px`,
+              left: "auto",
+              transform: "none",
+              filter: "brightness(1)",
+              width: size,
+              height: size,
+              zIndex: 999,
+              transition: "all 1.2s cubic-bezier(0.22, 1, 0.36, 1)",
+            });
+          }
+
           // HERO - NAVI MUMBAI
           else if (sectionName === "hero-navi-mumbai") {
             const size = getHeroSize(isMobile, isTablet);
-            const top = sectionTop + (isMobile ? 120 : isTablet ? 200 : 250);
+            const top = sectionTop + (isMobile ? 120 : isTablet ? 150 : 100);
             const right = isMobile
               ? 40
               : isTablet
@@ -257,12 +281,14 @@ export const ScrollRevealLogoHome: React.FC<ScrollRevealLogoProps> = ({
           // CASE STUDIES
           else if (sectionName === "case-studies") {
             const size = isMobile ? "50px" : isTablet ? "70px" : "80px";
-            const top = sectionTop + (isMobile ? 40 : isTablet ? 120 : 100);
+            // Set top to perfectly align vertically with the title and CTA (which sit at py-32 + half text height)
+            const top = sectionTop + (isMobile ? 80 : isTablet ? 120 : 120);
+
             const right = isMobile
               ? 20
               : isTablet
-              ? 240
-              : Math.min(Math.max(100, Math.floor(vw * 0.27)), 500);
+              ? 220
+              : Math.max(200, Math.floor(vw * 0.35));
 
             applyStyle({
               position: "absolute",

@@ -1,8 +1,6 @@
 import React, { useRef } from "react";
 import { Helmet } from "react-helmet-async";
-import { JsonLd } from "react-schemaorg";
 import Header from "../../../../components/layout/Header";
-import ShimmerText from "../../../../components/ui/shimmer-text";
 
 export const FeaturedItemsSection = (): JSX.Element => {
   const videoRef = useRef<HTMLDivElement>(null);
@@ -11,11 +9,6 @@ export const FeaturedItemsSection = (): JSX.Element => {
     videoRef.current?.scrollIntoView({ behavior: "smooth" });
   };
 
-  const heroTextLines = [
-    "Most marketing decisions",
-    "are made without the most",
-    "important input: your own data."
-  ];
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -184,11 +177,10 @@ export const FeaturedItemsSection = (): JSX.Element => {
       },
     ],
   };
+
   return (
     <>
-      {/* ✅ SEO Meta Tags */}
       <Helmet>
-        {/* Basic SEO Meta Tags */}
         <title>Best Digital Marketing Agency in Mumbai | Impulse Digital</title>
         <meta
           name="description"
@@ -199,142 +191,88 @@ export const FeaturedItemsSection = (): JSX.Element => {
           content="digital marketing agency in mumbai, digital marketing company, impulse digital"
         />
         <meta name="robots" content="noindex, nofollow" />
-        <meta name="revisit-after" content="1 day" />
-        <meta name="language" content="English" />
-        <meta name="generator" content="N/A" />
-
-        {/* Open Graph Meta Tags */}
-        <meta
-          property="og:title"
-          content="Best Digital Marketing Agency in Mumbai | Impulse Digital"
-        />
-        <meta
-          property="og:description"
-          content="Impulse Digital is a top digital marketing agency in Mumbai that helps businesses expand their reach in the digital space with strategy, performance marketing, SEO, social media, content, and creative solutions."
-        />
-        <meta property="og:url" content="https://www.theimpulsedigital.com" />
-        <meta
-          property="og:image"
-          content="https://www.theimpulsedigital.com/img/logo-id-new.jpg"
-        />
-        <meta property="og:type" content="website" />
-
         <link rel="canonical" href="https://www.theimpulsedigital.com" />
-
-        {/* ✅ LCP FIX: Preload hero LCP image ASAP */}
         <link
           rel="preload"
           as="image"
           href="/rectangle-35.jpg"
-          // @ts-expect-error - TS DOM typings may not include fetchpriority yet
-          fetchpriority="high"
         />
         <script type="application/ld+json">
           {JSON.stringify(schema)}
         </script>
       </Helmet>
 
-
-
-
-
-      {/* ✅ Hero Section */}
-      {/* ✅ Hero Section */}
+      {/* ✅ Premium Hero Section */}
       <section
-        className="relative w-full bg-[#020018] rounded-t-[55px] overflow-hidden"
-        data-section="hero"
+        className="relative w-full h-[100dvh] min-h-[700px] max-h-[900px] mb-0 rounded-t-[55px] overflow-hidden bg-[#020018]"
+        data-section="new-hero"
       >
-        <Header />
-
-        <div className="w-full flex flex-col pt-24 lg:pt-32 pb-0">
+        <header>
+          <Header />
           
-          {/* Top Text Content Area */}
-          <div className="w-full max-w-[1600px] mx-auto px-6 md:px-12 lg:px-20 grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-8 items-start mb-8 lg:mb-12">
+          <div className="absolute inset-0 w-full h-full flex flex-col">
+            {/* Fullscreen Background Video */}
+        <div className="absolute inset-0 z-0 pointer-events-none">
+          <video
+            className="w-full h-full object-cover mix-blend-screen"
+            autoPlay
+            muted
+            loop
+            playsInline
+            poster="/rectangle-35.jpg"
+          >
+            <source src="/video_home.mp4" type="video/mp4" />
+          </video>
+          {/* Subtle overlays to ensure text readability */}
+          <div className="absolute inset-0 bg-black/30" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#020018] via-[#020018]/10 to-[#020018]/60" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#020018]/50 to-transparent" />
+        </div>
+
+        {/* Main Hero Content Overlay */}
+        <div className="relative z-10 w-full max-w-[1600px] mx-auto px-6 md:px-12 lg:px-20 flex-1 flex flex-col justify-end lg:justify-between pb-24 lg:pb-32 pt-32 sm:pt-40 lg:pt-48 gap-8 lg:gap-0">
+          
+          {/* Top Left: Premium Elegant Heading */}
+          <div className="w-full max-w-[1000px] pointer-events-auto">
+            <h1 className="font-serif font-light text-[24px] sm:text-[28px] md:text-[34px] lg:text-[40px] xl:text-[48px] leading-[1.2] text-white tracking-tight">
+              Most marketing decisions <br className="hidden md:block" />
+              are made without the most <br className="hidden md:block" />
+              <span className="italic text-[#d9d5f0]">important input: your own data.</span>
+            </h1>
+          </div>
+
+          {/* Bottom Area: CTAs */}
+          <div className="w-full flex justify-start lg:justify-end items-end lg:mt-auto pointer-events-auto pb-8 lg:pb-16">
             
-            {/* Left Side: Play Button Area */}
-            <div className="col-span-1 lg:col-span-3 flex flex-row items-center gap-4">
-              <button 
-                onClick={scrollToVideo}
-                className="w-12 h-12 lg:w-14 lg:h-14 rounded-full border border-white/20 flex items-center justify-center hover:bg-white/10 transition-colors duration-300 group cursor-pointer"
-              >
-                <svg className="w-3 h-3 lg:w-4 lg:h-4 text-white ml-1 opacity-70 group-hover:opacity-100 transition-opacity" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M8 5v14l11-7z" />
-                </svg>
-              </button>
-              <div 
-                onClick={scrollToVideo}
-                className="flex flex-col text-white/90 text-[10px] lg:text-xs uppercase tracking-[0.15em] font-medium cursor-pointer"
-              >
-                <span className="underline underline-offset-4 mb-1 hover:text-white/60 transition-colors">Watch</span>
-                <span className="underline underline-offset-4 hover:text-white/60 transition-colors">Showreel</span>
-              </div>
-            </div>
-
-            {/* Center Area: Title & Paragraph */}
-            <div className="col-span-1 lg:col-span-8 flex flex-col items-start text-left">
-              {/* Main Heading */}
-              <h1
-                className="font-dm-sans font-medium text-[22px] sm:text-[28px] md:text-[32px] lg:text-[40px]
-                    xl:text-[44px] lg:leading-[1.2] xl:leading-[1.2] tracking-tight mb-4 max-w-[800px]"
-              >
-                <ShimmerText className="text-white">
-                  {heroTextLines.map((line, index) => (
-                    <span key={index}>
-                      {line}
-                      <br />
-                    </span>
-                  ))}
-                </ShimmerText>
-              </h1>
-
-              {/* Description */}
-              <p
-                className="font-dm-sans text-white/60 text-xs sm:text-sm md:text-sm lg:text-[15px]
-                          max-w-[100%] sm:max-w-[90%] md:max-w-[80%] lg:max-w-[650px]
-                          leading-relaxed lg:leading-[1.6] mb-6 font-light"
-              >
+            {/* Right side: Subtext and Buttons */}
+            <div className="w-full lg:w-1/2 xl:w-2/5 flex flex-col items-start lg:items-end text-left lg:text-right gap-8">
+              <p className="font-dm-sans text-white/70 text-sm md:text-base leading-relaxed max-w-[420px] font-light">
                 Impulse Digital is the AI-native growth intelligence partner for enterprise marketing teams that need to close the gap between what their data knows and what their decisions reflect.
               </p>
 
-              {/* CTA Button */}
-              <a 
-                href="#work" 
-                className="inline-flex items-center justify-center gap-2 px-6 py-3 md:px-8 md:py-4 bg-white rounded-full hover:bg-[#543d98] hover:text-white text-[#543d98] transition-colors duration-300 group"
-              >
-                <span className="font-dm-sans font-bold text-sm md:text-base">See how we work</span>
-                <img 
-                  src="/vector-1-3.svg" 
-                  alt="Arrow" 
-                  className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert pointer-events-none" 
-                />
-              </a>
+              <div className="flex flex-col sm:flex-row items-start sm:items-center justify-start lg:justify-end gap-6 w-full lg:w-auto">
+                <a 
+                  href="#work" 
+                  className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-white rounded-full hover:bg-[#543d98] hover:text-white text-[#543d98] transition-colors duration-300 group"
+                >
+                  <span className="font-dm-sans font-semibold text-sm">See how we work</span>
+                  <img 
+                    src="/vector-1-3.svg" 
+                    alt="Arrow" 
+                    className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 group-hover:brightness-0 group-hover:invert pointer-events-none" 
+                  />
+                </a>
+              </div>
             </div>
 
-            {/* Right Side: Empty space (numbers removed per request) */}
-            <div className="hidden lg:block lg:col-span-1"></div>
           </div>
-
-          {/* Full Width Video Section */}
-          <div 
-            ref={videoRef}
-            className="w-full relative mt-8 lg:mt-12 bg-[#020018]" 
-            style={{ aspectRatio: "16/9", minHeight: "400px" }}
-          >
-            <video
-              className="absolute inset-0 w-full h-full object-cover"
-              autoPlay
-              muted
-              loop
-              playsInline
-              preload="metadata"
-              poster="/rectangle-35.jpg"
-            >
-              <source src="/impulse-video-new.mp4" type="video/mp4" />
-            </video>
           </div>
-          
-        </div>
+          </div>
+        </header>
       </section>
+
+      {/* Target for scrolling down */}
+      <div ref={videoRef} />
     </>
   );
 };

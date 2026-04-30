@@ -32,6 +32,16 @@ export const TestimonialsSection = (): JSX.Element => {
   const allTestimonials: Testimonial[] = useMemo(
     () => [
       {
+        id: "10",
+        name: "Pratik Shetty",
+        title: "Senior Manager, Consumer Insights, Tata Consumer Products",
+        company: "Tata Consumer Products",
+        content:
+          "Impulse Digital has been a dependable partner for our social listening and category landscape needs. What stands out is their agility and flexibility, they consistently deliver high-quality outputs, often within tight timelines. They’ve also played a key role in tracking and evaluating our main campaign last year - Agent Chings - where their structured weekly updates on social presence, growth, and sentiment were particularly useful. Their approach is practical, client-centric, and focused on delivering actionable insights. Overall, they are reliable and easy to work with.",
+        avatar: "/Pratik-Shetty.jpeg",
+        location: "Mumbai",
+      },
+      {
         id: "9",
         name: "Rukmani Vishwanath",
         title: "Head of Corporate Communications, Grasim Industries Limited | Pulp and Fibre",

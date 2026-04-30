@@ -212,7 +212,7 @@ export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
             {navigationItems.map((item) => (
               <div
                 key={item.label}
-                className="relative"
+                className="relative py-6 -my-6 flex items-center"
                 onMouseEnter={() => setOpenDropdown(item.label)}
                 onMouseLeave={() => {
                   setOpenDropdown(null);
@@ -249,7 +249,8 @@ export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
                 </div>
 
                 {item.hasDropdown && openDropdown === item.label && (
-                  <div className="absolute top-full left-0 w-56 bg-white shadow-lg rounded-lg py-2 z-50">
+                  <div className="absolute top-[calc(100%-10px)] left-0 w-56 pt-4 z-50">
+                    <div className="bg-white shadow-xl rounded-lg py-2 border border-black/5">
                     {item.dropdownItems?.map((dd) => (
                       <div
                         key={dd.label}
@@ -288,6 +289,7 @@ export const Header: React.FC<HeaderProps> = ({ overlay = false, items }) => {
                         )}
                       </div>
                     ))}
+                    </div>
                   </div>
                 )}
               </div>
