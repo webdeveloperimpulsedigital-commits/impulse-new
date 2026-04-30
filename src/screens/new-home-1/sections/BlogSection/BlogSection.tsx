@@ -165,7 +165,7 @@ export const BlogSection = (): JSX.Element => {
             to="/blogs"
             className="[font-family:'DM_Sans',Helvetica] font-bold text-white text-sm group-hover:text-[#543d98] transition-colors duration-300"
           >
-            See All Articles
+            Read our thinking
           </Link>
           <img
             src="/button-icon.svg"
@@ -225,24 +225,21 @@ export const BlogSection = (): JSX.Element => {
       <div className="mx-auto px-4 md:px-4">
         <div className="relative flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6">
           <div className="text-left max-w-2xl">
-            <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
-              <span className="text-[#030019] lg:text-[34px] sm:text-[16px]">
-                Sharing is
-              </span>
-              <br />
-              <span className="font-bold text-[#543d98] lg:text-[49px] md:text-[52px] sm:text-[26px]">
-                How We Grow Together
-              </span>
+
+
+            <h2 className="text-4xl md:text-5xl lg:text-6xl font-medium leading-[1.1] tracking-tight text-left text-[#543d98] mb-12">
+              <span className="text-black">From the</span><br />
+              intelligence desk.
             </h2>
           </div>
 
           <div className="flex-shrink-0 hidden md:block">
             <Button className="w-[220px] h-[44px] group inline-flex items-center gap-2 px-4 py-6 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border-[#543d98] hover:border hover:border-[#543d98]">
               <Link
-                to="https://www.theimpulsedigital.com/blog/"
+                to="/blogs"
                 className="[font-family:'DM_Sans',Helvetica] font-bold text-white text-sm md:text-base group-hover:text-[#543d98] transition-colors duration-300"
               >
-                See All Articles
+                Read our thinking
               </Link>
               <img
                 src="/button-icon.svg"

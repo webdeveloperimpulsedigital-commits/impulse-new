@@ -10,6 +10,8 @@ interface JobPosition {
   description: string;
   responsibilities: string[];
   requirements: string[];
+  note?: string[];
+  applicationdetails?: string;
 }
 
 export const OpenPositionsSection = (): JSX.Element => {
@@ -21,8 +23,7 @@ export const OpenPositionsSection = (): JSX.Element => {
       location: "Mumbai, India",
       type: "Full-time",
       experience: "4+ years",
-      description:
-        "We’re looking for someone who can write engaging social media content. Your job is simple: take a clear idea and turn it into content people actually want to read, watch, and engage with. You will work closely with our Social Media Head and focus on executing content through strong writing.",
+      description: "We’re looking for someone who can write engaging social media content. Your job is simple: take a clear idea and turn it into content people actually want to read, watch, and engage with. You will work closely with our Social Media Head and focus on executing content through strong writing.",
       responsibilities: [
         "Write Instagram captions, reel/video scripts, carousel content, and LinkedIn posts.",
         "Convert briefs into structured content formats.",
@@ -39,7 +40,8 @@ export const OpenPositionsSection = (): JSX.Element => {
         "Good grasp of platform tone (LinkedIn vs Instagram).",
         "Basic Hindi/Marathi understanding is a plus.",
         "Ability to follow briefs and adapt across industries."
-      ]
+      ],
+
     },
 
     {
@@ -49,8 +51,7 @@ export const OpenPositionsSection = (): JSX.Element => {
       location: "Mumbai, India",
       type: "Full-time",
       experience: "2–3 years",
-      description:
-        "We are looking for an SEO Executive who can manage end-to-end SEO activities, improve website rankings, and drive organic traffic growth. The candidate should have strong knowledge of on-page, off-page, and technical SEO along with hands-on experience in SEO tools.",
+      description: "We are looking for an SEO Executive who can manage end-to-end SEO activities, improve website rankings, and drive organic traffic growth. The candidate should have strong knowledge of on-page, off-page, and technical SEO along with hands-on experience in SEO tools.",
       responsibilities: [
         "Perform keyword research, competitor analysis, and search intent analysis.",
         "Execute on-page SEO (meta tags, headings, internal linking, schema).",
@@ -70,7 +71,35 @@ export const OpenPositionsSection = (): JSX.Element => {
         "Basic HTML and schema markup understanding.",
         "Strong analytical and problem-solving skills.",
         "Good communication and teamwork."
-      ]
+      ],
+
+    },
+    {
+      id: "HR Executive",
+      title: "HR Executive",
+      department: "HR",
+      location: "Mumbai, India",
+      type: "Full-time",
+      experience: "2-3 years",
+      description:
+        "We are looking for an HR Executive who can manage end-to-end HR activities, improve employee satisfaction, and drive HR initiatives. The candidate should have strong knowledge of HR policies and procedures along with hands-on experience in HR tools.",
+      responsibilities: [
+        "Perform HR activities such as recruitment, onboarding, employee relations, performance management, and compensation and benefits.",
+        "Execute HR policies and procedures.",
+        "Monitor employee satisfaction and engagement.",
+        "Collaborate with HR team for HR initiatives.",
+        "Stay updated with HR trends and regulations."
+      ],
+      requirements: [
+        "1–2 years of HR experience",
+        "Good communication and coordination skills",
+        "Ability to manage multiple tasks",
+        "Basic understanding of HR processes"
+      ],
+      note: ["This role is primarily focused on recruitment and engagement, with basic exposure to HR operations.",
+
+      ],
+      applicationdetails: "Interested candidates are requested to share their updated resume along with current CTC and notice period at hr@theimpulsedigital.com",
     }
   ];
 
@@ -81,7 +110,7 @@ export const OpenPositionsSection = (): JSX.Element => {
       id="open-position-sec-border"
     >
       <div className="max-w-[1280px] mx-auto px-4 lg:px-8">
-        
+
         {/* Header */}
         <div className="text-center mb-12 lg:mb-16">
           <p className="font-normal text-[#030019] text-lg mb-2">
@@ -156,6 +185,31 @@ export const OpenPositionsSection = (): JSX.Element => {
                   </li>
                 ))}
               </ul>
+
+              {job.note && (
+                <div>
+                  <h4 className="font-bold text-[#030019] text-lg mb-3">
+                    Notes
+                  </h4>
+                  <ul className="space-y-2 mb-6">
+                    {job.note.map((item, i) => (
+                      <li key={i} className="flex items-start">
+                        <span className="text-[#543d98] mr-2 text-sm">•</span>
+                        <span className="text-[#666] text-sm">{item}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {job.applicationdetails && (
+                <div>
+
+                  <ul className="space-y-2 mb-6">
+                    {job.applicationdetails}
+                  </ul>
+                </div>
+              )}
 
               {/* Apply Button */}
               <Button className="w-[250px] h-[44px] group inline-flex items-center gap-2 px-4 py-6 rounded-xl bg-[#543d98] text-white hover:bg-white hover:text-[#543d98] transition-colors duration-300 border-[#543d98] hover:border hover:border-[#543d98]">
