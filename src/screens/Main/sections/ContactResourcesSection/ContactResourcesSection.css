@@ -159,6 +159,12 @@
 .contact-container{
   gap: 0px;
 }
+.contact-left0 {
+  min-width: 100%;
+}
+.contact-right {
+  width: 100%;
+}
 .contact-right button{
   width: 40%;
 }

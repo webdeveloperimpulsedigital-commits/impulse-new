@@ -169,8 +169,12 @@
     gap: 0px;
   }
 
+  .contact-left0 {
+    min-width: 100%;
+  }
+
   .contact-right {
-    width: 40%;
+    width: 100%;
   }
 
   .wrap-contact {
