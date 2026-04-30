@@ -111,12 +111,22 @@ export const TestimonialsSection = (): JSX.Element => {
         avatar: "/Samrat.jpg",
         location: "Navi Mumbai",
       },
+      {
+        id: "9",
+        name: "Rukmani Vishwanath",
+        title: "Head of Corporate Communications, Grasim Industries Limited | Pulp and Fibre",
+        company: "Grasim Industries Limited",
+        content:
+          "Impulse Digital has been a reliable partner in our social media journey. The team is innovative, dependable, humble, and highly collaborative, always taking full ownership of their work. With their creative insights and strong understanding of trends and technology in the social media space, they help us drive campaigns that deliver maximum impact.",
+        avatar: "/Rukmani-Vishwanath.png",
+        location: "Mumbai",
+      },
     ],
     []
   );
  
-  const testimonialsRow1 = allTestimonials.slice(0, 4);
-  const testimonialsRow2 = allTestimonials.slice(4, 8);
+  const testimonialsRow1 = allTestimonials.slice(0, 5);
+  const testimonialsRow2 = allTestimonials.slice(5, 9);
  
   const TestimonialCard = ({ testimonial }: { testimonial: Testimonial }) => (
     <div
