@@ -7,179 +7,175 @@ export type FAQItem = {
 
 export const faqData: Record<string, FAQItem[]> = {
 
-<<<<<<< HEAD
-"/new-home": [
-  {
-    question: "What is an ICP Diagnostic?",
-    answer: "A strategy session where we define your ideal buyer. The AI needs precise inputs to deliver precise outputs. This is where we build that foundation."
-  },
-  {
-    question: "How is this different from other outbound agencies?",
-    answer: "Most agencies staff SDR teams who manually prospect, write, and send. Archer replaces that manual layer with AI infrastructure. The output is faster, more precise, and costs less to scale."
-  },
-  {
-    question: "Is the outreach fully automated?",
-    answer: "The AI generates and sequences outreach. A strategist reviews quality and approves deployment. Nothing ships without human oversight."
-  },
-  {
-    question: "How soon do results start?",
-    answer: "Engine build takes two weeks. Live outreach begins week three. First qualified responses typically arrive within the first two to three cycles."
-  },
-  {
-    question: "What if outbound is not right for my business?",
-    answer: "We tell you in the diagnostic. If your ICP, deal size, or sales process does not suit outbound, we say so before building anything."
-  },
-  {
-    question: "What CRM do you support?",
-    answer: "Prospects push directly into your CRM with full tagging and pipeline tracking. Integration is configured during the engine build."
-  },
-  {
-    question: "Do you replace my sales team?",
-    answer: "No. Archer fills the top of your funnel. Your closers still close. They just walk into better, better-informed conversations."
-  }
-],
-
-"/":[
-
-  {
-    question: "How do I choose the right digital marketing agency in Mumbai for my business?",
-    answer: "Choosing the right digital marketing agency in Mumbai depends on evaluating their strategy approach, industry experience, reporting transparency, and ability to align with your business goals. At Impulse Digital, we begin with a discovery audit, define measurable KPIs, and build a customized roadmap so every campaign is structured for sustainable growth rather than short-term results."
-  },
-  {
-    question: "What are the benefits of hiring a digital marketing company to leverage your business?",
-    answer: "By partnering with a digital marketing company in Mumbai like Impulse Digital, you gain access to senior-level expertise, faster execution, cross-channel strategy, scalable creativity, and measurable performance without the cost and complexity of building a large in-house team."
-  },
-  {
-    question: "What is the role of a result-oriented digital marketing agency in elevating your business?",
-    answer: "A result-oriented digital marketing company in Mumbai aligns every channel with clear KPIs. At Impulse Digital, we continuously test, optimize budgets in real time, and focus on outcomes that matter: leads, revenue, efficiency, and long-term growth."
-  },
-  {
-    question: "What are the top services an agency should offer for your business?",
-    answer: [
-      "A leading digital marketing company in Mumbai should offer:",
-      "Agentic AI",
-      "Digital Strategy & Growth Planning",
-      "Performance Marketing (Google Ads, Meta, LinkedIn)",
-      "SEO (Technical, On-page & Content-led)",
-      "Social Media & Content Marketing",
-      "Marketing Automation & CRM Integration",
-      "Analytics, Tracking & Attribution",
-      "Impulse Digital delivers all of these under one unified growth framework."
-    ]
-  },
-  {
-    question: "What are the advantages of hiring a leading digital marketing agency in Mumbai?",
-    answer: "A proven digital marketing agency in Mumbai brings tested playbooks, specialized teams, enterprise-grade tools, faster time-to-value, and a lower total cost of ownership. With Impulse Digital, you also get transparent reporting and direct access to decision-makers."
-  },
-  {
-    question: "Can I expect instant results after hiring an agency?",
-    answer: "Some channels show quick lifts (e.g., performance ads). Others compound over time (e.g., SEO). A balanced mix delivers both short-term and long-term ROI."
-  },
-  {
-    question: "Is it possible to measure the efficacy of your digital marketing agency’s strategies?",
-    answer: "Yes. A reliable digital marketing agency in Mumbai sets clear KPIs, implements proper tracking, defines conversion events, and uses attribution models. At Impulse Digital, performance is reviewed regularly and communicated clearly, no vanity metrics."
-  },
-  {
-    question: "What is the budget to hire a digital marketing agency in Mumbai for your business?",
-    answer: "The cost of hiring a digital marketing agency in Mumbai depends on your scope, industry, business size, and growth goals. Typically, budgets range from ₹70,000 to ₹2,00,000 per month for a professional agency. We recommend discussing requirements directly with Impulse Digital to design a cost-effective, results-focused plan."
-  },
-  {
-    question: "Before signing up with an agency, should I consider geographic factors like location?",
-    answer: "No, one does not need to consider the agency's location, as digital marketing services are provided online and are certainly not restricted to physical presence or areas. Anyone can easily receive top digital marketing services from Mumbai to anywhere in the world. However, it is essential to consider the following factors: the agency's expertise in your domain, industry alignment, experience, and facilities they provide for online operations to ensure a smooth working process."
-  },
-  {
-    question: "What skills are necessary for an agency before onboarding?",
-    answer: "When onboarding and deciding on an agency, it is essential to prioritize domain expertise, transparent communication that helps build trust, creative design and marketing strategy, and keeping a track record of quality work. The team of people coordinating should have qualities of problem-solving with efficiency. This shows that the agency is highly dependable and trustworthy."
-  }
-],
-
-"/digital-marketing-agency-in-india":[
-   {
-    question: "What is a digital marketing agency?",
-    answer: "A digital marketing agency helps businesses grow online using services like performance ads, SEO, social, content, automation and analytics tailored to goals and budgets."
-  },
-  {
-    question: "What are the benefits of hiring a digital marketing agency to leverage your business?",
-    answer: "You get senior expertise, speed of execution, cross-channel strategy, creative at scale, and measurable performance without building a large in-house team."
-  },
-  {
-    question: "What is the role of a result-oriented digital marketing agency in elevating your business?",
-    answer: "A results-driven partner aligns channels to KPIs, runs continuous experiments, optimizes budgets in real-time, and reports outcomes clearly to drive revenue and efficiency."
-  },
-  {
-    question: "Top 6 services an agency should offer for your business?",
-    answer: "Strategy, Performance Ads, SEO, Social & Content, Marketing Automation/CRM, and Analytics/Attribution."
-  },
-  {
-    question: "What are the advantages of hiring a leading digital marketing agency?",
-    answer: "Proven playbooks, specialized teams, enterprise-grade tools, faster time-to-value, and lower total cost of ownership."
-  },
-  {
-    question: "Can I expect instant results after hiring an agency?",
-    answer: "Some channels show quick lifts (e.g., performance ads). Others compound over time (e.g., SEO). A balanced mix delivers both short-term and long-term ROI."
-  },
-  {
-    question: "Is it possible to measure the efficacy of your digital marketing agency's strategies?",
-    answer: "Yes. With clear KPIs, proper tracking, conversion events, and multi-touch attribution, you can measure impact across the funnel."
-  },
-
-  {
-    question: "What is the budget to hire a digital marketing agency for your business?",
-    answer: "The budget to hire the best digital marketing agency in Mumbai depends on your requirements which includes various factors like your scope of services, the industry, the size of your business and, most importantly, your marketing goals and expectations. It is essential to contact the agency directly for any further queries about budget or services to make a better deal. Approximately the budget ranges from 70k to 2 Lakh to hire a good marketing agency for your business.To ensure an informed decision, consider several factors carefully."
-  },
-  {
-    question: "Before signing up with an agency, should I consider geographic factors like location?",
-    answer: "No, one does not need to consider the agency's location, as digital marketing services are provided online and are certainly not restricted to physical presence or areas. Anyone can easily receive top digital marketing services from Mumbai to anywhere in the world. However, it is essential to consider the following factors: the agency's expertise in your domain, industry alignment, experience, and facilities they provide for online operations to ensure a smooth working process."
-  },
-  {
-    question: "What skills are necessary for an agency before onboarding?",
-    answer: "When onboarding and deciding on an agency, it is essential to prioritize domain expertise, transparent communication that helps build trust, creative design and marketing strategy, and keeping a track record of quality work. The team of people coordinating should have qualities of problem-solving with efficiency. This shows that the agency is highly dependable and trustworthy."
-  }
-],
-
-"/digital-marketing-agency-in-thane":[
-=======
   "/new-home": [
->>>>>>> fe979a90b27b3f8256198d102996c3b3aaf09447
+    {
+      question: "What is an ICP Diagnostic?",
+      answer: "A strategy session where we define your ideal buyer. The AI needs precise inputs to deliver precise outputs. This is where we build that foundation."
+    },
+    {
+      question: "How is this different from other outbound agencies?",
+      answer: "Most agencies staff SDR teams who manually prospect, write, and send. Archer replaces that manual layer with AI infrastructure. The output is faster, more precise, and costs less to scale."
+    },
+    {
+      question: "Is the outreach fully automated?",
+      answer: "The AI generates and sequences outreach. A strategist reviews quality and approves deployment. Nothing ships without human oversight."
+    },
+    {
+      question: "How soon do results start?",
+      answer: "Engine build takes two weeks. Live outreach begins week three. First qualified responses typically arrive within the first two to three cycles."
+    },
+    {
+      question: "What if outbound is not right for my business?",
+      answer: "We tell you in the diagnostic. If your ICP, deal size, or sales process does not suit outbound, we say so before building anything."
+    },
+    {
+      question: "What CRM do you support?",
+      answer: "Prospects push directly into your CRM with full tagging and pipeline tracking. Integration is configured during the engine build."
+    },
+    {
+      question: "Do you replace my sales team?",
+      answer: "No. Archer fills the top of your funnel. Your closers still close. They just walk into better, better-informed conversations."
+    }
+  ],
+
+  "/": [
+
     {
       question: "How do I choose the right digital marketing agency in Mumbai for my business?",
-      answer: "The decision should start with how well the agency understands your category, your data environment, and the specific growth levers available to you. Look for a partner that diagnoses before it prescribes. At Impulse Digital, every engagement begins with a strategic audit: understanding your current campaign architecture, identifying where decisions are being made without evidence, and defining measurable outcomes before any execution begins."
+      answer: "Choosing the right digital marketing agency in Mumbai depends on evaluating their strategy approach, industry experience, reporting transparency, and ability to align with your business goals. At Impulse Digital, we begin with a discovery audit, define measurable KPIs, and build a customized roadmap so every campaign is structured for sustainable growth rather than short-term results."
     },
     {
       question: "What are the benefits of hiring a digital marketing company to leverage your business?",
-      answer: "The right partner gives you access to strategic depth, analytical infrastructure, and execution capability that would take 18 to 24 months to build in-house. With Impulse Digital, you gain a team that has operated inside the marketing environments of Amazon India, HUL, Mastercard, and Aditya Birla Group, bringing pattern recognition from enterprise-scale campaigns directly into your growth strategy."
+      answer: "By partnering with a digital marketing company in Mumbai like Impulse Digital, you gain access to senior-level expertise, faster execution, cross-channel strategy, scalable creativity, and measurable performance without the cost and complexity of building a large in-house team."
     },
     {
       question: "What is the role of a result-oriented digital marketing agency in elevating your business?",
-      answer: "A results-oriented digital marketing agency ties every channel, every campaign, and every creative decision back to a business outcome that your leadership team cares about. At Impulse Digital, we define KPIs at the business level, not the channel level. The question is never did impressions go up? It is did the right decisions get made faster?"
+      answer: "A result-oriented digital marketing company in Mumbai aligns every channel with clear KPIs. At Impulse Digital, we continuously test, optimize budgets in real time, and focus on outcomes that matter: leads, revenue, efficiency, and long-term growth."
     },
     {
       question: "What are the top services an agency should offer for your business?",
-      answer: "The capabilities matter less than how they are integrated. A fragmented approach to digital marketing creates activity without direction. Impulse Digital organises capability into three layers: Growth Intelligence (analytics, campaign intelligence, competitive sensing), AI Agency (agentic AI, cinematic AI production, Generative Search Optimisation), and Performance Studios (social media marketing, performance marketing, content, web development, branding). Intelligence leads. AI differentiates. Execution scales."
+      answer: [
+        "A leading digital marketing company in Mumbai should offer:",
+        "Agentic AI",
+        "Digital Strategy & Growth Planning",
+        "Performance Marketing (Google Ads, Meta, LinkedIn)",
+        "SEO (Technical, On-page & Content-led)",
+        "Social Media & Content Marketing",
+        "Marketing Automation & CRM Integration",
+        "Analytics, Tracking & Attribution",
+        "Impulse Digital delivers all of these under one unified growth framework."
+      ]
     },
     {
       question: "What are the advantages of hiring a leading digital marketing agency in Mumbai?",
-      answer: "A proven digital marketing agency in Mumbai brings tested frameworks, specialised teams, enterprise-grade analytical tools, and the pattern recognition that comes from working across categories and scales. With Impulse Digital, you also get direct access to the founding team, and the agility of a focused operation with the client portfolio of a much larger agency."
+      answer: "A proven digital marketing agency in Mumbai brings tested playbooks, specialized teams, enterprise-grade tools, faster time-to-value, and a lower total cost of ownership. With Impulse Digital, you also get transparent reporting and direct access to decision-makers."
     },
     {
       question: "Can I expect instant results after hiring an agency?",
-      answer: "Some digital marketing channels produce visible movement quickly. Performance marketing can show early signal within weeks. Intelligence-led SEO and Generative Search Optimisation compound over quarters. The most durable outcome is decision quality: when your marketing team starts allocating budget based on evidence rather than habit, the return is structural, not episodic."
+      answer: "Some channels show quick lifts (e.g., performance ads). Others compound over time (e.g., SEO). A balanced mix delivers both short-term and long-term ROI."
     },
     {
-      question: "Is it possible to measure the efficacy of your digital marketing agency's strategies?",
-      answer: "Measurement is not optional; it is the starting point. Impulse Digital implements proper tracking infrastructure, defines conversion events tied to revenue, and builds attribution models that your team can interrogate independently. Every engagement includes regular performance reviews with full transparency. No vanity metrics. No dashboards designed to look impressive without being useful."
+      question: "Is it possible to measure the efficacy of your digital marketing agency’s strategies?",
+      answer: "Yes. A reliable digital marketing agency in Mumbai sets clear KPIs, implements proper tracking, defines conversion events, and uses attribution models. At Impulse Digital, performance is reviewed regularly and communicated clearly, no vanity metrics."
     },
     {
-      question: "What is the budget to hire a digital marketing agency in Mumbai for my business?",
-      answer: "The scope of a growth intelligence engagement varies based on the complexity of your data environment, the number of digital marketing channels in play, and the strategic depth of the mandate. Impulse Digital works with marketing teams to scope engagements that reflect the actual decision value being unlocked. The conversation starts with what you are trying to solve, not a rate card."
+      question: "What is the budget to hire a digital marketing agency in Mumbai for your business?",
+      answer: "The cost of hiring a digital marketing agency in Mumbai depends on your scope, industry, business size, and growth goals. Typically, budgets range from ₹70,000 to ₹2,00,000 per month for a professional agency. We recommend discussing requirements directly with Impulse Digital to design a cost-effective, results-focused plan."
     },
     {
       question: "Before signing up with an agency, should I consider geographic factors like location?",
-      answer: "No. Digital marketing capability is not bound by geography. Impulse Digital is headquartered in Mumbai and has served clients across India, the United States, and Japan. What matters is domain expertise, strategic alignment, communication cadence, and the ability to embed into your team's workflow, regardless of where either party is based."
+      answer: "No, one does not need to consider the agency's location, as digital marketing services are provided online and are certainly not restricted to physical presence or areas. Anyone can easily receive top digital marketing services from Mumbai to anywhere in the world. However, it is essential to consider the following factors: the agency's expertise in your domain, industry alignment, experience, and facilities they provide for online operations to ensure a smooth working process."
     },
     {
       question: "What skills are necessary for an agency before onboarding?",
-      answer: "Look for strategic depth over tactical breadth. The digital marketing agency should demonstrate the ability to diagnose before prescribing, show named outcomes from comparable engagements, communicate with the same rigour they bring to execution, and operate as a thinking partner rather than a task-taker. At Impulse Digital, every engagement is led by people who understand the business problem first and the marketing channel second."
+      answer: "When onboarding and deciding on an agency, it is essential to prioritize domain expertise, transparent communication that helps build trust, creative design and marketing strategy, and keeping a track record of quality work. The team of people coordinating should have qualities of problem-solving with efficiency. This shows that the agency is highly dependable and trustworthy."
+    }
+  ],
+
+  "/digital-marketing-agency-in-india": [
+    {
+      question: "What is a digital marketing agency?",
+      answer: "A digital marketing agency helps businesses grow online using services like performance ads, SEO, social, content, automation and analytics tailored to goals and budgets."
+    },
+    {
+      question: "What are the benefits of hiring a digital marketing agency to leverage your business?",
+      answer: "You get senior expertise, speed of execution, cross-channel strategy, creative at scale, and measurable performance without building a large in-house team."
+    },
+    {
+      question: "What is the role of a result-oriented digital marketing agency in elevating your business?",
+      answer: "A results-driven partner aligns channels to KPIs, runs continuous experiments, optimizes budgets in real-time, and reports outcomes clearly to drive revenue and efficiency."
+    },
+    {
+      question: "Top 6 services an agency should offer for your business?",
+      answer: "Strategy, Performance Ads, SEO, Social & Content, Marketing Automation/CRM, and Analytics/Attribution."
+    },
+    {
+      question: "What are the advantages of hiring a leading digital marketing agency?",
+      answer: "Proven playbooks, specialized teams, enterprise-grade tools, faster time-to-value, and lower total cost of ownership."
+    },
+    {
+      question: "Can I expect instant results after hiring an agency?",
+      answer: "Some channels show quick lifts (e.g., performance ads). Others compound over time (e.g., SEO). A balanced mix delivers both short-term and long-term ROI."
+    },
+    {
+      question: "Is it possible to measure the efficacy of your digital marketing agency's strategies?",
+      answer: "Yes. With clear KPIs, proper tracking, conversion events, and multi-touch attribution, you can measure impact across the funnel."
+    },
+
+    {
+      question: "What is the budget to hire a digital marketing agency for your business?",
+      answer: "The budget to hire the best digital marketing agency in Mumbai depends on your requirements which includes various factors like your scope of services, the industry, the size of your business and, most importantly, your marketing goals and expectations. It is essential to contact the agency directly for any further queries about budget or services to make a better deal. Approximately the budget ranges from 70k to 2 Lakh to hire a good marketing agency for your business.To ensure an informed decision, consider several factors carefully."
+    },
+    {
+      question: "Before signing up with an agency, should I consider geographic factors like location?",
+      answer: "No, one does not need to consider the agency's location, as digital marketing services are provided online and are certainly not restricted to physical presence or areas. Anyone can easily receive top digital marketing services from Mumbai to anywhere in the world. However, it is essential to consider the following factors: the agency's expertise in your domain, industry alignment, experience, and facilities they provide for online operations to ensure a smooth working process."
+    },
+    {
+      question: "What skills are necessary for an agency before onboarding?",
+      answer: "When onboarding and deciding on an agency, it is essential to prioritize domain expertise, transparent communication that helps build trust, creative design and marketing strategy, and keeping a track record of quality work. The team of people coordinating should have qualities of problem-solving with efficiency. This shows that the agency is highly dependable and trustworthy."
+    }
+  ],
+
+  "/digital-marketing-agency-in-thane": [
+    {
+      question: "What services does a digital marketing agency in Thane like Impulse Digital offer?",
+      answer: "Impulse Digital offers a wide range of digital marketing services including Search Engine Optimization (SEO), Social Media Marketing, Website Development, Pay-Per-Click Advertising (PPC), Content Marketing, Branding & Creatives, Employer Branding, and Corporate Communication."
+    },
+    {
+      question: "Why choose a digital marketing agency based in Thane?",
+      answer: "Choosing a Thane-based agency ensures you work with experts who understand the local market and consumer behavior. Impulse Digital combines local insights with national and international digital strategies to deliver real results."
+    },
+    {
+      question: "How much experience does Impulse Digital have in digital marketing?",
+      answer: "Impulse Digital brings over 34 years of experience in advertising and marketing. We’ve helped startups, SMEs, and large corporations grow their digital presence with customized, result-driven strategies."
+    },
+    {
+      question: "What kind of results can clients expect from Impulse Digital?",
+      answer: "Our clients have seen results like a 200-300% increase in organic traffic and 50 to 100+ leads generated per month. We focus on measurable growth, ROI, and long-term brand building."
+    },
+    {
+      question: "Which industries does Impulse Digital serve?",
+      answer: "We work with clients from a wide range of industries including FMCG, education, manufacturing, real estate, health care, e-commerce, and professional services."
+    },
+    {
+      question: "Can Impulse Digital work with clients outside of Thane?",
+      answer: "Yes, we work with clients across Mumbai, Pune, and other cities in India. Our team is equipped to manage projects remotely while maintaining seamless communication and performance tracking."
+    },
+    {
+      question: "How long does it take to see results from digital marketing?",
+      answer: "It depends on the service. SEO typically takes 3 to 6 months to show significant results, while PPC, social media ads, and email marketing can generate leads and traffic in a matter of weeks."
+    },
+    {
+      question: "Do you offer a free consultation or strategy session?",
+      answer: "Yes, we offer a free consultation to understand your business goals and recommend the best digital marketing strategy tailored to your needs."
+    },
+    {
+      question: "How is your pricing structured?",
+      answer: "Our pricing is flexible and based on the services required, campaign goals, and business size. We offer customized packages that align with your marketing objectives and budget."
+    },
+    {
+      question: "Is there a clear process for tracking performance and ROI?",
+      answer: "Absolutely. We provide transparent performance reports using tools like Google Analytics, Search Console, and ad dashboards. You'll always know what’s working, what’s not, and how your investment is performing."
     }
   ],
 
