@@ -32,6 +32,16 @@ export const TestimonialsSection = (): JSX.Element => {
   const allTestimonials: Testimonial[] = useMemo(
     () => [
       {
+        id: "9",
+        name: "Rukmani Vishwanath",
+        title: "Head of Corporate Communications, Grasim Industries Limited | Pulp and Fibre",
+        company: "Grasim Industries Limited",
+        content:
+          "Impulse Digital has been a reliable partner in our social media journey. The team is innovative, dependable, humble, and highly collaborative, always taking full ownership of their work. With their creative insights and strong understanding of trends and technology in the social media space, they help us drive campaigns that deliver maximum impact.",
+        avatar: "/Rukmani-Vishwanath.png",
+        location: "Mumbai",
+      },
+      {
         id: "1",
         name: "Rahul Shah",
         title: "Director, HEM Incense",
@@ -111,16 +121,6 @@ export const TestimonialsSection = (): JSX.Element => {
         avatar: "/Samrat.jpg",
         location: "Navi Mumbai",
       },
-      {
-        id: "9",
-        name: "Rukmani Vishwanath",
-        title: "Head of Corporate Communications, Grasim Industries Limited | Pulp and Fibre",
-        company: "Grasim Industries Limited",
-        content:
-          "Impulse Digital has been a reliable partner in our social media journey. The team is innovative, dependable, humble, and highly collaborative, always taking full ownership of their work. With their creative insights and strong understanding of trends and technology in the social media space, they help us drive campaigns that deliver maximum impact.",
-        avatar: "/Rukmani-Vishwanath.png",
-        location: "Mumbai",
-      },
     ],
     []
   );
@@ -134,7 +134,7 @@ export const TestimonialsSection = (): JSX.Element => {
       style={{
         width: isMobile ? "100%" : "550px",
         marginRight: "16px",
-        height: isMobile ? "300px" : "300px", // keep mobile uniform
+        height: isMobile ? "100%" : "300px", // stretch on mobile
       }}
     >
       <div className="flex items-center mb-4" style={{ gap: "12px" }}>
@@ -168,7 +168,7 @@ export const TestimonialsSection = (): JSX.Element => {
           />
         </div>
       </div>
-      <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-xs md:text-sm leading-relaxed line-clamp-8">
+      <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-xs md:text-sm leading-relaxed">
         {testimonial.content}
       </p>
     </div>
@@ -328,9 +328,11 @@ export const TestimonialsSection = (): JSX.Element => {
         /* ===== MOBILE-ONLY corner previews (desktop unaffected) ===== */
         @media (max-width: 767px) {
           .testimonials-swiper { overflow: visible; }
+          .testimonials-swiper .swiper-wrapper { align-items: stretch; }
           /* narrower slides so left/right corners show */
           .testimonials-swiper .swiper-slide {
             width: 86% !important;           /* adjust 82–90% to control peek */
+            height: auto !important;
             transition: transform .5s ease, filter .5s ease, opacity .5s ease, z-index .5s ease;
           }
           /* slight dim on non-active */
