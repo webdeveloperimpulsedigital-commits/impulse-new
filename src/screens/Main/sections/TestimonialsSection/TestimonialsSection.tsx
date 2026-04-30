@@ -203,7 +203,7 @@ export const TestimonialsSection = (): JSX.Element => {
       >
         {allTestimonials.map((testimonial) => (
           <SwiperSlide key={testimonial.id}>
-            <div className="pb-4">
+            <div className="pb-4 h-full">
               <TestimonialCard testimonial={testimonial} />
             </div>
           </SwiperSlide>
