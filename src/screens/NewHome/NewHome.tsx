@@ -1,5 +1,6 @@
 import { ScrollRevealLogoHome } from "../../components/ScrollRevealLogo/ScrollRevealLogoHome";
 import { FeaturedItemsSection } from "./sections/FeaturedItemsSection/FeaturedItemsSection";
+import { FullWidthVideoSection } from "./sections/FullWidthVideoSection/FullWidthVideoSection";
 import { AboutSection } from "./sections/AboutSection/AboutSection";
 import { ServicesSection } from "./sections/ServicesSection/ServicesSection";
 import { ClientsSection } from "./sections/ClientSection/ClientSection";
@@ -40,6 +41,7 @@ export const NewHome = (): JSX.Element => {
       <ScrollRevealLogoHome />
       <div className="relative w-full space-y-0">
         <FeaturedItemsSection />
+        <FullWidthVideoSection />
         {/* <AboutSection /> */}
         {/* <ZoomGridSection /> */}
         <CaseStudiesGrid />

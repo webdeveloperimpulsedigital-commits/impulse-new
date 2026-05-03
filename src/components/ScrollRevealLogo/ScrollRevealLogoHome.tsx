@@ -281,8 +281,8 @@ export const ScrollRevealLogoHome: React.FC<ScrollRevealLogoProps> = ({
           // CASE STUDIES
           else if (sectionName === "case-studies") {
             const size = isMobile ? "50px" : isTablet ? "70px" : "80px";
-            // Set top to perfectly align vertically with the title and CTA (which sit at py-32 + half text height)
-            const top = sectionTop + (isMobile ? 80 : isTablet ? 120 : 120);
+            // Move it higher on mobile so it doesn't overlap the image (next to the title)
+            const top = sectionTop + (isMobile ? 40 : isTablet ? 120 : 120);
 
             const right = isMobile
               ? 20

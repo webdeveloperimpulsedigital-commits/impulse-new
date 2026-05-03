@@ -211,23 +211,27 @@ export const FeaturedItemsSection = (): JSX.Element => {
           <Header />
           
           <div className="absolute inset-0 w-full h-full flex flex-col">
-            {/* Fullscreen Background Video */}
-        <div className="absolute inset-0 z-0 pointer-events-none">
-          <video
-            className="w-full h-full object-cover mix-blend-screen"
-            autoPlay
-            muted
-            loop
-            playsInline
-            poster="/rectangle-35.jpg"
-          >
-            <source src="/video_home.mp4" type="video/mp4" />
-          </video>
-          {/* Subtle overlays to ensure text readability */}
-          <div className="absolute inset-0 bg-black/30" />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#020018] via-[#020018]/10 to-[#020018]/60" />
-          <div className="absolute inset-0 bg-gradient-to-r from-[#020018]/50 to-transparent" />
-        </div>
+            {/* Background Video */}
+            <div className="absolute inset-0 z-0 pointer-events-none">
+              <video
+                className="w-full h-full object-cover"
+                autoPlay
+                muted
+                loop
+                playsInline
+                preload="metadata"
+                poster="/rectangle-35.jpg"
+              >
+                <source src="/bg-video.mp4" type="video/mp4" />
+              </video>
+
+              {/* Dark overlay */}
+              <div
+                className="absolute inset-0 pointer-events-none"
+                style={{ backgroundColor: "#020018", opacity: 0.85 }}
+                aria-hidden="true"
+              />
+            </div>
 
         {/* Main Hero Content Overlay */}
         <div className="relative z-10 w-full max-w-[1600px] mx-auto px-6 md:px-12 lg:px-20 flex-1 flex flex-col justify-end lg:justify-between pb-24 lg:pb-32 pt-32 sm:pt-40 lg:pt-48 gap-8 lg:gap-0">
