@@ -1,1 +1,1 @@
-export { SearchEngineOptimizationInMumbai } from "./SearchEngineOptimizationServices";
+export { SearchEngineOptimizationInVashi } from "./SearchEngineOptimizationInVashi";

@@ -69,6 +69,30 @@ import { NotFound } from "./screens/NotFound/NotFound";
 import { UppercaseCaseStudy } from "./screens/UppercaseCaseStudy";
 import { SearchEngineOptimizationInMumbai } from "./screens/SearchEngineOptimizationInMumbai";
 import { SearchEngineOptimizationInAiroli } from "./screens/SearchEngineOptimizationInAiroli";
+import { SearchEngineOptimizationInVashi } from "./screens/SearchEngineOptimizationInVashi";
+import { SearchEngineOptimizationInNaviMumbai } from "./screens/SearchEngineOptimizationInNaviMumbai";
+import { SearchEngineOptimizationInBorivali } from "./screens/SearchEngineOptimizationInBorivali";
+import { SearchEngineOptimizationInKandivali } from "./screens/SearchEngineOptimizationInKandivali";
+import { SearchEngineOptimizationInAndheri } from "./screens/SearchEngineOptimizationInAndheri";
+import { SearchEngineOptimizationInBandra } from "./screens/SearchEngineOptimizationInBandra";
+import { SearchEngineOptimizationInGhatkopar } from "./screens/SearchEngineOptimizationInGhatkopar";
+import { SearchEngineOptimizationInGoregaon } from "./screens/SearchEngineOptimizationInGoregaon";
+import { SearchEngineOptimizationInJogeshwari } from "./screens/SearchEngineOptimizationInJogeshwari";
+import { SearchEngineOptimizationInKharghar } from "./screens/SearchEngineOptimizationInKharghar";
+import { SearchEngineOptimizationInKoparkhairane } from "./screens/SearchEngineOptimizationInKoparkhairane";
+import { SearchEngineOptimizationInMalad } from "./screens/SearchEngineOptimizationInMalad";
+import { SearchEngineOptimizationInMulund } from "./screens/SearchEngineOptimizationInMulund";
+import { SearchEngineOptimizationInMiraRoad } from "./screens/SearchEngineOptimizationInMiraRoad";
+import { SearchEngineOptimizationInMansarovar } from "./screens/SearchEngineOptimizationInMansarovar";
+import { SearchEngineOptimizationInDadar } from "./screens/SearchEngineOptimizationInDadar";
+import { SearchEngineOptimizationInGhansoli } from "./screens/SearchEngineOptimizationInGhansoli";
+import { SearchEngineOptimizationInNerul } from "./screens/SearchEngineOptimizationInNerul";
+import { SearchEngineOptimizationInPanvel } from "./screens/SearchEngineOptimizationInPanvel";
+import { SearchEngineOptimizationInSanpada } from "./screens/SearchEngineOptimizationInSanpada";
+import { SearchEngineOptimizationInTurbhe } from "./screens/SearchEngineOptimizationInTurbhe";
+
+
+
 import { NewHome1 } from "./screens/new-home-1";
 
 
@@ -104,6 +128,27 @@ export const App = (): JSX.Element => {
 
       <Route path="/services/search-engine-optimization/mumbai" element={<SearchEngineOptimizationInMumbai />} />
       <Route path="/services/search-engine-optimization/airoli" element={<SearchEngineOptimizationInAiroli />} />
+      <Route path="/services/search-engine-optimization/navimumbai" element={<SearchEngineOptimizationInNaviMumbai />} />
+      <Route path="/services/search-engine-optimization/vashi" element={<SearchEngineOptimizationInVashi />} />
+      <Route path="/services/search-engine-optimization/turbhe" element={<SearchEngineOptimizationInTurbhe />} />
+      <Route path="/services/search-engine-optimization/sanpada" element={<SearchEngineOptimizationInSanpada />} />
+      <Route path="/services/search-engine-optimization/panvel" element={<SearchEngineOptimizationInPanvel />} />
+      <Route path="/services/search-engine-optimization/nerul" element={<SearchEngineOptimizationInNerul />} />
+      <Route path="/services/search-engine-optimization/mulund" element={<SearchEngineOptimizationInMulund />} />
+      <Route path="/services/search-engine-optimization/mira-road" element={<SearchEngineOptimizationInMiraRoad />} />
+      <Route path="/services/search-engine-optimization/mansarovar" element={<SearchEngineOptimizationInMansarovar />} />
+      <Route path="/services/search-engine-optimization/malad" element={<SearchEngineOptimizationInMalad />} />
+      <Route path="/services/search-engine-optimization/koparkhairane" element={<SearchEngineOptimizationInKoparkhairane />} />
+      <Route path="/services/search-engine-optimization/kharghar" element={<SearchEngineOptimizationInKharghar />} />
+      <Route path="/services/search-engine-optimization/kandivali" element={<SearchEngineOptimizationInKandivali />} />
+      <Route path="/services/search-engine-optimization/jogeshwari" element={<SearchEngineOptimizationInJogeshwari />} />
+      <Route path="/services/search-engine-optimization/goregaon" element={<SearchEngineOptimizationInGoregaon />} />
+      <Route path="/services/search-engine-optimization/ghatkopar" element={<SearchEngineOptimizationInGhatkopar />} />
+      <Route path="/services/search-engine-optimization/ghansoli" element={<SearchEngineOptimizationInGhansoli />} />
+      <Route path="/services/search-engine-optimization/dadar" element={<SearchEngineOptimizationInDadar />} />
+      <Route path="/services/search-engine-optimization/borivali" element={<SearchEngineOptimizationInBorivali />} />
+      <Route path="/services/search-engine-optimization/bandra" element={<SearchEngineOptimizationInBandra />} />
+      <Route path="/services/search-engine-optimization/andheri" element={<SearchEngineOptimizationInAndheri />} />
 
       <Route path="/casestudies" element={<Casestudies />} />
       <Route path="/casestudies/shree-rubber-works" element={<ShreeRubberWorksCaseStudy />} />
