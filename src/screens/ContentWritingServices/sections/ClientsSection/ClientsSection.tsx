@@ -20,17 +20,18 @@ export const ClientsSection = (): JSX.Element => {
 
   const logos = [
     
-    { name: "amazone", src: "/Aditya_Birla_Group_Logo.svg (1).jpg" },
+    { name: "aditya birla", src: "/Aditya_Birla_Group_Logo.svg (1).jpg" },
     { name: "amazone", src: "/High Res Logo resize_Artboard 1 copy 40.png" },
     { name: "HUL", src: "/High Res Logo resize_Artboard 1 copy 52.png" },
+    { name: "wellness", src: "/wellness.jpg" },
     { name: "hdfc", src: "https://www.theimpulsedigital.com/hdfc.jpg" },
-    { name: "mastercard", src: "https://www.theimpulsedigital.com/mastercard.jpg" },
-     { name: "uppercase", src: "/uppercase.png" },
+    { name: "mastercard", src: "https://www.theimpulsedigital.com/mastercard (1).png" },
+    { name: "uppercase", src: "/uppercase.png" },
     { name: "Bajaj", src: "/Bajaj group.png" },
     { name: "ola", src: "https://www.theimpulsedigital.com/ola.jpg" },
     { name: "tata", src: "/High Res Logo resize_Artboard 1 copy 45.png" },
     { name: "d-mart", src: "/High Res Logo resize_Artboard 1 copy 34.png" },
-     { name: "tata-soulful", src: "/High Res Logo resize_Artboard 1 copy 47.png" },
+    { name: "tata-soulful", src: "/High Res Logo resize_Artboard 1 copy 47.png" },
     { name: "abg-chemical", src: "/High Res Logo resize_Artboard 1 copy 43.png" },
     { name: "hindalco", src: "/High Res Logo resize_Artboard 1 copy 42.png" },
     { name: "abps", src: "/High Res Logo resize_Artboard 1 copy 38.png" },
@@ -39,20 +40,10 @@ export const ClientsSection = (): JSX.Element => {
     { name: "chings", src: "https://www.theimpulsedigital.com/chings.jpg" },
     { name: "more", src: "https://www.theimpulsedigital.com/more.jpg" },
     { name: "tjsb", src: "/High Res Logo resize_Artboard 1 copy 46.png" },
-    { name: "jankalyan", src: "/High Res Logo resize_Artboard 1 copy 56.png" },
     { name: "navayasa", src: "https://www.theimpulsedigital.com/navayasa.jpg" },
     { name: "croda", src: "/High Res Logo resize_Artboard 1 copy 35.png" },
     { name: "qure-ai", src: "https://www.theimpulsedigital.com/qure-ai.jpg" },
-    { name: "aster", src: "/High Res Logo resize_Artboard 1 copy 60.png" },
-    { name: "automag", src: "/High Res Logo resize_Artboard 1 copy 51.png" },
-    { name: "datar", src: "https://www.theimpulsedigital.com/datar.jpg" },
-    { name: "dts", src: "/High Res Logo resize_Artboard 1 copy 59.png" },
     { name: "emech", src: "/High Res Logo resize_Artboard 1 copy 33.png" },
-    { name: "lg", src: "https://www.theimpulsedigital.com/lg.jpg" },
-    { name: "goma", src: "https://www.theimpulsedigital.com/goma.jpg" },
-    { name: "hem", src: "/High Res Logo resize_Artboard 1 copy 57.png" },
-    // { name: "enpro", src: "/High Res Logo resize_Artboard 1 copy 54.png" },
-    { name: "vendiman", src: "https://www.theimpulsedigital.com/vendiman.jpg" },
   ];
 
   const videoRef = useRef<HTMLVideoElement | null>(null);
@@ -112,7 +103,7 @@ export const ClientsSection = (): JSX.Element => {
       {/* ✅ DESKTOP GRID (lg and above) — bigger logos */}
       <div className="relative bg-white pb-12 hidden lg:block">
         <div className="wrap-clients">
-          <div className="grid grid-cols-5 gap-8">
+          <div className="grid grid-cols-4 gap-8">
             {logos.map((logo, index) => (
               <div
                 key={`grid-${index}`}
@@ -206,8 +197,6 @@ export const ClientsSection = (): JSX.Element => {
         /* ✅ border ONLY for mobile/tablet slider cards */
         .client-logo {
           padding: 0rem;
-          border: 1px solid #e5e7eb; /* gray-200 */
-          border-radius: 10px;
         }
 
         @media (prefers-reduced-motion: reduce){

@@ -129,7 +129,7 @@ export const TestimonialsSection = (): JSX.Element => {
   return (
     <section
       className="relative w-full bg-[#ffffff] py-16 md:py-24"
-      data-section="testimonials"
+      data-section="new-testimonials"
       style={{
         position: "relative",
         zIndex: 20,

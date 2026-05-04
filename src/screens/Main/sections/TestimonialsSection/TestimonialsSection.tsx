@@ -32,16 +32,6 @@ export const TestimonialsSection = (): JSX.Element => {
   const allTestimonials: Testimonial[] = useMemo(
     () => [
       {
-        id: "10",
-        name: "Pratik Shetty",
-        title: "Senior Manager, Consumer Insights, Tata Consumer Products",
-        company: "Tata Consumer Products",
-        content:
-          "Impulse Digital has been a dependable partner for our social listening and category landscape needs. What stands out is their agility and flexibility, they consistently deliver high-quality outputs, often within tight timelines.\n\nThey’ve also played a key role in tracking and evaluating our main campaign last year - Agent Chings - where their structured weekly updates on social presence, growth, and sentiment were particularly useful.\n\nTheir approach is practical, client-centric, and focused on delivering actionable insights. Overall, they are reliable and easy to work with.",
-        avatar: "/Pratik-Shetty.jpeg",
-        location: "Mumbai",
-      },
-      {
         id: "9",
         name: "Rukmani Vishwanath",
         title: "Head of Corporate Communications, Grasim Industries Limited | Pulp and Fibre",
@@ -52,13 +42,23 @@ export const TestimonialsSection = (): JSX.Element => {
         location: "Mumbai",
       },
       {
-        id: "1",
-        name: "Rahul Shah",
-        title: "Director, HEM Incense",
-        company: "HEM Incense",
+        id: "10",
+        name: "Pratik Shetty",
+        title: "Senior Manager, Consumer Insights, Tata Consumer Products",
+        company: "Tata Consumer Products",
         content:
-          "Our experience of working with the Impulse team has always matched our utmost satisfaction. From starting our new website until today, their dedication, work, and assistance have helped us increase our organic traffic to 300% and increased our lead generation to 150 leads monthly. In addition, their well-focused work has benefited both of our B2B websites. Indeed a team of experts who are always ready to guide and assist you.",
-        avatar: "/rectangle-411.png",
+          "Impulse Digital has been a dependable partner for our social listening and category landscape needs. What stands out is their agility and flexibility, they consistently deliver high-quality outputs, often within tight timelines.\n\nThey’ve also played a key role in tracking and evaluating our main campaign last year - Agent Chings - where their structured weekly updates on social presence, growth, and sentiment were particularly useful.\n\nTheir approach is practical, client-centric, and focused on delivering actionable insights. Overall, they are reliable and easy to work with.",
+        avatar: "/Pratik-Shetty.jpeg",
+        location: "Mumbai",
+      },
+      {
+        id: "11",
+        name: "Ankit Meena",
+        title: "Lead- Digital Marketing and Transformation (Pharma)",
+        company: "Himalaya Wellness Company",
+        content:
+          "I have had the opportunity to work with Impulse Digital team across different organizations and mandates over the years. What stands out for me is the way they approach a brief. They do not look at it as just another task to execute. They take the time to understand the business context, ask the right questions, and come back with ideas that are practical as well as well thought through.\n\nAcross digital strategy, brand communication, content, and performance-led initiatives, the team has consistently brought clarity, creativity, and a strong sense of ownership. They are dependable, collaborative, and easy to work with. Impulse Digital has been a valuable partner in shaping digital initiatives that need both thinking and execution.",
+        avatar: "/Ankit.png",
         location: "Mumbai",
       },
       {
@@ -72,46 +72,6 @@ export const TestimonialsSection = (): JSX.Element => {
         location: "Mumbai",
       },
       {
-        id: "3",
-        name: "Kimari Gosrani",
-        title: "Director of Communication and Strategy, Goma Engineering Pvt. Ltd",
-        company: "Goma Engineering",
-        content:
-          "What I love about the Impulse Digital team is that they are enthusiastic. They are always coming up with genuine suggestions and honest feedback to improve our processes hence ensuring noteworthy results!",
-        avatar: "/rectangle-433.png",
-        location: "Mumbai",
-      },
-      {
-        id: "4",
-        name: "Rajesh Phadke",
-        title: "Co-Founder, Kloudq Technologies Limited",
-        company: "Rhodius Dental",
-        content:
-          "Team Impulse Digital is very helpful and innovative when it comes to crafting digital marketing strategies for us. The best part about working with them is their respect for the strict timelines and the brand values. Even though we are in Pune and they are based in Mumbai, communication and coordination is never a problem and the work gets done efficiently.",
-        avatar: "/Rajesh.jpg",
-        location: "Pune",
-      },
-      {
-        id: "5",
-        name: "Riya Kothari",
-        title: "Growth Engineer - Marketing Sales, Vendiman",
-        company: "Vendiman",
-        content:
-          "Working with Impulse Digital has been an absolute delight. They have a good grasp of the briefs given and their agility, innovative creativity, and professionalism concerning deadlines is what sets them apart. The transformation in our SEO, PPC, and social media management has been incredible, our ranking to the first within three months with 90% of the keywords.",
-        avatar: "/riya.jpg",
-        location: "Mumbai",
-      },
-      {
-        id: "6",
-        name: "Zia Khan",
-        title: "Digital Marketing Manager, Nahar Group",
-        company: "Rafter Group",
-        content:
-          "I have been working with Impulse Digital team for almost 3 years. They have always been ready to help and find solution for any challenge. The Word 'NO' does not exist in their dictionary which is rare to find in many agencies. I wish all good luck and ETA of future to Impulse!",
-        avatar: "/zia.jpg",
-        location: "Mumbai",
-      },
-      {
         id: "7",
         name: "Vikram Bhave",
         title: "Business Development Manager, AUTOMAG India",
@@ -122,21 +82,21 @@ export const TestimonialsSection = (): JSX.Element => {
         location: "Pune",
       },
       {
-        id: "8",
-        name: "Samrat Dhar",
-        title: "Managing Partner, Shree Rubber Works",
-        company: "Shree Rubber Works",
+        id: "3",
+        name: "Kimari Gosrani",
+        title: "Director of Communication and Strategy, Goma Engineering Pvt. Ltd",
+        company: "Goma Engineering",
         content:
-          "Partnering with Impulse Digital completely transformed our online presence. They revamped our website and implemented effective SEO strategies that grew our impressions by over 3,500% in just 5 months. We now receive quality leads from India and overseas, with major keywords ranking in the top 10. Their expertise and commitment truly made a difference - highly recommended!",
-        avatar: "/Samrat.jpg",
-        location: "Navi Mumbai",
+          "What I love about the Impulse Digital team is that they are enthusiastic. They are always coming up with genuine suggestions and honest feedback to improve our processes hence ensuring noteworthy results!",
+        avatar: "/rectangle-433.png",
+        location: "Mumbai",
       },
     ],
     []
   );
  
-  const testimonialsRow1 = allTestimonials.slice(0, 5);
-  const testimonialsRow2 = allTestimonials.slice(5, 9);
+  const testimonialsRow1 = allTestimonials.slice(0, 3);
+  const testimonialsRow2 = allTestimonials.slice(3, 6);
  
   const TestimonialCard = ({ testimonial }: { testimonial: Testimonial }) => (
     <div
