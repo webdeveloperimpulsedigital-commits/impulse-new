@@ -307,19 +307,14 @@ export const ScrollRevealLogoHome: React.FC<ScrollRevealLogoProps> = ({
           // TESTIMONIALS
           else if (sectionName === "testimonials") {
             const size = isMobile ? "50px" : isTablet ? "70px" : "80px";
-            const top = sectionTop + (isMobile ? 40 : isTablet ? 80 : 10);
-            const right = isMobile
-              ? 20
-              : isTablet
-              ? 40
-              : Math.max(80, Math.floor(vw * 0.08));
-
+            // Centered vertically between the top of section and the cards, and horizontally centered
+            const top = sectionTop + (isMobile ? 50 : isTablet ? 70 : 90);
+            
             applyStyle({
               position: "absolute",
               top: `${top}px`,
-              left: "auto",
-              right: `${right}px`,
-              transform: "none",
+              left: "50%",
+              transform: "translateX(-50%)",
               filter: "brightness(0)",
               width: size,
               height: size,

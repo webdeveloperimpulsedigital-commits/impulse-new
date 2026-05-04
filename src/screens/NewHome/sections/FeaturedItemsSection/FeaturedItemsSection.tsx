@@ -204,7 +204,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
 
       {/* ✅ Premium Hero Section */}
       <section
-        className="relative w-full h-[100dvh] min-h-[700px] max-h-[900px] mb-0 rounded-t-[55px] overflow-hidden bg-[#020018]"
+        className="relative w-full h-screen min-h-screen mb-0 rounded-t-[55px] overflow-hidden bg-[#020018]"
         data-section="new-hero"
       >
         <header>

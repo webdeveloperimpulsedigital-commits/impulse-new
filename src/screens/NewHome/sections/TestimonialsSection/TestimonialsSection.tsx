@@ -7,7 +7,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { Button } from "../../../../components/ui/button";
- 
+
 interface Testimonial {
   id: string;
   name: string;
@@ -17,30 +17,20 @@ interface Testimonial {
   avatar: string;
   location: string;
 }
- 
+
 export const TestimonialsSection = (): JSX.Element => {
   const [isMobile, setIsMobile] = useState(false);
   const swiperRef = useRef<SwiperType | null>(null);
- 
+
   useEffect(() => {
     const checkMobile = () => setIsMobile(window.innerWidth < 768);
     checkMobile();
     window.addEventListener("resize", checkMobile);
     return () => window.removeEventListener("resize", checkMobile);
   }, []);
- 
+
   const allTestimonials: Testimonial[] = useMemo(
     () => [
-      {
-        id: "10",
-        name: "Pratik Shetty",
-        title: "Senior Manager, Consumer Insights, Tata Consumer Products",
-        company: "Tata Consumer Products",
-        content:
-          "Impulse Digital has been a dependable partner for our social listening and category landscape needs. What stands out is their agility and flexibility, they consistently deliver high-quality outputs, often within tight timelines.\n\nThey’ve also played a key role in tracking and evaluating our main campaign last year - Agent Chings - where their structured weekly updates on social presence, growth, and sentiment were particularly useful.\n\nTheir approach is practical, client-centric, and focused on delivering actionable insights. Overall, they are reliable and easy to work with.",
-        avatar: "/Pratik-Shetty.jpeg",
-        location: "Mumbai",
-      },
       {
         id: "9",
         name: "Rukmani Vishwanath",
@@ -52,13 +42,13 @@ export const TestimonialsSection = (): JSX.Element => {
         location: "Mumbai",
       },
       {
-        id: "1",
-        name: "Rahul Shah",
-        title: "Director, HEM Incense",
-        company: "HEM Incense",
+        id: "10",
+        name: "Pratik Shetty",
+        title: "Senior Manager, Consumer Insights, Tata Consumer Products",
+        company: "Tata Consumer Products",
         content:
-          "Our experience of working with the Impulse team has always matched our utmost satisfaction. From starting our new website until today, their dedication, work, and assistance have helped us increase our organic traffic to 300% and increased our lead generation to 150 leads monthly. In addition, their well-focused work has benefited both of our B2B websites. Indeed a team of experts who are always ready to guide and assist you.",
-        avatar: "/rectangle-411.png",
+          "Impulse Digital has been a dependable partner for our social listening and category landscape needs. What stands out is their agility and flexibility, they consistently deliver high-quality outputs, often within tight timelines.\n\nThey’ve also played a key role in tracking and evaluating our main campaign last year - Agent Chings - where their structured weekly updates on social presence, growth, and sentiment were particularly useful.\n\nTheir approach is practical, client-centric, and focused on delivering actionable insights. Overall, they are reliable and easy to work with.",
+        avatar: "/Pratik-Shetty.jpeg",
         location: "Mumbai",
       },
       {
@@ -72,46 +62,6 @@ export const TestimonialsSection = (): JSX.Element => {
         location: "Mumbai",
       },
       {
-        id: "3",
-        name: "Kimari Gosrani",
-        title: "Director of Communication and Strategy, Goma Engineering Pvt. Ltd",
-        company: "Goma Engineering",
-        content:
-          "What I love about the Impulse Digital team is that they are enthusiastic. They are always coming up with genuine suggestions and honest feedback to improve our processes hence ensuring noteworthy results!",
-        avatar: "/rectangle-433.png",
-        location: "Mumbai",
-      },
-      {
-        id: "4",
-        name: "Rajesh Phadke",
-        title: "Co-Founder, Kloudq Technologies Limited",
-        company: "Rhodius Dental",
-        content:
-          "Team Impulse Digital is very helpful and innovative when it comes to crafting digital marketing strategies for us. The best part about working with them is their respect for the strict timelines and the brand values. Even though we are in Pune and they are based in Mumbai, communication and coordination is never a problem and the work gets done efficiently.",
-        avatar: "/Rajesh.jpg",
-        location: "Pune",
-      },
-      {
-        id: "5",
-        name: "Riya Kothari",
-        title: "Growth Engineer - Marketing Sales, Vendiman",
-        company: "Vendiman",
-        content:
-          "Working with Impulse Digital has been an absolute delight. They have a good grasp of the briefs given and their agility, innovative creativity, and professionalism concerning deadlines is what sets them apart. The transformation in our SEO, PPC, and social media management has been incredible, our ranking to the first within three months with 90% of the keywords.",
-        avatar: "/riya.jpg",
-        location: "Mumbai",
-      },
-      {
-        id: "6",
-        name: "Zia Khan",
-        title: "Digital Marketing Manager, Nahar Group",
-        company: "Rafter Group",
-        content:
-          "I have been working with Impulse Digital team for almost 3 years. They have always been ready to help and find solution for any challenge. The Word 'NO' does not exist in their dictionary which is rare to find in many agencies. I wish all good luck and ETA of future to Impulse!",
-        avatar: "/zia.jpg",
-        location: "Mumbai",
-      },
-      {
         id: "7",
         name: "Vikram Bhave",
         title: "Business Development Manager, AUTOMAG India",
@@ -122,256 +72,186 @@ export const TestimonialsSection = (): JSX.Element => {
         location: "Pune",
       },
       {
-        id: "8",
-        name: "Samrat Dhar",
-        title: "Managing Partner, Shree Rubber Works",
-        company: "Shree Rubber Works",
+        id: "3",
+        name: "Kimari Gosrani",
+        title: "Director of Communication and Strategy, Goma Engineering Pvt. Ltd",
+        company: "Goma Engineering",
         content:
-          "Partnering with Impulse Digital completely transformed our online presence. They revamped our website and implemented effective SEO strategies that grew our impressions by over 3,500% in just 5 months. We now receive quality leads from India and overseas, with major keywords ranking in the top 10. Their expertise and commitment truly made a difference - highly recommended!",
-        avatar: "/Samrat.jpg",
-        location: "Navi Mumbai",
+          "What I love about the Impulse Digital team is that they are enthusiastic. They are always coming up with genuine suggestions and honest feedback to improve our processes hence ensuring noteworthy results!",
+        avatar: "/rectangle-433.png",
+        location: "Mumbai",
       },
     ],
     []
   );
- 
-  const testimonialsRow1 = allTestimonials.slice(0, 5);
-  const testimonialsRow2 = allTestimonials.slice(5, 9);
- 
+
   const TestimonialCard = ({ testimonial }: { testimonial: Testimonial }) => (
     <div
-      className="flex-shrink-0 bg-white rounded-2xl p-4 md:p-6 shadow-sm border border-gray-100 testimonial-card"
-      style={{
-        width: isMobile ? "100%" : "550px",
-        marginRight: "16px",
-        height: isMobile ? "100%" : "auto",
-        minHeight: "300px",
-      }}
+      className="flex flex-col h-[380px] md:h-[420px] bg-[#f8f9fc] rounded-[20px] p-6 md:p-8 border border-gray-100 relative group hover:border-[#543d98]/30 transition-colors duration-300"
     >
-      <div className="flex items-center mb-4" style={{ gap: "12px" }}>
-        <div style={{ width: "20%", minWidth: "50px" }}>
+      {/* Quote Icon */}
+      <div className="absolute top-8 right-8 opacity-[0.04]">
+        <img
+          src="/Vector 1.png"
+          alt="Quote icon"
+          className="w-8 h-8 md:w-12 md:h-12 brightness-0"
+        />
+      </div>
+
+      {/* Content */}
+      <div className="flex-1 mb-6 pt-2 overflow-y-auto pr-2 custom-scrollbar">
+        <p className="[font-family:'DM_Sans',Helvetica] font-normal text-gray-600 text-sm md:text-base leading-relaxed whitespace-pre-wrap relative z-10">
+          {testimonial.content}
+        </p>
+      </div>
+
+      {/* Author Info */}
+      <div className="flex items-center gap-4 mt-auto border-t border-gray-100 pt-6">
+        <div className="w-12 h-12 md:w-14 md:h-14 rounded-full overflow-hidden flex-shrink-0 border-2 border-[#543d98]/20">
           <img
-            className="aspect-square h-full w-full rounded-full object-cover"
+            className="w-full h-full object-cover"
             alt={testimonial.name}
             src={testimonial.avatar}
-            style={{
-              width: isMobile ? "50px" : "70px",
-              height: isMobile ? "50px" : "70px",
-            }}
           />
         </div>
-        <div style={{ width: "70%" }}>
-          <h4 className="[font-family:'DM_Sans',Helvetica] font-semibold text-[#030019] text-sm md:text-base leading-tight">
+        <div className="flex flex-col">
+          <h4 className="[font-family:'DM_Sans',Helvetica] font-medium text-[#030019] text-sm md:text-base leading-tight">
             {testimonial.name}
           </h4>
-          <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[#666] text-xs md:text-sm leading-tight mt-1">
+          <p className="[font-family:'DM_Sans',Helvetica] font-normal text-gray-500 text-xs leading-tight mt-1">
             {testimonial.title}
           </p>
-          <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[#666] text-xs md:text-sm leading-tight mt-1">
-            {testimonial.location}
-          </p>
-        </div>
-        <div style={{ width: "10%" }}>
-          <img
-            src="/Vector 1.png"
-            alt="Quote icon"
-            className="w-4 h-4 md:w-6 md:h-6"
-          />
-        </div>
-      </div>
-      <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-xs md:text-sm leading-relaxed whitespace-pre-wrap">
-        {testimonial.content}
-      </p>
-    </div>
-  );
- 
-  /* ======== MOBILE SLIDER (corner previews; desktop unchanged) ======== */
-  const MobileSlider = () => (
-    <div className="block md:hidden px-4">
-      <Swiper
-        modules={[Navigation, Pagination, Autoplay]}
-        slidesPerView={"auto"}         // narrower than viewport to show corners
-        centeredSlides
-        loop={false}                    // show all testimonials once
-        spaceBetween={16}
-        onSwiper={(s) => (swiperRef.current = s)}
-        autoplay={{
-          delay: 4000,
-          disableOnInteraction: false,
-          pauseOnMouseEnter: true,
-        }}
-        pagination={{
-          clickable: true,
-          bulletClass: "testimonials-pagination-bullet",
-          bulletActiveClass: "testimonials-pagination-bullet-active",
-        }}
-        navigation={{
-          enabled: true,
-          prevEl: ".mobile-prev",
-          nextEl: ".mobile-next",
-        }}
-        className="testimonials-swiper"
-      >
-        {allTestimonials.map((testimonial) => (
-          <SwiperSlide key={testimonial.id}>
-            <div className="pb-4 h-full flex">
-              <TestimonialCard testimonial={testimonial} />
-            </div>
-          </SwiperSlide>
-        ))}
-      </Swiper>
- 
-      {/* Mobile arrows */}
-      <div className="flex justify-center items-center gap-4 mt-0 mb-12">
-        <Button
-          aria-label="Previous testimonial"
-          className="mobile-prev grid place-items-center w-12 h-12 rounded-full bg-white shadow border border-gray-200 active:scale-95"
-        >
-          <img
-            src="/left-arrow.png"
-            alt="Prev"
-            className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
-          />
-        </Button>
-        <Button
-          aria-label="Next testimonial"
-          className="mobile-next grid place-items-center w-12 h-12 rounded-full shadow border border-gray-200 active:scale-95"
-        >
-          <img
-            src="/right-arrow.png"
-            alt="Next"
-            className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
-          />
-        </Button>
-      </div>
-    </div>
-  );
- 
-  /* ======== DESKTOP SCROLLING (UNCHANGED) ======== */
-  const DesktopScrolling = () => (
-    <div className="hidden md:block pb-10">
-      <div
-        className="relative mb-8 scroller"
-        data-direction="right"
-        style={{ ["--duration" as any]: "36s" }}
-      >
-        <div className="scroller__inner">
-          {testimonialsRow1.concat(testimonialsRow1).map((t, i) => (
-            <div className="px-2 md:px-2 flex" key={`r1-${i}`}>
-              <TestimonialCard testimonial={t} />
-            </div>
-          ))}
-        </div>
-      </div>
- 
-      <div
-        className="relative mb-8 scroller"
-        data-direction="left"
-        style={{ ["--duration" as any]: "38s" }}
-      >
-        <div className="scroller__inner">
-          {testimonialsRow2.concat(testimonialsRow2).map((t, i) => (
-            <div className="px-2 md:px-2 flex" key={`r2-${i}`}>
-              <TestimonialCard testimonial={t} />
-            </div>
-          ))}
         </div>
       </div>
     </div>
   );
- 
+
   return (
     <section
-      className="relative w-full bg-[#ffffff] py-12 md:py-16 lg:pt-0 overflow-hidden"
+      className="relative w-full bg-[#ffffff] py-16 md:py-24"
       data-section="testimonials"
+      style={{
+        position: "relative",
+        zIndex: 20,
+        marginTop: "-89px",
+        borderTopLeftRadius: "55px",
+        borderTopRightRadius: "55px",
+      }}
     >
-      <div className="max-w-[1280px] mx-auto px-4 md:px-8 mb-8 md:mb-12 text-center">
-        <br></br><br></br>
-        <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
-          <span className="text-[#030019]  lg:text-[34px] sm:text-[16px]">
-            From the teams
-          </span>
-          <br />
-          <span className="font-bold text-[#543d98] lg:text-[49px] md:text-[52px] sm:text-[26px]">
-            we work with.
-          </span>
-        </h2>
- 
-        {/* <p className="font-normal text-[#030019] text-sm md:text-base lg:leading-[40px] mx-auto max-w-8xl lg:text-[26px] sm:text-[16px]">
-          You've heard our side of the story. Only fair you hear our client's too. The truth is we have not worked for them. Instead, we have worked with them to create stories that audiences recall, campaigns they've loved, and impact that can be measured. Here's to their stories in their words.
-        </p> */}
+      <div className="w-full overflow-hidden">
+        <div className="max-w-[1400px] mx-auto px-4 md:px-8">
+
+          {/* Header Section */}
+          <div className="mb-8 md:mb-12">
+            <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[24px] md:text-[34px] leading-tight">
+              <span className="text-[#030019]">From the teams</span>
+              <br />
+              <span className="font-bold text-[#543d98] text-[32px] md:text-[52px]">
+                we work with.
+              </span>
+            </h2>
+          </div>
+
+          {/* Swiper Slider */}
+          <div className="relative">
+            <Swiper
+              modules={[Navigation, Pagination, Autoplay]}
+              slidesPerView={1}
+              spaceBetween={24}
+              breakpoints={{
+                768: { slidesPerView: 2 },
+                1024: { slidesPerView: 3 },
+              }}
+              loop={true}
+              onSwiper={(s) => (swiperRef.current = s)}
+              autoplay={{
+                delay: 5000,
+                disableOnInteraction: false,
+                pauseOnMouseEnter: true,
+              }}
+              pagination={{
+                el: ".custom-pagination",
+                clickable: true,
+                bulletClass: "custom-bullet",
+                bulletActiveClass: "custom-bullet-active",
+              }}
+              navigation={{
+                enabled: true,
+                prevEl: ".custom-prev",
+                nextEl: ".custom-next",
+              }}
+              className="!pb-6 md:!pb-0"
+            >
+              {allTestimonials.map((testimonial) => (
+                <SwiperSlide key={testimonial.id} className="h-auto">
+                  <TestimonialCard testimonial={testimonial} />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
+
+          {/* Navigation Controls matching website CTAs */}
+          <div className="flex items-center justify-between mt-8">
+            {/* Arrows */}
+            <div className="flex gap-4">
+              <button className="custom-prev w-10 h-10 md:w-12 md:h-12 rounded-full bg-white shadow-md border border-gray-100 flex items-center justify-center transition-all duration-300 group hover:scale-105 active:scale-95">
+                <img
+                  src="/left-arrow.png"
+                  alt="Prev"
+                  className="w-4 md:w-5 transition-transform duration-300 pointer-events-none group-hover:rotate-45"
+                />
+              </button>
+              <button className="custom-next w-10 h-10 md:w-12 md:h-12 rounded-full bg-[#543d98] shadow-md flex items-center justify-center transition-all duration-300 group hover:scale-105 active:scale-95">
+                <img
+                  src="/right-arrow.png"
+                  alt="Next"
+                  className="w-4 md:w-5 transition-transform duration-300 pointer-events-none brightness-0 invert group-hover:rotate-45"
+                />
+              </button>
+            </div>
+
+            {/* Pagination */}
+            <div className="custom-pagination flex items-center gap-1.5"></div>
+          </div>
+
+        </div>
       </div>
- 
-      <MobileSlider />
-      <DesktopScrolling />
- 
+
       <style>{`
-        /* pagination */
-        .testimonials-pagination-bullet {
-          width: 6px;
-          height: 6px;
-          background: #d1d5db;
-          opacity: 1;
-          border-radius: 999px;
-          margin: 0 4px !important;
+        .custom-bullet {
+          width: 8px;
+          height: 8px;
+          background: #e5e7eb;
+          border-radius: 50%;
+          cursor: pointer;
+          transition: all 0.3s ease;
         }
-        .testimonials-pagination-bullet-active {
-          width: 18px;
+        .custom-bullet-active {
+          width: 8px;
+          height: 8px;
           background: #543d98;
-          border-radius: 6px;
         }
- 
-        /* desktop scrollers (unchanged) */
-        .scroller { overflow: hidden; position: relative; }
-        .scroller__inner {
-          display: flex;
-          width: max-content;
-          animation: scroll var(--duration, 36s) linear infinite;
-          will-change: transform;
-          animation-play-state: running;
+        .custom-pagination {
+          width: auto !important;
+          position: static !important;
         }
-        .scroller:hover .scroller__inner { animation-play-state: paused !important; }
-        .scroller[data-direction="right"] .scroller__inner { animation-name: scroll-right; }
-        .scroller[data-direction="left"] .scroller__inner { animation-name: scroll-left; }
-        @keyframes scroll-left { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
-        @keyframes scroll-right { 0% { transform: translateX(-50%); } 100% { transform: translateX(0); } }
- 
-        /* ===== MOBILE-ONLY corner previews (desktop unaffected) ===== */
-        @media (max-width: 767px) {
-          .testimonials-swiper { overflow: visible; }
-          .testimonials-swiper .swiper-wrapper { align-items: stretch; }
-          /* narrower slides so left/right corners show */
-          .testimonials-swiper .swiper-slide {
-            width: 86% !important;           /* adjust 82–90% to control peek */
-            height: auto !important;
-            transition: transform .5s ease, filter .5s ease, opacity .5s ease, z-index .5s ease;
-          }
-          /* slight dim on non-active */
-          .testimonials-swiper .swiper-slide:not(.swiper-slide-active) .testimonial-card {
-            filter: brightness(.96);
-          }
-          /* subtle depth for prev/next */
-          .testimonials-swiper .swiper-slide-prev,
-          .testimonials-swiper .swiper-slide-next {
-            z-index: 2;
-            transform: scale(.96);
-          }
-          .testimonials-swiper .swiper-slide-prev .testimonial-card,
-          .testimonials-swiper .swiper-slide-next .testimonial-card {
-            filter: blur(3px) brightness(.93);
-          }
-          .testimonial-card { border-radius: 18px; }
-          /* keep long text tidy on mobile */
-          .line-clamp-8 {
-            display: -webkit-box;
-            -webkit-line-clamp: 8;
-            -webkit-box-orient: vertical;
-            overflow: hidden;
-          }
+        
+        /* Custom scrollbar for testimonials */
+        .custom-scrollbar::-webkit-scrollbar {
+          width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+          background: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+          background: #e2e8f0;
+          border-radius: 4px;
+        }
+        .custom-scrollbar:hover::-webkit-scrollbar-thumb {
+          background: #cbd5e1;
         }
       `}</style>
     </section>
   );
 };
- 
- 
+

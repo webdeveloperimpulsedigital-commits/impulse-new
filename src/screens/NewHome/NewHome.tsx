@@ -4,7 +4,7 @@ import { FullWidthVideoSection } from "./sections/FullWidthVideoSection/FullWidt
 import { AboutSection } from "./sections/AboutSection/AboutSection";
 import { ServicesSection } from "./sections/ServicesSection/ServicesSection";
 import { ClientsSection } from "./sections/ClientSection/ClientSection";
-import { ScrollingStripsSection } from "./sections/ScrollingStripsSection/ScrollingStripsSection";
+// import { ScrollingStripsSection } from "./sections/ScrollingStripsSection/ScrollingStripsSection";
 import { ZoomGridSection } from "./sections/ZoomGridSection/ZoomGridSection";
 import { CaseStudiesGrid } from "./sections/CaseStudiesGrid/CaseStudiesGrid";
 import { TestimonialsSection } from "./sections/TestimonialsSection/TestimonialsSection";
