@@ -4,7 +4,7 @@ import { FullWidthVideoSection } from "./sections/FullWidthVideoSection/FullWidt
 import { AboutSection } from "./sections/AboutSection/AboutSection";
 import { ServicesSection } from "./sections/ServicesSection/ServicesSection";
 import { ClientsSection } from "./sections/ClientSection/ClientSection";
-import { ScrollingStripsSection } from "./sections/ScrollingStripsSection/ScrollingStripsSection";
+// import { ScrollingStripsSection } from "./sections/ScrollingStripsSection/ScrollingStripsSection";
 import { ZoomGridSection } from "./sections/ZoomGridSection/ZoomGridSection";
 import { CaseStudiesGrid } from "./sections/CaseStudiesGrid/CaseStudiesGrid";
 import { TestimonialsSection } from "./sections/TestimonialsSection/TestimonialsSection";
@@ -52,7 +52,18 @@ export const NewHome = (): JSX.Element => {
         <BlogSection />
         <ContactResourcesSection />
         {/* <ResourcesTeaserSection /> */}
-        <FAQSection faqs={faqs} />
+        <FAQSection 
+          faqs={faqs} 
+          title={
+            <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[24px] md:text-[34px] leading-tight">
+              <span className="text-[#030019]">Questions we hear</span>
+              <br />
+              <span className="font-bold text-[#543d98] text-[32px] md:text-[52px]">
+                from growth leaders.
+              </span>
+            </h2>
+          } 
+        />
         <FooterSection />
       </div>
     </main>

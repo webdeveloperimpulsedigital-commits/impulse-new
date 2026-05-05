@@ -5,9 +5,10 @@ import type { FAQItem } from "../../../../data/faqs";
 
 type FAQSectionProps = {
   faqs: FAQItem[];
+  title?: React.ReactNode;
 };
 
-export const FAQSection = ({ faqs }: FAQSectionProps): JSX.Element => {
+export const FAQSection = ({ faqs, title }: FAQSectionProps): JSX.Element => {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   const items = faqs.map((faq) => ({
@@ -20,13 +21,17 @@ export const FAQSection = ({ faqs }: FAQSectionProps): JSX.Element => {
   return (
     <section
       className="max-w-[1280px] mx-auto px-4 lg:px-8 lg:pt-20 lg:pb-20"
-      data-section="faq"
+      data-section="new-faq"
     >
-      <h2 className="text-center [font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight mx-auto mb-12">
-        <span className="font-bold text-[#543d98] lg:text-[49px] md:text-[52px] sm:text-[20px]">
-          Common questions.
-        </span>
-      </h2>
+      <div className="text-center mx-auto mb-12">
+        {title || (
+          <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
+            <span className="font-bold text-[#543d98] lg:text-[49px] md:text-[52px] sm:text-[20px]">
+              Common questions.
+            </span>
+          </h2>
+        )}
+      </div>
 
       <div className="faq__grid">
         <div className="faq__list">

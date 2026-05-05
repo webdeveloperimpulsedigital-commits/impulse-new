@@ -233,8 +233,6 @@ export const ScrollingStripsSection = (): JSX.Element => {
         /* ✅ border ONLY for mobile/tablet slider cards */
         .client-logo {
           padding: 0rem;
-          border: 1px solid #e5e7eb; /* gray-200 */
-          border-radius: 10px;
         }
 
         @media (prefers-reduced-motion: reduce){

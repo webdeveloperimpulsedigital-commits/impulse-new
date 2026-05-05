@@ -307,25 +307,44 @@ export const ScrollRevealLogoHome: React.FC<ScrollRevealLogoProps> = ({
           // TESTIMONIALS
           else if (sectionName === "testimonials") {
             const size = isMobile ? "50px" : isTablet ? "70px" : "80px";
-            const top = sectionTop + (isMobile ? 40 : isTablet ? 80 : 10);
-            const right = isMobile
-              ? 20
-              : isTablet
-              ? 40
-              : Math.max(80, Math.floor(vw * 0.08));
+            const isNewHome = window.location.pathname === "/new-home";
 
-            applyStyle({
-              position: "absolute",
-              top: `${top}px`,
-              left: "auto",
-              right: `${right}px`,
-              transform: "none",
-              filter: "brightness(0)",
-              width: size,
-              height: size,
-              zIndex: 999,
-              transition: "all 1.2s cubic-bezier(0.22, 1, 0.36, 1)",
-            });
+            if (isNewHome) {
+              // Centered vertically between the top of section and the cards, and horizontally centered
+              const top = sectionTop + (isMobile ? 50 : isTablet ? 70 : 90);
+              applyStyle({
+                position: "absolute",
+                top: `${top}px`,
+                left: "50%",
+                transform: "translateX(-50%)",
+                filter: "brightness(0)",
+                width: size,
+                height: size,
+                zIndex: 999,
+                transition: "all 1.2s cubic-bezier(0.22, 1, 0.36, 1)",
+              });
+            } else {
+              // Original positioning for main home page and other pages
+              const top = sectionTop + (isMobile ? 40 : isTablet ? 80 : 10);
+              const right = isMobile
+                ? 20
+                : isTablet
+                ? 40
+                : Math.max(80, Math.floor(vw * 0.08));
+
+              applyStyle({
+                position: "absolute",
+                top: `${top}px`,
+                left: "auto",
+                right: `${right}px`,
+                transform: "none",
+                filter: "brightness(0)",
+                width: size,
+                height: size,
+                zIndex: 999,
+                transition: "all 1.2s cubic-bezier(0.22, 1, 0.36, 1)",
+              });
+            }
           }
 
           // BLOG
@@ -352,7 +371,7 @@ export const ScrollRevealLogoHome: React.FC<ScrollRevealLogoProps> = ({
             });
           }
 
-          // CONTACT RESOURCES
+          // CONTACT RESOURCES (Main)
           else if (sectionName === "contact-resources") {
             const size = isMobile ? "50px" : isTablet ? "70px" : "80px";
             const top = sectionTop + (isMobile ? 0 : isTablet ? 100 : -20);
@@ -365,6 +384,66 @@ export const ScrollRevealLogoHome: React.FC<ScrollRevealLogoProps> = ({
               right: `${right}%`,
               transform: "none",
               filter: "brightness(1)",
+              width: size,
+              height: size,
+              zIndex: 999,
+              transition: "all 1.2s cubic-bezier(0.22, 1, 0.36, 1)",
+            });
+          }
+
+          // NEW CONTACT RESOURCES (New Home)
+          else if (sectionName === "new-contact-resources") {
+            const size = isMobile ? "50px" : isTablet ? "70px" : "80px";
+            const top = sectionTop + (isMobile ? -20 : isTablet ? 10 : -70);
+            const right = isMobile ? 5 : isTablet ? 40 : 56;
+
+            applyStyle({
+              position: "absolute",
+              top: `${top}px`,
+              left: "auto",
+              right: `${right}%`,
+              transform: "none",
+              filter: "brightness(1)",
+              width: size,
+              height: size,
+              zIndex: 999,
+              transition: "all 1.2s cubic-bezier(0.22, 1, 0.36, 1)",
+            });
+          }
+
+          // NEW TESTIMONIALS (New Home)
+          else if (sectionName === "new-testimonials") {
+            const size = isMobile ? "50px" : isTablet ? "70px" : "80px";
+            const top = sectionTop + (isMobile ? 60 : isTablet ? 50 : 80);
+            const left = isMobile ? 55 : isTablet ? 50 : 35; // percentages
+
+            applyStyle({
+              position: "absolute",
+              top: `${top}px`,
+              left: `${left}%`,
+              right: "auto",
+              transform: "rotate(180deg)",
+              filter: "brightness(0)",
+              width: size,
+              height: size,
+              zIndex: 999,
+              transition: "all 1.2s cubic-bezier(0.22, 1, 0.36, 1)",
+            });
+          }
+
+          // NEW FAQ (New Home)
+          else if (sectionName === "new-faq") {
+            const size = isMobile ? "50px" : isTablet ? "70px" : "80px";
+            const top = sectionTop + (isMobile ? -10 : isTablet ? 70 : 80);
+            const right = isMobile ? 5 : isTablet ? 25 : 30; // percentages
+
+            applyStyle({
+              position: "absolute",
+              top: `${top}px`,
+              left: "auto",
+              right: `${right}%`,
+              transform: "none",
+              filter: "brightness(0)",
               width: size,
               height: size,
               zIndex: 999,

@@ -62,13 +62,13 @@ export const ContactResourcesSection = () => {
       className="contact-section sm:pt-5 lg:pt-16"
       id="contact-border-sec-two"
     >
-      <div className="wrap-contact" data-section="contact-resources">
+      <div className="wrap-contact" data-section="new-contact-resources">
         {/* LEFT SECTION */}
         <div className="contact-left0">
           <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
             <span className="text-[#030019]">Let's put</span>
             <br />
-            <span className="font-bold text-[#ffffff] lg:text-[52px] md:text-[52px] sm:text-[20px]">
+            <span className="font-bold text-[#ffffff] lg:text-[40px] md:text-[40px] sm:text-[20px]">
               Let's talk about what your data is telling you.
             </span>
           </h2>
@@ -77,7 +77,7 @@ export const ContactResourcesSection = () => {
 
           <ul className="contact-list lg:pt-16 hidden lg:block md:block">
             <img
-              className="c-icon w-120"
+              className="c-icon w-[45px] h-[45px] object-contain"
               alt="Call Logo"
               src="https://www.theimpulsedigital.com/call.png"
             />
@@ -88,7 +88,7 @@ export const ContactResourcesSection = () => {
             </li>
 
             <img
-              className="c-icon w-120"
+              className="c-icon w-[45px] h-[45px] object-contain"
               alt="Email Logo"
               src="https://www.theimpulsedigital.com/sms-1.png"
             />
@@ -99,7 +99,7 @@ export const ContactResourcesSection = () => {
             </li>
 
             <img
-              className="c-icon w-120"
+              className="c-icon w-[45px] h-[45px] object-contain"
               alt="location Logo"
               src="https://www.theimpulsedigital.com/location.png"
             />
