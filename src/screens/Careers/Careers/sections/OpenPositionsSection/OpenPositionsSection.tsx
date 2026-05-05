@@ -100,6 +100,30 @@ export const OpenPositionsSection = (): JSX.Element => {
 
       ],
       applicationdetails: "Interested candidates are requested to share their updated resume along with current CTC and notice period at hr@theimpulsedigital.com",
+    },
+    {
+      id: "social-media-intern",
+      title: "Social Media Intern",
+      department: "Social Media",
+      location: "Mumbai, India",
+      type: "Internship",
+      experience: "Fresher",
+      description: "We are looking for a passionate and creative Social Media Intern to assist in designing and executing social media campaigns, creating engaging content, and tracking engagement metrics.",
+      responsibilities: [
+        "Researching, designing and execution of social media campaigns",
+        "Assisting in monthly calendars to promote brands on social media platforms",
+        "Track and analyze social media engagement for various brands and campaigns",
+        "Stay up-to date with social media trends and create trendy reels/media content for social media",
+        "Curate and assist in creating high-quality and relevant content such as blogs as well as creative copy for social media posts",
+        "Ideate and coordinate with in-house teams to ensure smooth designing of campaigns and social media promotions",
+        "Creative ideation with Account Managers and Social Media Strategists."
+      ],
+      requirements: [
+        "Passion for social media marketing and its best practices",
+        "Basic knowledge of Photoshop, Canva and other editing platforms",
+        "Excellent verbal and written communication skills",
+        "Ability to work collaboratively in a team environment"
+      ]
     }
   ];
 
