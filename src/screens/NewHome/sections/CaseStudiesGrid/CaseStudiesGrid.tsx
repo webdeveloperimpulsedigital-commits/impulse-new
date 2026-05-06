@@ -126,9 +126,12 @@ export const CaseStudiesGrid = (): JSX.Element => {
                   alt={card.title}
                   className="w-full h-full object-cover"
                 />
-                <div className="flex items-center justify-center px-4 opacity-0 group-hover:opacity-100 transition-all duration-300 absolute bottom-0 backdrop-blur-md left-0 w-full h-full bg-black/20">
-                  <p className="text-white text-lg font-semibold text-center font-sans">
+                <div className="flex flex-col items-center justify-center px-6 opacity-0 group-hover:opacity-100 transition-all duration-300 absolute bottom-0 backdrop-blur-md left-0 w-full h-full bg-black/40">
+                  <p className="text-white text-xl md:text-2xl font-bold text-center [font-family:'DM_Sans',Helvetica] mb-2">
                     {card.title}
+                  </p>
+                  <p className="text-white/90 text-sm md:text-base text-center [font-family:'DM_Sans',Helvetica] leading-snug">
+                    {card.outcome}
                   </p>
                 </div>
               </a>

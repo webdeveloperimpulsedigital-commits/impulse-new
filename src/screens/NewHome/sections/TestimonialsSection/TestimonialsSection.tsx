@@ -201,16 +201,20 @@ export const TestimonialsSection = (): JSX.Element => {
                 <button
                   onClick={() => swiperRef.current?.slidePrev()}
                   aria-label="Previous testimonial"
-                  className="w-14 h-14 rounded-full bg-white border border-gray-100 shadow-[0_4px_20px_-8px_rgba(84,61,152,0.15)] flex items-center justify-center text-[#543d98] hover:bg-gray-50 transition-colors"
+                  className="w-14 h-14 rounded-full bg-white border border-[#543d98]/20 shadow-[0_4px_20px_-8px_rgba(84,61,152,0.15)] flex items-center justify-center text-[#543d98] hover:bg-[#543d98] hover:text-white hover:border-[#543d98] transition-all duration-300 group"
                 >
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M15 19l-7-7 7-7"/></svg>
+                  <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg" className="transform rotate-180 transition-transform duration-300 group-hover:rotate-[225deg]">
+                    <path d="M5.08323 0.964253C3.49186 1.08865 0.798825 1.33748 0.798826 2.70596C0.798826 4.44767 4.22635 3.95004 5.8177 3.95004C7.40905 3.95004 12.3055 3.95004 14.1417 6.31379C15.9779 8.67754 15.733 13.7783 15.6106 16.6396C15.4882 19.501 17.6916 19.3766 18.1813 17.3861C19.1605 13.7783 19.1015 5.032 17.0796 2.83037C15.3658 0.964251 12.3055 0.839846 10.3469 0.839846C8.26591 0.839846 6.5529 0.849368 5.08323 0.964253Z" fill="currentColor"/>
+                  </svg>
                 </button>
                 <button
                   onClick={() => swiperRef.current?.slideNext()}
                   aria-label="Next testimonial"
-                  className="w-14 h-14 rounded-full bg-[#543d98] shadow-lg shadow-[#543d98]/20 flex items-center justify-center text-white hover:bg-[#432f80] transition-colors"
+                  className="w-14 h-14 rounded-full bg-[#543d98] border border-[#543d98] shadow-lg shadow-[#543d98]/20 flex items-center justify-center text-white hover:bg-white hover:text-[#543d98] transition-all duration-300 group"
                 >
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M9 19l7-7-7-7"/></svg>
+                  <svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg" className="transform transition-transform duration-300 group-hover:rotate-45">
+                    <path d="M5.08323 0.964253C3.49186 1.08865 0.798825 1.33748 0.798826 2.70596C0.798826 4.44767 4.22635 3.95004 5.8177 3.95004C7.40905 3.95004 12.3055 3.95004 14.1417 6.31379C15.9779 8.67754 15.733 13.7783 15.6106 16.6396C15.4882 19.501 17.6916 19.3766 18.1813 17.3861C19.1605 13.7783 19.1015 5.032 17.0796 2.83037C15.3658 0.964251 12.3055 0.839846 10.3469 0.839846C8.26591 0.839846 6.5529 0.849368 5.08323 0.964253Z" fill="currentColor"/>
+                  </svg>
                 </button>
               </div>
             </div>
