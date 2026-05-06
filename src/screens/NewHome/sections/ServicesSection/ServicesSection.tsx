@@ -2,6 +2,7 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "motion/react";
 import { Link } from "react-router-dom";
+import { MagicText } from "../../../../components/ui/magic-text";
 
 const PURPLE = "#543d98";
 
@@ -41,94 +42,10 @@ const data = [
   },
 ];
 
-const ServiceCardContent = ({ study, index, total }: { study: any; index: number; total: number }) => (
-  <motion.div
-    initial={{ opacity: 0, y: 50 }}
-    whileInView={{ opacity: 1, y: 0 }}
-    viewport={{ once: true, amount: 0.1 }}
-    transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-    className="relative w-full max-w-[1400px] mx-auto bg-[#06041a] border border-white/10 rounded-[30px] md:rounded-[50px] overflow-hidden shadow-[0_-10px_40px_rgba(0,0,0,0.5)] flex flex-col md:flex-row h-full md:h-[70vh] md:min-h-[600px]"
-  >
-    {/* Content Side */}
-    <div className="w-full md:w-[55%] p-6 md:p-12 lg:p-20 flex flex-col justify-center relative z-10 bg-[#06041a]/90 backdrop-blur-sm order-2 md:order-1">
-      <div className="flex flex-col gap-6 md:gap-8 max-w-xl">
-        <h3 className="text-white font-['DM_Sans'] text-[28px] sm:text-[40px] lg:text-[56px] leading-[1.1] font-bold tracking-tight">
-          {study.title}
-        </h3>
-        
-        <div>
-          <p className="text-white/60 text-[14px] md:text-base lg:text-lg leading-relaxed font-light">
-            {study.description}
-          </p>
-        </div>
-
-        <div className="mt-4 md:mt-6">
-          <Link
-            to={study.link}
-            className="group inline-flex items-center gap-3 bg-[#543d98] text-white font-bold text-[13px] md:text-[14px] px-6 md:px-8 py-3 md:py-4 rounded-full hover:bg-white hover:text-[#543d98] transition-all duration-300 shadow-lg"
-          >
-            {study.cta}
-            <img
-              src="/vector-1-3.svg"
-              alt="Arrow"
-              className="w-3 h-3 md:w-4 md:h-4 brightness-0 invert transition-all duration-300 group-hover:rotate-45 group-hover:brightness-100 group-hover:invert-0 pointer-events-none"
-            />
-          </Link>
-        </div>
-      </div>
-    </div>
-
-    {/* Image Side */}
-    <div className="w-full md:w-[45%] h-[200px] md:h-full relative overflow-hidden group order-1 md:order-2">
-      <motion.div
-        className="w-full h-full"
-        whileHover={{ scale: 1.05 }}
-        transition={{ duration: 1.2, ease: [0.16, 1, 0.3, 1] }}
-      >
-        <img
-          src={study.img}
-          alt={study.title}
-          className="w-full h-full object-cover"
-        />
-      </motion.div>
-      <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-[#06041a] via-[#06041a]/40 to-transparent pointer-events-none" />
-    </div>
-  </motion.div>
-);
-
-const DesktopCard = ({ study, index, total }: { study: any; index: number; total: number }) => {
-  const cardRef = useRef<HTMLDivElement>(null);
-  
-  return (
-    <div
-      ref={cardRef}
-      className="sticky flex items-center justify-center w-full"
-      style={{
-        top: `calc(15vh + ${index * 30}px)`,
-        zIndex: index + 1,
-      }}
-    >
-      <ServiceCardContent study={study} index={index} total={total} />
-    </div>
-  );
-};
-
 const ServicesSection = () => {
-  const mobileSliderRef = useRef<HTMLDivElement>(null);
-
-  const scrollMobile = (direction: 'left' | 'right') => {
-    if (mobileSliderRef.current) {
-      const scrollAmount = (window.innerWidth * 0.85) + 16;
-      mobileSliderRef.current.scrollBy({
-        left: direction === 'left' ? -scrollAmount : scrollAmount,
-        behavior: 'smooth'
-      });
-    }
-  };
-
   return (
     <section
-      className="relative w-full bg-[#020018] pb-16 md:pb-48"
+      className="relative w-full bg-[#020018] pb-12 md:pb-20"
       id="sec-border"
       data-section="services"
       style={{
@@ -140,7 +57,7 @@ const ServicesSection = () => {
       }}
     >
       {/* ── Header ─────────────────────────────── */}
-      <div className="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-20 pt-20 md:pt-32 pb-8 md:pb-24">
+      <div className="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-20 pt-16 md:pt-24 pb-8 md:pb-12">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -149,71 +66,55 @@ const ServicesSection = () => {
           className="flex flex-col gap-6"
         >
           <h2 className="[font-family:'DM_Sans',Helvetica] font-normal leading-tight relative z-20">
-            <span className="text-white text-[22px] sm:text-[42px] lg:text-[56px]">
+            <span className="text-white text-[22px] sm:text-[36px] lg:text-[48px]">
               Three ways growth leaders
             </span>
             <br />
-            <span className="font-bold text-[#543d98] text-[28px] sm:text-[48px] lg:text-[64px]">
+            <span className="font-bold text-[#543d98] text-[28px] sm:text-[42px] lg:text-[56px]">
               work with us.
             </span>
           </h2>
         </motion.div>
       </div>
 
-      {/* Desktop: Stacking Cards */}
-      <div className="hidden md:block relative px-12 lg:px-20 pb-32">
-        <div className="flex flex-col">
+      {/* ── Massive Typography List ─────────────────────────────── */}
+      <div className="max-w-[1400px] mx-auto px-6 md:px-12 lg:px-20">
+        <div className="flex flex-col border-t border-white/20">
           {data.map((study, index) => (
-            <DesktopCard key={study.title} study={study} index={index} total={data.length} />
-          ))}
-        </div>
-      </div>
-
-      {/* Mobile: Swipe Slider */}
-      <div className="md:hidden w-full relative pb-12">
-        <style>{`
-          .hide-scroll::-webkit-scrollbar { display: none; }
-          .hide-scroll { -ms-overflow-style: none; scrollbar-width: none; }
-        `}</style>
-        <div 
-          ref={mobileSliderRef}
-          className="flex overflow-x-auto snap-x snap-mandatory hide-scroll px-[7.5vw] gap-4"
-        >
-          {data.map((study, index) => (
-            <div 
+            <Link 
               key={study.title}
-              className="w-[85vw] flex-shrink-0 snap-center"
+              to={study.link}
+              className="group relative border-b border-white/20 py-6 md:py-10 hover:bg-white/[0.02] transition-colors duration-500 cursor-pointer overflow-hidden flex flex-col md:flex-row md:items-center justify-between"
             >
-              <ServiceCardContent study={study} index={index} total={data.length} />
-            </div>
+              {/* Left Side: Number & Name */}
+              <div className="flex items-start md:items-center gap-6 md:gap-12 relative z-10 px-2 md:px-4">
+                <span className="[font-family:'DM_Sans',Helvetica] text-white/30 font-light text-xl md:text-2xl transition-colors duration-500 group-hover:text-[#543d98]/50">
+                  {study.index}
+                </span>
+                <h3 className="text-white font-['DM_Sans'] text-[28px] sm:text-[40px] lg:text-[56px] leading-[1.1] font-normal tracking-tight group-hover:text-[#7d52f4] transition-colors duration-500">
+                  <MagicText text={study.title} />
+                </h3>
+              </div>
+              
+              {/* Right Side: Description & Arrow */}
+              <div className="mt-6 md:mt-0 relative z-10 flex flex-row items-center justify-between md:justify-end gap-6 px-2 md:px-4 w-full md:w-auto">
+                <div className="flex flex-col items-start md:items-end max-w-[280px] lg:max-w-[300px]">
+                  <p className="text-[#9496a1] text-[13px] md:text-sm leading-relaxed font-light text-left md:text-right group-hover:text-white/80 transition-colors duration-500">
+                    <MagicText text={study.description} />
+                  </p>
+                </div>
+                
+                {/* Massive Animated Arrow Circle */}
+                <div className="w-12 h-12 md:w-16 md:h-16 rounded-full border border-white/20 flex items-center justify-center flex-shrink-0 group-hover:bg-[#543d98] group-hover:border-[#543d98] transition-all duration-500 group-hover:scale-110 shadow-xl">
+                  <img
+                    src="/vector-1-3.svg"
+                    alt="Arrow"
+                    className="w-4 h-4 brightness-0 invert transition-all duration-500 group-hover:rotate-45"
+                  />
+                </div>
+              </div>
+            </Link>
           ))}
-        </div>
-
-        {/* Mobile Navigation Arrows */}
-        <div className="flex items-center justify-center gap-4 mt-6">
-          <button 
-            onClick={() => scrollMobile('left')}
-            className="group w-14 h-14 rounded-full border border-white/20 bg-[#06041a] flex items-center justify-center shadow-md hover:bg-white active:scale-95 transition-all duration-300"
-            aria-label="Previous Service"
-          >
-            <img 
-              src="/vector-1-3.svg" 
-              alt="Previous" 
-              className="w-4 h-4 transform rotate-180 brightness-0 invert transition-all duration-300 group-hover:rotate-[135deg] group-hover:brightness-100 group-hover:invert-0" 
-            />
-          </button>
-          
-          <button 
-            onClick={() => scrollMobile('right')}
-            className="group w-14 h-14 rounded-full bg-[#543d98] border border-[#543d98] flex items-center justify-center shadow-md hover:bg-white active:scale-95 transition-all duration-300"
-            aria-label="Next Service"
-          >
-            <img 
-              src="/vector-1-3.svg" 
-              alt="Next" 
-              className="w-4 h-4 transform rotate-0 brightness-0 invert transition-all duration-300 group-hover:rotate-45 group-hover:brightness-100 group-hover:invert-0" 
-            />
-          </button>
         </div>
       </div>
     </section>

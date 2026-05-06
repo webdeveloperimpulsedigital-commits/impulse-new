@@ -1038,7 +1038,7 @@ export const faqData: Record<string, FAQItem[]> = {
     }
   ],
 
-  "/services/outbound-intelligence-engine": [
+  "/services/archer": [
     {
       question: "What is an ICP Diagnostic?",
       answer: "A working session where we map your target industries, buyer titles, company profile, geography, and timing signals. It determines whether outbound is the right growth channel for you. Not a sales call."

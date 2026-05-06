@@ -61,9 +61,7 @@ export const StatusQuoSection = (): JSX.Element => {
               Traditional outbound scales the hard way, <br className="hidden md:block" />
               <span className="text-[#8468d9]">more growth means more cost.</span>
             </h3>
-            <p className="text-[#030019]/80 text-[20px] md:text-[24px] leading-[1.5] font-medium mt-auto">
-              SDR teams manually researching, writing, sending, and following up. <br/><br/><span className="text-[#030019] font-bold">It works until the cost of scaling it doesn't.</span>
-            </p>
+
           </div>
 
           {/* Card 3 - Full Width Solution */}

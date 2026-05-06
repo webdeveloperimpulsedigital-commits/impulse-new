@@ -20,14 +20,14 @@ import { FAQSchema } from "../../components/SEO/FAQSchema";
 import { faqData } from "../../data/faqs";
 
 export const OutboundIntelligenceEngine = (): JSX.Element => {
-  const faqs = faqData["/services/outbound-intelligence-engine"] || [];
+  const faqs = faqData["/services/archer"] || [];
 
   return (
     <main className="relative w-full min-h-screen">
       <Helmet>
         <title>Archer | AI-Powered Outbound Intelligence Engine | Impulse Digital</title>
         <meta name="description" content="An AI-powered outbound engine that detects buying signals, discovers decision-makers, and deploys personalised outreach at scale. Built by Impulse Digital." />
-        <link rel="canonical" href="https://www.theimpulsedigital.com/services/outbound-intelligence-engine/" />
+        <link rel="canonical" href="https://www.theimpulsedigital.com/services/archer/" />
       </Helmet>
 
       <FAQSchema faqs={faqs} />
