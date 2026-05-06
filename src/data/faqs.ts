@@ -1090,5 +1090,73 @@ export const faqData: Record<string, FAQItem[]> = {
       question: "How do you measure SEO success for Mumbai-based businesses?",
       answer: "We measure success using keyword ranking improvements, organic traffic growth, engagement quality, and conversion performance. Every SEO campaign is aligned with business KPIs to ensure SEO contributes directly to revenue and brand visibility.",
     }
+  ],
+  "/services/search-engine-optimization-in-airoli": [
+    {
+      question: "Why should I choose your SEO services in Airoli?",
+      answer: "We focus on steady, practical growth that brings real inquiries. The goal is to make your business easier to find and trust over time. It’s not about quick wins but about building visibility that actually lasts."
+    },
+    {
+      question: "How do you decide the SEO strategy?",
+      answer: "It depends on your business, your competition, and your current position. There’s no fixed formula we apply to everyone. We take time to understand your situation first and then build a plan that fits."
+    },
+    {
+      question: "How long does it take to see results?",
+      answer: "SEO generally takes a few months before noticeable improvements appear. It’s a gradual process, not something that works overnight. Some changes bring quicker results, while others take longer to build impact."
+    },
+    {
+      question: "Do you only work with local businesses?",
+      answer: "No, we work with different types of businesses, but we do help improve local visibility if that’s important for you. It really depends on where your customers are and how they search."
+    },
+    {
+      question: "How do you measure success?",
+      answer: "We look at rankings, traffic, and most importantly, whether you’re getting more inquiries or leads. The idea is to connect SEO performance with actual business outcomes."
+    }
+  ],
+
+  "/services/search-engine-optimization-in-andheri": [
+    {
+      question: "Why should I consider your SEO services in Andheri?",
+      answer: "Because we focus on steady, practical growth. The goal is to help your business get discovered and bring in real inquiries and not just traffic numbers."
+    },
+    {
+      question: "How do you decide the SEO strategy?",
+      answer: "It depends on your business, your competition, and your current position. There’s no fixed formula."
+    },
+    {
+      question: "How long does SEO take to show results?",
+      answer: "Usually a few months before you start noticing changes. It builds gradually over time."
+    },
+    {
+      question: "Do you only work with local businesses?",
+      answer: "No, but we do help improve local visibility if that’s important for you."
+    },
+    {
+      question: "How do you measure success?",
+      answer: "We look at traffic, rankings, and most importantly, whether you&#39;re getting more inquiries or leads."
+    }
+  ],
+
+  "/services/search-engine-optimization-in-bandra": [
+    {
+      question: "Why should I choose your SEO services in Bandra?",
+      answer: "We focus on steady, long-term growth instead of quick fixes. The idea is to bring in the right audience and turn that into real business."
+    },
+    {
+      question: "How do you decide the SEO strategy?",
+      answer: "It depends on your business, your competition, and where you currently stand. There’s no fixed approach."
+    },
+    {
+      question: "How long does it take to see results?",
+      answer: "SEO takes time. Usually, you’ll start noticing changes within a few months, and it builds gradually from there."
+    },
+    {
+      question: "Do you work with only local businesses?",
+      answer: "No, but we do help businesses improve local visibility if that’s where their customers are."
+    },
+    {
+      question: "How do you measure success?",
+      answer: "We look at traffic, rankings, and, most importantly, whether you’re getting more inquiries or leads."
+    }
   ]
 };
