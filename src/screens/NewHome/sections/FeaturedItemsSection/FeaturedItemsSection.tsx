@@ -251,7 +251,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
             {/* Right side: Subtext and Buttons */}
             <div className="w-full lg:w-1/2 xl:w-2/5 flex flex-col items-start lg:items-end text-left lg:text-right gap-8">
               <p className="font-dm-sans text-white/70 text-sm md:text-base leading-relaxed max-w-[420px] font-light">
-                Impulse Digital is the AI-native growth intelligence partner for enterprise marketing teams that need to close the gap between what their data knows and what their decisions reflect.
+                Impulse Digital is the AI-native growth intelligence partner for enterprise marketing teams that need to close the gap between what their data knows and what their teams act on.
               </p>
 
               <div className="flex flex-col sm:flex-row items-start sm:items-center justify-start lg:justify-end gap-6 w-full lg:w-auto">
@@ -259,7 +259,7 @@ export const FeaturedItemsSection = (): JSX.Element => {
                   href="#work" 
                   className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-white rounded-full hover:bg-[#543d98] hover:text-white text-[#543d98] transition-colors duration-300 group"
                 >
-                  <span className="font-dm-sans font-semibold text-sm">See how we work</span>
+                  <span className="font-dm-sans font-semibold text-sm">See what your data is actually telling you</span>
                   <img 
                     src="/vector-1-3.svg" 
                     alt="Arrow" 

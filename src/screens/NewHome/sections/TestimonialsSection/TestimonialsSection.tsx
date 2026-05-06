@@ -1,12 +1,12 @@
-// TestimonialsSection.tsx
-import { useState, useEffect, useRef, useMemo } from "react";
+import { useMemo, useRef } from "react";
+import { motion } from "framer-motion";
+import { GridPattern } from "../../../../components/ui/grid-pattern";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Autoplay } from "swiper/modules";
+import { Navigation, Autoplay } from "swiper/modules";
 import type { Swiper as SwiperType } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
-import "swiper/css/pagination";
-import { Button } from "../../../../components/ui/button";
+import { Link } from "react-router-dom";
 
 interface Testimonial {
   id: string;
@@ -19,22 +19,14 @@ interface Testimonial {
 }
 
 export const TestimonialsSection = (): JSX.Element => {
-  const [isMobile, setIsMobile] = useState(false);
   const swiperRef = useRef<SwiperType | null>(null);
-
-  useEffect(() => {
-    const checkMobile = () => setIsMobile(window.innerWidth < 768);
-    checkMobile();
-    window.addEventListener("resize", checkMobile);
-    return () => window.removeEventListener("resize", checkMobile);
-  }, []);
 
   const allTestimonials: Testimonial[] = useMemo(
     () => [
       {
         id: "9",
         name: "Rukmani Vishwanath",
-        title: "Head of Corporate Communications, Grasim Industries Limited | Pulp and Fibre",
+        title: "Head of Corporate Communications",
         company: "Grasim Industries Limited",
         content:
           "Impulse Digital has been a reliable partner in our social media journey. The team is innovative, dependable, humble, and highly collaborative, always taking full ownership of their work. With their creative insights and strong understanding of trends and technology in the social media space, they help us drive campaigns that deliver maximum impact.",
@@ -44,17 +36,27 @@ export const TestimonialsSection = (): JSX.Element => {
       {
         id: "10",
         name: "Pratik Shetty",
-        title: "Senior Manager, Consumer Insights, Tata Consumer Products",
+        title: "Senior Manager, Consumer Insights",
         company: "Tata Consumer Products",
         content:
-          "Impulse Digital has been a dependable partner for our social listening and category landscape needs. What stands out is their agility and flexibility, they consistently deliver high-quality outputs, often within tight timelines.\n\nThey’ve also played a key role in tracking and evaluating our main campaign last year - Agent Chings - where their structured weekly updates on social presence, growth, and sentiment were particularly useful.\n\nTheir approach is practical, client-centric, and focused on delivering actionable insights. Overall, they are reliable and easy to work with.",
+          "Impulse Digital has been a dependable partner for our social listening and category landscape needs. What stands out is their agility and flexibility, they consistently deliver high-quality outputs, often within tight timelines. They’ve also played a key role in tracking and evaluating our main campaign last year - Agent Chings - where their structured weekly updates on social presence, growth, and sentiment were particularly useful.",
         avatar: "/Pratik-Shetty.jpeg",
+        location: "Mumbai",
+      },
+      {
+        id: "11",
+        name: "Ankit Meena",
+        title: "Lead- Digital Marketing and Transformation",
+        company: "Himalaya Wellness Company",
+        content:
+          "I have had the opportunity to work with Impulse Digital team across different organizations and mandates over the years. What stands out for me is the way they approach a brief. They do not look at it as just another task to execute. They take the time to understand the business context, ask the right questions, and come back with ideas that are practical as well as well thought through. Across digital strategy, brand communication, content, and performance-led initiatives, the team has consistently brought clarity, creativity, and a strong sense of ownership.",
+        avatar: "/Ankit.png",
         location: "Mumbai",
       },
       {
         id: "2",
         name: "Riddhi Merchant",
-        title: "Partner, Laljee Godhoo & Co",
+        title: "Partner",
         company: "Laljee Godhoo & Co",
         content:
           "We love the freshness and authentic ideas team ID comes up with. They definitely take the customers ideas and vision of their company into consideration and work collaboratively. Great team to work with, no fuss!",
@@ -64,7 +66,7 @@ export const TestimonialsSection = (): JSX.Element => {
       {
         id: "7",
         name: "Vikram Bhave",
-        title: "Business Development Manager, AUTOMAG India",
+        title: "Business Development Manager",
         company: "AUTOMAG India",
         content:
           "We first worked with Impulse Digital for our website design, which received great feedback from our management and clients. Impressed by their work, we also trusted them with SEO - and the results have been outstanding. Our organic leads grew from just 1–2 a month to over 20–25 quality B2B leads consistently. The team truly understood our business and delivered results that speak for themselves.",
@@ -74,8 +76,8 @@ export const TestimonialsSection = (): JSX.Element => {
       {
         id: "3",
         name: "Kimari Gosrani",
-        title: "Director of Communication and Strategy, Goma Engineering Pvt. Ltd",
-        company: "Goma Engineering",
+        title: "Director of Communication and Strategy",
+        company: "Goma Engineering Pvt. Ltd",
         content:
           "What I love about the Impulse Digital team is that they are enthusiastic. They are always coming up with genuine suggestions and honest feedback to improve our processes hence ensuring noteworthy results!",
         avatar: "/rectangle-433.png",
@@ -85,50 +87,66 @@ export const TestimonialsSection = (): JSX.Element => {
     []
   );
 
-  const TestimonialCard = ({ testimonial }: { testimonial: Testimonial }) => (
-    <div
-      className="flex flex-col h-[380px] md:h-[420px] bg-[#f8f9fc] rounded-[20px] p-6 md:p-8 border border-gray-100 relative group hover:border-[#543d98]/30 transition-colors duration-300"
+  const TestimonialCard = ({ testimonial, index, isMobile }: { testimonial: Testimonial, index: number, isMobile?: boolean }) => (
+    <motion.div
+      initial={{ filter: "blur(4px)", translateY: -8, opacity: 0 }}
+      whileInView={{ filter: "blur(0px)", translateY: 0, opacity: 1 }}
+      viewport={{ once: true }}
+      transition={{ delay: 0.1 * index + 0.1, duration: 0.8 }}
+      whileHover={{ scale: 1.02, y: -6 }}
+      className={`${isMobile ? "h-[360px]" : "h-full"} relative grid grid-cols-[auto_1fr] gap-x-4 overflow-hidden border border-[#e2e8f0]/80 rounded-[20px] p-5 md:p-6 bg-white shadow-[0_4px_24px_-8px_rgba(84,61,152,0.08)] hover:shadow-[0_12px_40px_-12px_rgba(84,61,152,0.15)] hover:border-[#543d98]/30 transition-all duration-500 group`}
     >
-      {/* Quote Icon */}
-      <div className="absolute top-8 right-8 opacity-[0.04]">
+      {/* Decorative Quote Mark */}
+      <div className="absolute top-4 right-4 text-[#543d98]/[0.03] pointer-events-none transform group-hover:scale-110 group-hover:rotate-6 group-hover:text-[#543d98]/[0.05] transition-all duration-700">
+        <svg width="64" height="64" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14.017 21L16.439 16.09C17.242 14.468 17.742 12.921 17.742 11.451C17.742 9.18 16.516 7.8 14.062 7.3V3.6C18.665 4.3 21 7.218 21 12.353C21 15.024 19.986 17.906 17.958 21H14.017ZM3 21L5.422 16.09C6.225 14.468 6.725 12.921 6.725 11.451C6.725 9.18 5.498 7.8 3.045 7.3V3.6C7.647 4.3 9.982 7.218 9.982 12.353C9.982 15.024 8.969 17.906 6.941 21H3Z" />
+        </svg>
+      </div>
+
+      <div className="pointer-events-none absolute top-0 left-1/2 -mt-2 -ml-20 h-full w-full [mask-image:linear-gradient(white,transparent)]">
+        <div className="absolute inset-0 bg-gradient-to-r from-[#543d98]/5 to-[#543d98]/2 [mask-image:radial-gradient(farthest-side_at_top,white,transparent)]">
+          <GridPattern
+            width={24}
+            height={24}
+            x={-12}
+            y={4}
+            strokeDasharray="4 4"
+            className="stroke-[#543d98]/10 absolute inset-0 h-full w-full mix-blend-overlay opacity-50 group-hover:opacity-100 transition-opacity duration-700"
+          />
+        </div>
+      </div>
+
+      <div className="relative z-10 w-12 h-12 md:w-14 md:h-14 flex-shrink-0">
+        <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-[#543d98] to-[#9b85d9] opacity-0 group-hover:opacity-20 blur-md transition-opacity duration-500"></div>
         <img
-          src="/Vector 1.png"
-          alt="Quote icon"
-          className="w-8 h-8 md:w-12 md:h-12 brightness-0"
+          alt={testimonial.name}
+          src={testimonial.avatar}
+          loading="lazy"
+          className="w-full h-full rounded-full object-cover border-2 border-white shadow-sm group-hover:border-[#543d98]/10 transition-colors duration-300"
         />
       </div>
 
-      {/* Content */}
-      <div className="flex-1 mb-6 pt-2 overflow-y-auto pr-2 custom-scrollbar">
-        <p className="[font-family:'DM_Sans',Helvetica] font-normal text-gray-600 text-sm md:text-base leading-relaxed whitespace-pre-wrap relative z-10">
-          {testimonial.content}
-        </p>
-      </div>
-
-      {/* Author Info */}
-      <div className="flex items-center gap-4 mt-auto border-t border-gray-100 pt-6">
-        <div className="w-12 h-12 md:w-14 md:h-14 rounded-full overflow-hidden flex-shrink-0 border-2 border-[#543d98]/20">
-          <img
-            className="w-full h-full object-cover"
-            alt={testimonial.name}
-            src={testimonial.avatar}
-          />
-        </div>
-        <div className="flex flex-col">
-          <h4 className="[font-family:'DM_Sans',Helvetica] font-medium text-[#030019] text-sm md:text-base leading-tight">
+      <div className="relative z-10 flex flex-col h-full justify-start overflow-hidden">
+        <div className="-mt-0.5 mb-2 md:mb-3 flex flex-col flex-shrink-0">
+          <p className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-[15px] md:text-base leading-tight group-hover:text-[#543d98] transition-colors duration-300">
             {testimonial.name}
-          </h4>
-          <p className="[font-family:'DM_Sans',Helvetica] font-normal text-gray-500 text-xs leading-tight mt-1">
-            {testimonial.title}
           </p>
+          <span className="[font-family:'DM_Sans',Helvetica] block text-[11px] md:text-xs mt-1 leading-snug font-medium text-[#543d98]">
+            {testimonial.title} at {testimonial.company}
+          </span>
         </div>
+        <blockquote className="mt-1 overflow-y-auto pr-2 pb-2 flex-1 min-h-0" style={{ scrollbarWidth: 'thin' }}>
+          <p className="[font-family:'DM_Sans',Helvetica] font-normal text-gray-600 group-hover:text-gray-800 text-[13px] md:text-[14px] leading-[1.6] whitespace-pre-wrap transition-colors duration-300">
+            {testimonial.content}
+          </p>
+        </blockquote>
       </div>
-    </div>
+    </motion.div>
   );
 
   return (
     <section
-      className="relative w-full bg-[#ffffff] py-16 md:py-24"
+      className="relative w-full bg-[#fdfdff] pt-16 pb-24 md:pt-24"
       data-section="new-testimonials"
       style={{
         position: "relative",
@@ -138,11 +156,16 @@ export const TestimonialsSection = (): JSX.Element => {
         borderTopRightRadius: "55px",
       }}
     >
-      <div className="w-full overflow-hidden">
-        <div className="max-w-[1400px] mx-auto px-4 md:px-8">
+      <div aria-hidden className="absolute inset-0 isolate z-0 contain-strict overflow-hidden rounded-t-[55px]">
+        <div className="bg-[radial-gradient(68.54%_68.72%_at_55.02%_31.46%,rgba(84,61,152,0.06)_0,rgba(84,61,152,0.02)_50%,rgba(84,61,152,0.01)_80%)] absolute top-0 left-0 h-[320px] w-[140px] -translate-y-[87.5px] -rotate-45 rounded-full" />
+        <div className="bg-[radial-gradient(50%_50%_at_50%_50%,rgba(84,61,152,0.04)_0,rgba(84,61,152,0.01)_80%,transparent_100%)] absolute top-0 left-0 h-[320px] w-[60px] translate-x-[5%] -translate-y-1/2 -rotate-45 rounded-full" />
+        <div className="bg-[radial-gradient(50%_50%_at_50%_50%,rgba(84,61,152,0.04)_0,rgba(84,61,152,0.01)_80%,transparent_100%)] absolute top-0 left-0 h-[320px] w-[60px] -translate-y-[87.5px] -rotate-45 rounded-full" />
+      </div>
 
-          {/* Header Section */}
-          <div className="mb-8 md:mb-12">
+      <div className="w-full overflow-hidden">
+        <div className="max-w-[1400px] mx-auto px-4 md:px-8 relative z-10">
+
+          <div className="mb-12 md:mb-16 flex flex-col items-start">
             <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[24px] md:text-[34px] leading-tight">
               <span className="text-[#030019]">From the teams</span>
               <br />
@@ -152,105 +175,60 @@ export const TestimonialsSection = (): JSX.Element => {
             </h2>
           </div>
 
-          {/* Swiper Slider */}
-          <div className="relative">
+          {/* MOBILE SLIDER */}
+          <div className="block md:hidden relative mt-8 overflow-visible">
             <Swiper
-              modules={[Navigation, Pagination, Autoplay]}
-              slidesPerView={1}
+              modules={[Navigation, Autoplay]}
               spaceBetween={24}
-              breakpoints={{
-                768: { slidesPerView: 2 },
-                1024: { slidesPerView: 3 },
-              }}
+              slidesPerView={1}
+              autoplay={{ delay: 5000, disableOnInteraction: false }}
               loop={true}
-              onSwiper={(s) => (swiperRef.current = s)}
-              autoplay={{
-                delay: 5000,
-                disableOnInteraction: false,
-                pauseOnMouseEnter: true,
+              onSwiper={(swiper) => {
+                swiperRef.current = swiper;
               }}
-              pagination={{
-                el: ".custom-pagination",
-                clickable: true,
-                bulletClass: "custom-bullet",
-                bulletActiveClass: "custom-bullet-active",
-              }}
-              navigation={{
-                enabled: true,
-                prevEl: ".custom-prev",
-                nextEl: ".custom-next",
-              }}
-              className="!pb-6 md:!pb-0"
+              className="!pb-8"
             >
-              {allTestimonials.map((testimonial) => (
-                <SwiperSlide key={testimonial.id} className="h-auto">
-                  <TestimonialCard testimonial={testimonial} />
+              {allTestimonials.map((testimonial, index) => (
+                <SwiperSlide key={testimonial.id} className="pb-4 pt-2">
+                  <TestimonialCard testimonial={testimonial} index={index} isMobile />
                 </SwiperSlide>
               ))}
             </Swiper>
+
+            {/* Slider Controls */}
+            <div className="mt-2 flex items-center justify-center relative z-20">
+              <div className="flex items-center gap-4">
+                <button
+                  onClick={() => swiperRef.current?.slidePrev()}
+                  aria-label="Previous testimonial"
+                  className="w-14 h-14 rounded-full bg-white border border-gray-100 shadow-[0_4px_20px_-8px_rgba(84,61,152,0.15)] flex items-center justify-center text-[#543d98] hover:bg-gray-50 transition-colors"
+                >
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M15 19l-7-7 7-7"/></svg>
+                </button>
+                <button
+                  onClick={() => swiperRef.current?.slideNext()}
+                  aria-label="Next testimonial"
+                  className="w-14 h-14 rounded-full bg-[#543d98] shadow-lg shadow-[#543d98]/20 flex items-center justify-center text-white hover:bg-[#432f80] transition-colors"
+                >
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M9 19l7-7-7-7"/></svg>
+                </button>
+              </div>
+            </div>
           </div>
 
-          {/* Navigation Controls matching website CTAs */}
-          <div className="flex items-center justify-between mt-8">
-            {/* Arrows */}
-            <div className="flex gap-4">
-              <button className="custom-prev w-10 h-10 md:w-12 md:h-12 rounded-full bg-white shadow-md border border-gray-100 flex items-center justify-center transition-all duration-300 group hover:scale-105 active:scale-95">
-                <img
-                  src="/left-arrow.png"
-                  alt="Prev"
-                  className="w-4 md:w-5 transition-transform duration-300 pointer-events-none group-hover:rotate-45"
-                />
-              </button>
-              <button className="custom-next w-10 h-10 md:w-12 md:h-12 rounded-full bg-[#543d98] shadow-md flex items-center justify-center transition-all duration-300 group hover:scale-105 active:scale-95">
-                <img
-                  src="/right-arrow.png"
-                  alt="Next"
-                  className="w-4 md:w-5 transition-transform duration-300 pointer-events-none brightness-0 invert group-hover:rotate-45"
-                />
-              </button>
+          {/* DESKTOP GRID */}
+          <div className="hidden md:block">
+            <div className="columns-1 sm:columns-2 lg:columns-3 gap-6 space-y-6">
+              {allTestimonials.map((testimonial, index) => (
+                <div key={testimonial.id} className="break-inside-avoid">
+                  <TestimonialCard testimonial={testimonial} index={index} isMobile={false} />
+                </div>
+              ))}
             </div>
-
-            {/* Pagination */}
-            <div className="custom-pagination flex items-center gap-1.5"></div>
           </div>
 
         </div>
       </div>
-
-      <style>{`
-        .custom-bullet {
-          width: 8px;
-          height: 8px;
-          background: #e5e7eb;
-          border-radius: 50%;
-          cursor: pointer;
-          transition: all 0.3s ease;
-        }
-        .custom-bullet-active {
-          width: 8px;
-          height: 8px;
-          background: #543d98;
-        }
-        .custom-pagination {
-          width: auto !important;
-          position: static !important;
-        }
-        
-        /* Custom scrollbar for testimonials */
-        .custom-scrollbar::-webkit-scrollbar {
-          width: 4px;
-        }
-        .custom-scrollbar::-webkit-scrollbar-track {
-          background: transparent;
-        }
-        .custom-scrollbar::-webkit-scrollbar-thumb {
-          background: #e2e8f0;
-          border-radius: 4px;
-        }
-        .custom-scrollbar:hover::-webkit-scrollbar-thumb {
-          background: #cbd5e1;
-        }
-      `}</style>
     </section>
   );
 };

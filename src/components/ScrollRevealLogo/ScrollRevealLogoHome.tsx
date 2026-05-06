@@ -113,9 +113,11 @@ export const ScrollRevealLogoHome: React.FC<ScrollRevealLogoProps> = ({
           // NEW HERO
           else if (sectionName === "new-hero") {
             const size = getHeroSize(isMobile, isTablet);
-            const top = sectionTop + (isMobile ? 120 : isTablet ? 150 : 150);
+            // Move down slightly on mobile so it sits perfectly in the empty space above the text
+            const top = sectionTop + (isMobile ? 170 : isTablet ? 150 : 150);
+            // On mobile, keep it anchored near the right edge (using percentage or px)
             const right = isMobile
-              ? 40
+              ? 20 // 20% from the right
               : isTablet
               ? 40
               : Math.max(80, Math.floor(vw * 0.1));
@@ -123,7 +125,7 @@ export const ScrollRevealLogoHome: React.FC<ScrollRevealLogoProps> = ({
             applyStyle({
               position: "absolute",
               top: `${top}px`,
-              right: `${right}px`,
+              right: isMobile ? `${right}%` : `${right}px`,
               left: "auto",
               transform: "none",
               filter: "brightness(1)",
@@ -414,15 +416,16 @@ export const ScrollRevealLogoHome: React.FC<ScrollRevealLogoProps> = ({
           // NEW TESTIMONIALS (New Home)
           else if (sectionName === "new-testimonials") {
             const size = isMobile ? "50px" : isTablet ? "70px" : "80px";
-            const top = sectionTop + (isMobile ? 60 : isTablet ? 50 : 80);
-            const left = isMobile ? 55 : isTablet ? 50 : 35; // percentages
+            // Mobile: push down to second line (pt-16 + line height).
+            const top = sectionTop + (isMobile ? 110 : isTablet ? 90 : 80);
+            const right = isMobile ? 5 : isTablet ? 25 : 28; // percentages
 
             applyStyle({
               position: "absolute",
               top: `${top}px`,
-              left: `${left}%`,
-              right: "auto",
-              transform: "rotate(180deg)",
+              left: "auto",
+              right: `${right}%`,
+              transform: "none",
               filter: "brightness(0)",
               width: size,
               height: size,
@@ -433,9 +436,11 @@ export const ScrollRevealLogoHome: React.FC<ScrollRevealLogoProps> = ({
 
           // NEW FAQ (New Home)
           else if (sectionName === "new-faq") {
-            const size = isMobile ? "50px" : isTablet ? "70px" : "80px";
-            const top = sectionTop + (isMobile ? -10 : isTablet ? 70 : 80);
-            const right = isMobile ? 5 : isTablet ? 25 : 30; // percentages
+            const size = isMobile ? "50px" : isTablet ? "65px" : "75px";
+            // Mobile: place on the first line. Desktop/Tablet: place on the second line.
+            const top = sectionTop + (isMobile ? -10 : isTablet ? 100 : 130);
+            // Move it so it sits to the right of the centered text.
+            const right = isMobile ? 5 : isTablet ? 18 : 22; // percentages
 
             applyStyle({
               position: "absolute",
