@@ -8,7 +8,7 @@ export const IntelliPulseHeroSection = (): JSX.Element => {
     <>
       <Helmet>
         <meta name="description" content="Impulse Digital is best market intelligence company in Mumbai, Impulse Digital combines research, insights and strategy to help your brand grow faster with smarter marketing decisions and deeper access to customer behavioural patterns." />
-        <meta name="keywords" content="Intelli Pulse, AI-powered insights, real-time intelligence, data automation, Impulse Digital" />
+        <meta name="keywords" content="market intelligence, market intelligence company, marketing intelligence, marketing intelligence company, mumbai, india, impulse digital" />
         <title>Market Intelligence Company in Mumbai | Marketing Intelligence | Impulse Digital</title>
 
         <meta name="robots" content="index, follow" />
