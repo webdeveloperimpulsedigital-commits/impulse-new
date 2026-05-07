@@ -44,7 +44,7 @@ const ServicesSection = () => {
     n: "03",
     title: "Trigger & Barrier Analysis",
     points: [
-      "Intelli Pulse uncovers emotional and functional motivators that drive adoption — and barriers holding consumers back. These insights help improve messaging, product design, and funnel interventions."
+      "Intelli Pulse uncovers emotional and functional motivators that drive adoption - and barriers holding consumers back. These insights help improve messaging, product design, and funnel interventions."
     ],
     img: "/impulse-website/s3-barrier.jpg",
   },
@@ -52,7 +52,7 @@ const ServicesSection = () => {
     n: "04",
     title: "Campaign Effectiveness Evaluation",
     points: [
-      "We analyse sentiment shifts, content recall, and engagement behaviour to understand campaign resonance — enabling better creative and media optimisation."
+      "We analyse sentiment shifts, content recall, and engagement behaviour to understand campaign resonance - enabling better creative and media optimisation."
     ],
     img: "/impulse-website/s4-campaign.jpg",
   },
@@ -68,7 +68,7 @@ const ServicesSection = () => {
     n: "06",
     title: "e-Commerce Benchmarking",
     points: [
-      "We compare your product’s performance with competitors by analysing ratings, reviews, sentiment, and feature preferences — helping improve product quality and listing optimisation."
+      "We compare your product’s performance with competitors by analysing ratings, reviews, sentiment, and feature preferences - helping improve product quality and listing optimisation."
     ],
     img: "/impulse-website/s6-ecom.jpg",
   },
@@ -76,7 +76,7 @@ const ServicesSection = () => {
     n: "07",
     title: "Search Intelligence Studies",
     points: [
-      "Intelli Pulse decodes evolving consumer curiosity by analysing keyword clusters, emerging interest themes, and search trends — enabling improved SEO, content, and product strategy."
+      "Intelli Pulse decodes evolving consumer curiosity by analysing keyword clusters, emerging interest themes, and search trends - enabling improved SEO, content, and product strategy."
     ],
     img: "/impulse-website/s7-search.jpg",
   },
@@ -92,7 +92,7 @@ const ServicesSection = () => {
     n: "09",
     title: "Reputation & Crisis Tracking",
     points: [
-      "Intelli Pulse monitors real-time sentiment shifts, risk signals, and negativity spikes — enabling brands to act quickly and protect reputation during crises."
+      "Intelli Pulse monitors real-time sentiment shifts, risk signals, and negativity spikes - enabling brands to act quickly and protect reputation during crises."
     ],
     img: "/impulse-website/s9-crisis.jpg",
   },
@@ -108,7 +108,7 @@ const ServicesSection = () => {
     n: "11",
     title: "Social Listening & Conversation Mapping",
     points: [
-      "Using multi-source digital data, Intelli Pulse captures consumer conversations, emotions, and category discussions — delivering a 360° understanding of the audience."
+      "Using multi-source digital data, Intelli Pulse captures consumer conversations, emotions, and category discussions - delivering a 360° understanding of the audience."
     ],
     img: "/impulse-website/s11-social.jpg",
   },
@@ -132,7 +132,7 @@ const ServicesSection = () => {
     n: "14",
     title: "Strategic Insight Reports & Executive Summaries",
     points: [
-      "All research culminates in action-ready recommendations via insight decks and decision-focused frameworks — designed for immediate application."
+      "All research culminates in action-ready recommendations via insight decks and decision-focused frameworks - designed for immediate application."
     ],
     img: "/impulse-website/s14-reports.jpg",
   },

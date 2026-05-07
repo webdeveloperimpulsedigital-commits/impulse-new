@@ -45,7 +45,7 @@ export const IntelliPulseHeroSection = (): JSX.Element => {
           playsInline
           preload="metadata"
           aria-hidden="true">
-          <source src="/bg-video.mp4" type="video/mp4" />
+          <source src="/intelli-pulse-banner-video.mp4" type="video/mp4" />
         </video>
 
         {/* Overlay layer for dark tint */}

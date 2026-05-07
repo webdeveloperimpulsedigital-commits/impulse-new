@@ -7,7 +7,7 @@ type QA = { q: string; a: string };
 const DEFAULT_QA: QA[] = [
   {
     q: "What exactly is Intelli Pulse?",
-    a: "Intelli Pulse is Impulse Digital’s AI-driven social and market intelligence solution that unifies digital signals — conversations, reviews, search trends, and competitor activity — to deliver actionable insights and recommendations."
+    a: "Intelli Pulse is Impulse Digital’s AI-driven social and market intelligence solution that unifies digital signals - conversations, reviews, search trends, and competitor activity - to deliver actionable insights and recommendations."
   },
   {
     q: "How does Intelli Pulse collect and analyse data?",
@@ -23,7 +23,7 @@ const DEFAULT_QA: QA[] = [
   },
   {
     q: "What kind of insights can Intelli Pulse provide?",
-    a: "It uncovers emerging trends, consumer attitudes, sentiment shifts, purchase triggers, barriers, competitor narratives, influencer effectiveness, and category opportunities — all directly mapped to business actions."
+    a: "It uncovers emerging trends, consumer attitudes, sentiment shifts, purchase triggers, barriers, competitor narratives, influencer effectiveness, and category opportunities - all directly mapped to business actions."
   },
   {
     q: "How frequently do we receive insights or reports?",
@@ -39,7 +39,7 @@ const DEFAULT_QA: QA[] = [
   },
   {
     q: "Can Intelli Pulse help with campaign and influencer evaluation?",
-    a: "Yes. It measures campaign resonance, sentiment before and after activation, engagement quality, influencer relevance, and total impact — ensuring smarter future optimisation."
+    a: "Yes. It measures campaign resonance, sentiment before and after activation, engagement quality, influencer relevance, and total impact - ensuring smarter future optimisation."
   },
   {
     q: "How long does a typical Intelli Pulse project take?",

@@ -74,7 +74,7 @@ export const WhyChooseSection = (): JSX.Element => {
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
               Every analysis ends with clear, execution-ready recommendations so your teams
-              don’t just receive data — they gain direction that accelerates growth.
+              don’t just receive data - they gain direction that accelerates growth.
             </p>
           </div>
         </div>
