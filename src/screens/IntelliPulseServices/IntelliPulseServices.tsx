@@ -6,7 +6,7 @@ import { BrandVisionSection } from "./sections/BrandVisionSection/BrandVisionSec
 import { WhyChooseSection } from "./sections/WhyChooseSection/WhyChooseSection";
 import { ServicesSection } from "./sections/ServicesSection";
 import { ProcessSection } from "./sections/ProcessSection/ProcessSection";
-import { ClientsSection } from "./sections/ClientsSection";
+import { ClientsSection } from "../ContentWritingServices/sections/ClientsSection";
 import { TestimonialsSection } from "../Main/sections/TestimonialsSection/TestimonialsSection";
 import { ContactSection } from "../Main/sections/ContactSection/ContactSection";
 import { FAQSection } from "./sections/FAQSection/FAQSection";
@@ -23,7 +23,7 @@ export const IntelliPulseServices = (): JSX.Element => {
         <ServicesSection />
         <WhyChooseSection />
         <ProcessSection />
-        <ClientsSection/> 
+        <ClientsSection />
         <TestimonialsSection />
         <ContactSection />
         <FAQSection />

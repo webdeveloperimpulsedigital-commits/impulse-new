@@ -147,7 +147,7 @@ export const InteractiveSliderSection = (): JSX.Element => {
                               onMouseLeave={() => setHoveredBtn(null)}
                           className="group w-12 h-12 rounded-full border-2 border-[#543d98] bg-white flex items-center justify-center group transition-all duration-300 hover:bg-[#f5f5f5] hover:border-[#543d98]">
                           
-                          <img src="/impulse-website/left-arrow.png" alt="Next"
+                          <img src="/left-arrow.png" alt="Next"
                             className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"/>
                         </Button>
               
@@ -157,7 +157,7 @@ export const InteractiveSliderSection = (): JSX.Element => {
                               onMouseLeave={() => setHoveredBtn(null)}
                           className="group w-12 h-12 rounded-full border-2 border-[#EAEAEA] bg-[#543d98] flex items-center justify-center group transition-all duration-300">
                           
-                          <img src="/impulse-website/right-arrow.png" alt="Next"
+                          <img src="/right-arrow.png" alt="Next"
                             className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"/>
                         </Button>
             </div>
@@ -227,7 +227,7 @@ export const InteractiveSliderSection = (): JSX.Element => {
                               onMouseLeave={() => setHoveredBtn(null)}
                           className="group w-12 h-12 rounded-full border-2 border-[#543d98] bg-white flex items-center justify-center group transition-all duration-300 hover:bg-[#f5f5f5] hover:border-[#543d98]">
                           
-                          <img src="/impulse-website/left-arrow.png" alt="Next"
+                          <img src="/left-arrow.png" alt="Next"
                             className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"/>
                         </Button>
               
@@ -237,7 +237,7 @@ export const InteractiveSliderSection = (): JSX.Element => {
                               onMouseLeave={() => setHoveredBtn(null)}
                           className="group w-12 h-12 rounded-full border-2 border-[#EAEAEA] bg-[#543d98] flex items-center justify-center group transition-all duration-300">
                           
-                          <img src="/impulse-website/right-arrow.png" alt="Next"
+                          <img src="/right-arrow.png" alt="Next"
                             className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"/>
                         </Button>
           </div><br></br>

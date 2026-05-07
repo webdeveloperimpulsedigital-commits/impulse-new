@@ -30,7 +30,7 @@ const ServicesSection = () => {
     points: [
       "Intelli Pulse helps brands identify emerging market trends, rising consumer interests, and whitespace opportunities. We analyze volume growth patterns and trend trajectories to guide innovation and long-term category strategy."
     ],
-    img: "/impulse-website/service-placeholder.jpg",
+    img: "/impulse-website/s1-trend.jpg",
   },
   {
     n: "02",
@@ -38,7 +38,7 @@ const ServicesSection = () => {
     points: [
       "We decode motivations, behaviours, needs, and attitudes of your target audience to understand what drives their choices. This enables stronger segmentation, persona mapping, and consumer-led communication planning."
     ],
-    img: "/impulse-website/service-placeholder.jpg",
+    img: "/impulse-website/s2-ua.jpg",
   },
   {
     n: "03",
@@ -46,7 +46,7 @@ const ServicesSection = () => {
     points: [
       "Intelli Pulse uncovers emotional and functional motivators that drive adoption — and barriers holding consumers back. These insights help improve messaging, product design, and funnel interventions."
     ],
-    img: "/impulse-website/service-placeholder.jpg",
+    img: "/impulse-website/s3-barrier.jpg",
   },
   {
     n: "04",
@@ -54,7 +54,7 @@ const ServicesSection = () => {
     points: [
       "We analyse sentiment shifts, content recall, and engagement behaviour to understand campaign resonance — enabling better creative and media optimisation."
     ],
-    img: "/impulse-website/service-placeholder.jpg",
+    img: "/impulse-website/s4-campaign.jpg",
   },
   {
     n: "05",
@@ -62,7 +62,7 @@ const ServicesSection = () => {
     points: [
       "Intelli Pulse evaluates relevance, credibility, audience quality and content performance of influencers. Post-campaign analysis reveals ROI, engagement quality, and resonance."
     ],
-    img: "/impulse-website/service-placeholder.jpg",
+    img: "/impulse-website/s5-influencer.jpg",
   },
   {
     n: "06",
@@ -70,7 +70,7 @@ const ServicesSection = () => {
     points: [
       "We compare your product’s performance with competitors by analysing ratings, reviews, sentiment, and feature preferences — helping improve product quality and listing optimisation."
     ],
-    img: "/impulse-website/service-placeholder.jpg",
+    img: "/impulse-website/s6-ecom.jpg",
   },
   {
     n: "07",
@@ -78,7 +78,7 @@ const ServicesSection = () => {
     points: [
       "Intelli Pulse decodes evolving consumer curiosity by analysing keyword clusters, emerging interest themes, and search trends — enabling improved SEO, content, and product strategy."
     ],
-    img: "/impulse-website/service-placeholder.jpg",
+    img: "/impulse-website/s7-search.jpg",
   },
   {
     n: "08",
@@ -86,7 +86,7 @@ const ServicesSection = () => {
     points: [
       "We identify emerging benefits, claims, ingredients, and expectations that inspire new product development and refine innovation pipelines."
     ],
-    img: "/impulse-website/service-placeholder.jpg",
+    img: "/impulse-website/s8-innovation.jpg",
   },
   {
     n: "09",
@@ -94,7 +94,7 @@ const ServicesSection = () => {
     points: [
       "Intelli Pulse monitors real-time sentiment shifts, risk signals, and negativity spikes — enabling brands to act quickly and protect reputation during crises."
     ],
-    img: "/impulse-website/service-placeholder.jpg",
+    img: "/impulse-website/s9-crisis.jpg",
   },
   {
     n: "10",
@@ -102,7 +102,7 @@ const ServicesSection = () => {
     points: [
       "We track competitor narratives, positioning shifts, and share-of-voice to help refine brand communication clarity and differentiation."
     ],
-    img: "/impulse-website/service-placeholder.jpg",
+    img: "/impulse-website/s10-competitor.jpg",
   },
   {
     n: "11",
@@ -110,7 +110,7 @@ const ServicesSection = () => {
     points: [
       "Using multi-source digital data, Intelli Pulse captures consumer conversations, emotions, and category discussions — delivering a 360° understanding of the audience."
     ],
-    img: "/impulse-website/service-placeholder.jpg",
+    img: "/impulse-website/s11-social.jpg",
   },
   {
     n: "12",
@@ -118,7 +118,7 @@ const ServicesSection = () => {
     points: [
       "We analyse reviews, ratings, pain points, and sentiment themes across marketplaces to reveal improvement areas and consumer expectations."
     ],
-    img: "/impulse-website/service-placeholder.jpg",
+    img: "/impulse-website/s12-review.jpg",
   },
   {
     n: "13",
@@ -126,7 +126,7 @@ const ServicesSection = () => {
     points: [
       "We provide always-on tracking, dashboards, and alerts that deliver live visibility into brand shifts, risks, and insights."
     ],
-    img: "/impulse-website/service-placeholder.jpg",
+    img: "/impulse-website/s13-alerts.jpg",
   },
   {
     n: "14",
@@ -134,7 +134,7 @@ const ServicesSection = () => {
     points: [
       "All research culminates in action-ready recommendations via insight decks and decision-focused frameworks — designed for immediate application."
     ],
-    img: "/impulse-website/service-placeholder.jpg",
+    img: "/impulse-website/s14-reports.jpg",
   },
   {
     n: "15",
@@ -142,7 +142,7 @@ const ServicesSection = () => {
     points: [
       "For continuous visibility, Intelli Pulse offers ongoing listening, periodic deep dives, dashboards, and insight reports as flexible engagement models."
     ],
-    img: "/impulse-website/service-placeholder.jpg",
+    img: "/impulse-website/s15-always-on.jpg",
   },
 ];
 
@@ -348,12 +348,10 @@ const ServicesSection = () => {
             <div className="mx-auto relative">
               <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
                 <span className="text-[#ffffffb2]  lg:text-[34px] sm:text-[16px]">
-                  Pick the Lens 
-
+                  Our 
                 </span>
                 <span className="font-bold text-[#ffffff] lg:text-[52px] md:text-[52px] sm:text-[26px]">
-                 You Want to See Your Consumer Through 
-
+                 Intelli Pulse Services 
                 </span>
               </h2>
             </div>
@@ -447,7 +445,7 @@ const ServicesSection = () => {
                 aria-label="Previous"
               >
                 <img
-                  src="/impulse-website/left-arrow.png"
+                  src="/left-arrow.png"
                   alt="Previous"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />
@@ -460,7 +458,7 @@ const ServicesSection = () => {
                 aria-label="Next"
               >
                 <img
-                  src="/impulse-website/right-arrow.png"
+                  src="/right-arrow.png"
                   alt="Next"
                   className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
                 />

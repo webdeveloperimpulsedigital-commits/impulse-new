@@ -12,10 +12,10 @@ export const WhyChooseSection = (): JSX.Element => {
         {/* Heading */}
         <div className="mb-6 lg:mb-8 pt-0">
           <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px] ">
-            For Brands that want Insight 
+            Why Choose Impulse Digital 
           </h2>
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-            Not Just Information
+            for Intelli Pulse
           </h2>
         </div>
 
@@ -55,8 +55,7 @@ export const WhyChooseSection = (): JSX.Element => {
               Complete Market Visibility from Every Digital Signal
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              We unify search trends, social conversations, and e-commerce signals
-              to reveal true consumer behaviour and category shifts.
+              From social conversations to search trends and e-commerce reviews, we unify diverse data streams to give you a true 360° understanding of your category and consumers.
             </p>
           </div>
 
@@ -64,7 +63,7 @@ export const WhyChooseSection = (): JSX.Element => {
           <div>
             <div className="relative overflow-hidden rounded-[28px] shadow-lg mb-4">
               <img
-                src="/impulse-website/content-full-width-img.jpg"
+                src="/impulse-website/content-full-width-corporate-boy.jpg"
                 alt="Insights that convert into fast action"
                 className="w-full h-[320px] sm:h-[400px] object-cover transition-transform duration-300 hover:scale-[1.03]"
                 loading="lazy"
@@ -74,7 +73,7 @@ export const WhyChooseSection = (): JSX.Element => {
               Insights That Convert Into Fast, Strategic Action
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              Every analysis ends with execution-ready recommendations so your teams
+              Every analysis ends with clear, execution-ready recommendations so your teams
               don’t just receive data — they gain direction that accelerates growth.
             </p>
           </div>
@@ -101,8 +100,7 @@ export const WhyChooseSection = (): JSX.Element => {
                 Complete Market Visibility from Every Digital Signal
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed mb-0">
-                From search to social and everything in-between — we decode the signals
-                that truly shape consumer decisions.
+                From social conversations to search trends and e-commerce reviews, we unify diverse data streams to give you a true 360° understanding of your category and consumers.
               </p>
             </div>
 
@@ -113,8 +111,7 @@ export const WhyChooseSection = (): JSX.Element => {
                   AI-Driven Intelligence, Enhanced by Human Insight
                 </h3>
                 <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed max-w-[620px]">
-                  Advanced AI finds patterns. Human experts turn them into insight. The
-                  perfect blend for precision decision-making.
+                  We blend advanced AI analytics with expert strategists to deliver intelligence that is sharp, contextual, and immediately actionable.
                 </p>
               </div>
 
@@ -133,7 +130,7 @@ export const WhyChooseSection = (): JSX.Element => {
           <div>
             <div className="relative overflow-hidden rounded-[28px] shadow-lg">
               <img
-                src="/impulse-website/content-full-width-img.jpg"
+                src="/impulse-website/content-full-width-corporate-boy.jpg"
                 alt="Insights that convert into fast action"
                 className="w-full h-[510px] object-cover transition-transform duration-300 hover:scale-[1.03]"
                 loading="lazy"
@@ -145,8 +142,7 @@ export const WhyChooseSection = (): JSX.Element => {
                 Insights That Convert Into Fast, Strategic Action
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-                We go beyond charts and dashboards — delivering clear recommendations
-                that unlock smarter, faster growth.
+                Every analysis ends with clear, execution-ready recommendations so your teams don’t just receive data - they gain direction that accelerates growth.
               </p>
             </div>
           </div>

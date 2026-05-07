@@ -7,28 +7,28 @@ export const IntelliPulseHeroSection = (): JSX.Element => {
   return (
     <>
      <Helmet> 
-    <meta name="description" content="We offer superior content writing services in Mumbai, India. We create blog, creative infographic designs, videos, whitepaper creation & design, corporate communication & digital brochures under our content marketing services." />
-<meta name="keywords" content="content writing services in mumbai, content marketing services, content marketing agency in mumbai, best content writing services, content writing services india" />
-<title>Content Writing Services in Mumbai, India | Content Marketing | Impulse Digital</title>
+    <meta name="description" content="Intelli Pulse helps businesses unlock clarity from complexity through AI-powered insights, automation, and real-time intelligence." />
+<meta name="keywords" content="Intelli Pulse, AI-powered insights, real-time intelligence, data automation, Impulse Digital" />
+<title>Turn Raw Data Into Intelligent Decisions With Intelli Pulse | Impulse Digital</title>
 
 <meta name="robots" content="index, follow" />
 <meta name="revisit-after" content="1 day" />
 <meta name="language" content="English" />
 <meta name="generator" content="N/A" />
 
-<meta property="og:title" content="Content Writing Services in Mumbai, India | Content Marketing | Impulse Digital" />
-<meta property="og:description" content="We offer superior content writing services in Mumbai, India. We create blog, creative infographic designs, videos, whitepaper creation & design, corporate communication & digital brochures under our content marketing services." />
-<meta property="og:url" content="https://www.theimpulsedigital.com/content-marketing-services" />
+<meta property="og:title" content="Turn Raw Data Into Intelligent Decisions With Intelli Pulse | Impulse Digital" />
+<meta property="og:description" content="Intelli Pulse helps businesses unlock clarity from complexity through AI-powered insights, automation, and real-time intelligence." />
+<meta property="og:url" content="https://www.theimpulsedigital.com/services/intelli-pulse" />
 <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
 <meta property="og:site_name" content="Impulse Digital" />
 <meta property="og:type" content="website" />
 <meta name="twitter:card" content= "summary_large_image"  />
 <meta name="twitter:site" content="@impulsedigi" />
 <meta name="twitter:creator" content="@impulsedigi" />
-<meta name="twitter:title" content="Content Writing Services in Mumbai, India | Content Marketing | Impulse Digital" />
-<meta name="twitter:description" content="We offer superior content writing services in Mumbai, India. We create blog, creative infographic designs, videos, whitepaper creation & design, corporate communication & digital brochures under our content marketing services." />
+<meta name="twitter:title" content="Turn Raw Data Into Intelligent Decisions With Intelli Pulse | Impulse Digital" />
+<meta name="twitter:description" content="Intelli Pulse helps businesses unlock clarity from complexity through AI-powered insights, automation, and real-time intelligence." />
 <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
-<meta name="twitter:url" content="https://www.theimpulsedigital.com/content-marketing-services" />
+<meta name="twitter:url" content="https://www.theimpulsedigital.com/services/intelli-pulse" />
 
     </Helmet>
     <section
@@ -58,11 +58,9 @@ export const IntelliPulseHeroSection = (): JSX.Element => {
         <Header />
       </div>
 
-      {/* Hero Copy */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center pt-24 px-4">
-        <h1 className="[font-family:'DM_Sans',Helvetica] font-black text-white text-[32px] sm:text-[40px] md:text-[48px] lg:text-[56px] xl:text-[64px] leading-[40px] tracking-tight mb-6">
+        <h1 className="[font-family:'DM_Sans',Helvetica] font-black text-white text-[32px] sm:text-[40px] md:text-[48px] lg:text-[56px] xl:text-[64px] leading-[1.2] tracking-tight mb-6 max-w-[1200px]">
             INTELLI PULSE
-
         </h1>
 
         {/* Breadcrumb */}
@@ -71,7 +69,11 @@ export const IntelliPulseHeroSection = (): JSX.Element => {
             Home
           </NavLink>
           <span className="select-none">{">"}</span>
-          <span className="text-white">Intelli Pulse</span>
+          <NavLink to="/services" className="hover:text-white transition-colors">
+            Services
+          </NavLink>
+          <span className="select-none">{">"}</span>
+          <span className="text-white">INTELLI PULSE</span>
         </nav>
       </div>
     </section>

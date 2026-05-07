@@ -1158,5 +1158,49 @@ export const faqData: Record<string, FAQItem[]> = {
       question: "How do you measure success?",
       answer: "We look at traffic, rankings, and, most importantly, whether you’re getting more inquiries or leads."
     }
+  ],
+
+  "/services/intelli-pulse": [
+    {
+      question: "What exactly is Intelli Pulse?",
+      answer: "Intelli Pulse is Impulse Digital’s AI-driven social and market intelligence solution that unifies digital signals - conversations, reviews, search trends, and competitor activity - to deliver actionable insights and recommendations."
+    },
+    {
+      question: "How does Intelli Pulse collect and analyse data?",
+      answer: "It gathers information from multiple sources such as social media, e-commerce reviews, search data, community discussions, and competitor communication. AI frameworks then process this data to decode trends, sentiment, triggers, and opportunities."
+    },
+    {
+      question: "Can Intelli Pulse work for small and mid-sized businesses?",
+      answer: "Yes. Intelli Pulse is modular and scalable, making it suitable for startups, growing brands, and large enterprises. We customise the framework based on your category and goals."
+    },
+    {
+      question: "Do we need a technical team to use Intelli Pulse?",
+      answer: "No. We deliver insights in clear dashboards, reports, and summaries that are easy to understand. Our team handles all technical complexity in the backend."
+    },
+    {
+      question: "What kind of insights can Intelli Pulse provide?",
+      answer: "It uncovers trends, consumer attitudes, triggers and barriers, sentiment shifts, competitor narratives, influencer effectiveness, and category opportunities - all mapped to business actions."
+    },
+    {
+      question: "How frequently do we receive insights or reports?",
+      answer: "You can choose project-based, monthly, quarterly, or always-on models. We offer dashboards, alerts, deep-dive studies, and scheduled reports based on your preferred cadence."
+    },
+    {
+      question: "Does Intelli Pulse integrate with our existing tools?",
+      answer: "Yes. We can export insights, dashboards, and datasets in compatible formats (CSV, Excel, PDFs) and support integrations as per your ecosystem."
+    },
+    {
+      question: "Is the data collection process compliant and secure?",
+      answer: "Absolutely. Intelli Pulse uses GDPR-compliant tools, ethical listening systems, and secure data pipelines to ensure privacy, safety, and confidentiality."
+    },
+    {
+      question: "Can Intelli Pulse help with campaign and influencer evaluation?",
+      answer: "Yes. It measures campaign resonance, pre-post sentiment, engagement quality, influencer fit, and impact - helping you optimise future strategies with data-backed clarity."
+    },
+    {
+      question: "How long does a typical Intelli Pulse project take?",
+      answer: "Timelines vary based on scope. Rapid studies can be completed in a few days, while deeper category or U&A studies take 2-4 weeks. Always-on monitoring runs throughout the engagement."
+    }
   ]
 };
+
