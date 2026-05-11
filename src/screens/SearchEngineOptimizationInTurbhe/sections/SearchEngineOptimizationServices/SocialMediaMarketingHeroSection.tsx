@@ -53,17 +53,17 @@ export const SocialMediaMarketingHeroSection = (): JSX.Element => {
     <>
       {/* ✅ SEO Meta Tags */}
  <Helmet> 
-      <meta name="description" content="Impulse Digital is a trusted SEO company in Thane offering SEO services such as website audits, keyword research, link building and content strategy. Choose the best SEO agency in Thane for results." />
-      <meta name="keywords" content="seo company in turbhe, seo services, search engine optimization services, seo agency in turbhe, impulse digital" />
-      <title>SEO Company in Turbhe | SEO Services | Impulse Digital</title>
+      <meta name="description" content="Looking for an SEO company in Turbhe? Impulse Digital offers SEO services built around keyword research, website optimisation and strategies that support online business growth." />
+      <meta name="keywords" content="seo company in turbhe; seo agency in turbhe" />
+      <title>SEO Company in Turbhe | SEO Agency | Impulse Digital</title>
 
       <meta name="robots" content="index, follow" />
       <meta name="revisit-after" content="1 day" />
       <meta name="language" content="English" />
       <meta name="generator" content="N/A" />
 
-      <meta property="og:title" content="SEO Company in Turbhe | SEO Services | Impulse Digital" />
-      <meta property="og:description" content="Impulse Digital is a trusted SEO company in Thane offering SEO services such as website audits, keyword research, link building and content strategy. Choose the best SEO agency in Thane for results." />
+      <meta property="og:title" content="SEO Company in Turbhe | SEO Agency | Impulse Digital" />
+      <meta property="og:description" content="Looking for an SEO company in Turbhe? Impulse Digital offers SEO services built around keyword research, website optimisation and strategies that support online business growth." />
       <meta property="og:url" content="hhttps://www.theimpulsedigital.com/services/search-engine-optimization/" />
       <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
       <meta property="og:site_name" content="Impulse Digital" />
@@ -71,8 +71,8 @@ export const SocialMediaMarketingHeroSection = (): JSX.Element => {
       <meta name="twitter:card" content= "summary_large_image"  />
       <meta name="twitter:site" content="@impulsedigi" />
       <meta name="twitter:creator" content="@impulsedigi" />
-      <meta name="twitter:title" content="SEO Company in Turbhe | SEO Services | Impulse Digital" />
-      <meta name="twitter:description" content="Impulse Digital is a trusted SEO company in Thane offering SEO services such as website audits, keyword research, link building and content strategy. Choose the best SEO agency in Thane for results." />
+      <meta name="twitter:title" content="SEO Company in Turbhe | SEO Agency | Impulse Digital" />
+      <meta name="twitter:description" content="Looking for an SEO company in Turbhe? Impulse Digital offers SEO services built around keyword research, website optimisation and strategies that support online business growth." />
       <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
       <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/search-engine-optimization/" />
       <link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/"/>

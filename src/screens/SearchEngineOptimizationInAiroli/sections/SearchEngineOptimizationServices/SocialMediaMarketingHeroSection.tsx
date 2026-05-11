@@ -53,17 +53,17 @@ export const SocialMediaMarketingHeroSection = (): JSX.Element => {
     <>
       {/* ✅ SEO Meta Tags */}
       <Helmet>
-        <meta name="description" content="Impulse Digital is a trusted SEO company in Thane offering SEO services such as website audits, keyword research, link building and content strategy. Choose the best SEO agency in Thane for results." />
-        <meta name="keywords" content="seo company in thane, seo services, search engine optimization services, seo agency in thane, impulse digital" />
-        <title>SEO Company in Thane | SEO Services | Impulse Digital</title>
+        <meta name="description" content="Impulse Digital is an SEO agency in Airoli offering SEO services that help brands improve visibility, optimise website performance and connect with the right audience online." />
+        <meta name="keywords" content="seo agency in airoli" />
+        <title>SEO Agency in Airoli | SEO Services | Impulse Digital</title>
 
         <meta name="robots" content="index, follow" />
         <meta name="revisit-after" content="1 day" />
         <meta name="language" content="English" />
         <meta name="generator" content="N/A" />
 
-        <meta property="og:title" content="SEO Company in Thane | SEO Services | Impulse Digital" />
-        <meta property="og:description" content="Impulse Digital is a trusted SEO company in Thane offering SEO services such as website audits, keyword research, link building and content strategy. Choose the best SEO agency in Thane for results." />
+        <meta property="og:title" content="SEO Agency in Airoli | SEO Services | Impulse Digital" />
+        <meta property="og:description" content="Impulse Digital is an SEO agency in Airoli offering SEO services that help brands improve visibility, optimise website performance and connect with the right audience online." />
         <meta property="og:url" content="hhttps://www.theimpulsedigital.com/services/search-engine-optimization/" />
         <meta property="og:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
         <meta property="og:site_name" content="Impulse Digital" />
@@ -71,11 +71,11 @@ export const SocialMediaMarketingHeroSection = (): JSX.Element => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@impulsedigi" />
         <meta name="twitter:creator" content="@impulsedigi" />
-        <meta name="twitter:title" content="SEO Company in Thane | SEO Services | Impulse Digital" />
-        <meta name="twitter:description" content="Impulse Digital is a trusted SEO company in Thane offering SEO services such as website audits, keyword research, link building and content strategy. Choose the best SEO agency in Thane for results." />
+        <meta name="twitter:title" content="SEO Agency in Airoli | SEO Services | Impulse Digital" />
+        <meta name="twitter:description" content="Impulse Digital is an SEO agency in Airoli offering SEO services that help brands improve visibility, optimise website performance and connect with the right audience online." />
         <meta name="twitter:image" content="https://www.theimpulsedigital.com/img/logo-id-new.jpg" />
         <meta name="twitter:url" content="https://www.theimpulsedigital.com/services/search-engine-optimization/" />
-        <link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/" />
+        <link rel="canonical" href="https://www.theimpulsedigital.com/services/search-engine-optimization/airoli/" />
         <script type="application/ld+json">
           {JSON.stringify(schema)}
         </script>
