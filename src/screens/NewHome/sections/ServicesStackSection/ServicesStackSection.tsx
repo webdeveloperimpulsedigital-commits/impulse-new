@@ -99,47 +99,50 @@ export const ServicesStackSection = (): JSX.Element => {
       >
         <div className="h-full px-4 lg:px-[75px] flex items-stretch">
           <Card className="bg-[#070514] border-none rounded-[40px] shadow-2xl w-full relative overflow-hidden" style={{ borderWidth: "0px" }}>
-            <CardContent className="relative flex flex-col lg:flex-row items-stretch p-0 min-h-full">
+            <CardContent className="relative flex flex-col lg:flex-row items-stretch p-0 min-h-full bg-[#070514]">
               
               {/* Left Content */}
-              <div className="relative z-20 flex flex-col justify-center w-full lg:w-[55%] px-8 lg:px-20 py-16 lg:py-24">
-                <h2 className="font-dm-sans font-bold text-white text-[36px] lg:text-[56px] leading-[1.1] mb-6">
-                  {current.title}
-                </h2>
+              <div className="relative z-20 flex flex-col justify-center w-full lg:w-[50%] px-8 lg:px-20 py-16 lg:py-24">
                 
                 {current.subtitle && (
-                  <h4 className="font-dm-sans font-bold text-[#7d52f4] text-xs lg:text-sm tracking-[0.2em] uppercase mb-6">
+                  <h4 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#7d52f4] text-xs lg:text-sm tracking-[0.2em] uppercase mb-4">
                     {current.subtitle}
                   </h4>
                 )}
 
-                <p className="font-dm-sans font-normal text-[#9496a1] text-base lg:text-lg leading-relaxed max-w-[500px] mb-12">
+                <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-white text-[36px] lg:text-[56px] leading-[1.1] mb-6">
+                  {current.title}
+                </h2>
+                
+                <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[#9496a1] text-base lg:text-lg leading-relaxed max-w-[450px] mb-12">
                   {current.description}
                 </p>
 
                 <div>
-                  <button className="flex items-center gap-3 bg-[#5f41b3] hover:bg-[#7d52f4] text-white rounded-full px-6 py-3.5 transition-colors duration-300">
-                    <span className="font-dm-sans font-semibold text-sm">Explore {current.title}</span>
-                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-                    </svg>
+                  <button className="w-auto h-[44px] group inline-flex items-center gap-3 px-6 py-6 rounded-xl bg-transparent text-white hover:bg-white hover:text-[#070514] transition-colors duration-300 border border-[#ffffff33] hover:border-white">
+                    <span className="[font-family:'DM_Sans',Helvetica] font-bold text-current text-sm md:text-[15px] transition-colors duration-300">
+                      Explore {current.title}
+                    </span>
+                    <img
+                      src="https://www.theimpulsedigital.com/button-icon.svg"
+                      alt="Arrow"
+                      className="w-4 h-4 transition-all duration-300 group-hover:rotate-45 pointer-events-none brightness-0 invert group-hover:invert-0"
+                    />
                   </button>
                 </div>
               </div>
 
-              {/* Right Image with Gradient Mask */}
-              <div 
-                className="absolute right-0 top-0 bottom-0 w-full lg:w-[65%] h-full z-10 pointer-events-none"
-                style={{ 
-                  maskImage: "linear-gradient(to right, transparent, black 30%)", 
-                  WebkitMaskImage: "-webkit-linear-gradient(left, transparent, black 30%)" 
-                }}
-              >
-                <img
-                  className="w-full h-full object-cover opacity-80"
-                  alt="Service illustration"
-                  src={current.image}
-                />
+              {/* Right Image (Clean, sharp edge, aesthetic frame) */}
+              <div className="relative w-full lg:w-[50%] h-full z-10 p-4 lg:p-8 flex items-center justify-center">
+                <div className="w-full h-full min-h-[400px] lg:min-h-full rounded-3xl overflow-hidden bg-[#120f26] shadow-2xl relative group">
+                  <img
+                    className="absolute inset-0 w-full h-full object-cover transition-transform duration-[2s] ease-[cubic-bezier(0.25,1,0.5,1)] group-hover:scale-105 opacity-90"
+                    alt={current.title}
+                    src={current.image}
+                  />
+                  {/* Subtle overlay to keep the dark aesthetic */}
+                  <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors duration-500" />
+                </div>
               </div>
 
             </CardContent>

@@ -3,17 +3,21 @@ import React from "react";
 export const WhyChooseSection = (): JSX.Element => {
 
   const content = {
+    simple: {
+      title: "We Keep Things Simple",
+      text: "SEO doesn’t need to feel overwhelming. As an SEO company in Vashi, we focus on what actually works instead of overcomplicating everything.",
+    },
     dataDriven: {
-      title: "Data-Driven Execution",
-      text: "Every decision is guided by keyword intelligence, competitor benchmarking, and performance analytics.",
+      title: "Decisions Are Backed by Data",
+      text: "We look at search trends, competitors, and real user behaviour before making any decisions.",
     },
-    seoStrategies: {
-      title: "Customized SEO Strategies",
-      text: "We don’t apply templates. Each campaign is designed around your industry competition, audience behavior, and growth stage.",
+    noFixed: {
+      title: "No Fixed Templates",
+      text: "Every business is different. What works for one might not work for another, so we don’t follow a one-size-fits-all approach.",
     },
-    transparent: {
-      title: "Optimization for Modern Search",
-      text: "Search now includes AI-powered discovery platforms. Our strategies improve visibility across both traditional Google search and emerging answer engines.",
+    builtForChange: {
+      title: "Built for Changing Search Behaviour",
+      text: "Search keeps evolving, and we make sure your strategy evolves with it.",
     }
   };
 
@@ -33,10 +37,10 @@ export const WhyChooseSection = (): JSX.Element => {
 
         <div className="mb-6 lg:mb-8 pt-0">
           <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px] ">
-            Why Businesses
+            Why Businesses in Vashi
           </h2>
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-             Choose Impulse Digital as Their SEO Partner
+             Work With Us
           </h2>
         </div>
  
@@ -53,10 +57,10 @@ export const WhyChooseSection = (): JSX.Element => {
               />
             </div>
             <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-2">
-              {content.seoStrategies.title}
+              {content.simple.title}
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              {content.seoStrategies.text}
+              {content.simple.text}
             </p>
           </div>
  
@@ -71,10 +75,10 @@ export const WhyChooseSection = (): JSX.Element => {
               />
             </div>
             <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-2">
-              {content.seoStrategies.title}
+              {content.dataDriven.title}
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              {content.seoStrategies.text}
+              {content.dataDriven.text}
             </p>
           </div>
  
@@ -89,12 +93,16 @@ export const WhyChooseSection = (): JSX.Element => {
               />
             </div>
             <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-2">
-              {content.transparent.title}
+              {content.noFixed.title}
+            </h3>
+            <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed mb-4">
+              {content.noFixed.text}
+            </p>
+            <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-xl mb-2 mt-4">
+              {content.builtForChange.title}
             </h3>
             <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-              {content.transparent.text}
-
-
+              {content.builtForChange.text}
             </p>
           </div>
         </div>
@@ -116,12 +124,10 @@ export const WhyChooseSection = (): JSX.Element => {
               </div><br></br>
               {/* Content 1 */}
               <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-2xl mb-2 pt-16">
-                {content.seoStrategies.title}
+                {content.simple.title}
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed mb-0">
-                {content.seoStrategies.text}
-
-
+                {content.simple.text}
               </p>
             </div>
  
@@ -162,12 +168,16 @@ export const WhyChooseSection = (): JSX.Element => {
  
             <div className="mt-6 max-w-12xl">
               <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-2xl mb-2">
-                {content.transparent.title}
+                {content.noFixed.title}
+              </h3>
+              <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed mb-6">
+                {content.noFixed.text}
+              </p>
+              <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-2xl mb-2 mt-6">
+                {content.builtForChange.title}
               </h3>
               <p className="[font-family:'DM_Sans',Helvetica] text-[#000000] text-base leading-relaxed">
-                {content.transparent.text}
-
-
+                {content.builtForChange.text}
               </p>
             </div>
           </div>

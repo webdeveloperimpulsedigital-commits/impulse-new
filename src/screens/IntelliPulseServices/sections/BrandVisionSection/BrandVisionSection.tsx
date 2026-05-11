@@ -111,8 +111,8 @@ export const BrandVisionSection = (): JSX.Element => {
           <div className="lg:col-span-5 lg:w-[600px]">
             <div className="relative rounded-2xl overflow-hidden shadow-lg ">
               <img
-                src="/impulse-website/content-wrriting-service-about-us.jpg"
-                alt="SEO workspace"
+                src="/impulse-website/Brand-vision.jpg"
+                alt="Intelli Pulse workspace"
                 className="w-full sm:h-[400px] lg:h-[700px] object-cover"
               />
             </div>

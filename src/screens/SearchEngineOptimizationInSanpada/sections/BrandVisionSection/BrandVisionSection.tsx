@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 export const BrandVisionSection = (): JSX.Element => {
   const overlayText =
-    "SEO- Turning your website into the first place your customers find and trust";
+    "SEO – Helping your business get discovered, trusted, and chosen";
 
   const [counters, setCounters] = useState({
     first: 0,
@@ -98,9 +98,9 @@ export const BrandVisionSection = (): JSX.Element => {
         
         <div className="mb-6 lg:mb-8 pt-10">
           <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px] ">
-            #1 Performance Driven <br></br>
+            Performance Focused <br></br>
           <span className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-            With An SEO Company in Mumbai</span>
+            SEO Agency in Sanpada</span>
           </h2>
         </div>
 
@@ -172,10 +172,10 @@ export const BrandVisionSection = (): JSX.Element => {
 
         <div className="text-left mb-12">
           <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[12px] lg:text-[24px] text-[#030019]">
-            If your business wants consistent visibility on Google, choosing the right SEO agency in Mumbai can define how quickly and effectively you scale online. At Impulse Digital, we deliver structured, research-driven SEO strategies tailored for Mumbai businesses competing in fast-moving markets. Our approach combines technical precision, local search expertise, and conversion-focused content optimization to help brands increase qualified traffic and measurable business outcomes.
+            If you’re running a business in Sanpada, you’ve probably noticed how often people turn to search before making a decision. Whether it’s a service or a product, most journeys begin online now. And honestly, people don’t spend too much time exploring. They usually go with what appears early and feels relevant.
           </p>
           <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[12px] lg:text-[24px] text-[#030019]">
-           Whether you are a growing startup, an established enterprise, or an ecommerce brand, our SEO systems are built to create long-term search visibility that supports real revenue growth, not just rankings.
+            That’s where SEO quietly makes a big difference. As an SEO company in Sanpada, we focus on helping your business show up consistently, not just for a short period, but in a way that keeps building visibility over time.
           </p>
         </div>
 

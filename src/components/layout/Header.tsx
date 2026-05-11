@@ -39,7 +39,6 @@ const DEFAULT_ITEMS: NavItem[] = [
     href: "/services/",
     hasDropdown: true,
     dropdownItems: [
-      // {label: "Intelli Pulse", href: "/services/intelli-pulse"},
       { label: " Agentic AI", href: "/services/agentic-ai/"},
      
       {
@@ -72,8 +71,8 @@ const DEFAULT_ITEMS: NavItem[] = [
       { label: "Branding", href: "/services/branding-creative-services/" },
       { label: "Employer Branding", href: "/services/employer-branding-agency/" },
       // { label: "Corporate Communication", href: "/services/corporate-communication-agency" },
-      {label: "Outbound Intelligence Engine", href: "/services/outbound-intelligence-engine/"},
-      
+      {label: "Archer", href: "/services/archer/"},
+      { label: "Intelli Pulse", href: "/services/intelli-pulse/" },
       
       
     ],

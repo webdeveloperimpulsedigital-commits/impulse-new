@@ -280,10 +280,9 @@ export const ScrollRevealLogoHome: React.FC<ScrollRevealLogoProps> = ({
             });
           }
 
-          // CASE STUDIES
+          // STANDARD CASE STUDIES (Original pages)
           else if (sectionName === "case-studies") {
             const size = isMobile ? "50px" : isTablet ? "70px" : "80px";
-            // Move it higher on mobile so it doesn't overlap the image (next to the title)
             const top = sectionTop + (isMobile ? 40 : isTablet ? 120 : 120);
 
             const right = isMobile
@@ -303,6 +302,47 @@ export const ScrollRevealLogoHome: React.FC<ScrollRevealLogoProps> = ({
               height: size,
               zIndex: 999,
               transition: "all 1.2s cubic-bezier(0.22, 1, 0.36, 1)",
+            });
+          }
+
+          // STICKY PARALLAX CASE STUDIES (New Home)
+          else if (sectionName === "case-studies-sticky") {
+            const size = isMobile ? "50px" : isTablet ? "70px" : "80px";
+            
+            // The Case Studies section is sticky on desktop. To prevent lag/bouncing 
+            // from JS-driven absolute positioning, we seamlessly switch to fixed positioning
+            // when the user is actively scrolling through the pinned section.
+            const isStuck = !isMobile && window.scrollY >= sectionTop && window.scrollY <= sectionTop + rect.height - winHeight;
+            
+            // If it's stuck, use fixed positioning. If not, clamp it to the start or end of the section.
+            let absoluteTop = sectionTop + (isMobile ? 40 : isTablet ? 120 : 120);
+            if (!isMobile && window.scrollY > sectionTop + rect.height - winHeight) {
+                // Pin to the bottom of the sticky area when we scroll past it
+                absoluteTop = sectionTop + rect.height - winHeight + (isTablet ? 120 : 120);
+            }
+            
+            // When fixed, the top is just a static viewport coordinate (120px).
+            const top = isStuck ? (isTablet ? 120 : 120) : absoluteTop;
+            const position = isStuck ? "fixed" : "absolute";
+
+            const right = isMobile
+              ? 20
+              : isTablet
+              ? 220
+              : Math.max(200, Math.floor(vw * 0.35));
+
+            applyStyle({
+              position: position as any,
+              top: `${top}px`,
+              left: "auto",
+              right: `${right}px`,
+              transform: "none",
+              filter: "brightness(0)",
+              width: size,
+              height: size,
+              zIndex: 999,
+              // When stuck, disable transition on top/position so it perfectly locks to the screen without bounce
+              transition: isStuck ? "width 1.2s, height 1.2s, right 1.2s, filter 1.2s" : "all 1.2s cubic-bezier(0.22, 1, 0.36, 1)",
             });
           }
 

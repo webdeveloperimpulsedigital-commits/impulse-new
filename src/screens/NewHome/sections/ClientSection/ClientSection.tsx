@@ -100,9 +100,9 @@ export const ClientsSection = (): JSX.Element => {
       `}</style>
 
       {/* Heading */}
-      <div className="relative bg-white pt-8 md:pt-16">
-        <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
-          <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between mb-8 md:mb-16">
+      <div className="relative bg-white pt-16 md:pt-[120px]">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-8">
+          <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between mb-4 md:mb-6">
             <div className="flex flex-col items-start mb-6 lg:mb-0">
               <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
                 <span className="text-[#030019] lg:text-[34px] sm:text-[16px]">Trusted by</span>
@@ -132,7 +132,7 @@ export const ClientsSection = (): JSX.Element => {
 
       {/* DESKTOP GRID */}
       <div className="relative bg-white pb-12 hidden lg:block">
-        <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-8">
           <div className="grid grid-cols-4 gap-8">
             {logos.map((logo, index) => (
               <div
@@ -159,10 +159,10 @@ export const ClientsSection = (): JSX.Element => {
               {logos.map((logo, index) => (
                 <div
                   key={`logo-${setIndex}-${index}`}
-                  className="flex-shrink-0 w-[120px] h-[80px] md:w-[160px] md:h-[110px] bg-white flex items-center justify-center client-logo mx-2"
+                  className="flex-shrink-0 w-[160px] h-[90px] md:w-[200px] md:h-[120px] bg-white flex items-center justify-center mx-3 md:mx-6"
                 >
                   <img
-                    className="max-w-[85%] max-h-[85%] object-contain"
+                    className="max-w-[95%] max-h-[95%] object-contain"
                     alt={logo.name}
                     src={logo.src}
                   />

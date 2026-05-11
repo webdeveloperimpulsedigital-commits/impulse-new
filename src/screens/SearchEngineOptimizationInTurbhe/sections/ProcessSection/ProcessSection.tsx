@@ -13,51 +13,39 @@ export const ProcessSection = (): JSX.Element => {
   const processSteps: ProcessStep[] = [
     {
       id: 1,
-      title: "Comprehensive SEO Audits",
-      description:
-        "We evaluate technical health, indexing structure, page performance, backlink strength, and content gaps to identify growth opportunities.",
-      expandedContent:
-        "We perform in-depth SEO audits to uncover technical issues, content gaps, and growth opportunities that boost your website’s performance and rankings.",
+      title: "Website Audit",
+      description: "We analyze your website to identify technical issues, content gaps, and opportunities.",
+      expandedContent: "We analyze your website to identify technical issues, content gaps, and opportunities. This gives a clear starting point for improvements.",
     },
     {
       id: 2,
-      title: "Keyword Research and Intent Mapping",
-      description:
-        "Our keyword strategy targets high-intent search terms like seo service in Mumbai and industry-specific conversion keywords relevant to your audience.",
-      expandedContent:
-        "We identify high-intent, conversion-focused keywords like seo service in Mumbai, local business SEO, and industry-specific terms that drive qualified traffic and leads.",
+      title: "Keyword Research",
+      description: "We focus on real search behaviour, including terms like SEO company in Turbhe, but we don’t overuse them.",
+      expandedContent: "We focus on real search behaviour, including terms like SEO company in Turbhe, but we don’t overuse them. The goal is to match intent rather than just repeat keywords.",
     },
     {
       id: 3,
-      title: "Google Business Profile Optimization",
-      description:
-        "We strengthen your presence in Mumbai local searches by optimizing your Google Business Profile for map visibility and regional authority signals.",
-      expandedContent:
-        "We optimize your Google Business Profile with precise location targeting, accurate information, and local signals to boost visibility in map results and attract nearby customers",
+      title: "Local SEO Improvements",
+      description: "We help your business show up in searches happening around Turbhe.",
+      expandedContent: "We help your business show up in searches happening around Turbhe. This increases the chances of attracting nearby customers.",
     },
     {
       id: 4,
-      title: "Technical SEO Optimization",
-      description:
-        "From schema implementation to crawl efficiency and site speed improvements, we ensure your website meets modern ranking standards.",
-      expandedContent:
-        "Technical SEO forms the backbone of any successful SEO strategy. We ensure your website is technically sound, fast, and easily crawled by search engines",
+      title: "Technical Fixes",
+      description: "Things like page speed, indexing, and structure can quietly affect performance. We fix these.",
+      expandedContent: "Things like page speed, indexing, and structure can quietly affect performance. We fix these, so your website runs more smoothly.",
     },
     {
       id: 5,
-      title: "Content Creation and Optimization",
-      description:
-        "We create experience-driven, authority-focused content aligned with EEAT guidelines to improve both trust signals and search visibility.",
-      expandedContent:
-        "High-quality, relevant content is your way to speak to your audience. We take a dual approach by creating new pieces and updating information to make sure your content ranks and resonates. This is where we help you build trust and authorit.",
+      title: "Content Work",
+      description: "We improve existing pages and create new content where needed.",
+      expandedContent: "We improve existing pages and create new content where needed. The focus is always on relevance and usefulness.",
     },
     {
       id: 6,
-      title: "Analytics and Reporting",
-      description:
-        "Transparent reporting helps you track keyword rankings, traffic quality, and ROI impact from SEO activities.",
-      expandedContent:
-        "Clear analytics and reporting give you full visibility into keyword rankings, traffic quality, and the ROI of your SEO efforts.",
+      title: "Reporting",
+      description: "You get a clear idea of what’s improving and what still needs attention.",
+      expandedContent: "You get a clear idea of what’s improving and what still needs attention. No complicated reports, just straightforward updates.",
     },
   ];
 
@@ -68,17 +56,36 @@ export const ProcessSection = (): JSX.Element => {
       <div className="max-w-[1280px] mx-auto px-4 lg:px-8">
         {/* Header */}
         <div className="mb-5 lg:mb-16">
-
-
           <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
-
-            Our Proven SEO Framework<br></br>
-
-            <span className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-              for Sustainable Growth
-            </span></h2>
-
-
+            How We Usually
+          </h2>
+          <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight">
+            Approach SEO
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8 mb-16">
+            <div className="bg-[#F6F6FB] p-6 rounded-xl">
+              <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] text-xl mb-3">First, We Understand Your Current Position</h3>
+              <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] text-base">We look at your website, your competition, and your current visibility. Sometimes small issues can have a bigger impact than expected.</p>
+            </div>
+            <div className="bg-[#F6F6FB] p-6 rounded-xl">
+              <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] text-xl mb-3">Then, We Plan the Next Steps</h3>
+              <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] text-base">We create a roadmap based on what we find. This usually includes technical fixes and content improvements. It’s structured, but not overly complicated.</p>
+            </div>
+            <div className="bg-[#F6F6FB] p-6 rounded-xl">
+              <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] text-xl mb-3">Then We Start Implementing</h3>
+              <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] text-base">We work on improving pages, fixing issues, and building what’s missing. Some changes show results earlier, while others take a bit more time to build momentum.</p>
+            </div>
+            <div className="bg-[#F6F6FB] p-6 rounded-xl">
+              <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] text-xl mb-3">Then We Keep Improving</h3>
+              <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] text-base">SEO isn’t something you finish once and forget. We keep tracking performance and refining things so growth stays consistent.</p>
+            </div>
+          </div>
+          <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
+            What Our
+          </h2>
+          <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight">
+            SEO Work Covers
+          </h2>
         </div>
 
         {/* Process Steps */}

@@ -29,16 +29,16 @@ const ServicesSection = () => {
       title: "AI SEO",
       link: "/services/search-engine-optimization/ai-seo-services",
       points: [
-        "We optimize your website for AI-driven search experiences by structuring content, entities, and signals that improve visibility across Google AI Overviews, ChatGPT, Gemini & Claude.",
+        "Search isn’t limited to Google anymore. People are asking questions on AI tools as well, so we make sure your content is easy to pick up across these platforms.",
       ],
-      img: "/AI SEO.jpg",
+      img: "/ai_seo_v3.png",
     },
     {
       n: "02",
       title: "Enterprise SEO",
       link: "/services/search-engine-optimization/enterprise-seo-services",
       points: [
-        "We implement scalable SEO frameworks for large websites, improving crawl efficiency, indexing logic, and technical performance across complex digital ecosystems.",
+        "If your website has grown over time, chances are there are gaps like pages not indexed properly, structure issues, and things like that. We help fix those.",
       ],
       img: "/service section 520 x 340 - Enterprise SEO.jpg",
     },
@@ -47,7 +47,7 @@ const ServicesSection = () => {
       title: "E-Commerce SEO",
       link: "/services/search-engine-optimization/ecommerce-seo-services",
       points: [
-        "Our ecommerce SEO strategies improve product discoverability, category structure visibility, and purchase-intent keyword rankings to drive high-quality traffic.",
+        "For online stores, visibility directly affects sales. We focus on improving how your products appear in search so you don’t miss out on ready-to-buy customers.",
       ],
       img: "/service section 520 x 340 - Ecommerce SEO.jpg",
     },
@@ -56,7 +56,7 @@ const ServicesSection = () => {
       title: "Local SEO",
       link: "/services/search-engine-optimization/local-seo-services",
       points: [
-        "For businesses targeting customers in Mumbai, our local SEO strategies improve Google Maps rankings, location relevance, and enquiry-driven visibility in nearby searches.",
+        "If your audience is in and around Vashi, local visibility matters a lot. Our SEO services in Vashi are focused on helping you show up in searches that actually bring nearby customers.",
       ],
       img: "/service section 520 x 340 - Local SEO.jpg",
     },
@@ -65,16 +65,16 @@ const ServicesSection = () => {
       title: "B2B SEO",
       link: "/services/search-engine-optimization/b2b-seo-services",
       points: [
-        "We help service-based and enterprise companies attract decision-makers through authority-driven content strategies and long-cycle keyword targeting.",
+        "We help you attract people who are actively looking for your service and not just browsing around.",
       ],
       img: "/service section 520 x 340 - B2B SEO.jpg",
     },
     {
       n: "06",
-      title: "App Store Optimization (ASO)",
+      title: "App Store Optimization",
       link: "/services/search-engine-optimization/aso-services",
       points: [
-        "We improve your app visibility across app stores using keyword strategy, metadata optimization, and performance-aligned positioning.",
+        "If you have an app, we work on improving how it appears in app store search results.",
       ],
       img: "/App Store Optimization (ASO).jpg",
     },
@@ -83,45 +83,36 @@ const ServicesSection = () => {
       title: "International SEO",
       link: "/services/search-engine-optimization/international-seo-services",
       points: [
-        "Planning expansion beyond India? Our multilingual SEO strategies help businesses build global discoverability with geo-targeted optimization frameworks.",
+        "If you’re planning to expand beyond your current market, we help set things up in a way that supports that.",
       ],
       img: "/service section 520 x 340 - International SEO.jpg",
     },
     {
       n: "08",
-      title: "Franchise SEO",
-      link: "/services/search-engine-optimization/franchise-seo-services",
-      points: [
-        "We help multi-location brands maintain consistency while improving location-level rankings through structured franchise SEO execution.",
-      ],
-      img: "/Franchise SEO-in-mumbai.jpg",
-    },
-    {
-      n: "09",
       title: "Shopify SEO",
       link: "/services/search-engine-optimization/shopify-seo-services",
       points: [
-        "Our Shopify optimization improves site structure, product indexing, and conversion-focused search visibility for ecommerce growth.",
+        "We optimize Shopify stores so search engines can better understand and rank your products.",
       ],
       img: "/service section 520 x 340 - Shopify SEO.jpg",
     },
     {
-      n: "10",
+      n: "09",
       title: "Conversion Rate Optimization",
       link: "/services/search-engine-optimization/cro-services",
       points: [
-        "Driving traffic is only the first step. We improve landing page performance and user journeys to increase enquiries and purchases from organic visitors.",
+        "Getting traffic is one thing, but getting people to take action is what really matters. We focus on both.",
       ],
       img: "/Conversion Rate Optimization.jpg",
     },
     {
-      n: "11",
+      n: "10",
       title: "Content Marketing",
       link: "/services/search-engine-optimization/content-marketing-services",
       points: [
-        "As a performance-focused SEO company in Mumbai, we develop authority-building content ecosystems that strengthen long-term search rankings.",
+        "Instead of pushing out content just to stay active, we focus on creating pages that genuinely answer what people are searching for.",
       ],
-      img: "/Content marketing.jpg",
+      img: "/content_marketing_v3.png",
     },
   ];
 
@@ -355,12 +346,12 @@ const ServicesSection = () => {
           <div className="top-0 w-full lg:py-8 sm:py-40 md:py-[60px] z-50">
             <div className="mx-auto relative">
               <h2 className="[font-family:'DM_Sans',Helvetica] font-normal text-[20px] md:text-[34px] leading-tight">
-                <span className="text-[#ffffffb2]  lg:text-[34px] sm:text-[16px]">
-                  SEO That
+                <span className="text-[#ffffffb2] lg:text-[34px] sm:text-[16px] block mb-2">
+                  SEO That’s Built Around
                 </span>
 
-                <span className="font-bold text-[#ffffff] lg:text-[52px] md:text-[52px] sm:text-[26px]">
-                  Moves the Needle
+                <span className="font-bold text-[#ffffff] lg:text-[52px] md:text-[52px] sm:text-[26px] block">
+                  How People Actually Search
                 </span>
               </h2>
             </div>

@@ -23,7 +23,7 @@ export const ProcessSection = (): JSX.Element => {
     id: 2,
     title: "Capture & Unify Digital Signals",
     description:
-      "Intelli Pulse gathers conversations, reviews, search trends, and market data from multiple sources into one ecosystem.",
+      "Intelli Pulse gathers conversations, reviews, search trends, and market data from multiple sources into one streamlined ecosystem.",
     expandedContent:
       "We eliminate fragmented data to reveal the full picture of consumer behaviour across platforms.",
   },
@@ -31,7 +31,7 @@ export const ProcessSection = (): JSX.Element => {
     id: 3,
     title: "Analyse Patterns, Motives & Market Shifts",
     description:
-      "Our AI models decode trends, sentiment, triggers, barriers, and emerging opportunities with clarity.",
+      "Our AI models decode trends, triggers, barriers, sentiment, and emerging opportunities with precision-driven clarity.",
     expandedContent:
       "We turn raw signals into structured meaning - tracking what’s changing and why it matters for your category.",
   },
@@ -39,7 +39,7 @@ export const ProcessSection = (): JSX.Element => {
     id: 4,
     title: "Build Insights & Strategic Recommendations",
     description:
-      "We translate intelligence into actionable insights you can apply across marketing, product, and business decisions.",
+      "We translate intelligence into simple, actionable insights you can apply across marketing, product, and business decisions.",
     expandedContent:
       "Every output is execution-ready - giving you clarity on what to do next and how it impacts growth.",
   },
@@ -47,7 +47,7 @@ export const ProcessSection = (): JSX.Element => {
     id: 5,
     title: "Deliver Dashboards, Reports & Alerts",
     description:
-      "Real-time dashboards and automated reports keep your teams updated and empowered at all times.",
+      "Real-time dashboards, automated reports, and custom alerts keep your teams updated and empowered at all times.",
     expandedContent:
       "You get intelligence in the flow of work - with alerts for critical shifts and new opportunities.",
   },
@@ -55,7 +55,7 @@ export const ProcessSection = (): JSX.Element => {
     id: 6,
     title: "Continuous Monitoring & Refinement",
     description:
-      "With always-on tracking and periodic deep dives, Intelli Pulse evolves with your consumers and your market.",
+      "With always-on tracking and periodic deep dives, Intelli Pulse evolves with your consumers, competition, and market landscape.",
     expandedContent:
       "This ensures your strategy stays aligned with changing behaviour, emerging competitors, and new category drivers.",
   },
@@ -72,11 +72,11 @@ export const ProcessSection = (): JSX.Element => {
 
           <p className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px]">
 
-              How We Turn Noise 
+              Intelli Pulse 
 
              </p>
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-           Into Something You Can Use
+           Process That Works
           </h2>
 
 

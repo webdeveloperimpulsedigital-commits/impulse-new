@@ -207,8 +207,8 @@ export const TestimonilasServiceSection = (): JSX.Element => {
           className="mobile-prev grid place-items-center w-12 h-12 rounded-full bg-white shadow border border-gray-200 active:scale-95"
         >
           <img
-            src="/impulse-website/left-arrow.png"
-            alt="Prev"
+            src="/left-arrow.png"
+            alt="Previous"
             className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
           />
         </Button>
@@ -217,7 +217,7 @@ export const TestimonilasServiceSection = (): JSX.Element => {
           className="mobile-next grid place-items-center w-12 h-12 rounded-full shadow border border-gray-200 active:scale-95"
         >
           <img
-            src="/impulse-website/right-arrow.png"
+            src="/right-arrow.png"
             alt="Next"
             className="w-9 transition-transform duration-300 group-hover:rotate-45 pointer-events-none"
           />
