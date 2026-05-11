@@ -1201,6 +1201,121 @@ export const faqData: Record<string, FAQItem[]> = {
       question: "How long does a typical Intelli Pulse project take?",
       answer: "Timelines vary based on scope. Rapid studies can be completed in a few days, while deeper category or U&A studies take 2-4 weeks. Always-on monitoring runs throughout the engagement."
     }
+  ],
+
+  "/services/search-engine-optimization-in-vashi": [
+    {
+      question: "Why should I consider your SEO services in Vashi?",
+      answer: "Because we focus on steady, practical growth, not shortcuts. The goal is to help your business get discovered and bring in real inquiries."
+    },
+    {
+      question: "How do you decide what SEO strategy to use?",
+      answer: "It depends on your business, your competition, and where you currently stand. There’s no fixed formula."
+    },
+    {
+      question: "How long does it take to see results?",
+      answer: "Usually, a few months before you start noticing changes. SEO builds gradually, not overnight."
+    },
+    {
+      question: "Do you only work with local businesses?",
+      answer: "No, but we do help improve local visibility if that’s important for your business."
+    },
+    {
+      question: "How do you measure success?",
+      answer: "We look at traffic, rankings, and most importantly, whether you’re getting more leads or inquiries."
+    }
+  ],
+
+  "/services/search-engine-optimization-in-turbhe": [
+    {
+      question: "Why should I choose your SEO services in Turbhe?",
+      answer: "We focus on steady, practical growth that brings real inquiries. The goal is to make your business easier to find and trust over time. It’s about building visibility that continues to work, not just short-term gains."
+    },
+    {
+      question: "How do you decide the SEO strategy?",
+      answer: "It depends on your business, your competition, and your current position. There’s no fixed formula. We first understand your situation and then create a plan that fits your goals."
+    },
+    {
+      question: "How long does it take to see results?",
+      answer: "It generally takes a few months for SEO to start showing measurable progress. It’s a gradual process. Some changes show results faster, while others take a bit more time to build impact."
+    },
+    {
+      question: "Do you only work with local businesses?",
+      answer: "No, we work with different types of businesses, but we do help improve local visibility if that’s important for you. It depends on where your customers are and how they search."
+    },
+    {
+      question: "How do you measure success?",
+      answer: "We look at rankings, traffic, and most importantly, whether you’re getting more inquiries or leads. The goal is to connect SEO performance with actual business results."
+    }
+  ],
+
+  "/services/search-engine-optimization-in-sanpada": [
+    {
+      question: "Why should I choose your SEO services in Sanpada?",
+      answer: "We focus on steady, practical growth that brings real inquiries. The goal is to make your business easier to find and trust over time. It’s about building visibility that continues to work instead of short-term gains."
+    },
+    {
+      question: "How do you decide the SEO strategy?",
+      answer: "It depends on your business, your competition, and your current position. There’s no fixed formula. We first understand your situation and then create a plan that fits your goals."
+    },
+    {
+      question: "How long does it take to see results?",
+      answer: "SEO often requires a few months before noticeable progress is seen. It’s a gradual process. Some changes show results faster, while others take a bit more time to build impact."
+    },
+    {
+      question: "Do you only work with local businesses?",
+      answer: "No, we work with a wide range of businesses, but we can improve local visibility if that matters to you. It depends on your customers’ location and their search behaviour."
+    },
+    {
+      question: "How do you measure success?",
+      answer: "We look at rankings, traffic, and most importantly, whether you’re getting more inquiries or leads. The goal is to connect SEO performance with actual business results."
+    }
+  ],
+
+  "/services/search-engine-optimization-in-panvel": [
+    {
+      question: "Why should I choose your SEO services in Panvel?",
+      answer: "We focus on steady, practical growth that brings real inquiries. The goal is to make your business easier to find and trust over time. It’s about building visibility that continues to work instead of relying on short-term gains."
+    },
+    {
+      question: "How do you decide the SEO strategy?",
+      answer: "It depends on your business, your competition, and your current position. There’s no fixed formula. We first understand your situation and then create a plan that fits your goals."
+    },
+    {
+      question: "How long does it take to see results?",
+      answer: "SEO usually takes time to show noticeable improvements. It’s a gradual process. Some changes show results faster, while others take a bit more time to build impact."
+    },
+    {
+      question: "Do you only work with local businesses?",
+      answer: "No, we work with various types of businesses, but we do help improve local visibility if that’s important for you. It depends on where your customers are and how they search."
+    },
+    {
+      question: "How do you measure success?",
+      answer: "We look at rankings, traffic, and most importantly, whether you’re getting more inquiries or leads. The goal is to connect SEO performance with actual business results."
+    }
+  ],
+
+  "/services/search-engine-optimization-in-nerul": [
+    {
+      question: "Why should I choose your SEO services in Nerul?",
+      answer: "We focus on steady, practical growth that brings real inquiries. The goal is to make your business easier to find and trust over time. It’s about building visibility that continues to work instead of relying on short-term gains."
+    },
+    {
+      question: "How do you decide the SEO strategy?",
+      answer: "It depends on your business, your competition, and your current position. There’s no fixed formula. We first understand your situation and then create a plan that fits your goals."
+    },
+    {
+      question: "How long does it take to see results?",
+      answer: "SEO typically takes a few months to start showing noticeable results. It’s a gradual process. Some changes show results faster, while others take a bit more time to build impact."
+    },
+    {
+      question: "Do you only work with local businesses?",
+      answer: "No, we support businesses across industries while also strengthening local visibility if that’s a priority. It depends on where your customers are and how they search."
+    },
+    {
+      question: "How do you measure success?",
+      answer: "We look at rankings, traffic, and most importantly, whether you’re getting more inquiries or leads. The goal is to connect SEO performance with actual business results."
+    }
   ]
 };
 
