@@ -13,51 +13,51 @@ export const ProcessSection = (): JSX.Element => {
   const processSteps: ProcessStep[] = [
     {
       id: 1,
-      title: "Comprehensive SEO Audits",
+      title: "Website Audit",
       description:
-        "We evaluate technical health, indexing structure, page performance, backlink strength, and content gaps to identify growth opportunities.",
+        "We identify what’s not working and where you might be losing visibility.",
       expandedContent:
-        "We perform in-depth SEO audits to uncover technical issues, content gaps, and growth opportunities that boost your website’s performance and rankings.",
+        "We scan every important element—from technical health to page speed to user experience—to find exactly where your website is holding itself back from ranking higher.",
     },
     {
       id: 2,
-      title: "Keyword Research and Intent Mapping",
+      title: "Keyword Research",
       description:
-        "Our keyword strategy targets high-intent search terms like seo service in Mumbai and industry-specific conversion keywords relevant to your audience.",
+        "We focus on terms people are actually searching, including phrases like SEO agency in Bandra, and build from there.",
       expandedContent:
-        "We identify high-intent, conversion-focused keywords like seo service in Mumbai, local business SEO, and industry-specific terms that drive qualified traffic and leads.",
+        "We don’t guess what might rank. We dive deep into search data to find the exact keywords, long-tail phrases, and user intent patterns that drive real business opportunities.",
     },
     {
       id: 3,
-      title: "Google Business Profile Optimization",
+      title: "Local SEO Improvements",
       description:
-        "We strengthen your presence in Mumbai local searches by optimizing your Google Business Profile for map visibility and regional authority signals.",
+        "We help your business show up better in nearby searches.",
       expandedContent:
-        "We optimize your Google Business Profile with precise location targeting, accurate information, and local signals to boost visibility in map results and attract nearby customers",
+        "We fix everything that makes it hard for Google to find you locally. This includes optimizing your Google Business Profile, improving local signals, and ensuring your NAP (Name, Address, Phone) information is consistent everywhere.",
     },
     {
       id: 4,
-      title: "Technical SEO Optimization",
+      title: "Technical Fixes",
       description:
-        "From schema implementation to crawl efficiency and site speed improvements, we ensure your website meets modern ranking standards.",
+        "Things like page speed, indexing issues, and structure, we clean those up.",
       expandedContent:
-        "Technical SEO forms the backbone of any successful SEO strategy. We ensure your website is technically sound, fast, and easily crawled by search engines",
+        "We fix the underlying technical issues that slow you down. This includes improving page load speed, ensuring search engines can crawl and index your site properly, fixing broken links, and optimizing your site structure for better navigation.",
     },
     {
       id: 5,
-      title: "Content Creation and Optimization",
+      title: "Content Work",
       description:
-        "We create experience-driven, authority-focused content aligned with EEAT guidelines to improve both trust signals and search visibility.",
+        "We improve what’s already there and add new content only where it makes sense.",
       expandedContent:
-        "High-quality, relevant content is your way to speak to your audience. We take a dual approach by creating new pieces and updating information to make sure your content ranks and resonates. This is where we help you build trust and authorit.",
+        "We don’t force content for the sake of it. We focus on updating and optimizing existing pages to improve relevance, authority, and user experience. We also create new content strategically when there’s a clear opportunity to target new keywords or answer important questions your audience has.",
     },
     {
       id: 6,
-      title: "Analytics and Reporting",
+      title: "Reporting",
       description:
-        "Transparent reporting helps you track keyword rankings, traffic quality, and ROI impact from SEO activities.",
+        "You’ll know what’s improving without having to decode complicated reports.",
       expandedContent:
-        "Clear analytics and reporting give you full visibility into keyword rankings, traffic quality, and the ROI of your SEO efforts.",
+        "We send clear, straightforward updates so you always understand what’s happening with your rankings, traffic, and results.",
     },
   ];
 
@@ -87,8 +87,8 @@ export const ProcessSection = (): JSX.Element => {
             <div
               key={step.id}
               className={`group relative overflow-hidden rounded-2xl border transition-all duration-500 ease-out cursor-pointer ${hoveredStep === step.id
-                  ? "bg-[#543d98] border-[#543d98] shadow-lg"
-                  : "bg-white border-gray-200 hover:border-[#543d98]/30"
+                ? "bg-[#543d98] border-[#543d98] shadow-lg"
+                : "bg-white border-gray-200 hover:border-[#543d98]/30"
                 }`}
               onMouseEnter={() => setHoveredStep(step.id)}
               onMouseLeave={() => setHoveredStep(null)}

@@ -13,51 +13,51 @@ export const ProcessSection = (): JSX.Element => {
   const processSteps: ProcessStep[] = [
     {
       id: 1,
-      title: "Comprehensive SEO Audits",
+      title: "Website Audit",
       description:
-        "We evaluate technical health, indexing structure, page performance, backlink strength, and content gaps to identify growth opportunities.",
+        "We analyze your website to identify technical issues, content gaps, and opportunities. This gives us a clear starting point for improvements.",
       expandedContent:
-        "We perform in-depth SEO audits to uncover technical issues, content gaps, and growth opportunities that boost your website’s performance and rankings.",
+        "Our initial website audit helps us understand how your site performs across technical, content, and authority signals. This analysis forms the foundation for your entire SEO strategy.",
     },
     {
       id: 2,
-      title: "Keyword Research and Intent Mapping",
+      title: "Keyword Research",
       description:
-        "Our keyword strategy targets high-intent search terms like seo service in Mumbai and industry-specific conversion keywords relevant to your audience.",
+        "We focus on real search behaviour, including terms like SEO company in Ghatkopar, but we don’t force them everywhere. The idea is to match intent rather than repeat keywords unnecessarily.",
       expandedContent:
-        "We identify high-intent, conversion-focused keywords like seo service in Mumbai, local business SEO, and industry-specific terms that drive qualified traffic and leads.",
+        "We do keyword research with both user intent and business goals in mind. We don’t just stuff in keywords like SEO company in Ghatkopar — instead, we find terms that truly match what users are looking for and are likely to convert.",
     },
     {
       id: 3,
-      title: "Google Business Profile Optimization",
+      title: "Local SEO Improvements",
       description:
-        "We strengthen your presence in Mumbai local searches by optimizing your Google Business Profile for map visibility and regional authority signals.",
+        "We help your business show up in searches happening around Ghatkopar. This increases the chances of attracting nearby customers.",
       expandedContent:
-        "We optimize your Google Business Profile with precise location targeting, accurate information, and local signals to boost visibility in map results and attract nearby customers",
+        "Local SEO focuses on making your business visible to customers in Ghatkopar and nearby areas. It includes optimizing your Google Business Profile, using location-specific keywords, and building local signals that tell search engines you serve this community.",
     },
     {
       id: 4,
-      title: "Technical SEO Optimization",
+      title: "Technical Fixes",
       description:
-        "From schema implementation to crawl efficiency and site speed improvements, we ensure your website meets modern ranking standards.",
+        "Things like page speed, indexing, and structure can quietly affect performance. We fix these, so your website runs more smoothly.",
       expandedContent:
-        "Technical SEO forms the backbone of any successful SEO strategy. We ensure your website is technically sound, fast, and easily crawled by search engines",
+        "We identify and fix technical issues that may be holding back your rankings. This includes improving page speed, ensuring proper indexing, fixing broken links, and optimizing site structure for better crawling.",
     },
     {
       id: 5,
-      title: "Content Creation and Optimization",
+      title: "Content Work",
       description:
-        "We create experience-driven, authority-focused content aligned with EEAT guidelines to improve both trust signals and search visibility.",
+        "We improve existing content and create new pages where needed. The focus is always on relevance and usefulness.",
       expandedContent:
-        "High-quality, relevant content is your way to speak to your audience. We take a dual approach by creating new pieces and updating information to make sure your content ranks and resonates. This is where we help you build trust and authorit.",
+        "We enhance your website's content by improving existing pages and creating new ones where necessary. Our goal is to ensure all content is relevant, useful, and aligned with search intent.",
     },
     {
       id: 6,
-      title: "Analytics and Reporting",
+      title: "Reporting",
       description:
-        "Transparent reporting helps you track keyword rankings, traffic quality, and ROI impact from SEO activities.",
+        "You get a clear idea of what’s improving and what still needs attention. No complicated reports, just straightforward updates.",
       expandedContent:
-        "Clear analytics and reporting give you full visibility into keyword rankings, traffic quality, and the ROI of your SEO efforts.",
+        "We believe in transparency. You’ll receive regular updates and clear reports showing keyword ranking improvements, traffic quality, and the overall impact of our SEO efforts on your business.",
     },
   ];
 
@@ -87,8 +87,8 @@ export const ProcessSection = (): JSX.Element => {
             <div
               key={step.id}
               className={`group relative overflow-hidden rounded-2xl border transition-all duration-500 ease-out cursor-pointer ${hoveredStep === step.id
-                  ? "bg-[#543d98] border-[#543d98] shadow-lg"
-                  : "bg-white border-gray-200 hover:border-[#543d98]/30"
+                ? "bg-[#543d98] border-[#543d98] shadow-lg"
+                : "bg-white border-gray-200 hover:border-[#543d98]/30"
                 }`}
               onMouseEnter={() => setHoveredStep(step.id)}
               onMouseLeave={() => setHoveredStep(null)}

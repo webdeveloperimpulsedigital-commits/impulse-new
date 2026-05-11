@@ -29,7 +29,7 @@ const ServicesSection = () => {
       title: "AI SEO",
       link: "/services/search-engine-optimization/ai-seo-services",
       points: [
-        "We optimize your website for AI-driven search experiences by structuring content, entities, and signals that improve visibility across Google AI Overviews, ChatGPT, Gemini & Claude.",
+        "Search is slowly shifting beyond just traditional results. People are asking questions on AI tools as well, which changes how content gets picked up. We make sure your website content is structured in a way that works across both search engines and newer platforms.",
       ],
       img: "/AI SEO.jpg",
     },
@@ -38,7 +38,7 @@ const ServicesSection = () => {
       title: "Enterprise SEO",
       link: "/services/search-engine-optimization/enterprise-seo-services",
       points: [
-        "We implement scalable SEO frameworks for large websites, improving crawl efficiency, indexing logic, and technical performance across complex digital ecosystems.",
+        "As websites grow, small issues tend to build up, like pages not indexed properly, the structure getting messy, or links not working as expected. We help clean that up so everything works more smoothly and performs consistently.",
       ],
       img: "/service section 520 x 340 - Enterprise SEO.jpg",
     },
@@ -47,7 +47,7 @@ const ServicesSection = () => {
       title: "E-Commerce SEO",
       link: "/services/search-engine-optimization/ecommerce-seo-services",
       points: [
-        "Our ecommerce SEO strategies improve product discoverability, category structure visibility, and purchase-intent keyword rankings to drive high-quality traffic.",
+        "For online stores, even a small improvement in visibility can impact sales. If your products aren’t easy to find, you’re probably missing out. We focus on making your listings easier to discover for users who are already searching.",
       ],
       img: "/service section 520 x 340 - Ecommerce SEO.jpg",
     },
@@ -56,7 +56,7 @@ const ServicesSection = () => {
       title: "Local SEO",
       link: "/services/search-engine-optimization/local-seo-services",
       points: [
-        "For businesses targeting customers in Mumbai, our local SEO strategies improve Google Maps rankings, location relevance, and enquiry-driven visibility in nearby searches.",
+        "For businesses in Mira Road, local searches often bring the most relevant traffic. People nearby are usually closer to taking action. Our SEO services in Mira Road focus on helping you appear in those searches so customers can find you more easily.",
       ],
       img: "/service section 520 x 340 - Local SEO.jpg",
     },
@@ -65,7 +65,7 @@ const ServicesSection = () => {
       title: "B2B SEO",
       link: "/services/search-engine-optimization/b2b-seo-services",
       points: [
-        "We help service-based and enterprise companies attract decision-makers through authority-driven content strategies and long-cycle keyword targeting.",
+        "For service-based businesses, it’s not just about traffic; it’s about getting the right kind of traffic. We focus on targeting searches that show real intent, so the leads you get are more meaningful.",
       ],
       img: "/service section 520 x 340 - B2B SEO.jpg",
     },
@@ -74,7 +74,7 @@ const ServicesSection = () => {
       title: "App Store Optimization (ASO)",
       link: "/services/search-engine-optimization/aso-services",
       points: [
-        "We improve your app visibility across app stores using keyword strategy, metadata optimization, and performance-aligned positioning.",
+        "If you have an app, visibility within app stores matters just as much. Otherwise, it’s easy to get lost among competitors. We improve how your app appears so more users can discover it.",
       ],
       img: "/App Store Optimization (ASO).jpg",
     },
@@ -83,43 +83,35 @@ const ServicesSection = () => {
       title: "International SEO",
       link: "/services/search-engine-optimization/international-seo-services",
       points: [
-        "Planning expansion beyond India? Our multilingual SEO strategies help businesses build global discoverability with geo-targeted optimization frameworks.",
+        "If you’re planning to expand beyond your current market, your SEO needs to support that. We help structure your website so it can target different regions without confusion.",
       ],
       img: "/service section 520 x 340 - International SEO.jpg",
     },
+
     {
       n: "08",
-      title: "Franchise SEO",
-      link: "/services/search-engine-optimization/franchise-seo-services",
-      points: [
-        "We help multi-location brands maintain consistency while improving location-level rankings through structured franchise SEO execution.",
-      ],
-      img: "/Franchise SEO-in-mumbai.jpg",
-    },
-    {
-      n: "09",
       title: "Shopify SEO",
       link: "/services/search-engine-optimization/shopify-seo-services",
       points: [
-        "Our Shopify optimization improves site structure, product indexing, and conversion-focused search visibility for ecommerce growth.",
+        "Shopify stores often need structural improvements to perform well in search. We work on optimizing your store so search engines can better understand and rank your products.",
       ],
       img: "/service section 520 x 340 - Shopify SEO.jpg",
     },
     {
-      n: "10",
+      n: "09",
       title: "Conversion Rate Optimization",
       link: "/services/search-engine-optimization/cro-services",
       points: [
-        "Driving traffic is only the first step. We improve landing page performance and user journeys to increase enquiries and purchases from organic visitors.",
+        "Getting traffic is only one part of the process. What users do after landing on your site matters just as much. We look at user behaviour and make changes that improve conversions over time.",
       ],
       img: "/Conversion Rate Optimization.jpg",
     },
     {
-      n: "11",
+      n: "10",
       title: "Content Marketing",
       link: "/services/search-engine-optimization/content-marketing-services",
       points: [
-        "As a performance-focused SEO company in Mumbai, we develop authority-building content ecosystems that strengthen long-term search rankings.",
+        "Content works best when it matches what people are actually searching for. Otherwise, it doesn’t add much value. We focus on creating content that feels useful and answers real questions.",
       ],
       img: "/Content marketing.jpg",
     },
@@ -190,7 +182,7 @@ const ServicesSection = () => {
       if (!dragging) return;
       curX = e.clientX;
       const dx = curX - startX;
-      track.style.transform = `translateX(${ -idx * slideW() + dx }px)`;
+      track.style.transform = `translateX(${-idx * slideW() + dx}px)`;
     };
 
     const onUp = () => {
@@ -429,9 +421,8 @@ const ServicesSection = () => {
                     key={i}
                     aria-label={`Go to slide ${i + 1}`}
                     onClick={() => goTo(i)}
-                    className={`h-2 rounded-full transition-all ${
-                      slide === i ? "w-5 bg-[#543d98]" : "w-2 bg-[#D1D5DB]"
-                    }`}
+                    className={`h-2 rounded-full transition-all ${slide === i ? "w-5 bg-[#543d98]" : "w-2 bg-[#D1D5DB]"
+                      }`}
                   />
                 ))}
               </div>

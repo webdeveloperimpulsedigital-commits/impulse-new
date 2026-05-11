@@ -13,51 +13,51 @@ export const ProcessSection = (): JSX.Element => {
   const processSteps: ProcessStep[] = [
     {
       id: 1,
-      title: "Comprehensive SEO Audits",
+      title: "Website Audit",
       description:
-        "We evaluate technical health, indexing structure, page performance, backlink strength, and content gaps to identify growth opportunities.",
+        "We identify what might be holding your site back.",
       expandedContent:
-        "We perform in-depth SEO audits to uncover technical issues, content gaps, and growth opportunities that boost your website’s performance and rankings.",
+        "We look at technical elements, content quality, and user experience to understand what’s helping your rankings and what’s holding you back.",
     },
     {
       id: 2,
-      title: "Keyword Research and Intent Mapping",
+      title: "Keyword Research",
       description:
-        "Our keyword strategy targets high-intent search terms like seo service in Mumbai and industry-specific conversion keywords relevant to your audience.",
+        "We focus on real search terms, including phrases like SEO agency in Andheri, but only where they fit naturally.",
       expandedContent:
-        "We identify high-intent, conversion-focused keywords like seo service in Mumbai, local business SEO, and industry-specific terms that drive qualified traffic and leads.",
+        "We look beyond simple keywords to understand what your real customers are searching for, whether they need an SEO agency in Andheri or a specific service in their locality.",
     },
     {
       id: 3,
-      title: "Google Business Profile Optimization",
+      title: "Local SEO Improvements",
       description:
-        "We strengthen your presence in Mumbai local searches by optimizing your Google Business Profile for map visibility and regional authority signals.",
+        "We help your business show up better in nearby searches.",
       expandedContent:
-        "We optimize your Google Business Profile with precise location targeting, accurate information, and local signals to boost visibility in map results and attract nearby customers",
+        "We improve your Google Business Profile, build local citations, and optimize your site for location-based queries so customers in Andheri can find you easily.",
     },
     {
       id: 4,
-      title: "Technical SEO Optimization",
+      title: "Technical Fixes",
       description:
-        "From schema implementation to crawl efficiency and site speed improvements, we ensure your website meets modern ranking standards.",
+        "From page speed to indexing issues, we clean up the backend so your site performs better.",
       expandedContent:
-        "Technical SEO forms the backbone of any successful SEO strategy. We ensure your website is technically sound, fast, and easily crawled by search engines",
+        "We fix site speed, indexing errors, broken links, and other technical issues that affect performance.",
     },
     {
       id: 5,
-      title: "Content Creation and Optimization",
+      title: "Content Work",
       description:
-        "We create experience-driven, authority-focused content aligned with EEAT guidelines to improve both trust signals and search visibility.",
+        "We improve what’s already there and create new content only when it actually adds value.",
       expandedContent:
-        "High-quality, relevant content is your way to speak to your audience. We take a dual approach by creating new pieces and updating information to make sure your content ranks and resonates. This is where we help you build trust and authorit.",
+        "We update existing pages and write new ones that answer real user questions, improving your site’s credibility and search rankings.",
     },
     {
       id: 6,
-      title: "Analytics and Reporting",
+      title: "Reporting",
       description:
-        "Transparent reporting helps you track keyword rankings, traffic quality, and ROI impact from SEO activities.",
+        "You get a clear view of what’s improving without overly complicated reports.",
       expandedContent:
-        "Clear analytics and reporting give you full visibility into keyword rankings, traffic quality, and the ROI of your SEO efforts.",
+        "Clear reports show you keyword progress and traffic insights without confusing jargon.",
     },
   ];
 
@@ -87,8 +87,8 @@ export const ProcessSection = (): JSX.Element => {
             <div
               key={step.id}
               className={`group relative overflow-hidden rounded-2xl border transition-all duration-500 ease-out cursor-pointer ${hoveredStep === step.id
-                  ? "bg-[#543d98] border-[#543d98] shadow-lg"
-                  : "bg-white border-gray-200 hover:border-[#543d98]/30"
+                ? "bg-[#543d98] border-[#543d98] shadow-lg"
+                : "bg-white border-gray-200 hover:border-[#543d98]/30"
                 }`}
               onMouseEnter={() => setHoveredStep(step.id)}
               onMouseLeave={() => setHoveredStep(null)}

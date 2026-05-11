@@ -29,7 +29,7 @@ const ServicesSection = () => {
       title: "AI SEO",
       link: "/services/search-engine-optimization/ai-seo-services",
       points: [
-        "We optimize your website for AI-driven search experiences by structuring content, entities, and signals that improve visibility across Google AI Overviews, ChatGPT, Gemini & Claude.",
+        "Search behaviour is changing. People are using AI tools more often now, so we make sure your content is structured in a way that still gets picked up there.",
       ],
       img: "/AI SEO.jpg",
     },
@@ -38,7 +38,7 @@ const ServicesSection = () => {
       title: "Enterprise SEO",
       link: "/services/search-engine-optimization/enterprise-seo-services",
       points: [
-        "We implement scalable SEO frameworks for large websites, improving crawl efficiency, indexing logic, and technical performance across complex digital ecosystems.",
+        "If your website has grown over time, there are usually gaps, pages not indexed properly, structure issues, and things that quietly affect performance. We help sort those out.",
       ],
       img: "/service section 520 x 340 - Enterprise SEO.jpg",
     },
@@ -47,7 +47,7 @@ const ServicesSection = () => {
       title: "E-Commerce SEO",
       link: "/services/search-engine-optimization/ecommerce-seo-services",
       points: [
-        "Our ecommerce SEO strategies improve product discoverability, category structure visibility, and purchase-intent keyword rankings to drive high-quality traffic.",
+        "For online stores, visibility directly affects sales. We work on improving how your products appear so you’re not losing potential customers to competitors.",
       ],
       img: "/service section 520 x 340 - Ecommerce SEO.jpg",
     },
@@ -56,7 +56,7 @@ const ServicesSection = () => {
       title: "Local SEO",
       link: "/services/search-engine-optimization/local-seo-services",
       points: [
-        "For businesses targeting customers in Mumbai, our local SEO strategies improve Google Maps rankings, location relevance, and enquiry-driven visibility in nearby searches.",
+        "If your audience is around Andheri, showing up locally matters a lot. Our SEO services in Andheri focus on improving visibility in searches that actually bring nearby customers.",
       ],
       img: "/service section 520 x 340 - Local SEO.jpg",
     },
@@ -65,7 +65,7 @@ const ServicesSection = () => {
       title: "B2B SEO",
       link: "/services/search-engine-optimization/b2b-seo-services",
       points: [
-        "We help service-based and enterprise companies attract decision-makers through authority-driven content strategies and long-cycle keyword targeting.",
+        "We help you attract people who are genuinely looking for your services, not just browsing without intent.",
       ],
       img: "/service section 520 x 340 - B2B SEO.jpg",
     },
@@ -74,7 +74,7 @@ const ServicesSection = () => {
       title: "App Store Optimization (ASO)",
       link: "/services/search-engine-optimization/aso-services",
       points: [
-        "We improve your app visibility across app stores using keyword strategy, metadata optimization, and performance-aligned positioning.",
+        "If you have an app, we can improve how it appears in app store search results so more people can discover it.",
       ],
       img: "/App Store Optimization (ASO).jpg",
     },
@@ -83,43 +83,34 @@ const ServicesSection = () => {
       title: "International SEO",
       link: "/services/search-engine-optimization/international-seo-services",
       points: [
-        "Planning expansion beyond India? Our multilingual SEO strategies help businesses build global discoverability with geo-targeted optimization frameworks.",
+        "If you&#39;re planning to expand beyond your current market, we help set things up in a way that supports that growth.",
       ],
       img: "/service section 520 x 340 - International SEO.jpg",
     },
     {
       n: "08",
-      title: "Franchise SEO",
-      link: "/services/search-engine-optimization/franchise-seo-services",
-      points: [
-        "We help multi-location brands maintain consistency while improving location-level rankings through structured franchise SEO execution.",
-      ],
-      img: "/Franchise SEO-in-mumbai.jpg",
-    },
-    {
-      n: "09",
       title: "Shopify SEO",
       link: "/services/search-engine-optimization/shopify-seo-services",
       points: [
-        "Our Shopify optimization improves site structure, product indexing, and conversion-focused search visibility for ecommerce growth.",
+        "We optimize Shopify stores so search engines can better understand and rank your products.",
       ],
       img: "/service section 520 x 340 - Shopify SEO.jpg",
     },
     {
-      n: "10",
+      n: "09",
       title: "Conversion Rate Optimization",
       link: "/services/search-engine-optimization/cro-services",
       points: [
-        "Driving traffic is only the first step. We improve landing page performance and user journeys to increase enquiries and purchases from organic visitors.",
+        "Getting traffic is one thing. Getting people to take action is another. We focus on both.",
       ],
       img: "/Conversion Rate Optimization.jpg",
     },
     {
-      n: "11",
+      n: "10",
       title: "Content Marketing",
       link: "/services/search-engine-optimization/content-marketing-services",
       points: [
-        "As a performance-focused SEO company in Mumbai, we develop authority-building content ecosystems that strengthen long-term search rankings.",
+        "Instead of publishing content just to stay active, we focus on creating pages that actually answer what people are searching for.",
       ],
       img: "/Content marketing.jpg",
     },
@@ -190,7 +181,7 @@ const ServicesSection = () => {
       if (!dragging) return;
       curX = e.clientX;
       const dx = curX - startX;
-      track.style.transform = `translateX(${ -idx * slideW() + dx }px)`;
+      track.style.transform = `translateX(${-idx * slideW() + dx}px)`;
     };
 
     const onUp = () => {
@@ -429,9 +420,8 @@ const ServicesSection = () => {
                     key={i}
                     aria-label={`Go to slide ${i + 1}`}
                     onClick={() => goTo(i)}
-                    className={`h-2 rounded-full transition-all ${
-                      slide === i ? "w-5 bg-[#543d98]" : "w-2 bg-[#D1D5DB]"
-                    }`}
+                    className={`h-2 rounded-full transition-all ${slide === i ? "w-5 bg-[#543d98]" : "w-2 bg-[#D1D5DB]"
+                      }`}
                   />
                 ))}
               </div>

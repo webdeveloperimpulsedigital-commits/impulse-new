@@ -16,7 +16,7 @@ import { FAQSchema } from "../../components/SEO/FAQSchema";
 import { faqData } from "../../data/faqs";
 
 export const SearchEngineOptimizationInGhansoli = (): JSX.Element => {
-  const faqs = faqData["/services/search-engine-optimization-in-mumbai"] || [];
+  const faqs = faqData["/services/search-engine-optimization-in-ghansoli"] || [];
 
   return (
     <main className="relative w-full min-h-screen">

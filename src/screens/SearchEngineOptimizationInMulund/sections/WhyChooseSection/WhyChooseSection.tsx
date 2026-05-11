@@ -1,19 +1,19 @@
 import React from "react";
- 
+
 export const WhyChooseSection = (): JSX.Element => {
 
   const content = {
     dataDriven: {
-      title: "Data-Driven Execution",
-      text: "Every decision is guided by keyword intelligence, competitor benchmarking, and performance analytics.",
+      title: "Decisions Based on Real Data",
+      text: "We don’t rely on assumptions. Everything is based on actual search trends, competitor analysis, and user behaviour. That way, the effort goes into things that actually have potential.",
     },
     seoStrategies: {
-      title: "Customized SEO Strategies",
-      text: "We don’t apply templates. Each campaign is designed around your industry competition, audience behavior, and growth stage.",
+      title: "No Fixed Approach",
+      text: "Every business has its own unique challenges, so a solution that fits one may not suit another. We adjust the strategy based on your specific goals and situation.",
     },
     transparent: {
-      title: "Optimization for Modern Search",
-      text: "Search now includes AI-powered discovery platforms. Our strategies improve visibility across both traditional Google search and emerging answer engines.",
+      title: "Built for Changing Search Trends",
+      text: "Search keeps evolving, sometimes quietly. If you don’t adapt, visibility can drop over time. We keep refining things so your rankings stay stable and continue to improve.",
     }
   };
 
@@ -25,10 +25,10 @@ export const WhyChooseSection = (): JSX.Element => {
     >
       <div className="max-w-[1280px] mx-auto px-6 lg:px-8">
         {/* Header */}
-        
 
 
-        
+
+
 
 
         <div className="mb-6 lg:mb-8 pt-0">
@@ -36,10 +36,10 @@ export const WhyChooseSection = (): JSX.Element => {
             Why Businesses
           </h2>
           <h2 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-             Choose Impulse Digital as Their SEO Partner
+            Choose Impulse Digital as Their SEO Partner
           </h2>
         </div>
- 
+
         {/* ===== MOBILE-ONLY: Image → Content pairs in required mapping ===== */}
         <div className="block lg:hidden space-y-10">
           {/* 1) Optimized Writing */}
@@ -59,7 +59,7 @@ export const WhyChooseSection = (): JSX.Element => {
               {content.seoStrategies.text}
             </p>
           </div>
- 
+
           {/* 2) Versatile Writing Styles */}
           <div>
             <div className="relative overflow-hidden rounded-[24px] shadow-lg mb-4">
@@ -77,7 +77,7 @@ export const WhyChooseSection = (): JSX.Element => {
               {content.seoStrategies.text}
             </p>
           </div>
- 
+
           {/* 3) Tailored Content Strategy */}
           <div>
             <div className="relative overflow-hidden rounded-[28px] shadow-lg mb-4">
@@ -98,7 +98,7 @@ export const WhyChooseSection = (): JSX.Element => {
             </p>
           </div>
         </div>
- 
+
         {/* ===== DESKTOP-ONLY: Original layout preserved exactly ===== */}
         <div className="hidden lg:block">
           {/* Main Grid */}
@@ -124,7 +124,7 @@ export const WhyChooseSection = (): JSX.Element => {
 
               </p>
             </div>
- 
+
             {/* Right Column */}
             <div className="lg:col-span-6 flex flex-col">
               <div className="pr-2 mb-8 mt-12 pb-16">
@@ -137,7 +137,7 @@ export const WhyChooseSection = (): JSX.Element => {
 
                 </p>
               </div>
- 
+
               <div className="relative overflow-hidden rounded-[24px] shadow-lg">
                 <img
                   src="/seo why chooose us section 576 x 400 2.jpg"
@@ -148,7 +148,7 @@ export const WhyChooseSection = (): JSX.Element => {
               </div>
             </div>
           </div>
- 
+
           {/* Full-width banner + copy below */}
           <div>
             <div className="relative overflow-hidden rounded-[28px] shadow-lg">
@@ -159,7 +159,7 @@ export const WhyChooseSection = (): JSX.Element => {
                 loading="lazy"
               />
             </div>
- 
+
             <div className="mt-6 max-w-12xl">
               <h3 className="[font-family:'DM_Sans',Helvetica] font-bold text-[#030019] text-2xl mb-2">
                 {content.transparent.title}
@@ -177,5 +177,4 @@ export const WhyChooseSection = (): JSX.Element => {
     </section>
   );
 };
- 
- 
+

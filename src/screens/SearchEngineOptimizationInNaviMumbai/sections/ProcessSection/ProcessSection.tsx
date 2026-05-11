@@ -15,50 +15,49 @@ export const ProcessSection = (): JSX.Element => {
       id: 1,
       title: "Comprehensive SEO Audits",
       description:
-        "We evaluate technical health, indexing structure, page performance, backlink strength, and content gaps to identify growth opportunities.",
+        "We analyze technical issues, content gaps, and backlink profiles to identify growth opportunities.",
       expandedContent:
-        "We perform in-depth SEO audits to uncover technical issues, content gaps, and growth opportunities that boost your website’s performance and rankings.",
+        "We start with an in-depth analysis of your entire website. From technical issues to content gaps and backlink profiles, we identify every area that affects your search performance.",
     },
     {
       id: 2,
       title: "Keyword Research and Intent Mapping",
       description:
-        "Our keyword strategy targets high-intent search terms like seo service in Mumbai and industry-specific conversion keywords relevant to your audience.",
+        "We target high-intent keywords such as best SEO agency in Navi Mumbai and best SEO company in Navi Mumbai to drive conversion-focused traffic.",
       expandedContent:
-        "We identify high-intent, conversion-focused keywords like seo service in Mumbai, local business SEO, and industry-specific terms that drive qualified traffic and leads.",
+        "We analyze search demand and user intent to identify keywords that drive qualified traffic.",
     },
     {
       id: 3,
       title: "Google Business Profile Optimization",
       description:
-        "We strengthen your presence in Mumbai local searches by optimizing your Google Business Profile for map visibility and regional authority signals.",
+        "We improve your local presence to increase visibility in map-based and nearby searches.",
       expandedContent:
-        "We optimize your Google Business Profile with precise location targeting, accurate information, and local signals to boost visibility in map results and attract nearby customers",
+        "We optimize your Google Business Profile to improve visibility in local search results and Google Maps.",
     },
     {
       id: 4,
       title: "Technical SEO Optimization",
       description:
-        "From schema implementation to crawl efficiency and site speed improvements, we ensure your website meets modern ranking standards.",
+        "From improving site speed to fixing crawl issues, we ensure your website meets modern SEO standards.",
       expandedContent:
-        "Technical SEO forms the backbone of any successful SEO strategy. We ensure your website is technically sound, fast, and easily crawled by search engines",
+        "We optimize site speed, fix crawl errors, and ensure mobile-friendliness to improve search engine rankings.",
     },
     {
       id: 5,
       title: "Content Creation and Optimization",
       description:
-        "We create experience-driven, authority-focused content aligned with EEAT guidelines to improve both trust signals and search visibility.",
+        "We develop high-quality content aligned with user intent and search engine guidelines.",
       expandedContent:
-        "High-quality, relevant content is your way to speak to your audience. We take a dual approach by creating new pieces and updating information to make sure your content ranks and resonates. This is where we help you build trust and authorit.",
+        "We create valuable content that ranks well and engages your target audience.",
     },
     {
       id: 6,
       title: "Analytics and Reporting",
       description:
-        "Transparent reporting helps you track keyword rankings, traffic quality, and ROI impact from SEO activities.",
-      expandedContent:
-        "Clear analytics and reporting give you full visibility into keyword rankings, traffic quality, and the ROI of your SEO efforts.",
-    },
+        "Transparent reporting helps you track keyword performance, traffic growth, and ROI.", expandedContent:
+        "We track key metrics and provide regular reports so you can see your SEO progress",
+    }
   ];
 
 
@@ -87,8 +86,8 @@ export const ProcessSection = (): JSX.Element => {
             <div
               key={step.id}
               className={`group relative overflow-hidden rounded-2xl border transition-all duration-500 ease-out cursor-pointer ${hoveredStep === step.id
-                  ? "bg-[#543d98] border-[#543d98] shadow-lg"
-                  : "bg-white border-gray-200 hover:border-[#543d98]/30"
+                ? "bg-[#543d98] border-[#543d98] shadow-lg"
+                : "bg-white border-gray-200 hover:border-[#543d98]/30"
                 }`}
               onMouseEnter={() => setHoveredStep(step.id)}
               onMouseLeave={() => setHoveredStep(null)}

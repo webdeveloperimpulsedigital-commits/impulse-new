@@ -13,51 +13,51 @@ export const ProcessSection = (): JSX.Element => {
   const processSteps: ProcessStep[] = [
     {
       id: 1,
-      title: "Comprehensive SEO Audits",
+      title: "SEO Audit",
       description:
-        "We evaluate technical health, indexing structure, page performance, backlink strength, and content gaps to identify growth opportunities.",
+        "We evaluate your website to identify gaps, technical issues, and growth opportunities.",
       expandedContent:
-        "We perform in-depth SEO audits to uncover technical issues, content gaps, and growth opportunities that boost your website’s performance and rankings.",
+        "Our process starts with a deep analysis of your website's current SEO health. We check everything—from technical performance and crawlability to content gaps and on-page elements—to understand where your site stands and what changes are needed.",
     },
     {
       id: 2,
-      title: "Keyword Research and Intent Mapping",
+      title: "Keyword Research",
       description:
-        "Our keyword strategy targets high-intent search terms like seo service in Mumbai and industry-specific conversion keywords relevant to your audience.",
+        "We focus on relevant search terms, including queries like SEO company Borivali, to help you attract the right audience.",
       expandedContent:
-        "We identify high-intent, conversion-focused keywords like seo service in Mumbai, local business SEO, and industry-specific terms that drive qualified traffic and leads.",
+        "Using advanced research methods, we identify high-intent keywords that your target audience uses when searching for services in Borivali and nearby areas. This includes local-specific queries, service-based searches, and long-tail keywords that drive qualified traffic.",
     },
     {
       id: 3,
-      title: "Google Business Profile Optimization",
+      title: "Local Optimization",
       description:
-        "We strengthen your presence in Mumbai local searches by optimizing your Google Business Profile for map visibility and regional authority signals.",
+        "We strengthen your presence in local searches so nearby customers can easily find your business.",
       expandedContent:
-        "We optimize your Google Business Profile with precise location targeting, accurate information, and local signals to boost visibility in map results and attract nearby customers",
+        "We optimize your online presence for local search by ensuring your business information is accurate and consistent across all platforms, making it easier for customers in Borivali to find you.",
     },
     {
       id: 4,
-      title: "Technical SEO Optimization",
+      title: "Technical SEO",
       description:
-        "From schema implementation to crawl efficiency and site speed improvements, we ensure your website meets modern ranking standards.",
+        "We improve site performance, speed, and indexing to meet current SEO standards.",
       expandedContent:
-        "Technical SEO forms the backbone of any successful SEO strategy. We ensure your website is technically sound, fast, and easily crawled by search engines",
+        "We ensure your website is technically optimized for search engines by improving site speed, fixing crawl errors, implementing proper schema markup, and optimizing your site structure for better indexing and ranking.",
     },
     {
       id: 5,
-      title: "Content Creation and Optimization",
+      title: "Content Optimization",
       description:
-        "We create experience-driven, authority-focused content aligned with EEAT guidelines to improve both trust signals and search visibility.",
+        "We create and refine content that aligns with what users are actually searching for.",
       expandedContent:
-        "High-quality, relevant content is your way to speak to your audience. We take a dual approach by creating new pieces and updating information to make sure your content ranks and resonates. This is where we help you build trust and authorit.",
+        "We optimize existing content and create new pieces that match user intent, search patterns, and business goals. Our approach focuses on clarity, relevance, and authority to help your website rank higher and engage visitors effectively.",
     },
     {
       id: 6,
-      title: "Analytics and Reporting",
+      title: "Reporting",
       description:
-        "Transparent reporting helps you track keyword rankings, traffic quality, and ROI impact from SEO activities.",
+        "You get clear insights into how your SEO is performing, including traffic and ranking improvements.",
       expandedContent:
-        "Clear analytics and reporting give you full visibility into keyword rankings, traffic quality, and the ROI of your SEO efforts.",
+        "Regular performance tracking keeps you updated on keyword rankings, traffic growth, user engagement, and overall SEO impact. We focus on clarity, actionable insights, and continuous improvement.",
     },
   ];
 
@@ -87,8 +87,8 @@ export const ProcessSection = (): JSX.Element => {
             <div
               key={step.id}
               className={`group relative overflow-hidden rounded-2xl border transition-all duration-500 ease-out cursor-pointer ${hoveredStep === step.id
-                  ? "bg-[#543d98] border-[#543d98] shadow-lg"
-                  : "bg-white border-gray-200 hover:border-[#543d98]/30"
+                ? "bg-[#543d98] border-[#543d98] shadow-lg"
+                : "bg-white border-gray-200 hover:border-[#543d98]/30"
                 }`}
               onMouseEnter={() => setHoveredStep(step.id)}
               onMouseLeave={() => setHoveredStep(null)}

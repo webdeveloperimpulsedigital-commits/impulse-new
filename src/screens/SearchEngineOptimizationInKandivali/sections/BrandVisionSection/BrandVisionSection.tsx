@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 
 export const BrandVisionSection = (): JSX.Element => {
   const overlayText =
-    "SEO- Turning your website into the first place your customers find and trust";
+    "SEO – Helping your business get noticed without overcomplicating things";
 
   const [counters, setCounters] = useState({
     first: 0,
@@ -95,17 +95,17 @@ export const BrandVisionSection = (): JSX.Element => {
       ref={sectionRef}
     >
       <div className="max-w-[1280px] mx-auto px-2 lg:px-5 sm:py-10">
-        
+
         <div className="mb-6 lg:mb-8 pt-10">
           <h2 className="[font-family:'DM_Sans',Helvetica] text-[#030019] font-medium lg:text-[34px] sm:text-[16px] ">
             #1 Performance Driven <br></br>
-          <span className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
-            With An SEO Company in Mumbai</span>
+            <span className="[font-family:'DM_Sans',Helvetica] font-bold text-[#543d98] lg:text-[52px] sm:text-[26px] leading-tight ">
+              With An SEO Company in Mumbai</span>
           </h2>
         </div>
 
         <div className="relative grid grid-cols-1 lg:grid-cols-12 gap-4 lg:gap-12 items-start mb-6">
-          
+
           <div className="lg:col-span-5 lg:w-[600px]">
             <div className="relative rounded-2xl overflow-hidden shadow-lg ">
               <img
@@ -129,7 +129,7 @@ export const BrandVisionSection = (): JSX.Element => {
 
           <div className="lg:mt-[35%] lg:ml-[25%] mt-4 ml-[3%] mr-[3%] lg:col-span-7">
             <div className="relative h-[450px] lg:h-[400px] lg:w-[520px] sm:h-[500px]">
-              
+
               <div className="absolute top-6 left-0 text-center">
                 <h3 className="[font-family:'Satoshi', sans-serif] text-[#543d98] text-4xl lg:text-6xl font-black leading-none mb-2 transition-all">
                   {Math.round(counters.first)}%
@@ -172,10 +172,13 @@ export const BrandVisionSection = (): JSX.Element => {
 
         <div className="text-left mb-12">
           <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[12px] lg:text-[24px] text-[#030019]">
-            If your business wants consistent visibility on Google, choosing the right SEO agency in Mumbai can define how quickly and effectively you scale online. At Impulse Digital, we deliver structured, research-driven SEO strategies tailored for Mumbai businesses competing in fast-moving markets. Our approach combines technical precision, local search expertise, and conversion-focused content optimization to help brands increase qualified traffic and measurable business outcomes.
+            If you run a business in Kandivali, you’ve probably noticed how competitive things have become online. People don’t really “search and scroll forever” anymore; rather, they click on what shows up first and feels trustworthy. That’s where SEO actually matters.
           </p>
           <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[12px] lg:text-[24px] text-[#030019]">
-           Whether you are a growing startup, an established enterprise, or an ecommerce brand, our SEO systems are built to create long-term search visibility that supports real revenue growth, not just rankings.
+            At Impulse Digital, we work with businesses that want steady, long-term visibility instead of quick wins that disappear in a few weeks. As an SEO company in Kandivali, our focus is simple: to help you show up for the right searches and turn that visibility into actual inquiries or sales.
+          </p>
+          <p className="[font-family:'DM_Sans',Helvetica] font-normal text-[12px] lg:text-[24px] text-[#030019]">
+            Not every business needs an overly complex strategy. Sometimes, it’s about fixing the basics, building the right content, and staying consistent.
           </p>
         </div>
 

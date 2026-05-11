@@ -29,7 +29,7 @@ const ServicesSection = () => {
       title: "AI SEO",
       link: "/services/search-engine-optimization/ai-seo-services",
       points: [
-        "We optimize your website for AI-driven search experiences by structuring content, entities, and signals that improve visibility across Google AI Overviews, ChatGPT, Gemini & Claude.",
+        "Search isn’t limited to just traditional results anymore. People are increasingly using AI tools to find quick answers. We structure your content in a way that works across both search engines and these newer platforms.",
       ],
       img: "/AI SEO.jpg",
     },
@@ -38,88 +38,72 @@ const ServicesSection = () => {
       title: "Enterprise SEO",
       link: "/services/search-engine-optimization/enterprise-seo-services",
       points: [
-        "We implement scalable SEO frameworks for large websites, improving crawl efficiency, indexing logic, and technical performance across complex digital ecosystems.",
+        "As websites grow, they tend to pick up small issues like pages not indexed properly, unclear structure, or broken internal links. We help organize and fix these so your website performs more For online stores, visibility directly affects how many people actually find your products. We focus on improving how your listings appear so you don’t lose potential customers.smoothly and consistently.",
       ],
       img: "/service section 520 x 340 - Enterprise SEO.jpg",
     },
+
     {
       n: "03",
-      title: "E-Commerce SEO",
-      link: "/services/search-engine-optimization/ecommerce-seo-services",
-      points: [
-        "Our ecommerce SEO strategies improve product discoverability, category structure visibility, and purchase-intent keyword rankings to drive high-quality traffic.",
-      ],
-      img: "/service section 520 x 340 - Ecommerce SEO.jpg",
-    },
-    {
-      n: "04",
       title: "Local SEO",
       link: "/services/search-engine-optimization/local-seo-services",
       points: [
-        "For businesses targeting customers in Mumbai, our local SEO strategies improve Google Maps rankings, location relevance, and enquiry-driven visibility in nearby searches.",
+        "If your audience is around Dadar, local searches are where most of your relevant traffic will come from. As an SEO agency in Dadar, we help your business appear in those searches so you can attract nearby customers more easily.",
       ],
       img: "/service section 520 x 340 - Local SEO.jpg",
     },
     {
-      n: "05",
+      n: "04",
       title: "B2B SEO",
       link: "/services/search-engine-optimization/b2b-seo-services",
       points: [
-        "We help service-based and enterprise companies attract decision-makers through authority-driven content strategies and long-cycle keyword targeting.",
+        "For service-based businesses, it’s not just about traffic; it’s about the right traffic. We focus on targeting searches that reflect real intent, so the leads you get are more meaningful.",
       ],
       img: "/service section 520 x 340 - B2B SEO.jpg",
     },
     {
-      n: "06",
+      n: "05",
       title: "App Store Optimization (ASO)",
       link: "/services/search-engine-optimization/aso-services",
       points: [
-        "We improve your app visibility across app stores using keyword strategy, metadata optimization, and performance-aligned positioning.",
+        "If you have an app, visibility within app stores matters just as much as website visibility. We improve how your app appears so more users can discover it.",
       ],
       img: "/App Store Optimization (ASO).jpg",
     },
     {
-      n: "07",
+      n: "06",
       title: "International SEO",
       link: "/services/search-engine-optimization/international-seo-services",
       points: [
-        "Planning expansion beyond India? Our multilingual SEO strategies help businesses build global discoverability with geo-targeted optimization frameworks.",
+        "If you’re planning to expand beyond your current market, your SEO setup needs to support that. We help structure your website so it can target different regions effectively.",
       ],
       img: "/service section 520 x 340 - International SEO.jpg",
     },
+
     {
-      n: "08",
-      title: "Franchise SEO",
-      link: "/services/search-engine-optimization/franchise-seo-services",
-      points: [
-        "We help multi-location brands maintain consistency while improving location-level rankings through structured franchise SEO execution.",
-      ],
-      img: "/Franchise SEO-in-mumbai.jpg",
-    },
-    {
-      n: "09",
+      n: "07",
       title: "Shopify SEO",
       link: "/services/search-engine-optimization/shopify-seo-services",
       points: [
-        "Our Shopify optimization improves site structure, product indexing, and conversion-focused search visibility for ecommerce growth.",
+        "Shopify sites sometimes need structural improvements to perform better in search. We work on optimizing your store so search engines can better understand your products.",
       ],
       img: "/service section 520 x 340 - Shopify SEO.jpg",
     },
     {
-      n: "10",
+      n: "08",
       title: "Conversion Rate Optimization",
       link: "/services/search-engine-optimization/cro-services",
       points: [
-        "Driving traffic is only the first step. We improve landing page performance and user journeys to increase enquiries and purchases from organic visitors.",
+        "Getting traffic is just one part of the process. What users do after landing on your site matters more. We look at user behaviour and make changes that help improve conversions over time.",
       ],
       img: "/Conversion Rate Optimization.jpg",
     },
     {
-      n: "11",
+      n: "09",
       title: "Content Marketing",
       link: "/services/search-engine-optimization/content-marketing-services",
       points: [
-        "As a performance-focused SEO company in Mumbai, we develop authority-building content ecosystems that strengthen long-term search rankings.",
+        "Content works best when it answers what people are actually searching for. We focus on creating content that feels useful and relevant instead of adding unnecessary pages.",
       ],
       img: "/Content marketing.jpg",
     },
@@ -190,7 +174,7 @@ const ServicesSection = () => {
       if (!dragging) return;
       curX = e.clientX;
       const dx = curX - startX;
-      track.style.transform = `translateX(${ -idx * slideW() + dx }px)`;
+      track.style.transform = `translateX(${-idx * slideW() + dx}px)`;
     };
 
     const onUp = () => {
@@ -429,9 +413,8 @@ const ServicesSection = () => {
                     key={i}
                     aria-label={`Go to slide ${i + 1}`}
                     onClick={() => goTo(i)}
-                    className={`h-2 rounded-full transition-all ${
-                      slide === i ? "w-5 bg-[#543d98]" : "w-2 bg-[#D1D5DB]"
-                    }`}
+                    className={`h-2 rounded-full transition-all ${slide === i ? "w-5 bg-[#543d98]" : "w-2 bg-[#D1D5DB]"
+                      }`}
                   />
                 ))}
               </div>
