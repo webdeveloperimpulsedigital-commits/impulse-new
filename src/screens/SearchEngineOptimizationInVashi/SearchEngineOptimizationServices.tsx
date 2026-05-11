@@ -1,4 +1,4 @@
-//import { ScrollRevealLogo } from "../../components/ScrollRevealLogo/ScrollRevealLogo";
+﻿//import { ScrollRevealLogo } from "../../components/ScrollRevealLogo/ScrollRevealLogo";
 import { SocialMediaMarketingHeroSection } from "./sections/SearchEngineOptimizationServices";
 import { BrandVisionSection } from "./sections/BrandVisionSection/BrandVisionSection";
 //import { InteractiveGallerySection } from "./sections/InteractiveGallerySection/InteractiveGallerySection";
@@ -11,16 +11,17 @@ import { TestimonialsSection } from "../Main/sections/TestimonialsSection/Testim
 import { ContactSection } from "../Main/sections/ContactSection/ContactSection";
 import { FAQSection } from "./sections/FAQSection/FAQSection";
 import { FooterSection } from "../Main/sections/FooterSection/FooterSection";
+import { LocationSelectorSection } from "../../components/LocationSelectorSection/LocationSelectorSection";
 
 import { FAQSchema } from "../../components/SEO/FAQSchema";
 import { faqData } from "../../data/faqs";
 
 export const SearchEngineOptimizationInMumbai = (): JSX.Element => {
-    const faqs = faqData["/services/search-engine-optimization-in-mumbai"] || [];
+  const faqs = faqData["/services/search-engine-optimization-in-vashi"] || [];
 
   return (
     <main className="relative w-full min-h-screen">
-       <FAQSchema faqs={faqs} />
+      <FAQSchema faqs={faqs} />
       {/* <ScrollRevealLogo /> */}
       <div className="relative w-full space-y-0">
         <SocialMediaMarketingHeroSection />
@@ -34,6 +35,7 @@ export const SearchEngineOptimizationInMumbai = (): JSX.Element => {
         <TestimonialsSection />
         <ContactSection />
         <FAQSection faqs={faqs} />
+        <LocationSelectorSection currentLocation="Vashi" />
         <FooterSection />
       </div>
     </main>
