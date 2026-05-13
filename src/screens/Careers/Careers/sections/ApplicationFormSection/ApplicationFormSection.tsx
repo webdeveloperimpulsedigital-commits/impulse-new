@@ -91,6 +91,7 @@ export const ApplicationFormSection = (): JSX.Element => {
               encType="multipart/form-data"
               className="space-y-6"
               onSubmit={handleSubmit}
+              data-siq_form_ignore="true"
             >
               {/* ✅ Honeypot (bots fill this, humans won't) */}
               <input
