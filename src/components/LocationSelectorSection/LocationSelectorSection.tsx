@@ -46,7 +46,7 @@ export const LocationSelectorSection = ({ currentLocation }: LocationSelectorSec
   const filteredLocations = locations.filter(loc => loc.name !== currentLocation);
 
   return (
-    <section className="relative py-24 lg:py-32 bg-[#050505] overflow-hidden mt-16 rounded-[2rem] lg:rounded-[4rem] mx-4 lg:mx-8 mb-12 shadow-2xl border border-white/5">
+    <section className="relative w-full py-24 lg:py-32 bg-[#050505] overflow-hidden rounded-[2rem] lg:rounded-[4rem]">
       {/* Premium Background Glow Effects */}
       <div className="absolute top-0 left-1/4 w-[600px] h-[600px] bg-[#543d98] rounded-full mix-blend-screen filter blur-[150px] opacity-30 animate-pulse" style={{ animationDuration: '8s' }}></div>
       <div className="absolute bottom-0 right-1/4 w-[500px] h-[500px] bg-[#8660e8] rounded-full mix-blend-screen filter blur-[150px] opacity-20 animate-pulse" style={{ animationDuration: '10s' }}></div>
