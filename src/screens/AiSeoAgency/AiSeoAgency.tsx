@@ -14,6 +14,7 @@ import { FooterSection } from "../Main/sections/FooterSection/FooterSection";
 
 import { FAQSchema } from "../../components/SEO/FAQSchema";
 import { faqData } from "../../data/faqs";
+import { LocationSelectorSection } from '../../components/LocationSelectorSection/LocationSelectorSection';
 
 export const AiSeoAgency = (): JSX.Element => {
     const faqs = faqData["/services/search-engine-optimization/ai-seo-agency"] || [];
@@ -34,6 +35,7 @@ export const AiSeoAgency = (): JSX.Element => {
         <TestimonialsSection />
         <ContactSection />
          <FAQSection faqs={faqs} />
+        <LocationSelectorSection currentLocation="" />
         <FooterSection />
       </div>
     </main>

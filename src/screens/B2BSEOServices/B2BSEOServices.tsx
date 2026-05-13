@@ -14,6 +14,7 @@ import { FooterSection } from "../Main/sections/FooterSection/FooterSection";
 
 import { FAQSchema } from "../../components/SEO/FAQSchema";
 import { faqData } from "../../data/faqs";
+import { LocationSelectorSection } from '../../components/LocationSelectorSection/LocationSelectorSection';
 export const B2BSEOServices = (): JSX.Element => {
   const faqs = faqData["/services/search-engine-optimization/b2b-seo-services"] || [];
   return (
@@ -32,6 +33,7 @@ export const B2BSEOServices = (): JSX.Element => {
         <TestimonialsSection />
         <ContactSection />
        <FAQSection faqs={faqs} />
+        <LocationSelectorSection currentLocation="" />
         <FooterSection />
       </div>
     </main>

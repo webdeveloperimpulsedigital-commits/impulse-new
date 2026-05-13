@@ -63,9 +63,13 @@ export const LocationSelectorSection = ({ currentLocation }: LocationSelectorSec
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="max-w-3xl"
           >
-            <h2 className="text-white font-['DM_Sans',Helvetica] font-light text-[40px] md:text-[56px] lg:text-[72px] leading-[1.05] tracking-tight">
-              Explore SEO Services In <br />
-              <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#a385ff] via-[#8660e8] to-[#543d98]">Other Locations</span>
+            <h2 className="[font-family:'DM_Sans',Helvetica] font-normal leading-tight">
+              <span className="text-white text-[20px] md:text-[34px] block mb-2">
+                Explore SEO Services In
+              </span>
+              <span className="font-bold text-transparent bg-clip-text bg-gradient-to-r from-[#a385ff] via-[#8660e8] to-[#543d98] text-[26px] md:text-[49px] block">
+                Other Locations
+              </span>
             </h2>
           </motion.div>
           <motion.div
