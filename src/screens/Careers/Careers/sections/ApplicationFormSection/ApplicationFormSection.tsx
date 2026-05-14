@@ -19,13 +19,16 @@ export const ApplicationFormSection = (): JSX.Element => {
 
     // Basic front-end validation (extra safety)
     const form = formRef.current;
-    const position = (form.elements.namedItem("Dropdown") as HTMLSelectElement | null)?.value || "";
-    const firstName = (form.elements.namedItem("Name_First") as HTMLInputElement | null)?.value?.trim() || "";
-    const lastName = (form.elements.namedItem("Name_Last") as HTMLInputElement | null)?.value?.trim() || "";
-    const email = (form.elements.namedItem("Email") as HTMLInputElement | null)?.value?.trim() || "";
-    const phone = (form.elements.namedItem("Phone") as HTMLInputElement | null)?.value?.trim() || "";
-    const exp = (form.elements.namedItem("Dropdown1") as HTMLSelectElement | null)?.value || "";
-    const fileInput = form.elements.namedItem("FileUpload") as HTMLInputElement | null;
+    const position = (form.elements.namedItem("position_applied") as HTMLSelectElement | null)?.value || "";
+    const firstName = (form.elements.namedItem("first_name") as HTMLInputElement | null)?.value?.trim() || "";
+    const lastName = (form.elements.namedItem("last_name") as HTMLInputElement | null)?.value?.trim() || "";
+    const email = (form.elements.namedItem("email_address") as HTMLInputElement | null)?.value?.trim() || "";
+    const phone = (form.elements.namedItem("phone_number") as HTMLInputElement | null)?.value?.trim() || "";
+    const exp = (form.elements.namedItem("years_experience") as HTMLSelectElement | null)?.value || "";
+    const fileInput = form.elements.namedItem("resume_file") as HTMLInputElement | null;
+    const multiLine = (form.elements.namedItem("cover_letter") as HTMLTextAreaElement | null)?.value || "";
+    const website = (form.elements.namedItem("portfolio_url") as HTMLInputElement | null)?.value || "";
+    const honeypot = (form.elements.namedItem("website_check") as HTMLInputElement | null)?.value || "";
 
     if (!position || position === "-Select-") return setErrorMsg("Please select a position.");
     if (!firstName) return setErrorMsg("Please enter your first name.");
@@ -35,8 +38,18 @@ export const ApplicationFormSection = (): JSX.Element => {
     if (!exp || exp === "-Select-") return setErrorMsg("Please select your experience level.");
     if (!fileInput?.files?.length) return setErrorMsg("Please upload your resume.");
 
-    // Build FormData
-    const fd = new FormData(form);
+    // Build FormData manually with the names PHP expects
+    const fd = new FormData();
+    fd.append("Dropdown", position);
+    fd.append("Name_First", firstName);
+    fd.append("Name_Last", lastName);
+    fd.append("Email", email);
+    fd.append("Phone", phone);
+    fd.append("Dropdown1", exp);
+    if (fileInput?.files?.[0]) fd.append("FileUpload", fileInput.files[0]);
+    if (multiLine) fd.append("MultiLine", multiLine);
+    if (website) fd.append("Website", website);
+    if (honeypot) fd.append("website_check", honeypot);
 
     // IMPORTANT: your PHP endpoint path
     // If your React is deployed on same domain: "/api/send-career.php"
@@ -85,8 +98,8 @@ export const ApplicationFormSection = (): JSX.Element => {
           <CardContent className="p-8 lg:p-12">
             <form
               ref={formRef}
-              name="careers-form"
-              id="careers-form"
+              name="job-application-form"
+              id="job-application-form"
               method="POST"
               encType="multipart/form-data"
               className="space-y-6"
@@ -108,7 +121,7 @@ export const ApplicationFormSection = (): JSX.Element => {
                   Position Applying For <em>*</em>
                 </label>
                 <select
-                  name="Dropdown"
+                  name="position_applied"
                   className="w-full h-[50px] px-4 py-3 bg-[#f8f9fa] rounded-lg border border-gray-200 [font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-base focus:border-[#543d98] focus:outline-none transition-colors"
                   defaultValue="-Select-"
                   required
@@ -130,7 +143,7 @@ export const ApplicationFormSection = (): JSX.Element => {
                   <input
                     type="text"
                     maxLength={255}
-                    name="Name_First"
+                    name="first_name"
                     placeholder="First Name"
                     className="w-full h-[50px] px-4 py-3 bg-[#f8f9fa] rounded-lg border border-gray-200 [font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-base focus:border-[#543d98] focus:outline-none transition-colors"
                     required
@@ -144,7 +157,7 @@ export const ApplicationFormSection = (): JSX.Element => {
                   <input
                     type="text"
                     maxLength={255}
-                    name="Name_Last"
+                    name="last_name"
                     placeholder="Last Name"
                     className="w-full h-[50px] px-4 py-3 bg-[#f8f9fa] rounded-lg border border-gray-200 [font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-base focus:border-[#543d98] focus:outline-none transition-colors"
                     required
@@ -160,7 +173,7 @@ export const ApplicationFormSection = (): JSX.Element => {
                 <input
                   type="email"
                   maxLength={255}
-                  name="Email"
+                  name="email_address"
                   placeholder="Enter Your Email Address"
                   className="w-full h-[50px] px-4 py-3 bg-[#f8f9fa] rounded-lg border border-gray-200 [font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-base focus:border-[#543d98] focus:outline-none transition-colors"
                   required
@@ -174,7 +187,7 @@ export const ApplicationFormSection = (): JSX.Element => {
                 </label>
                 <input
                   type="text"
-                  name="Phone"
+                  name="phone_number"
                   maxLength={20}
                   placeholder="Enter Your Phone Number"
                   className="w-full h-[50px] px-4 py-3 bg-[#f8f9fa] rounded-lg border border-gray-200 [font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-base focus:border-[#543d98] focus:outline-none transition-colors"
@@ -188,7 +201,7 @@ export const ApplicationFormSection = (): JSX.Element => {
                   Years of Experience <em>*</em>
                 </label>
                 <select
-                  name="Dropdown1"
+                  name="years_experience"
                   className="w-full h-[50px] px-4 py-3 bg-[#f8f9fa] rounded-lg border border-gray-200 [font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-base focus:border-[#543d98] focus:outline-none transition-colors"
                   defaultValue="-Select-"
                   required
@@ -208,7 +221,7 @@ export const ApplicationFormSection = (): JSX.Element => {
                 </label>
                 <input
                   type="file"
-                  name="FileUpload"
+                  name="resume_file"
                   accept=".pdf,.doc,.docx"
                   className="w-full h-[50px] file:mr-4 file:px-4 file:py-2 file:rounded-lg file:border-0 file:bg-[#543d98] file:text-white file:text-sm bg-[#f8f9fa] rounded-lg border border-gray-200 [font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-base focus:border-[#543d98] focus:outline-none transition-colors"
                   required
@@ -221,7 +234,7 @@ export const ApplicationFormSection = (): JSX.Element => {
                   Cover Letter / Message
                 </label>
                 <textarea
-                  name="MultiLine"
+                  name="cover_letter"
                   maxLength={65535}
                   placeholder="Tell us why you're interested in this position and what makes you a great fit..."
                   className="w-full h-[150px] px-4 py-3 bg-[#f8f9fa] rounded-lg border border-gray-200 [font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-base focus:border-[#543d98] focus:outline-none transition-colors resize-none"
@@ -236,7 +249,7 @@ export const ApplicationFormSection = (): JSX.Element => {
                 <input
                   type="url"
                   maxLength={2083}
-                  name="Website"
+                  name="portfolio_url"
                   placeholder="https://your-portfolio.com or LinkedIn profile"
                   className="w-full h-[50px] px-4 py-3 bg-[#f8f9fa] rounded-lg border border-gray-200 [font-family:'DM_Sans',Helvetica] font-normal text-[#030019] text-base focus:border-[#543d98] focus:outline-none transition-colors"
                 />
